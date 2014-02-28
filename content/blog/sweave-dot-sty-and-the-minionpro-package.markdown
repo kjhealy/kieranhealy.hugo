@@ -3,6 +3,7 @@
 title: "Sweave.sty and the MinionPro package"
 date: "2011-12-04"
 comments: false
+slug: "sweave-dot-sty-and-the-minionpro-package"
 categories: [Nerdery]
 ---
 
