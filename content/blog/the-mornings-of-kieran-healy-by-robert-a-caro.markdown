@@ -1,7 +1,8 @@
 ---
 #layout: post
-title: "The Mornings of Kieran Healy, by Robert A&zwnj;. Caro"
+title: "The Mornings of Kieran Healy, by Robert A Caro"
 date: "2012-05-03"
+slug: "the-mornings-of-kieran-healy-by-robert-a-caro"
 comments: true
 categories: [Books,Misc]
 ---
