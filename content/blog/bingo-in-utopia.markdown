@@ -1,0 +1,33 @@
+---
+#layout: post
+title: "Bingo in Utopia"
+date: "2012-08-13"
+comments: true
+categories: [Sociology]
+---
+
+Will there be Bingo in Utopia? It is hard to say. The emancipatory potential of bingo as *praxis* has been criticized from the earliest days of modern social theory. In 1862 Marx was prompted to write the first draft of what became *Theories of Surplus Value* during very straitened financial circumstances (he had pawned the clothes of his children and his maid, Helene Demuth) brought on mostly  by clandestine visits to an East London bingo emporium, where he would play games of "Housey-Housey" while his wife Jenny believed him to be at the British Library conducting research. The game itself was for some time believed to be mentioned by Marx directly in a well-known if difficult section of the *Grundrisse*:
+
+> Capital’s ceaseless striving towards the general form of wealth drives labour beyond the limits of its natural paltriness, and thus creates the material elements for the development of the rich individuality which is as all-sided in its production as in its consumption, and whose labour also therefore appears no longer as labour, but as the full development of bingo itself, in which natural necessity in its direct form has disappeared; because natural need has been replaced by historically produced need. 
+
+This passage provoked considerable confusion---and a substantial amount of theoretical debate---amongst the small circle of scholars who had access to it from 1935 onwards. Following the thaw and wave of rehabilitations during the Khruschev era, however, it transpired that David Riazanov's original transcription of this passage (with a reading of "activity" and not "bingo") had been correct. It was altered by an unknown member of the NKVD as part of the effort to falsify evidence establishing the existence of a so-called "United Front of Mensheviks and Mah-Jongg". The unhappy fate of bingo as an element of emancipatory *praxis* was sealed by Adorno, who intensely disliked the game (and indeed much else) in all its forms, defending instead what he saw as the more austere but purer pleasures of the tombola.
+
+Notwithstanding its unhappy history in the sphere of high theory, bingo persisted in the practical life of the working classes in England. Its position was memorably described and pungently defended by E.P. Thompson in *The Making of the English Working Class*, where he gives an unforgettable account of Johanna Southcott's legendary ability to pick winners at parish hall games in Devon in the latter part of the eighteenth century. 
+
+Its most substantial revival, however, had to await the arrival of a new generation of scholars in the 1970s. Based mostly in the United States, this group's members were well-versed in the traditional concerns of emancipatory theory but were also more technically minded than their predecessors. They were the first to notice the uncanny similarity---later shown by Goodman and others to be a formal homology---between ordinary bingo cards and intergenerational social mobility tables. 
+
+{{% img src="http://kieranhealy.org/files/misc/75-bingo-card.jpg" %}}
+
+*Figure 1. A partial instantiation of a Goldthorpe-Erikson mobility table disguised as a bingo card. Originally discovered by Richard Breen on a trip to Atlantic City in 1972. (Excludes Categories I and II.)* 
+
+Like any fundamental insight, the connection was obvious once made, but to make it at all took a stroke of genius. Suddenly, in retrospect, Marx's haunted frequenting of bingo halls seemed less the hopeless obsession of an improvident, boil-ridden German autodidact and more the fundamental apprehension of a central feature of capitalist development. This insight opened up rich veins of technical analysis and pure theory. On the technical side, square-table and latent-class methods occupied a generation of scholars and, by way of their direct application to bingo hall games, illicitly funded the Wisconsin Longitudinal Study for two decades and allowed the Berkeley Sociology Department an unheard of level of financial autonomy (which it sadly squandered during an infamously disastrous collective outing to a Palm Springs Casino in 1981). This methological work at the intersection of social organization and gambling only began to be surpassed in the 1990s with the rise of so-called "Monte Carlo" methods. 
+
+In terms of theory, the realization that such a direct representation of class mobility was  embedded at the very core of an ordinary working class leisure activity---one where, moreover, "winning" consisted of systematically *blocking* or *dabbing* mobility pathways in a cryptic act of ideological abnegation---seemed at once a bitter irony of life under capitalism and a latent opportunity for liberation. 
+
+{{% img src="http://kieranhealy.org/files/misc/denver-bingo-card-2012.jpg" %}}
+
+*Figure 2. Your 2012 ASA Bingo Card*
+
+Which brings us to the present, and the [excellent program](http://www.asanet.org/am2012/programschedule.cfm) that ASA President Erik Wright has assembled, featuring sessions on a satisfyingly wide range of topics, with a special emphasis on the possibilities and [problems of institutional transformations](http://www.realutopias.com/index.php?page_id=7). Good stuff, with the possible exception of the "Utopia Reel" music and dance session, where the danger of an outbreak of the worst sort of Taylorism (i.e., James Taylor) seems quite high. Here, then, is your [Official ASA Utopian Bingo Card](http://kieranhealy.org/files/misc/denver-bingo-card-2012.png) for the Denver Meetings. As with [the Las Vegas card](http://kieranhealy.org/blog/archives/2011/08/16/vegas-bingo/) last year, there are no cash prizes of any kind, just the warm glow of satisfaction that comes with completing a row or column. For the first and likely last time, however, a [Mobile App Version of the Card](http://kieranhealy.org/files/misc/denver-bingo-card-2012.jpg) has been made available at great expense, specially tailored for your  iPhone, iPad, Android Tablet Device, RIM Blackberry phone, Apple Newton, Palm Pilot, Dot-matrix printer (be sure to align the paper holes correctly on the carriage wheels before printing) or IBM Series 360 Punch Card Input System. Do not fold, spindle, or mutilate.
+
+If you *are* interested in winning a cash prize at this year's ASA Meetings, you should participate in the [SLACer Scavenger Hunt](http://slac.wordpress.com/2012/08/07/introducing-the-asa-scavenger-hunt/), which carries a purse of $50. Personally I very much hope the scavenger items will be good ones---a lock of Andy Abbott's hair, for instance, or Claus Offe's glasses, Phil Cohen's travel rack, or Brayden King's Black Amex card. Good luck.

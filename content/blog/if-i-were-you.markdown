@@ -1,0 +1,15 @@
+---
+author: kjhealy
+date: "2002-11-01"
+#layout: post
+slug: if-i-were-you
+status: publish
+title: If I were You
+wordpress_id: '142'
+categories:
+- Misc
+---
+
+Eugene Volokh blogs today [about counterfactuals](http://volokh.blogspot.com/2002_10_27_volokh_archive.html#85630204 "The Volokh Conspiracy"), complaining that Exhibit A, "If men had babies they would not create bombs" is about as reasonable as Exhibit B, "If my grandmother had wheels she'd be a trolley car." I don't disagree with him, but it's interesting to see this objection coming from a lawyer. I can't think of any other field where the use of counterfactuals—- or "hypos" as the law people call them—- is so pervasive. (Which isn't to say that it's not a basic tool of argument in other fields, by the way.) Partly this comes from the endless variety of real life, which throws up all kinds of bizarre cases for lawyers to discuss and further tweak and refine by adding hypothetical twists and turns. Partly it's because the law is so often concerned with the attribution of liability, responsibility or guilt, and so counterfactual causal stories are used to poke our intuitions about how blame would have been assigned had things happened slightly differently. (My discussion of the [Chechen terrorists](http://fiachra.soc.arizona.edu/blog/archives/000140.html#000140) a few days ago raises—- and illustrates—- this issue.)
+
+So it's interesting to see a law professor recoil from a hypo, as it were. Of course, you have to reject some of them (most of them, in fact)—- such as "If my client had been a small hamster he could never have shot his wife at the supermarket." My question is, does law school train people to apply any standard for counterfactuals other than sheer gut feeling or intuition? Hypotheticals are extremely important in philosophy, for instance, but there they at least have a [formal logic of possibility and necessity](http://www.amazon.com/exec/obidos/tg/detail/-/0631224254), although I don't think it's suitable for distinguishing plausible from implausible counterfactuals. We can argue about particular counterfactuals—- as Eugene Volokh does—- but what about general criteria for their plausibility? Could you formalise plausibility heuristics in a way you could practially apply? I worry that possible criteria would not be very precise. Mere logical possibility, for instance, is a very low bar to clear. A starting place might be analyses of causation grounded in legal reasoning, like Hart and Honore's [Causation in the Law](http://search.barnesandnoble.com/textbooks/booksearch/isbninquiry.asp?isbn=0198254741). Another route is suggested by [Steve Yablo](http://www.mit.edu/~yablo/home.html)'s article "[Coulda, Woulda, Shoulda](http://www.mit.edu/~yablo/coulda.pdf)", which usefully distinguishes different kinds of possibility. Beyond conceptual analysis, maybe law schools have formal or informal ways of deciding what a reasonable hypo is and of enforcing some standards about them amongst their students.

@@ -1,0 +1,22 @@
+{{ template "chrome/header.html" . }}
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+
+  {{ template "chrome/sidebar.html" . }}
+
+  {{ $baseurl := .Site.BaseUrl }}
+
+<div class="content container">
+<section id="main">
+  <div class="post">
+      <h1 class="post-title">{{ .Title }}</h1>
+
+        <article class="entry-content" id="content">
+           {{ .Content }}
+        </article>
+  </div>
+</section>
+
+{{ template "chrome/footer.html" . }}
+
+</div>
+

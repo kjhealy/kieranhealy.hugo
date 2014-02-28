@@ -1,0 +1,27 @@
+---
+author: kjhealy
+date: "2003-09-07"
+#layout: post
+slug: existence-theorems-are-reductios
+status: publish
+title: Existence Theorems are Reductios
+wordpress_id: '506'
+categories:
+- Sociology
+---
+
+John Quiggin gives a modest defence of [existence theorems in economics](http://mentalspace.ranters.net/quiggin/archives/001228.html), one of the three real vices of economists according to [Deirdre McCloskey](http://www.amazon.com/exec/obidos/ASIN/0472067443/kieranhealysw-20/ref=nosim/).
+
+> Existence theorems, for McCloskey are the archetypal example of 'blackboard economics', mathematical games yielding purely qualitative results that can be overturned with modest changes in assumptions. They were the high point of mathematical economics in the 50s and 60s … There are a wide variety of 'impossibility theorems' demonstrating the non-existence of index numbers with various properties [an area of research interest for John]. Familiarity with such theorems can save a lot of pointless effort, and they are therefore worth looking for. **But an impossibility theorem is just the negative form of an existence theorem** (or, if you prefer, an existence theorem proves the impossibility of the corresponding impossibility theorem).
+
+> This is a rather prosaic defence, that certainly does not justify the high status accorded to the kind of theory exemplified by existence theorems. But the argument can be pushed a bit further by considering the most famous impossibility theorem, that of Arrow who showed (roughly speaking) that no voting system having a set of seemingly desirable properties could work for all possible sets of voter preferences. This impossibility theorem precluded a lot of potential effort in designing ideal voting systems. [Emphasis added.]
+
+This is a nice parallel. Actually, it's so nice that it may prove more than John intended. (I absolve him of responsibility for what follows.)
+
+[Arrow's Impossibility Theorem](http://www.csc.vill.edu/faculty/bartlow/html/mat1220/arrowthm.html) illustrates the point neatly. **We begin with the assumptions**. Roughly speaking, Arrow made a list of four criteria that reasonable people might think any method of aggregating people's preferences ought to have. These conditions are (1) That the full range of everyone's preferences be considered, (2) That if everyone prefers *x* over *y* then the group decision should as well, (3) That the position of *x* relative to *y* in the group prefernece depends only on the position of *x* relative to *y* in each individual's preference, and (4) That there isn't a dictator—i.e., someone who gets to have their preference enforced over everyone else's. **We then move forward** to the impossibility result: there is in fact no method satisfying all four criteria. Any voting system would necessarily violate at least one of them. **The proof is striking** because the initial assumptions are so plausible, even weak, but they *cannot* all be satisfied together and so we find that the desirable result is impossible. **And so we give up our quest** for what we now realise is a chimera—- the idea of a perfect method of aggregating individual preferences.
+
+As John says, existence theorems are the negative form of impossibility theorems. The classic existence theorems in economics—such as those for [general equilibrium](http://www.wikipedia.org/wiki/General_equilibrium), also due to Kenneth Arrow, along with Gerard Debreu—illustrate the point neatly. **We begin with the result**. Roughly speaking, Arrow and Debreu wanted to show that supply and demand could be in balance in all markets at once. **We then move backward** to the assumptions necessary to make possible such a result. These include (1) All individuals are perfectly rational, (2) All trades take place simultaneously and instantaneously, (3) There is perfect information about all markets for all products in all conditions both now and at any point in the future, (4) Money does not exist. With these (and other) assumptions in place, the existence of a general equilibrium can be proved. **The proof is striking** because the initial assumptions are so implausible, even absurd, but they *must* all be satisfied together in order for the desirable result to be possible. **And so we give up our quest** for what we now recognise is a chimera—the idea that our world could ever contain economies capable of general equilibrium.
+
+Whoops. I suppose many economists wouldn't take that last step along the road. For their own reasons, most economists do not treat existence theorems of this sort in the obvious way—i.e., as a kind of useful *reductio ad absurdum*, or at least [*ad ridiculum*](http://www.utm.edu/research/iep/r/reductio.htm). I sometimes wonder why economists [so rarely](http://www-mitpress.mit.edu/catalog/item/default.asp?sid=3EE98F4C-7D1B-4A1B-810B-B27EC7B70447&ttype=2&tid=4327) adopt this interpretation. (I hear the phrase "[F-twist](http://netec.mcc.ac.uk/BibEc/data/Articles/blakyklosv:53:y:2000:i:3:p:317-36.html)" on the breeze.) The most plausible interpretation of the results is, "Well, we got the desired result … But look at the assumptions we had to make to do it. Absurd. The result can therefore never obtain. QED."
+
+**Update**: John Quiggin [responds](http://mentalspace.ranters.net/quiggin/archives/001231.html). Maybe I was wrong about the realism of the Arrow-Debreu temporality assumptions, because his comments seem to have appeared pretty much instantaneously.

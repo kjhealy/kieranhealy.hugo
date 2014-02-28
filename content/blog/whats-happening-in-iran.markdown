@@ -1,0 +1,21 @@
+---
+author: kjhealy
+date: "2003-06-18"
+#layout: post
+slug: whats-happening-in-iran
+status: publish
+title: What's Happening in Iran?
+wordpress_id: '452'
+categories:
+- Politics
+---
+
+There's a [good deal](http://oxblog.blogspot.com/2003_06_15_oxblog_archive.html#105583691810157260) of [talk](http://www.matthewyglesias.com/archives/000846.html#000846) about the student protests in Iran. It ranges from [informative lists of sources](http://www.buzzmachine.com/archives/2003_06.html#004019) to [empty point-scoring](http://www.michaeltotten.blogspot.com/2003_06_15_michaeltotten_archive.html#200434646).
+
+I want to know more about the state of the ruling political classes in Iran. This is because, [reflexive cheap shots](http://www.nationalreview.com/thecorner/03_06_15_corner-archive.asp#009854) against the social sciences notwithstanding, the political sociology of revolutions is a pretty well-developed field with some good theory. It was revived in the late sixties by Barrington Moore's classic *[Social Origins of Dictatorship and Democracy](http://www.amazon.com/exec/obidos/ASIN/0807050733/kieranhealysw-20/ref=nosim/)*. The work of scholars like [Theda Skocpol](http://www.amazon.com/exec/obidos/ASIN/0521294991/kieranhealysw-20/ref=nosim/), [Jack Goldstone](http://www.amazon.com/exec/obidos/ASIN/0520082672/kieranhealysw-20/ref=nosim/), [Chuck Tilly](http://www.amazon.com/exec/obidos/ASIN/1557863687/kieranhealysw-20/ref=nosim/), [Jeff Goodwin](http://www.amazon.com/exec/obidos/ASIN/0521629489/kieranhealysw-20/ref=nosim/) and many others has given us a solid understanding of the conditions under which successful revolutions happen.
+
+One of the most robust findings from this literature is that protests won't do it by themselves. Popular revolutionary movements generally will not succeed if the groups in control of the state remain unified and keep control of the means of organized violence. (Look at China in 1988, for instance.) Revolutions are usually precipitated by a crisis within the state and its ruling classes. Some kind of structural pressure—economic problems, geopolitical instability—produces fiscal strain on the state and may precipitate severe divisions within the elite. Maybe there's a conflict between state bureaucrats and the class that provides most of the state tax revenue, for example. Whatever it is, in some cases elite conflict over fiscal or geopolitical problems may lead to less-than-effective repression of popular protest, or an alliance between some fragment of the elite and a revolutionary protest movement. But it seems like you need that elite division and malfunctioning state bureaucracy. Sheer inequality often won't produce protest, and sheer protest won't produce revolution.
+
+So, I want to know how the Iranian state is doing and how much intra-elite conflict there is. Some of the background conditions seem to be there. Iran has a huge population [under age 30](http://www.nytimes.com/2003/06/16/international/middleeast/16IRAN.html), and this is often a cause of social and thus political strain. The U.S. invasion of Iraq has certainly upset the geopolitics of the region, and the U.S. seems to be putting more pressure on the Iranian regime than before. From the reports in the newspapers, though, the government so far seems [well in control](http://www.nationalreview.com/comment/comment-afshar061703.asp) of the means of violence. For as long as that remains so, the prospects for successful revolution are not so good.
+
+**Update**: [John Lemon](http://johnlemon.blogspot.com/), [James Joyner](http://www.outsidethebeltway.com/archives/002054.html) and the commenters to this post have followed up with their thoughts. I'm presently hanging out in DFW airport on my way to Boston. I read an article about Iran in the *Economist* on my way here, and found that they're similarly skeptical about the prospect of a big uprising which, of course, doesn't mean it's out of the question. An Iranian correspondent (living abroad) emails to say that while popular discontent is high, so is the state's capacity for repression—though the police may be a little more sympathetic to the protestors. He or she also says it's important to pay attention to the source of stories and commentary on Iran, as the factions-in-exile don't like each other much.

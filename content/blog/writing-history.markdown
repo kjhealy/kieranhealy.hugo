@@ -1,0 +1,17 @@
+---
+author: kjhealy
+date: "2004-02-27"
+#layout: post
+slug: writing-history
+status: publish
+title: Writing History
+wordpress_id: '600'
+categories:
+- Sociology
+---
+
+Simon Schama protests too much. He claims that academic history is [obsessed with scientific data and obsessive footnotes rather than good storytelling](http://news.independent.co.uk/uk/this_britain/story.jsp?story=493908) and calls for a return to a "golden age" of historical writing—Gibbon, Macaulay, Carlyle. This mostly seems like promotional fluff for his [new TV series](http://www.bbc.co.uk/pressoffice/pressreleases/stories/2004/02_february/16/historians_genius.shtml). Yet [Timothy Burke](http://hnn.us/blogs/entries/3715.html) and [Invisible Adjunct](http://www.invisibleadjunct.com/archives/000471.html) broadly concur with Schama, though as cogs in the "juggernaut of academic history" that he condemns they add the caveat that "a broadly communicative, publically engaged rhetoric of history is dependent upon the existence of a body of much more meticulous scholarship." That's true—but it's more than a caveat!
+
+Schama's Great Historians fused authoritative judgment, great range and vivid prose and brought the result to large audiences, helping to define the practice of history as they went. What fun it must have been. He wants those things, too. Yet although he speaks to an audience bigger than any of his heroes, Schama must know he can't occupy that niche, because it no longer exists. The vast differentiation of the academic division of labor over the past century and a half destroyed it. This doesn't mean that there isn't plenty of excellent, accessible narrative history written for a mass audience by respected historians. Schama's complaints notwithstanding, you'll find your local bookshop stocked full of the stuff—far more, alas, than you'll find excellent and accessible sociology, political science or economics. But, unavoidably, these histories are written on the back of all those footnoted monographs, and they cannot command the field in the way that Carlyle or Macaulay might have.
+
+Once asked what he specialized in, the sociologist [Daniel Bell](http://www.pbs.org/arguing/nyintellectuals_bell.html) replied, "Generalizations." It's a line worth stealing for job interviews, but it tells an important truth. Being a generalist these days is itself a kind of specialization. Like any other role in an advanced division of labor, it depends on thousands of others, most notably all those monographic specialists dug into the archives. Timothy Burke would like to see historians be trained "to write well, to seek audiences outside the academy, to stretch their powers of persuasion." Those are worthwhile goals, but whereas the mills of academic specialization can grind exceeding small, we can't all have our own BBC miniseries. Besides, I don't think Schama simply wants historians to write better prose. Rather, he himself yearns to play the same role today that Macaulay or Gibbon did in their time. He covets the way they could grasp their subject whole and bring it to almost the entire reading public. Which of us scribblers wouldn't want to do the same? But his [off-lead qualifications and dilutions](http://www.bbc.co.uk/pressoffice/pressreleases/stories/2004/02_february/16/historians_genius.shtml) suggest that, deep down, he knows that's the sort of anachronistic wishfulness that historians teach us to avoid.

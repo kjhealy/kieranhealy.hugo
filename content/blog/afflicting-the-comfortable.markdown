@@ -1,0 +1,21 @@
+---
+author: kjhealy
+date: "2004-09-06"
+#layout: post
+slug: afflicting-the-comfortable
+status: publish
+title: Afflicting the Comfortable
+wordpress_id: '690'
+categories:
+- Politics
+---
+
+A number of journalists have gotten upset this week over the fact that my uncle Seán [was invited](http://home.eircom.net/content/unison/national/3873334?view=Eircomnet) to address the [parliamentary meeting](http://212.2.162.45/news/story.asp?j=95850800&p=9585y38x&n=95851409) of [Fianna Fáil](http://www.fiannafail.ie/), the main coalition partner in the Irish government. Together with a small group of like-minded people, Seán's been responsible for building [an organization](http://www.cori.ie/justice/index.htm) devoted to social policy analysis in Ireland. He started twenty-odd years ago, when the country's financial management was on the verge of being handed over to the IMF, unemployment was running at about fifteen percent and pretty much no-one outside the civil service was doing much in the way of policy analysis. By the mid-1990s, many of CORI's ideas about [social partnership](http://www.cori.ie/justice/soc_partner/index.htm) and [basic income](http://www.cori.ie/justice/basic_income/index.htm) had moved to the center of arguments about social policy and, particularly in the former case, become incorporated into collective bargaining institutions. So it gladdens my heart to see the likes of Ireland's [Sunday Business Post](http://www.sbpost.ie/web/DocumentView/did-394778113-pageUrl--2FThe-Newspaper-2FSundays-Paper.asp) pulling out the stops to discredit him this week:
+
+> By any standards, it's a harsh penance … to invite Fr Sean Healy … to address the parliamentary party in Inchydoney in west Cork tomorrow … Healy has been a constant, vocal and extremely irritating thorn in the side of the government … ''I know backbenchers who would burn him,'' said one … Healy is revered … by the left generally, and particularly by left-wing commentators … he's good value in media terms – the controlled bluster … the quick soundbites … He has been described as ''the only real opposition in the state'' ... he operated a back channel of influence through secretary to the government Dermot McCarthy, and through the Taoiseach himself …. "We thought that he was completely off the wall,'' said a former official in Merrion Street. "He was the author of various mad harebrained schemes – that basic income scheme was totally mad'' ... not popular with the conservative wing of the Catholic Church, many of whom see in Healy the socially radical impulses of liberation theology … Healy's reluctance to wear clerical garb … and the infrequency of his references to God, prayer and the spiritual dimension of man's life are further irritations … His late father was a member of Fianna Fail (his brother[1] is a former national chairman of the [Progressive Democrats](http://www.progressivedemocrats.ie/)) ... Some who have dealt with him consider him prickly … "He has no influence on policy. Sure, he has a great media profile and all that …" ... He is perhaps aware that his views are open to caricature.
+
+Open to caricature is right. So now you know Seán is a raving loon who is nevertheless a controlled debater and good with the soundbites on TV; he's the author of various harebrained Marxist schemes who somehow has a secret backchannel of influence to the highest-ranking civil servants and the Prime Minister himself; and he's a radical priest evangelizing liberation theology except he doesn't wear a clerical collar or talk enough about the spiritual dimension of life in public. A classic incoherent hatchet job. And to top it off he has the cheek to be related to members of more right-leaning parties. Clearly he must be doing something right.
+
+You can learn more about CORI's [role](http://www.cori.ie/justice/about/role_policy.htm) in Irish Social Policy, and their positions on [poverty](http://www.cori.ie/justice/publications/briefing/poverty/index.htm), [taxation](http://www.cori.ie/justice/publications/briefing/poverty/index.htm), the Irish [housing boom](http://www.cori.ie/justice/publications/briefing/housing_accomm_policy04/index.htm) (or crisis) and [other issues](http://www.cori.ie/justice/publications/ansoecrev/ase_review03.pdf) at their website.
+
+fn1. That'd be my father.

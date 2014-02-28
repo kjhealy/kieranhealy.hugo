@@ -1,0 +1,31 @@
+---
+author: kjhealy
+date: "2004-10-20"
+#layout: post
+slug: over-enthusiastic-organ-procurement
+status: publish
+title: Over-Enthusiastic Organ Procurement?
+wordpress_id: '715'
+categories:
+- Sociology
+---
+
+Reading about a case described in the [National Review](http://www.nationalreview.com/smithw/smith200410200849.asp) by Wesley J. Smith,[1] Kevin Drum [wonders](http://www.washingtonmonthly.com/archives/individual/2004_10/004963.php) "if there really are serious moves afoot to redefine "death" in order to expedite organ harvesting." The case in question concerns a [Colorado man](http://rockymountainnews.com/drmn/state/article/0,1299,DRMN_21_3230615,00.html), William Thaddeus Rardin, who shot himself in the head. His organs were procured for transplantation. In his report on the death, however, the local Coroner, Mark Young, ruled that proper procedure hadn't been followed, that Rardin's brain death hadn't been properly established and so the cause of death was the organ procurement itself. The local Organ Procurement Organization (OPO), [Donor Alliance](http://www.donoralliance.org/), has [strongly rejected](http://home.businesswire.com/portal/site/google/index.jsp?ndmViewId=news_view&newsId=20041005006056&newsLang=en) this charge.
+
+The OPO says,
+
+> The declaration of brain death was clearly documented. Donor Alliance does not accept a case for donation unless the patient is declared dead, and the declaration of death is documented and meets acceptable medical criteria. In this case all acceptable tests for brain death were conducted. Brain death was documented and confirmed, prior to any organ recovery.
+
+This case surfaced on Transplant discussion groups a few days ago. On the face of it, I'd be inclined to believe the OPO. Bear in mind that Coroners are not medical professionals and that organ procurement from start to finish happens *fast*, within a 24-hour period or less. It might be that the Coroner has an axe to grind about organ donation. It's also possible, of course, that proper procedure wasn't followed in this particular case. But it's hard to say from the evidence we have. So the short answer to Kevin's question is No—there aren't serious moves afoot to redefine death right now, despite the existence of the papers Smith cites in his article. But it's worth making the broader point that death has *already* been redefined in ways that help make organ donation possible. As Margaret Lock argues in [Twice Dead: Organ Transplants and the Reinvention of Death](http://www.amazon.com/exec/obidos/ASIN/0520228146/kieranhealysw-20/ref=nosim/) (California 2001), the emergence, definition and successful spread of the concept of Brain Death from the [late 1960s](http://www.ascensionhealth.org/ethics/public/issues/harvard.asp) to the [mid-1980s](http://www.ascensionhealth.org/ethics/public/issues/president.asp) was bound up with the growth of the transplant industry. In the mid-70s, organ transplantation was often bundled together in public argument with things like stem-cell research, human cloning and genetic engineering. [Advocates worked hard](http://www.kieranhealy.org/files/drafts/insurance-rsage-final-web.pdf)—and successfully—to present transplantation as a morally praiseworthy and therapeutic practice.[2] The concept of brain death especially helped them overcome the fears of religious authorities.
+
+Recently, another class of donors has been defined: [non-heart-beating](http://www.ascensionhealth.org/ethics/public/issues/NHBD.asp) donors are not brain dead but have zero chance of survival anyway, because they have sustained a catastrophic gunshot would to the heart, for example, and are in complete and irreversible cardiac and respiratory failure. In such circumstances, waiting the required time to determine brain death will often make the other organs unusable, so death can be declared by this criterion instead.
+
+The waiting list for transplants is larger than the number of cadaveric donors by a factor of about ten. The increasing use of living donors for kidney transplants (they now make up more than half of all kidney transplants) has eased the pressure on the waiting list a little, but living donation isn't an option for most other organs. As a result, transplant professionals are constantly casting around for new ways to increase the supply. Taking poorer-quality organs, widening the age-range of potential donors, introducing some kind of [presumed consent](http://news.bbc.co.uk/2/hi/health/3397243.stm) system[2], and offering financial incentives to donor-families have all been mooted. Some (slackening the medical criteria) have been put into practice; others (financial incentives) have been pilot-tested. Further loosening the definition of brain death is another possibility. The main thing standing in the way of most of these proposals is the success of the prior efforts of OPOs to defined organ donation as the "Gift of Life". In the '70s and '80s, the problem was convincing people that transplantation wasn't grave-robbing or defiling the dead for the sake of a gruesome and often unsuccessful medical experiment. Now that transplants are routine, the supply constraints are hitting very hard, but many of the proposed solutions undermine the now widely-accepted idea that donation is a morally worthy gift. How far the existing system can be tweaked without provoking a severe backlash of public opinion is an open empirical question. Cases like the present one suggest that there may not be much leeway.
+
+#### Notes
+
+fn1. A Senior Fellow at the [Discovery Institute](http://www.discovery.org/). Aren't those the Creationism / [Intelligent Design](http://www.crookedtimber.org/archives/001576.html) people?
+
+fn2. This was also the period when Bioethics successfully established itself as an independent field. See John H. Evans, [Playing God? Human Genetic Engineering and the Rationalization of Public Bioethical Debate](http://www.amazon.com/exec/obidos/ASIN/0226222624/kieranhealysw-20/ref=nosim/) (Chicago, 2002).
+
+fn3. This one is a *lot* more complicated in practice than it sounds in principle. I hope to have an empirical analysis of cross-national presumed consent practices ready for circulation soon. I might post a link to it from CT when it's ready.

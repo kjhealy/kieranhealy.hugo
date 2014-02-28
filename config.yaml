@@ -1,0 +1,13 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+builddrafts: false
+indexes:
+  category: "categories"
+baseurl: "http://kieranhealy.org/"
+title: "kieranhealy.org"
+permalinks:
+  blog: /blog/archives/:year/:month/:day/:slug
+  archive: /blog/archives/
+...

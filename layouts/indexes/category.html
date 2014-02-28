@@ -1,0 +1,20 @@
+{{ template "chrome/header.html" . }}
+<body lang="en">
+{{ template "chrome/sidebar.html" . }}
+
+<div class="content container">
+<section id="main">
+  <div>
+   <h5><a href="/categories">Full Category Index</a></h5> 
+   <h2>Posts in &ldquo;{{ .Title }}&rdquo;</h2>
+    {{ range .Data.Pages }}
+         {{ .Render "summary"}}
+    {{ end }}
+  </div> 
+</section>
+
+{{ template "chrome/social.html" . }}
+
+{{ template "chrome/footer.html" . }}
+
+</div>

@@ -1,0 +1,15 @@
+---
+author: kjhealy
+date: "2010-02-05"
+#layout: post
+slug: crocodile-tears-lie-thick-on-the-page-of-the-american-political-science-review
+status: publish
+title: Crocodile Tears Lie Thick on the Page of the American Political Science Review
+wordpress_id: '1611'
+categories:
+- Sociology
+---
+
+I was reading Cohen, March & Olsen's "A Garbage Can Model of Organizational Choice" this week and, by coincidence, also looked at some of *[World Society: The Writings of John Meyer](http://www.amazon.com/exec/obidos/ASIN/0199234043/kieranhealysw-20/)*, a collection of Meyer's most important work edited and introduced by Georg Krücken and Gili Drori. Sadly it is far, far too expensive and only available in hardback at the moment. (I got it after reviewing a manuscript for Oxford.) In "Reflections: Institutional Theory and World Society", Meyer takes on a string of critics. Here's one bit connected to the Garbage Can paper:
+
+> External models flow into the structures of actors in highly decoupled ways. Policies and structures tend to be poorly linked to each other, and often poorly linked to internal subunits and to practices. This is true on an individual case by case basis even when at the systemic level there is a good deal of overall coherence. The decoupling idea has the most massive empirical support in studies of individual actors as in the famous gaps between norms and behavior. It is a central finding in the study of organizations … It is a routine observation in studies of nation states … And it is well-theorized in institutionalist reasoning. ... Realists have the greatest difficulty with the decoupling idea. They imagine that social structural rules arise because powerful political and economic actors want them in place, and want them implemented. If this doesn't happen, someone is cheating, or someone is asleep, and in any case great long-run stresses must be resolved. Permanent decoupling … is a problem for most realists. One can see the extreme tension, for instance, in an attack on a precursor of institutionalist thinking – the famously imagistic paper by Cohen, March and Olsen called "A Garbage Can Model of Organizational Choice" (1972) – by Bendor et al. (2001) thirty years after the original paper was published. The original paper had some creative imagery about decoupling at its core, and was widely cited for this: it also had some illustrative simulation models that were given little subsequent attention. Unable to effectively attack the core imagery, Bendor et al. devote extraordinary effort to destroy the simulation models, clearly attempting to undercut the whole subsequent institutionalist development (2001: 189): "We believe it is possible to revitalize the [theory] ... this operation would deprive the [theory] and the March-Olsen variant of the new institutionalism of a certain mystique. Without this bold move, however, there is little chance that these ideas will shed much enduring light on institutions." Crocodile tears lie thick on the page of the American Political Science Review

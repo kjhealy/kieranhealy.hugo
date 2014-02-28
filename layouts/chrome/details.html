@@ -1,0 +1,20 @@
+{{ $baseurl := .Site.BaseUrl }}
+    <div>
+        <ul class="catlist">
+          <li><em>&nbsp;Categories</em></li>
+          {{ range .Params.categories }}
+            <li><a href="{{ $baseurl }}/categories/{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+        </ul>
+    </div>
+
+    <div>
+        <section id="next">
+            &nbsp;{{if .Next}}<em>&laquo; Previous:</em> <a class="next" href="{{.Next.Permalink}}">{{.Next.Title}}</a>{{end}}
+        </section>
+        <section id="prev">
+            &nbsp;{{if .Prev}}<em>&raquo; Next:</em> <a class="previous" href="{{.Prev.Permalink}}">{{.Prev.Title}}</a><br>{{end}}
+        </section>
+
+    </div>
+

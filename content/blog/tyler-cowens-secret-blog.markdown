@@ -1,0 +1,35 @@
+---
+author: kjhealy
+date: "2007-07-29"
+#layout: post
+slug: tyler-cowens-secret-blog
+status: publish
+title: Tyler Cowen's Secret Blog
+wordpress_id: '1073'
+categories:
+- Books
+- Economics
+- Sociology
+---
+
+Tyler Cowen has a "secret" blog and he made a deal with his readers: pre-order my book and I'll send you the URL. Don't link to it, and don't tell anyone. Inevitably, now, we have [this request](http://www.marginalrevolution.com/marginalrevolution/webtech/index.html) from [this guy](http://www.midasoracle.org/2007/07/29/tyler-cowens-book-discover-your-inner-economist-use-incentives-to-fall-in-love-survive-your-next-meeting-and-motivate-your-dentist/):
+
+> DO YOU KNOW THE URL OF TYLER COWEN'S SECRET BLOG?? IF YES, PLEASE, SEND ITS URL TO CHRIS MASSE. ANONYMITY GUARANTEED. AND I PROMISE I WON'T PUBLISH IT.
+
+YES I KNOW HE'S SHOUTING. I haven't pre-ordered Tyler's book, because pre-ordering things is for suckers. Nor have I been in touch with Tyler. So he didn't send me the link. But I read Tyler's secret blog, because it is trivially easy to use Google to locate it. It took me about 90 seconds to find it when I looked for it about a week or so ago. So now I have an interesting dilemma.
+
+Why shouldn't I tell you what the URL is? "Tyler wants to keep it as a prize for those who order his book" you say. But I have made no contract with or promise to Tyler. I didn't pre-order the book. So telling you wouldn't violate any deal I've made with him. "No, you don't understand," you say, "Tyler *asked* it be kept a secret so that he can offer this deal to others. You shouldn't tell!" What do you mean *shouldn't*? Are you some kind of Kantian? Why do I care what Tyler thinks? And besides, he calls it a secret blog, but it isn't secret at all! It's on the goddamn internet! It's freely locatable via Google. If I were to tell, I wouldn't be divulging any information that wasn't already in the public domain. What's stopping me from telling?
+
+That might sound like a leading question … am I angling for something? Am I trying to *blackmail* Tyler Cowen? Of course not. But there is a connection here to the hoary old legal problem, going back to Glanville Williams, about why blackmail is illegal. Not extortion, mind, which involves beating someone up—that's already illegal, and Tyler might be bigger than me. Not acquisition of information by illicit means (e.g., by hacking your computer or opening your mail)—it's just something I found out. And not breach of pre-existing contractual obligation, either—the illegality of that is easily justified, too. In blackmail, I have discovered some bit of true information that you would prefer not be exposed, but the information is true, it was acquired by honest means, and you have no pre-existing contractual or professional hold over me that prevents me from disseminating it.
+
+Why is it, then, that I am not allowed to ask—just ask, not physically threaten—you for money, in order to keep quiet about the fact that you're cheating on your wife? You may protest that your reputation will be tarnished and that I am therefore coercing money out of you. But why should *I* care about *your* reputation? And if *you* care about it, why not give me the money? And besides, as libertarians often point out in other settings, what kind of coercion or exploitation is this anyway? Would *you* be coercing *me* if you approached me first and offered me money to keep quiet? Of course not. It's just a transaction. So while people have a very negative reaction to blackmailers, it's not clear what the legal or rational basis of this reaction is.
+
+There are all kinds of answers in the law, none wholly convincing. But this secret blog business is even more curious than *that*, because the relevant information is *already* public, and I don't want anything from Tyler at all, not even a free copy of his book. (The previous sentence should not be construed as having any self-negating subtext: I really don't want a copy.) As for the reputational angle, I'm not sure whether Tyler himself even cares all that much about whether his secret blog is revealed, except insofar as his reputation might take a tiny hit because the secret blog is not as interesting as what he writes at Marginal Revolution.
+
+So, why shouldn't I tell you? "Look, don't be the kind of asshole that spoils everything," you say. But I want a *good* reason, not the kind of reason a regular person or a sociologist might give. Sheer good sportsmanship won't do. How about re-framing the "Don't be an asshole" thing into a rational desire to avoid the (irrational! unfounded!) abuse I would probably receive if I did "divulge" it. Who, though, is going to bother to dispense this abuse?
+
+I think that if I "revealed" the URL, Tyler himself would be indifferent, or bemused (he's good at bemused). He might say, it had to happen eventually. (He's already moved onto personalized podcasts as a way to push sales in anticipation of this.) But I think some possibly large number of people who signed up for this agreement would find themselves annoyed at me (assuming they aren't usually that way already). Not, perhaps, as annoyed as they would be if one of their own—a fellow Seekreteer—broke their promise. But they would be angry at me for ruining the game in which their promise made sense, and in which their shared identity as seekreteers was viable. (Irresponsible people who have quoted excerpts from the secret blog on their own blogs have already been censured by fellow seekreteers.) At least with the seekreteers censuring can take the form "You broke the rules you agreed to!" But if a non-player like me did it, I would be faced with the absurd but delicious prospect of a bunch of more or less libertarian, more or less economist types shouting at me, a sociologist, and saying "*Why* did you have to go and *spoil* it for *everyone*?!"
+
+And this is the nub of the matter. No-one has told Chris Masse the blog's address yet. Tyler's loyal readers really are loyal. "I am heartened by the honesty and cooperativeness of the blog-reading community," [Tyler says](http://volokh.com/archives/archive_2007_06_17-2007_06_23.shtml#1182430359). If you ask *homo economicus*, he will tell you that as a rule loyalty, like preordering, is for suckers. In other circumstances, the kind of people likely to buy books like *Discover Your Inner Economist* would tell you that, too. They might throw in a bit of eye-rolling on strategy, defection, and self-seeking with guile for your benefit as well. But Tyler Cowen has mobilized a bunch of these people into a secret society; gotten them to police the society via such classically sociological rewards and punishments as social closure, exclusivity and honorific censure; and done so without even having a real secret to give them to keep in the first place. This is why I assign some of Tyler's stuff in my economic sociology courses. You've got to respect the guy.
+
+*My* secret blog, though, has successfully stayed secret for more than a year now.

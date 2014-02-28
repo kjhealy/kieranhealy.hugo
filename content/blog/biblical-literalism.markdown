@@ -1,0 +1,19 @@
+---
+author: kjhealy
+date: "2004-06-15"
+#layout: post
+slug: biblical-literalism
+status: publish
+title: Biblical Literalism
+wordpress_id: '652'
+categories:
+- Sociology
+---
+
+Eugene Volokh [posts a table](http://volokh.com/archives/archive_2004_06_14.shtml#1087270691) from a [poll](http://pollingreport.com/religion.htm) showing that about 60 percent of Americans say they believe Biblical stories like the 7-day creation, Noah's flood and Moses' parting of the Red Sea to be literally true. This is rather higher than other estimates I've seen of Biblical Literalism. Based on [GSS data](http://webapp.icpsr.umich.edu/GSS/) (the GSS is the best available public opinion survey in the U.S. with a long time-series), we know that in 1998 about 30 percent of Americans agreed with the statement "The Bible is the actual word of God and is to be taken literally, word for word". This was down from about 40 percent in 1988. (Most of the decline seems to have happened in the late 1980s, however.) About half of Americans agree that "The Bible is the inspired word of God but not everything in it should be taken literally, word for word." And a steady 15 to 17 percent agree that it's "an ancient book of fables, legends, history, and moral precepts recorded by men." [Here's a graph](http://www.kieranhealy.org/files/misc/BT-plot.pdf), I put together of these trends, in pdf format.
+
+Why are the results Eugene cites so much higher than the trend data? Unfortunately, the GSS hasn't been asking this question recently, so it's hard to say. There are two main possibilities: First, there really has been a very sharp rise in Biblical Literalism since 1998. Second, reponse patterns may be sensitive to the specificity of the question. People might be more likely to accept the literal truth of the best-known Bible events than to believe the whole thing. This is consistent with the way the GSS frames their question, as the "Inspired word" answer allows for the possibility that some things in the Bible are literally true. So we should expect more believers to switch over to literalism for the really big, important events (e.g., the creation of the Universe).
+
+The second theory explains the very large gap in professed literalism between the specific questions about Bible stories and the general question about the whole book. But there's also evidence for the first interpretation. In a different poll, conducted in September 2003 and also cited on the [Polling Report](http://pollingreport.com/religion.htm) page about religion, respondents were asked a variant of the GSS question. 42 percent said "the actual word of God", 37 percent said "Not all to be taken literally", 14 percent said "Written by Men" and 6 percent said they didn't know. Data for this poll go back to 2001 and have a roughly similar 42/36 split between literalists and inspirationalists. If there's no response bias from the wording, and this poll is comparable with the GSS data, then literalism seems to have had a resurgence since 1998 and is back to—and perhaps beyond—levels last reported in 1987. The overall proportion of Americans who don't doubt the Bible has *something* to do with God has remained steady across the period at about 80 percent.
+
+It's hard to say more with just this data. On the face of it, the commitment to literal belief in the Bible is a big step up from saying that it's not all to be taken as, um, Gospel. So it's surprising to see people heading back up the hill of belief, if you like. But we should be wary about interpreting survey questions about religion in a purely propositional manner—i.e. simply as belief statements or theses in the philosophical sense. Such statements can also be tags used to express affiliation to social and political groups and might be sensitive to the political and cultural climate.But the apparent upward trend is interesting nevertheless.

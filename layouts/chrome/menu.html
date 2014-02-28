@@ -1,0 +1,18 @@
+<section id="menu">
+  <ul>
+    {{ range $indexname, $index := .Site.Indexes }}
+      <li><a href="/{{ $indexname | urlize }}">{{ $indexname }}</a> 
+        <ul> 
+          {{ range $key, $value := $index }}
+          <li> {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+                </ul>
+          {{ end }}
+        </ul>
+      </li> 
+    {{ end }}
+  </ul>
+</section>

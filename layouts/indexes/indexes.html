@@ -1,0 +1,20 @@
+{{ template "chrome/header.html" . }}
+<body lang="en">
+{{ template "chrome/sidebar.html" . }}
+
+<div class="content container">
+<section id="main">
+  <div>
+   <h1>Archive of Posts, by Category</h1>
+   <ul class="category">
+   {{ $data := .Data }}
+    {{ range $key,$value := .Data.Index.ByCount }}
+    <li><a href="{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }} entries.) </li>
+    {{ end }}
+   </ul>
+  </div>
+</section>
+
+{{ template "chrome/footer.html" . }}
+
+</div>

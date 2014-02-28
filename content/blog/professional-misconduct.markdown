@@ -1,0 +1,27 @@
+---
+author: kjhealy
+date: "2004-05-28"
+#layout: post
+slug: professional-misconduct
+status: publish
+title: Professional Misconduct
+wordpress_id: '637'
+categories:
+- Sociology
+---
+
+[Eugene Volokh](http://volokh.com/archives/archive_2004_05_28.shtml#1085773062) has an interesting post about unsolved or unexplored issues in First Amendment doctrine. His topic is Professional-Client Speech:
+
+> Many professional-client relationships—lawyer-client, psychotherapist-patient, accountant-client, even often doctor-patient—mostly consist of speech. Sometimes, of course, they involve physical conduct (surgery) or the submission of statements to the government (a lawyer arguing in court). But often they consist solely of two people talking with each other, one asking questions and the other giving advice. And yet this communication is often subject to speech restrictions and speech compulsions that would generally be forbidden in other contexts.
+
+He gives five examples, including professional negligence, professional advice being dependent on a license (a prior restraint in other contexts), and banned sexual relations between professionals and clients (doctors, etc). "What should be the proper analysis be under the First Amendment?" he asks. I have no idea, of course, because I'm not a lawyer. But sociologically, these restraints are generally self-imposed should be seen as constitutive of professional authority in the first place. A professional association that endorsed this kind of lawsuit would be making a big mistake.
+
+Professions claim a monopoly on legitimate knowledge or expertise about something—medicine, dentistry, the law and so on. Professional societies organize to establish and enforce a monopoly on this knowledge. They do it in various ways: by setting up professional schools, by licensing practitioners, by lobbying the state to formally recognize and guarantee their legitimacy while banning their competitors, and so on. Because there are often multiple claimants to professional experise, the [system of professions](http://www.amazon.com/exec/obidos/ASIN/0226000699/kieranhealysw-20/ref=nosim/) is a complex ecology of social actors trying to establish or entrench their professional status while fighting against those whom they want to label as quacks or impostors. The fringes of professional life are full of the authority-claims of upstart semi-professions (chiropractors, homeopaths, economists[1]) and concomitant efforts to leverage existing professional authority into new areas (intellectual property law, bioethics, social work).
+
+In their efforts to establish legitimacy, particularly in the eyes of the state, professions adopt codes of conduct that bind their members to standards of practice. Professions agree with Superman that with great power comes great responsibility, with the caveat that with great responsibility comes the ability to police oneself. The benefits of being licensed to practice law or medicine by the state are paid for, in part, by deliberately giving up some of the opportunities that come one's way as a consequence of holding that license. This contributes to the legitimacy of the field as a whole and provides further ammunition to fight charlatans and quacks who can now be identified by the absence of such codes and their attendant willingness to go into business, party or sleep with their clients. You see this clearly in cases where professionalization hasn't happened. Management is a good example. Despite the proliferation of business schools and MBA programs, you don't need a license to be a manager. As [Rakesh Khurana](http://www.exed.hbs.edu/programs/hrm/faculty.html)—whose [book](http://www.amazon.com/exec/obidos/ASIN/0691074372/kieranhealysw-20/ref=nosim/) I warmly recommend, and who, I'm delighted to discover, has a [weblog](http://rakeshkhurana.typepad.com/)—commented in last week's *Economist*, professions are all about renouncing something, and managers in the U.S. haven't shown much interest in giving things up in the past few years.
+
+So, First Amendment Law in this area is probably unexplored because the kind of professional who would take a First Amendement case because she wasn't allowed to knowingly give bad advice, lie to and sleep with her client, and then blab to her friends about his medical condition, is *ipso facto* likely to have her license revoked for unprofessional conduct. Moreover, the desire of professions to police themselves leads to systems of internal review and the like aimed at preventing cases of misconduct from making it to the courts. This isn't to say that such cases are unheard of, though I imagine it's much more likely that it would originate from an incompletely institutionalized profession, or perhaps one presently in conflict with a competitor. Indeed, one of Eugene's examples concerns bad advice given by marriage counselors.
+
+All of which says nothing about the legal questions of First Amendment Doctrine, I suppose, but as I say I'm more interested in the sociology of professions. Note that the ability to pose questions like this —that the First Amendment might impinge on, and take precedence over, professional rules of conduct—is itself an aspect of the professional power of the law. Lawyers are in the happy position of being able to sit in judgment on themselves, and have the unique capacity to regulate and adjudicate disputes between other professions. And all billable by the hour, too. But of course it would be wrong to abuse that power.
+
+fn1. Sorry, sorry.

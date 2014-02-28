@@ -1,0 +1,42 @@
+---
+author: kjhealy
+date: "2011-03-31"
+#layout: post
+slug: '1910'
+status: publish
+title: A comparative look at ASA membership costs and benefits
+wordpress_id: '1910'
+categories:
+- Sociology
+---
+
+A number of people have been asking—or asserting—things about the relative cost of membership in the ASA as compared to peer organizations. This post provides some data about comparative membership costs and benefits.
+
+First, a comparison of current and proposed ASA membership fees with peer organizations that also have a sliding scale of membership costs.
+
+[![dues-comparison](http://kieranhealy.org/files/misc/dues-comparison.png "Comparative Data on Costs of Membership")](http://kieranhealy.org/files/misc/dues-comparison.pdf)
+
+Not all of the ASA's peer organizations have sliding scales: several simply charge a flat rate. Three relevant associations with flat-rate regular memberships, not included in the chart above, are the American Statistical Association (regular membership cost: $150), the Population Association of America ($112), and the American Society of Criminology ($90).
+
+In addition to these regular membership rates, many associations also have special rates for students, the unemployed, retired members, or resident citizens of low-income countries. Let's focus just on student and unemployed members. Here are two figures comparing costs for these categories of membership across associations. Bear in mind that some organizations have no specific student rate, and for others (such as the AAA and the ASC), student membership is linked to income. I've chosen to show the lowest available rate in each case.
+
+[![image](http://kieranhealy.org/files/misc/dues-unemployed.png "Effective membership cost for the Unemployed")](http://kieranhealy.org/files/misc/dues-unemployed.pdf)
+
+[![image](http://kieranhealy.org/files/misc/dues-student.png "Effective membership cost for Students")](http://kieranhealy.org/files/misc/dues-student.pdf)
+
+Finally there is the question of the benefits of membership. The two most immediate benefits of membership in professional associations are a subscription to one or more association journals (and perhaps also a newsletter or magazine), and a reduced registration fee for the association's annual conference. Annual conferences are generally either self-financing or active profit-centers for associations. If someone else wants to collate the cost of attendance for these associations, they're welcome to do so. I'll focus just on journals. These are also typically profit-making enterprises for associations (often quite substantially so), mostly through the revenue from library subscriptions, the fact that most of the labor to run them is provided for free, and the fact that it still costs money for members to both subscribe to and submit to these journals. In addition to these benefits, all associations provide some kind of job bank (I have not looked at variation in the cost of this to participating departments), perhaps a job service at the annual conference, and assorted discounts and coupon -lipping benefits.
+
+Here's a summary of the journal benefits for the ASA and its peer associations, based on the "membership benefits" sections of their websites:
+
+### Journal Benefits
+
+-   **ASA**. Effective cost of membership includes a print/electronic subscription to one journal and the association newsletter, *Footnotes*. Additional ASA journals are available to members at $45 per journal, or $60 in the case of the annual *Sociological Methodology*. Members who subscribe to two or more print journals receive all ASA journals online.
+-   **AEA**. "Individual members of the American Economic Association (AEA) receive online access to all seven of the Association's journals as well as other member benefits. (*American Economic Review*, *Journal of Economic Literature*, *Journal of Economic Persepctives*, *Applied Economics*, *Economic Policy*, *Macroeconomics*, *Microeconomics*). Print subscriptions to each of AEA's quarterly titles are available for $15 each, the AER (6 issues annually, 7 including the Papers & Proceedings) is available for $20."
+-   **APSR**. "Members receive print and online versions of: *American Political Science Review*, *Perpectives on Politics*, and *PS: Political Science*."
+-   **ASC**. "All Types of Memberships include Subscriptions to the following: Journals: *Criminology* (4 issues/yr.), *Criminology & Public Policy* (4 issues/yr.), and the Newsletter: *The Criminologist* (6 issues/yr.)."
+-   **PAA**: Members receive *Demography* (Journal), *PAA Affairs* (online newsletter) and *Applied Demography* (newsletter).
+-   **American Statistical Association**. "When you join the ASA, you will receive: A subscription to *Amstat News*, the ASA's monthly membership magazine, now fully online … A subscription to *Significance*, an ASA and RSS partnership magazine, … Free online access to … the *Journal of the American Statistical Association* (JASA), *Journal of Business & Economic Statistics* (JBES), *Statistics in Biopharmaceutical Research* (SBR), *Statistical Analysis and Data Mining* (SAM)+, and *The American Statistician* (TAS).
+-   **AHA**. Members receive the *Amercian Historical Review* and *Perspectives* (Newsletter).
+-   **AAA**. Members receive access to AnthroSource, "a digital searchable database containing the past, present and future AAA publications", including a range of current and defunct journals and newsletters. See [here](http://www.aaanet.org/publications/anthrosource/index.cfm) for details.
+
+I may update this post with some more information later. Perhaps some commentary, too, though the main goal here is just to present the comparison directly and fairly. If there are any errors please let me know and I'll correct them. The data and code used to produce the figures can be downloaded from [this GitHub repository](https://github.com/kjhealy/asa-dues).

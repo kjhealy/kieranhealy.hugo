@@ -1,0 +1,13 @@
+---
+#layout: post
+title: "Crowdsourcing Sociology Department Rankings: 2013 Edition"
+date: "2013-03-13"
+comments: true
+categories: [Sociology]
+---
+
+As many of you are by now aware, U.S. News and World Report released the <a href="http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools/top-humanities-schools/sociology-rankings">2013 Edition of its Sociology Rankings</a> this week. I find rankings fascinating, not least because of what you might call the "legitimacy ratchet" they implement. Winners insist rankings are absurd but point to their high placing on the list. Here's <a href="http://t.co/cLwR7Veps8">a nice example of that</a> from the University of Michigan. The message here is, "We're not really playing, but of course if we were we'd be winning." Losers, meanwhile, either remain silent (thus implicitly accepting their fate) or complain about the methods used, and leave themselves open to accusations of sour grapes or bad faith. They are constantly tempted to reject the enterprise <em>and</em> insist they should've been ranked higher, and so end up sounding like the apocryphal Borscht Belt couple complaining that the food here is terrible and the portions are tiny as well.
+
+The best thing to do is to implement your own system, and do it better, if only to introduce confusion by way of additional measures. Omar Lizardo and Jessica Collett have already pointed out that <a href="http://scatter.wordpress.com/2013/03/12/the-actual-201314-us-news-rankings/">U.S. News decided to cook the rankings</a> by averaging the results from this year's survey with the previous two rounds. They provide an estimate of what the de-averaged results probably looked like. Back in 20011, Steve Vaisey and I <a href="http://orgtheory.wordpress.com/2011/01/07/crowdsourcing-sociology-department-rankings/">ran a poll</a> using Matt Salganik's excellent All Our Ideas website, which creates rankings from multiple pairwise comparisons. It's easy to run and generates rankings with high face validity in a way that's quicker, more fun, and much, much cheaper than the alternatives. So, we're doing it again this year. Here is <strong><a href="http://www.allourideas.org/socranking2013">OrgTheory/AAI 2013 Sociology Department Ranking Survey</a></strong>. <a href="http://www.allourideas.org/socranking2013">Go and vote!</a> Chicago people will be happy to hear can vote as often as you like. So, participate in your own quantitative domination and <a href="http://www.allourideas.org/socranking2013">get voting</a>. For the duration of the survey, you can even do it right here with this handy widget:
+
+<iframe src="http://widget.allourideas.org/socranking2013" width="450" height="410" frameborder="0" scrolling="no"> </iframe>
