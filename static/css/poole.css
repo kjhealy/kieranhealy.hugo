@@ -271,6 +271,9 @@ tbody tr:nth-child(odd) th {
   font-size: small;
 }
 
+figcaption {
+  font-style: italic;
+}
 
 ul.category {text-transform: capitalize;}
 ul.category li {margin-bottom: 1rem;}
