@@ -389,6 +389,11 @@ ul.catlist li:last-child:after { content: ""; }
 
 /* Archive list */
 
+.meta {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
 .archive h3 {
     margin-top:0;
     padding-bottom: 0;
