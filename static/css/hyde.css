@@ -53,6 +53,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48rem) {
   .sidebar {
     position: fixed;
@@ -217,11 +218,11 @@ html {
   color: #aa759f;
 }
 
-/* Brown */
+/* Mocha */
 .theme-base-0f .sidebar {
-  background-color: #8f5536;
+  background-color: #3B3229;
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+  color: #3F3F3F;
 }
