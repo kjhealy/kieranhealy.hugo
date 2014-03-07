@@ -12,7 +12,7 @@
         <h5 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h5>
       </section>
 
-      <h1 class="post-title">{{ .Title }}</h1>
+      <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 
         <article class="entry-content" id="content">
            {{ .Content }}
