@@ -18,7 +18,7 @@ Looking at my referrer logs, I find an uptick in people who find this blog throu
 -   weber vocation
 -   what is the protestant ethic?
 
-This is because right around now, all over the country, undergraduates are writing final papers or taking final exams in sociological theory courses [like the one I teach](http://www.kieranhealy.org/files/teaching/spring03/soc300-syllabus-s03.pdf) [pdf].
+This is because right around now, all over the country, undergraduates are writing final papers or taking final exams in sociological theory courses [like the one I teach](http://www.kieranhealy.org/files/teaching/spring03/soc300-syllabus-s03.pdf).
 
 Some of those searching are doing legitimate research and some are looking for material to [plagiarize](http://www.com-www.com/musiclyrics/lehrertom-lobachevsky.html). I don't know what the relative sizes of those groups are, of course. I usually get at least one open-and-shut case of plagiarism each semester. Like hepatitis, plagiarism comes in several varieties.
 
