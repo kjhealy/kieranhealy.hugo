@@ -10,10 +10,10 @@
 
     <div>
         <section id="next">
-            &nbsp;{{if .Next}}<em>&laquo; Previous:</em> <a class="next" href="{{.Next.Permalink}}">{{.Next.Title}}</a>{{end}}
+            &nbsp;{{if .Next}}<em><a href="{{.Next.Permalink}}">&laquo; Previous:</a></em> <a class="next" href="{{.Next.Permalink}}">{{.Next.Title}}</a>{{end}}
         </section>
         <section id="prev">
-            &nbsp;{{if .Prev}}<em>&raquo; Next:</em> <a class="previous" href="{{.Prev.Permalink}}">{{.Prev.Title}}</a><br>{{end}}
+            &nbsp;{{if .Prev}}<em><a href="{{.Prev.Permalink}}">&raquo; Next:</a></em> <a class="previous" href="{{.Prev.Permalink}}">{{.Prev.Title}}</a><br>{{end}}
         </section>
 
     </div>
