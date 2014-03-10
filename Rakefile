@@ -15,6 +15,25 @@ deploy_default = "rsync"
 
 public_dir      = "public"    # compiled site directory
 
+#############
+# Generate  #
+#############
+
+desc "Generate Hugo site"
+task :generate do
+  if File.exists?('static/css/stylesheet.css')
+    puts "## Removing old stylesheet.css"
+    ok_failed system("rm -f static/css/stylesheet.css")
+  end
+  puts "## Combining CSS"
+  ok_failed system("cat static/css/poole.css static/css/hyde.css static/css/syntax.css > static/css/stylesheet.css")
+  puts "## Minifying CSS"
+  ok_failed system("java -jar ~/bin/yuicompressor-2.4.8.jar static/css/stylesheet.css -o static/css/stylesheet-min.css --charset utf-8")
+  puts "## Running Hugo"
+  ok_failed system("hugo")
+end
+
+
 ##############
 # Deploying  #
 ##############

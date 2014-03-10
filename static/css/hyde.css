@@ -68,6 +68,8 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+  text-decoration: none;
+  border-style: none;  
 }
 
 /* About section */
