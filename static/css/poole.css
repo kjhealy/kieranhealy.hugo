@@ -271,6 +271,7 @@ tbody tr:nth-child(odd) th {
 .credit {
   padding-top: 3rem;
   font-size: small;
+  line-height: 0.8rem;
 }
 
 figcaption {
@@ -302,6 +303,10 @@ ul.catlist li:last-child:after { content: ""; }
 .social span {
 	display: inline-block;
 	width: 110px;
+}
+
+.twitter-follow-button {
+    /* padding-top: 5px; */
 }
  
 /*
