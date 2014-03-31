@@ -99,14 +99,14 @@ The items here are meant to get you started on material for your presentations. 
 #### Group 3. Usury, Interest, Credit, and Loans (G)
 
 -   Elgart, M.
--   McAvoy, E.
 -   Callaway, I.
+-   Pernas, G.
 
 #### Group 4. Usury, Interest, Credit, and Loans (G)
 
 -   Kendall, B.
 -   Dubuque, C.
--   Pernas, G.
+-   McAvoy, E.
 
 ### Friday, April 11th
 
