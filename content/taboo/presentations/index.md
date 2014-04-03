@@ -122,7 +122,7 @@ The items here are meant to get you started on material for your presentations. 
 -   Widmaier, N.
 -   Wensley, L.
 
-#### Group 7. Eggs, Sperm, Genetic Material (C)
+#### Group 7. Eggs, Sperm, Genetic Material \(C\)
 
 -   Davis, M.
 -   Gorostiaga, B.
@@ -142,7 +142,7 @@ The items here are meant to get you started on material for your presentations. 
 -   Netscher, C.
 -   Gress, R.
 
-#### Group 10. Eggs, Sperm, Genetic Material (C)
+#### Group 10. Eggs, Sperm, Genetic Material \(C\)
 
 -   Miller, L.
 -   Guner, B.
