@@ -146,7 +146,7 @@ The items here are meant to get you started on material for your presentations. 
 
 -   Miller, L.
 -   Guner, B.
--   Ichikawa, A.
+-   Ishikawa, A.
 
 ### Friday April 18th
 
