@@ -1,5 +1,5 @@
 ---
-title: "Plain Text Papers Pandoc"
+title: "Plain Text, Papers, Pandoc"
 date: "2014-01-23"
 slug: plain-text
 categories: [Sociology,IT,Nerdery,R]

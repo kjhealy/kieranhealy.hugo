@@ -1,5 +1,5 @@
 ---
-title: "Success breeds Success, Up to a Point"
+title: "Success Breeds Success, Up to a Point"
 date: "2014-04-29"
 categories: [Sociology,Nerdery]
 ---
