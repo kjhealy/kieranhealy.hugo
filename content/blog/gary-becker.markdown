@@ -1,5 +1,5 @@
 ---
-title: "Gary Becker, by Michel Foucault"
+title: "Gary Becker, an appreciation by Michel Foucault"
 date: "2014-05-04"
 categories: [Economics,Sociology]
 ---
