@@ -1,7 +1,8 @@
 {{ $baseurl := .Site.BaseUrl }}
+
     <div>
         <ul class="catlist">
-          <li><em>&nbsp;Categories</em></li>
+          <li><em>&nbsp;Posted {{ .Date.Format "Mon Jan 2, 2006" }}</em></li>
           {{ range .Params.categories }}
             <li><a href="{{ $baseurl }}/categories/{{ . | urlize }}">{{ . }}</a> </li>
           {{ end }}
