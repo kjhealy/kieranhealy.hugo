@@ -1,9 +1,11 @@
 {{ $baseurl := .Site.BaseUrl }}
 
     <div>
+
       <ul class="catlist">
+          <li><em>Categories</em></li>
           {{ range .Params.categories }}
-           <em>Categories: </em> <li><a href="{{ $baseurl }}/categories/{{ . | urlize }}">{{ . }}</a> </li>
+           <li><a href="{{ $baseurl }}/categories/{{ . | urlize }}">{{ . }}</a> </li>
           {{ end }}
         </ul>
     </div>
