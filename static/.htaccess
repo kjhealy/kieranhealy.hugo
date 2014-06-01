@@ -197,6 +197,7 @@ Redirect Permanent /blog/feed/ http://kieranhealy.org/blog/index.xml
 Redirect Permanent /blog/feed http://kieranhealy.org/blog/index.xml
 Redirect Permanent /feed http://kieranhealy.org/blog/index.xml
 Redirect Permanent /feed/ http://kieranhealy.org/blog/index.xml
+Redirect Permanent /blog/index.rdf http://kieranhealy.org/blog/index.xml
 
 # Moved items to their own directories
 RewriteRule ^publications.html /publications [L,R=301]
