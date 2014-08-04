@@ -18,16 +18,16 @@ We hold these truths to be self-evident, that all Universities are endowed by th
 
 Anyway, it is nevertheless our right, it is our duty, to throw off such Presidents, and to provide new Administrators for my future security. Yours! I mean, _Your_ future security. Such has been the patient sufferance of this University; and such is now the necessity which constrains us to alter its former Systems of Government. The history of the present President is one of repeated injuries and usurpations, all having in direct object the maintenance of some sort of financially viable, intellectually robust, nationally respected institution of higher learning. Such goals are _so_ 20th Century. I read that in _Forbes_ recently. Did I not shew it to you all via e-mail? Perhaps I forgot to attach it. Sorry, where was I? Oh yes. To prove this, let Facts be submitted to a candid world:
 
-- She has refused to listen to me when I sent her this _US News & World Report_ article I read about how Technology is Transforming Education.
-- She has refused to hire Consultants at extortionate rates, preferring instead to consult experts on her own Faculty---as if a University were the place to find experts of any kind, the very idea. Far better to hire a team consisting mostly of 22 year-olds from McKinsey, they know how to do those 3-D charts in Excel and have you seen their Powerpoints the transitions are cool I like the flame one the best.
-- She has called together legislative bodies at places normal, standard, and proximate to the depository of their public Records, for the sole purpose of keeping the Faculty and university community informed of her plans.
-- She did not think [_Becoming China's Bitch_](http://www.amazon.com/gp/product/1618580051/) was a very good book at all.
-- She has hired some Officers to implement her goals.
-- She has combined with others, like the Provost, to subject us to a set of standards foreign to the understanding of Beach Condo Developers; giving her Assent to their Acts of pretended Administration:
-- For Quartering large bodies of actual students among us, instead of on a website somewhere.
-- For maintaining Standards without our Consent: 
-- For depriving us in many cases, of the benefits of future consulting deals:
-- She has excited domestic insurrections amongst us---have you seen this crowd outside, Helen? It's really quite large now.
+- &mdash; She has refused to listen to me when I sent her this _US News & World Report_ article I read about how Technology is Transforming Education.
+- &mdash; She has refused to hire Consultants at extortionate rates, preferring instead to consult experts on her own Faculty---as if a University were the place to find experts of any kind, the very idea. Far better to hire a team consisting mostly of 22 year-olds from McKinsey, they know how to do those 3-D charts in Excel and have you seen their Powerpoints the transitions are cool I like the flame one the best.
+- &mdash; She has called together legislative bodies at places normal, standard, and proximate to the depository of their public Records, for the sole purpose of keeping the Faculty and university community informed of her plans.
+- &mdash; She did not think [_Becoming China's Bitch_](http://www.amazon.com/gp/product/1618580051/) was a very good book at all.
+- &mdash; She has hired some Officers to implement her goals.
+- &mdash; She has combined with others, like the Provost, to subject us to a set of standards foreign to the understanding of Beach Condo Developers; giving her Assent to their Acts of pretended Administration:
+- &mdash; For Quartering large bodies of actual students among us, instead of on a website somewhere.
+- &mdash; For maintaining Standards without our Consent: 
+- &mdash; For depriving us in many cases, of the benefits of future consulting deals:
+- &mdash; She has excited domestic insurrections amongst us---have you seen this crowd outside, Helen? It's really quite large now.
 
 In every stage of these Oppressions We have Petitioned for Redress in the most humble terms: i.e., by circulating emails amongst a subset of our group, exchanging links to some stuff in _Wired_ Magazine about Stanford, and ginning each other up for her removal. A President whose character is thus marked by every act which may define an intelligent, decisive, forward-looking, and accountable leader, is clearly unfit to be the ruler of a Nationally-ranked University.
 
