@@ -1,7 +1,7 @@
-<article class="post">
+<article class="postlist">
     <header>
-    <div class="meta"><h5>{{ .Date.Format "Mon, Jan 2, 2006" }}</h5></div>
-      <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+    <div class="meta"><h6 class="shortend">{{ .Date.Format "Mon, Jan 2, 2006" }}</h6></div>
+      <h2 class="shorttop"><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
     </header>
 
     {{ .Summary }}

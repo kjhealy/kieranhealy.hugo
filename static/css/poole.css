@@ -64,10 +64,13 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
+
+
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
   color: #268bd2;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: dotted 1px;
   background-color: inherit;
 }
 
@@ -75,13 +78,14 @@ a {
 a:hover,
 a:focus {
   color: #990033;
+  border-bottom: solid 1px;
+  text-decoration: none;
 }
 
 /* Headings */
 h2, h3, h4, h5, h6 {
-  font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;  
+  font-family: "myriad-pro-semi-condensed", "Helvetica Neue", "Helvetica", Arial, sans-serif;  
   margin-bottom: .5rem;
-  font-weight: bold;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
@@ -93,9 +97,25 @@ h1 {
 
 }
 h2 {
+  font-weight: bold;  
   margin-top: 1.5rem;
   font-size: 1.5rem;
 }
+
+/* Big/Shorttops and ends are useful when you have double headers, like on the Teaching page */
+h2.shorttop {
+  margin-top:0.25rem;
+}
+
+h6.shortend {
+  margin-bottom:0.1rem;
+}
+
+
+p.talltop{
+    margin-top:4rem;
+}
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
@@ -105,6 +125,11 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
+h6{
+    margin-top: 1.25rem;
+}
+
+ 
 /* Body text */
 p {
   margin-top: 0;
@@ -235,6 +260,10 @@ img {
 
 .center { 
     float: center;
+}
+
+.highlight {
+    background-color: #FFFFCC;
 }
 
 /* Tables */
@@ -379,6 +408,10 @@ ul.catlist li:last-child:after { content: ""; }
 .page,
 .post {
   margin-bottom: 4em;
+}
+
+.postlist{
+  margin-bottom: 0.1em;
 }
 
 /* Blog post or page title */
