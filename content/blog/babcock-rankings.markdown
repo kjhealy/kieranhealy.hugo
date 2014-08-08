@@ -47,7 +47,7 @@ We can add these in a final, rather large, chart for the National University dat
 
 You can get a [larger image](http://kieranhealy.org/files/misc/babcock-all-universities.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-all-universities.pdf) if you want a closer look at it.
 
-Now the coding includes the pink "None" category, which adds universities that appear in the USNWR rankings but which are not in Babcock, either because they did not exist at all in 1911, or had not yet taken their present names. In fairness to him, the new additions still leave Babcock's classification looking pretty good. On the private side, Duke, Caltech, Vanderbilt, and Rice are added to the upper end of the list, and a number of new private schools further down.
+Now the coding includes the pink "None" category, which adds universities that appear in the USNWR rankings but which are not in Babcock, either because they did not exist at all in 1911, or had not yet taken their present names. In fairness to him, the new additions still leave Babcock's classification looking pretty good. On the private side, Duke, Caltech, and Rice are added to the upper end of the list, and a number of new private schools further down.
 
 Meanwhile on the public side you can see the appearance of the 20th century schools, most notably the whole California system. The UC System is an astonishing achievement, when you look at it, as it propelled five of its campuses into the upper third of the table to join Berkeley. But the status ordering that was---take your pick; these data can't settle the question---observed, intuited, or invented by Babcock a century ago remains remarkably resilient. The old regime persists.
 
