@@ -78,7 +78,8 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
+  font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;  
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -86,10 +87,13 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-family: "ff-tisa-web-pro", Georgia, Times, "Times New Roman", serif;  
+  font-size: 1.8rem;
+  line-height: 1;
+
 }
 h2 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
 }
 h3 {
@@ -97,7 +101,6 @@ h3 {
   font-size: 1.25rem;
 }
 h4, h5, h6 {
-  font-family: "ff-meta-web-pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;  
   margin-top: 1rem;
   font-size: 1rem;
 }
