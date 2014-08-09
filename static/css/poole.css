@@ -107,6 +107,19 @@ h2.shorttop {
   margin-top:0.25rem;
 }
 
+h2.shorttop {
+  margin-top:0.25rem;
+}
+
+
+h3.shorttop {
+  margin-top:0.25rem;
+}
+
+h3.shortend{
+  margin-bottom:0.1rem;
+}
+
 h6.shortend {
   margin-bottom:0.1rem;
 }
@@ -115,6 +128,7 @@ h6.shortend {
 p.talltop{
     margin-top:4rem;
 }
+
 
 h3 {
   margin-top: 1.5rem;
