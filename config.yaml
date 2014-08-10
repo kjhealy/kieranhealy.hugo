@@ -3,6 +3,7 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false
+pygmentsuseclasses: true
 indexes:
   category: "categories"
 baseurl: "http://kieranhealy.org/"
