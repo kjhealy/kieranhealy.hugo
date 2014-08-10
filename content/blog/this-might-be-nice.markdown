@@ -12,6 +12,29 @@ categories:
 
 Embedded gists from github.
 
-<script src="http://gist.github.com/21382.js"></script>
+{{% highlight r %}}
+
+library(lattice)
+data <- read.csv("cities.csv",header=TRUE,row.names=1)
+quartz()
+stripplot(log(data$Population),groups=data$Outcome)
+
+dev.off()
+
+pdf(file="cities.pdf",height=8,width=8)
+dotchart(log(data$Population), groups=data$Outcome,xlab="log Population")
+dev.off()
+
+pdf(file="cities-rank.pdf",height=8,width=8)
+dotchart(-data$Rank, groups=data$Outcome,xlab="Rank Population")
+dev.off()
+
+
+pdf(file="cities-media.pdf",height=8,width=8)
+dotchart(log(data$Population), groups=data$Media,xlab="log Population")
+dev.off() 
+
+{{% /highlight %}}
+
 
 And so forth.
