@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8">
 
-    {{ template "chrome/meta.html" . }}
+    {{ template "partials/meta.html" . }}
 
     <base href="{{ .Site.BaseUrl }}">
     <title>{{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-    {{ template "chrome/head_includes.html" . }}
+    {{ template "partials/head_includes.html" . }}
 </head>
 <body lang="en" class="theme-base-0f">
 
-  {{ template "chrome/sidebar.html" . }}
+  {{ template "partials/sidebar.html" . }}
   
   <div class="content container">
     <div class="page">
@@ -33,7 +33,7 @@
 <p class="lead">Much of my <a href="http://kieranhealy.org/publications/">research</a> has been about <a href="http://www.amazon.com/Last-Best-Gifts-Altruism-Market/dp/0226322378">exchange in human blood and organs</a>, cultural goods, software, and ideas. My current work focuses on the <a href="http://kieranhealy.org/files/papers/moral-views-ARS.pdf">moral order of market society</a>, the effect of <a href="http://kieranhealy.org/files/drafts/performativity.pdf">models and measurement on social classification</a>, and the link between those two topics, especially in the <a href="http://kieranhealy.org/files/papers/classification-situations.pdf">consumer credit market</a>. I&#8217;m also interested in techniques and methods for <a href="http://kieranhealy.org/files/papers/data-visualization.pdf">data visualization</a>.</p>
 
 
-{{ template "chrome/footer.html" }}
+{{ template "partials/footer.html" }}
 
 </div>
 

@@ -1,7 +1,7 @@
-{{ template "chrome/header.html" . }}
+{{ template "partials/header.html" . }}
 <body lang="en" itemscope itemtype="http://schema.org/Article">
 
-  {{ template "chrome/sidebar.html" . }}
+  {{ template "partials/sidebar.html" . }}
 
   {{ $baseurl := .Site.BaseUrl }}
 
@@ -19,7 +19,7 @@
   </div>
 </section>
 
-{{ template "chrome/footer.html" . }}
+{{ template "partials/footer.html" . }}
 
 </div>
 
