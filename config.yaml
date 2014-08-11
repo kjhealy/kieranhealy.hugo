@@ -1,4 +1,5 @@
 ---
+MetaDataFormat: "yaml"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
