@@ -471,3 +471,4 @@ ul.catlist li:last-child:after { content: ""; }
     padding-bottom: 0;
 }
 
+audio { display: block; width: 600px; }
