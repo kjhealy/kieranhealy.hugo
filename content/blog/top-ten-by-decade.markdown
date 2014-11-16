@@ -43,6 +43,9 @@ than that of methods---single-concept idea pieces are also partially
 displaced by ARS papers making an argument for some idea or theory
 under the shield of a focused literature review.
 
+One would need rather more data than the figure above to confirm that
+sort of conjecture, but I think it's at least plausible.
+
 
 
 
