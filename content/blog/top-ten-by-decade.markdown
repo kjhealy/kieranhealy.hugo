@@ -9,11 +9,11 @@ My colleague [Jim Moody](http://www.soc.duke.edu/~jmoody77/) sent along some int
 
 I absolve Jim of any responsibility for the figure or my comments below. Here's a dotplot of the results:
 
-{{% figure src="http://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped.png" alt="Top 10 from Each Decade" caption="Sociology's Top 10 Most-Cited Papers from Each Decade, based on all-time citations in WoS." %}}
+{{% figure src="http://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped-prod.png" alt="Top 10 from Each Decade" caption="Sociology's Top 10 Most-Cited Papers from Each Decade, based on all-time citations in WoS." %}}
 
-(You can get a [PDF version of this figure](http://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped.pdf) if you want a closer look.) 
+(You can get a [PDF version of this figure](http://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped-prod.pdf) if you want a closer look.) 
 
-One thing to notice is the rise of articles from the _Annual Review of Sociology_ in the 2000s. Another is the increasing heterogeneity of outlets. Of the top ten papers written in the 1950s or before, eight appear in the *American Sociological Review*, one in the *American Journal of Sociology*, and one in *Social Forces*. (That is SF's only entry in the list, as it happens.) The 1960s are similarly ruled by ASR and AJS. After that, though, the there's more variety. Strikingly, for the 2000s only one of the ten most-cited articles is from ASR and none is from AJS---a complete reversal of the pattern of the '50s and '60s.  You can also see the long shadow of post-war university expansion and "Boomer Sociology". The most-cited work from before 1970 is not nearly as widely cited as the most-cited work from the '70s and '80s, despite having been around longer. The drop-off in the '90s and '00s is to be expected as those papers are younger.
+One thing to notice is the rise of articles from the _Annual Review of Sociology_ in the 2000s. Another is the increasing heterogeneity of outlets. Of the top ten papers written in the 1950s or before, seven appear in the *American Sociological Review*, two in the *American Journal of Sociology*, and one in *Social Forces*. (That is SF's only entry in the list, as it happens.) The 1960s are similarly ruled by ASR and AJS. After that, though, the there's more variety. Strikingly, for the 2000s only one of the ten most-cited articles is from ASR and none is from AJS---a complete reversal of the pattern of the '50s and '60s.  You can also see the long shadow of post-war university expansion and "Boomer Sociology". The most-cited work from before 1970 is not nearly as widely cited as the most-cited work from the '70s and '80s, despite having been around longer. The drop-off in the '90s and '00s is to be expected as those papers are younger.
 
 Substantively, I think you can see the importance of articles whose
 main contribution is either a methodological technique or a
@@ -24,7 +24,7 @@ give people a good idea to work with or a powerful tool to use. Of
 course, it's also true that people tend to have a lot of unread books
 in the house and unused drill attachments in the garage.
 
-It's tempting to connect these two features of the lists. To
+It is tempting to connect these two patterns in the data. To
 speculate: ASR and AJS remain amongst the journals with the very
 highest impact factors in the discipline, and publishing in them has
 become more important than ever to people's careers. Yet the
