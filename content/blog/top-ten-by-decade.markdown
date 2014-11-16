@@ -13,35 +13,38 @@ I absolve Jim of any responsibility for the figure or my comments below. Here's 
 
 (You can get a [PDF version of this figure](http://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped.pdf) if you want a closer look.) 
 
-One thing to notice is the rise of articles from the _Annual Review of Sociology_ in the 2000s. Another is the increasing heterogeneity of outlets. Of the top ten papers written in the 1950s or before, eight appear in the *American Sociological Review*, one in the *American Journal of Sociology*, and one in *Social Forces*. (That is SF's only entry in the list, as it happens.) The 1960s are similarly ruled by ASR and AJS. After that, though, the there's more variety. Strikingly, for the 2000s only one of the most-cited articles is from ASR and none is from AJS---a complete reversal of the pattern of the '50s and '60s.  You can also see the long shadow of post-war university expansion and "Boomer Sociology". The most-cited work from before 1970 is not nearly as widely cited as the most-cited work from the '70s and '80s, despite having been around longer. The drop-off in the '90s and '00s is to be expected as those papers are younger.
+One thing to notice is the rise of articles from the _Annual Review of Sociology_ in the 2000s. Another is the increasing heterogeneity of outlets. Of the top ten papers written in the 1950s or before, eight appear in the *American Sociological Review*, one in the *American Journal of Sociology*, and one in *Social Forces*. (That is SF's only entry in the list, as it happens.) The 1960s are similarly ruled by ASR and AJS. After that, though, the there's more variety. Strikingly, for the 2000s only one of the ten most-cited articles is from ASR and none is from AJS---a complete reversal of the pattern of the '50s and '60s.  You can also see the long shadow of post-war university expansion and "Boomer Sociology". The most-cited work from before 1970 is not nearly as widely cited as the most-cited work from the '70s and '80s, despite having been around longer. The drop-off in the '90s and '00s is to be expected as those papers are younger.
 
-There are some substantive trends, too. I think you can see the
-importance of articles whose main contribution is either a
-methodological contribution or a theoretical idea. Correspondingly,
-there are rather fewer papers where a specific empirical finding is
-the main contribution. If you want to be remembered, give people an
-idea to work with or a tool to use. Of course, it's also true that
-people tend to have a lot of unread books in the house and unused
-tools in the garage.
+Substantively, I think you can see the importance of articles whose
+main contribution is either a methodological technique or a
+theoretical idea. Correspondingly, there are fewer papers where a
+specific empirical finding is the main contribution. If you want to
+hang in there as one of the most-remembered papers from your decade,
+give people a good idea to work with or a powerful tool to use. Of
+course, it's also true that people tend to have a lot of unread books
+in the house and unused drill attachments in the garage.
 
-It is tempting to connect these two trends. To speculate: ASR and AJS
-remain amongst the journals with the very highest impact factors in
-the discipline, and publishing in them has become more important than
-ever to people's careers. These journals nominally demand the papers
-they publish exemplify very high standards in methods and ideally also
-innovation in theory, along with the empirical contribution they
-make. That (together with a straitened labor market) produces very
-good papers, but also makes these journals less likely than in the
-past to publish purely technical or purely theoretical pieces. Outlets
-like *Sociological Methods and Research* and *Sociological
-Methodology* publish articles that might in the past have appeared in
-more general journals. More specialized journals like *Theory and
-Society* or *Gender and Society* are more likely than before to be
-home to theoretical pieces that get rejected from
-AJS. Meanwhile---perhaps because the state of theory is more confused
-than that of methods---single-concept idea pieces are also partially
-displaced by ARS papers making an argument for some idea or theory
-under the shield of a focused literature review.
+It's tempting to connect these two features of the lists. To
+speculate: ASR and AJS remain amongst the journals with the very
+highest impact factors in the discipline, and publishing in them has
+become more important than ever to people's careers. Yet the
+most-cited papers of the last two decades appeared elsewhere. These
+journals nominally demand the papers they publish exemplify very high
+standards in methods and ideally also innovate theoretically, along
+with making an empirical contribution to knowledge. That, together
+with a more competitive and professionalized labor market, produces
+very high-quality papers. But it also makes these journals less likely
+than in the past to publish purely technical or purely theoretical
+pieces. Outlets like *Sociological Methods and Research* and
+*Sociological Methodology* publish articles that might in the past
+have appeared in more general journals. More specialized journals like
+*Theory and Society* or *Gender and Society* are more likely than
+before to be home to more theory-heavy pieces that might once have
+gotten in at ASR or AJS but are now rejected. At the same
+time---perhaps because the state of theory in the field is more
+confused than that of methods---theory is also partially displaced by
+ARS papers that make an argument for some idea or approach, but under
+the shield of a topical empirical literature review. In a relatively fragmented field, it's also easier for methodological papers to be more widely cited across a range of substantive areas than it is for a theory paper to do the same.
 
 One would need rather more data than the figure above to confirm that
 sort of conjecture, but I think it's at least plausible.
