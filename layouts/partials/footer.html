@@ -1,4 +1,36 @@
 <footer>
+
+<script type="text/javascript"
+  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    // Fix <code> tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+  
   <div>
     <p class="right credit" align="right">
     Powered by <br /><a href="http://hugo.spf13.com">Hugo</a> & <a href="http://hyde.getpoole.com">Hyde</a>.<br /><br /><span><a href="https://twitter.com/kjhealy" class="twitter-follow-button right" data-show-count="false" data-lang="en">Follow @kjhealy</a></span>
@@ -28,5 +60,6 @@
 fitText(document.getElementById('title'), 1)
 
 </script>
+
 </body>
 </html>
