@@ -24,7 +24,7 @@ Up with the managers, meanwhile, things have become more compressed, too. Busine
 
 What has happened to make Business Class more cramped? The answer is
 to be found in Ruling Class. Sorry, I mean, First Class. On Air Gini,
-these eight valued passengers---three and a half percent of those on
+those eight most-valued passengers---three and a half percent of those on
 board---get thirty five percent of the available seating space. That's
 a lot of legroom. So much, in fact, that as First Class passengers
 have spread out to take up the first third of the plane, Air Gini has
