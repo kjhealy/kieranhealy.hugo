@@ -14,15 +14,13 @@ As you can see from the highlighted areas, the color mapping is off. The upper t
 
 Operator error, that's what. I should say explicitly that my colleague and co-author [Jim Moody](http://www.soc.duke.edu/~jmoody77/) bears no responsibility here. He didn't do this bit of the paper. I wrote the code for Figure 5 using R's `corrplot` library. You feed `corrplot` a correlation matrix and it draws you a figure. First you ask it to plot, say, a matrix where the whole thing looks like the upper right triangle heatmap---all solid colors representing the correlations in each cell. Then you tell it to redraw the lower triangle and use the numbers instead. The function has options for calculating different kinds of correlations (Pearson, Spearman, etc) and also choices for displaying the row and column orders  differently. You can order the rows by clustering them, by the raw ranking of coefficients, alphabetically, and so on. Because you do the plot in two steps, you need to take care to get it to calculate _and order_ the cells the same way. And this is where the error was in my code. The relevant snippet originally looked like this:
 
-{{% highlight r %}}
-
+{{< highlight r >}}
 corrplot(c.mat, method="shade", shade.col=NA, tl.col="black",
          order="hclust", hclust.method="ward", tl.srt=45)
 
 corrplot(c.mat,add=TRUE, type="lower", method="number",
          order="AOE", diag=FALSE, tl.pos="n", cl.pos="n")
-
-{{% /highlight %}}
+{{< /highlight >}}
 
 The first call draws a heatmap from `c.mat`, the second redoes the lower triangle to put in the numbers instead. And as you can see, it orders them differently. The upper triangle is ordered by a Ward clustering. The lower is ordered by the angular order of eigenvectors. What probably happened is that I was messing around with different ways of permuting the rows and columns, lost track of which one I'd settled on, and didn't notice the two sorting methods used were different. The result is that in fact all of the numbers in the lower triangle are out of order, not just the ones that Tom Wood spotted. Note that when redrawing the lower triangle, the row and column labels aren't touched, only the cell contents are redone. The result is you get the same labels but the wrong numbers. In future I should probably write a test to make sure the labels match up in the event of redrawing like this. In any case, fixing the error gives us a corrected plot:
 

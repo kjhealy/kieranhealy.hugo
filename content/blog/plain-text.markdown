@@ -57,7 +57,7 @@ The [custom LaTeX style files](https://github.com/kjhealy/latex-custom-kjh) were
 
 Inside the pandoc-templates repository there's a [folder with some examples](https://github.com/kjhealy/pandoc-templates/tree/master/examples) of how these pieces go together. Let's start with a straightforward markdown file---no R code yet, so nothing above the `article.md` line in the picture above. The sample `article-markdown.md` file looks like this: 
 
-{{% highlight yaml %}}
+{{< highlight yaml >}}
 
 ---
 title: A Pandoc Markdown Article Starter
@@ -79,7 +79,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 # Theory
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 The bit at the top is YAML metadata, which pandoc understands. The HTML and latex templates [in the pandoc-templates repository](https://github.com/kjhealy/pandoc-templates/tree/master/templates) are set up to use this metadata properly. Pandoc will take care of the citations directly. There is more than one way to have pandoc manage citations, but here we just use the most self-contained route. (The `bibliography` line is not needed by pandoc at all: it is a hack to allow RefTeX to easily insert citations in the document while editing in Emacs.) The [Makefile](https://github.com/kjhealy/pandoc-templates/blob/master/examples/Makefile) in the examples directory will convert any markdown files in the working directory to HTML, .tex, and PDF output. Just type `make` at the terminal. If things go as they should, the HTML output from the example will look like this:
 
@@ -88,43 +88,43 @@ The bit at the top is YAML metadata, which pandoc understands. The HTML and late
 
 The PDF output, meanwhile, [can be viewed here](http://kieranhealy.org/files/misc/article-markdown.pdf). Both look quite nice. The relevant sections of the Makefile show the pandoc commands that generate the output files from the markdown input. The Makefile section for producing PDF output looks like this:
 
-{{% highlight bash %}}
+{{< highlight bash >}}
 
 pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S --latex-engine=pdflatex --template=$(PREFIX)/templates/latex.template --filter pandoc-citeproc --csl=$(PREFIX)/csl/$(CSL).csl --bibliography=$(BIB)
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 This contains some variables that are set at the top of the Makefile. On my computer, the command as actually executed looks like this:
 
-{{% highlight bash %}}
+{{< highlight bash >}}
 
 pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S --latex-engine=pdflatex --template=/Users/kjhealy/.pandoc/templates/latex.template --filter pandoc-citeproc --csl=/Users/kjhealy/.pandoc/csl/apsr.csl --bibliography=/Users/kjhealy/Documents/bibs/socbib-pandoc.bib
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 Your version would vary depending on the location of the templates and bibliography files. This is what you would run from the command line if you wanted to take a markdown file and use pdflatex to turn it in to a PDF, using the [APSR](https://www.apsanet.org/utils/journal.cfm?Journal=APSR) reference style, my latex template, and a `.bib` file called `socbib-pandoc.bib`.
 
 The pandoc `latex.template` and `xelatex.template` files differ mainly in the way they set up typefaces. The beginning of the `latex.template` file has the following lines:
 
-{{% highlight latex %}}
+{{< highlight latex >}}
 
 \documentclass[11pt,article,oneside]{memoir}
 \usepackage[minion]{org-preamble-pdflatex}
 \input{vc}
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 If you do not have the Minion Pro fonts installed and available to LaTeX, remove the `[minion]` option from the section line. (You can [read more about getting Minion Pro and installing it for LaTeX here](http://kieranhealy.org/blog/archives/2012/11/10/installing-minion-pro/).) If you do not use `vc.sty` then comment out or delete the third line. Similarly, if you use XeLaTeX rather than pdfLaTeX, tell pandoc to use `xelatex.template` and `--latex-engine=xelatex`. Inside [xelatex.template](https://github.com/kjhealy/pandoc-templates/blob/master/templates/xelatex.template) make sure the font selections after the `\begin{document}` declaration are for typefaces you have installed. 
 
 
 The examples directory [also includes](https://github.com/kjhealy/pandoc-templates/blob/master/examples/article-knitr.Rmd) a sample `.Rmd` file. The code chunks in the file provide examples of how to generate tables and figures in the document. In particular they show some useful options that can be passed to knitr. [Consult the knitr project page](http://yihui.name/knitr/) for extensive documentation and many more examples. To produce output from the `article-knitr.Rmd` file, launch R in the working directory, load knitr, and process the file. You will also need the `ascii`, `memisc`, and `ggplot2` libraries to be available.
 
-{{% highlight r %}}
+{{< highlight r >}}
 
-> library(knitr)
-> knit("article-knitr.Rmd")
+library(knitr)
+knit("article-knitr.Rmd")
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 If things are working properly, then a markdown file called `article-knitr.md` will be produced, together with some graphics in the `figures/` subfolder and some working files in the `cache/` folder. We set things up in the `.Rmd` file so that knitr produces both PNG and PDF versions of whatever figures are generated by R. That prepares the way for easy conversion to HTML and LaTeX. Once the `article-knitr.md` file is produced, HTML, .tex, and PDF versions of it can be produced as before, by typing `make` at the command line. You can also run the pandoc commands manually, of course, or run pandoc from inside R via knitr's `pandoc()` helper function, or set your editor up to run `make` for you as needed, if it can do that.
 
@@ -142,11 +142,11 @@ In everyday use,  I find Brett Terpstra's [Marked.app](http://marked2app.com) to
 
 The "Path" field contains the full path to pandoc, and the "Args" field contains all the relevant command switches---in my case, as above,
 
-{{% highlight bash %}}
+{{< highlight bash >}}
 
 -r markdown+simple_tables+table_captions+yaml_metadata_block -w html -S --template=/Users/kjhealy/.pandoc/templates/html.template --filter pandoc-citeproc --bibliography=/Users/kjhealy/Documents/bibs/socbib-pandoc.bib 
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 When editing your markdown file in your favorite text editor, you point Marked at the file and get a live preview. Like this:
 

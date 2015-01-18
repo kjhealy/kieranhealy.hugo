@@ -22,7 +22,7 @@ While updating the [Starter Kit](http://kjhealy.github.com/emacs-starter-kit/) l
 It goes on to say that you can replace this default with something else. And so this is what I did. I want org-mode to know when to use pdflatex and when to use xelatex, and I want it to do all the bibtex/recompiling stuff silently and intelligently, re-running as needed to get references right and so on. The solution, which is now in the Starter Kit, is inspired by [this post from Bruno Tavernier](http://www.mail-archive.com/emacs-orgmode@gnu.org/msg31328.html), where he provides a function to control running and re-running latex and bibtex as needed. In his version, the compile-recompile cycle is still controlled by org-mode. I made it simpler by getting org-mode to rely instead on [latexmk](http://www.phys.psu.edu/~collins/software/latexmk-jcc/), a script that manages latex compilation sensibly and automatically. It comes included with TeXLive, but the version included is not quite up-to-date enough for our needs. More recent versions have an option allowing you to specify which program to use when "pdflatex" is called. So, with version 4.20 or higher of Latexmk installed properly, and the TeXLive version disabled if necessary (by renaming it `latexmk.old`, say, you can put the following in your `~/.emacs.d/` or equivalent.
 
 
-{{% highlight common-lisp %}}
+{{< highlight common-lisp >}}
     (require 'org-latex)
     (setq org-export-latex-listings t) 
     ;; Originally taken from Bruno Tavernier: \ http://thread.gmane.org/gmane.emacs.orgmode/31150/focus=31432
@@ -99,7 +99,7 @@ It goes on to say that you can replace this default with something else. And so 
         
         (add-hook 'org-export-latex-after-initial-vars-hook 'my-auto-tex-parameters)
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 The `my-auto-tex-cmd` function looks at your `.org` file and checks whether you've specified which latex to use. If there's no instructions, it just runs regular old latex. If it finds the string `LATEX_CMD: pdflatex` in your file, it runs pdflatex. If it finds `LATEX_CMD: xelatex`, it runs xelatex. Because control is handed off to latexmk, nothing else is needed: it takes care of figuring things out so that the references and citations are correct.
 

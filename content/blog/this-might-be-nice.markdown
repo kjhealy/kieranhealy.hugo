@@ -12,7 +12,7 @@ categories:
 
 Embedded gists from github.
 
-{{% highlight r %}}
+{{< highlight r >}}
 
 library(lattice)
 data <- read.csv("cities.csv",header=TRUE,row.names=1)
@@ -34,7 +34,7 @@ pdf(file="cities-media.pdf",height=8,width=8)
 dotchart(log(data$Population), groups=data$Media,xlab="log Population")
 dev.off() 
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 
 And so forth.

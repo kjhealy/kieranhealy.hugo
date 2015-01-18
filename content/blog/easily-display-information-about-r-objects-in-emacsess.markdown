@@ -14,7 +14,7 @@ categories:
 
 I found [this post](http://blogisticreflections.wordpress.com/2009/10/01/r-object-tooltips-in-ess/) that provides a nice function for conveniently showing some information about R objects in ESS mode. ESS already shows some information about functions as you type them (in the status bar) but this has wider scope. Move the point over an R object (a function, a data frame, etc), hit C-c C-g and a tooltip pops up showing some relevant information about the object, such as the arguments a function takes or a basic summary for a vector and so on. As written it's a little unwieldy to use it on large dataframes, but it would be easy to modify the function used to summarize a particular class of object. Here's the code:
 
-{{% highlight common-lisp %}}
+{{< highlight common-lisp >}}
 
 ;; Via http://blogisticreflections.wordpress.com/2009/10/01/r-object-tooltips-in-ess/
 ;;
@@ -81,7 +81,7 @@ I found [this post](http://blogisticreflections.wordpress.com/2009/10/01/r-objec
 
 (provide 'ess-R-object-tooltip)
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 There's also a quick screencast of it in action:
 
