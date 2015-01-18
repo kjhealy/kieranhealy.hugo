@@ -30,7 +30,7 @@ task :generate do
   puts "## Minifying CSS"
   ok_failed system("java -jar ~/bin/yuicompressor-2.4.8.jar static/css/stylesheet.css -o static/css/stylesheet-min.css --charset utf-8")
   puts "## Running Hugo"
-  ok_failed system("hugo")
+  ok_failed system("hugodev")
 end
 
 

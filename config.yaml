@@ -7,7 +7,6 @@ builddrafts: false
 pygmentsuseclasses: true
 indexes:
   category: "categories"
-baseurl: "http://kieranhealy.org/"
 title: "kieranhealy.org"
 permalinks:
   blog: /blog/archives/:year/:month/:day/:slug
