@@ -3,7 +3,7 @@
 title: "Trying to Rein it In"
 date: "2012-07-13"
 comments: true
-categories: [Data,Nerdery,Internet]
+categories: [Data,Nerdery,Internet,Visualization]
 ---
 
 Following [original work by Nic](http://2000nickels.com/blog/2012/07/08/hypercritical-length/) at 2000 Nickels (a fellow Octopress user, I notice), here's another effort to answer the vital question of the moment about [Hypercritical](http://5by5.tv/hypercritical), namely whether John Siracusa's effort to control his logorrhea has met with any success.

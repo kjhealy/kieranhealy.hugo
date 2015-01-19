@@ -3,7 +3,7 @@
 title: "A Co-Citation Network for Philosophy"
 date: "2013-06-18"
 comments: false
-categories: [Philosophy,Sociology,Data]
+categories: [Philosophy,Sociology,Data,Visualization]
 ---
 
 <small>*Corrections and Changes as of June 26th, 2013:* See the end of the post for details on some changes and fixes to errors in the data.</small>

@@ -19,4 +19,4 @@ The organizational sociologist Chick Perrow wrote a book about this once, called
 
 [^urns]: That's why I believe John thought of choosing balls from an urn when Marco brought it up on ATP, rather than multiplying out probabilities as such.
 
-[^polyn]: OK, polynomially
+[^polyn]: OK, polynomially.

@@ -2,7 +2,7 @@
 title: "Scottish Independence"
 date: "2014-09-19"
 slug: "scottish-independence"
-categories: [Sociology,Politics]
+categories: [Sociology,Politics,Visualization]
 ---
 
 So, Scotland remains part of the United Kingdom. This morning on the bus (I should run a series called "Idle Data Analysis on the Bus") I looked at how the high turnout compared to other Scottish elections. Data on turnout is easily available back to 1970. Here are two views of it.

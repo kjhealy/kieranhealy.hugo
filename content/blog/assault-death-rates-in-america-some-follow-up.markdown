@@ -3,7 +3,7 @@
 title: "Assault Death Rates in America: Some Follow-Up"
 date: "2012-12-18"
 comments: true
-categories: [Data, Sociology, News]
+categories: [Data, Sociology, News, Visualization]
 ---
 
 The Newtown elementary school shooting led people to link to and share my graphs of OECD and CDC data on assault deaths in the United States. I made them last July, in the wake of the Aurora movie theater shooting. What a depressing reason to be in the newspapers. Here are the original posts: [America is a Violent Country](http://www.kieranhealy.org/blog/archives/2012/07/20/america-is-a-violent-country/), and [Assault Deaths Within the United States](http://www.kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/). 

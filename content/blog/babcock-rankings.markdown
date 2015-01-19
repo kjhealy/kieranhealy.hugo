@@ -2,7 +2,7 @@
 title: "The Persistence of the Old Regime"
 date: "2014-08-06"
 slug: "persistence-of-the-old-regime"
-categories: [Sociology,Nerdery]
+categories: [Sociology,Nerdery,Visualization]
 ---
 
 This afternoon I ended up reading [this Vox story](http://www.vox.com/2014/8/6/5973653/the-federal-government-tried-to-rank-colleges-in-1911) about an effort to rank US Universities and Colleges carried out in 1911 by a man named Kendric Charles Babcock. On Twitter, [Robert Kelchen remarks](https://twitter.com/rkelchen/status/496746198112686082) that the report was "squashed by Taft" (an unpleasant fate), and he [links to the report itself](https://ia700504.us.archive.org/0/items/classificationof01unit/classificationof01unit.pdf), which is terrific. Babcock divided schools into four Classes, beginning with Class I:

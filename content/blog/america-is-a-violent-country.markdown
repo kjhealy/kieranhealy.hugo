@@ -3,7 +3,7 @@
 title: "America is a Violent Country"
 date: "2012-07-20"
 comments: true
-categories: [Data,Sociology,News]
+categories: [Data,Sociology,News,Visualization]
 ---
 
 *Update (December 2012).* For answers to some frequently-asked questions about this post, see [this follow-up discussion](http://www.kieranhealy.org/blog/archives/2012/12/18/assault-death-rates-in-america-some-follow-up/). You can also read more about patterns of [assault deaths within the United States](http://www.kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/).

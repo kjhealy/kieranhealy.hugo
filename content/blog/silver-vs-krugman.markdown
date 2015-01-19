@@ -1,7 +1,7 @@
 ---
 title: "Silver vs Krugman"
 date: "2014-03-26"
-categories: [Data,Politics,IT,Nerdery]
+categories: [Data,Politics,IT,Nerdery,Visualization]
 ---
 
 Nate Silver's relaunched [FiveThirtyEight](http://fivethirtyeight.com) has been getting some flak from critics---including many former fans---for failing to live up to expectations. Specifically, critics have argued that instead of foxily modeling data and working the numbers, Silver and his co-contributors are looking more like regular old opinion columnists with rather better chart software. Paul Krugman has been a prominent critic, [arguing that](http://krugman.blogs.nytimes.com/2014/03/26/data-as-slogan-data-as-substance/) "For all the big talk about data-driven analysis, what [the site] actually delivers is sloppy and casual opining with a bit of data used, as the old saying goes, the way a drunkard uses a lamppost — for support, not illumination." Silver has put his tongue at least part way into his cheek and [pushed back a little](http://fivethirtyeight.com/datalab/for-columnist-a-change-of-tone/) with an article titled, in true <em>Times</em> fashion, "[For Columnist, a Change of Tone](http://fivethirtyeight.com/datalab/for-columnist-a-change-of-tone/)".

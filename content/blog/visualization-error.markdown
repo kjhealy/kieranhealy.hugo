@@ -1,7 +1,7 @@
 ---
 title: "A Visualization Error"
 date: "2014-08-05"
-categories: [Sociology,Nerdery]
+categories: [Sociology,Nerdery,Visualization]
 ---
 
 My [Annual Review](http://www.annualreviews.org/journal/soc) piece with Jim Moody, [Data Visualization in Sociology](http://kieranhealy.org/files/papers/data-visualization.pdf), was officially published just recently. Reaction to the article has been positive and hopefully people will find it useful. One theme of the article is that good use of visualization can help pick out unusual patterns in data and help researchers figure out errors or other anomalies in their data. So, life being what it is,  naturally there's a mistake in one of the figures.

@@ -3,7 +3,7 @@
 title: "Talk Radio"
 date: "2012-07-17"
 comments: true
-categories: [Data,Nerdery,Internet]
+categories: [Data,Nerdery,Internet,Visualization]
 ---
 
 After our analysis of the [Hypercritical data](http://www.kieranhealy.org/blog/archives/2012/07/13/trying-to-rein-it-in/) it only seemed fair to check whether other [5by5](http://5by5.tv) hosts were prone to talk longer the longer their show has been on the air. As it happens, the spreadsheet-like layout of iTunes makes it easy to copy and paste episode data into a usable format. (Although, inevitably, some cleaning is required---a pox on you, inconsistent time formats.) I used the episode-length data for the 5by5 shows I subscribe to that also had a large-enough number of episodes to look at. Here's the collective trend for four shows that were in my iTunes podcast list:
