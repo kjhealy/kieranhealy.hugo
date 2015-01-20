@@ -111,6 +111,7 @@ html {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
+    font-size: 22px;
   }
 }
 
@@ -118,6 +119,7 @@ html {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
+    font-size: 22px;
   }
 }
 
