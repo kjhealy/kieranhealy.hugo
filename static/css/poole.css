@@ -48,12 +48,12 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
 }
 @media (min-width: 38rem) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -337,7 +337,7 @@ ul.category li {margin-bottom: 0.8rem;}
 
 ul.catlist { list-style: none; margin: 0; padding: 0; }
 ul.catlist li { display: inline;}
-ul.catlist li:after { content: "・"; font-size: 14px; }
+ul.catlist li:after { content: "・"; font-size: 12px; }
 ul.catlist li:last-child:after { content: ""; }
 
 /* This gets Google to fall into place */
@@ -385,38 +385,10 @@ ul.catlist li:last-child:after { content: ""; }
  */
 
 .container {
-  max-width: 38rem;
-  padding-left:  1rem;
+  padding-left:  2rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
-}
-
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
 }
 
 

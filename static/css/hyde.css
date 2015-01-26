@@ -50,7 +50,8 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.25rem 0.5rem;
+  padding-bottom: 0.25rem;
   color: rgba(255,255,255,.5);
 }
 
@@ -111,7 +112,7 @@ html {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -119,7 +120,7 @@ html {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
