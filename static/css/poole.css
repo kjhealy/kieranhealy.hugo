@@ -259,6 +259,12 @@ img {
   width:100%;
 }
 
+figure {
+    margin-right: -140px;
+    max-width: 900px;
+}
+
+
 .fpimg {
  padding-bottom: 2rem;
 }
