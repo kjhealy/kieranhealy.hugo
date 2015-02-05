@@ -296,11 +296,12 @@ figure {
 
 /* Tables */
 table {
-  margin-bottom: 1rem;
-  width: 100%;
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
-  border-collapse: collapse;
+    font-size: 0.6rem;  
+    margin-bottom: 1rem;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-collapse: collapse;
 }
 td,
 th {

@@ -5,9 +5,9 @@ categories: [Visualization,Data,Sociology]
 ---
 
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-school-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
+{{% figure src="http://kieranhealy.org/files/misc/pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
 
-([PDF available.](http://kieranhealy.org/files/misc/pbe-by-school-jit.pdf))
+([PDF available.](http://kieranhealy.org/files/misc/pbe-by-school-type-jit.pdf))
 
 
 I came across a report this afternoon, via [Eric Rauchway](https://twitter.com/rauchway/status/560829410082037761), about [high rates of vaccination exemption in Sacramento schools](http://www.sacbee.com/site-services/databases/article8203365.html). As you are surely aware, this is a serious political and public health problem at the moment. Like Eric, I was struck by just how high some of the rates were. So I went and [got the data](http://www.cdph.ca.gov/programs/immunize/pages/immunizationlevels.aspx) from the California Department of Public Health, just wanting to take a quick look at it. If you want to follow along, I put up a [github repository](https://github.com/kjhealy/vaccines-ca) with the data and R code for the plots.
@@ -50,4 +50,4 @@ Finally, the clustering also raises the question of whether there are *big* scho
 
 Here we see a couple of schools that are enrolling a very large number of kindergarteners and also have relatively high PBE rates. Four schools in the state reported enrolling more than two hundred kindergarteners while also having PBE rates of over 10 percent. River Springs Charter reported 556 students and a PBE of 23 percent. Honestly this makes me wonder if the person filling out the form reported the size of the entire elementary school rather than the size of the kindergarten classes. But then again American schools can get pretty huge, so the data are right that’s a lot of little tykes and a 23 percent PBE. Much the same goes for the California Montessori and Visions in Education schools, which reported 242 and 395 enrollments respectively, with 14 and 33 percent PBEs. This brings us full circle as both of these schools are in the same district---the San Juan Unified district in Sacramento. Perhaps someone familiar with these schools can tell me whether the denominators they're reporting are correct.  
 
-*Update:* Some follow-up from readers suggests these enrollment numbers are correct, but the schools may be unusual. Visions in Education and River Springs Charter, for instance, provide services to parents homeschooling their children. (The latter may also have a campus, I'm not sure.) So those students are likely not in the same building each day. I've also added the plot at the top of the page, which I discuss in another post.
+*Update:* Some follow-up from readers suggests these enrollment numbers are correct, but the schools may be unusual. Visions in Education and River Springs Charter, for instance, provide services to parents homeschooling their children. (The latter may also have a campus, I'm not sure.) So those students are likely not in the same building each day. I've also added the plot at the top of the page, which I discuss in [this followup post](http://kieranhealy.org/blog/archives/2015/02/03/another-look-at-the-california-vaccination-data).
