@@ -1,0 +1,22 @@
+---
+date: "2015-02-24"
+title: Gender and Citation in Four General-Interest Philosophy Journals, 1993-2013
+categories: [Philosophy,Sociology,Gender,Visualization]
+---
+
+Last Thursday I gave a talk at the American Philosophical Association's Central Division meetings about patterns in publication and citation in some of the field's major journals. I thought I'd put up a few of the descriptive findings here. I have some more extensive analysis of the data that's almost done, but it deserves a paper of rather than a post.
+
+I'm interested in patters of publication and citation in four high-prestige, nominally general-interest journals within Anglo-American philosophy. A while ago, I took a sample of twenty years worth of articles in the Journal of Philosophy, Mind, the Philosophical Review and Nous and used it to construct [a co-citation graph](http://kieranhealy.org/philcites) that showed what items the articles published in those journals had been talking about. There are about 2,100 articles in the dataset and between them they cite about 34,000 items. By looking at which items tended to be most cited together, a [nice picture emerges](http://kieranhealy.org/philcites) of the topical structure of this portion of the field. You can [read the original post](http://kieranhealy.org/blog/archives/2013/06/18/a-co-citation-network-for-philosophy/) and [follow-up](http://kieranhealy.org/blog/archives/2013/06/19/lewis-and-the-women) [items](http://kieranhealy.org/blog/archives/2013/06/24/citation-networks-in-philosophy-some-followup/) for more details on the methods and results.
+
+{{% figure src="http://kieranhealy.org/files/misc/philcites-gender-2015.png" alt="Co-Citation Graph showing main locations and presence of women (red dots). Epistemology Island is to the west of the main component." caption="Co-Citation Graph showing main locations and presence of women (red dots). Epistemology Island is to the west of the main component." %}}
+
+A striking aspect of the results was that in the network of the five hundred or so most-cited items, only nineteen were by women. Some components of the graph (including, for example, the part I think of as Epistemology Island) had no women authors at all. A natural thing to do here would be to code not just the top five hundred citations but all 34,000 cited items by the gender of their author, and do some analysis from there. Unfortunately this is much easier to say than to do. The records are messy, and more often than not people are cited by last name and initial only, and in other ways that make them hard to identify. We're still working on more or less clever ways to solve this issue, but in the meantime what we've done is take a look not at the network of cited items but at the 2,100 or so published articles that form the basis of the dataset. Over two thousand papers were published between 1993 and 2013 in Nous, Phil. Review, Mind, and J. Phil, by about eleven hundred authors. With some able research assistance from my student [Nick Bloom](http://nickbloom.net), we've coded these authors by gender and thus all their papers as well. This was tricky at times (as Nick somewhat bitterly remarked at one point during the validation phase, "Only in Philosophy do Hilary, Shelley, and Jody all turn out to be dudes") but we were careful. The talk at the APA, and  was about those papers, as is the rest of this post. 
+
+## Publications by Women in Each Journal
+Let's begin by looking at how often women are published in each journal. Here's a bar chart for each of them showing the percent of articles by women each year. For the data as a whole, 87.5 percent of articles are by men and 12.5 percent by women. This varies a bit by journal. For all four journals considered together the percentage of female authors rose from about eleven percent in 1993 to about fourteen percent in 2013. But the annual totals bounce around a bit. 
+
+{{% figure src="http://kieranhealy.org/files/misc/journal-women-by-year-lm.png" alt="Percent female authors by journal and year." caption="Percent of articles by women in each journal, 1993-2013." %}}
+
+Within each journal, as we would expect, we see more variability. Nous puts out more issues than the other three, so its trend line is a bit smoother. Note that J. Phil., Mind, and Phil. Review *each* have two years in the time series where they published no women at all.
+
+## The Matthew Effect is a Harsh Mistress
