@@ -9,7 +9,7 @@
    <ul class="category">
    {{ $data := .Data }}
     {{ range $key,$value := .Data.Index.ByCount }}
-    <li><a href="{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }} entries.) </li>
+    <li><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }} entries.) </li>
     {{ end }}
    </ul>
   </div>
