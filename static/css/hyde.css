@@ -111,11 +111,16 @@ html {
 /*   } */
 /* } */
 
-@media (min-width: 1rem) {
+@media (min-width: 48rem) {
+  .figure {
+    margin-right: -140px;
+    margin-left: -60px;
+    max-width: 900px;
+}
+  
   .content {
     margin-left: 8rem;
     margin-right: 8rem;
-    font-size: 18px;
   }
 }
 
