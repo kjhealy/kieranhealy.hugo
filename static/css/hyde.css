@@ -34,11 +34,6 @@
 html {
   font-family: "ff-tisa-web-pro", Georgia, Times, "Times New Roman", serif; 
 }
-@media (min-width: 48rem) {
-  html {
-    font-size: 18px;
-  }
-}
 
 /*
  * Sidebar
@@ -50,21 +45,21 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 0.25rem 0.5rem;
-  padding-bottom: 0.25rem;
+  padding: 1rem 0.5rem;
+  padding-bottom: 2rem;
   color: rgba(255,255,255,.5);
 }
 
-@media (min-width: 48rem) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}
+/* @media (min-width: 48rem) { */
+/*   .sidebar { */
+/*     position: fixed; */
+/*     top: 0; */
+/*     left: 0; */
+/*     bottom: 0; */
+/*     width: 18rem; */
+/*     text-align: left; */
+/*   } */
+/* } */
 
 /* Sidebar links */
 .sidebar a {
@@ -86,14 +81,14 @@ html {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48rem) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
-}
+/* @media (min-width: 48rem) { */
+/*   .sidebar-sticky { */
+/*     position: absolute; */
+/*     right:  1rem; */
+/*     bottom: 1rem; */
+/*     left:   1rem; */
+/*   } */
+/* } */
 
 
 /* Container
@@ -107,19 +102,19 @@ html {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 48rem) {
-  .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
-    font-size: 18px;
-  }
-}
+/* @media (min-width: 48rem) { */
+/*   .content { */
+/*     max-width: 38rem; */
+/*     margin-left: 20rem; */
+/*     margin-right: 2rem; */
+/*     font-size: 18px; */
+/*   } */
+/* } */
 
-@media (min-width: 64rem) {
+@media (min-width: 1rem) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
     font-size: 18px;
   }
 }

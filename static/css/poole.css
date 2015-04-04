@@ -261,6 +261,7 @@ img {
 
 figure {
     margin-right: -140px;
+    margin-left: -60px;
     max-width: 900px;
 }
 
@@ -268,7 +269,7 @@ figure {
 .fpimg {
  padding-bottom: 2rem;
 }
-
+ 
 .lbg {
   display: inline;
   width: 50%;
