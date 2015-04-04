@@ -111,7 +111,7 @@ html {
 /*   } */
 /* } */
 
-@media (min-width: 48rem) {
+@media (min-width: 40rem) {
   .figure {
     margin-right: -140px;
     margin-left: -60px;
@@ -119,10 +119,29 @@ html {
 }
   
   .content {
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
+
+
+@media (min-width: 56rem) {
+    .content{
+        margin-left: 8rem;
+        margin-right: 8rem;
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 64rem) {
+    .content{
+        margin-left: 12rem;
+        margin-right: 12rem;
+        font-size: 22px;
+    }
+}
+
 
 
 /*
