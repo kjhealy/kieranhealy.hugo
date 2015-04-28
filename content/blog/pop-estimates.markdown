@@ -4,7 +4,7 @@ title: Guessing the Population Composition of the US
 categories: [Sociology,Visualization]
 ---
 
-Following a conversation on Twitter this morning, here's a quick plot of some GSS data from 2000. Respondents were asked to estimate the percentage of people in the United States who fell into a range of (not necessarily exclusive) categories: White, Black, Hispanic, Asian, and Jewish. Here we show the median guess of White respondents and Black respondents, together with the actual percentage of people in each category (based on the 2000 Census). 
+Following a conversation on Twitter this morning, here's a quick plot of some GSS data from 2000. Respondents were asked to estimate the percentage of people in the United States who fell into a range of (not necessarily exclusive) categories: White, Black, Hispanic, Asian, and Jewish. Here we show the median guesses of White respondents and Black respondents, together with the actual percentage of people in each category, based on the 2000 Census. 
 
 {{% figure src="http://kieranhealy.org/files/misc/gss-group-pctby-race.png" alt="Estimates of racial and ethnic composition, by race." caption="Estimates of the percentage of Americans falling into various racial and ethnic categories, broken down by race of respondent (White or Black). Data: General Social Survey (2000) for guesses, and US Census (2000) for actual values." %}}
 
