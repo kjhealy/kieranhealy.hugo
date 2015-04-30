@@ -27,7 +27,7 @@ Note that the time periods covered are not the same, as the iPhone has been on t
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-mac-decomposition-gg.png" alt="Mac STL decomposition, v2." caption="STL decomposition for Mac sales." %}}
 
-Much more stable. Note that the seasonal swing is regular but over a much smaller range than the other two.
+Much more stable. Note that the seasonal swing is regular but over a much smaller range than the other two. As [Dr Drang notes in an update](http://leancrew.com/all-this/), you can also see a two-quarter seasonal peak for Macs---back-to-school and the holidays---compared to the one-quarter peaks for iPhones and iPads.
 
 For easier comparison, here are the trend-normalized seasonal swings for each product, this time on the same scale.
 
