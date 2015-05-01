@@ -10,6 +10,7 @@ categories:
 - IT
 - orgtheory
 - Sociology
+- Apple
 ---
 
 Via [John Gruber](http://online.wsj.com/article/SB122470518133359437.html) comes news that [Apple has hired Joel Podolny](http://online.wsj.com/article/SB122470518133359437.html) away from his position as Dean of Yale's Business School to lead a project called "Apple University". The *Wall Street Journal* says:

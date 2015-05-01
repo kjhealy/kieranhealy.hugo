@@ -3,7 +3,7 @@
 title: "Apple for the Teacher"
 date: "2012-01-19"
 comments: false
-categories: [Nerdery,IT]
+categories: [Nerdery,IT,Apple]
 ---
 
 Yesterday Apple launched some

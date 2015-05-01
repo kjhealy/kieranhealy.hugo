@@ -14,7 +14,7 @@ The story is essentially the same as the good Doctor's. Even though Mac sales ha
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends-mac.png" alt="Sales trends for Macs." caption="Quarterly sales data for Apple Macs." %}}
 
-Finally, using R's `stl` function we can [decompose the various time series](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/stl.html) into Seasonal, Trend, and Residual components. The seasonal line shows things like regular holiday sales spikes, the trend line is for overall growth, and the remainder (or residual) bars are good for picking out quarters where sales were unusually high or low net of expected growth and seasonal spikes. Following a suggestion from Dr Drang I show both the raw seasonal component, and seasonality standardized by the trend value.
+LOESS smoothing can be extended to do a few more interesting things with time series. As described by William Cleveland in his great [Visualizing Data](http://www.stat.purdue.edu/~wsc/visualizing.html), and implemented by R's `stl` function, we can use it to [decompose the various time series](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/stl.html) into Seasonal, Trend, and Residual components. The seasonal line shows things like regular holiday sales spikes, the trend line is for overall growth, and the remainder (or residual) bars are good for picking out quarters where sales were unusually high or low net of expected growth and seasonal spikes. Following a suggestion from Dr Drang I show both the raw seasonal component, and seasonality standardized by the trend value.
 
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-ipad-decomposition-gg.png" alt="iPad STL decomposition." caption="STL decomposition for iPad sales." %}}
@@ -27,7 +27,7 @@ Note that the time periods covered are not the same, as the iPhone has been on t
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-mac-decomposition-gg.png" alt="Mac STL decomposition, v2." caption="STL decomposition for Mac sales." %}}
 
-Much more stable. Note that the seasonal swing is regular but over a much smaller range than the other two. As [Dr Drang notes in an update](http://leancrew.com/all-this/), you can also see a two-quarter seasonal peak for Macs---back-to-school and the holidays---compared to the one-quarter peaks for iPhones and iPads.
+Much more stable. Note that the seasonal swing is regular but over a much smaller range than the other two. As [Dr Drang notes in an update](http://leancrew.com/all-this/), you can also see a two-quarter seasonal peak for Macs---back-to-school and the holidays---compared to the one-quarter peaks for iPhones and iPads. I think you can see this seasonality emerge over time, too, as in earlier periods the Holiday peak is more pronounced than the back-to-school one.
 
 For easier comparison, here are the trend-normalized seasonal swings for each product, this time on the same scale.
 

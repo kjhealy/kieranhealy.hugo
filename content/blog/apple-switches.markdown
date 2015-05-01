@@ -8,6 +8,7 @@ title: Apple Switches
 wordpress_id: '804'
 categories:
 - Misc
+- Apple
 ---
 
 Steve Jobs [announced](http://www.apple.com/pr/library/2005/jun/06intel.html) that Apple will ditch the IBM PowerPC processor and begin using Intel chips in its computers as of next year.

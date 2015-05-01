@@ -40,7 +40,7 @@ PROF. CORLEONE: I understand. You found paradise in Senior Year. The Associate D
 BONASENIOR: I ask you for justice. I'm applying to Med School!
 
 
-PROF. CORLEONE: That is not justice. I fear for your future patients.
+PROF. CORLEONE: That is not justice; right now thanks to me your future patients are still alive.
 
 
 BONASENIOR: They can suffer then, as I suffer. Do you know how much I pay to go here?
