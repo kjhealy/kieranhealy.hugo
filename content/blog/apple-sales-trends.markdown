@@ -1,7 +1,7 @@
 ---
 date: "2015-04-28"
 title: Apple Sales Trends
-categories: [Economics,Apple,Visualization]
+categories: [Data,Apple,Nerdery,Visualization]
 ---
 
 _Update (April 30th):_ I redrew the decomposition plots this morning, and added a couple more.
@@ -14,7 +14,7 @@ The story is essentially the same as the good Doctor's. Even though Mac sales ha
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends-mac.png" alt="Sales trends for Macs." caption="Quarterly sales data for Apple Macs." %}}
 
-LOESS smoothing can be extended to do a few more interesting things with time series. As described by William Cleveland in his great book [Visualizing Data](http://www.stat.purdue.edu/~wsc/visualizing.html), and implemented by R's `stl` function, we can use it to [decompose the various time series](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/stl.html) into Seasonal, Trend, and Residual components. The seasonal line shows things like regular holiday sales spikes, the trend line is for overall growth, and the remainder (or residual) bars are good for picking out quarters where sales were unusually high or low net of expected growth and seasonal spikes. Following a suggestion from Dr Drang I show both the raw seasonal component, and seasonality standardized by the trend value.
+LOESS smoothing can be extended to do a few more interesting things with time series. As described by William Cleveland in his great book [Visualizing Data](http://www.stat.purdue.edu/~wsc/visualizing.html), and implemented by R's `stl` function, we can use it to nonparametrically [decompose the various time series](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/stl.html) into Seasonal, Trend, and Residual components. This is a useful technique for exploring data without too much in the way of modeling assumptions. (Time-series analysis can get pretty hairy.) In the plots below The seasonal line shows things like regular holiday sales spikes, the trend line is for overall growth, and the remainder (or residual) bars are good for picking out quarters where sales were unusually high or low net of expected growth and seasonal spikes. Following a suggestion from Dr Drang I show both the raw seasonal component, and seasonality standardized by the trend value.
 
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-ipad-decomposition-gg.png" alt="iPad STL decomposition." caption="STL decomposition for iPad sales." %}}
