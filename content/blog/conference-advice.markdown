@@ -18,7 +18,7 @@ As with teenagers, conference attendees secretly and falsely believe that other 
 
 - *Arrange to meet people in advance*. Unless you are already famous, do not rely on bumping into people by accident. If you are already famous, you will be spending a lot of time trying to avoid people, so arrange to meet people in advance anyway. If it's your first time, arrange to meet someone from your department so as not to be lonely. If you don't have anyone to go out to dinner with, just go to your room and get some sleep. 
 
-- In practice not every moment is planned. In general, if you can't be with the one you love, then love the one you're with. If you have the option of going to dinner with some people now, or hanging around a bit longer in the vague hope of eating with some more interesting or more famous people later, *go to dinner now*.
+- In practice not every moment is planned. In general, if you can't be with the one you love, then love the one you're with. If you have the option of going to dinner with some people now, or hanging around a bit longer in the vague hope of eating with some more interesting or more famous people later, to to dinner now*.
 
 -  When you have the opportunity to introduce Bigwig A to Nobody B, *do it in that order*. Say "Bigwig, do you know Nobody?" rather than the other way around, because otherwise Nobody is forced to stammer "Well, uh, yes of course … um…"
 
