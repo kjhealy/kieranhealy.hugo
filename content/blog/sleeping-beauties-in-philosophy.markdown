@@ -3,7 +3,7 @@ date: 2015-06-27T12:11:39+01:00
 title: Sleeping Beauties in Philosophy
 ---
 
-The other day aft Daily Nous, [Justin asked](http://dailynous.com/2015/06/24/sleeping-beauty-papers-in-philosophy/) about so-called "Sleeping Beauty" papers in Philosophy:
+The other day at Daily Nous, [Justin asked](http://dailynous.com/2015/06/24/sleeping-beauty-papers-in-philosophy/) about so-called "Sleeping Beauty" papers in Philosophy:
 
 > “Sleeping Beauty” papers “lie dormant for years before experiencing a sudden spike in citations as they are discovered and recognized as important.” A recent article in [Nature](http://www.nature.com/news/sleeping-beauty-papers-slumber-for-decades-1.17615) discussed scientific papers that have slumbered for decades ... Are there sleeping beauty papers in philosophy? (I mean, of course, besides that paper of yours from a few years back that no one has cited…yet.) Which have slumbered the longest? Who was their “prince”?
 
