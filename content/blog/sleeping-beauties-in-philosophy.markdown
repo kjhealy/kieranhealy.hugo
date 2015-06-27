@@ -1,6 +1,7 @@
 ---
 date: 2015-06-27T12:11:39+01:00
 title: Sleeping Beauties in Philosophy
+categories: [Philosophy,Visualization]
 ---
 
 The other day at Daily Nous, [Justin asked](http://dailynous.com/2015/06/24/sleeping-beauty-papers-in-philosophy/) about so-called "Sleeping Beauty" papers in Philosophy:
