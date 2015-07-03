@@ -260,11 +260,22 @@ img {
 }
 
 figure {
+    /* margin-right: -100px; */
+    /* margin-left: -20px; */
+    /* max-width: 900px; */
+    /* margin-right: -100px; */
+    max-width: 100%;
+    padding: 2px; 
+    border: 1px solid #eee; 
+    margin: 2em auto; 
+    background-color: #f4f4f4;
+    margin-left: -40px;
     margin-right: -100px;
-    margin-left: -20px;
-    max-width: 900px;
+    max-width: 1200px;
+
 }
 
+figcaption { text-align: center; font-size: 0.85em; color: #555; }
 
 .fpimg {
  padding-bottom: 2rem;
@@ -345,7 +356,7 @@ ul.category li {margin-bottom: 0.8rem;}
 
 ul.catlist { list-style: none; margin: 0; padding: 0; }
 ul.catlist li { display: inline;}
-ul.catlist li:after { content: "・"; font-size: 12px; }
+ul.catlist li:after { content: "\b7"; font-size: 12px; }
 ul.catlist li:last-child:after { content: ""; }
 
 /* This gets Google to fall into place */

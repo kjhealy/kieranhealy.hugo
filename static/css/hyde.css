@@ -112,24 +112,33 @@ html {
 /* } */
 
 @media (min-width: 40rem) {
-  .figure {
-    margin-right: -140px;
-    margin-left: -60px;
-    max-width: 900px;
-}
+    .figure {
+        margin-right: auto;
+        margin-left: auto;
+        /* margin-right: -140px; */
+        /* margin-left: -60px; */
+        max-width: 100%;
+    }
   
   .content {
-    margin-left: 4rem;
-    margin-right: 4rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      font-size: 18px;
   }
 }
 
 
 @media (min-width: 56rem) {
+    .figure {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100px;
+    }
+
     .content{
         margin-left: 8rem;
         margin-right: 8rem;
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -138,7 +147,7 @@ html {
     .content{
         margin-left: 12rem;
         margin-right: 12rem;
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
