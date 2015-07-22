@@ -4,7 +4,7 @@ title: Apple Sales Trends Q2 2015
 categories: [Data,Apple,Nerdery,Visualization]
 ---
 
-In an effort to not lose all of my lucrative Consulting Thinkfluanalyst into [to the snowman](http://leancrew.com/all-this/2015/07/plotting-apple/), I redrew my LOESS and LTS decompositions of Apple's quarterly sales data by product. They now extend to Q2 2015. First, here's a plot of the trends showing the individual sales figures with a [LOESS smoother](http://en.wikipedia.org/wiki/Local_regression) fitted to them.
+In an effort to not lose all of my lucrative Consulting Thinkfluanalyst income [to the snowman](http://leancrew.com/all-this/2015/07/plotting-apple/), I redrew my LOESS and LTS decompositions of Apple's quarterly sales data by product. They now extend to Q2 2015. First, here's a plot of the trends showing the individual sales figures with a [LOESS smoother](http://en.wikipedia.org/wiki/Local_regression) fitted to them.
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends.png" alt="Sales trends for Apple products." caption="Figure 1. Quarterly sales data for Apple Macs, iPhones, and iPads." %}}
 
