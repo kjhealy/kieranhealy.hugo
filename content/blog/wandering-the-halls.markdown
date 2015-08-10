@@ -28,6 +28,6 @@ The information booth (if you can find it) is staffed by helpful people who will
 
 Any other contenders out there for least-easily navigable building in the world? More precisely, buildings which look at first glance like they *ought* to be navigable, but turn out to be impossible?
 
-[^1]: I am reliably informed by my friend Gerry Hyde that this is 2-methylphenanthrene, an unpleasant polycyclic aromatic. 
+[^1]: I am reliably informed by my friend Gerry Hyde that it is 2-methylphenanthrene, an unpleasant polycyclic aromatic. 
 
 [^2]: This room is named for the anthropologist [SF Nadel](http://concise.britannica.com/ebc/article?eu=55991), whose analysis of role structures in his *Theory of Social Structure* inspired some of the pioneers of modern structural social theory. Nadel was amongst the first to note that an objective picture of a society's role structure need not map directly onto the picture of that structure carried around in the heads of the people who constitute the society, and that the two will affect each other in complex ways. This seems appropriate.
