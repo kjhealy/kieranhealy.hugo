@@ -1,0 +1,23 @@
+---
+date: 2015-10-16T10:52:02-04:00
+title: Using Containerized Travis-CI to check R in RMarkdown files
+categories: [Data, Sociology, Nerdery]
+---
+
+I'm teaching a short graduate seminar on [Data Visualization with R](http://socviz.github.io/soc880/) this semester. Following [Matt Salganik](https://msalganik.wordpress.com/2015/06/09/rapid-feedback-on-code-with-lintr/), I wanted students to be able to submit homework or other assignments as RMarkdown files, but to have a way to make sure their R code passed [some basic stylistic checks](http://en.wikipedia.org/wiki/Lint_%28software%29) provided by [lintr](https://github.com/jimhester/lintr) before they submitted it to me. Students write `.Rnw` files containing discussion or notes interspersed with chunks of R code. Wae just want to check the code meets some minimal level of syntactical and stylistic correctness. This makes it easier to read at the time and also easier to return to later. This is a useful habit to have beyond the context of a particular course.
+
+When I write things in R locally I usually have `lintr` running in the background of my text editor. It's supported in RStudio, Emacs, Vim, and other editors, as detailed on the [lintr development page](https://github.com/jimhester/lintr) But the idea of linting via GitHub and Travis-CI is also appealing, especially when students are submitting assignments or code snippets on GitHub anyway. [Travis CI](https://travis-ci.org/) is a "continuous integration" service designed for much heavier lifting than I'm doing here. It's for software developers who want to check their code as they go, making sure it compiles and passes various tests. But we'll use it to quickly check our code.
+
+As it turns out, two things have changed since Matt's [writeup](https://msalganik.wordpress.com/2015/06/09/rapid-feedback-on-code-with-lintr/) of the process, both of which make life easier. First, `lintr` can now check `.Rnw` files natively, so we don't have to write a script to manually extract the R code before linting it. Second, Travis can containerize builds so that they run faster. More on this in a second. Containerization on Travis-CI means some aspects of the development environment are a more restrictive than they would otherwise be. But this doesn't matter to us right now.
+
+So, for example: we create a GitHub repository called [lintscreen](https://github.com/kjhealy/lintscreen) and set it up [so that Travis-CI will see it](https://travis-ci.org/getting_started). Travis's build environment is controlled by a configuration file called `.travis.yml` that lives in our repository. [Jan Tilly](http://jtilly.io/) has done all the hard work of configuring a [container-based R on Travis](https://github.com/jtilly/R-travis-container-example), so I just follow his example here. His configuration is intended for people writing R packages. We're just linting code, so things are more straightforward. (The `.travis.yml` file I've used could be simplified even more than I've already done, as we don't need all of `devtools` or the `covr` library for testing. I'll probably do this later.) Once R is setup and the additional packages compiled in our container's local directory, we just tell Travis to run a very simple shell script. It takes any `.Rmd` files in the top-level directory and puts them through `lintr`.
+
+Over at Travis, you get the results of all of this activity on the log screen for your repository. The first time it runs it takes about ten minutes, because the local R packages have to be built. But then those packages get cached, so subsequent runs take less than a minute. When `lintr` finds something to complain about, the script exits with a status code of 1 so Travis says it failed. It looks like this:
+
+{{% img src="http://www.kieranhealy.org/files/misc/lintscreen-fail.png" caption="A file fails to pass the lint check." alt="A file fails to pass the lint check." %}}
+
+In this case, `lintr` is complaining that I've used `=` as an assignment operator in R instead of `<-`, in violation of the style rules. If we fix the errors in our text editor, commit the change in git, and push them to the repo, then Travis notices, reruns everything, and then gives you the good news.
+
+{{% img src="http://www.kieranhealy.org/files/misc/lintscreen-pass.png" caption="Successfully passed." alt="Lint check successfully passed." %}}
+
+The upshot is that if people are working with `.Rmd` files and using GitHub, they can set up Travis, drop the `.travis.yml` configuration and `travis-linter.sh` script into their repo,  and have Travis-CI automatically and quickly check their code before they submit it.
