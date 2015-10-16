@@ -1,7 +1,7 @@
 ---
 date: 2015-10-16T10:52:02-04:00
 title: Using Containerized Travis-CI to check R in RMarkdown files
-categories: [Data, Sociology, Nerdery]
+categories: [Data, Sociology, Nerdery, R]
 ---
 
 I'm teaching a short graduate seminar on [Data Visualization with R](http://socviz.github.io/soc880/) this semester. Following [Matt Salganik](https://msalganik.wordpress.com/2015/06/09/rapid-feedback-on-code-with-lintr/), I wanted students to be able to submit homework or other assignments as [R Markdown](http://rmarkdown.rstudio.com) files, but to have a way to make sure their R code passed [some basic stylistic checks](http://en.wikipedia.org/wiki/Lint_%28software%29) provided by [lintr](https://github.com/jimhester/lintr) before they submitted it to me. Students write `.Rnw` files containing discussion or notes interspersed with chunks of R code. We just want to check the code meets some minimal level of syntactical and stylistic correctness. This makes it easier to read at the time and also easier to return to later. This is a useful habit to have beyond the context of homework assignments for a particular course, too.
