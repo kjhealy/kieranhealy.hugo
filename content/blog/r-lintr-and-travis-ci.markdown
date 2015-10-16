@@ -81,6 +81,7 @@ exitstatus=0
 
 for file in *.Rmd
 do
+    Rscript -e "lintr::lint(\"$file\")"
     outputbytes=`Rscript -e "lintr::lint(\"$file\")" | grep ^ | wc -c`
     if [ $outputbytes -gt 0 ]
     then
@@ -92,7 +93,7 @@ exit $exitstatus
 
 {{< /highlight >}}
 
-It's very straightforward, but a script like this can easily be extended to perform much more complicated tasks. 
+It's very straightforward, but a script like this can easily be extended to perform much more complicated tasks. Rscript is called twice so that you can see the output (if any) in your Travis log (the first call) and to generate the exit status that lets Travis decide whether your build has failed (the second call). (There's certainly got to be a more efficient way to do this than effectively linting the file twice. Probably I should just pipe the first to a file and `cat` the output if there is any, while setting the exit status at the same time.)
 
 Over at Travis, you get the results of all of this activity on the log screen for your repository. The first time it runs it takes about ten minutes, because the local R packages have to be built. But then those packages get cached, so subsequent runs take less than a minute. When `lintr` finds something to complain about, the script exits with a status code of 1 so Travis says it failed. It looks like this:
 
