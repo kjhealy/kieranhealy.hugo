@@ -10,7 +10,88 @@ When I write things in R locally I usually have `lintr` running in the backgroun
 
 As it turns out, two things have changed since Matt's [writeup](https://msalganik.wordpress.com/2015/06/09/rapid-feedback-on-code-with-lintr/) of the process, both of which make life easier. First, `lintr` can now check `.Rnw` files natively, so we don't have to write a script to manually extract the R code before linting it. Second, Travis can containerize builds so that they run faster. More on this in a second. Containerization on Travis-CI means some aspects of the development environment are a more restrictive than they would otherwise be. But this doesn't matter to us right now.
 
-So, for example: we create a GitHub repository called [lintscreen](https://github.com/kjhealy/lintscreen) and set it up [so that Travis-CI will see it](https://travis-ci.org/getting_started). Travis's build environment is controlled by a configuration file called `.travis.yml` that lives in our repository. [Jan Tilly](http://jtilly.io/) has done all the hard work of configuring a [container-based R on Travis](https://github.com/jtilly/R-travis-container-example), so I just follow his example here. His configuration is intended for people writing R packages. We're just linting code, so things are more straightforward. (The `.travis.yml` file I've used could be simplified even more than I've already done, as we don't need all of `devtools` or the `covr` library for testing. I'll probably do this later.) Once R is setup and the additional packages compiled in our container's local directory, we just tell Travis to run a very simple shell script. It takes any `.Rmd` files in the top-level directory and puts them through `lintr`.
+Here's an example. We create a GitHub repository called [lintscreen](https://github.com/kjhealy/lintscreen) and set it up [so that Travis-CI will see it](https://travis-ci.org/getting_started). Travis's build environment is controlled by a configuration file called `.travis.yml` that lives in our repository. [Jan Tilly](http://jtilly.io/) has done all the hard work of configuring a [container-based R on Travis](https://github.com/jtilly/R-travis-container-example), so I just follow his example here. His configuration is intended for people writing R packages. We're just linting code, so things are more straightforward. Here's what `.travis.yml` looks like:
+
+{{< highlight yaml >}}
+
+# .travis.yml using container-based infrastructure
+# travis configuration file courtesy of Jan Tilly:
+# https://github.com/jtilly/R-travis-container-example
+
+# use c as catch-all language
+language: c
+
+# use containers
+sudo: false
+
+# only run for pushes to master branch
+branches:
+  only:
+   - master
+
+# install R: use r-packages-precise (https://cran.r-project.org/bin/linux/ubuntu/precise/) 
+# as source which is white listed (https://github.com/travis-ci/apt-source-whitelist/)
+addons:
+  apt:
+    sources:
+    - r-packages-precise
+    packages:
+    - r-base-dev	
+    - r-recommended
+    - pandoc
+
+# cache local R libraries directory:
+cache:
+  directories:
+    - ~/Rlib
+
+# install the package and dependencies:
+# - create directory for R libraries (if not already exists)
+# - create .Renviron with location of R libraries
+# - define R repository in .Rprofile
+# - add .travis.yml to .Rbuildignore
+# - install devtools if not already installed
+# - install covr if not already installed
+# - update all installed packages
+
+install:
+  - mkdir -p ~/Rlib
+  - echo 'R_LIBS=~/Rlib' > .Renviron
+  - echo 'options(repos = "http://cran.rstudio.com")' > .Rprofile
+  - echo '.travis.yml' > .Rbuildignore
+  - Rscript -e 'if(!"devtools" %in% rownames(installed.packages())) { install.packages("devtools", dependencies = TRUE) }'
+  - Rscript -e 'if(!"covr" %in% rownames(installed.packages())) { install.packages("covr", dependencies = TRUE) }'
+  - Rscript -e 'update.packages(ask = FALSE, instlib = "~/Rlib")'
+
+
+# Lint
+script:
+  - ./travis-linter.sh
+
+{{< /highlight >}}
+
+This file could be simplified even more than I've already done. We don't need all of `devtools` or the `covr` library for testing. (I'll probably do this later.) In any event, once R is setup and the additional packages compiled in our container's local directory, we tell Travis (in the `script:`) section, to run a very simple shell script. It takes any `.Rmd` files in the top-level directory and puts them through `lintr`, returning a non-zero exit status if anything goes wrong. It looks like this:
+
+{{< highlight bash >}}
+
+#!/bin/bash
+set -e
+
+exitstatus=0
+
+for file in *.Rmd
+do
+    Rscript -e "lintr::lint(\"$file\")"
+    outputbytes=`Rscript -e "lintr::lint(\"$file\")" | grep ^ | wc -c`
+    if [ $outputbytes -gt 0 ]
+    then
+        exitstatus=1
+    fi
+done
+
+exit $exitstatus
+
+{{< /highlight >}}
 
 Over at Travis, you get the results of all of this activity on the log screen for your repository. The first time it runs it takes about ten minutes, because the local R packages have to be built. But then those packages get cached, so subsequent runs take less than a minute. When `lintr` finds something to complain about, the script exits with a status code of 1 so Travis says it failed. It looks like this:
 
