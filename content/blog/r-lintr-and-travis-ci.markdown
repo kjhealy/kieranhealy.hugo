@@ -92,7 +92,7 @@ exit $exitstatus
 
 {{< /highlight >}}
 
-It's very straightforward, but a script like this can easily be extended to perform a much more complicated tasks. 
+It's very straightforward, but a script like this can easily be extended to perform much more complicated tasks. 
 
 Over at Travis, you get the results of all of this activity on the log screen for your repository. The first time it runs it takes about ten minutes, because the local R packages have to be built. But then those packages get cached, so subsequent runs take less than a minute. When `lintr` finds something to complain about, the script exits with a status code of 1 so Travis says it failed. It looks like this:
 
