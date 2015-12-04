@@ -18,7 +18,13 @@ As you can see the range of variation is quite wide. We can break out out the bo
 
 Far more people die of assault in the South, and especially the Deep South, than elsewhere in the country. But as in the [earlier plots](http://kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/), it's worth remembering that, in comparison to other OECD countries, even the placid Northeast is several times more violent than any other OECD country, except Mexico.
 
-Here's a small-multiple for each state, ordered from highest to lowest median rate over the period. Notice that for some of the small states mentioned above, estimates are not available and aren't plotted.
+Here's another view of the same data, showing the regional averages (the thick lines) and the individual state trends (the dotted lines). 
+
+{{% img src="http://www.kieranhealy.org/files/misc/state-assault-lineplots.png" caption="Assault Death rates in US States, by Census Region, 1999-2013." alt="Assault Death rates in US States, by Census Region, 1999-2013." %}}
+
+[(PDF)](http://www.kieranhealy.org/files/misc/state-assault-lineplots.pdf)
+
+And finally here's a small-multiple for each state, ordered from highest to lowest median rate over the period. Notice that for some of the small states mentioned above, estimates are not available and aren't plotted.
 
 {{% img src="http://www.kieranhealy.org/files/misc/state-assault-sm.png" caption="Assault Death rates in US States, 1999-2013." alt="Assault Death rates in US States, 1999-2013." %}}
 
