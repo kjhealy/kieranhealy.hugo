@@ -8,7 +8,7 @@ Marissa Mayer's performance as CEO of Yahoo has been criticized by various peopl
 
 I ended up taking a closer look at some of the slides that present data. Here's a typical example.
 
-{{% img src="http://www.kieranhealy.org/files/misc/springowl.jpg" caption="What Fresh Hell Is This?." %}}
+{{% figure src="http://www.kieranhealy.org/files/misc/springowl.jpg" caption="What Fresh Hell Is This?." %}}
 
 The slide seems to want to say something about the relationship between Yahoo's number of employees and its revenue. The natural thing to do in that case would be to make some kind of scatterplot to see if there was a relationship between these variables. Instead, though, the slide puts time on the x-axis and uses two y-axes to show the employee and revenue data. It plots the revenues as a bar chart and the employee data as points connected by slightly wavy lines. It's not clear whether the connecting line segments are just manually added or if there's some principle underlying the wiggles. The revenue values are uses as labels within the bars. The points are not labeled. Employee data goes to 2015 but revenue data only to 2014. An arrow points to the date Mayer was hired as CEO, and a red dotted line seems to indicate ... actually I'm not sure. Maybe some sort of threshold below which employee numbers should fall? Or maybe just the last observed value, to allow comparison across the series? I don't know. Finally, you'll also notice that while the revenue numbers are annual, there is more than one observation per year for some of the later employee numbers. A bit of googling around leads me to believe that the person who made this graph got their data [from this time series](https://atlas.qz.com/charts/41iiceqt), which matches the values and number of observations in the chart. More recent years have quarterly employee data.
 
@@ -16,13 +16,13 @@ How should we redraw this chart? Let's focus on getting across the relationship 
 
 Here is a first cut at redrawing the figure.
 
-{{% img src="http://www.kieranhealy.org/files/misc/yahoo-employees-revenue-1.png" caption="Yahoo Employees vs Revenue, version 1." %}}
+{{% figure src="http://www.kieranhealy.org/files/misc/yahoo-employees-revenue-1.png" caption="Yahoo Employees vs Revenue, version 1." %}}
 
 We plot the employee vs revenue relationship as points, put in a linear regression line showing the association (standard error range in gray), and color the points based on whether Mayer was CEO. From this figure it looks like Mayer's years as CEO are associated with lower than average numbers on both revenue and employees.
 
 Because the data are a time series---especially because there aren't that many observations---it's useful to keep that element visible somehow in the chart. The original slide did this by putting time on the x-axis, but that led to all kinds of problems. Instead, we can keep the scatterplot axes but use line segments to "join the dots" of the yearly observations in order, labeling each point with its year. The result is a plot that shows the trajectory of the company over time, like a snail moving across a flagstone.
 
-{{% img src="http://www.kieranhealy.org/files/misc/yahoo-employees-revenue-2.png" caption="Yahoo Employees vs Revenue, version 2." %}}
+{{% figure src="http://www.kieranhealy.org/files/misc/yahoo-employees-revenue-2.png" caption="Yahoo Employees vs Revenue, version 2." %}}
 
 This way of looking at the data suggests---as is common when new CEOs arrive at companies---that Mayer was appointed after a period of falling revenues and her first big act was to fire a lot of people. Since then, either through new hires or acquisitions, employee numbers have crept back up a little while revenues have continued to fall. I think this version conveys what the original slide was trying to get across, just rather more clearly. 
 
