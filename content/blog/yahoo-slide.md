@@ -28,4 +28,8 @@ Because the data are a time series---especially because there aren't that many o
 
 This way of looking at the data suggests---as is common when new CEOs arrive at companies---that Mayer was appointed after a period of falling revenues and just following a very large round of layoffs. Since then, either through new hires or acquisitions, employee numbers have crept back up a little while revenues have continued to fall. I think this version conveys what the original slide was trying to get across, just rather more clearly. 
 
+Finally, as suggested by Dan Davies, we can make the analysis community happy by putting time back on the x-axis and plotting the ratio of revenue to employees on the y-axis. This gives us the all-important trend back, only sensibly this time.
+
+{{% figure src="http://www.kieranhealy.org/files/misc/yahoo-employees-revenue-3.png" caption="Yahoo Employees vs Revenue, version 3." %}}
+
 There are other ways to represent this data. If you want to try yourself, or just see what I did, the R code and data [are available on GitHub](https://github.com/kjhealy/yahoo).
