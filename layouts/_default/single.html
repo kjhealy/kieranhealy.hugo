@@ -6,7 +6,6 @@
   {{ $baseurl := .Site.BaseURL }}
 
 <div class="content container">
-<section id="main">
   <div class="post">
       <h6 class="shortend">{{ .Date.Format "Mon Jan 2, 2006" }}</h6>
 
@@ -16,7 +15,6 @@
            {{ .Content }}
         </article>
   </div>
-</section>
 
 {{ template "partials/social.html" . }}
 

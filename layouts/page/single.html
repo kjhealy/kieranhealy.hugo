@@ -6,7 +6,6 @@
   {{ $baseurl := .Site.BaseURL }}
 
 <div class="content container">
-<section id="main">
   <div class="post">
       <h1 class="post-title">{{ .Title }}</h1>
 
@@ -14,7 +13,6 @@
            {{ .Content }}
         </article>
   </div>
-</section>
 
 {{ template "partials/footer.html" . }}
 

@@ -3,22 +3,18 @@
 {{ template "partials/sidebar.html" . }}
 
 <div class="content container">
-  <h1 class="post-title shortend">Recent Posts</h1>
-
-  <div>
     <!-- <ul> -->
     <!--   {{ range .Data.Pages }} -->
     <!--         {{ .Render "li"}} -->
     <!--   {{ end }} -->
     <!-- </ul> -->
 
-    <ul id="list">
+    <ul class="post" id="list">
       {{ range first 10 .Data.Pages }}
       {{ .Render "summary"}}
       {{ end }}
     </ul>
 
-  </div>
 
 <section>
    <p class="talltop">&#9776; <a href="http://kieranhealy.org/blog/archives/">Archive of Posts by Date</a></p>

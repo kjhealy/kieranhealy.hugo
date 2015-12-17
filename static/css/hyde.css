@@ -50,16 +50,6 @@ html {
   color: rgba(255,255,255,.5);
 }
 
-/* @media (min-width: 48rem) { */
-/*   .sidebar { */
-/*     position: fixed; */
-/*     top: 0; */
-/*     left: 0; */
-/*     bottom: 0; */
-/*     width: 18rem; */
-/*     text-align: left; */
-/*   } */
-/* } */
 
 /* Sidebar links */
 .sidebar a {
@@ -75,22 +65,6 @@ html {
   font-size: 2rem;
 }
 
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-/* @media (min-width: 48rem) { */
-/*   .sidebar-sticky { */
-/*     position: absolute; */
-/*     right:  1rem; */
-/*     bottom: 1rem; */
-/*     left:   1rem; */
-/*   } */
-/* } */
-
-
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
@@ -98,86 +72,8 @@ html {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
-}
-
-/* @media (min-width: 48rem) { */
-/*   .content { */
-/*     max-width: 38rem; */
-/*     margin-left: 20rem; */
-/*     margin-right: 2rem; */
-/*     font-size: 18px; */
-/*   } */
-/* } */
-
-@media (min-width: 40rem) {
-    .figure {
-        margin-right: 1rem;
-        margin-left: 1rem;
-        /* margin-right: -140px; */
-        /* margin-left: -60px; */
-        max-width: 400px;
-    }
-
-    .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-  .content {
-      margin-left: 1rem;
-      margin-right: 1rem;
-  }
-}
-
-
-@media (min-width: 56rem) {
-    .figure {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 100%;
-    }
-
-    .content{
-        margin-left: 8rem;
-        margin-right: 8rem;
-        font-size: 18px;
-    }
-}
-
-
-@media (min-width: 64rem) {
-    .content{
-        margin-left: 12rem;
-        margin-right: 12rem;
-        font-size: 20px;
-    }
-}
-
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48rem) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64rem) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
+    padding-top:    4rem;
+    padding-bottom: 4rem;
 }
 
 
