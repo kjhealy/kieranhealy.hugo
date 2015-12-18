@@ -279,7 +279,7 @@ figure {
 
 }
 
-figcaption { text-align: center; font-size: 0.85em; color: #555; }
+figcaption { text-align: center; font-size: 1.1em; color: #555;}
 
 .fpimg {
  padding-bottom: 2rem;
@@ -466,7 +466,7 @@ and (max-device-width : 656px) {
 
 }
 
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 1024px) {    
     .page,
     .post {
         max-width: 50%;
