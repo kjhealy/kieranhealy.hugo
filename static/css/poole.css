@@ -431,7 +431,7 @@ ul.catlist li:last-child:after { content: ""; }
 .page,
 .post {
     margin-bottom: 4em;
-    max-width: 80%;
+    max-width: 72%;
 }
 
 
@@ -466,10 +466,10 @@ and (max-device-width : 656px) {
 
 }
 
-@media only screen and (min-width : 960px) {
+@media only screen and (min-width : 1024px) {
     .page,
     .post {
-        max-width: 62%;
+        max-width: 50%;
     }
 }
 
