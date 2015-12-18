@@ -337,7 +337,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
@@ -431,7 +431,46 @@ ul.catlist li:last-child:after { content: ""; }
 .page,
 .post {
     margin-bottom: 4em;
-    max-width: 85%;
+    max-width: 80%;
+}
+
+
+@media only screen  and (min-device-width : 375px) and (max-device-width : 667px) {
+    .page,
+    .post {
+        font-size: 14px;
+        max-width: 95%;
+    }
+
+    figure {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 656px) {
+    .page,
+    .post {
+        font-size: 14px;
+        max-width: 95%;
+    }
+    
+    figure {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+}
+
+@media only screen and (min-width : 960px) {
+    .page,
+    .post {
+        max-width: 62%;
+    }
 }
 
 .postlist {
