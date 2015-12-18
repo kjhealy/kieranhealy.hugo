@@ -273,7 +273,7 @@ figure {
     margin-left: -40px;
     margin-right: -100px;
     max-width: 1200px;
-    padding-top: 0.5.rem;
+    padding-top: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 
@@ -349,6 +349,8 @@ tbody tr:nth-child(odd) th {
   padding-top: 3rem;
   font-size: small;
   line-height: 0.8rem;
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
 }
 
 figcaption {
