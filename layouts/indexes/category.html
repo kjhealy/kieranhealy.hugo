@@ -3,18 +3,21 @@
 {{ template "partials/sidebar.html" . }}
 
 <div class="content container">
-<section id="main">
-  <div>
-   <h5><a href="/categories">Full Category Index</a></h5> 
-   <h2>Posts in &ldquo;{{ .Title }}&rdquo;<br /></h2>
+  <h5><a href="/categories">Full Category Index</a></h5> 
+  <h2>Posts in &ldquo;{{ .Title }}&rdquo;<br /></h2>
+  
+   <ul class="post" id="list">
     {{ range .Data.Pages }}
          {{ .Render "summary"}}
     {{ end }}
-  </div> 
-</section>
+   </ul>
 
-{{ template "partials/social.html" . }}
-
-{{ template "partials/footer.html" . }}
-
+   <p class="talltop">&#9776; <a href="http://kieranhealy.org/blog/archives/">Archive of Posts by Date</a></p>
+   <p>&#9776; <a href="http://kieranhealy.org/categories/">Archive of Posts by Category</a></p>
+   
+</div> 
+<div class="content container">
+  {{ template "partials/footer.html" . }}
+</div>
+  
 </div>
