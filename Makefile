@@ -7,7 +7,7 @@ PUBLIC_DIR = public/
 all: deploy
 
 server: css
-	hugo server --build-drafts -ws
+	hugo server -ws .
 
 deploy: site
 	rsync -crzve 'ssh -p 22' $(PUBLIC_DIR) $(SSH_USER):$(DOCUMENT_ROOT)
