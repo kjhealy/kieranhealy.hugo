@@ -3,7 +3,7 @@
 title: "Assault Death Rates in America: Some Follow-Up"
 date: "2012-12-18"
 comments: true
-categories: [Data, Sociology, News]
+categories: [Data, Sociology, News, Visualization]
 ---
 
 The Newtown elementary school shooting led people to link to and share my graphs of OECD and CDC data on assault deaths in the United States. I made them last July, in the wake of the Aurora movie theater shooting. What a depressing reason to be in the newspapers. Here are the original posts: [America is a Violent Country](http://www.kieranhealy.org/blog/archives/2012/07/20/america-is-a-violent-country/), and [Assault Deaths Within the United States](http://www.kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/). 
@@ -48,8 +48,8 @@ To get a sense of the issues here take a look at the [spreadsheet on non-fatal a
 
 Now, perhaps all of those statements are true. It's possible to make up a story in each case about how these could all be real differences, rather than artifacts due to variation in state capacity to police, bureaucratic reliability in reporting, and local differences in the definition of reportable assault. But I would be extremely cautious about using these numbers to rebut the idea that, for an economically developed democracy, America is  unusually violent.
 
-*8. But isn't there a lot of variation inside the United States?*<br />Yes, of course. That's why I wrote a post called [Assault Deaths Within the United States](http://www.kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/) as a follow-up, looking at variation by State, Census Region, and race of victim. To keep things comparable with the cross-national data I used the Assault Series from the CDC database. However, if you want to look specifically at gun violence that data is also available from the CDC, and in somewhat different form---allowing for other sorts of comparisons---from the [FBI's crime statistics](http://www.fbi.gov/stats-services/crimestats). 
+*9. But isn't there a lot of variation inside the United States?*<br />Yes, of course. That's why I wrote a post called [Assault Deaths Within the United States](http://www.kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/) as a follow-up, looking at variation by State, Census Region, and race of victim. To keep things comparable with the cross-national data I used the Assault Series from the CDC database. However, if you want to look specifically at gun violence that data is also available from the CDC, and in somewhat different form---allowing for other sorts of comparisons---from the [FBI's crime statistics](http://www.fbi.gov/stats-services/crimestats). 
 
-*9. You don't even do research on violence.*<br />That's right, I don't. For that reason, despite various requests, I don't give interviews or quotes to the media on this topic. Sometimes I informally write about and analyze data on my blog. This was one of those times. I stand by the data analysis, presentation, and discussion in the original posts. 
+*10. You don't even do research on violence.*<br />That's right, I don't. For that reason, despite various requests, I don't give interviews or quotes to the media on this topic. Sometimes I informally write about and analyze data on my blog. This was one of those times. I stand by the data analysis, presentation, and discussion in the original posts. 
 
-*10. Can you make some new graphs for me?*<br />If you want to see exactly what I did with the data, the [R code is on github](https://github.com/kjhealy/assault-deaths). If you want to do your own analysis, go ahead. I remind you that I am not your RA.
+*11. Can you make some new graphs for me?*<br />If you want to see exactly what I did with the data, the [R code is on github](https://github.com/kjhealy/assault-deaths). If you want to do your own analysis, go ahead. I remind you that I am not your RA.

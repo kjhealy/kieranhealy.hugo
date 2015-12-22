@@ -3,7 +3,7 @@
 title: "Goodnight Hypercritical"
 date: "2012-12-02"
 comments: true
-categories: [IT,Nerdery]
+categories: [IT,Nerdery,Apple]
 ---
 
 <blockquote>In the great Mac Pro<br /> 

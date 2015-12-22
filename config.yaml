@@ -1,11 +1,13 @@
 ---
+MetaDataFormat: "yaml"
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false
+pygmentsuseclasses: true
+baseurl: "http://kieranhealy.org/"
 indexes:
   category: "categories"
-baseurl: "http://kieranhealy.org/"
 title: "kieranhealy.org"
 permalinks:
   blog: /blog/archives/:year/:month/:day/:slug

@@ -2,6 +2,7 @@
 #layout: post
 title: "U.S. News's Small N Problem"
 date: "2013-03-14"
+slug: "u-dot-s-newss-small-n-problem"
 comments: true
 categories: [Sociology,Economics]
 ---

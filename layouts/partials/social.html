@@ -1,0 +1,31 @@
+
+<div id="fb-root"></div>
+
+<script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+</script>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="social">
+	<span class="twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en"></a>
+	</span>
+	<span class="Facebook"><div id="fb-root"></div>
+          <div class="fb-like" data-href="{{ .Permalink }}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" width="button_count"></div>
+	</span>
+</div> 
+
+

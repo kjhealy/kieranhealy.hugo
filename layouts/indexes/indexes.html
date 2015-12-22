@@ -1,6 +1,6 @@
-{{ template "chrome/header.html" . }}
-<body lang="en">
-{{ template "chrome/sidebar.html" . }}
+{{ template "partials/header.html" . }}
+<body lang="en" class="theme-base-0f">
+{{ template "partials/sidebar.html" . }}
 
 <div class="content container">
 <section id="main">
@@ -9,12 +9,12 @@
    <ul class="category">
    {{ $data := .Data }}
     {{ range $key,$value := .Data.Index.ByCount }}
-    <li><a href="{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }} entries.) </li>
+    <li><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }} entries.) </li>
     {{ end }}
    </ul>
   </div>
 </section>
 
-{{ template "chrome/footer.html" . }}
+{{ template "partials/footer.html" . }}
 
 </div>

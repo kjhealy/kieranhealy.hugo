@@ -3,14 +3,17 @@
 title: "A Co-Citation Network for Philosophy"
 date: "2013-06-18"
 comments: false
-categories: [Philosophy,Sociology,Data]
+categories: [Philosophy,Sociology,Data,Visualization]
 ---
 
 <small>*Corrections and Changes as of June 26th, 2013:* See the end of the post for details on some changes and fixes to errors in the data.</small>
 
-What have philosophers been talking about for the last two decades? I'm asking---and presenting an answer to---this question partly out of an ongoing research interest in philosophy, partly out of some recent "Does anyone know ...?" questions I've been asked, and partly to play with some new text-processing and visualization methods. There are of course many ways to make the general question specific. Here's the beginnings of an answer based on some work I did yesterday evening.
+What have English-speaking philosophers been talking about for the last two decades? I'm asking---and presenting an answer to---this question partly out of an ongoing research interest in philosophy, partly out of some recent "Does anyone know ...?" questions I've been asked, and partly to play with some new text-processing and visualization methods. There are of course many ways to make the general question specific. Here's the beginnings of an answer based on some work I did yesterday evening.
 
-I took twenty years worth of articles from four major philosophy journals and generated a network from it based on the citations contained in those articles. The substantive idea is as follows. An academic discipline is a sort of exclusive, ongoing conversation. The conversation is carried on, amongst other settings, through books and articles. In many disciplines there are a few high-status general-interest journals that claim to publish the best work in the field. Particular members of the field will of course disagree about how true that is, but for my purposes the point is just a descriptive one. I am interested in what high-status actors in a field are talking about, and one source of information about this is what gets published in high-prestige journals that claim to represent the core of the discipline.
+[Click here for the dynamic version of the network visualization](http://kieranhealy.org/philcites/). Read on for more details about the scope, limits, and interpretation of the data. Follow-up posts can be found [here](http://kieranhealy.org/blog/archives/2013/06/19/lewis-and-the-women) and [here](http://kieranhealy.org/blog/archives/2013/06/24/citation-networks-in-philosophy-some-followup). A [PDF Poster of the co-citation graph](http://kieranhealy.org/files/misc/philosophy-citation-poster.pdf) is also available.
+
+## Data Sources and Methods
+I took twenty years worth of articles from four major English-language philosophy journals and generated a network from it based on the citations contained in those articles. The substantive idea is as follows. An academic discipline is a sort of exclusive, ongoing conversation. The conversation is carried on, amongst other settings, through books and articles. In many disciplines there are a few high-status general-interest journals that claim to publish the best work in the field. Particular members of the field will of course disagree about how true that is, but for my purposes the point is just a descriptive one. I am interested in what high-status actors in a field are talking about, and one source of information about this is what gets published in high-prestige journals that claim to represent the core of the discipline.
 
 In what follows, I'm very indebted to---i.e., I am basically copying---something [Neal Caren did last year for Sociology](http://nealcaren.web.unc.edu/a-sociology-citation-network/), and I'd like to thank Neal for making his code available, and for writing it in the first place.
 

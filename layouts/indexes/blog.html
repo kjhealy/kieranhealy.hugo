@@ -1,35 +1,29 @@
-{{ template "chrome/header.html" . }}
-<body lang="en">
-{{ template "chrome/sidebar.html" . }}
+{{ template "partials/header.html" . }}
+<body lang="en" class="theme-base-0f">
+{{ template "partials/sidebar.html" . }}
 
 <div class="content container">
-  <h1 class="post-title">Recent Posts</h1>
-
-<section id="main">
-  <div>
     <!-- <ul> -->
     <!--   {{ range .Data.Pages }} -->
     <!--         {{ .Render "li"}} -->
     <!--   {{ end }} -->
     <!-- </ul> -->
 
-    <ul id="list">
+    <ul class="post" id="list">
       {{ range first 10 .Data.Pages }}
       {{ .Render "summary"}}
       {{ end }}
     </ul>
 
-  </div>
-</section>
 
 <section>
-   <p>&#9776; <a href="http://kieranhealy.org/blog/archives/">Archive of Posts by Date</a></p>
+   <p class="talltop">&#9776; <a href="http://kieranhealy.org/blog/archives/">Archive of Posts by Date</a></p>
    <p>&#9776; <a href="http://kieranhealy.org/categories/">Archive of Posts by Category</a></p>
 </section>
 
 <aside id="meta"> </aside>
 
 
-{{ template "chrome/footer.html" }}
+{{ template "partials/footer.html" }}
 
 </div>

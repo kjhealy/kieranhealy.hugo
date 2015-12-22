@@ -3,37 +3,36 @@
 <head>
     <meta charset="utf-8">
 
-    {{ template "chrome/meta.html" . }}
+    {{ template "partials/meta.html" . }}
 
-    <base href="{{ .Site.BaseUrl }}">
+    <base href="{{ .Site.BaseURL }}">
     <title>{{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-    {{ template "chrome/head_includes.html" . }}
+    {{ template "partials/head_includes.html" . }}
 </head>
-<body lang="en">
+<body lang="en" class="theme-base-0f">
 
-  {{ template "chrome/sidebar.html" . }}
+  {{ template "partials/sidebar.html" . }}
+
   
-  <div class="content container">
+<div class="content container">
+  
     <div class="page">
 
-<h1>I teach Sociology at Duke University</h1>
+<!-- <img class="fpimg" src="http://kieranhealy.org/files/misc/fp-topslice.png" title="Trend 1"> -->
 
-<p class="lead"> I am an Associate Professor in <a href="http://sociology.duke.edu/">Sociology</a> and the <a href="http://kenan.ethics.duke.edu/">Kenan Institute for Ethics</a>. My other local affiliations include the undergraduate program in <a href="http://markets.duke.edu">Markets and Management Studies</a> and the <a href="https://dnac.ssri.duke.edu">Duke Network Analysis Center</a>.</p>
+<p class="lead"> I am Associate Professor of <a href="http://sociology.duke.edu/">Sociology</a> at <a href="http://www.duke.edu">Duke University</a>. I&#8217;m affiliated with the <a href="http://kenan.ethics.duke.edu/">Kenan Institute for Ethics</a>, the <a href="http://markets.duke.edu">Markets and Management Studies</a> program, and the <a href="https://dnac.ssri.duke.edu">Duke Network Analysis Center</a>.</p>
 
-<img class="fpimg" src="http://kieranhealy.org/files/misc/fp-image-strip-6.png" title="Blocks">
+<!-- <img class="fpimg" src="http://kieranhealy.org/files/misc/fp-bottomslice.png" title="Trend 2"> -->
 
-<h1><a href="http://kieranhealy.org/vita.pdf">My Vita (PDF)</a> &rarr;</h1>
+<h1><a href="http://kieranhealy.org/vita.pdf">My Vita</a> &rarr;</h1>
 
-<p class="lead">Much of my <a href="http://kieranhealy.org/publications.html">research</a> has been about <a href="http://www.amazon.com/Last-Best-Gifts-Altruism-Market/dp/0226322378">exchange in human blood and organs</a>, cultural goods, software, and ideas. My current substantive research interests focus on the <a href="http://kieranhealy.org/files/papers/moral-views-ARS.pdf">moral order of market society</a>, the effect of <a href="http://kieranhealy.org/files/drafts/performativity.pdf">models and measurement on social classification</a>, and the link between those two topics, especially in the <a href="http://kieranhealy.org/files/papers/classification-situations.pdf">consumer credit market</a>. I am also interested in techniques and methods for <a href="http://kieranhealy.org/files/papers/data-visualization.pdf">data visualization</a>.</p>
+<p class="lead">Much of my <a href="http://kieranhealy.org/publications/">research</a> has been about <a href="http://www.amazon.com/Last-Best-Gifts-Altruism-Market/dp/0226322378">exchange in human blood and organs</a>, cultural goods, software, and ideas. My current work focuses on the <a href="http://kieranhealy.org/files/papers/moral-views-ARS.pdf">moral order of market society</a>, the effect of <a href="http://kieranhealy.org/files/drafts/performativity.pdf">models and measurement on social classification</a>, and the link between those two topics, especially in the <a href="http://kieranhealy.org/files/papers/classification-situations.pdf">consumer credit market</a>. I&#8217;m also interested in techniques and methods for <a href="http://kieranhealy.org/files/papers/data-visualization.pdf">data visualization</a>.</p>
 
-<img class="fpimg" src="http://kieranhealy.org/files/misc/fp-image-strip-7.png" title="Trend">
 
-<p class="lead">You can also find me <a href="http://twitter.com/kjhealy">@kjhealy</a> on Twitter and <a href="http://github.com/kjhealy">GitHub</a>.</p>
-
-{{ template "chrome/footer.html" }}
+{{ template "partials/footer.html" }}
 
 </div>
 

@@ -3,7 +3,7 @@
 title: "More 5by5 Data"
 date: "2012-07-18"
 comments: true
-categories: [Data,Nerdery,Internet]
+categories: [Data,Nerdery,Internet,Visualization]
 ---
 
 Thanks to a link from [Marco Arment](http://www.marco.org/), the [Talk Radio](http://www.kieranhealy.org/blog/archives/2012/07/17/talk-radio/) post got a lot of traffic. Following up on some twitter and email requests, here is some additional stuff. First, the data again, but with [The Incomparable](http://5by5.tv/incomparable/) added:

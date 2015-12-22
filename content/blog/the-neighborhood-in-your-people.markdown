@@ -3,7 +3,7 @@
 title: "The Neighborhood in your People"
 date: "2012-07-13"
 comments: true
-categories: [Sociology,Data] 
+categories: [Sociology,Data,Visualization] 
 ---
 
 Via [John Siracusa](https://twitter.com/siracusa/status/223763351396823040), a [really nice exercise in crowdsourcing and data visualization](http://bostonography.com/2012/crowdsourced-neighborhood-boundaries-part-one-consensus/) on Bostonography.

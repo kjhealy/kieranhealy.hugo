@@ -18,14 +18,16 @@ Looking at my referrer logs, I find an uptick in people who find this blog throu
 -   weber vocation
 -   what is the protestant ethic?
 
-This is because right around now, all over the country, undergraduates are writing final papers or taking final exams in sociological theory courses [like the one I teach](http://www.kieranhealy.org/files/teaching/spring03/soc300-syllabus-s03.pdf) [pdf].
+This is because right around now, all over the country, undergraduates are writing final papers or taking final exams in sociological theory courses [like the one I teach](http://www.kieranhealy.org/files/teaching/spring03/soc300-syllabus-s03.pdf).
 
-Some of those searching are doing legitimate research and some are looking for material to [plagiarize](http://www.com-www.com/musiclyrics/lehrertom-lobachevsky.html). I don't know what the relative sizes of those groups are, of course. I usually get at least one open-and-shut case of plagiarism each semester. Like hepatitis, plagiarism comes in several varieties.
+Some of those searching are doing legitimate research and some are looking for material to [plagiarize](http://www.com-www.com/musiclyrics/lehrertom-lobachevsky.html). I don't know what the relative sizes of those groups are, of course. I usually get at least one open-and-shut case of plagiarism each semester.
 
-1.  **Google Plagiarism**. Find a paper or discussion online. Pros: Copy. Paste. Done! Cons: Professor may also know about Google.
-2.  **Paper Mills**. Online databases of papers, either for free or paid. Free ones have the same pros and cons as Google. Paid ones may provide better papers, but cost money. Parallel services for faculty like [Plagiarism.org](http://www.plagiarism.org/free_trial.html#) may catch you out.
-3.  **The File Cabinet**. Located in the Fraternity House or equivalent. Pros: instant library of papers. Cons: someone has to write them in the first place. Possible need to co-ordinate submissions.
-4.  **The Library**. Pros: thousands of obscure books on your topic, with obscure paragraphs to copy. Cons: Faculty may have read books. Not sure where the library is.
+Like hepatitis, plagiarism comes in several varieties.
+
+-  **Google Plagiarism**. Find a paper or discussion online. Pros: Copy. Paste. Done! Cons: Professor may also know about Google.
+-   **Paper Mills**. Online databases of papers, either for free or paid. Free ones have the same pros and cons as Google. Paid ones may provide better papers, but cost money. Parallel services for faculty like [Plagiarism.org](http://www.plagiarism.org/free_trial.html#) may catch you out.
+-   **The File Cabinet**. Located in the Fraternity House or equivalent. Pros: instant library of papers. Cons: someone has to write them in the first place. Possible need to co-ordinate submissions.
+-   **The Library**. Pros: thousands of obscure books on your topic, with obscure paragraphs to copy. Cons: Faculty may have read books. Not sure where the library is.
 
 Few things annoy faculty more than plagiarism, particularly when it's poorly executed. (That doesn't mean well-executed copying is better, just that it's a different sort of insult.) Because people who plagiarize are usually also poor students, they tend not to realise that it's obvious when a paragraph of bumbling prose suddenly rises from its own ashes to become lucid and flowing, or even just moderately coherent.
 

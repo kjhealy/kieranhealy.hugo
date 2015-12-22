@@ -1,21 +1,16 @@
-{{ template "chrome/header.html" . }}
-<body lang="en" itemscope itemtype="http://schema.org/Article">
+{{ template "partials/header.html" . }}
+<body lang="en" class="theme-base-0f" itemscope itemtype="http://schema.org/Article">
 
-  {{ template "chrome/sidebar.html" . }}
+  {{ template "partials/sidebar.html" . }}
 
-  {{ $baseurl := .Site.BaseUrl }}
+  {{ $baseurl := .Site.BaseURL }}
 
 <div class="content container">
 <h1 class="post-title">Archive of All Posts, by Date</h1>
-<section id="main">
-  <div class="post">
-    
-    {{ template "chrome/archive.html" . }}
 
-  </div>
-</section>
+    {{ template "partials/archive.html" . }}
 
-{{ template "chrome/footer.html" . }}
+{{ template "partials/footer.html" . }}
 
 </div>
 

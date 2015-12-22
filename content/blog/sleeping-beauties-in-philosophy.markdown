@@ -1,0 +1,27 @@
+---
+date: 2015-06-27T12:11:39+01:00
+title: Sleeping Beauties in Philosophy
+categories: [Philosophy,Visualization]
+---
+
+The other day at Daily Nous, [Justin asked](http://dailynous.com/2015/06/24/sleeping-beauty-papers-in-philosophy/) about so-called "Sleeping Beauty" papers in Philosophy:
+
+> “Sleeping Beauty” papers “lie dormant for years before experiencing a sudden spike in citations as they are discovered and recognized as important.” A recent article in [Nature](http://www.nature.com/news/sleeping-beauty-papers-slumber-for-decades-1.17615) discussed scientific papers that have slumbered for decades ... Are there sleeping beauty papers in philosophy? (I mean, of course, besides that paper of yours from a few years back that no one has cited…yet.) Which have slumbered the longest? Who was their “prince”?
+
+I've been doing some work with citation data in Philosophy. A few months ago I [put up a post](http://kieranhealy.org/blog/archives/2015/02/25/gender-and-citation-in-four-general-interest-philosophy-journals-1993-2013/) showing some preliminary results from the analysis, focusing on how gender gaps seem to open up across the distribution of citations to articles in a few high-prestige, nominally generalist journals in the field. (Citations are measured using Web of Science's database of publications and citations in the peer-reviewed literature.) Since then I've expanded the dataset a bit, so that it now covers all papers published in *Nous*, the *Journal of Philosophy*, *Mind*, and the *Philosophical Review* between 1990 and 2014, including *Nous*'s various supplements. There are about 2,760 articles all told. I've also gotten cumulative citation data for all these papers, which allows me to examine growth patterns in citation to articles over time. By the by, it also allows me to identify "sleeping beauties", if there are any. Now, a true Sleeping Beauty might be much older than this time window, and perhaps some classics from the 1950s, or the 1590s, will wake in the literature any year now. But I think it's still interesting to see what's happened over a quarter-century of citation. 
+
+As noted in the [earlier post](http://kieranhealy.org/blog/archives/2015/02/25/gender-and-citation-in-four-general-interest-philosophy-journals-1993-2013/), these data suggest citation in Philosophy is both relatively sparse and heavily skewed. A fifth of all papers in the dataset are never cited, and just over fifty percent are cited five times or fewer. So what we're looking for are papers that both turn out to be highly-cited (in this case, say, that end up with thirty or more citations), and that get there after a relatively long wait to be noticed. Here's a figure that shows those articles.
+
+
+{{% figure src="http://kieranhealy.org/files/misc/growth-curve-rlm-sleeper-hits.png" alt="Sleeper Hits are rare." caption="Figure 1. Smoothed growth curves for all articles in Nous, J. Phil, Phil. Review, and Mind 1990-2014 with more than 30 total citations. Sleeping Beauties highlighted in red." %}}
+
+The figure shows smoothed citation growth curves for every article in the dataset with more than thirty total citations. The mass of grey lines are big-hit articles, most of which get off the ground quickly and keep accumulating citations at a fairly fast clip. They are slightly jittered to let you see individual trajectories a little better---although things are bad in the field, there are no articles that start life with negative citations. Note that, to bring out the growth patterns in the early years a bit better, the y-axis is on a log-scale. You can see that, almost without exception, successful papers start accumulating citations right away, with attention continuing to grow over time. Within this group, of course, there's a fair bit of variation---some early successes top-out at 30 cites fairly early on, while others head off into the rarefied air of citation classics. At the other end, there are next to no papers that sit quietly for years before being discovered and then widely cited. I've highlighted the only four plausible candidates. They are,
+
+1. Michael G.F. Martin, "Perception, Concepts, and Memory", *Phil. Review* (1992).
+2. Paul Benson, "Free Agency and Self-Worth", *J. Phil* (1994.)
+3. Stewart Cohen, "Contextualism, Skepticism, and the Structure of Reasons", *Nous* (1999).
+4. Mark Bedau, "Weak Emergence", *Phil. Review* (1997).
+
+Of those four, Bedau's paper is the sleepiest beauty, as it went about a full decade without being cited at all, before climbing rapidly towards 50 cites in the six or seven years after that. It also seems to still be on an upward trend, unlike the papers by Benson and Martin. Cohen's paper is closer in trajectory to Bedau's, but got off the ground a little earlier in its life. But all of them went five years without a single cite, and a decade or thereabouts with five or fewer. All in all, sleeper hits are very uncommon. Most articles either get going right away or live quietly in obscurity forever.
+
+As with the earlier analysis, bear in mind that while citations can come from anywhere in the peer-reviewed literature that Web of Science tracks, the dataset includes only articles published in these four high-status journals, and not the output of the field as a whole. Incidentally, a nice feature of this dataset is that the trajectory of any article in it can be plotted in this way. Perhaps I should open a consultancy for people who want to see how their papers are doing. 

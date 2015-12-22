@@ -38,5 +38,3 @@ For example, you can say **Politics is really Markets**. This is Public Choice T
 And so on and so forth.
 
 **
-
-&lowast;Jesus Christ.

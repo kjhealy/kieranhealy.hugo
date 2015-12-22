@@ -4,7 +4,7 @@ date: "2004-08-14"
 #layout: post
 slug: love-is-a-battlefield-spanning-tree-network-with-no-4-cycles
 status: publish
-title: Love is  a Battlefield  Spanning-Tree Network with no 4-Cycles
+title: Love is a Spanning-Tree Network with no 4-Cycles
 wordpress_id: '674'
 categories:
 - Gender

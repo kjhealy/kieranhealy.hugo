@@ -4,7 +4,7 @@ title: "An issue in Mavericks with com.apple.IconServicesAgent"
 date: "2014-01-07"
 slug: "an-issue-in-mavericks-with-com-dot-apple-dot-iconservicesagent"
 comments: true
-categories: [IT,Nerdery]
+categories: [IT,Nerdery,Apple]
 ---
 
 **Executive Summmary:** If you are having an issue with `IconServicesAgent` consuming all your CPU time, open a terminal window and do this:

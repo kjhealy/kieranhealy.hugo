@@ -1,5 +1,5 @@
 ---
-title: "Plain Text Papers Pandoc"
+title: "Plain Text, Papers, Pandoc"
 date: "2014-01-23"
 slug: plain-text
 categories: [Sociology,IT,Nerdery,R]
@@ -7,7 +7,7 @@ categories: [Sociology,IT,Nerdery,R]
 
 Over the past few months, I've had several people ask me about the tools I use to put papers together. I maintain a page of [resources](http://kieranhealy.org/resources/) somewhat grandiosely headed "Writing and Presenting Social Science". Really it just makes public some configuration files and templates for my text editor and related tools. Things have changed a little recently---which led to people asking the questions---so I will try to lay out the current setup here. I will also try to avoid veering off into generalized noodling about the nature of writing or creativity. ([That's fine for Merlin](http://www.thatsfineformerlin.com).) This is mostly because although I am not a bad writer, I am an excellent procrastinator, and it is embarrassing to write about how to write papers when you could be actually writing papers. My excuse today is that I have a headcold.
 
-So, first I will say a little bit about the general problem, and then I will tell you something  specific: how to take the draft of a scholarly paper, typically including bibliographical references, figures, and the results of some data analysis, and turn it into nice-looking PDF and HTML output. The hopefully redeeming thing about this discussion is that it will help you use the [various resources](http://kieranhealy.org/resources/) I make available for doing this. If you want to copy what I do, you should be able to. But I am not saying you ought to. Nor am I making any claim that what I do is right, rational, efficient, productive, or psychologically healthy. As in an [earlier discussion of mine on this topic](http://www.kieranhealy.org/files/misc/workflow-apps.pdf), my chief counterexample to taking anything here as advice about *writing* or *productivity* is [my wife](http://lapaul.org), who---as I type this---is seated opposite me at the dining room table, putting the final touches to a book written in Microsoft Word. I think MS Word is unpleasant to use for all kinds of reasons, and perhaps you agree. The fact remains she just used it to write a book that will be published later this year by Oxford University Press. On this side of the table, meanwhile, I have this blog post.
+So, first I will say a little bit about the general problem, and then I will tell you something  specific: how to take the draft of a scholarly paper, typically including bibliographical references, figures, and the results of some data analysis, and turn it into nice-looking PDF and HTML output. The hopefully redeeming thing about this discussion is that it will help you use the [various resources](http://kieranhealy.org/resources/) I make available for doing this. If you want to copy what I do, you should be able to.
 
 
 ## What's the problem?
@@ -40,8 +40,11 @@ For transforming a mixture of R code and text into a markdown file, where the co
 
 Here is the document flow we want:
 
-{{% img src="http://kieranhealy.org/files/misc/workflow-rmd-md.png" %}}
-<h5>I promise this is less insane than it appears</h5>
+{{% figure src="http://kieranhealy.org/files/misc/workflow-rmd-md.png" alt="Workflow diagram" caption="I promise this is less insane than it appears" %}}
+
+
+<!-- {{% img src="http://kieranhealy.org/files/misc/workflow-rmd-md.png" %}} -->
+<!-- <h5>I promise this is less insane than it appears</h5> -->
 
 There are still limitations to what markdown and pandoc can conveniently do. But being able to produce good HTML, LaTeX, and PDF in one step from the same source is a very attractive prospect.
 
@@ -54,7 +57,7 @@ The [custom LaTeX style files](https://github.com/kjhealy/latex-custom-kjh) were
 
 Inside the pandoc-templates repository there's a [folder with some examples](https://github.com/kjhealy/pandoc-templates/tree/master/examples) of how these pieces go together. Let's start with a straightforward markdown file---no R code yet, so nothing above the `article.md` line in the picture above. The sample `article-markdown.md` file looks like this: 
 
-{{% highlight yaml %}}
+{{< highlight yaml >}}
 
 ---
 title: A Pandoc Markdown Article Starter
@@ -76,81 +79,79 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 # Theory
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 The bit at the top is YAML metadata, which pandoc understands. The HTML and latex templates [in the pandoc-templates repository](https://github.com/kjhealy/pandoc-templates/tree/master/templates) are set up to use this metadata properly. Pandoc will take care of the citations directly. There is more than one way to have pandoc manage citations, but here we just use the most self-contained route. (The `bibliography` line is not needed by pandoc at all: it is a hack to allow RefTeX to easily insert citations in the document while editing in Emacs.) The [Makefile](https://github.com/kjhealy/pandoc-templates/blob/master/examples/Makefile) in the examples directory will convert any markdown files in the working directory to HTML, .tex, and PDF output. Just type `make` at the terminal. If things go as they should, the HTML output from the example will look like this:
 
-{{% img src="http://kieranhealy.org/files/misc/pandoc-template-html-output-sample.png" %}}
-<h5>HTML output from Pandoc</h5>
+{{% figure src="http://kieranhealy.org/files/misc/pandoc-template-html-output-sample.png" caption="HTML output from Pandoc" %}}
 
 
 The PDF output, meanwhile, [can be viewed here](http://kieranhealy.org/files/misc/article-markdown.pdf). Both look quite nice. The relevant sections of the Makefile show the pandoc commands that generate the output files from the markdown input. The Makefile section for producing PDF output looks like this:
 
-{{% highlight bash %}}
+{{< highlight bash >}}
 
 pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S --latex-engine=pdflatex --template=$(PREFIX)/templates/latex.template --filter pandoc-citeproc --csl=$(PREFIX)/csl/$(CSL).csl --bibliography=$(BIB)
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 This contains some variables that are set at the top of the Makefile. On my computer, the command as actually executed looks like this:
 
-{{% highlight bash %}}
+{{< highlight bash >}}
 
 pandoc -r markdown+simple_tables+table_captions+yaml_metadata_block -s -S --latex-engine=pdflatex --template=/Users/kjhealy/.pandoc/templates/latex.template --filter pandoc-citeproc --csl=/Users/kjhealy/.pandoc/csl/apsr.csl --bibliography=/Users/kjhealy/Documents/bibs/socbib-pandoc.bib
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 Your version would vary depending on the location of the templates and bibliography files. This is what you would run from the command line if you wanted to take a markdown file and use pdflatex to turn it in to a PDF, using the [APSR](https://www.apsanet.org/utils/journal.cfm?Journal=APSR) reference style, my latex template, and a `.bib` file called `socbib-pandoc.bib`.
 
 The pandoc `latex.template` and `xelatex.template` files differ mainly in the way they set up typefaces. The beginning of the `latex.template` file has the following lines:
 
-{{% highlight latex %}}
+{{< highlight latex >}}
 
 \documentclass[11pt,article,oneside]{memoir}
 \usepackage[minion]{org-preamble-pdflatex}
 \input{vc}
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 If you do not have the Minion Pro fonts installed and available to LaTeX, remove the `[minion]` option from the section line. (You can [read more about getting Minion Pro and installing it for LaTeX here](http://kieranhealy.org/blog/archives/2012/11/10/installing-minion-pro/).) If you do not use `vc.sty` then comment out or delete the third line. Similarly, if you use XeLaTeX rather than pdfLaTeX, tell pandoc to use `xelatex.template` and `--latex-engine=xelatex`. Inside [xelatex.template](https://github.com/kjhealy/pandoc-templates/blob/master/templates/xelatex.template) make sure the font selections after the `\begin{document}` declaration are for typefaces you have installed. 
 
 
 The examples directory [also includes](https://github.com/kjhealy/pandoc-templates/blob/master/examples/article-knitr.Rmd) a sample `.Rmd` file. The code chunks in the file provide examples of how to generate tables and figures in the document. In particular they show some useful options that can be passed to knitr. [Consult the knitr project page](http://yihui.name/knitr/) for extensive documentation and many more examples. To produce output from the `article-knitr.Rmd` file, launch R in the working directory, load knitr, and process the file. You will also need the `ascii`, `memisc`, and `ggplot2` libraries to be available.
 
-{{% highlight r %}}
+{{< highlight r >}}
 
-> library(knitr)
-> knit("article-knitr.Rmd")
+library(knitr)
+knit("article-knitr.Rmd")
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 If things are working properly, then a markdown file called `article-knitr.md` will be produced, together with some graphics in the `figures/` subfolder and some working files in the `cache/` folder. We set things up in the `.Rmd` file so that knitr produces both PNG and PDF versions of whatever figures are generated by R. That prepares the way for easy conversion to HTML and LaTeX. Once the `article-knitr.md` file is produced, HTML, .tex, and PDF versions of it can be produced as before, by typing `make` at the command line. You can also run the pandoc commands manually, of course, or run pandoc from inside R via knitr's `pandoc()` helper function, or set your editor up to run `make` for you as needed, if it can do that.
 
 
-{{% img src="http://kieranhealy.org/files/misc/pandoc-template-rmd-output-sample.png" %}}
-<h5>Sample PDF output from an Rmd file, with figures and tables generated automatically. <a href="http://kieranhealy.org/files/misc/article-knitr.pdf">Click here for the PDF file</a></h5>
+{{% figure src="http://kieranhealy.org/files/misc/pandoc-template-rmd-output-sample.png" caption="Sample PDF output from an Rmd file, with figures and tables generated automatically. Click the image for a PDF version" link="http://kieranhealy.org/files/misc/article-knitr.pdf" %}}
 
 
 ## Using Marked
 In everyday use,  I find Brett Terpstra's [Marked.app](http://marked2app.com) to be a very useful way of previewing text while writing. Marked shows you your markdown files as HTML, updating on the fly whenever the file is saved. It supports pandoc as a custom processor. Essentially, you tell it to run a pandoc command like the one above to generate its previews, instead of its built-in markdown processor. You do this in the "Behavior" tab of Marked's preferences.
 
 
-{{% img src="http://kieranhealy.org/files/misc/Marked2-preferences.png" %}}
-<h5>Marked's Preference dialog</h5>
+{{% figure src="http://kieranhealy.org/files/misc/Marked2-preferences.png" caption="Marked's Preference dialog" %}}
+
 
 
 The "Path" field contains the full path to pandoc, and the "Args" field contains all the relevant command switches---in my case, as above,
 
-{{% highlight bash %}}
+{{< highlight bash >}}
 
 -r markdown+simple_tables+table_captions+yaml_metadata_block -w html -S --template=/Users/kjhealy/.pandoc/templates/html.template --filter pandoc-citeproc --bibliography=/Users/kjhealy/Documents/bibs/socbib-pandoc.bib 
 
-{{% /highlight %}}
+{{< /highlight >}}
 
 When editing your markdown file in your favorite text editor, you point Marked at the file and get a live preview. Like this:
 
-{{% img src="http://kieranhealy.org/files/misc/Marked2-Preview.png" %}}
-<h5>Previewing in HTML with Marked</h5>
+{{% figure src="http://kieranhealy.org/files/misc/Marked2-Preview.png" caption="Previewing in HTML with Marked"%}}
+
 
 
 You can add the [CSS files in the pandoc-templates repo](https://github.com/kjhealy/pandoc-templates/blob/master/marked/kultiad-serif.css) to the list of Custom CSS files Marked knows about, via the "Style" tab in the Preferences window. That way, Marked's preview will look the same as the HTML file that's produced. 
@@ -158,4 +159,4 @@ You can add the [CSS files in the pandoc-templates repo](https://github.com/kjhe
 The upshot of all of this is powerful editing using Emacs, [ESS](http://ess.r-project.org), R, and other tools; flexible conversion using pandoc; quick and easy previewing via HTML and Marked; and high-quality PDF typesetting at the same time (or whenever needed)---all generated directly from plain text and including almost all of what most of the scholarly papers I write need to include. While this may seem quite complex when laid out in this way, from my point of view the result is very straightforward. I just live in my text editor, the various scripts and settings do their work quietly, as they should, and I get the formatted output I want. 
 
 ## Envoi
-Writing academic papers is a pain. The tools for processing documents and integrating data, code, text, and reference material are by now extremely powerful. The main stumbling block is figuring out how to join these tools together while preserving the things academic papers need to have included. I am not the sort of person who codes tools like this. Rather, I'm the sort of user who gets a bee in his bonnet about getting the output to look just so. Hence the [resources page](http://kieranhealy.org/resources/). Now you, too, dear reader, are empowered to set up your writing environment in an excessively picky fashion, should you irrationally so desire. As I think Andy Warhol remarked, it takes a lot of work to figure out how to [look this good](http://kieranhealy.org/files/drafts/performativity.pdf). 
+Writing academic papers is a pain. The tools for processing documents and integrating data, code, text, and reference material are by now extremely powerful. The main stumbling block is figuring out how to join these tools together while preserving the things academic papers need to have included. I am not the sort of person who codes tools like this. Rather, I'm the sort of user who gets a bee in his bonnet about getting the output to look just so. Hence the [resources page](http://kieranhealy.org/resources/). Now you, too, dear reader, are empowered to set up your writing environment in an excessively picky fashion, should you irrationally so desire.

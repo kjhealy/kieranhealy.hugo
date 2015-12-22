@@ -2,7 +2,7 @@
 #layout: post
 title: "A Sociology of Steve Jobs"
 date: "2011-10-10"
-categories: [IT,Sociology,Nerdery,OrgTheory]
+categories: [IT,Sociology,Nerdery,OrgTheory,Apple]
 ---
 
 Steve Jobs had charisma. What does that mean? Narrowly, it means

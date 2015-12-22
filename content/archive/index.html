@@ -1,0 +1,5 @@
+---
+type: archive
+title: Archives
+---
+

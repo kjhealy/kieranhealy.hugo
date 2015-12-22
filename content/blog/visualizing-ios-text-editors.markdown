@@ -3,7 +3,7 @@
 title: "Visualizing iOS Text Editors"
 date: "2012-04-18"
 comments: true
-categories: [Nerdery,Data,R]
+categories: [Nerdery,Data,R,Visualization,Apple]
 ---
 
 The other day [Brett Terpstra posted](http://brettterpstra.com/ios-text-editors/) a gigantic and quite beautifully-executed feature comparison of all of the text editors available for iOS devices. The table is really terrific and also a bit overwhelming, as there's so much data. On the bus home yesterday, it struck me that it might make for a nice data  visualization exercise. There are all kinds of ways one might choose to represent the information, of course---how you visualize data depends on what you want to do with it.  Brett's way of presenting it is great, not least because of the way it's styled and augmented with dynamic touches which are all way beyond me. Naturally, it's focused on looking at the features of specific editors. I found myself wondering whether the information in the table could be used to highlight similarities and differences between editors and features, and maybe find whether there is any coherence in feature-sets and the editors that offer them.  

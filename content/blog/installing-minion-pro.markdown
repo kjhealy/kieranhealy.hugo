@@ -12,7 +12,7 @@ One piece that always gives me a headache, though, is getting [Minion Pro](http:
 
 If you are a sensible person, of course, you will not even find yourself facing this ridiculous situation. 
 
-{{% highlight bash %}}
+{{< highlight bash >}}
 
 #!/bin/sh
 ## Information
@@ -117,4 +117,4 @@ updmap --enable MixedMap MinionPro.map
 # pdflatex minionpro-test.tex
 
 
-{{% /highlight %}}
+{{< /highlight >}}

@@ -8,6 +8,7 @@ title: Violent Societies
 wordpress_id: '776'
 categories:
 - Sociology
+- Visualization
 ---
 
 While thinking about the [deterrent effect of the death penalty](http://crookedtimber.org/2005/03/24/deterrence-and-the-death-penalty/) I wondered about cross-national variation in rates of violent death. Comparative data on homicide rates undoubtedly exist, but I don't have them to hand. I do have OECD data on death rates due to assault, though, so here's a nice picture of this trend for eighteen capitalist democracies from 1960 to 2002.
