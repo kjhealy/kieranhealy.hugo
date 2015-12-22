@@ -1,4 +1,8 @@
-## Build and deploy http://kieranhealy.org
+### Build and deploy http://kieranhealy.org
+
+### Apart from hugo, you will need rsync to deploy
+### the site, and the java-based yuicompressor to
+### minify the CSS.
 
 SSH_USER = khealy@kieranhealy.org
 DOCUMENT_ROOT = ~/kieranhealy.org
