@@ -48,7 +48,7 @@ We see much the same pattern in Connacht, with people from Galway sticking to NU
 
 Dubliners are not any more cosmopolitan, incidentally. As [Brendan Halpin showed on Twitter](https://twitter.com/BrendanTHalpin/status/682882817630584832), with more fine-grained maps, Dubliners are generally reluctant to cross the Liffey. As he remarks, "If you live in Blackrock/Dun Laoghaire TCD is too far so you get stuck in UCD".
 
-{{% figure src="http://www.kieranhealy.org/files/misc/irl-colleges-dublin-halpin.png" caption="Dublin University Catchment Areas, courtest Brendan Halpin (University of Limerick)" %}}
+{{% figure src="http://www.kieranhealy.org/files/misc/irl-colleges-dublin-halpin.png" caption="Dublin University Catchment Areas, courtesy Brendan Halpin (University of Limerick)" %}}
 
 In addition to flow diagrams and maps, we can cluster the data to see how regions hang together. This next figure is based on percentage of students by county attending the various schools (rather than raw counts) and clusters areas based on the relative similarity of their sending profiles. We can plot the dendrogram radially (courtesy of R's `ape` library).  
 
