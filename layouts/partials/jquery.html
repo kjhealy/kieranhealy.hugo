@@ -10,3 +10,13 @@
 <script src="javascripts/sankey-1/sankey.js"></script>
 <script src="javascripts/sankeyNetwork-binding-0.2.8/sankeyNetwork.js"></script>
 {{ end }}
+
+<!--mathjax-->
+{{ if and (isset .Params "mathjax") (eq .Params.mathjax true) }}
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+{{ end }}
