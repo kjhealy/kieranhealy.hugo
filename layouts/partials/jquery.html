@@ -2,3 +2,10 @@
 <script src="//code.jquery.com/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="http://kieranhealy.org/javascripts/bigfoot.js"></script>
 <script type="text/javascript">$.bigfoot();</script>
+
+{{ if and (isset .Params "htmlwidgets") (eq .Params.htmlwidgets true) }}
+<script src="javascripts/htmlwidgets-0.5/htmlwidgets.js"></script>
+<script src="javascripts/d3-3.5.2/d3.min.js"></script>
+<script src="javascripts/sankey-1/sankey.js"></script>
+<script src="javascripts/sankeyNetwork-binding-0.2.8/sankeyNetwork.js"></script>
+{{ end }}
