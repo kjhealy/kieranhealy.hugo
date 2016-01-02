@@ -1,0 +1,68 @@
+---
+date: 2016-01-01T19:46:21-05:00
+title: Sankey Diagrams of Irish Educational Transitions
+categories: [Data,Visualization,Sociology]
+htmlwidgets: true
+---
+
+A few weeks ago the _Irish Times_ ran an extensive supplement on secondary student transition to higher education in Ireland. They were interested mostly in a league-table exercise to identify the "best" schools in the country, but in the process they compiled some pretty good data on "feeder schools" together with some [decent discussion](http://www.irishtimes.com/news/education/analysis-what-the-feeder-tables-tell-us-1.2451977) of the [broader trends](http://www.irishtimes.com/news/education/feeder-schools-social-class-still-drives-school-league-tables-1.2451880) associated with the move from secondary school to third-level education. They also made [their full table of data](https://www.irishtimes.com/polopoly_fs/1.2451889.1449072744!/menu/standard/file/Schools%20Table.xlsx) available as an Excel spreadsheet. I grabbed it at the time, partly out of local interest---I did my undergraduate degree in Ireland (at [UCC](http://www.ucc.ie)) and went to one of the schools listed in the tables---and partly because I thought it might be useful for the [data visualization mini-course](http://socviz.github.io/soc880/) I was teaching.  We didn't get around to using it, but yesterday evening and earlier today I cleaned up the data and took a look at it in R. I ended up in an interesting conversation with [Brendan Halpin](https://twitter.com/brendanthalpin). He teaches at the University of Limerick and as it turned out has done some more extensive work with an expanded version of this data. 
+
+My visualization interest was in [Sankey diagrams](https://en.wikipedia.org/wiki/Sankey_diagram), the sort of network flow charts you often see used to visualize the transfer of energy or cost or volume through some system. You can also use them to visualize simpler one-step origin and destination transitions, as when people start out in some range of places and end up in another---as with a mobility table, for example. In this case we have a two-mode table, where students start out in a secondary school located in some geographical area (a county, say), and end up going to a college located in the same or different place. 
+
+The [D3.js](https://d3js.org) javascript library can [draw Sankey diagrams in the browser](http://bost.ocks.org/mike/sankey/). Their interactive nature has some advantages over a static image. You can rearrange the nodes by dragging them, for instance, or highlight pathways to get a better view, as well as see the actual numbers being graphed. The [network3D library](https://christophergandrud.github.io/networkD3/) for R lets you do your data analysis in R and then produce an embeddable D3 object for use in a webpage. It was this that I wanted to learn more about, so I took advantage of the Irish school transition data to do it. 
+
+{{% figure src="http://www.kieranhealy.org/files/misc/irl-counties.svg" caption="A map of Irish Counties, courtesy of Wikipedia." %}}
+
+Ireland is not a large country. There are twenty six counties in the Republic. By population, the largest by far is Dublin, where about a third of the country's people live. The _Irish Times_ data organizes schools by county, except for Dublin which is broken up into Dublin City and Dublin County, with the city further subdivided into [twenty two postal districts](https://en.wikipedia.org/wiki/List_of_Dublin_postal_districts), labeled very nearly logically from Dublin 1 to Dublin 24---except there's a Dublin 6W as well as a Dublin 6, and no Dublin 19, 21, or 23. The reason for this is that odd-numbered districts are generally north of the river Liffey, while even-numbered districts are south of the river. This divide has a strong element of social class, and I'll return to it below.
+
+Our data covers about 41,000 students who sat the <a href="https://en.wikipedia.org/wiki/Leaving_Certificate_(Ireland)">Leaving Certificate</a> in 2015 and went on to a third-level course. The Leaving Cert is a nationally-administered series of examinations, generally across seven subjects---three compulsory subjects (English, Irish, and Maths) and three or four optional ones (e.g. Physics, History, French, etc.) A student's performance in these exams, coupled with the baseline availability of places at third-level and the general demand for those places, establishes one's chances of getting in to the university program. A [points system](https://en.wikipedia.org/wiki/Central_Applications_Office) coordinates supply and demand for places. Writing these sentences is bringing back an unpleasant sensation in my chest as I remember sitting my own Leaving Cert. 
+
+At any rate, we have county-level (and Dublin district-level) counts of students and the college they went to. The data track thirty one third-level institutions within Ireland. Students who left the country to go to college are not counted. Nor do the data cover  students who exited the education system at or before the Leaving Cert. The institutions are of [several different types](https://en.wikipedia.org/wiki/Third-level_education_in_the_Republic_of_Ireland). Roughly:
+
+* _Universities_. Trinity College Dublin (TCD), University College Dublin (UCD), University College Cork (UCC), NUI Galway, Maynooth, the University of Limerick (UL), and Dublin City University. The data also includes Queens University Belfast and the University of Ulster, which are in Northern Ireland. 
+* _Institutes of Technology_ shown below with their location name and an .IT suffix. 
+* _Colleges of Education_ which train teachers, such as St Angela's, Mary Immaculate College, the Marino Instiute, and the Church of Ireland College of Education. 
+* _Recognized or Constituent Colleges_, which include specialty institutes like the Royal College of Surgeons in Ireland (RCSI), the Shannon College of Hotel Management (SCHM), and the National College of Art and Design (NCAD).
+
+With all that out of the way, here's a Sankey Diagram showing transitions to higher education for students from the six counties of Munster. For convenience we'll stick with raw counts, although of course relative percentage movement is also important.
+
+<figure>
+<div id="htmlwidget-7153" style="height:600px;" class="sankeyNetwork"></div>
+<figcaption>
+<p>The Flow of Students from Munster into Third-Level Education in Ireland</p>
+</figcaption>
+</figure>
+
+As you can see, Cork people like to stay at home. Of the 4,700 students from the county, about 2,100 went to University College Cork, and 1,500 went to CIT, also in the city. So about 75% of the all transitioning third-level students from County Cork stay in the county for college. Sixty four went to Trinity, and about a hundred to University College Dublin---about the same number combined as went to IT Waterford (153), and substantially fewer than went to the University of Limerick (238). This is what I did for college myself, incidentally. Having grown up in Cork City, I went to UCC as an undergraduate. It never really occurred to me to go anywhere else.
+
+We see much the same pattern in Connacht, with people from Galway sticking to NUI Galway, Galway/Mayo IT, or maybe Athlone, Sligo, or Limerick. A trickle of brave souls head up to Trinity (52) or UCD (77).  
+
+<figure>
+<div id="htmlwidget-9085" style="height:600px;" class="sankeyNetwork"></div>
+<figcaption>
+<p>The Flow of Students from Connacht into Third-Level Education in Ireland</p>
+</figcaption>
+</figure>
+
+
+Dubliners are not any more cosmopolitan, incidentally. As [Brendan Halpin showed on Twitter](https://twitter.com/BrendanTHalpin/status/682882817630584832), with more fine-grained maps, Dubliners are generally reluctant to cross the Liffey. As he remarks, "If you live in Blackrock/Dun Laoghaire TCD is too far so you get stuck in UCD".
+
+{{% figure src="http://www.kieranhealy.org/files/misc/irl-colleges-dublin-halpin.png" caption="Dublin University Catchment Areas, courtest Brendan Halpin (University of Limerick)" %}}
+
+In addition to flow diagrams and maps, we can cluster the data to see how regions hang together. This next figure is based on percentage of students by county attending the various schools (rather than raw counts) and clusters areas based on the relative similarity of their sending profiles. We can plot the dendrogram radially (courtesy of R's `ape` library).  
+
+
+{{% figure src="http://www.kieranhealy.org/files/misc/irl-college-county-cluster-radial.png" caption="Irish Geographic Areas Clustered by Relative Similarity of College Destinations" %}}
+
+As you can see, the cluster analysis recovers the underlying geography pretty well---counties that are geographically close to one another tend to be close in the dendrogram. There's also nice result for the Dublin districts. As I mentioned above, the North side of Dublin has odd-numbered postcodes, and the South side has even-numbered postcodes. The clustering cleanly separates North and South Dublin. Note also that the four (green) Southside postcodes that cluster slightly by themselves---10, 12, 22, and 24---are  Ballyfermot, Crumlin/Walkinstown, Clondalkin/Neilstown, and Tallaght.
+
+In summary, the strongly local character of transitions to third-level education in Ireland isn't surprising to people who know the country. It may seem rather parochial to someone raised on the cultural imagery of college life in the United States, where going to university is strongly associated with moving away and striking out on one's own. But, on the one hand, the reality for many American students is quite different, of course, if only because the US higher education system is enormous, and plenty of people stay near to their place of origin for college. And on the other hand, while an awful lot of Irish people went to the school nearest them and never gave much thought to any other option, once they graduated many of those same people then left the country and never returned. I'm one of them.
+
+If I have some time over the weekend I'll write a follow-up post with some details on how to generate the Sankey Diagrams from within R and get them up on a web page.
+
+<script type="application/json" data-for="htmlwidget-7153">{"x":{"links":{"source":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],"target":[19,16,8,20,13,14,18,15,9,7,10,6,17,11,21,12,19,16,8,20,13,14,18,15,9,7,10,6,17,11,21,12,19,16,8,20,13,14,18,15,9,7,10,6,17,11,21,12,19,16,8,20,13,14,18,15,9,7,10,6,17,11,21,12,19,16,8,20,13,14,18,15,9,7,10,6,17,11,21,12,19,16,8,20,13,14,18,15,9,7,10,6,17,11,21,12],"value":[38,26,11,272,7,143,80,44,10,18,101,7,31,247,9,90,98,64,34,238,17,58,2084,81,25,1504,18,24,83,68,153,150,34,45,22,214,9,74,340,32,10,175,8,12,361,62,28,83,62,45,18,638,6,64,145,36,14,57,19,9,68,509,32,191,110,59,28,255,34,90,214,52,29,140,26,35,15,200,260,97,65,37,35,102,26,15,183,32,12,71,6,15,7,15,467,31]},"nodes":{"name":["Clare","Cork","Kerry","Limerick","Tipperary","Waterford","Carlow.IT","Cork.IT","DCU","Dublin.IT","GM.IT","Limerick.IT","MaryI","Maynooth","NUIG","Other","TCD","Tralee.IT","UCC","UCD","UL","W.IT"],"group":["Clare","Cork","Kerry","Limerick","Tipperary","Waterford","Carlow.IT","Cork.IT","DCU","Dublin.IT","GM.IT","Limerick.IT","MaryI","Maynooth","NUIG","Other","TCD","Tralee.IT","UCC","UCD","UL","W.IT"]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scale.category20()","fontSize":12,"fontFamily":null,"nodeWidth":40,"nodePadding":10,"units":"Students","margin":{"top":null,"right":null,"bottom":null,"left":null}}},"evals":[]}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-7153">{"viewer":{"width":450,"height":350,"padding":10,"fill":true},"browser":{"width":960,"height":500,"padding":10,"fill":true}}</script>
+
+<script type="application/json" data-for="htmlwidget-9085">{"x":{"links":{"source":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4],"target":[17,16,6,18,12,13,14,7,5,8,15,9,10,11,17,16,6,18,12,13,14,7,5,8,15,9,10,11,17,16,6,18,12,13,14,7,5,8,15,9,10,11,17,16,6,18,12,13,14,7,5,8,15,9,10,11,17,16,6,18,12,13,14,7,5,8,15,9,10,11],"value":[77,52,55,168,22,937,136,25,146,529,42,15,73,103,25,8,39,10,22,38,34,15,10,37,63,12,3,1,82,37,80,113,38,269,81,32,35,230,161,21,35,31,24,9,31,15,18,82,35,10,35,72,57,14,10,4,41,23,24,33,37,110,56,16,12,31,221,32,12,3]},"nodes":{"name":["Galway","Leitrim","Mayo","Roscommon","Sligo","Athlone.IT","DCU","Dublin.IT","GM.IT","Letterkenny.IT","Limerick.IT","MaryI","Maynooth","NUIG","Other","Sligo.IT","TCD","UCD","UL"],"group":["Galway","Leitrim","Mayo","Roscommon","Sligo","Athlone.IT","DCU","Dublin.IT","GM.IT","Letterkenny.IT","Limerick.IT","MaryI","Maynooth","NUIG","Other","Sligo.IT","TCD","UCD","UL"]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scale.category20()","fontSize":12,"fontFamily":null,"nodeWidth":40,"nodePadding":10,"units":"Students","margin":{"top":null,"right":null,"bottom":null,"left":null}}},"evals":[]}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-9085">{"viewer":{"width":450,"height":350,"padding":10,"fill":true},"browser":{"width":960,"height":500,"padding":10,"fill":true}}</script>
+
