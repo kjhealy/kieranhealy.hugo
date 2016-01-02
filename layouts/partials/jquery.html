@@ -1,8 +1,9 @@
 <!--Bigfoot-->
 <script src="//code.jquery.com/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="http://kieranhealy.org/javascripts/bigfoot.js"></script>
+<script type="text/javascript" src="javascripts/bigfoot.js"></script>
 <script type="text/javascript">$.bigfoot();</script>
 
+<!--htmlwidgets and sankey framework-->
 {{ if and (isset .Params "htmlwidgets") (eq .Params.htmlwidgets true) }}
 <script src="javascripts/htmlwidgets-0.5/htmlwidgets.js"></script>
 <script src="javascripts/d3-3.5.2/d3.min.js"></script>
