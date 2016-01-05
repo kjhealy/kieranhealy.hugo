@@ -5,10 +5,15 @@
 ### minify the CSS.
 
 SSH_USER = khealy@kieranhealy.org
+STAGING_USER = kjhealy@kjhealy.co
 DOCUMENT_ROOT = ~/kieranhealy.org
+STAGING_ROOT = ~/public/kjhealy.co/public_html
 PUBLIC_DIR = public/
 
 all: deploy
+
+staging: site
+	rsync -crzve 'ssh -p 22' $(PUBLIC_DIR) $(STAGING_USER):$(STAGING_ROOT)
 
 server: css
 	hugo server -ws .
