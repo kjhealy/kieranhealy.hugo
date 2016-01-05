@@ -12,7 +12,7 @@ That last point about Indian Reservations is worth noting, as there are some lar
 
 Here's the map. 
 
-{{% figure src="http://www.kieranhealy.org/files/misc/federal-lands-cred.jpg" link="http://www.kieranhealy.org/files/misc/federal-lands-cred.jpg" caption="Land owned or administered by the US Federal Government." %}}
+{{% figure src="http://www.kieranhealy.org/files/misc/federal-lands-cred-sm.jpg" link="http://www.kieranhealy.org/files/misc/federal-lands-cred.jpg" caption="Land owned or administered by the US Federal Government." %}}
 
 (A [PNG file](http://www.kieranhealy.org/files/misc/federal-lands-cred.png) is also available.)
 
@@ -20,12 +20,12 @@ The federal government owns a _lot_ of land in the West, most of it being Public
 
 This map collapses a larger number of use categories to make it easier to see the main patterns. There are a couple of other ways one could look at it. First, we can break out the categories one at a time, like this. This might matter to us, for example, because the economic status of National Forest is different from that of a National Park or a National Wildlife Refuge. Here's what some of those single uses look like.
 
-{{% figure src="http://www.kieranhealy.org/files/misc/federal-lands-use-montage.jpg"
+{{% figure src="http://www.kieranhealy.org/files/misc/federal-lands-use-montage-sm.jpg"
 link="http://www.kieranhealy.org/files/misc/federal-lands-use-montage.jpg" caption="Federal Land by Selected Use Types." %}}
 
 Alternatively, we can label the land categories not by use type but rather by the federal agency primarily responsible for them. Here is what that looks like. Again, we collapse some categories for agencies controlling relatively small areas.
 
-{{% figure src="http://www.kieranhealy.org/files/misc/federal-lands-admin.jpg" link="http://www.kieranhealy.org/files/misc/federal-lands-admin.jpg" caption="Federal Land by Primary Agency Responsible." %}}
+{{% figure src="http://www.kieranhealy.org/files/misc/federal-lands-admin-sm.jpg" link="http://www.kieranhealy.org/files/misc/federal-lands-admin.jpg" caption="Federal Land by Primary Agency Responsible." %}}
 
 (A [PNG file](http://www.kieranhealy.org/files/misc/federal-lands-admin.png) is also available.)
 
