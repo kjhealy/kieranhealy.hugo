@@ -1,0 +1,12 @@
+<ul>
+  {{ $url := .Get "url" }}
+  {{ range getJSON $url }}
+    {{ $p := . }} 
+    <li>
+      <strong><a href="{{ $p.html_url }}" target="_blank">{{ $p.name }}</a></strong>
+      <p>{{ $p.description }} <br />
+      Stars: {{$p.stargazers_count}} | Forks: {{$p.forks_count}} | Size: {{$p.size}} | Type: {{$p.language}} <br />
+      </p>
+    </li>
+    {{ end }}
+</ul>
