@@ -9,6 +9,7 @@ baseurl: "http://kieranhealy.org/"
 indexes:
   category: "categories"
 title: "kieranhealy.org"
+CanonifyUrls: true
 permalinks:
   blog: /blog/archives/:year/:month/:day/:slug
   archive: /blog/archives/

@@ -3,22 +3,32 @@
 {{ template "partials/sidebar.html" . }}
 
 <div class="content container">
-    <!-- <ul> -->
-    <!--   {{ range .Data.Pages }} -->
-    <!--         {{ .Render "li"}} -->
-    <!--   {{ end }} -->
-    <!-- </ul> -->
-
+  
     <ul class="post" id="list">
-      {{ range first 10 .Data.Pages }}
+      {{ range (.Paginator 5).Pages }}
       {{ .Render "summary"}}
       {{ end }}
     </ul>
 
+    <nav role="pagination" class="post-list-pagination">
+
+      {{ if .Paginator.HasNext }}
+      <a href="{{.Paginator.Next.URL}}">
+        « Older&nbsp;<i></i>
+      </a>
+      {{ end }}
+      <span>Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span>
+      
+      {{ if .Paginator.HasPrev }}
+      <a href="{{.Paginator.Prev.URL}}">
+        <i></i>&nbsp;Newer »
+      </a>
+      {{ end }}
+    </nav>
 
 <section>
-   <p class="talltop">&#9776; <a href="http://kieranhealy.org/blog/archives/">Archive of Posts by Date</a></p>
-   <p>&#9776; <a href="http://kieranhealy.org/categories/">Archive of Posts by Category</a></p>
+   <p class="talltop"><a href="http://kieranhealy.org/blog/archives/">All Posts by Date</a>
+   &diams; <a href="http://kieranhealy.org/categories/">All Posts by Category</a></p>
 </section>
 
 <aside id="meta"> </aside>
