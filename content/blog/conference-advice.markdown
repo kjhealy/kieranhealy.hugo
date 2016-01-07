@@ -4,6 +4,7 @@ date: "2003-08-27"
 #layout: post
 slug: conference-advice
 status: publish
+footnotes: true
 title: Conference Policy Recommendations
 wordpress_id: '496'
 categories:

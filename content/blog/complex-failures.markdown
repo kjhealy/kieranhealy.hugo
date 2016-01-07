@@ -1,6 +1,7 @@
 ---
 date: "2015-01-15"
 status: publish
+footnotes: true
 title: Failure in Complex Systems
 categories:
 - IT

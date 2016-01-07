@@ -5,6 +5,7 @@ date: "2003-08-01"
 slug: wandering-the-halls
 status: publish
 title: Wandering the Halls
+foonotes: true
 wordpress_id: '484'
 ---
 
