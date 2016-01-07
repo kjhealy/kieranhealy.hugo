@@ -2,21 +2,22 @@
 
     <div>
 
-      <ul class="catlist">
+    <div>
+        <ul class="center">
+          <li>
+          &nbsp;{{if .Next}}<em><a href="{{.Next.Permalink}}">&laquo; Previous:</a></em> <a class="next" href="{{.Next.Permalink}}">{{.Next.Title}}</a>{{end}} 
+        </li>  
+          <li>
+          &nbsp;{{if .Prev}}<em><a href="{{.Prev.Permalink}}">&raquo; Next:</a></em> <a class="previous" href="{{.Prev.Permalink}}">{{.Prev.Title}}</a>{{end}}
+        </li>
+      </ul>
+    </div>
+
+      <ul class="catlist center talltop">
           <li><em>Categories</em></li>
           {{ range .Params.categories }}
            <li><a href="{{ $baseurl }}categories/{{ . | urlize }}">{{ . }}</a> </li>
           {{ end }}
-        </ul>
+      </ul>
+      <br />
     </div>
-
-    <div>
-        <section id="next">
-            &nbsp;{{if .Next}}<em><a href="{{.Next.Permalink}}">&laquo; Previous:</a></em> <a class="next" href="{{.Next.Permalink}}">{{.Next.Title}}</a>{{end}}
-        </section>
-        <section id="prev">
-            &nbsp;{{if .Prev}}<em><a href="{{.Prev.Permalink}}">&raquo; Next:</a></em> <a class="previous" href="{{.Prev.Permalink}}">{{.Prev.Title}}</a><br>{{end}}
-        </section>
-
-    </div>
-

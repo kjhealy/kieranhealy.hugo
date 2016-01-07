@@ -132,10 +132,17 @@ h6.shortend {
 }
 
 
-p.talltop{
+p.talltop {
     margin-top:4rem;
 }
 
+ul.talltop {
+    margin-top: 1.5rem;
+}
+
+li.tallend {
+    margin-bottom: 0.5rem;
+}
 
 h3 {
   margin-top: 1.5rem;
@@ -293,17 +300,17 @@ figcaption { text-align: center; font-size: 1.1em; color: #555;}
 
 
 .right {
-    float: right;
+    text-align: right;
     margin-left: 1rem;
 }
 
 .left {
-    float: left;
+    text-align: left;
     margin-right: 1rem;
 }
 
 .center { 
-    float: center;
+    text-align: center;
 }
 
 .highlight {

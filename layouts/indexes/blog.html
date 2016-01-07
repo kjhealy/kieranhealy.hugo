@@ -5,7 +5,7 @@
 <div class="content container">
   
     <ul class="post" id="list">
-      {{ range (.Paginator 5).Pages }}
+      {{ range (.Paginator 10).Pages }}
       {{ .Render "summary"}}
       {{ end }}
     </ul>
@@ -25,7 +25,8 @@
       </a>
       {{ end }}
     </nav>
-
+    
+<br />
 {{ template "partials/footer.html" }}
 
 </div>
