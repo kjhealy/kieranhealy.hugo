@@ -27,7 +27,7 @@ site: css .FORCE
 	find public -type f -print0 | xargs -0 chmod 644
 
 css:
-	touch static/css/stylesheet.css
+	touch static/css/stylesheet.css 
 	rm -f static/css/stylesheet.css
 	cat static/css/poole.css static/css/syntax.css > static/css/stylesheet.css
 	java -jar ~/bin/yuicompressor-2.4.8.jar static/css/stylesheet.css -o static/css/stylesheet-min.css --charset utf-8
