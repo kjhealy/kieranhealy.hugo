@@ -372,28 +372,6 @@ ul.catlist li { display: inline;}
 ul.catlist li:after { content: "\b7"; font-size: 12px; }
 ul.catlist li:last-child:after { content: ""; }
 
-/* This gets Google to fall into place */
-.social {
-	font-size: 1px;
-        padding-bottom: 2rem;
-        padding-top: 0;
-}
- 
-/* From https://gist.github.com/thebigreason/1296097 */
-/* This gets Facebook to fall into place */
-.social iframe {
-	vertical-align: bottom;
-}
- 
-/* Set an optional width for your button wrappers */
-.social span {
-	display: inline-block;
-	width: 110px;
-}
-
-.twitter-follow-button {
-    /* padding-top: 5px; */
-}
  
 /*
  * Messages
@@ -524,6 +502,22 @@ and (max-device-width : 656px) {
     margin-top:0;
     padding-bottom: 0;
 }
+
+.architems {
+    -webkit-display: flex 1 0 200px;
+    display: flex 1 0 200px;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.architems .architem {
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+    
+}
+
 
 audio { display: block; width: 600px; }
 

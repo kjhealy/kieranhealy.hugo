@@ -3,18 +3,17 @@
 {{ template "partials/sidebar.html" . }}
 
 <div class="content container">
-<section id="main">
-  <div>
-   <h1>Archive of Posts, by Category</h1>
-   <ul class="category">
+  <h1>Archive of Posts, by Category</h1>
+   <ul class="post catlist">
    {{ $data := .Data }}
-    {{ range $key,$value := .Data.Index.ByCount }}
-    <li><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }} entries.) </li>
+    {{ range $key,$value := .Data.Index.ByCount }} 
+    <li class="lead"><strong><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a></strong> ({{ $value.Count }}) </li>
     {{ end }}
    </ul>
-  </div>
-</section>
 
-{{ template "partials/footer.html" . }}
+   <br />
+   {{ template "partials/allcats.html"}}    
+
+   {{ template "partials/footer.html" . }}
 
 </div>

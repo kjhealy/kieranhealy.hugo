@@ -5,20 +5,25 @@
 
   {{ $baseurl := .Site.BaseURL }}
 
-<div class="content container">
-<h1 class="post-title">All Posts, by Date</h1>
-
-<ul class="post" id="list">
-  {{ range .Site.Pages.GroupByDate "January 2006" }}
-  <h1 class="shortend">{{ .Key }}</h1>
-  {{ range .Pages }}
-     <p id="archive" class="shorttop"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
-     {{ end }}
-     {{ end }}
+  <div class="content container">
+    
+    <h2 class="post-title">All Posts, by Date</h2>
+ 
+<ul class="post">
+  {{ range .Site.Pages.GroupByDate "2006" }}
+  <li><h1 class="center">{{ .Key }}</h1> 
+    <div class="architems">
+      {{ range .Pages }}
+    <div class="architem lead"> &middot; <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+    </div>
+    {{ end }}
+    {{ end }}
+  </li>  
 </ul>
 
-<!-- {{ template "partials/archive.html" . }} -->
 
+  
+{{ template "partials/allcats.html"}}    
 {{ template "partials/footer.html" . }}
 
 </div>

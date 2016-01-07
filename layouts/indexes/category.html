@@ -5,16 +5,33 @@
 <div class="content container">
   <h5><a href="/categories">Full Category Index</a></h5> 
   <h2>Posts in &ldquo;{{ .Title }}&rdquo;<br /></h2>
+
   
    <ul class="post" id="list">
-    {{ range .Data.Pages }}
+    {{ range (.Paginator 10).Pages }}
          {{ .Render "summary"}}
     {{ end }}
    </ul>
-   
-</div> 
-<div class="content container">
-  {{ template "partials/footer.html" . }}
-</div> 
+
+    <nav role="pagination" class="post-list-pagination">
+
+      {{ if .Paginator.HasNext }}
+      <a href="{{.Paginator.Next.URL}}">
+        « Older&nbsp;<i></i>
+      </a>
+      {{ end }}
+      <span>Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span>
+      
+      {{ if .Paginator.HasPrev }}
+      <a href="{{.Paginator.Prev.URL}}">
+        <i></i>&nbsp;Newer »
+      </a>
+      {{ end }}
+    </nav>
+    
+    <br />
+
+    {{ template "partials/allcats.html"}}       
+    {{ template "partials/footer.html" . }}
   
 </div>
