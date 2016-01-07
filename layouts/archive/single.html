@@ -6,9 +6,18 @@
   {{ $baseurl := .Site.BaseURL }}
 
 <div class="content container">
-<h1 class="post-title">Archive of All Posts, by Date</h1>
+<h1 class="post-title">All Posts, by Date</h1>
 
-    {{ template "partials/archive.html" . }}
+<ul class="post" id="list">
+  {{ range .Site.Pages.GroupByDate "January 2006" }}
+  <h1 class="shortend">{{ .Key }}</h1>
+  {{ range .Pages }}
+     <p id="archive" class="shorttop"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+     {{ end }}
+     {{ end }}
+</ul>
+
+<!-- {{ template "partials/archive.html" . }} -->
 
 {{ template "partials/footer.html" . }}
 
