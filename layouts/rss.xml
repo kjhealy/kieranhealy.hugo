@@ -4,7 +4,7 @@
     <link>{{ .Permalink }}</link>
     <language>en-us</language>
     <author>Kieran Healy</author>
-    <rights>Copyright (c) KIeran Healy.</rights>
+    <rights>Copyright (c) Kieran Healy.</rights>
     <updated>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</updated>
     {{ range first 10 .Data.Pages }}
     <item>
