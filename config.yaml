@@ -10,6 +10,24 @@ indexes:
   category: "categories"
 title: "kieranhealy.org"
 CanonifyUrls: true
+menu:
+  main:
+      - Name: "About"
+        Identifier: "about"
+        URL: "/"
+        Weight: 1
+      - Name: "Publications"
+        URL: "/publications"
+        Weight: 2
+      - Name: "Resources"
+        URL: "/resources"
+        Weight: 3
+      - Name: "Teaching"
+        URL: "/teaching"
+        Weight: 4
+      - Name: "Blog"
+        URL: "/blog"
+        Weight: 5
 permalinks:
   blog: /blog/archives/:year/:month/:day/:slug
   archive: /blog/archives/

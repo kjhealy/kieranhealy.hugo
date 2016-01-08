@@ -3,37 +3,13 @@
       <h1 class="condensed">Kieran Healy</h1>
     </div>
 
-<ul class="catlist">
 
-          <li>
-            <a href="/">
-              <span> About </span>
-            </a>
-          </li>
-          
-            <li>
-            <a href="/publications/">
-                <span> Publications </span>
-            </a>
-            </li>
-            <li>
-            <a href="/teaching/">
-                <span> Teaching </span>
-            </a>
-            </li>
-            <li>
-            <a href="/resources/">
-                <span> Resources </span>
-            </a>
-            </li>
-
-            <li>
-                <a href="/blog/">
-                <span> Blog </span>
-            </a>
-            </li>
-
-</ul>
-
+    <ul class="catlist">
+      {{ $currentNode := . }}
+      {{ range .Site.Menus.main }}
+      <li><span> <a class="sidebar-nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }} </a></span></li>
+      {{ end }}
+    </nav>
+    
   </div>
 
