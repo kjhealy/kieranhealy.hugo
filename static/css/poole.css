@@ -830,7 +830,7 @@ code.has-jax {font: inherit;
 .sidebar {
   text-align: center;
   padding: 1rem 0.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   color: rgba(255,255,255,.5);
 }
 
