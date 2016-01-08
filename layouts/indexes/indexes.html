@@ -1,6 +1,6 @@
-{{ template "partials/header.html" . }}
+{{ partial "header.html" . }}
 <body lang="en" class="theme-base-0f">
-{{ template "partials/sidebar.html" . }}
+{{ partial "sidebar.html" . }}
 
 <div class="content container">
   <h1>Archive of Posts, by Category</h1>
@@ -12,8 +12,8 @@
    </ul>
 
    <br />
-   {{ template "partials/allcats.html"}}    
+   {{ partial "allcats.html" . }}    
 
-   {{ template "partials/footer.html" . }}
+   {{ partial "footer.html" . }}
 
 </div>

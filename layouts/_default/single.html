@@ -1,7 +1,7 @@
-{{ template "partials/header.html" . }}
+{{ partial "header.html" . }}
 <body lang="en" class="theme-base-0f" itemscope itemtype="http://schema.org/Article">
 
-  {{ template "partials/sidebar.html" . }}
+  {{ partial "sidebar.html" . }}
 
   {{ $baseurl := .Site.BaseURL }}
 
@@ -16,11 +16,11 @@
         </article>
   </div>
 
-{{ template "partials/meta_aside.html" . }}
+{{ partial "meta_aside.html" . }}
 
-{{ template "partials/allcats.html"}}    
+{{ partial "allcats.html" . }}    
   
-{{ template "partials/footer.html" . }}
+{{ partial "footer.html" . }}
 
 </div>
 

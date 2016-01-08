@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8">
 
-    {{ template "partials/meta.html" . }}
+    {{ partial "meta.html" . }}
 
     <base href="{{ .Site.BaseURL }}">
     <title>{{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-    {{ template "partials/head_includes.html" . }}
+    {{ partial "head_includes.html" . }}
 </head>
 <body lang="en" class="theme-base-0f">
 
-  {{ template "partials/sidebar.html" . }}
+  {{ partial "sidebar.html" . }}
 
   
 <div class="content container">
@@ -33,7 +33,7 @@
 
 <p>You can also find me on <a href="http://twitter.org/kjhealy">Twitter</a> and <a href="/resources/github/">GitHub</a>.
 
-{{ template "partials/footer-front.html" }}
+{{ partial "footer-front.html" . }}
 
 </div>
 
