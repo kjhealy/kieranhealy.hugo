@@ -12,10 +12,6 @@ title: "kieranhealy.org"
 CanonifyUrls: true
 menu:
   main:
-      - Name: "About"
-        Identifier: "about"
-        URL: "/"
-        Weight: 1
       - Name: "Publications"
         URL: "/publications"
         Weight: 2
