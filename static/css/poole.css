@@ -84,7 +84,7 @@ a:focus {
 
 /* Headings */
 h2, h3, h4, h5, h6 {
-  font-family: "myriad-pro-semi-condensed", "Helvetica Neue", "Helvetica", Arial, sans-serif;  
+  font-family: "Myriad Pro", "Helvetica Neue", "Helvetica", Arial, sans-serif;  
   margin-bottom: .5rem;
   line-height: 1.25;
   color: #313131;
@@ -927,7 +927,7 @@ code.has-jax {font: inherit;
 /* } */
 
 .theme-base-0f .sidebar {
-  background-color: #932629;
+  background-color: #545454;
 }
 
 
