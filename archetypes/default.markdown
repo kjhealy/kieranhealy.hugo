@@ -1,5 +1,8 @@
 ---
 categories: [x,y]
+footnotes: false
+htmlwidgets: false
+mathjax: false
 ---
 
 

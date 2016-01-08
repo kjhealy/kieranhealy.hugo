@@ -1,7 +1,7 @@
 <ul>
   {{ $url := .Get "url" }}
   {{ range getJSON $url }}
-    {{ $p := . }} 
+    {{ $p := . }}  
     <li>
       <strong><a href="{{ $p.html_url }}" target="_blank">{{ $p.name }}</a></strong>
       <p>{{ $p.description }} <br />
