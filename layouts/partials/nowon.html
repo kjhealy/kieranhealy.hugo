@@ -1,0 +1,1 @@
+{{ if (le .Date.Unix .Now.Unix) }}{{ if (le .Now.Unix (add .Date.Unix .Params.duration)) }}<span class="badge badge-small badge-green">now on</span>{{ end }}{{ end }}

@@ -1,8 +1,9 @@
 {{ $baseurl := .Site.BaseURL }}
 
-<aside id="meta">
-{{ template "partials/details.html" . }}
-</aside>
+<ul class="pagination">
+  {{if .Next}} <li><a href="{{.Next.Permalink}}">&laquo; <em>Previous</em> {{.Next.Title}}</a></li> {{end}} 
+  {{if .Prev}} <li><a href="{{.Prev.Permalink}}">&raquo; <em>Next</em> {{.Prev.Title}}</a></li>{{end}}
+</ul> 
 
 <meta itemprop="wordCount" content="{{ .WordCount }}">
 <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">

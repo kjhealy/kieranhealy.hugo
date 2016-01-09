@@ -1,8 +1,17 @@
 {{ partial "header.html" . }}
-<body lang="en" class="theme-base-0f">
-{{ partial "sidebar.html" . }}
 
-<div class="content container">
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<div id="topbar">
+<div class="wrapper">
+  <header>
+  {{ template "partials/sidebar.html" . }}
+
+  {{ $baseurl := .Site.BaseURL }}
+  </header>
+</div>
+</div>
+
+<div class="wrapper">
   <h5><a href="/categories">Full Category Index</a></h5> 
   <h2>Posts in &ldquo;{{ .Title }}&rdquo;<br /></h2>
 
@@ -13,25 +22,13 @@
     {{ end }}
    </ul>
 
-    <nav role="pagination" class="post-list-pagination">
-
-      {{ if .Paginator.HasNext }}
-      <a href="{{.Paginator.Next.URL}}">
-        « Older&nbsp;<i></i>
-      </a>
-      {{ end }}
-      <span>Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span>
-      
-      {{ if .Paginator.HasPrev }}
-      <a href="{{.Paginator.Prev.URL}}">
-        <i></i>&nbsp;Newer »
-      </a>
-      {{ end }}
-    </nav>
-    
-    <br />
-
-    {{ partial "allcats.html" . }}       
-    {{ partial "footer.html" . }}
-  
 </div>
+
+{{partial "paging.html" . }}
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+   
+{{ partial "footer.html" . }}
+  

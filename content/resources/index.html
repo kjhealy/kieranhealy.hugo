@@ -3,40 +3,90 @@ type: page
 title: "Resources"
 ---
 
-<p>This page has links to configuration files, templates, and a few other things that might be of use to people who want to write nicely-formatted social science papers in plain text, with data, figures, and references. I wrote an <a href="http://kieranhealy.org/blog/archives/2014/01/23/plain-text/">introductory guide to the material here</a> that might be useful for getting oriented.</p>
+<h2>Writing and Presenting Social Science</h2>
 
+<p class="lead">This page has links to configuration files, templates, and a few other things that might be of use to people who want to write nicely-formatted social science papers in plain text, with data, figures, and references. I wrote an <a href="http://kieranhealy.org/blog/archives/2014/01/23/plain-text/">introductory guide to the material here</a> that might be useful for getting oriented.</p>
 
+<figure><img src="http://kieranhealy.org/files/misc/workflow-wide.png"> </figure>
 
-  <h2>&nbsp;</h2>
-<p><img class="fpimg" src="http://kieranhealy.org/files/misc/workflow-wide.png" width="400"> </p>
+<hr>
 
-
-  <h2><a href="http://www.kieranhealy.org/files/misc/workflow-apps.pdf">Choosing Your Workflow Applications</a> &rarr;</h2>
+<div class="units-row">
+  <div class="unit-50">
+    <h4><a href="http://www.kieranhealy.org/files/misc/workflow-apps.pdf">Choosing Your Workflow Applications</a> &rarr;</h4>
     <p>A short discussion, aimed at graduate students, about why you should think carefully about <a href="http://www.kieranhealy.org/files/misc/workflow-apps.pdf">your workflow applications</a>, i.e., the software tools you use to write papers. It consists of some general principles to bear in mind together with a bunch of specific software recommendations. There is a sample <a href="https://github.com/kjhealy/workflow-paper">github repository</a> that contains the <code>.org</code> source file the PDF is created from.</p>
 
 
 
-  <h2><a href="http://kieranhealy.org/resources/emacs-starter-kit" title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit for the Social Sciences</a></h2>
+    <h4><a href="/resources/emacs-starter-kit" title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit for the Social Sciences</a></h4>
     <p>This is a fork of Eric Schulte's <a href="http://github.com/eschulte/emacs-starter-kit/tree">Emacs Starter Kit</a> (itself an offshoot of <a href="http://github.com/eschulte/emacs-starter-kit/tree">Phil Hagelberg's original</a>) with additional tools included for social scientists, mostly related to writing books or papers in LaTeX and analyzing quantitative data using <a href="http://ess.r-project.org/">ESS</a> and <a href="http://www.r-project.org/">R</a>. The goal is to provide a drop-in configuration for Emacs that makes it easier to use right from the get-go. If you know about <a href="http://git-scm.com/" title="Git - Fast Version Control System">Git</a>, <a href="http://github.com/kjhealy/emacs-starter-kit/tree/master" title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you can clone the repository</a>.</p>
-  
+    
 
 
-  <h2><a href="https://github.com/kjhealy/pandoc-templates">Pandoc Templates</a> &rarr;</h2>
+    <h4><a href="https://github.com/kjhealy/pandoc-templates">Pandoc Templates</a> &rarr;</h4>
     <p>Some rudimentary Pandoc templates, meant to go in <code>~/.pandoc/templates</code>. Pointed to them directly with the <code>--template</code> or <code>--css</code> switches as appropriate, and use them with what's provided in <a href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>. Includes a shell script for setting pandoc up to work with the <a href="http://marked2app.com">Marked</a> app, a handy HTML live previewer for <code>.md</code> files.
     </p>
+  </div>
 
-
-
-  <h2><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h2>
+  <div class="unit-50">
+    <h4><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h4>
     <p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that lets you begin with an <code>.org</code> file in Emacs (as set up in the <a href="http://kjhealy.github.com/emacs-starter-kit/">Starter Kit</a>), and go from there to a nice, fully-processed PDF in one step. Or the pieces can be used separately to set up a <code>.tex</code> file with a nice Article layout.</p>  
 
 
-    <h2><a href="http://kjhealy.github.com/kjh-vita/">So You Like My Vita</a> &rarr;</h2>
+    <h4><a href="http://kjhealy.github.com/kjh-vita/">So You Like My Vita</a> &rarr;</h4>
     <p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.com/kjh-vita/" title="kjhealy's kjh-vita @ GitHub">here it is</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you to fork the project on GitHub and make them available to others in the same way.</p>
 
-    <h2><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h2>
+    <h4><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h4>
     <p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too. If you want to look under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the entire site is on GitHub</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>
 
     
-    <h2><a href="/resources/github/">All GitHub Projects</a></h2>
+    <h4><a href="/resources/github/">All GitHub Projects</a></h4>
     <p>Here is a <a href="/resources/github/">full list of the various public code and data repositories</a> that I have put on GitHub. They range from the configuration and templating tools listed above to data visualization exercises and other bits of data analysis, mostly written in R. 
+  </div>
+</div>
+</div>
+</div>
+</div>
+<hr class="separator">
+
+<div class="wrapper" style="font-size: 0.9em; line-height: 1.05em;">
+  <div class="units-row units-padding">		
+    <div class="unit-40"><!--about-->
+      <h3>about</h3>
+      <figure class="image-left">
+        <img class="avatar" src="/files/misc/kjh.jpg" height="120" width="120">
+      </figure>	
+      <p>I&rsquo;m Kieran Healy. This is my personal website. I am Associate Professor of <a href="http://sociology.duke.edu/">Sociology</a> at <a href="http://www.duke.edu">Duke University</a>. I&#8217;m affiliated with the <a href="http://kenan.ethics.duke.edu/">Kenan Institute for Ethics</a>, the <a href="http://markets.duke.edu">Markets and Management Studies</a> program, and the <a href="https://dnac.ssri.duke.edu">Duke Network Analysis Center</a>.</p>
+    </div><!--end about-->
+    <div class="unit-30"><!--contact-->
+      <h3>elsewhere</h3>
+      <ul class="compact fa-ul">
+        <li><i class="fa-li fa fa-university fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i>Department of Sociology, Box 90088, Duke University, Durham, North Carolina 27708.</li>
+        <li><i class="fa-li fa fa-envelope fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="mailto:kjhealy@gmail.com">kjhealy@gmail.com</a></li>
+        <li><i class="fa-li fa fa-twitter-square fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="http://twitter.com/kjhealy">@kjhealy</a> on Twitter.</li>
+        <li><i class="fa-li fa fa-github fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="http://github.com/kjhealy">On GitHub.</li>
+        <li><i class=""></li>
+      </ul>
+    </div><!--end contact-->
+    <div class="unit-30"><!--Subscribe-->
+      <h3>subscribe</h3>
+      <p>To receive updates from this site, you can
+	subscribe to the <a href="{{ .Site.BaseURL }}/index.xml"><i class="fa fa-rss-square" style="color:#03396c;"></i>&nbsp;RSS feed</a> of all updates to the site in an RSS feed reader</p>
+      <h3>search</h3>
+      <a id="searchsite">
+	<form method="get" action="http://duckduckgo.com/">
+	  <input type="search" name="q" maxlength="255" placeholder="Search the site">
+	  <input type="hidden" name="sites" value="kieranhealy.org"/>
+	  <input type="hidden" name="ka" value="Alegreya"/>
+	  <input type="hidden" name="k7" value="#faf8f8"/>
+	  <input type="hidden" name="kj" value="#b33"/>
+	  <input type="hidden" name="ky" value="#fafafa"/>
+	  <input type="hidden" name="kx" value="b"/>
+	  <input type="hidden" name="ko" value="-1"/>
+	  <input type="hidden" name="k1" value="-1"/>
+	  <input type="hidden" name="kt" value="Alegreya Sans"/>
+	  <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" /></form></a>
+    </div>
+  </div>
+</div>
+</div>

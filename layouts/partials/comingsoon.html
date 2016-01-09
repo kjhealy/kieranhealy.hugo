@@ -1,0 +1,1 @@
+{{ if ge .Date.Unix .Now.Unix }}{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">coming soon</span>{{ end }}{{ end }}

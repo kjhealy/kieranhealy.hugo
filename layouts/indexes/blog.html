@@ -1,35 +1,28 @@
 {{ partial "header.html" . }}
-<body lang="en" class="theme-base-0f">
-{{ partial "sidebar.html" . }}
+<body lang="en">
 
-<div class="content container">
-  
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        {{ partial "sidebar.html" . }}
+        {{ $baseurl := .Site.BaseURL }}
+      </header>
+    </div>
+  </div>
+
+<div class="wrapper">
     <ul class="post" id="list">
       {{ range (.Paginator 10).Pages }}
       {{ .Render "summary"}}
       {{ end }}
     </ul>
-
-    <nav role="pagination" class="post-list-pagination">
-
-      {{ if .Paginator.HasNext }}
-      <a href="{{.Paginator.Next.URL}}">
-        « Older&nbsp;<i></i>
-      </a>
-      {{ end }}
-      <span>Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span>
-      
-      {{ if .Paginator.HasPrev }}
-      <a href="{{.Paginator.Prev.URL}}">
-        <i></i>&nbsp;Newer »
-      </a>
-      {{ end }}
-    </nav>
-    
-    <br />
-
-{{ partial "allcats.html" . }}    
-
-{{ partial "footer.html" . }}
-
 </div>
+
+{{partial "paging.html" . }}
+
+<br />
+
+<hr>
+
+{{ partial "whatisthis.html" . }}
+   

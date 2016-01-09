@@ -1,0 +1,53 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<body>
+<div id="topbar">
+<div class="wrapper">
+  <header>
+  {{ partial "sidebar.html" . }}  
+  </header>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="units-row">		
+<div class="unit-20">&nbsp;</div>
+<div class="unit-60"><h2><a href="">{{ .Title }}</a></h2></div>
+</div>
+<div class="units-row">		
+  <div class="unit-20 dateblock">{{if not (isset .Params "grlog") }}<h4>{{ .Date.Format "January 2, 2006" }}</h4>{{ else }}&nbsp;{{ end }}
+
+
+    {{ range .Params.categories }}
+    &middot; <a class="small" href="{{ $baseurl }}categories/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+
+    
+  </div>
+<div class="unit-60">
+  
+  {{ .Content }}
+
+<hr>
+
+
+{{ partial "meta_aside.html" . }}
+
+{{ partial "allcats.html" . }}    
+
+</div>	
+
+</div>
+
+</div>
+
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+
+{{ partial "foot.html" . }}
+</body>
+</html>
+
+

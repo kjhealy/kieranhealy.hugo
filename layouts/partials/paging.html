@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <div class="units-row">
+    <div class="unit-centered unit-40">  
+      <ul class="pagination">
+
+        {{ if .Paginator.HasNext }}
+        <li><a href="{{.Paginator.Next.URL}}">
+            « Older&nbsp;
+          </a>
+        </li>
+        {{ end }}
+        <li><span>Page {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</span></li>      
+        {{ if .Paginator.HasPrev }}
+        <li>
+          <a href="{{.Paginator.Prev.URL}}">
+            &nbsp;Newer »
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+
+      {{ partial "allcats.html" . }}    
+      
+    </div>
+  </div>
+</div>   

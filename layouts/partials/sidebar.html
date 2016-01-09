@@ -1,14 +1,9 @@
-  <div class="sidebar">
-    <div class="sidebar-about">
-      <h1 class="condensed"><a href="http://kieranhealy.org/">Kieran Healy</a></h1>
-    </div>
-
-    <ul class="catlist">
-      {{ $currentNode := . }}
-      {{ range .Site.Menus.main }}
-      <li><span> <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }} </a></span>
+<nav class="navbar">
+  <ul>
+    <li><a href="/">Kieran Healy</a></li>
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.main }}
+    <li><span> <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }} </a></span>
       {{ end }}
-    </nav>
-    
-  </div>
-
+  </ul>  
+</nav>

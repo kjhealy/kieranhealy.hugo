@@ -1,32 +1,43 @@
 {{ template "partials/header.html" . }}
-<body lang="en" class="theme-base-0f" itemscope itemtype="http://schema.org/Article">
+<body lang="en" itemscope itemtype="http://schema.org/Article">
 
-  {{ template "partials/sidebar.html" . }}
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        {{ template "partials/sidebar.html" . }}
 
-  {{ $baseurl := .Site.BaseURL }}
-
-  <div class="content container">
-    
-    <h2 class="post-title">All Posts, by Date</h2>
- 
-<ul class="post">
-  {{ range .Site.Pages.GroupByDate "2006" }}
-    {{ if ge .Key 2000 }}
-  <li><h1 class="center">{{ .Key }}</h1> 
-    <div class="architems">
-      {{ range .Pages }}
-    <div class="architem lead"> &middot; <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+        {{ $baseurl := .Site.BaseURL }}
+      </header>
     </div>
-    {{ end }}  
-   {{ end }}
-  {{ end }}
-  </li>  
-</ul>
+  </div>
 
+  <div class="wrapper">
+    <div class="units-row">
+      <div class="unit-centered unit-80">  
 
-  
-{{ template "partials/allcats.html"}}    
-{{ template "partials/footer.html" . }}
+        <h2 class="post-title">All Posts, by Date</h2>
+        
 
-</div>
+          {{ range .Site.Pages.GroupByDate "2006" }}
+          {{ if ge .Key 2000 }}
+        <h3 class="center">{{ .Key }}</h3>
+        <p> 
+              {{ range .Pages }}
+              / <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+              {{ end }}  
+              {{ end }}
+              {{ end }}
+          </p>  
+
+        {{ template "partials/allcats.html"}}    
+
+        </div>
+      </div>
+      <hr class="separator">
+
+      {{ partial "whatisthis.html" . }}
+
+      {{ partial "footer.html" . }}
+
+    </div>
 

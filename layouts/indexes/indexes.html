@@ -1,19 +1,32 @@
 {{ partial "header.html" . }}
-<body lang="en" class="theme-base-0f">
-{{ partial "sidebar.html" . }}
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<div id="topbar">
+<div class="wrapper">
+  <header>
+  {{ template "partials/sidebar.html" . }}
 
-<div class="content container">
-  <h1>Archive of Posts, by Category</h1>
-   <ul class="post catlist">
-   {{ $data := .Data }}
-    {{ range $key,$value := .Data.Index.ByCount }} 
-    <li class="lead"><strong><a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a></strong> ({{ $value.Count }}) </li>
-    {{ end }}
-   </ul>
+  {{ $baseurl := .Site.BaseURL }}
+  </header>
+</div>
+</div>
 
-   <br />
-   {{ partial "allcats.html" . }}    
+<div class="wrapper">
+  <div class="units-row">
+    <div class="unit-centered unit-80">  
+      
+      <h2>Category Index</h2>
+      <p>
+        {{ $data := .Data }}
+        {{ range $key,$value := .Data.Index.ByCount }} 
+        &middot; <a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }}) 
+        {{ end }}
+      </p>
 
-   {{ partial "footer.html" . }}
+      <br />
+      {{ partial "allcats.html" . }}    
 
+      {{ partial "footer.html" . }}
+
+    </div>
+  </div>
 </div>

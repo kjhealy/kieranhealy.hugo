@@ -1,0 +1,142 @@
+{{ partial "head.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<body>
+<div id="topbar">
+<div class="wrapper">
+	<header>
+		<nav class="navbar">
+			<ul>
+				<li class="hd"><span><a href="{{ $baseurl }}"><b>consequently.org</b></a></span></li>
+				<li><a href="{{ $baseurl }}/news">News</a></li>
+				<li><a href="{{ $baseurl }}/writing">Writing</a></li>
+				<li><a href="{{ $baseurl }}/presentation">Presentations</a></li>
+				<li><a href="{{ $baseurl }}/class">Classes</a></li>
+				<li><a href="#searchsite">Search</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+</div>
+
+<div class="wrapper">		
+
+<div class="units-row">
+
+<div class="unit-50">
+<h2>404: Page Not Found</h2>
+<p class="big">
+	There is no page here at the address you requested. Perhaps try a search to find what you are looking for?
+</p>
+					<form method="get" action="http://duckduckgo.com/">
+				<input type="search" name="q" maxlength="255" placeholder="Search consequently.org">
+			<input type="hidden" name="sites" value="consequently.org"/>
+			   <input type="hidden" name="ka" value="Alegreya"/>
+			   <input type="hidden" name="k7" value="#faf8f8"/>
+			   <input type="hidden" name="kj" value="#b33"/>
+			   <input type="hidden" name="ky" value="#fafafa"/>
+			   <input type="hidden" name="kx" value="b"/>
+			   <input type="hidden" name="ko" value="-1"/>
+			   <input type="hidden" name="k1" value="-1"/>
+			   <input type="hidden" name="kt" value="Alegreya Sans"/>
+			   <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" /></form>
+</div>
+
+<div class="unit-50">
+<h2>Recent News</h2>
+<ul class="compact fa-ul">
+        {{ range first 10 (where .Data.Pages.ByDate "Section" "news").Reverse }}
+<li><i class="fa-li fa fa-newspaper-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i> <a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a>{{if not (isset .Params "grlog") }}, <time><em>{{ .Date.Format "January 2, 2006" }}</em></time>{{ end }} </li>
+		{{ end }}
+</ul>
+
+
+
+<footer class="group">	
+<nav class="navbar navbar-right"><a href="news">&rarr; All News</a></nav> 
+</footer>
+
+<h2>Recent Writing</h2>
+<ul class="compact fa-ul">
+        {{ range first 5 (where .Data.Pages.ByDate "Section" "writing").Reverse }}
+        <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }} 
+<a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
+{{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
+        </li>
+		{{ end }}
+</ul>
+			
+<footer class="group">	
+<nav class="navbar navbar-right"><a href="writing">&rarr; All Writing</a></nav> 
+</footer>
+
+		
+		<h2>Recent &amp; Upcoming Presentations</h2>
+	  <ul class="compact fa-ul">
+        {{ range (where .Data.Pages.ByDate "Section" "presentation").Reverse }}
+	    {{ if (ge .Date.Unix .Now.Unix) }}
+		{{ if (le .Date.Unix (add .Now.Unix 10368000)) }}
+        <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><em>{{ .Title | safeHTML }}</em></a>, {{ .Params.host | safeHTML }} ({{ .Date.Format "2 January 2006" }}). {{ partial "comingsoon.html" . }}
+</li>		
+		{{ end }}
+		{{ end }}
+		{{ if (ge .Now.Unix .Date.Unix ) }}
+	    {{ if (le .Now.Unix (add .Date.Unix 12368000)) }}
+        <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><em>{{ .Title | safeHTML }}</em></a>, {{ .Params.host | safeHTML }} ({{ .Date.Format "2 January 2006" }}).
+</li>		
+		{{ end }}
+		{{ end }}
+		{{ end }}
+</ul>
+<footer class="group">	
+<nav class="navbar navbar-right"><a href="presentation">&rarr; All Presentations</a></nav> 
+</footer>
+			
+<h2>Recent &amp; Upcoming Classes</h2>			
+	  <ul class="compact fa-ul">
+        {{ range (where .Data.Pages.ByDate "Section" "class").Reverse }}
+	    {{ if (ge .Date.Unix .Now.Unix) }}
+		{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}
+        <li><i class="fa-li fa {{ if eq .Params.host "Coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "comingsoon.html" . }}
+</li>		
+		{{ end }}
+		{{ end }}
+		{{ end }}
+
+        {{ range (where .Data.Pages.ByDate "Section" "class").Reverse }}
+	    {{ if (le .Date.Unix .Now.Unix) }}
+		{{ if (le .Now.Unix (add .Date.Unix .Params.duration)) }}
+        <li><i class="fa-li fa {{ if eq .Params.host "Coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. {{ partial "nowon.html" . }}
+</li>		
+		{{ end }}
+		{{ end }}
+		{{ end }}
+        {{ range (where .Data.Pages.ByDate "Section" "class").Reverse }}
+		{{ $classend := (add .Date.Unix .Params.duration) }}
+		{{ if (ge .Now.Unix $classend ) }}
+	    {{ if (le .Now.Unix (add $classend 10368000)) }}
+
+        <li><i class="fa-li fa {{ if eq .Params.host "coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">completed</span>
+</li>		
+		{{ end }}
+		{{ end }}
+		{{ end }}
+</ul>
+
+
+<footer class="group">	
+<nav class="navbar navbar-right"><a href="class">&rarr; All Classes</a></nav> 
+</footer>
+</div>
+</div>	
+
+</div><!-- /end .wrapper -->
+
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+
+{{ partial "foot.html" . }}
+</body>
+</html>
