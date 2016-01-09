@@ -22,7 +22,6 @@
 </div>
 
 <div class="wrapper">		
-
 <div class="units-row">
 <div class="unit-66">
 <div class="units-row-end">
@@ -30,7 +29,7 @@
 &nbsp;
 </div>
 <div class="unit-66">
-	<h3>Recent Posts</h3>
+	<p></p>
 	</div>
     </div>
     {{ range first 2 ((where .Data.Pages.ByDate "Section" "blog").Reverse) }}
@@ -51,10 +50,11 @@
 
 {{ end }}
 
+<hr>
+
 <div class="units-row-end">
 <div class="unit-33 dateblock">&nbsp;</div>
 </div>	
-
 </div>
 
 <div class="unit-33">
@@ -65,10 +65,11 @@
   <li><a href="/files/papers/slam-2.pdf">Seeing Like a Market</a></li>
   <li><a href="/files/papers/fuck-nuance.pdf">Fuck Nuance</a></li>
   <li><a href="/files/papers/performativity.pdf">The Performativity of Networks</a></li>
+<li>&nbsp;</li>
 </ul>
 			
 <footer class="group">	
-<nav class="navbar navbar-right"><br /><a href="/publications">&rarr; More Papers</a></nav> 
+<nav class="navbar navbar-right"><a href="/publications">&rarr; More Papers</a></nav> 
 </footer>
 			
 <h3>Current Teaching</h3>			
@@ -104,7 +105,7 @@
 
 
 <footer class="group">	
-<nav class="navbar navbar-right"><br /><a href="teaching">&rarr; More Classes</a></nav> 
+<nav class="navbar navbar-right"><br /><a href="teaching">&rarr; Other Classes</a></nav> 
 </footer>
 </div>
 </div>	
