@@ -25,7 +25,8 @@
 <ul class="fa-ul">
 {{ range .Pages }}
         <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"> 
-          <a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>
+            <a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>
+            <p>{{ .Summary }}</p>
         </li>
 {{ end }}
 </ul>
@@ -34,7 +35,7 @@
 {{ end }}
 </div>
 <div class="unit-30">
-<p>This page is an archive of classes I teach, including pointers to upcoming courses and other resources, when they are available. Classes are listed once but taught more frequently.</p>
+<p>This page lists some of the classes I have offered in recent years, including pointers to upcoming courses and other resources, when they are available. Classes are listed once but are typically taught more frequently than that.</p>
 </div>
 </div>
 </div>

@@ -10,7 +10,10 @@ duration: 7776000
 This graduate-level course is an introduction to some main themes
 in sociological theory since the 1950s. It is the second of the
 two-part theory sequence required of first year Ph.D students in the
-sociology department.
+sociology department. It is not a general introduction either to
+social theory broadly conceived or to humanities-style "Theory". 
+
+<!--more-->
 
 #### [Syllabus (PDF).](http://www.kieranhealy.org/files/teaching/contemp-theory.pdf) 
 
