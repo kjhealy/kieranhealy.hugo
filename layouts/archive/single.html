@@ -13,26 +13,23 @@
 
   <div class="wrapper">
     <div class="units-row">
-      <div class="unit-centered unit-80">  
-
-        <h2 class="post-title">All Posts, by Date</h2>
-        
-
+      <div class="unit-60">  
           {{ range .Site.Pages.GroupByDate "2006" }}
           {{ if ge .Key 2000 }}
-        <h3 class="center">{{ .Key }}</h3>
-        <p> 
-              {{ range .Pages }}
-              / <a href="{{ .RelPermalink }}">{{ .Title }}</a> 
-              {{ end }}  
-              {{ end }}
-              {{ end }}
-          </p>  
+        <h3 class="center">{{ .Key }}</h3>        
+        <p>
+          {{ range .Pages }} &middot; {{if not (isset .Params "grlog") }}<time><em>{{ .Date.Format "January 2" }}</em></time>, {{ end }}<a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a> {{ end }} </p>
+        {{ end }}
+        {{ end }}
 
         {{ template "partials/allcats.html"}}    
 
-        </div>
       </div>
+      <div class="unit-30">
+        <p><em>Links to all the blog entires on this site since 2002.</em></p>
+      </div>
+    </div>
+    
       <hr class="separator">
 
       {{ partial "whatisthis.html" . }}
