@@ -7,9 +7,7 @@ host: "Duke University"
 duration: 7776000
 ---
 
-This graduate-level course is an intensive introduction to some
-main themes in social theory. It is the first of a two-part sequence
-required of first year Ph.D students in the sociology department.
+This graduate-level course is an intensive introduction to some main themes in social theory. It is the first of a two-part sequence required of first year Ph.D students in the sociology department.
 
 <!--more-->
 
