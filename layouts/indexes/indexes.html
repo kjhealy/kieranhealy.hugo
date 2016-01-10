@@ -21,12 +21,16 @@
         &middot; <a href="categories/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> ({{ $value.Count }}) 
         {{ end }}
       </p>
-
-      <br />
       {{ partial "allcats.html" . }}    
-
-      {{ partial "footer.html" . }}
-
     </div>
   </div>
 </div>
+  <hr class="separator">
+
+  {{ partial "whatisthis.html" . }}
+  {{ partial "foot.html" . }}
+
+</body>
+</html>
+  
+
