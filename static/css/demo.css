@@ -319,3 +319,7 @@ header h1 {	font-size: 24px;
 .oldcons h3 {padding-top:0.2em;}
 
 .logician {float: left; margin-right:16px;}
+
+p.capitalize {
+    text-transform: capitalize;
+}
