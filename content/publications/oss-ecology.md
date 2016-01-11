@@ -3,7 +3,7 @@ title: "The Ecology of Open-Source Software Development"
 
 author: Kieran Healy and Alan Schussman
 status: Inactive
-type: unpublished
+type: retired
 citation: "&ldquo;The Ecology of Open-Source Software Development.&rdquo;"
 tag: credit-moralization
 file: oss-activity.pdf
