@@ -28,11 +28,13 @@ h2, h3 {
   background-color: #36454f;
 }
 
-a {color: #36454f; text-decoration:none; border-bottom: dotted 1px #A1A3A1;}
+a {color: #36454f;
+   text-decoration:none;
+   border-bottom: dotted 1px #A1A3A1;}
+
 a:hover {text-decoration:underline;}
 
-
-
+a.badge.badge-red { color: #fff;}
 
 /* =Code
 -----------------------------------------------------------------------------*/

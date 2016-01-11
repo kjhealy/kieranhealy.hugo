@@ -5,7 +5,7 @@ author: Kieran Healy
 status: Published
 type: published
 kind: book
-citation: "<em>Last Best Gifts: Altruism and the Market for Human Blood and Organs</em> University of Chicago Press."
+citation: "<em>Last Best Gifts: Altruism and the Market for Human Blood and Organs</em>. University of Chicago Press."
 tag: organs-altruism
 subjects: organs blood altruism
 comments: no
