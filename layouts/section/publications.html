@@ -12,16 +12,33 @@
   </div>
 
   <div class="wrapper">
-      <div class="units-row">
-        <div class="unit-100">
-          <h2>Working Papers</h2>
+    <div class="units-row">
+      <div class="unit-50">
+        <h2>Articles and Book Chapters</h2>
+          {{ range (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
+          <div class="units-row">
+            <div class="unit-10">
+              <h3>{{ .Key }}</h3>
+            </div>
+            <div class="unit-90">
+              <ul class="compact fa-ul">
+	        {{ range .Pages.ByDate.Reverse }}
+                <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
+                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
+                  {{ if isset .Params "file" }}
+                  <a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
+                  {{ end }}
+                </li>
+	        {{ end }}
+              </ul>              
+            </div>	
+          </div>
+          {{ end }}
         </div>
-      </div>
-      <div class="units-row">
-        <div class="unit-50">
-          <!-- Column of even-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 0 }}
+
+      <div class="unit-50">
+        <h2>Working Papers</h2>
+          {{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
           <div class="units-row">
             <div class="unit-10">
               <h3>{{ .Key }}</h3>
@@ -39,95 +56,10 @@
               </ul>              
             </div>	
           </div>
-          {{ end }} 
           {{ end }}
-        </div>
-        <div class="unit-50">
-          <!-- Column of odd-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 1 }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                <li><i class="fa-li fa fa-file-o fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
-                </li>
-	        {{ end }}
-              </ul>
-            </div>
-          </div>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-      <div class="units-row">
-        <div class="unit-100">
-          <h2>Articles and Book Chapters</h2>
-        </div>
-      </div>      
-      <div class="units-row">
-        <div class="unit-50">
+      <h2>Retired Papers</h2>
           <!-- Column of even-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 0 }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}
-                  <a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
-                  {{ end }}
-                </li>
-	        {{ end }}
-              </ul>              
-            </div>	
-          </div>
-          {{ end }} 
-          {{ end }}
-        </div>
-        <div class="unit-50">
-          <!-- Column of odd-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "published").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 1 }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}                
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
-                </li>
-	        {{ end }}
-              </ul>
-            </div>
-          </div>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-            <div class="units-row">
-        <div class="unit-100">
-          <h2>Retired Papers</h2>
-        </div>
-      </div>      
-      <div class="units-row">
-        <div class="unit-50">
-          <!-- Column of even-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 0 }}
+          {{ range (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
           <div class="units-row">
             <div class="unit-10">
               <h3>{{ .Key }}</h3>
@@ -145,42 +77,9 @@
               </ul>              
             </div>	
           </div>
-          {{ end }} 
           {{ end }}
-        </div>
-        <div class="unit-50">
-          <!-- Column of odd-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 1 }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                <li><i class="fa-li fa  {{ if eq .Type "retired" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}                
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
-                </li>
-	        {{ end }}
-              </ul>
-            </div>
-          </div>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>  
-      <div class="units-row">
-        <div class="unit-100">
           <h2>Essays and Reviews</h2>
-        </div>
-      </div>      
-      <div class="units-row">
-        <div class="unit-50">
-          <!-- Column of even-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 0 }}
+          {{ range (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
           <div class="units-row">
             <div class="unit-10">
               <h3>{{ .Key }}</h3>
@@ -199,12 +98,9 @@
             </div>	
           </div>
           {{ end }} 
-          {{ end }}
         </div>
         <div class="unit-50">
-          <!-- Column of odd-numbered items -->
-          {{ range $i, $e := (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
-          {{ if eq (mod $i 2) 1 }}
+          {{ range (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
           <div class="units-row">
             <div class="unit-10">
               <h3>{{ .Key }}</h3>
@@ -220,7 +116,6 @@
               </ul>
             </div>
           </div>
-          {{ end }}
           {{ end }}
         </div>
       </div>  
