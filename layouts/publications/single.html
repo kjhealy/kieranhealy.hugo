@@ -24,11 +24,11 @@
 
         <hr>
         {{ if .PrevInSection }}
-        <a href="{{.PrevInSection.Permalink}}"> &larr;&nbsp;{{.PrevInSection.Title}}</a>
+        <a href="{{.PrevInSection.Permalink}}"> &laquo; &nbsp;{{.PrevInSection.Title}}</a>
         {{ if .NextInSection }} | {{ end }}
         {{ end }}
         {{ if .NextInSection }}
-        <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&rarr;</a>
+        <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&raquo;</a>
         {{ end }}
 
       </div>

@@ -4,7 +4,7 @@ title: "Sociology"
 author: Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Sociology</em>&rdquo; Pp90-122 in <em>A Companion to Contemporary Political Philosophy</em> (Second Edition), edited by Robert E. Goodin, Philip Pettit, and Thomas Pogge. Blackwell, New York "
+citation: "&ldquo;Sociology.</em>&rdquo; In <em>A Companion to Contemporary Political Philosophy</em> (Second Edition), pp90-122, edited by Robert E. Goodin, Philip Pettit, and Thomas Pogge. Blackwell, New York."
 tag: sociology-pol-phil
 subjects: sociology political philosophy
 comments: no
