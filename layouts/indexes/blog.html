@@ -13,12 +13,16 @@
 
   <div class="wrapper">
     <div class="units-row">
-      <div class="unit-centered unit-80">
+      <div class="unit-70">
       <!-- Column of even-numbered posts -->
       {{ range (.Paginator 10).Pages }}
       {{ .Render "summary" }}
       {{ end }}
       </div>
+      <div class="unit-30">
+        <h3></h3>
+        <p><em>Sociology and other distractions, since 2002. View <a href="blog/archives/">all posts by date</a>, or <a href="/categories/">an index of posts by category</a></em>.</p>
+      </div>  
     </div>  
   </div> 
   
