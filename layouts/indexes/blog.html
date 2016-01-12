@@ -13,23 +13,12 @@
 
   <div class="wrapper">
     <div class="units-row">
-      <div class="unit-50">
+      <div class="unit-centered unit-80">
       <!-- Column of even-numbered posts -->
-      {{ range $i, $e := (.Paginator 10).Pages }}
-      {{ if eq (mod $i 2) 0 }}
+      {{ range (.Paginator 10).Pages }}
       {{ .Render "summary" }}
-      {{ end }} 
       {{ end }}
       </div>
-      <div class="unit-50">
-      <!-- Column of odd-numbered posts -->
-      {{ range $i, $e := (.Paginator 10).Pages }}
-      {{ if eq (mod $i 2) 1 }}
-      {{ .Render "summary" }}
-      {{ end }} 
-      {{ end }}
-      </div>
-
     </div>  
   </div> 
   
