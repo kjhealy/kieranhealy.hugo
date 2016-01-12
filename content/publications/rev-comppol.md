@@ -8,7 +8,6 @@ citation: "Review of <em>Comparative Politics</em> by Mark Lichbach and Alan Zuc
 tag: rev-cp
 subjects: review lichbach zuckerman
 comments: no
-file: rule.pdf
 date: 1999-09-20
 publishdate: 1999-09-20
 ---

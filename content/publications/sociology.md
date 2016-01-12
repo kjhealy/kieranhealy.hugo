@@ -8,7 +8,7 @@ citation: "&ldquo;Sociology.</em>&rdquo; In <em>A Companion to Contemporary Poli
 tag: sociology-pol-phil
 subjects: sociology political philosophy
 comments: no
-file: sociology-ctpp-proofs.pdf
+file: sociology-ctcpp-proofs.pdf
 date: 2008-05-20
 publishdate: 2008-05-20
 ---
