@@ -20,19 +20,15 @@
       <div class="unit-20 dateblock"><h4>{{ .Date.Format "January 2, 2006" }}</h4></div>
       <div class="unit-60">
         {{ .Content }}
-
-
         <hr>
         {{ if .PrevInSection }}
         <a href="{{.PrevInSection.Permalink}}"> &laquo; &nbsp;{{.PrevInSection.Title}}</a>
-        {{ if .NextInSection }} | {{ end }}
+         {{ if .NextInSection }} | {{ end }}
         {{ end }}
         {{ if .NextInSection }}
         <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}&nbsp;&raquo;</a>
         {{ end }}
-
       </div>
-      
     </div>
   </div>
 

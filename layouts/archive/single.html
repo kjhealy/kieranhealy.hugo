@@ -14,12 +14,12 @@
   <div class="wrapper">
     <div class="units-row">
       <div class="unit-60">  
-          {{ range .Site.Pages.GroupByDate "2006" }}
-          {{ if ge .Key 2002 }}
-        <h3 class="center">{{ .Key }}</h3>        
-        <p>
-          {{ range .Pages }} &middot; {{if not (isset .Params "grlog") }}<time><em>{{ .Date.Format "January 2" }}</em></time>, {{ end }}<a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a> {{ end }} </p>
-        {{ end }}
+        {{ range .Site.Pages.GroupByDate "2006" }}
+         {{ if ge .Key 2002 }}
+         <h3 class="center">{{ .Key }}</h3>        
+         <p>
+           {{ range .Pages }} &middot; {{if not (isset .Params "grlog") }}<time><em>{{ .Date.Format "January 2" }}</em></time>, {{ end }}<a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a> {{ end }} </p>
+         {{ end }}
         {{ end }}
 
         {{ template "partials/allcats.html"}}    
@@ -30,9 +30,9 @@
       </div>
     </div>
     
-      <hr class="separator">
+    <hr class="separator">
 
-      {{ partial "whatisthis.html" . }}
+    {{ partial "whatisthis.html" . }}
 
-      {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
 
