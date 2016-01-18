@@ -2,7 +2,7 @@
 date: 2016-01-16T20:12:53-05:00
 title: Two Y-Axes
 footnotes: true
-categories: [Data,Visualization]
+categories: [Data,Visualization,R]
 ---
 
 A few days ago, Matt Yglesias shared this tweet from Liz Ann Sonders, Chief Investment Strategist with Charles Schwab, Inc: 
