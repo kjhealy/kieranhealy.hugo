@@ -25,7 +25,7 @@ Another compromise, if the series are not in the same units (or of widely differ
 
 {{% figure src="/files/misc/indexed-with-differences.png" link="/files/misc/indexed-with-differences.png" caption="Here we index the first period of each series to 100, and add a panel showing the running difference between them." %}}
 
-Not bad. Note how, in this version, the S&P index runs above the Monetary Base for almost the whole series.
+Not bad. Note how, in this version, the S&P index runs above the Monetary Base for almost the whole series, whereas in the plot as originally scaled they crossed.
 
 The broader problem is that the association between these variables is probably spurious. The original plot is enabling our desire to spot patterns, but substantively it's probably that both of these time series are tending to increase, but they're not otherwise related in any deep way. If we were interested in establishing the true association between them, we might begin by naively regressing one on the other---trying to predict the S&P index from the Monetary Base, for instance. If we do that, things look absolutely fantastic to begin with, as we appear to explain about 95% of the variance in the S&P just by knowing the size of the Monetary Base from the same period. We're going to be rich! 
 
