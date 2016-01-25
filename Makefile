@@ -18,8 +18,11 @@ staging: site
 server: css
 	hugo server -ws .
 
-deploy: site
+deploy: compress site
 	rsync -crzve 'ssh -p 22' $(PUBLIC_DIR) $(SSH_USER):$(DOCUMENT_ROOT)
+
+compress: css
+	java -jar ~/bin/yuicompressor-2.4.8.jar static/css/stylesheet.css -o static/css/stylesheet-min.css --charset utf-8
 
 site: css .FORCE
 	hugo 
@@ -30,6 +33,5 @@ css:
 	touch static/css/stylesheet.css 
 	rm -f static/css/stylesheet.css
 	cat static/css/kube.css static/css/demo.css static/css/syntax.css static/css/bigfoot-default.css > static/css/stylesheet.css
-	java -jar ~/bin/yuicompressor-2.4.8.jar static/css/stylesheet.css -o static/css/stylesheet-min.css --charset utf-8
 
 .FORCE:
