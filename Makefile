@@ -1,8 +1,17 @@
 ### Build and deploy http://kieranhealy.org
 
-### Apart from hugo, you will need rsync to deploy
+### If you want to use this file as-is, then you
+### need to change the variables below to your
+### own SSH user, document root, etc.
+### However, you will most likely also want to
+### customize the various steps (e.g. the css target)
+### so that it matches the details of your own
+### setup.
+### 
+### Apart from hugo, you will also need rsync to deploy
 ### the site, and the java-based yuicompressor to
-### minify the CSS.
+### minify the CSS, should you keep that step.
+
 
 SSH_USER = khealy@kieranhealy.org
 STAGING_USER = kjhealy@kjhealy.co
