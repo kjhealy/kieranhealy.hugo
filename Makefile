@@ -34,4 +34,7 @@ css:
 	rm -f static/css/stylesheet.css
 	cat static/css/kube.css static/css/demo.css static/css/syntax.css static/css/bigfoot-default.css > static/css/stylesheet.css
 
+clean:
+	rm -rf public/
+
 .FORCE:
