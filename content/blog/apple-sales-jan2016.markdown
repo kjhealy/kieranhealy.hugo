@@ -18,12 +18,12 @@ Note that the time periods covered on the x-axes are not the same across product
 
 As I say, things aren't looking too good for iPad growth, even though it's not like it's short of sales volume.
 
-*Update:* While listening to the discussion on ATP last night, I did two more as well. First, a moving average of the main products including the iPod:
+*Update:* While listening to the discussion on ATP last night, I did two more as well. First, the decomposed trend lines for all the main products, including the iPod:
 
-{{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends-siracusa.png" alt="Moving average of all four products." caption="Figure 4. Moving Average of all four products." %}}
+{{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends-siracusa.png" alt="Moving average of all four products." caption="Figure 4. Decomposed sales trend lines for all four products." %}}
 
 
-And second, the same thing with the raw time series, which shows how much quarterly seasonality the moving average is smoothing out: 
+And second, the same thing with the raw time series, which shows how much quarterly seasonality the trend smooths out: 
 
 
 {{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends-raw-siracusa.png" alt="Quarterly sales for all four products." caption="Figure 4. Quarterly sales for all four products." %}}
