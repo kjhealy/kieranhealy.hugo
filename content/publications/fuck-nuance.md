@@ -2,7 +2,7 @@
 title: "Fuck Nuance"
 
 author: Kieran Healy
-status: In Progress
+status: Forthcoming
 type: unpublished
 citation: "&ldquo;Fuck Nuance.&rdquo;"
 tag: theory nuance
@@ -17,3 +17,5 @@ filter:
   - rubypants
 ---
 Seriously, fuck it.
+
+Revised version forthcoming in *Sociological Theory*.
