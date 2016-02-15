@@ -12,7 +12,7 @@ the years I've
 topic, ranging from bits of advice to templates or things I use
 myself. My focus is on managing the various pieces of the
 [work process in plain-text](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/),
-especially when it comes to writing code you can read later and
+especially when it comes to writing code you can read later, and
 keeping track of the work you've done. When talking to undergraduates
 or graduate students about this, and when teaching classes that use
 these tools, I increasingly run into the problem that it's hard to get
@@ -21,20 +21,18 @@ about how the computer they are using works.
 
 I think the key is the rise of the flat-screen, touch-based model of
 computing, most obviously on phones and then very secondarily on
-things like Apple's iPad or Microsoft's Surface tablet. The most
-recent, high-end iterations of these devices are more capable than
-they've ever been. Now, most people who need to write long documents
-(like papers or dissertations) or work in an involved way with data do
-not use a tablet as their primary device. But it does seem clear that
-some kind of touch-screen interaction is the future of computing for
-most people. Indeed, once you consider phones properly you realize
-it's the _present_ of computing for most people right now. While it is
-not strictly impossible, its remains very difficult to do your
-academic, social-science work on a device of this sort. This is likely
-to be the case for some time. This is because the tools we use and the
-way we use them are not designed up for them.
+things like Apple's iPad or Microsoft's Surface tablet. Now, most
+people who need to write long documents (like papers or dissertations)
+or work in an involved way with data do not use a tablet as their
+primary device. But it does seem clear that some kind of touch-screen
+interaction is the future of computing for most people. Indeed, once
+you consider phones properly you realize it's the _present_ of
+computing for most people. While it is not strictly impossible, it
+remains very difficult to do your academic, social-science work on a
+device of this sort. This is likely to be the case for some time. The
+tools we have are not designed up for them.
 
-That is not surprising. But I think there is an underappreciated
+That's not surprising. But I think there is an underappreciated
 tension here. Two ongoing computing revolutions are tending to pull in
 opposite directions. On one side, the mobile, cloud-centered,
 touch-screen, phone-or-tablet model has brought powerful computing to
@@ -53,7 +51,7 @@ revolutionized the availability and practice of data analysis and
 scientific computing generally. They continue to do so, too, as people
 work to make them better at everything from slurping up data from the
 web to presenting it there. These tools mostly work by gluing together
-separate, specialized tools into a reproducible workflow. They are are
+separate, specialized widgets into a reproducible workflow. They are are
 "bitty" or granular because the process of data analysis is that way
 as well. They do much less to hide the operating system
 layer---instead they often directly mesh with it---and they also
@@ -70,18 +68,18 @@ applications work together in the service of a single goal.[^1] To be
 clear, this is not something to blame users for, and neither is it
 something to complain about in some misguided nostalgia for the
 command line. Rather, it is an aspect of how computer use is changing
-at a very large scale. The coding and data-analysis tools we have are
-powerful and for the most part meant to allow work to opened up and
+at a very large scale. The coding and data analysis tools we have are
+powerful and for the most part meant to allow work to be opened up and
 inspected. But the way they work clearly run against the grain of
 where everyday, end-use computing is going, which is to hide many
 implementation details and focus on single-purpose tasks. Again,
-specialized tools are necessarily specialized. But the net result for
+specialized tools are necessarily specialized. The net result for
 the social sciences in the short to medium term, I think, is that we
 will have a suite of powerful tools that enable an amazing variety of
 scientific activity, developed in the open and mostly available for
 free. But it will be harder to teach people how to use them.
 Organizations like [Data Carpentry](http://www.datacarpentry.org) have
-begun to address this challenge in a very positive way. But I think
+begun to address this challenge in a very positive way. I think
 we'll need a lot more in that vein in the future.
 
 [^1]: As opposed to multi-tasking in the less-interesting sense of trying to pay attention to a number of discrete tasks (writing, email, calendar, web-browsing), each controlled by a separate application.
