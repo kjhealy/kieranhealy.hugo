@@ -69,14 +69,14 @@ clear, this is not something to blame users for, and neither is it
 something to complain about in misguided nostalgia for the command
 line. Rather, it is an aspect of how computer use is changing at a
 very large scale. The coding and data analysis tools we have are
-powerful and for the most part meant to allow work to be opened up and
-inspected. But the way they work clearly runs against the current of
-everyday, end-use computing, which increasingly hides many
-implementation details and focuses on single-purpose tasks. Again,
-specialized tools are necessarily specialized. The net result for the
-social sciences in the short to medium term, I think, is that we will
-have a suite of powerful tools that enable an amazing variety of
-scientific activity, developed in the open and mostly available for
+powerful and for the most part meant to allow research products to be
+opened up and inspected. But the way they work clearly runs against
+the current of everyday, end-use computing, which increasingly hides
+many implementation details and focuses on single-purpose tasks.
+Again, specialized tools are necessarily specialized. The net result
+for the social sciences in the short to medium term, I think, is that
+we will have a suite of powerful tools that enable an amazing variety
+of scientific activity, developed in the open and mostly available for
 free. But it will get harder to teach people how to use them.
 Organizations like [Data Carpentry](http://www.datacarpentry.org) have
 begun to address this challenge in a very positive way. I think we'll
