@@ -9,8 +9,8 @@ tag: theory nuance
 file: fuck-nuance.pdf
 subjects: sociology theory fuck
 comments: no
-date: 2015-08-15
-publishdate: 2015-08-15
+date: 2016-01-15
+publishdate: 2016-01-15
 filter:
   - erb
   - markdown
