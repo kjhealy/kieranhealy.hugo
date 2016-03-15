@@ -5,7 +5,7 @@ layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false
 pygmentsuseclasses: true
-baseurl: "http://kieranhealy.org/"
+baseurl: "https://kieranhealy.org/"
 indexes:
   category: "categories"
 title: "kieranhealy.org"
