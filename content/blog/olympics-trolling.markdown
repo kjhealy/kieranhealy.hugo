@@ -8,7 +8,7 @@ categories: [Sociology,Obiter Dicta]
 
 It's that happy time when I whine about American television coverage of the Olympics. This year's whining has a new twist—beyond the usual complaints about sentimental crap and tape-delay—because there are no decent streaming options absent a pre-existing subscription to some cable channels. But it's also the time when I am reminded of my existing personal prejudices about sports, when I may discover new ones (as new events are added), and when I try to figure out whether there's any defensible rationale to my preferences. A moment's thought suggests that my views are perfectly correct. Reflecting a little further on my sports bigotry, I think the simplest model is a two-dimensional space that, I think you will agree, is both easy to understand and wholly objective.
 
-{{% img src="http://kieranhealy.org/files/misc/OlympicSports.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/OlympicSports.png" %}}
 
 [*Click for a larger version.*](http://kieranhealy.org/files/misc/OlympicSports.png)
 

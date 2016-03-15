@@ -7,13 +7,13 @@ categories: [Sociology]
 
 I just attended the American Sociological Association Meetings in San Francisco, and while there my friend [Marion Fourcade](http://marionfourcade.org) told me about a remarkable little piece of sociological history. It's an audio recording of Émile Durkheim delivering a talk. 
 
-{{% figure src="http://kieranhealy.org/files/misc/durkheim-recording.png" caption="Emile Durkheim recorded in 1911 in Bologna." %}}
+{{% figure src="https://kieranhealy.org/files/misc/durkheim-recording.png" caption="Emile Durkheim recorded in 1911 in Bologna." %}}
 
 I had no idea such a thing existed. The recording is about two and a half minutes long. It's a fragment of a piece titled *Jugements de valeur et jugements de réalité*, which you can [read in French here](http://kieranhealy.org/files/misc/durkheim-jugements-text.pdf). It was recorded in 1911 at a meeting in Bologna, which I think is one of only quite few times that Durkheim left France in order to attend a conference. Here it is. (There's a short bit of dead silence at the beginning.)
 
 
 <audio controls preload>
-  <source src="http://kieranhealy.org/files/misc/durkheim-jugements-de-valeur-1911.mp3" type="audio/mpeg">
+  <source src="https://kieranhealy.org/files/misc/durkheim-jugements-de-valeur-1911.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 

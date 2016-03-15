@@ -12,7 +12,7 @@ When cleaning the data I first threw out all the porn (the "Adult" genre). Here'
 
 *Update:* I couldn't leave well enough alone, so after some very helpful advice from [Gabriel Rossman](http://www.sociology.ucla.edu/faculty/gabriel-rossman), who knows a hell of a lot about this data set, I went and pulled the most recent version of the IMDB Genres file and cleaned it quickly, more or less as before. As always, cleaning data with the attempt to replicate prior results proved to be a sobering experience. The plots aren't strictly comparable, but I'm keeping the originals rather than replacing them with new versions. Instead I'll add the standardized plots (per 1,000 annual films) for comparison.
 
-{{% figure src="http://kieranhealy.org/files/misc/movie-america-year-smooth-all.png" alt="All American" caption="All Films, 1900--2014." %}}
+{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth-all.png" alt="All American" caption="All Films, 1900--2014." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/movie-america-year-smooth-all.pdf))
 
@@ -20,20 +20,20 @@ It does seem like America is becoming increasingly thoughtful about American thi
 
 Here's the version of this plot based on the full IMDB Genres file, standardized by number of films released that year. Again, this isn't strictly comparable because the base data file and the search terms are slightly different, but I believe it more than the raw count plot.
 
-{{% figure src="http://kieranhealy.org/files/misc/movie-america-year-smooth-all-rate.png" alt="All American" caption="All Films, 1900--2014, standardized." %}}
+{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth-all-rate.png" alt="All American" caption="All Films, 1900--2014, standardized." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/movie-america-year-smooth-all-rate.pdf))
 
 Not quite as dramatic a trend---but I think it holds up.
 
 
-{{% figure src="http://kieranhealy.org/files/misc/movie-america-year-smooth.png" alt="All American" caption="All Films, by Form of Title 1900--2014." %}}
+{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth.png" alt="All American" caption="All Films, by Form of Title 1900--2014." %}}
 
 [PDF available.](http://kieranhealy.org/files/misc/movie-america-year-smooth.pdf)
 
 Here's the standardized form-of-title plot:
 
-{{% figure src="http://kieranhealy.org/files/misc/movie-america-year-smooth-rate.png" alt="All American" caption="All Films, by Form of Title 1900--2014, standardized." %}}
+{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth-rate.png" alt="All American" caption="All Films, by Form of Title 1900--2014, standardized." %}}
 
 [PDF available.](http://kieranhealy.org/files/misc/movie-america-year-smooth-rate.pdf)
 
@@ -41,13 +41,13 @@ Again you can see the uptick in "American <Something>" films in particular. The 
 
 Finally, what's the main genre of all these American (sorry I mean "American") films? Here are plots for the five genres with the most titles in the data:
 
-{{% figure src="http://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth.png" alt="All American" caption="Main Genres of Films, 1900--2014." %}}
+{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth.png" alt="All American" caption="Main Genres of Films, 1900--2014." %}}
 
 [PDF available.](http://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth.pdf)
 
 And the standardized version:
 
-{{% figure src="http://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth-rate.png" alt="All American" caption="Main Genres of Films, 1900--2014, standardized." %}}
+{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth-rate.png" alt="All American" caption="Main Genres of Films, 1900--2014, standardized." %}}
 
 [PDF available.](http://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth-rate.pdf)
 

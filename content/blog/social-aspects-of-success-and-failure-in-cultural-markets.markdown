@@ -10,13 +10,13 @@ This week on [ATP](http://atp.fm/episodes/52-necessary-but-not-sufficient), Marc
 
 > Flappy Bird’s success was hilarious, but it also appears to be completely earned. I’ve read the posts suggesting he cheated at the ranks or reviews, but I haven’t seen any that supported those claims enough. ... A charming, comically shitty, addictive, accessible yet difficult, very casual, very quick to play, completely free game with no manipulative in-app purchases? *Of course* it succeeded in the App Store, fair and square.
 
-{{% figure src="http://kieranhealy.org/files/misc/flappybird.png" caption="High Score: 1" %}}
+{{% figure src="https://kieranhealy.org/files/misc/flappybird.png" caption="High Score: 1" %}}
 
 John, meanwhile, thought that before it exploded onto the scene, there were so many games both similar in kind and at least as good (or better) in quality to Flappy Bird that its success was best understood as a kind of accident, a consequence of the unpredictable dynamics of "meme pools" or cultural markets where popularity can cascade in a way that is rapid, unpredictable, and largely independent of how deserving the successful item is. He likened it to the familiar image of a butterfly flappying---sorry, flapping---its wings and chaotically producing a thunderstorm elsewhere.
 
 As I say, the discussion shifted around, and some middle ground emerged as it went on, so I don't want to caricature the hosts' views. But between them John and Marco expressed an old puzzle about the connection between popularity and quality. In many markets---especially markets for cultural goods like music, film, books, and latterly computer games---we see a phenomenon where the most successful goods are way, *way* more successful than the median product in the market. Now, you might think (and many do think) that this suggests there must be something about those leading products that differentiates them from their competitors and explains their success. It might be "quality" in some abstract sense, or more often maybe *a* quality or feature that we can point to. Maybe it's addictive, or compelling, or excellent brain candy, or what have you. And yet, despite the fact that leading goods in these markets are vastly more successful than their competitors, and despite the fact that this keeps happening, it is extremely difficult to reliably predict which book or song or game will be the next runaway best-seller. This is captured in phrases like "all hits are flukes" (from the world of TV shows) or in William Goldman's remark that, when it comes to the entertainment industry, "Nobody knows anything". Proven talent fails to deliver, sure-fire hits flop, a low-budget effort becomes a huge hit---although, crucially, many other low-budget efforts are consigned to oblivion, too. 
 
-{{% figure src="http://kieranhealy.org/files/misc/poster-montage.jpg" caption="A lot of movies get made" %}}
+{{% figure src="https://kieranhealy.org/files/misc/poster-montage.jpg" caption="A lot of movies get made" %}}
 
 Sociologists are very interested in this phenomenon. As you might imagine, it is hard to study in a rigorous way, especially when what's at issue is the large-scale success or failure of independently produced cultural objects. But in recent years, it's become possible to attack this problem in new ways. A few years ago, sociologists [Matt Salganik](http://www.princeton.edu/~mjs3/), [Duncan Watts](http://research.microsoft.com/en-us/people/duncan/) and [Peter Sheridan Dodds](http://www.uvm.edu/~pdodds/) published a very nice paper in *Science* titled "[Experimental study of inequality and unpredictability in an artificial cultural market](http://www.princeton.edu/~mjs3/salganik_dodds_watts06_full.pdf)." Here's the abstract:
 
@@ -28,7 +28,7 @@ What they did was set up a music-sharing website that allowed people to download
 
 The finding is that even this weak information about social influence (the number of download counts) not only increases *inequality* in the market---i.e. that songs known to be popular become more popular as a result of that knowledge---but increases *unpredictability* as well. There were big returns to being known to be popular, but *which* songs became popular was very sensitive to initial conditions. Here is Figure 3 from the paper:
 
-{{% figure src="http://kieranhealy.org/files/misc/salganik-dodds-watts-fig3.png" caption="Quality, success, and uncertainty" %}}
+{{% figure src="https://kieranhealy.org/files/misc/salganik-dodds-watts-fig3.png" caption="Quality, success, and uncertainty" %}}
 
 As the authors remark,
 

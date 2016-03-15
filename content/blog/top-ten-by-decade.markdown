@@ -7,7 +7,7 @@ categories: [Sociology]
 
 My colleague [Jim Moody](http://www.soc.duke.edu/~jmoody77/) sent along some interesting data this morning. Using the Web of Science database, he took the most-cited papers in Sociology and produced a Top 10 list for each decade going back to the 1950s. Not a table of which papers were most popular *in* those decades, but a table of which papers are now the most-cited *from* those decades. Note that the 1950s category is really "1950s and before". The universe of citing papers is all of WoS. I absolve Jim of any responsibility for the figure I made from his data, or my comments below. Here's a dotplot of the results:
 
-{{% figure src="http://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped-prod.png" alt="Top 10 from Each Decade" caption="Sociology's Top 10 Most-Cited Papers from Each Decade, based on all-time citations in WoS." %}}
+{{% figure src="https://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped-prod.png" alt="Top 10 from Each Decade" caption="Sociology's Top 10 Most-Cited Papers from Each Decade, based on all-time citations in WoS." %}}
 
 (You can get a [PDF version of this figure](http://kieranhealy.org/files/misc/cite-dotplot-by-decade-grouped-prod.pdf) if you want a closer look.) 
 

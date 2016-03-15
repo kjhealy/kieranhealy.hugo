@@ -5,7 +5,7 @@ categories: [Visualization,Data,Sociology]
 ---
 
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-school-type-jit.pdf))
 
@@ -18,7 +18,7 @@ One of the most interesting things about vaccination exemptions is how they clus
 
 Next level of resolution down is the county. Here is a plot of PBE rates by county. We log the number of enrolled children on the x-axis to stop very high-population counties, notably L.A. County, from skewing the plot. 
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-county.png" alt="California Kindergarten PBE Rates by County, 2014-2015" caption="California Kindergarten PBE Rates by County, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-county.png" alt="California Kindergarten PBE Rates by County, 2014-2015" caption="California Kindergarten PBE Rates by County, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-county.pdf))
 
@@ -26,7 +26,7 @@ The figure picks out some outlying counties---those with more than twice the [in
 
 The next twist of the lens is to look at the rates by district. In our population there are just over 820. Here's what they look like.
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-district.png" alt="California Kindergarten PBE Rates by public school district, 2014-2015" caption="California Kindergarten PBE Rates by Public School District, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-district.png" alt="California Kindergarten PBE Rates by public school district, 2014-2015" caption="California Kindergarten PBE Rates by Public School District, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-district.pdf))
 
@@ -34,7 +34,7 @@ The x-axis covers more or less the same range (logged N students), but note that
 
 Finally here is the school-level distribution. Because we can look at all of them I've distinguished the public and private schools. The banding is an artifact of having the enrollment number in the calculation of both the x-axis (log Enrollment) and the y-axis (PBE students / Enrollment).
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-school.png" alt="California Kindergarten PBE Rates by  school, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-school.png" alt="California Kindergarten PBE Rates by  school, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-school.pdf))
 
@@ -44,7 +44,7 @@ The concentration of PBEs in smaller schools is evident, as is the concentration
 
 Finally, the clustering also raises the question of whether there are *big* schools with a lot of PBEs. To bring this out a little more clearly here is the same figure as above but with the x-axis showing number of students rather than logged students.
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-school-unlogged.png" alt="California Kindergarten PBE Rates by  School, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-school-unlogged.png" alt="California Kindergarten PBE Rates by  School, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-school-unlogged.pdf))
 

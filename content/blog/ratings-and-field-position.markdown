@@ -10,7 +10,7 @@ I want to get to the department-level stuff today instead of just looking at the
 
 While the _rank order_ produced by different rater quintiles is very similar, the _average scores_ awarded by each group do differ a bit. Here is a plot showing differences in the average scores awarded by raters employed by departments in the top twenty percent and those working at departments in the bottom twenty percent of the PGR ranking. 
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-tier-volatility06-quintiles.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-tier-volatility06-quintiles.png" %}}
 
 (<a href="http://kieranhealy.org/files/misc/pgr-tier-volatility06-quintiles.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-tier-volatility06-quintiles.pdf">PDF</a>.)
 

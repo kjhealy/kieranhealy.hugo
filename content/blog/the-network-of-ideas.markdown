@@ -20,7 +20,7 @@ By the time I got there, the computer catalog and University ID cards had replac
 
 Very occasionally, then, one would come across a book or journal that had been acquired by the library under the old system, had been borrowed a few times, but then lost popularity and just sat in the stacks. Inside the back pouch would be the old library card, with its list of dates, stamps and signatures on it.
 
-{{% figure src="http://www.kieranhealy.org/files/misc/rawlsetal.jpg" alt="A Firestone Library card." caption="A disused Firestone Library card." %}}
+{{% figure src="https://www.kieranhealy.org/files/misc/rawlsetal.jpg" alt="A Firestone Library card." caption="A disused Firestone Library card." %}}
 
 
 Princeton has been home to some famous academics. [Look at this card](http://www.kieranhealy.org/files/misc/rawlsetal.jpg), for example, which I found inside a book one slow day in Firestone. There is John Rawls, on March 21st 1950. There, underneath him, is [Jacob Viner](http://cepa.newschool.edu/~het/profiles/viner.htm), the economist. And there (I'm pretty sure), is [Gregory Vlastos](http://www.xrefer.com/entry/553830), the ancient philosopher and ethicist. (The stamp at the bottom belongs to [Larry Laudan](http://www.pragmatism.org/library/laudan/laudan.htm), the philosopher of science.)

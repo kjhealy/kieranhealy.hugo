@@ -28,7 +28,7 @@ will long tolerate being forced to systematically mispronounce their
 own or their spouse's name in order to set up meetings, for
 example.[1]
 
-{{% img src="http://kieranhealy.org/files/misc/siriicon.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/siriicon.png" %}}
 
 On the second issue, Siri's handling of contextual meanings is very
 strong in some ways, but not in others. Some real world examples, the

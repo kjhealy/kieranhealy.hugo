@@ -97,10 +97,10 @@ It's very straightforward, but a script like this can easily be extended to perf
 
 Over at Travis, you get the results of all of this activity on the log screen for your repository. The first time it runs it takes about ten minutes, because the local R packages have to be built. But then those packages get cached, so subsequent runs take less than a minute. When `lintr` finds something to complain about, the script exits with a status code of 1 so Travis says it failed. It looks like this:
 
-{{% img src="http://www.kieranhealy.org/files/misc/lintscreen-fail.png" caption="A file fails to pass the lint check." alt="A file fails to pass the lint check." %}}
+{{% img src="https://www.kieranhealy.org/files/misc/lintscreen-fail.png" caption="A file fails to pass the lint check." alt="A file fails to pass the lint check." %}}
 
 In this case, `lintr` is complaining that I've used `=` as an assignment operator in R instead of `<-`, in violation of the style rules. If we fix the errors in our text editor, commit the change in git, and push them to the repo, then Travis notices, reruns everything, and then gives you the good news.
 
-{{% img src="http://www.kieranhealy.org/files/misc/lintscreen-pass.png" caption="Successfully passed." alt="Lint check successfully passed." %}}
+{{% img src="https://www.kieranhealy.org/files/misc/lintscreen-pass.png" caption="Successfully passed." alt="Lint check successfully passed." %}}
 
 The upshot is that if people are working with `.Rmd` files and using GitHub, they can set up Travis, drop the `.travis.yml` configuration and `travis-linter.sh` script into their repo,  and have Travis-CI automatically and quickly check their code before they submit it.

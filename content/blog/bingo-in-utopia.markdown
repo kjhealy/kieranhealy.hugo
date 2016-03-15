@@ -16,7 +16,7 @@ Notwithstanding its unhappy history in the sphere of high theory, bingo persiste
 
 Its most substantial revival, however, had to await the arrival of a new generation of scholars in the 1970s. Based mostly in the United States, this group's members were well-versed in the traditional concerns of emancipatory theory but were also more technically minded than their predecessors. They were the first to notice the uncanny similarity---later shown by Goodman and others to be a formal homology---between ordinary bingo cards and intergenerational social mobility tables. 
 
-{{% img src="http://kieranhealy.org/files/misc/75-bingo-card.jpg" %}}
+{{% img src="https://kieranhealy.org/files/misc/75-bingo-card.jpg" %}}
 
 *Figure 1. A partial instantiation of a Goldthorpe-Erikson mobility table disguised as a bingo card. Originally discovered by Richard Breen on a trip to Atlantic City in 1972. (Excludes Categories I and II.)* 
 
@@ -24,7 +24,7 @@ Like any fundamental insight, the connection was obvious once made, but to make 
 
 In terms of theory, the realization that such a direct representation of class mobility was  embedded at the very core of an ordinary working class leisure activity---one where, moreover, "winning" consisted of systematically *blocking* or *dabbing* mobility pathways in a cryptic act of ideological abnegation---seemed at once a bitter irony of life under capitalism and a latent opportunity for liberation. 
 
-{{% img src="http://kieranhealy.org/files/misc/denver-bingo-card-2012.jpg" %}}
+{{% img src="https://kieranhealy.org/files/misc/denver-bingo-card-2012.jpg" %}}
 
 *Figure 2. Your 2012 ASA Bingo Card*
 

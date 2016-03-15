@@ -7,7 +7,7 @@ categories: [Sociology,Politics,Visualization]
 
 So, Scotland remains part of the United Kingdom. This morning on the bus (I should run a series called "Idle Data Analysis on the Bus") I looked at how the high turnout compared to other Scottish elections. Data on turnout is easily available back to 1970. Here are two views of it.
 
-{{% figure src="http://kieranhealy.org/files/misc/turnout.png" alt="Turnout in Scotland" caption="Voter turnout in Scotland in National elections and plebiscites since 1970." %}}
+{{% figure src="https://kieranhealy.org/files/misc/turnout.png" alt="Turnout in Scotland" caption="Voter turnout in Scotland in National elections and plebiscites since 1970." %}}
 
 
 You can get a [larger image](http://kieranhealy.org/files/misc/turnout.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/turnout.pdf) if you want a closer look at it.

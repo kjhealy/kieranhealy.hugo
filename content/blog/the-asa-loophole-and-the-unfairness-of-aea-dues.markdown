@@ -13,7 +13,7 @@ categories:
 
 While looking again at the [proposed changes to the ASA's dues](http://www.asanet.org/footnotes/mar11/table3_0311.html), I noticed that, under the new scheme, a few lucky duckies will pay nothing at all. How is this possible, you ask? Consider the table:
 
-<img  src="http://www.kieranhealy.org/blog/wp-content/uploads/2011/03/Table-3.-Proposed-Dues-Amounts-beginning-in-2013.png">
+<img  src="https://www.kieranhealy.org/blog/wp-content/uploads/2011/03/Table-3.-Proposed-Dues-Amounts-beginning-in-2013.png">
 
 As you can see, for those sociologists lucky enough to earn between $125,000 and $125,998 per annum, the new system requires them to pay no dues at all. What a great deal!
 

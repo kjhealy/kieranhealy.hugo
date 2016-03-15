@@ -12,12 +12,12 @@ categories: [Data,Sociology,News,Visualization]
 
 The terrible events in Colorado this morning prompted me to update an [old post](http://kieranhealy.org/blog/archives/2005/03/24/violent-societies/) about comparative death rates from assault across different societies. The following figures are from the OECD for deaths due to assault per 100,000 population from 1960 to the present. As before, the most striking features of the data are (1) how much more violent the U.S. is than other OECD countries (except possibly Estonia and Mexico, not shown here), and (2) the degree of change---and recently, decline---there has been in the U.S. time series considered by itself. Note that "assault" as a cause of death does not distinguish the mechanism of death (gunshot, stabbing, etc). 
 
-{{% img src="http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png" %}}
+{{% img src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png" %}}
 
 Click for a larger [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.pdf).
 
 Here are the individual time series.
 
-{{% img src="http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet.png" %}}
+{{% img src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet.png" %}}
 
 Click for a larger [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet.pdf).

@@ -12,7 +12,7 @@ So, first common question. Every department in the survey is ranked based on its
 
 Here's a figure showing the top 25 departments as they stood in 2006. For each department, the dot shows the mean score and the line on either side of it is the range of a 95% bootstrapped confidence interval. This is constructed by resampling from the distribution of ratings awarded to each department. 
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-rank-confboot.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-rank-confboot.png" %}}
 
 (You can get a <a href="http://kieranhealy.org/files/misc/pgr-rank-confboot.png">PNG</a> or <a href="http://kieranhealy.org/files/misc/pgr-rank-confboot.pdf">PDF</a> of this figure.)
 
@@ -20,7 +20,7 @@ Roughly speaking, the wider the interval the more disagreement there is in the d
 
 We can do this for all 99 departments surveyed in 2006, too, which makes for a rather tall figure.
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-rank-confboot-all.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-rank-confboot-all.png" %}}
 
 (<a href="http://kieranhealy.org/files/misc/pgr-rank-confboot-all.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-rank-confboot-all.pdf">PDF</a>.)
 

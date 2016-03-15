@@ -8,4 +8,4 @@ categories: [Sociology,Data]
 
 Jim Moody and I are writing an article on data visualization in Sociology. Here's a picture that won't be in the final version, but I like it all the same.
 
-{{% img src="http://kieranhealy.org/files/misc/LISREL.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/LISREL.png" %}}

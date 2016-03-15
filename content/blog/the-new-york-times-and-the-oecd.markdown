@@ -8,7 +8,7 @@ categories: [News,Data,Sociology]
 
 *Update:* See the addendum at the end of this post for the response I got from the *Times*. 
 
-{{% img src="http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png" %}}
+{{% img src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png" %}}
 
 Yesterday I got an email from an editorial assistant at the _Times_: 
 
@@ -36,7 +36,7 @@ How would you interpret a request like that? I figured someone at the *Times* wa
 
 Today the *New York Times* has a [column by Charles Blow](http://www.nytimes.com/2012/12/20/opinion/blow-on-guns-america-stands-out.html) presenting a table of various comparative, cross-national measures of violence. Here's a clip:
 
-{{< img src="http://www.kieranhealy.org/files/misc/nyt-blow-clip.jpg" >}}
+{{< img src="https://www.kieranhealy.org/files/misc/nyt-blow-clip.jpg" >}}
 
 The table's "Assault deaths per 100,000 population" column uses the OECD data I sent them. It's credited to the OECD, as it should be. But I'm slightly irritated. If you email me asking for data you can't be bothered or don't know how to dig up yourself, then say so. If that's what you want, please don't say you're emailing me "for fact-checking purposes". You're not fact-checking something I did: you just want the data for yourself. In that case, the polite thing to do is acknowledge where you learned of its existence. 
 

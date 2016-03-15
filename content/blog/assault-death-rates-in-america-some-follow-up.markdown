@@ -14,7 +14,7 @@ If you believe I am actively dishonest or desperately stupid there's probably no
 
 Here's the most widely circulated picture:
 
-{{% img src="http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png" %}}
+{{% img src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png" %}}
 
 Click for a larger [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.pdf).
 
@@ -28,7 +28,7 @@ If you want to know *why* I was interested in doing this to begin with, it's not
 
 *4. But what about the OECD Member Countries you excluded?*<br />The original post (and the note attached to the figures) made it clear I excluded two OECD countries with higher assault death rates than the US: Estonia and Mexico. I also excluded some other OECD countries whose rates are *lower* than the US, again on the grounds of useful comparison. These were Chile, the Czech Republic, Israel, Poland, Slovakia, and Slovenia. Here is what the figure looks like with all of these countries included: 
 
-{{% img src="http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-2.png" %}}
+{{% img src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-2.png" %}}
 
 Click for a larger [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-2.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-2.pdf). The individual time series broken out by country are also available as a large  [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet-2.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet-2.pdf) file.
 

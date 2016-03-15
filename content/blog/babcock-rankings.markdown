@@ -7,12 +7,12 @@ categories: [Sociology,Nerdery,Visualization]
 
 This afternoon I ended up reading [this Vox story](http://www.vox.com/2014/8/6/5973653/the-federal-government-tried-to-rank-colleges-in-1911) about an effort to rank US Universities and Colleges carried out in 1911 by a man named Kendric Charles Babcock. On Twitter, [Robert Kelchen remarks](https://twitter.com/rkelchen/status/496746198112686082) that the report was "squashed by Taft" (an unpleasant fate), and he [links to the report itself](https://ia700504.us.archive.org/0/items/classificationof01unit/classificationof01unit.pdf), which is terrific. Babcock divided schools into four Classes, beginning with Class I:
 
-{{% figure src="http://kieranhealy.org/files/misc/babcock-class1.png" alt="Class 1" caption="The better sort of school." %}}
+{{% figure src="https://kieranhealy.org/files/misc/babcock-class1.png" alt="Class 1" caption="The better sort of school." %}}
 
 And descending all the way to Class IV: 
 
 
-{{% figure src="http://kieranhealy.org/files/misc/babcock-class4.png" alt="Class IV" caption="One hardly dares look at the transcripts." %}}
+{{% figure src="https://kieranhealy.org/files/misc/babcock-class4.png" alt="Class IV" caption="One hardly dares look at the transcripts." %}}
 
 Babcock's discussion of his methods is admirably brief (the snippet above hints at the one sampling problem that possibly troubled him), so I recommend you [read the report yourself](https://ia700504.us.archive.org/0/items/classificationof01unit/classificationof01unit.pdf).
 
@@ -22,7 +22,7 @@ It turns out that he would be quite pleased with himself.
 
 Here is a dotplot of the 2014 USNWR National University Ranking, where the dots are color-coded for Babcock Class. There are two panels, one on the left for Private Universities, and one on the right for Public Universities. USNWR's highest-ranked school at the moment is Princeton, and it is at the top of the dotplot. You read down the ranking from there.
 
-{{% figure src="http://kieranhealy.org/files/misc/babcock-universities.png" alt="Colleges" caption="Babcock's 1911 Rankings of Public and Private Universities, and US News and World Report Rankings for 2014." %}}
+{{% figure src="https://kieranhealy.org/files/misc/babcock-universities.png" alt="Colleges" caption="Babcock's 1911 Rankings of Public and Private Universities, and US News and World Report Rankings for 2014." %}}
 
 You can get a [larger image](http://kieranhealy.org/files/misc/babcock-universities.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-universities.pdf) if you want a closer look at it. 
 
@@ -32,7 +32,7 @@ The situation for public universities is also interesting. The Babcock Class 1 P
 
 I also did the same figure for Liberal Arts Colleges, almost all of which are private, so this time there's just the one panel:
 
-{{% figure src="http://kieranhealy.org/files/misc/babcock-colleges.png" alt="Colleges" caption="Babcock's 1911 Classification and US News and World Report Rankings of Liberal Arts Colleges for 2014." %}}
+{{% figure src="https://kieranhealy.org/files/misc/babcock-colleges.png" alt="Colleges" caption="Babcock's 1911 Classification and US News and World Report Rankings of Liberal Arts Colleges for 2014." %}}
 
 You can get a [larger image](http://kieranhealy.org/files/misc/babcock-colleges.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-colleges.pdf) if you want a closer look at it. 
 
@@ -43,7 +43,7 @@ Now, some caveats. First, because I was more or less coding this stuff while eat
 
 We can add these in a final, rather large, chart for the National University data.
 
-{{% figure src="http://kieranhealy.org/files/misc/babcock-all-universities.png" alt="Colleges" caption="Babcock's 1911 Rankings of Public and Private Universities and US News and World Report Rankings for 2014." %}}
+{{% figure src="https://kieranhealy.org/files/misc/babcock-all-universities.png" alt="Colleges" caption="Babcock's 1911 Rankings of Public and Private Universities and US News and World Report Rankings for 2014." %}}
 
 You can get a [larger image](http://kieranhealy.org/files/misc/babcock-all-universities.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-all-universities.pdf) if you want a closer look at it.
 

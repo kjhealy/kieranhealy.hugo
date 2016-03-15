@@ -6,4 +6,4 @@ comments: true
 categories: [Sociology] 
 ---
 
-{{% img src="http://kieranhealy.org/files/misc/holyfamily.jpg" %}}
+{{% img src="https://kieranhealy.org/files/misc/holyfamily.jpg" %}}

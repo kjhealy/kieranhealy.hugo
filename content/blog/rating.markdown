@@ -10,7 +10,7 @@ categories: [Philosophy, Sociology, PGR]
 
 First, voting frequency. Might it be the case that _how many votes a rater casts_ is related to the PGR score of their home department? It's easy to think of reasons why this might be true. For example, what if people working at highly-ranked departments are highly opinionated (I know this seems very unlikely, but bear with me) and are happy to vote on every single department in the survey. Alternatively, it might be that people at high-ranking departments are somewhat snobbish (another wildly speculative notion, I admit) and this leads them to care not a whit for 85 of the 99 deparments in the survey. What do the data say?
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png" %}}
 
 (<a href="http://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.pdf">PDF</a>.) 
 
@@ -18,7 +18,7 @@ Sadly, there doesn't seem to be much of a relationship either way. The blue line
 
 By contrast, consider the association between the number of votes a _Department receives_ and its PGR score in 2006:
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png" %}} 
+{{% img src="https://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png" %}} 
 
 (<a href="http://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-desc-nratedvmean.pdf">PDF</a>.) 
 
@@ -28,7 +28,7 @@ What about variation due to specialty areas? Here we can look at the degree of c
 
 OK, so what can we do to visualize the level of consensus or disagreement between specialists? For a start we can them to create their own _overall_ rankings. That is, take everyone eligible to vote in the Ethics specialty rankings and calculate a new _overall_ PGR ranking using just their votes and no-one else's. Do the same for the other areas: an overall PGR ranking calculated by allowing only the Philosophers of Mind to vote; one calculated by allowing only the Metaphysics specialists, the 17th century specialists, and so on for all the specialty areas. (Some of these "new" overall scores will be calculated from a small number of raters—in several cases fewer than ten.) Once we have this set of new scores, we can see how much variation there is across specialties. Here's a plot of this variation for the top 25 departments:
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png" %}}
 
 (<a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.pdf">PDF</a>.) 
 
@@ -41,7 +41,7 @@ most of the time. NYU, on the other hand, never falls out of the top five no mat
 
 We can extend the exericise to all departments, with another very tall figure:
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png" %}}
 
 (<a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-all.pdf">PDF</a>.) 
 

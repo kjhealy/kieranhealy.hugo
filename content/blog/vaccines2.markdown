@@ -29,13 +29,13 @@ To get a more fine-grained sense of the different sorts of schools there are, I 
 The data show right away that, in addition to the broad differences between types, there's both a a lot of variability in almost all the categories of school. Some of the categories have very few schools, but I've kept them for the sake of detail. The median charter, Christian, and private Montessori schools have relatively low PBE rates. Catholic schools have lower PBE rates than the public schools. Charter schools and charter Montessoris have much higher median PBEs---over ten percent. The same goes for an interesting group of public Montessoris (I didn't know that California had public Montessoris before looking at this data.) The highest median PBE rate by far is in Waldorf schools, at 44 percent. There are just sixteen of these schools in the whole of California. We can look at the summary graphically, too:
 
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-type-dot.jpg" alt="California Kindergarten PBE Average Rates by Type of School, 2014-2015" caption="California Kindergarten Average PBE Rates by Type of School, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-type-dot.jpg" alt="California Kindergarten PBE Average Rates by Type of School, 2014-2015" caption="California Kindergarten Average PBE Rates by Type of School, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-type-dot.pdf))
 
 We can also try to capture the heterogeneity of PBE rates across types of school:
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-school-type-jit.pdf))
 
@@ -43,13 +43,13 @@ Each circle is a school. I've scaled them a little to reflect variation in the n
 
 As I say, Montessori schools are interesting. Their patterns cut against the expected associations: there are private Montessoris with relatively high PBEs, but most of them are down around zero. The same goes for the small number of Christian Montessoris, which have near-zero PBE rates. Meanwhile charter Montessoris have high PBE rates, as do the public Montessoris. Perhaps unsurprisingly, three of the high-scoring public Montessoris are in Sacramento county, and two more are in nearby El Dorado and Nevada counties. Two of the Waldorf schools are also in Sacramento and one is in El Dorado county. Charter schools are also clearly overrepresented in the high-PBE group, and in contrast to, say, high-PBE private schools, many of them are relatively large. (Though some of the very largest are actually service providers to home-schoolers.) Meanwhile in the public schools, the large majority of students are concentrated in schools with low PBE rates. But because there are more than five thousand public schools there are plenty of high-scoring examples as well. Exploring the geographical distribution of these schools would be a natural next step to take with the data here. Even so, as we've seen, you can get a lot out of just the data in the basic spreadsheet. For example, here's a county-level jitter plot with the school categories simplified, picking out high-risk (10 percent PBE or greater) schools. Counties are ordered from top to bottom by mean PBE rate.
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-county-jit.jpg" alt="California Kindergarten PBE Rates by County, High PBE schools only, 2014-2015" caption="California Kindergarten PBE Rates by County, High PBE schools only, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-county-jit.jpg" alt="California Kindergarten PBE Rates by County, High PBE schools only, 2014-2015" caption="California Kindergarten PBE Rates by County, High PBE schools only, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-county-jit.pdf))
 
 Finally, to get a further sense how numbers of children are distributed across exemption rates, here is a mosaic plot of school types and binned exemption rates, where the size of each box or cell is proportional to the number of children in that category. This brings us back to the point that the vast majority of kindergarteners in California are in public school.
 
 
-{{% figure src="http://kieranhealy.org/files/misc/pbe-by-type-mosaic.jpg" alt="Mosaic Plot of California Kindergarten PBE Rates by School Type, 2014-2015" caption="Mosaic Plot of California Kindergarten PBE Rates by School Type, 2014-15." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe-by-type-mosaic.jpg" alt="Mosaic Plot of California Kindergarten PBE Rates by School Type, 2014-2015" caption="Mosaic Plot of California Kindergarten PBE Rates by School Type, 2014-15." %}}
 
 ([PDF available.](http://kieranhealy.org/files/misc/pbe-by-type-mosaic.pdf))

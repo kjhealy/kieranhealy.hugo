@@ -8,11 +8,11 @@ Continuing my nonremunerative career as an IT Analyst, I updated my Apple Sales 
 
 A quick reminder about what the plots show. The idea is that there are different components to the raw time series of sales. There's some underlying trend of growth or decline; there are seasonal swings around that trend associated for example with purchases for the holiday quarter or the back-to-school quarter; and there's some residual non-seasonal element, perhaps associated with the introduction of new products, or just random noise. I nonparametrically decompose the sales time series into these different components using LOESS. Then I plot them along with the raw data. I also show the seasonal swing as a percentage of total sales from period to period. This lets us see, for example, whether seemingly large seasonal ups-and-downs are truly periodic or just a function of growing annual sales volume that happens to be concentrated in a particular season. 
 
-{{% figure src="http://kieranhealy.org/files/misc/apple-ipad-decomposition-gg.png" alt="iPad STL decomposition." caption="Figure 1. STL decomposition for iPad sales." %}}
+{{% figure src="https://kieranhealy.org/files/misc/apple-ipad-decomposition-gg.png" alt="iPad STL decomposition." caption="Figure 1. STL decomposition for iPad sales." %}}
 
-{{% figure src="http://kieranhealy.org/files/misc/apple-iphone-decomposition-gg.png" alt="iPhone STL decomposition." caption="Figure 2. STL decomposition for iPhone sales." %}}
+{{% figure src="https://kieranhealy.org/files/misc/apple-iphone-decomposition-gg.png" alt="iPhone STL decomposition." caption="Figure 2. STL decomposition for iPhone sales." %}}
 
-{{% figure src="http://kieranhealy.org/files/misc/apple-mac-decomposition-gg.png" alt="Mac STL decomposition, v2." caption="Figure 3. STL decomposition for Mac sales." %}}
+{{% figure src="https://kieranhealy.org/files/misc/apple-mac-decomposition-gg.png" alt="Mac STL decomposition, v2." caption="Figure 3. STL decomposition for Mac sales." %}}
 
 Note that the time periods covered on the x-axes are not the same across products. The Mac has been on the market for longer than the iPhone, and the iPhone longer than the iPad. The various y-axes also have scales appropriate to the range of the series displayed.
 
@@ -20,10 +20,10 @@ As I say, things aren't looking too good for iPad growth, even though it's not l
 
 *Update:* While listening to the discussion on ATP last night, I did two more as well. First, the decomposed trend lines for all the main products, including the iPod:
 
-{{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends-siracusa.png" alt="Moving average of all four products." caption="Figure 4. Decomposed sales trend lines for all four products." %}}
+{{% figure src="https://kieranhealy.org/files/misc/apple-sales-trends-siracusa.png" alt="Moving average of all four products." caption="Figure 4. Decomposed sales trend lines for all four products." %}}
 
 
 And second, the same thing with the raw time series, which shows how much quarterly seasonality the trend smooths out: 
 
 
-{{% figure src="http://kieranhealy.org/files/misc/apple-sales-trends-raw-siracusa.png" alt="Quarterly sales for all four products." caption="Figure 4. Quarterly sales for all four products." %}}
+{{% figure src="https://kieranhealy.org/files/misc/apple-sales-trends-raw-siracusa.png" alt="Quarterly sales for all four products." caption="Figure 4. Quarterly sales for all four products." %}}

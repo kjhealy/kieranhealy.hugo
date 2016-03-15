@@ -12,7 +12,7 @@ The two-sided quality of the connection between departments and specialties invi
 
 What I do here is run a PCA on the matrix of departments and their 2006 specialty-area scores---that's 99 departments and 21 areas. I did combine just a few of the specialty areas that initial analysis showed always ended up right on top of each other (so there's a Math/Logic/Decision Theory group, a Medieval/Religion group, a 17th and 18th century group, and a 19th and 20th century Continental group.) When we run the PCA we get a series of component scores, arranged in order of how much variation they "explain". We can use these to define two-dimensional spaces. Then we can create a PCA biplot, which shows both departments and specialty areas at the same time. Here is the biplot based on the second and third principal components.
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-pca-full-06.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-pca-full-06.png" %}}
 
 (Again the larger <a href="http://kieranhealy.org/files/misc/pgr-pca-full-06.png">PNG</a> or <a href="http://kieranhealy.org/files/misc/pgr-pca-full-06.pdf">PDF</a> versions are better to look at.)
 

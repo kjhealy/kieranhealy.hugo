@@ -14,11 +14,11 @@ I want to get at the idea that departments can be thought of as variable amalgam
 
 Our twelve specialty areas contribute to a department's identity or profile. Imagine each one of them is a segment or wedge in a circle, a bit like an old _Trivial Pursuit_ gamepiece, but with twelve wedges instead of six. Yes, _I know_ that the perceptual qualities of wedges are not good, but bear with me. Suppose a department that is top-ranked in every single one of these specialty areas looks like this:
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-segment-key.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-segment-key.png" %}}
 
 Now we scale the wedges so that each segment is proportional to the department's rank in that area. The smaller the wedge, the lower the reputation. If we order departments by their PGR ranking, here's what we get:
 
-{{% img src="http://kieranhealy.org/files/misc/pgr-segment-all-06.png" %}}
+{{% img src="https://kieranhealy.org/files/misc/pgr-segment-all-06.png" %}}
 
 (<a href="http://kieranhealy.org/files/misc/pgr-segment-all-06-big.png">Large PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-segment-all-06.pdf">PDF</a>.)
 

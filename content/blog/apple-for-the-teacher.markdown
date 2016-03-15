@@ -56,7 +56,7 @@ possible in the UK, for instance. (Which in turn helped make some
 as well.) Of course, having a national broadcasting corporation and a
 state-financed system of faculty and tutors was helpful, too.
 
-{{% img src="http://kieranhealy.org/files/misc/openuniversity.jpg" %}}
+{{% img src="https://kieranhealy.org/files/misc/openuniversity.jpg" %}}
 
 Just this week, Wikipedia's blackout showed how much it has insinuated
 itself into people's lives. Of course, the horrors uncovered by
@@ -89,7 +89,7 @@ presentation and replaces it with simple, clean, easy-to-read, blocks
 of text that look a lot like a well-designed piece of outmoded 1950s
 technology.
 
-{{% img src="http://kieranhealy.org/files/misc/instapaper-shot.jpg" %}}
+{{% img src="https://kieranhealy.org/files/misc/instapaper-shot.jpg" %}}
 
 
 Why do people like Instapaper so much? It's because they've _chosen_
@@ -149,7 +149,7 @@ instructor and any TAs. As my friend Gabriel Rossman
 textbook catalogs pitched at faculty often come with little or no
 information about how much the book will cost students.
 
-{{% img src="http://kieranhealy.org/files/misc/bookstore-shelf.jpg" %}}
+{{% img src="https://kieranhealy.org/files/misc/bookstore-shelf.jpg" %}}
 <p><small>Image courtesy of <a href="http://www.flickr.com/photos/dietpoison/2231813020/sizes/l/in/photostream/">ambrown</a>.</small></p>
 
 
