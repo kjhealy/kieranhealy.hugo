@@ -20,6 +20,5 @@ Premise 1: Having a weblog is a trend.
 
  **Proof**:
 
-![image](http://fiachra.soc.arizona.edu/blog/images/schlock1.jpg)
 
-Thanks to [Ward Sutton](http://www.suttonimpactstudio.com/splash.htm).
+
