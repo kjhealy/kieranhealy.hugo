@@ -43,7 +43,7 @@ vision has deep historical roots that are uncomfortably entwined with
 the origins of the social sciences.
 
 The precursors of modern social science were “ideologues of progress”,
-in Krishan Kumar's (1986) phrase. They had strongly ideas about what
+in Krishan Kumar's (1986) phrase. They had vivid ideas about what
 the future would look like; they insisted on the connection between
 social change and moral progress; and they had strong views about the
 role of science in this process. We see it first in the Scottish
@@ -51,7 +51,7 @@ Enlightenment, and then in France with the *philosophes* of the
 eighteenth and early nineteenth centuries&#x2014;people like Turgot,
 and Condorcet, and especially Henri Saint-Simon. They coined words
 like "individualism", "industrialism", "socialism", "the organization
-of labor", stages of development, or used by them in their modern
+of labor", stages of development, or used them in their modern
 sense for the first time. Their successor and disciple Auguste Comte
 gave us the word "sociology", as you probably know, but also the word
 "altruism", as he fleshed out his positivist religion of scientific
