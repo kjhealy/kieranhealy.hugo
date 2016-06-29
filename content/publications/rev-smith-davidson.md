@@ -12,3 +12,4 @@ date: 2015-01-01
 publishdate: 2015-01-01
 ---
 
+[How Giving Keeps on Giving](http://ssir.org/book_reviews/entry/how_giving_keeps_on_giving).
