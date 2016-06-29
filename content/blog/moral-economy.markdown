@@ -91,23 +91,23 @@ they're going to use the data they have collected to Make the World a
 Better Place.
 
 Contemporary social theorists no longer expect to be priests of a new
-society. These days instead they are mostly outside the bubble,
-spending their time coining terms to describe it. Meanwhile, in recent
-years, the technology sector has massively accelerated the demand for
-the collection and analysis of data while also gradually diminishing
-the role of specifically social-scientific expertise in its
-evaluation. A few people are lucky enough to get access to private
-treasure-houses of data at places like Facebook or Uber. But mostly,
-these firms are managing and analyzing their data for themselves. The
-ideology of progress has been cut loose from social science and
-grafted itself on to big data and its handmaiden, data science,
-instead. More recently, those terms are starting to be displaced by
-the idea of "Artificial Intelligence". I think this has happened
-because of the so-called Internet of Things. Now that everyone has
-powerful little networked computer in their pockets, it's time to put
-one in everything else, too. So computers aren't just being used to
-track you and sell ads, but also do other things, from vacuuming your
-floor to ordering your groceries to driving you around.
+society. These days they are mostly outside the bubble, spending their
+time coining terms to describe it. Meanwhile, in recent years, the
+technology sector has massively accelerated the demand for the
+collection and analysis of data while also gradually diminishing the
+role of specifically social-scientific expertise in its evaluation. A
+few people are lucky enough to get access to private treasure-houses
+of data at places like Facebook or Uber. But mostly, these firms are
+managing and analyzing their data for themselves. The ideology of
+progress has been cut loose from social science and grafted itself on
+to big data and its handmaiden, data science. More recently,
+those terms are starting to be displaced by the idea of "Artificial
+Intelligence". I think this has happened because of the so-called
+Internet of Things. Now that everyone has a powerful little networked
+computer in their pockets, it's time to put one in everything else,
+too. So computers aren't just being used to track you and sell ads,
+but also do other things, from vacuuming your floor to ordering your
+groceries to driving you around.
 
 ### Does the thing Really Work?
 
@@ -152,7 +152,7 @@ something. Most recently I've experienced it with allegedly smart
 devices that pretend they can talk with and understand you, but which
 are really just verbal command lines operating on the narrowest of
 gauges. If you stray from the expected path at all, the illusion of
-both interactivity and smartness is destroyed. That happens because is
+both interactivity and smartness is destroyed. That happens because 
 indexical pronouns and contextual meanings are appallingly difficult
 problems to solve programatically. Until they figure out how to
 interpret what you really want, the people who program the computer
