@@ -1,7 +1,7 @@
 ---
 title: "Transformative Treatments"
 
-author: Kieran Healy and L.A. Paul
+author: L.A. Paul and Kieran Healy
 status: Forthcoming
 type: unpublished
 citation: "&ldquo;Transformative Treatments.&rdquo;"
