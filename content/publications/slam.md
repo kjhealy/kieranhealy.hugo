@@ -4,7 +4,7 @@ title: "Seeing Like a Market"
 author: Marion Fourcade and Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Seeing Like a Market.&rdquo;" <em>Socio-Economic Review</em>. 
+citation: "&ldquo;Seeing Like a Market.&rdquo; <em>Socio-Economic Review</em>." 
 tag: seeing-market
 file: slam-2.pdf
 subjects: credit algorithms markets inequality stratification
