@@ -3,7 +3,7 @@ title: "Repugnance and Transactions in the Body"
 
 author: Kieran Healy and Kimberly D. Krawiec
 status: Forthcoming
-type: forthcoming
+type: unpublished
 citation: "&ldquo;Repugnance and Transactions in the Body.&rdquo; <em>American Economic Review</em> Papers and Proceedings." 
 tag: repugnance-body
 file: repugnance-body.pdf
