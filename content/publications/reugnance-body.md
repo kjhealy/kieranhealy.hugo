@@ -1,10 +1,10 @@
 ---
-title: "Repugnance and Transactions in the Body"
+title: "Repugnance Management and Transactions in the Body"
 
 author: Kieran Healy and Kimberly D. Krawiec
 status: Forthcoming
 type: unpublished
-citation: "&ldquo;Repugnance and Transactions in the Body.&rdquo; <em>American Economic Review</em> Papers and Proceedings." 
+citation: "&ldquo;Repugnance Management and Transactions in the Body.&rdquo; <em>American Economic Review</em> Papers and Proceedings." 
 tag: repugnance-body
 file: repugnance-body.pdf
 subjects: repugnance organs law markets sociology gifts obfuscated exchange
