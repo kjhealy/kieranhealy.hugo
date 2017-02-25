@@ -4,6 +4,8 @@ title: Rank Error in Your Favor
 categories: [Sociology,Data,Politics,Nerdery]
 ---
 
+_Update:_ Since writing this post, I've repeatedly tried to delete the offending review from my profile, but Google Scholar keeps re-inserting it as part of its automated trawl through its corpus of articles. So it seems that the robots are determined to grant me these citations whether I want them or not. 
+
 [Google Scholar](http://scholar.google.com) is one of the most visible and widely-used examples of the rise of "impact measurement" in academia. While it is not yet used to assess people's research as a matter of routine, I think it's fair to say that people keep an eye on their scores and might draw on them if it seemed advantageous. Metrics and rankings have a ratchet effect. They encourage people to play along when they score well, while leaving room for you to deny that a serious person such as yourself would ever take such thin measures of quality seriously. Then they trap you later on when, for example, the Dean announces that no-one with an h-index of less than ten is getting tenure. 
 
 {{% figure src="/files/misc/google-scholar-citations-2.png" link="/files/misc/google-scholar-citations-2.png" caption="Up, up, up, up, up." %}}
@@ -15,7 +17,7 @@ Sadly, further investigation reveals that these all appear to be errors. Enterta
 
 {{% figure src="/files/misc/google-scholar-citations-1.png" link="/files/misc/google-scholar-citations-1.png" caption="I write a hell of a book review, let me tell you." %}}
 
-John Fox's *An R and S-PLUS Companion to Applied Regression* is a good book, which is one of the reasons I reviewed it. But thanks to Google Scholar, we can now see that my two-page review of it has had a quite phenomenal impact over the past decade. Now, you might think that perhaps Professor Fox's book should be getting these citations, rather than my review of it. However, this theory can't account for the fact that, according to some well-established scholarly metrics, my book reviews are extremely widely cited. In the face of solid quantitative evidence of this sort I feel compelled to dismiss your concerns as unfounded and indeed merely anecdotal.
+John Fox's *An R and S-PLUS Companion to Applied Regression* is a good book, which is one of the reasons I reviewed it. But thanks to Google Scholar, we can now see that my two-page review of it has had a quite phenomenal impact over the past decade. Now, you might think Professor Fox's book should be getting these citations, rather than my review of it. However, while reasonable, your theory cannot account for the fact that---according to some well-established, objective scholarly metrics---my book reviews are extremely widely cited. In the face of solid quantitative evidence of this sort I feel compelled to dismiss your concerns as unfounded, and indeed merely anecdotal.
 
 A quick search---thanks again, Google!---suggests that I am <a href="https://twitter.com/search?f=tweets&vertical=default&q=google%20scholar%20citation%20&src=typd">not the only person</a> to have had an overnight visit from the Citation Fairy. Some people have had publications added to their CVs, sometimes in fields they were not aware they were in, while others (sadly) seem to have suffered declines. A few [lucky ducks](https://twitter.com/RolfZwaan/status/822085110765862912), like me, discovered a random publication of theirs had been gifted with several thousand new citations. 
 
