@@ -10,6 +10,8 @@ The Congressional Budget Office released its [cost estimate report](https://www.
 
 A [PDF version](https://kieranhealy.org/files/misc/cbo-tab4.pdf) is also available.
 
+This picture got circulated fairly widely, thanks mostly to Paul Krugman retweeting it. Here's a bit more background on how to make one like it. 
+
 There are several ways to show data like this. One could just use a bar chart, most obviously, with a bar for the current law and one for the proposed changes. Instead I used a "dumbbell" chart, where the current situation and proposed changes are represented by points, and the gap between them is highlighted by connecting them---that's the bar on the dumbbell. Projected or actual shifts within categories are a good candidate for a chart of this sort, as you are in effect representing a slide from one state to another for the same group or unit. 
 
 By default, ggplot doesn't have a geom for a plot like this. But I took advantage of Bob Rudis's [`ggalt` library](https://github.com/hrbrmstr/ggalt/), which includes `geom_dumbbell()` along with several other goodies. His [`hrbrthemes` library](https://github.com/hrbrmstr/hrbrthemes) has some nice thematic elements that are used in this plot, too. 
