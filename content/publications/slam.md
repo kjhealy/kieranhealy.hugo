@@ -9,7 +9,7 @@ tag: seeing-market
 file: slam-2.pdf
 subjects: credit algorithms markets inequality stratification
 comments: no
-doi: doi:10.1093/ser/mww033
+doi: 10.1093/ser/mww033
 date: 2017-04-05
 publishdate: 2017-04-05
 filter:
