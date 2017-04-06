@@ -8,7 +8,7 @@ I saw this pie chart via [Beth Popp Berman](https://twitter.com/epopppp) on Twit
 
 {{% figure src="/files/misc/debt-piecharts.png" link="/files/misc/debt-piecharts.png" caption="Pie charts of student debts by percent of all borrowers and percent of all debt." %}}
 
-As you probably know, the perceptual qualities of pie charts are not great. In a single pie chart, it is usually harder than it should be to compare the sizes of a pie chart's wedges, especially when there are more than a few wedges and when there are a number of wedges reasonably close in size. A [Cleveland dot plot](http://uc-r.github.io/cleveland-dot-plots) or a bar chart is usually a much more straightforward way of comparing quantities. When comparing the wedges between two pie charts, as in this case, the task is made harder again as the viewer has to ping back and forth between the wedges of each pie and the vertically oriented legend underneath. 
+As you probably know, the perceptual qualities of pie charts are not great. In a single pie chart, it is usually harder than it should be to estimate and compare the values shown, especially when there are more than a few wedges and when there are a number of wedges reasonably close in size. A [Cleveland dot plot](http://uc-r.github.io/cleveland-dot-plots) or a bar chart is usually a much more straightforward way of comparing quantities. When comparing the wedges between two pie charts, as in this case, the task is made harder again as the viewer has to ping back and forth between the wedges of each pie and the vertically oriented legend underneath. 
 
 There's an additional wrinkle, too. The variable broken down in each
 pie chart is not just categorical, it's also ordered from low to high.
@@ -26,7 +26,7 @@ because the color palette chosen for the categories is not sequential.
 The colors allow the debt categories to be distinguished, but don't
 emphasize the ordering from low to high values.
 
-So not only is a less than ideal plot type being used here, it's being made to do a lot more work than usual, and with the wrong sort of color palette. As is often the case with pie charts, to facilitate interpretation the compromise is to display all of the percentage values for every wedge of both pies, and also to add a summary outside the pie. If you find yourself having to do this, it's worth asking whether the chart could be redrawn, or whether you might as well just show a table instead. 
+So not only is a less than ideal plot type being used here, it's being made to do a lot more work than usual, and with the wrong sort of color palette. As is often the case with pie charts, the compromise made to facilitate interpretation is simply to display all of the numerical values for every wedge, and also to add a summary outside the pie. If you find yourself having to do this, it's worth asking whether the chart could be redrawn, or whether you might as well just show a table instead. 
 
 Here are two ways we might redraw these pie charts. As usual, neither
 approach is perfect---or rather, each approach draws attention to a
