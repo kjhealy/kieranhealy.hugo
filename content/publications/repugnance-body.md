@@ -9,7 +9,7 @@ tag: repugnance-body
 file: repugnance-body.pdf
 subjects: repugnance organs law markets sociology gifts obfuscated exchange
 comments: no
-date: 2017-01-08
+date: 2017-05-15
 publishdate: 2017-05-15
 doi: https://doi.org/10.1257/aer.p20171108
 filter:
