@@ -4,7 +4,7 @@ title: "Transformative Treatments"
 author: L.A. Paul and Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Transformative Treatments. <em>Noûs</em>, forthcoming.&rdquo;"
+citation: "&ldquo;Transformative Treatments.&rdquo; <em>Noûs</em>, forthcoming."
 tag: theory philosophy causation transformative experiments
 file: t-treat.pdf
 subjects: philosophy sociology causation experiments experience transformative
