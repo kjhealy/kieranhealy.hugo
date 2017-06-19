@@ -74,14 +74,14 @@
 		<h2>Recent &amp; Upcoming Presentations</h2>
 	  <ul class="compact fa-ul">
         {{ range (where .Data.Pages.ByDate "Section" "presentation").Reverse }}
-	    {{ if (ge .Date.Unix .Now.Unix) }}
-		{{ if (le .Date.Unix (add .Now.Unix 10368000)) }}
+	    {{ if (ge .Date.Unix now.Unix) }}
+		{{ if (le .Date.Unix (add now.Unix 10368000)) }}
         <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><em>{{ .Title | safeHTML }}</em></a>, {{ .Params.host | safeHTML }} ({{ .Date.Format "2 January 2006" }}). {{ partial "comingsoon.html" . }}
 </li>		
 		{{ end }}
 		{{ end }}
-		{{ if (ge .Now.Unix .Date.Unix ) }}
-	    {{ if (le .Now.Unix (add .Date.Unix 12368000)) }}
+		{{ if (ge now.Unix .Date.Unix ) }}
+	    {{ if (le now.Unix (add .Date.Unix 12368000)) }}
         <li><i class="fa-li fa fa-comment-o fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><em>{{ .Title | safeHTML }}</em></a>, {{ .Params.host | safeHTML }} ({{ .Date.Format "2 January 2006" }}).
 </li>		
 		{{ end }}
@@ -95,8 +95,8 @@
 <h2>Recent &amp; Upcoming Classes</h2>			
 	  <ul class="compact fa-ul">
         {{ range (where .Data.Pages.ByDate "Section" "class").Reverse }}
-	    {{ if (ge .Date.Unix .Now.Unix) }}
-		{{ if (le .Date.Unix (add .Now.Unix 7776000)) }}
+	    {{ if (ge .Date.Unix now.Unix) }}
+		{{ if (le .Date.Unix (add now.Unix 7776000)) }}
         <li><i class="fa-li fa {{ if eq .Params.host "Coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "comingsoon.html" . }}
 </li>		
 		{{ end }}
@@ -104,8 +104,8 @@
 		{{ end }}
 
         {{ range (where .Data.Pages.ByDate "Section" "class").Reverse }}
-	    {{ if (le .Date.Unix .Now.Unix) }}
-		{{ if (le .Now.Unix (add .Date.Unix .Params.duration)) }}
+	    {{ if (le .Date.Unix now.Unix) }}
+		{{ if (le now.Unix (add .Date.Unix .Params.duration)) }}
         <li><i class="fa-li fa {{ if eq .Params.host "Coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. {{ partial "nowon.html" . }}
 </li>		
 		{{ end }}
@@ -113,8 +113,8 @@
 		{{ end }}
         {{ range (where .Data.Pages.ByDate "Section" "class").Reverse }}
 		{{ $classend := (add .Date.Unix .Params.duration) }}
-		{{ if (ge .Now.Unix $classend ) }}
-	    {{ if (le .Now.Unix (add $classend 10368000)) }}
+		{{ if (ge now.Unix $classend ) }}
+	    {{ if (le now.Unix (add $classend 10368000)) }}
 
         <li><i class="fa-li fa {{ if eq .Params.host "coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#e88;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">completed</span>
 </li>		
