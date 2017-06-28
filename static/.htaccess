@@ -209,6 +209,7 @@ Redirect Permanent /blog/categories http://kieranhealy.org/categories
 
 # Redirect Permanent blog/archives/2011/12/04/sweave-dot-sty-and-the-minionpro-package/ http://kieranhealy.org/blog/archives/2011/12/04/sweave-sty-and-the-minionpro-package/
 
+Redirect Permanent /blog/archives/2017/06/27/a-lttle-more-nuance https://www.kieranhealy.org/blog/archives/2017/06/27/a-little-more-nuance
 Redirect Permanent /blog/archives/001211.html https://www.kieranhealy.org/blog/archives/2005/10/10/economics-nobel-for-schelling-and-aumann
 Redirect Permanent /blog/archives/001210.html https://www.kieranhealy.org/blog/archives/2005/10/08/drive-stanley-drive
 Redirect Permanent /blog/archives/001209.html https://www.kieranhealy.org/blog/archives/2005/10/06/miers
