@@ -1,10 +1,10 @@
 ---
-title: "The Plain Person's Guide to Plain Text Social Science"
+title: "The Plain Person&#8217;s Guide to Plain Text Social Science"
 
 author: Kieran Healy
 status: Unpublished
 type: unpublished
-citation: "&ldquo;The Plain Person's Guide to Plain Text Social Science.&rdquo;"
+citation: "&ldquo;The Plain Person&#8217;s Guide to Plain Text Social Science.&rdquo;"
 tag: workflow 
 subjects: workflow latex text R knitr RMarkdown
 comments: no

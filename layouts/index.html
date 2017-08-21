@@ -76,8 +76,8 @@
           <h3>Current Teaching</h3>			
 	  <ul class="compact fa-ul">
             {{ range (where .Data.Pages.ByDate "Section" "teaching").Reverse }}
-	    {{ if (ge .Date.Unix .Now.Unix) }}
-	    {{ if (le .Date.Unix (add .Now.Unix 7776000)) }}
+	    {{ if (ge .Date.Unix now.Unix) }}
+	    {{ if (le .Date.Unix (add now.Unix 7776000)) }}
             <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "comingsoon.html" . }}
             </li>		
 	    {{ end }}
@@ -85,8 +85,8 @@
 	    {{ end }}
 
             {{ range (where .Data.Pages.ByDate "Section" "teaching").Reverse }}
-	    {{ if (le .Date.Unix .Now.Unix) }}
-	    {{ if (le .Now.Unix (add .Date.Unix .Params.duration)) }}
+	    {{ if (le .Date.Unix now.Unix) }}
+	    {{ if (le now.Unix (add .Date.Unix .Params.duration)) }}
             <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. {{ partial "nowon.html" . }}
             </li>		
 	    {{ end }}
@@ -94,8 +94,8 @@
 	    {{ end }}
             {{ range (where .Data.Pages.ByDate "Section" "teaching").Reverse }}
 	    {{ $classend := (add .Date.Unix .Params.duration) }}
-	    {{ if (ge .Now.Unix $classend ) }}
-	    {{ if (le .Now.Unix (add $classend 10368000)) }}
+	    {{ if (ge now.Unix $classend ) }}
+	    {{ if (le now.Unix (add $classend 10368000)) }}
 
             <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">completed</span>
             </li>		
