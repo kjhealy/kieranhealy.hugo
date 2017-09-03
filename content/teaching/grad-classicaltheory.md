@@ -2,7 +2,7 @@
 title: Social Theory from Marx to Parsons
 date: "2017-08-30T00:00:00+11:00"
 enddate: "2017-12-30T00:00:00+11:00"
-publishdate: "2016-01-08"
+publishdate: "2017-08-30"
 host: "Duke University"
 duration: 7776000
 ---
