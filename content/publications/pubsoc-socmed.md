@@ -4,7 +4,7 @@ title: "Public Sociology in the Age of Social Media"
 author: Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Public Sociology in the Age of Social Media.&rdquo; <em>Perspectives on Politics (2017), 15:771-780."
+citation: "&ldquo;Public Sociology in the Age of Social Media.&rdquo; <em>Perspectives on Politics</em> (2017), 15:771-780."
 tag: public-soc-socmed
 file: soc-social-media.pdf
 subjects: sociology public social media
