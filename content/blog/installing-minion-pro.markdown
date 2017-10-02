@@ -27,17 +27,17 @@ If you are a sensible person, of course, you will not even find yourself facing 
 ## 0.2: If ~/tmp doesn't exist, create it.
 # mkdir ~/tmp
 
-## Destination. System wide:  
-# DEST=`kpsexpand '$TEXMFLOCAL'`
-## Or single-user only:
-DEST=~/Library/texmf
+## Destination. System wide is best in recent MacTeX releases:  
+DEST=`kpsexpand '$TEXMFLOCAL'`
 
 ## Downloader:
 DOWNLOAD="curl -L -O"
 
-## Directory where minion fonts can be found:
+## Directory where minion fonts may be found:
+
 #MINIONSRC=/Applications/Adobe\ Reader.app/Contents/Resources/Resource/Font/
 #MINIONSRC=~/tmp/minionsrc
+
 MINIONSRC=~/Library/Fonts
 
 ## Everything gets done in a temporary directory
@@ -71,10 +71,10 @@ cp enc/*.enc $DEST/fonts/enc/dvips/MnSymbol/
 cp pfb/*.pfb $DEST/fonts/type1/public/MnSymbol/
 cp tfm/* $DEST/fonts/tfm/public/MnSymbol/
 
-## I believe that this is not strictly needed if DEST is in the home
-## tree on OSX, but might be needed otherwise
+## Not strictly needed if DEST is in the home
+## tree on OSX (~/Library ...), but will be needed otherwise
 sudo mktexlsr
-updmap --enable MixedMap MnSymbol.map
+sudo updmap -sys --enable MixedMap MnSymbol.map
 
 # $DOWNLOAD http://carlo-hamalainen.net/blog/myfiles/minionpro/mnsymbol-test.tex
 # pdflatex mnsymbol-test.tex
@@ -109,8 +109,11 @@ unzip $SRC/metrics-base.zip
 unzip $SRC/metrics-full.zip
 cd $SRC
 
+## Not strictly needed if DEST is in the home
+## tree on OSX (~/Library ...), but will be needed otherwise
+
 sudo mktexlsr
-updmap --enable MixedMap MinionPro.map
+sudo updmap -sys --enable MixedMap MinionPro.map
 
 ## Test:
 # $DOWNLOAD http://carlo-hamalainen.net/blog/myfiles/minionpro/minionpro-test.tex
