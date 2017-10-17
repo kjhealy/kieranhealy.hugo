@@ -59,7 +59,7 @@
 
         <div class="unit-33">
 
-          <h3>Recent Papers</h3>
+          <h3>Recent Work</h3>
           <ul class="compact fa-ul">
             {{ range first 5 (where .Data.Pages.ByDate "Section" "publications").Reverse }}
             <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }} 
