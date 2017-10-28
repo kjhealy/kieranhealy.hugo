@@ -10,28 +10,56 @@ references.</em></p>
 <figure><img src="https://kieranhealy.org/files/misc/workflow-wide-tx.png"><figcaption>The Sausage Factory</figcaption></figure>
 
 
-<div class="units-row">
-  <div class="unit-50">
-    <h4><a href="http://www.kieranhealy.org/files/papers/plain-person-text.pdf">The Plain Person's Guide to Plain Text Social Science</a> &rarr;</h4>
-    <p>As a beginning graduate student in the social sciences, what sort of software should you use to do your work? More importantly, what principles should guide your choices? This article offers some answers. The short 
-version is: you should use tools that give you more control over the process of data analysis and writing. I recommend you write prose and code using a good text editor; analyze quantitative data with R or Stata; minimize 
-error by storing your work in a simple format (plain text is best), and make a habit of documenting what you've done. For data analysis, consider using a format like Rmarkdown and tools like Knitr to make your work more 
-easily reproducible for your future self. Use Pandoc to turn your plain-text documents into PDF, HTML, or Word files to share with others. Keep your projects in a version control system. Back everything up regularly. Make 
-your computer work for you by automating as many of these steps as you can. To help you get started, I briefly discuss a drop-in set of useful defaults to get started with Emacs (a powerful, free text-editor). I share 
-some templates and style files that can get you quickly from plain text to various output formats. And I point to several alternatives, because no humane person should recommend Emacs without presenting some other options 
-as well. There is a sample <a href="https://github.com/kjhealy/workflow-paper">github repository</a> that contains the <code>.md</code> source file the PDF is created from. This material is also available <a 
-href="http://plain-text.co">as a website</a> at <code><a href="http://plain-text.co">http://plain-text.co</a></code>.</p>
+<div class="units-row"> <div class="unit-50"> <h4><a
+  href="http://plain-text.co">The Plain Person's Guide to Plain Text
+  Social Science</a> &rarr;</h4> <p>Available either as <a href =
+  "http://kieranhealy.org/files/papers/plain-person-text.pdf">working
+  paper</a> or as a possibly more current website at <code><a
+  href="http://plain-text.co">http://plain-text.co</a></code>. As a
+  beginning graduate student in the social sciences, what sort of
+  software should you use to do your work? More importantly, what
+  principles should guide your choices? This article offers some
+  answers. The short version is: you should use tools that give you
+  more control over the process of data analysis and writing. I
+  recommend you write prose and code using a good text editor; analyze
+  quantitative data with R or Stata; minimize error by storing your
+  work in a simple format (plain text is best), and make a habit of
+  documenting what you've done. For data analysis, consider using a
+  format like Rmarkdown and tools like Knitr to make your work more
+  easily reproducible for your future self. Use Pandoc to turn your
+  plain-text documents into PDF, HTML, or Word files to share with
+  others. Keep your projects in a version control system. Back
+  everything up regularly. Make your computer work for you by
+  automating as many of these steps as you can. To help you get
+  started, I briefly discuss a drop-in set of useful defaults to get
+  started with Emacs (a powerful, free text-editor). I share some
+  templates and style files that can get you quickly from plain text
+  to various output formats. And I point to several alternatives,
+  because no humane person should recommend Emacs without presenting
+  some other options as well.</p>
 
 
-<h4><a href="/resources/emacs-starter-kit" title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit for the Social Sciences</a></h4>
-    <p>This is a fork of Eric Schulte's <a href="http://github.com/eschulte/emacs-starter-kit/tree">Emacs Starter Kit</a> (itself an offshoot of <a href="http://github.com/eschulte/emacs-starter-kit/tree">Phil Hagelberg's 
-original</a>) with additional tools included for social scientists, mostly related to writing books or papers in LaTeX and analyzing quantitative data using <a href="http://ess.r-project.org/">ESS</a> and <a 
-href="http://www.r-project.org/">R</a>. The goal is to provide a drop-in configuration for Emacs that makes it easier to use right from the get-go. If you know about <a href="http://git-scm.com/" title="Git - Fast Version 
-Control System">Git</a>, <a href="http://github.com/kjhealy/emacs-starter-kit/tree/master" title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you can clone the repository</a>.</p>
+<h4><a href="/resources/emacs-starter-kit"
+    title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit
+    for the Social Sciences</a></h4> <p>This is a fork of Eric
+    Schulte's <a
+    href="http://github.com/eschulte/emacs-starter-kit/tree">Emacs
+    Starter Kit</a> (itself an offshoot of <a
+    href="http://github.com/eschulte/emacs-starter-kit/tree">Phil
+    Hagelberg's original</a>) with additional tools included for
+    social scientists, mostly related to writing books or papers in
+    LaTeX and analyzing quantitative data using <a
+    href="http://ess.r-project.org/">ESS</a> and <a
+    href="http://www.r-project.org/">R</a>. The goal is to provide a
+    drop-in configuration for Emacs that makes it easier to use right
+    from the get-go. If you know about <a href="http://git-scm.com/"
+    title="Git - Fast Version Control System">Git</a>, <a
+    href="http://github.com/kjhealy/emacs-starter-kit/tree/master"
+    title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
+    can clone the repository</a>.</p>
     
-    <h4><a href="http://vissoc.co">Data Visualization Course Notes</a> &rarr;</h4>
-    <p>Notes, links, and code from a Data Visualization short-course I taught in the Fall of 2015. The course is focused on the practical presentation of real data, mostly using R's `ggplot2` library. We also read some 
-material on principles of data visualization, in order to help develop a good working sense of why some graphs and figures work well while others either fail to inform or actively mislead.
+<h4><a href="http://socviz.co">Data Visualization for Social Science</a> &rarr;</h4>
+    <p>This began life as a set of course notes and has become a book in progress, which I expect to be published next year. <em>Data Visualization for Social Science</em> is a practical introduction to data visualization using R and ggplot2. The main goal of this book is to introduce you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way. 
     </p>
     
   </div>
