@@ -3,7 +3,7 @@ title: "By the Numbers"
 
 author: Kieran Healy
 status: Published
-type: Published
+type: other
 citation: "&ldquo;By the Numbers.&rdquo; <em>European Journal of Sociology</em> (2017), 58:512-519"
 tag: engines-anxiety
 file: engines-anxiety.pdf
