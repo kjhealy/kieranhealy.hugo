@@ -5,7 +5,7 @@ author: Kieran Healy
 status: Published
 type: published
 kind: book
-citation: "<em>Data Visualization for Social Science</em>."
+citation: "<em>Data Visualization for Social Science</em>. Forthcoming. Princeton University Press."
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
