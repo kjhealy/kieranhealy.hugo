@@ -4,6 +4,7 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 builddrafts: false
+buildFuture: true
 pygmentsuseclasses: true
 baseurl: "https://kieranhealy.org/"
 indexes:
