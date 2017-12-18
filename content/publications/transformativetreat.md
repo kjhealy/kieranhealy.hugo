@@ -9,8 +9,8 @@ tag: theory philosophy causation transformative experiments
 file: t-treat.pdf
 subjects: philosophy sociology causation experiments experience transformative
 comments: no
-date: 2016-11-08
-publishdate: 2016-11-08
+date: 2018-01-01
+publishdate: 2018-01-01
 doi: 10.1111/nous.12180
 filter:
   - erb
