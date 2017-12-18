@@ -9,8 +9,8 @@ citation: "<em>Data Visualization for Social Science</em>. Forthcoming. Princeto
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
-date: 2018-09-09
-publishdate: 2018-09-09
+date: 2017-12-17
+publishdate: 2018-01-01
 ---
 <p><figure><img class="lbg" src="http://kieranhealy.org/files/misc/dv-cover-sm2.png" align="right" width=300px alt="Data Visualization for Social Science"></figure><em><a href="http://socviz.co">Data Visualization for Social Science</a></em> is a practical introduction to data visualization using R and ggplot2. The book introduces both the ideas and the methods of data visualization in a clear, sensible, and reproducible way. 
 
