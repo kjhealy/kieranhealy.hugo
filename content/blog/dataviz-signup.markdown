@@ -1,7 +1,7 @@
 ---
 title: "Dataviz Signup"
 date: 2018-01-06T17:26:12-05:00
-categories: [r,visualization,sociology]
+categories: [R,Visualization,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false
