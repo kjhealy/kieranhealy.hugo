@@ -1,8 +1,8 @@
 ---
 title: Taboo Markets
-date: "2013-01-01T00:00:00+11:00"
-enddate: "2013-06-06T00:00:00+11:00"
-publishdate: "2015-01-31"
+date: "2018-01-10T00:00:00+11:00"
+enddate: "2018-04-24T00:00:00+11:00"
+publishdate: "2018-01-10"
 host: "Duke University"
 duration: 7776000
 ---
