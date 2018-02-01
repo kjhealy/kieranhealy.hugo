@@ -58,8 +58,8 @@ references.</em></p>
     title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
     can clone the repository</a>.</p>
     
-<h4><a href="http://socviz.co">Data Visualization for Social Science</a> &rarr;</h4>
-    <p>This began life as a set of course notes and has become a book in progress, which I expect to be published next year. <em>Data Visualization for Social Science</em> is a practical introduction to data visualization using R and ggplot2. The main goal of this book is to introduce you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way. 
+<h4><a href="http://socviz.co">Data Visualization: A Practical Introduction</a> &rarr;</h4>
+    <p>This began life as a set of course notes and has become a book in progress, which I expect to be published next year. <em>Data Visualization: A Practical Introduction</em> teaches you data visualization using R and ggplot2. The main goal of this book is to introduce you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way. 
     </p>
     
   </div>
