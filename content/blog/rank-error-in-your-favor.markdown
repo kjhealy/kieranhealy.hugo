@@ -4,7 +4,7 @@ title: Rank Error in Your Favor
 categories: [Sociology,Data,Politics,Nerdery]
 ---
 
-_Update:_ Since writing this post, I've repeatedly tried to delete the offending review from my profile, but Google Scholar keeps re-inserting it as part of its automated trawl through its corpus of articles. So it seems that the robots are determined to grant me these citations whether I want them or not. 
+_**Update**:_ _Since writing this post, I repeatedly tried to delete the offending review from my profile, but Google Scholar kept re-inserting it as part of its automated trawl through its corpus of articles. The robots were determined to grant me these citations whether I wanted them or not. Finally, in January of 2018, John Fox finally got the citations he deserved and the error was fixed. True to form, the correction appeared out of the blue and its rationale was completely opaque._ 
 
 [Google Scholar](http://scholar.google.com) is one of the most visible and widely-used examples of the rise of "impact measurement" in academia. While it is not yet used to assess people's research as a matter of routine, I think it's fair to say that people keep an eye on their scores and might draw on them if it seemed advantageous. Metrics and rankings have a ratchet effect. They encourage people to play along when they score well, while leaving room for you to deny that a serious person such as yourself would ever take such thin measures of quality seriously. Then they trap you later on when, for example, the Dean announces that no-one with an h-index of less than ten is getting tenure. 
 
