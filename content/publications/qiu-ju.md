@@ -4,7 +4,7 @@ title: "Social Structure, Gifts and Norms in The Story of Qiu Ju"
 author: Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Social Structure, Gifts and Norms in <em>The Story of Qiu Ju</em>&rdquo; In <em>Norms and Values. The Role of Social Norms as Instruments of Value Realisation</em>, edited by Michael Baurmann, Geoffrey Brennan, Robert E. Goodin and Nicholas Southwood. Baden Baden: Nomos Verlag."
+citation: "&ldquo;Social Structure, Gifts and Norms in <em>The Story of Qiu Ju.</em>&rdquo; In <em>Norms and Values. The Role of Social Norms as Instruments of Value Realisation</em>, edited by Michael Baurmann, Geoffrey Brennan, Robert E. Goodin and Nicholas Southwood. Baden Baden: Nomos Verlag."
 tag: norms-qiu-ju
 subjects: norms gifts bureaucracy
 comments: no

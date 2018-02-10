@@ -4,7 +4,7 @@ title: "What’s new for Culture in the New Economy?"
 author: Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;What’s new for Culture in the New Economy?.&rdquo; <em>Journal of Arts Management, Law, and Society</em>, 32:86–103."
+citation: "&ldquo;What’s new for Culture in the New Economy?&rdquo; <em>Journal of Arts Management, Law, and Society</em>, 32:86–103."
 tag: internet
 subjects: internet goods culture
 comments: no

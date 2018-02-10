@@ -4,7 +4,7 @@ title: "Altruism as an Organizational Problem"
 author: Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Altruism as an Organizational Problem: the case of Organ Procurement</em>&rdquo; <em>American Sociological Review</em> 69:387–404."
+citation: "&ldquo;Altruism as an Organizational Problem: the case of Organ Procurement.</em>&rdquo; <em>American Sociological Review</em> 69:387–404."
 tag: organs-altruism
 subjects: organs altruism
 comments: no

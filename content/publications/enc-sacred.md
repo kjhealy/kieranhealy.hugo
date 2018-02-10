@@ -4,7 +4,7 @@ title: "Sacred"
 author: Kieran Healy
 status: Published
 type: other
-citation: "&ldquo;Sacred. &rdquo; Entry in the <em>International Encyclopedia of Economic Sociology</em>, edited by Jens Beckert and Milan Zafirofski. Routledge, London."
+citation: "&ldquo;Sacred.&rdquo; Entry in the <em>International Encyclopedia of Economic Sociology</em>, edited by Jens Beckert and Milan Zafirofski. Routledge, London."
 tag: rev-sacred
 subjects: encyclopedia sacred
 comments: no

@@ -4,7 +4,7 @@ title: "Moral Views of Market Society"
 author: Marion Fourcade and Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Moral Views of Market Society</em>&rdquo; <em>Annual Review of Sociology</em> 33:285–311."
+citation: "&ldquo;Moral Views of Market Society.</em>&rdquo; <em>Annual Review of Sociology</em> 33:285–311."
 tag: moral-views-market
 subjects: market moral order sociology economics
 comments: no
