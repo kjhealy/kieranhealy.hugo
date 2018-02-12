@@ -13,7 +13,9 @@ categories:
 - Sociology
 ---
 
-![image](http://g-ec2.images-amazon.com/images/I/4160su1O-oL._AA240_.jpg)The other day David Brooks [wrote a column](http://select.nytimes.com/2007/07/10/opinion/10brooks.html?_r=1&hp&oref=login) which appeared to be a stock piece of standard conservative anxiety about what he called "hard-boiled, foul-mouthed, fedup, emotionally self-sufficient and unforgiving" young women. [Matt Yglesias picks up on](http://matthewyglesias.theatlantic.com/archives/2007/07/why_i_read_david_brooks.php) on the piece today, salvaging the key insight of Brooks' piece from the muddled pop-culture framing. As Brooks says,
+![The Age of Independence Cover](http://g-ec2.images-amazon.com/images/I/4160su1O-oL._AA240_.jpg) 
+
+The other day David Brooks [wrote a column](http://select.nytimes.com/2007/07/10/opinion/10brooks.html?_r=1&hp&oref=login) which appeared to be a stock piece of standard conservative anxiety about what he called "hard-boiled, foul-mouthed, fedup, emotionally self-sufficient and unforgiving" young women. [Matt Yglesias picks up on](http://matthewyglesias.theatlantic.com/archives/2007/07/why_i_read_david_brooks.php) on the piece today, salvaging the key insight of Brooks' piece from the muddled pop-culture framing. As Brooks says,
 
 > Now young people face a social frontier of their own. They hit puberty around 13 and many don't get married until they're past 30. That's two decades of coupling, uncoupling, hooking up, relationships and shopping around. This period isn't a transition anymore. It's a sprawling life stage, and nobody knows the rules.
 
