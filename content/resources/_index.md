@@ -59,7 +59,7 @@ references.</em></p>
     can clone the repository</a>.</p>
     
 <h4><a href="http://socviz.co">Data Visualization: A Practical Introduction</a> &rarr;</h4>
-    <p>This began life as a set of course notes and has become a book. <em>Data Visualization: A Practical Introduction</em> will be published by Princeton University Press this November . Its goal is to introduce you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2.
+    <p>This began life as a set of course notes and has become a book. <em>Data Visualization: A Practical Introduction</em> will be published by Princeton University Press this November. Its goal is to introduce you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2.
     </p>
     
   </div>
