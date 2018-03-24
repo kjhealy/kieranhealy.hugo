@@ -12,7 +12,7 @@ I was asked to give a short talk in my Departmental Proseminar yesterday on the 
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-001.png" alt = "" caption = "" %}}
 
-There is more than one way to give a good talk, and there is more than one way to make "good slides" or---better---make good use of slides and other material you might want to show people. So the things I'll talk about and especially the specific techniques I'll discuss are just one of many good ways to present yourself and your work. Presenting is a two-sided process, where you should be comfortable with what you are saying (and how you're saying it), on one side, and where your audience should be able to follow along and understand your message, on the other. 
+There is more than one way to give a good talk, and there is more than one way to make "good slides" or---better---make good use of slides and other material you might want to show people. So the things I'll talk about and especially the specific techniques I'll discuss are selected from many good ways to present yourself and your work. Presenting is a two-sided process, where you should be comfortable with what you are saying (and how you're saying it), on one side, and where your audience should be able to follow along and understand your message, on the other. 
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-002.png" alt = "" caption = "" %}}
 
@@ -41,7 +41,7 @@ say? I'll talk about how I find it useful to *layer*, *highlight*, and
 *repeat* design elements in a way that helps the audience follow
 along. And third, a little more specifically, I'll talk about how to
 *make things clear* on your slides when it comes to presenting
-specific results or details.
+results or details.
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-004.png" alt = "" caption = "" %}}
 
@@ -237,7 +237,7 @@ The paper is the most important thing. The paper is not the talk. The talk is ab
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-022.png" alt = "" caption = "" %}}
 
-Talks are a performance. That makes them annoying, but it also means that like most interactions, both sides go in wanting it to go well. Try to use that Goffmanian fact to your advantage when you can. 
+Talks are a performance. That makes them annoying, but it also means that like most interactions, both sides want it to go well. Try to use that Goffmanian fact to your advantage when you can. 
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-023.png" alt = "" caption = "" %}}
 
