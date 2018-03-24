@@ -1,6 +1,6 @@
 ---
 title: "Making Slides"
-date: 2018-04-16T13:11:01-04:00
+date: 2018-03-24T09:50:01-04:00
 categories: [Sociology,Nerdery,Obiter Dicta]
 footnotes: false
 htmlwidgets: false
@@ -55,9 +55,9 @@ survey them. Instead, I just want to emphasize two things.
 First, and to repeat, a talk is a performance and inevitably involves
 a lot of impression-management, especially when something important is
 at stake. In a context like a job talk, what people generally want to
-come away with is the feeling that the presenter was in control of
-their material, that they knew what they were doing, and that what
-they were doing was, ideally, interesting and important.
+come away with is the feeling that the presenter is in control of
+their material, that they know what they are doing, and that what
+they are doing is, ideally, interesting and important.
 
 What that means concretely will vary depending on who you are, what
 your research looks like, and who your audience is. People are often
@@ -114,14 +114,14 @@ they contain few if any words.
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-008.png" alt = "" caption = "" %}}
 
-The naturally corollary of this way of thinking about your visual
+A corollary of this way of thinking about your visual
 material is this: *don't write your talk on the slides*. The most
 common way a talk fails is that the presenter uses their Keynote or
 PowerPoint slide deck as an *outliner* for themselves. They use it as
 something to help themselves, rather as something to help the
 audience. They start making notes for what they want to say and put
 those notes on the slides. All of that text (bullet-point after
-bullet-point) ends up on the screen, where they then read all of it to
+bullet-point) ends up on the screen, where they then read it to
 the audience. Don't do this.
 
 This kind of bad talk is why many people profess to hate slides as
@@ -164,7 +164,7 @@ corner of a specific field that I am going to be discussing. So
 beginning from the most expansive definition of the field ("A mode of
 inquiry"), we gradually narrow the focus to the actual content of the
 dataset by the time we get to "At Universities in Five Countries". I
-use a simple dissolve and overlay to narrow it down one piece at a
+repeatedly overlay the elements to narrow them down one piece at a
 time, talking about each step as I go. 
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-010.png" alt = "" caption = "" %}}
@@ -196,7 +196,7 @@ What else can we say about using design elements to make the details of your tal
 
 When presenting data or results on slides, try to use figures rather than tables as much as you can. If nothing else, tables are hard to even see properly on a big screen, let alone quickly interpret. Large screens have lower resolutions than you think. Things that appear quite legible on your beautiful, high-resolution laptop screen will be much harder to see on a six-foot wide projected image from twenty feet away. (That applies to figures, too by the way.)
 
-Learn how to make your figures and graphs properly. I have [written a book on data visualization](http://socviz.co) that teaches you how to do this, so I won't go over that here. Just notice, though, that the figure here has many deliberate design elements meant to help the audience. The estimates are ordered by magnitude. The gridlines are visible but subtle. The zero line is slightly emphasized, and so on. 
+Learn how to make figures and graphs properly. That's a skill that goes far beyond giving talks. I have [written a book on data visualization](http://socviz.co) that teaches you how to do it. Just notice here, though, that the figure here has many deliberate design elements meant to help the audience. The estimates are ordered by magnitude. The gridlines are visible but subtle. The zero line is slightly emphasized, and so on. 
 
 {{% figure src = "https://kieranhealy.org/files/misc/sampletalk-015.png" alt = "" caption = "" %}}
 
