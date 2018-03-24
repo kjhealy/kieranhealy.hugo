@@ -65,7 +65,7 @@ not assessed fairly, or according to a single standard. But it's also
 true that, whether as a matter of the investment that people have made
 in making the talk happen, or just in the pure desire to have a
 successful interaction, audiences really *want* talks to go well.
-Outside of really adversarial settings, no one wants to watch someone
+Outside of adversarial settings, no one wants to watch someone
 bomb. This means that presenters start out with the audience on their
 side to a much greater degree than people often realize. 
 
