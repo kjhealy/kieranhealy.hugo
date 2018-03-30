@@ -1,6 +1,37 @@
-<div class = "post">
-<li>
-      <h3 id="archive"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <div class="meta">{{ .Date.Format "Jan 2, 2006" }}</div>
-</li>
-</div>
+{{ partial "header.html" . }}
+<body lang="en">
+
+  <div id="topbar">
+    <div class="wrapper">
+      <header>
+        {{ partial "sidebar.html" . }}
+        {{ $baseurl := .Site.BaseURL }}
+      </header>
+    </div>
+  </div>
+
+
+  <div class="wrapper">
+    <div class="units-row">
+      <div class="unit-70">
+      <!-- Column of even-numbered posts -->
+      {{ range (.Paginator 10).Pages }}
+      {{ .Render "summary" }}
+      {{ end }}
+      </div>
+      <div class="unit-30">
+        <h3></h3>
+        <p><em>Sociology and other distractions, since 2002. View <a href="/categories/">an index of posts by category</a></em>.</p>
+      </div>  
+    </div>  
+  </div> 
+  
+{{partial "paging.html" . }}
+
+<br />
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+   
+{{ partial "foot.html" . }}

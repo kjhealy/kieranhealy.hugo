@@ -7,10 +7,10 @@ builddrafts: false
 buildFuture: true
 pygmentsuseclasses: true
 baseurl: "https://kieranhealy.org/"
-indexes:
-  category: "categories"
 title: "kieranhealy.org"
-CanonifyUrls: true
+CanonifyUrls: tru
+taxonomy:
+    category: "categories"
 menu:
   main:
       - Name: "Publications"
