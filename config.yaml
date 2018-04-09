@@ -9,6 +9,7 @@ pygmentsuseclasses: true
 baseurl: "https://kieranhealy.org/"
 title: "kieranhealy.org"
 CanonifyUrls: tru
+rssLimit: 20
 taxonomy:
     category: "categories"
 menu:
