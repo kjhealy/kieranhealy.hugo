@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-To close out what has become [demography](https://kieranhealy.org/blog/archives/2018/04/07/us-monthly-births/) [week](https://kieranhealy.org/blog/archives/2018/04/08/animated-population-pyramids-in-r/) around here, I combined the [US monthly birth data](https://kieranhealy.org/blog/archives/2018/04/07/us-monthly-births/) with data for England and Wales (from the same ONS source [as before](https://kieranhealy.org/blog/archives/2018/04/08/animated-population-pyramids-in-r/)), so that I could look at the trends together. The monthly England and Wales data I have to hand runs from 1938 to 1991. I thought combining the monthly tiled heatmap and the LOESS decomposition would work well as a poster, so I made one. I think it turned out pretty well.
+To close out what has become [demography](https://kieranhealy.org/blog/archives/2018/04/07/us-monthly-births/) [week](https://kieranhealy.org/blog/archives/2018/04/08/animated-population-pyramids-in-r/), I combined the [US monthly birth data](https://kieranhealy.org/blog/archives/2018/04/07/us-monthly-births/) with data for England and Wales (from the same ONS source [as before](https://kieranhealy.org/blog/archives/2018/04/08/animated-population-pyramids-in-r/)), so that I could look at the trends together. The monthly England and Wales data I have to hand runs from 1938 to 1991. I thought combining the monthly tiled heatmap and the LOESS decomposition would work well as a poster, so I made one. I think it turned out pretty well.
 
 {{% figure src="http://kieranhealy.org/files/misc/combined_births_components.png" alt="" caption="Visualizing the baby boom in the US, and England & Wales." %}}
 
