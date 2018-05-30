@@ -2,15 +2,16 @@
 title: "Visualizing the Baby Boom"
 
 author: Kieran Healy
-status: Unpublished
-type: unpublished
-citation: "&ldquo;Visualizing the Baby Boom.&rdquo;"
+status: Published
+type: published
+citation: "&ldquo;Visualizing the Baby Boom.&rdquo; <em>Socius</em> 4: 1-2"
 tag: boomers
 file: boomers.pdf
 subjects: sociology baby boom visualization generations
 comments: no
-date: 2018-04-17
-publishdate: 2018-04-17
+doi: 10.1177/2378023118777324
+date: 2018-05-30
+publishdate: 2018-05-30
 filter:
   - erb
   - markdown
