@@ -76,7 +76,7 @@ previewer for <code>.md</code> files.
 
 <h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</h4>
 
-This is a short talk, originally given in my Departmental Proseminar, on the topic of giving presentations. I discuss how to think about your talk in general (and how to distinguish it from the paper you're taking about, on the one hand, and the slides you're showing people, on the other.) I then say some things about how to use slides to best get your point across. 
+<p>This is a short talk, originally given in my Departmental Proseminar, on the topic of giving presentations. I discuss how to think about your talk in general (and how to distinguish it from the paper you're taking about, on the one hand, and the slides you're showing people, on the other.) I then say some things about how to use slides to best get your point across.</p> 
 
 <h4><a href="http://kjhealy.github.com/kjh-vita/">So You Like My Vita</a> &rarr;</h4>
 <p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.com/kjh-vita/" 
