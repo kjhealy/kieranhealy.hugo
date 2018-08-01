@@ -15,7 +15,7 @@ When I saw it, one of those little bells went off in my head:
 
 {{% figure src="https://kieranhealy.org/files/misc/kh-vox-tweet.png" alt="" caption="" %}}
 
-As a rule, when you see a sharp change in a long-running time-series, you should always check to see if some aspect of the data-generating process changed---such as the measurement device or the criteria for inclusion in the dataset---before generating any substantive stories about what happened and why. This is especially the case for something susceptible to change over time, but not to extremely rapid fluctuations. A sudden fifteen-pound-per-person-per-year uptick just seems unlikely. And while such shifts are not impossible, of course, you also have to tap the instruments, so to speak, to make sure everything's OK. 
+As a rule, when you see a sharp change in a long-running time-series, you should always check to see if some aspect of the data-generating process changed---such as the measurement device or the criteria for inclusion in the dataset---before coming up with any substantive stories about what happened and why. This is especially the case for something susceptible to change over time, but not to extremely rapid fluctuations. A sudden fifteen-pound-per-person-per-year uptick just seems unlikely. And while such shifts are not impossible, of course, you also have to tap the instruments, so to speak, to make sure everything's OK. 
 
 In this case, it took [Jon Mellon](https://twitter.com/jon_mellon) a few minutes to track down the table the graph was based on, and sure enough, there it was:
 
