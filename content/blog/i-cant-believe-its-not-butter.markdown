@@ -21,7 +21,7 @@ In this case, it took [Jon Mellon](https://twitter.com/jon_mellon) a few minutes
 
 {{% figure src="https://kieranhealy.org/files/misc/vox-fat-table.jpg" alt="" caption="The fault, my dear Brutus, is not in ourselves" %}}
 
-In 2000, the number of firms reporting vegetable oil production increased, leading to the spike in the graph. Your theory of the avocado-based transformation of the American diet is invalid. 
+In 2000, the number of firms reporting vegetable oil production increased, leading to the spike in the graph. Your theory of the avocado-based transformation of the American diet is invalid. As [Tom Smith](http://www.norc.org/Experts/Pages/tom-smith.aspx), the director of the General Social Survey, likes to say, if you want to measure change, you can't change the measure. 
 
 Relatedly, as the graph itself makes clear---but the original article finesses a bit---the *availability* of fats (as measured through food *production*) is rather different from the *consumption* of fats in people's actual diets. The two are clearly closely related, but they're not the same.
 
