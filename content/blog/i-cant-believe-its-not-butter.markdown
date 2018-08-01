@@ -1,5 +1,5 @@
 ---
-title: "I Cant Believe It's Not Butter"
+title: "I Can't Believe It's Not Butter"
 date: 2018-08-01T10:20:02-04:00
 categories: [Sociology,Data,Visualization]
 footnotes: false
