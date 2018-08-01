@@ -13,7 +13,7 @@ Yesterday, [Vox ran a story](https://www.vox.com/science-and-health/2017/2/2/144
 
 When I saw it, one of those little bells went off in my head:
 
-{{% figure src="https://kieranhealy.org/files/misc/kh-vox-tweet" alt="" caption="" %}}
+{{% figure src="https://kieranhealy.org/files/misc/kh-vox-tweet.png" alt="" caption="" %}}
 
 As a rule, when you see a sharp change in a long-running time-series, you should always check to see if some aspect of the data-generating process changed---such as the measurement device or the criteria for inclusion in the dataset---before generating any substantive stories about what happened and why. This is especially the case for something susceptible to change over time, but not to extremely rapid fluctuations. A sudden fifteen-pound-per-person-per-year uptick just seems unlikely. And while such shifts are not impossible, of course, you also have to tap the instruments, so to speak, to make sure everything's OK. 
 
