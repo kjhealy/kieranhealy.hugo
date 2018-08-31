@@ -17,9 +17,12 @@
 <div class="unit-60"><h2><a href="">{{ .Title | safeHTML }}</a></h2></div>
 </div>
 <div class="units-row">		
-<div class="unit-20 dateblock"><p>{{.Params.author}}, {{ .Params.citation | safeHTML }}</p>
-{{ if .Params.doi }}<p class="small"><a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a></p>{{ end }}
-{{ if .Params.file }}<p><a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}" class="badge badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;download pdf</a></p>{{ end }}
+  <div class="unit-20 dateblock"><p>{{.Params.author}}, {{ .Params.citation | safeHTML }}</p>
+    {{ if .Params.doi }}<p class="small"><a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a></p>{{ end }}
+    {{ if .Params.file }}<p><a href="{{.Site.BaseURL}}files/papers/{{.Params.file}}" class="badge badge-red"><i class="fa fa-file-pdf-o"></i>&nbsp;download pdf</a></p>{{ end }}
+    
+  {{ partial "social.html" . }}    
+  a
 </div>
 <div class="unit-60">
 {{ .Content }}
