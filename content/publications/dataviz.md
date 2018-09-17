@@ -34,9 +34,9 @@ Austin</em></p>
 
 <p>“Healy’s prose is clear and direct. I came away from this book with a much better understanding of both visualizations and R.” — <em><b>Neal Caren</b>, University of North Carolina at Chapel Hill</em></p>
 
-<p>“Innovative and extraordinarily well-written.” — <em><b>Jeremy Freese</b>, Stanford University</em></p>
+<p>“Innovative and extraordinarily well-written.” &mdash; <em><b>Jeremy Freese</b>, Stanford University</em></p>
 
-<p><figure><a href="https://amzn.to/2vfAixM"><img class="lbg" src="http://kieranhealy.org/files/misc/dv-cover-pupress.jpg" align="right" width=800px alt="Data Visualization: A Practical Introduction"></a></figure><a href="http://socviz.co"></p>
+<p><figure><a href="https://amzn.to/2vfAixM"><img class="lbg" src="http://kieranhealy.org/files/misc/dv-cover-pupress.jpg" align="right" width=800px alt="Data Visualization: A Practical Introduction"></a></figure></p>
 
 <p>&nbsp;</p>
 
