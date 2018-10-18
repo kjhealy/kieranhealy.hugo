@@ -75,7 +75,7 @@ Second, there's the content of the talk. Behind every good talk is the
 actual content of what you have to say. This is always far more
 detailed than can be conveyed in the time you have. That content is a
 paper, or a chapter of your dissertation, or at least a specific
-finding or argument that you have spend a lot of time working out.
+finding or argument that you have spent a lot of time working out.
 For convenience, let's just call it "the paper". 
 
 To put it bluntly, if the paper is bad, then it doesn't really matter how
