@@ -149,7 +149,7 @@ your audience's time and patience.
 
 What should your slides do instead? And how should you do it? The
 slides can help the audience follow along as you tell them what you
-are going to do, and then as do it. One straightforward but effective
+are going to do, and then as you do it. One straightforward but effective
 technique is to build up your argument, your data, or
 your findings, by *layering*, content, *highlighting* new elements,
 and *repeating* methods of presentation or design elements so that
