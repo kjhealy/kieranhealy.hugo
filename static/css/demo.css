@@ -24,6 +24,38 @@ h2, h3 {
 	font-style: normal;
 }
 
+badge-twitter {
+    font-size: 11.25px;
+    padding: 3px 5px;  
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 15px;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: #c0deed;
+    color: #fff;
+}
+
+badge-facebook {
+    font-size: 11.25px;
+    padding: 3px 5px;  
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 15px;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: #3B5998;
+    color: #fff;}
+
+
 .label-red {
   background-color: #36454f;
 }
@@ -35,9 +67,6 @@ a {color: #36454f;
 a:hover {text-decoration:underline;}
 
 a.badge.badge-red { color: #fff;}
-a.badge.badge-twitter {
-    background: #c0deed; color: #fff;}
-a.badge.badge-facebook { background: #3B5998; color: #fff;}
 /* =Code
 -----------------------------------------------------------------------------*/
 pre,
