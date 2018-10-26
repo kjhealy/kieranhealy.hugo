@@ -27,14 +27,19 @@ To accompany the <a href="http://www.kieranhealy.org/files/misc/workflow-apps.pd
 What's the motivation for the starter kit? Emacs is a very powerful editor but it is less useful out-of-the-box than it might be, in part because many convenient settings and modes are not activated by default. The starter kit is a drop-in set of nice default settings. The idea is for you to be able to download GNU Emacs, put the starter kit into <code>~/.emacs.d/</code>, and get to work. If you already use Emacs and have a <code>.emacs</code> file or <code>~/.emacs.d</code> directory, the starter kit is designed to replace them, while leaving a place for you to easily append your own customizations.
 </p>
 <p>
-The starter kit is designed to be used with GNU Emacs. Version 24.4 (released October 2014) or later is required. It will not work with <a href="http://aquamacs.org/" title="Aquamacs: Emacs for Mac OS X">Aquamacs</a> without modification. More detailed commentary and documentation is provided inside the kit's <code>.org</code> files. 
+The starter kit is designed to be used with GNU Emacs. Version 24.4 (released October 2014) or later is required. The current version of Emacs (>25) is recommended. It will not work with <a href="http://aquamacs.org/" title="Aquamacs: Emacs for Mac OS X">Aquamacs</a> without modification. More detailed commentary and documentation is provided inside the kit's <code>.org</code> files. 
 </p>
 <h2>
 Installation Instructions (Mac OS X)
 </h2>
 
 <h3>Before you Begin</h3>
-<p>If you want to use the tools that the starter-kit works with—LaTeX, R, Git, Pandoc, and all the rest—then you will need to install them on your Mac. The ground floor is Apple's own suite of Developer Tools, which allow you to compile software yourself and include things like Git. The most straightforward way to get these tools is to <strong>install Xcode</strong>. Xcode is what software developers use to write Mac and iOS applications. As such it comes with a bunch of things we are not so interested in, but it makes it easy to install what we do need. It's available <a href="https://developer.apple.com/xcode/">for free via the Mac App Store</a>. Once downloaded, launch Xcode, go to Xcode &#62; Preferences &#62; Downloads and install the <strong>Command Line Tools for Xcode</strong>. At that point you can quit Xcode and never use it again. Alternatively, go to <a href="https://developer.apple.com/">Apple's Developer Site</a>, login with your Apple ID and download the Command Line Tools for Xcode package by itself, without the Xcode application. </p>
+<p>If you want to use the tools that the starter-kit works with—LaTeX, R, Git, Pandoc, and all the rest—then you will need to install them on your Mac. The ground floor is Apple's own suite of Developer Tools, which allow you to compile software yourself and include things like Git. The most straightforward way to get these tools is to open the Terminal app (which can be found in the Applications folder, inside a folder named "Utilities"). At the command prompt, type the following, and hit enter:
+
+`xcode-select --install`
+
+A dialog box will appear asking whether you want to install the tools. Choose "Install" and wait for the process to complete. 
+</p>
 
 <p>If you have used Emacs before and already have a <code>.emacs</code> file or <code>.emacs.d</code> directory, back them up and then delete them. See below for details on how to add customizations to the kit.</p>
 
