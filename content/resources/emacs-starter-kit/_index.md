@@ -34,7 +34,7 @@ Installation Instructions (Mac OS X)
 </h2>
 
 <h3>Before you Begin</h3>
-<p>If you want to use the tools that the starter-kit works with—LaTeX, R, Git, Pandoc, and all the rest—then you will need to install them on your Mac. The ground floor is Apple's own suite of Developer Tools, which allow you to compile software yourself and include things like Git. The most straightforward way to get these tools is to open the Terminal app (which can be found in the Applications folder, inside a folder named "Utilities"). At the command prompt (<pre>$</pre>), type the following, and hit enter:
+<p>If you want to use the tools that the starter-kit works with—LaTeX, R, Git, Pandoc, and all the rest—then you will need to install them on your Mac. The ground floor is Apple's own suite of Developer Tools, which allow you to compile software yourself and include things like Git. The most straightforward way to get these tools is to open the Terminal app (which can be found in the Applications folder, inside a folder named "Utilities"). At the command prompt (<code>$</code>), type the following, and hit enter:
 
 <pre>$ xcode-select --install</pre>
 
