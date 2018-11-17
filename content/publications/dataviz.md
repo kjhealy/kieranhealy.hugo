@@ -9,7 +9,7 @@ citation: "<em>Data Visualization: A Practical Introduction</em>. Forthcoming. P
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
-date: 2017-12-17
+date: 2018-11-11
 publishdate: 2019-01-01
 ---
 
