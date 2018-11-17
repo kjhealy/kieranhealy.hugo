@@ -461,8 +461,8 @@ output {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 pre {
-  margin-top: 1.65em;
-  font-size: 100%;
+  margin-top: 1em;
+  font-size: 90%;
   line-height: 1.5;
   color: #222222;
   overflow: auto;
@@ -480,7 +480,7 @@ code {
   border: 1px solid #d4d4d4;
 }
 pre code {
-  font-size: 100%;
+  font-size: 90%;
   border: none;
   padding: 0;
   background: none;
