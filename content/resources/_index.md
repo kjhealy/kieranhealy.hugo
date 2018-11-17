@@ -72,7 +72,7 @@ to set up a <code>.tex</code> file with a nice Article layout.</p>
 <p>Some Pandoc templates meant to go in <code>~/.pandoc/templates</code>. Point to them directly with the <code>--template</code> or <code>--css</code> switches as appropriate, and use them with what's provided in <a 
 href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>. Includes a shell script for setting pandoc up to work with the <a href="http://marked2app.com">Marked</a> app, a handy HTML live 
 previewer for <code>.md</code> files.
-    </p>
+</p>
 
 <h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</h4>
 

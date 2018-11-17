@@ -459,6 +459,7 @@ output {
   font-size: 90%;
   font-style: normal;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  border-radius: 10px;  
 }
 pre {
   margin-top: 1em;
@@ -3140,9 +3141,6 @@ ul.dropdown li.divider {
 }
 .hide {
   display: none;
-}
-.highlight {
-  background-color: #f7f3e2;
 }
 .big {
   font-size: 18px;
