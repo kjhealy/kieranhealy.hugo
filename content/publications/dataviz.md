@@ -46,5 +46,5 @@ Austin</em></p>
 
 <p>Learning how to visualize data effectively is more than just knowing how to write code that produces figures from data. This book will teach you how to do that. But it will also teach you how to think about the information you want to show, and how to consider the audience you are showing it to—including the most common case, when the audience is yourself.</p>
 
-<p><em>Data Visualization: A Practical Introduction</em> will be published in 2018 by Princeton University Press. A draft version of the manuscript is available, as a website, at <a href="http://socviz.co"><code>http://socviz.co</code></a>. </p>
+<p><em>Data Visualization: A Practical Introduction</em> will be released in mid-December 2018 by Princeton University Press. A draft version of the manuscript is available, as a website, at <a href="http://socviz.co"><code>http://socviz.co</code></a>. </p>
 
