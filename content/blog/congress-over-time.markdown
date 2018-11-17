@@ -348,7 +348,7 @@ p_out <- p + geom_quasirandom(size = 0.1, alpha = 0.4,
 
 {{% figure src="http://kieranhealy.org/files/misc/age_careers_line_labeled.png" alt="" caption="Age trends, distributions, and outliers." %}}
 
-That one might be easier to see [as a PDF](http://kieranhealy.org/files/misc/age_careers_line_labeled.png).
+That one might be easier to see [as a PDF](http://kieranhealy.org/files/misc/age_careers_line_labeled.pdf).
 
 Finally, here's a neat trick. One thing I was interested in was changes in the composition of the so-called "Freshman Class" of representatives over time---that is, people elected to the House for the very first time. To extract that subset, I needed to create a `term_id` nested with each person's unique identifier (their `pid`). I knew what Congressional session each person-term was in, but just needed to count from the first to the last. I'm sure there's more than one way to do it, but here's a solution:
 
