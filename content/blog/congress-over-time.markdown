@@ -346,7 +346,7 @@ p_out <- p + geom_quasirandom(size = 0.1, alpha = 0.4,
     theme(plot.subtitle = element_text(size = 10))
 {{< /highlight >}}
 
-{{% figure src="http://kieranhealy.org/files/misc/age_careers_line_labeled.png" alt="" caption="Age distribution heatmap" %}}
+{{% figure src="http://kieranhealy.org/files/misc/age_careers_line_labeled.png" alt="" caption="Age distribution trends, distributions, and outliers." %}}
 
 That one might be easier to see [as a PDF](http://kieranhealy.org/files/misc/age_careers_line_labeled.png).
 
