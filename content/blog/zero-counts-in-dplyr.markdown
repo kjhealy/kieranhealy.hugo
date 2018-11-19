@@ -51,7 +51,7 @@ df
 
 When we load our data into R with `read_csv`, the columns for `party` and `sex` are parsed as character vectors. If you've been around R for any length of time, and especially if you've worked in the tidyverse framework, you'll be familiar with the drumbeat of "[stringsAsFactors=FALSE](http://notstatschat.tumblr.com/post/124987394001/stringsasfactors-sigh)", by which we avoid classing character variables as factors unless we have a good reason to do so (there are several good reasons), and we don't do so by default. Thus our `df` tibble shows us `<chr>` instead of `<fct>` for `party` and `sex`. 
 
-Now, let's say we want a count of the number of men and women elected by party in each year. (Congressional elections happen every two years; ) We write a little pipeline to group the data by year, party, and sex, count up the numbers, and calculate a frequency that's the proportion of men and women elected that year within a each party. That is, the frequencies of M and F will sum to 1 for each party in each year.
+Now, let's say we want a count of the number of men and women elected by party in each year. (Congressional elections happen every two years.) We write a little pipeline to group the data by year, party, and sex, count up the numbers, and calculate a frequency that's the proportion of men and women elected that year within a each party. That is, the frequencies of M and F will sum to 1 for each party in each year.
 
 {{< highlight r >}}
 
