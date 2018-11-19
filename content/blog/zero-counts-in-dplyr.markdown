@@ -104,7 +104,7 @@ df %>%
     geom_col() +
     scale_y_continuous(labels = scales::percent) +
     scale_fill_manual(values = sex_colors, labels = c("Women", "Men")) +
-    labs(x = "Year", y = "Percent", color = "Group") +
+    labs(x = "Year", y = "Percent", fill = "Group") +
     facet_wrap(~ party)
 
 ggsave("figures/df_chr_col.png")
