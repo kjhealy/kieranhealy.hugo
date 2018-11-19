@@ -265,4 +265,4 @@ ggsave("figures/df_chr_line_2.png")
 
 {{% figure src="http:kieranhealy.org/files/misc/df_chr_line_2.png" alt="" caption="Same as before, but based on the character-encoded version." %}}
 
-The new zero-preserving behavior of `group_uby()` for factors will show up in the upcoming version 0.8 of dplyr. It's already there in the development version if you like to live dangerously. In the meantime, if you want your frequency tables to include zero counts, then make sure you `ungroup()` and then `complete()` the summary tables. 
+The new zero-preserving behavior of `group_by()` for factors will show up in the upcoming version 0.8 of dplyr. It's already there in the development version if you like to live dangerously. In the meantime, if you want your frequency tables to include zero counts, then make sure you `ungroup()` and then `complete()` the summary tables. 
