@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-Here's a feature of `dplyr` that occasionally bites me, that's about to change mostly for the better, but that is also likely to bite me again in the future. If you want to follow along there's a GitHub repo with the [necessary code and data](https://github.com/kjhealy/fc_sample). 
+Here's a feature of `dplyr` that occasionally bites me (most recently while making [these graphs](https://kieranhealy.org/blog/archives/2018/11/17/congress-over-time/)). It's about to change mostly for the better, but is also likely to bite me again in the future. If you want to follow along there's a GitHub repo with the [necessary code and data](https://github.com/kjhealy/fc_sample). 
 
 Say we have a data frame or tibble and we want to get a frequency table or set of counts out of it. In this case, each row of our data is a person serving a congressional term for the very first time, for the years 2013 to 2019. We have information on the term year, the party of the representative, and whether they are a man or a woman. 
 
