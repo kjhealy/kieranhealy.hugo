@@ -109,7 +109,6 @@ df %>%
 
 ggsave("figures/df_chr_col.png")
 
-
 {{< /highlight >}}
 
 
@@ -197,7 +196,7 @@ df_f %>%
 
 ggsave("figures/df_fac_line.png")
 
-{{< /highlight> }}
+{{< /highlight >}}
 
 {{% figure src="http:kieranhealy.org/files/misc/df_fac_line.png" alt="" caption="A line graph based on factor-encoded variables for party and sex. Now the trend line for Women does include the zero values, as they are preserved in the summary." %}}
 
