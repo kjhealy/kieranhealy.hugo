@@ -91,7 +91,7 @@ filenames
 #> [37] "data/clean/37_115_congress.csv" "data/clean/38_116_congress.csv"
 {{< /highlight >}}
 
-Than, instead of writing a `for` loop and doing a bunch of `rbind`-ing, we can pipe our vector of filenames to the `map_dfr()` function and we're off to the races:
+Then, instead of writing a `for` loop and doing a bunch of `rbind`-ing, we can pipe our vector of filenames to the `map_dfr()` function and we're off to the races:
 
 {{< highlight r >}}
 data <- filenames %>% map_dfr(read_csv, .id = "congress")
