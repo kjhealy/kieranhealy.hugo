@@ -240,9 +240,6 @@ df %>%
 
 If we re-draw the line plot with the `ungroup() ... complete()` step included, we'll get the correct output in our line plot, just as in the factor case.
 
-{{% figure src="http:kieranhealy.org/files/misc/" alt="" caption="" %}}
-
-
 {{< highlight r >}}
 
 df %>%
