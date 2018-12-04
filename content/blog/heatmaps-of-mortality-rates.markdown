@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-As part of the run-up to the release of [Data Visualization](https://amzn.to/2vfAixM) (out in about ten days! Currently 30% off on Amazon!), I've been playing with graphing different kinds of data. One great source of rich time-series data is [mortality.org](http://mortality.org), which hosts a collection of standardized demographic data for a large number of countries. This sort of data is often interesting to look at as a heatmap, as we get data for a series of ages (e.g., morality rates) over some time period. If we graph this kind of data on grid, with time on the x-axis and age on the y-axis, the diagonals track age cohorts from the bottom left to the upper right of the graph, as people age at the rate of one year per year. 
+As part of the run-up to the release of [Data Visualization](https://amzn.to/2vfAixM) (out in about ten days! Currently 30% off on Amazon!), I've been playing with graphing different kinds of data. One great source of rich time-series data is [mortality.org](http://mortality.org), which hosts a collection of standardized demographic data for a large number of countries. This sort of data is often interesting to look at as a heatmap, as we get data for a series of ages (e.g., mortality rates) over some time period. If we graph this kind of data on grid, with time on the x-axis and age on the y-axis, the diagonals track age cohorts from the bottom left to the upper right of the graph, as people age at the rate of one year per year. 
 
 Available mortality data for England and Wales runs back to 1841. Here's sample code for a plot of that for males:
 
@@ -39,7 +39,7 @@ You can look at the full code on [GitHub](https://github.com/kjhealy/lexis_surfa
 Here's the figure for both males and females:
 
 
-{{% figure src="http://kieranhealy.org/files/misc/britain_mortality_combined_media-01.png" alt="" caption="Morality rates in England and Wales, 1841-2016, binned by percentile." %}}
+{{% figure src="http://kieranhealy.org/files/misc/britain_mortality_combined_media-01.png" alt="" caption="Mortality rates in England and Wales, 1841-2016, binned by percentile." %}}
 
 A [higher resolution PDF](http://kieranhealy.org/files/misc/britain_mortality_combined_media.pdf) is also available. 
 
