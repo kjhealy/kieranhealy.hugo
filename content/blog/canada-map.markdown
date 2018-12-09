@@ -118,7 +118,7 @@ canada_cd
 
 {{< /highlight >}}
 
-Notice the `proj4string` there in the metadata. We're going to change that, to Canada's favorite projection, the Lambert Conformal Conic projection. See  [this discussion](https://www.statcan.gc.ca/pub/92-195-x/2011001/other-autre/mapproj-projcarte/m-c-eng.htm) for details. 
+Notice the `proj4string` there in the metadata. We're going to change that to Canada's favorite projection, the Lambert Conformal Conic projection. See  [this discussion](https://www.statcan.gc.ca/pub/92-195-x/2011001/other-autre/mapproj-projcarte/m-c-eng.htm) for details. 
 
 
 {{< highlight r >}}
