@@ -48,7 +48,7 @@ Austin</em></p>
 
 <p><em>Data Visualization: A Practical Introduction</em> will be released in mid-December 2018 by Princeton University Press. A draft version of the manuscript is available, as a website, at <a href="http://socviz.co"><code>http://socviz.co</code></a>. </p>
 
-<h3>Supporting Material</h3>
+<h3>Teaching and Learning Materials</h3>
 
 - The `socviz` library provides datasets and functions used in the book. You can [get it here](https://kjhealy.github.io/socviz/).
 - The [code for almost all the figures in the book](https://github.com/kjhealy/dataviz) (along with other examples and supplementary material) is also available. You can get it [via GitHub](https://github.com/kjhealy/dataviz). Alternatively, if you're new to GitHub, you can [download a zip file](https://github.com/kjhealy/dataviz/archive/master.zip) of all the material directly.
