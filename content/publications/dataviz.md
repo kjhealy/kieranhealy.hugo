@@ -50,5 +50,5 @@ Austin</em></p>
 
 <h3>Teaching and Learning Materials</h3>
 
-- The `socviz` library provides datasets and functions used in the book. You can [get it here](https://kjhealy.github.io/socviz/).
-- The [code for almost all the figures in the book](https://github.com/kjhealy/dataviz) (along with other examples and supplementary material) is also available. You can get it [via GitHub](https://github.com/kjhealy/dataviz). Alternatively, if you're new to GitHub, you can [download a zip file](https://github.com/kjhealy/dataviz/archive/master.zip) of all the material directly.
+- The `socviz` package provides datasets, functions, and a course packet to use as you work through the book or use it for teaching. You can [get it here](https://kjhealy.github.io/socviz/).
+- The [code for almost all the figures in the book](https://github.com/kjhealy/dataviz) (along with other examples and supplementary material) is included in the `socviz` package, but is also available separately. You can get it [via GitHub](https://github.com/kjhealy/dataviz). Alternatively, if you're new to GitHub, you can [download a zip file](https://github.com/kjhealy/dataviz/archive/master.zip) of all the material directly.
