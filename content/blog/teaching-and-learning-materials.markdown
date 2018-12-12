@@ -24,7 +24,6 @@ my_packages <- c("tidyverse", "fs", "devtools")
 install.packages(my_packages)
 
 
-devtools::install_github("rstudio/radix")
 devtools::install_github("kjhealy/socviz")
 {{< /highlight >}}
 
