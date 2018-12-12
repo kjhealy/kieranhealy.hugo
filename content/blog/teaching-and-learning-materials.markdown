@@ -12,7 +12,7 @@ mathjax: false
 
 [Data Visualization: A Practical Introduction](https://amzn.to/2vfAixM) will begin shipping next week. I've written an R package that contains datasets, functions, and a course packet to go along with the book. The `socviz` package contains about twenty five datasets and a number of utility and convenience functions. The datasets range in size from things with just a few rows (used for purely illustrative purproses) to datasets with over 120,000 observations, for practicing with and exploring. 
 
-A course packet is also included the package. This is a zipped file containing an [R Studio](http://rstudio.com) project consisting of a nine [R Markdown](http://rmarkdown.rstudio.com) documents that parallel the chapters in the book. They contain the code for almost all the figures in the book (and a few more besides). There are also som additional support files, to help demonstrate things like reading in your own data locally in R.
+A course packet is also included the package. This is a zipped file containing an [R Studio](http://rstudio.com) project consisting of nine [R Markdown](http://rmarkdown.rstudio.com) documents that parallel the chapters in the book. They contain the code for almost all the figures in the book (and a few more besides). There are also some additional support files, to help demonstrate things like reading in your own data locally in R.
 
 ## Installing the package
 
