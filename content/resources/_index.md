@@ -12,8 +12,7 @@ title: "Resources"
   href="http://plain-text.co">The Plain Person's Guide to Plain Text
   Social Science</a> &rarr;</h4> <p><a
   href="http://plain-text.co"><img src = "https://kieranhealy.org/files/misc/plaintext_cover_tiny.png" style="float: left; padding: 2px 10px 5px 3px;"></a> Available either as <a href =
-  "http://kieranhealy.org/files/papers/plain-person-text.pdf">booklet</a> or as a possibly more current website at <code><a
-  href="http://plain-text.co">http://plain-text.co</a></code>. As a
+  "http://kieranhealy.org/files/papers/plain-person-text.pdf">booklet</a> or as a  [website](http://plain-text.co). As a
   beginning graduate student in the social sciences, what sort of
   software should you use to do your work? More importantly, what
   principles should guide your choices? This article offers some
