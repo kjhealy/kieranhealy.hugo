@@ -10,9 +10,9 @@ title: "Resources"
 
 <div class="units-row"> <div class="unit-50"> <h4><a
   href="http://plain-text.co">The Plain Person's Guide to Plain Text
-  Social Science</a> &rarr;</h4> <p>Available either as <a href =
-  "http://kieranhealy.org/files/papers/plain-person-text.pdf">working
-  paper</a> or as a possibly more current website at <code><a
+  Social Science</a> &rarr;</h4> <p><a
+  href="http://plain-text.co"><img src = "https://kieranhealy.org/files/misc/plaintext_cover_tiny.png" style="float: left; padding: 2px 10px 5px 3px;"></a> Available either as <a href =
+  "http://kieranhealy.org/files/papers/plain-person-text.pdf">booklet</a> or as a possibly more current website at <code><a
   href="http://plain-text.co">http://plain-text.co</a></code>. As a
   beginning graduate student in the social sciences, what sort of
   software should you use to do your work? More importantly, what
@@ -56,8 +56,8 @@ title: "Resources"
     title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
     can clone the repository</a>.</p>
     
-<h4><a href="http://socviz.co">Data Visualization: A Practical Introduction</a> &rarr;</h4>
-    <p>This began life as a set of course notes and has become a book. <em>Data Visualization: A Practical Introduction</em> will be published by Princeton University Press this November. Its goal is to introduce you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2.
+<h4><a href="https://amzn.to/2vfAixM">Data Visualization: A Practical Introduction</a> &rarr;</h4>
+    <p><a href="https://amzn.to/2vfAixM"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 2px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
     </p>
     
   </div>
@@ -74,9 +74,9 @@ href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code><
 previewer for <code>.md</code> files.
 </p>
 
-<h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</h4>
+<h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h4>
 
-<p>This is a short talk, originally given in my Departmental Proseminar, on the topic of giving presentations. I discuss how to think about your talk in general (and how to distinguish it from the paper you're taking about, on the one hand, and the slides you're showing people, on the other.) I then say some things about how to use slides to best get your point across.</p> 
+<p><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/"><img src = "https://kieranhealy.org/files/misc/sampletalk_tiny.png" style="float: left; padding: 2px 10px 5px 3px;"></a> This is a short talk, originally given in my Departmental Proseminar, on the topic of giving presentations. I discuss how to think about your talk in general (and how to distinguish it from the paper you're taking about, on the one hand, and the slides you're showing people, on the other.) I then say some things about how to use slides to best get your point across.</p> 
 
 <h4><a href="http://kjhealy.github.com/kjh-vita/">So You Like My Vita</a> &rarr;</h4>
 <p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.com/kjh-vita/" 
