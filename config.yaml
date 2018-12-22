@@ -8,7 +8,7 @@ buildFuture: true
 pygmentsuseclasses: true
 baseurl: "https://kieranhealy.org/"
 title: "kieranhealy.org"
-CanonifyUrls: tru
+CanonifyUrls: true
 rssLimit: 20
 taxonomy:
     category: "categories"
