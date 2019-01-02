@@ -16,7 +16,9 @@ And then choose "From Template" on the left side of the dialog box that pops up,
 
 {{% figure src="http://kieranhealy.org/files/misc/rstudio_template_dialog.png" alt="R Studio menu" caption="Pick a Template" %}}
 
-Unfortunately, this option isn't showing up for some users, I think due to a bug in one of the libraries used to install the `socviz` package. While that's getting sorted out (hopefully soon), there's also an alternative and very quick way to get a project and notes files up and running. From the console, first make sure the `socviz` package is loaded:
+Unfortunately, this option isn't showing up for some users, due to a now-fixed error in the `socviz` library. If you run `install_github("kjhealy/socviz")` again from the console, you will get the newer version that fixes this issue.
+
+There's also an alternative and very quick way to get a project and notes files up and running. From the console, first make sure the `socviz` package is loaded:
 
 {{< highlight r >}}
 library(socviz)
