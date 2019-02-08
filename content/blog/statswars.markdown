@@ -11,5 +11,5 @@ I am stuck at home sick today, so I decided to provide a relational analysis of 
 
 {{% figure src="https://kieranhealy.org/files/misc/package_wars.png" alt="Package wars graphic" caption="True in all its details." %}}
 
-If you want something slightly more constructive, consider [The Plain Person's Guide to Plain-Text Social Science](http://plain-text.co). 
+If you want something slightly more constructive, consider [Data Visualization: A Practical Introduction](https://amzn.to/2vfAixM), or [The Plain Person's Guide to Plain-Text Social Science](http://plain-text.co).
 
