@@ -13,7 +13,7 @@
 
   <div class="wrapper">
     <div class="units-row">
-      <div class="unit-60">
+      <div class="unit-50">
         {{ range $index, $value := (where .Site.Pages "Type" "blog").GroupByDate "January 2006" }}
          <h3 class="center">{{ .Key }}</h3>        
          <p>
