@@ -314,7 +314,7 @@ ggsave("figures/fefam_age_quin_svy.png", p, height = 7, width = 12, dpi = 300)
 
 {{% figure src="https://kieranhealy.org/files/misc/fefam_age_quin_svy.png" alt="" caption="" %}}
 
-Finally, we can make a plot to get a sense of generational replacement and cohort effects. We'll make two panels. Fist, a comparison of more or less the same cohort (though not of course the same individuals): these are people who answered the `fefam` question in 1977 when they were aged 18-25 and those who answered in 2018 and were aged 63 or older. We'll also look at two very different cohorts: people who were over 63 in 1977, and people who were aged 18-25 in 2018. 
+Finally, we can make a plot to get a sense of generational replacement and cohort effects. We'll make two panels. First, a comparison of more or less the same cohort (though not of course the same individuals): these are people who answered the `fefam` question in 1977 when they were aged 18-25 and those who answered in 2018 and were aged 63 or older. We'll also look at two very different cohorts: people who were over 63 in 1977, and people who were aged 18-25 in 2018. 
 
 
 {{< highlight r >}}
