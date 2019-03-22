@@ -344,8 +344,8 @@ p <- ggplot(cohort_comp,
                 color = cohort, fill = cohort, ymin = prop - prop_se, ymax = prop + prop_se)) +
     geom_point(size = 3) + geom_line(size = 1.2) +
     geom_ribbon(alpha = 0.2, color = NA) +
-    scale_color_manual(values = my.colors()) +
-    scale_fill_manual(values = my.colors()) +
+    scale_color_manual(values = my_colors()) +
+    scale_fill_manual(values = my_colors()) +
     guides(fill = FALSE, color = FALSE) +
     scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
     geom_label_repel(aes(label = end_label), fill = "white",
