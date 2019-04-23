@@ -7,7 +7,9 @@ htmlwidgets: false
 mathjax: false
 ---
 
-The data from the 2018 wave of the [General Social Survey](http://gss.norc.org) was released during the week, leading to a flurry of graphs showing various trends. The GSS is one of the most important sources of information on various aspects of U.S. society. One of the best things about it is that the data is freely available for more than forty years worth of surveys. Here I'll walk through my own quick look at the data, in order to show how R can tidily manage data from a complex survey. I decided to revisit a topic that came up a few years ago, in the *New York Times* and elsewhere, regarding the beliefs of young men about gender roles. The idea was that several surveys seemed to point to some increasing conservatism on this front. The GSS has a longstanding question named `fefam`:
+The data from the 2018 wave of the [General Social Survey](http://gss.norc.org) was released during the week, leading to a flurry of graphs showing various trends. The GSS is one of the most important sources of information on various aspects of U.S. society. One of the best things about it is that the data is freely available for more than forty years worth of surveys. Here I'll walk through my own quick look at the data, in order to show how R can tidily manage data from a complex survey. 
+
+I decided to revisit a topic that came up a few years ago, in the *New York Times* and elsewhere, regarding the beliefs of young men about gender roles. The idea was that several surveys seemed to point to some increasing conservatism on this front. The GSS has a longstanding question named `fefam`:
 
 >  It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family.
 
