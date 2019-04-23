@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-I've gotten a couple of reports from people having trouble installing the `socviz` library that's meant to be used with *[Data Visualization: A Practical Introduction](https://amzn.to/2vfAixM)*. As best as I can tell, the difficulties are being caused by GitHub's rate limits. The symptom is that, after installing the `tidyverse` and `devtools` libraries, you try `install_github("kjhealy/socviz")` and get an error something like this:
+I've gotten a couple of reports from people having trouble installing the development version of the `socviz` library that's meant to be used with *[Data Visualization: A Practical Introduction](https://amzn.to/2vfAixM)*. As best as I can tell, the difficulties are being caused by GitHub's rate limits. The symptom is that, after installing the `tidyverse` and `devtools` libraries, you try `install_github("kjhealy/socviz")` and get an error something like this:
 
 ```{r}
 
@@ -22,12 +22,23 @@ If this is the problem you have, this post explains what's happening and provide
 
 ### Explanation
 
-When you download and install a package from GitHub via R or RStudio, you use their "API", or application programming interface. This is just a term for how a website allows applications to interact with it. APIs standardize various requests that applications can make, for example, or provide a set of services in a form that can be easily integrated into an application's code. This is needed because apps are not like people clicking buttons on a web page, for example. One of the main things APIs do is impose rules about how much and how often applications can interact with them. Again, this is needed because apps can slurp up information much faster than people clicking links. This is called "rate limiting". By default, if you do not have a (free) GitHub account, your rate limit will be quite low and you will be temporarily cut off. 
+When you download and install a package from GitHub via R or RStudio, you use their "API", or application programming interface. This is just a term for how a website allows applications to interact with it. APIs standardize various requests that applications can make, for example, or provide a set of services in a form that can be easily integrated into an application's code. This is needed because apps are not like people clicking buttons on a web page, for example. One of the main things APIs do is impose rules about how much and how often applications can interact with them. Again, this is needed because apps can slurp up information much faster than people clicking links. This is called "rate limiting". By default, if you do not have a (free** GitHub account, your rate limit will be quite low and you will be temporarily cut off. 
 
 
-### What you can do
+### The simplest solution
 
-You have three options. 
+**Option Zero** The `socviz` library is now on CRAN. That is, it's available from the main repository for R packages. This wasn't the case when the book went to print. So, simply do the following from the R console:
+
+{{< highlight r >}}
+install.packages("socviz")
+{{< /highlight >}}
+
+This should work without any problems, assuming you are connected to the internet.
+
+
+### If you want to use GitHub instead of CRAN
+
+If you want the development version on GitHub, instead of the version on CRAN, then you have three options.
 
 **Option 1** Wait until tomorrow and try again. The rate limit will reset, and it should work again. But you will likely keep having this sort of problem if you use GitHub regularly. You may also not want to wait. 
 
@@ -41,7 +52,7 @@ This will download a .tar.gz file to your computer. Open R Studio and choose Too
 Then navigate to the file, choose it, and select "Install". The `socviz` package should now be available via `library(socviz)`. The downside to this solution is that you won't be able to get updates to the package easily later on, and you'll still run into rate limits with other packages. 
   
   
-**Option 3** The third option is a tiny bit more involved, but is the best one. [Create a user account](https://github.com/join) on GitHub, and then obtain a "Personal Access Token" (PAT) from them. This is a magic token that substantially boosts your rate limit for transfers to and from GitHub and will make your problem go away for this and any other package installations you have. Once you've opened an account, there are detailed instructions here about how to obtain and activate your PAT token in R Studio: https://happygitwithr.com/github-pat.html
+**Option 3** The third option is a tiny bit more involved, but is the best one if you are planning on using GitHub for anything else to do with R in future. You should [create a user account](https://github.com/join) on GitHub, and then obtain a "Personal Access Token" (PAT) from them. This is a magic token that substantially boosts your rate limit for transfers to and from GitHub and will make your problem go away for this and any other package installations you have. Once you've opened an account, there are detailed instructions here about how to obtain and activate your PAT token in R Studio: https://happygitwithr.com/github-pat.html
 
 You will only have to do this once, and the token will work for any and all package installations you do via GitHub. 
 
