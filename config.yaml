@@ -11,21 +11,21 @@ title: "kieranhealy.org"
 CanonifyUrls: true
 rssLimit: 20
 taxonomy:
-    category: "categories"
+    category: "categories"   
 menu:
   main:
-      - Name: "Publications"
-        URL: "/publications"
-        Weight: 2
-      - Name: "Resources"
-        URL: "/resources"
-        Weight: 3
-      - Name: "Teaching"
-        URL: "/teaching"
-        Weight: 4
-      - Name: "Blog"
-        URL: "/blog"
-        Weight: 5
+      - name: "Publications"
+        url: "/publications"
+        weight: 2
+      - name: "Resources"
+        url: "/resources"
+        weight: 3
+      - name: "Teaching"
+        url: "/teaching"
+        weight: 4
+      - name: "Blog"
+        url: "/blog"
+        weight: 5
 permalinks:
   blog: /blog/archives/:year/:month/:day/:slug
   archive: /blog/archives/
