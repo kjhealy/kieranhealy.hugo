@@ -8,10 +8,10 @@ categories: [Sociology,Data,Nerdery]
 In the next week or two I'll be talking to some social science
 students about tools for doing research and writing up results. Over
 the years I've
-[accumulated various things](http://kieranhealy.org/resources/) on the
+[accumulated various things](https://kieranhealy.org/resources/) on the
 topic, ranging from bits of advice to templates or things I use
 myself. My focus is on managing the various pieces of the
-[work process in plain-text](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/),
+[work process in plain-text](https://kieranhealy.org/blog/archives/2014/01/23/plain-text/),
 especially when it comes to writing code you can read later, and
 keeping track of the work you've done. When talking to undergraduates
 or graduate students about this, and when teaching classes that use

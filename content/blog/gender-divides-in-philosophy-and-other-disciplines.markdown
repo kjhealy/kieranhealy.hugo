@@ -13,6 +13,6 @@ categories:
 - Visualization
 ---
 
-Following up on a conversation with a friend in Philosophy, I took a quick look at the [Survey of Earned Doctorates](http://www.norc.org/projects/survey+of+earned+doctorates.htm) to see the breakdown by gender for Ph.Ds awarded in the United States in 2009. Some nice pictures: [Percent female by Division](http://kieranhealy.org/files/misc/phil-by-division.pdf) (with Philosophy picked out); [Percent female for selected disciplines](http://kieranhealy.org/files/misc/phil-by-discipline.pdf); and a giant [percent female for (almost) all disciplines](http://kieranhealy.org/files/misc/phil-all-disciplines.pdf), with Philosophy picked out for emphasis. The links go to PDFs.
+Following up on a conversation with a friend in Philosophy, I took a quick look at the [Survey of Earned Doctorates](http://www.norc.org/projects/survey+of+earned+doctorates.htm) to see the breakdown by gender for Ph.Ds awarded in the United States in 2009. Some nice pictures: [Percent female by Division](https://kieranhealy.org/files/misc/phil-by-division.pdf) (with Philosophy picked out); [Percent female for selected disciplines](https://kieranhealy.org/files/misc/phil-by-discipline.pdf); and a giant [percent female for (almost) all disciplines](https://kieranhealy.org/files/misc/phil-all-disciplines.pdf), with Philosophy picked out for emphasis. The links go to PDFs.
 
-![US PhDs awarded 2009, by discipline and gender](http://kieranhealy.org/files/misc/phil-by-discipline.png)
+![US PhDs awarded 2009, by discipline and gender](https://kieranhealy.org/files/misc/phil-by-discipline.png)

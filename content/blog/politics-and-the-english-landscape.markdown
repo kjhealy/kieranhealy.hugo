@@ -4,7 +4,7 @@ title: Politics and the English Landscape
 categories: [Data,Politics,Sociology,Visualization]
 ---
 
-I'm still playing around with the [UK Election data](http://kieranhealy.org/blog/archives/2015/05/09/who-came-second-in-the-uk-election/) I mapped yesterday, which ended up at the Monkey Cage blog over at the [Washington Post](http://www.washingtonpost.com/blogs/monkey-cage/wp/2015/05/10/what-the-runners-up-tell-us-about-britains-election/). On Twitter, Vaughn Roderick posted a [nice comparison](https://twitter.com/VaughanRoderick/status/596967966647971840) showing the proximity of many Labour seats to coalfields.
+I'm still playing around with the [UK Election data](https://kieranhealy.org/blog/archives/2015/05/09/who-came-second-in-the-uk-election/) I mapped yesterday, which ended up at the Monkey Cage blog over at the [Washington Post](http://www.washingtonpost.com/blogs/monkey-cage/wp/2015/05/10/what-the-runners-up-tell-us-about-britains-election/). On Twitter, Vaughn Roderick posted a [nice comparison](https://twitter.com/VaughanRoderick/status/596967966647971840) showing the proximity of many Labour seats to coalfields.
 
 That got me thinking about how much the landscape of England is embedded in its political life. In particular, what do the names of places tell you about their political leanings? I looked at  English constituencies only, and searched constituency names for some common toponyms like "-ham", "-shire", "-wood" and -field". Then I looked to see what proportion of seats with these features in their names were won by the Conservatives and Labour. For simplicity of presentation, I omitted the Liberal Democrats and UKIP who won a very small percentage of some of these seats. Here's the result. 
 

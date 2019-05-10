@@ -4,7 +4,7 @@ title: Checkered Past
 categories: [Data,Visualization]
 ---
 
-While making the maps for [yesterday's post about the extent of US federal landownership](http://kieranhealy.org/blog/archives/2016/01/03/the-federal-government-owns-a-lot-of-land/), I noticed an odd checker-pattern in one part of it. It flowed through northern Nevada and Utah, and then out a ways into southern Wyoming. I did enough work to make sure it wasn't a coding error on my part, but didn't pursue it any further. This morning, [JP Lien asked me about it](https://twitter.com/jplien3/status/684397885950177281) on Twitter, and we both took a closer look. Here's what the pattern looks like close up.
+While making the maps for [yesterday's post about the extent of US federal landownership](https://kieranhealy.org/blog/archives/2016/01/03/the-federal-government-owns-a-lot-of-land/), I noticed an odd checker-pattern in one part of it. It flowed through northern Nevada and Utah, and then out a ways into southern Wyoming. I did enough work to make sure it wasn't a coding error on my part, but didn't pursue it any further. This morning, [JP Lien asked me about it](https://twitter.com/jplien3/status/684397885950177281) on Twitter, and we both took a closer look. Here's what the pattern looks like close up.
 
 {{% figure src="https://www.kieranhealy.org/files/misc/federal-checkerboard-sm.jpg" link="http://www.kieranhealy.org/files/misc/federal-checkerboard.jpg" caption="Checkerboard land ownership pattern." %}}
 

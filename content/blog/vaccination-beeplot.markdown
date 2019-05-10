@@ -8,7 +8,7 @@ Last year I wrote about [vaccination exemptions in California kindergartens](htt
 
 {{% figure src="https://kieranhealy.org/files/misc/pbe-by-school-type-bee.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
 
-There's a [PDF available](http://kieranhealy.org/files/misc/pbe-by-school-type-bee.pdf) as well.
+There's a [PDF available](https://kieranhealy.org/files/misc/pbe-by-school-type-bee.pdf) as well.
 
 As a reminder, each circle is a school, and each circle shows kindergarten enrollments, not the overall school size. 
 

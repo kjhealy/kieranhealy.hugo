@@ -28,7 +28,7 @@ Here is a plot of the 2014 USNWR National University Rankings, color-coded by Ba
 
 {{% figure src="https://kieranhealy.org/files/misc/babcock-universities-tile.png" alt="University rankings" caption="University rankings and Babcock classifications." %}}
 
-You can get a [larger image](http://kieranhealy.org/files/misc/babcock-universities-tile.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-universities-tile.pdf) if you want a closer look at it. 
+You can get a [larger image](https://kieranhealy.org/files/misc/babcock-universities-tile.png) or a  [PDF version of the figure](https://kieranhealy.org/files/misc/babcock-universities-tile.pdf) if you want a closer look at it. 
 
 As you can see, for private universities, especially, the 1911 Babcock Classification  tracks prestige in 2014 very well indeed. The top fifteen or so USNWR Universities that were around in 1911 were regarded as Class 1 by Babcock. Class 2 Privates and a few Class 1 stragglers make up the next chunk of the list. The only serious outliers are the [Stevens Institute of Technology](http://stevens.edu) and the [Catholic University of America](http://cua.edu).
 
@@ -42,6 +42,6 @@ We can add schools founded after 1911 (or not ranked by Babcock) back into the c
 
 {{% figure src="https://kieranhealy.org/files/misc/babcock-universities-tile-all.png" alt="Colleges" caption="Babcock's 1911 Rankings of Public and Private Universities and US News and World Report Rankings for 2014." %}}
 
-You can get a [larger image](http://kieranhealy.org/files/misc/babcock-universities-tile-all.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-universities-tile-all.pdf) if you want a closer look at it.
+You can get a [larger image](https://kieranhealy.org/files/misc/babcock-universities-tile-all.png) or a  [PDF version of the figure](https://kieranhealy.org/files/misc/babcock-universities-tile-all.pdf) if you want a closer look at it.
 
 Now the coding includes a category for universities that appear in the USNWR rankings but which are not in Babcock, either because they did not exist at all in 1911, or had not yet taken their present names. The new additions still leave Babcock's classification looking pretty good. On the private side, Duke, Caltech, and Rice are added to the upper end of the list, but they are the only new entrants that are highly ranked. A number of new private schools appear further down. Meanwhile, on the public side, you can see the appearance of the 20th century schools, most notably the whole California system. The University of California System is an astonishing achievement, when you look at it. It managed to propel five of its campuses into the upper third of the table, where they joined its flagship, Berkeley. But the status ordering that was---take your pick; these data can't settle the question---observed, intuited, or invented by Babcock a century ago remains remarkably resilient. The old regime persists.

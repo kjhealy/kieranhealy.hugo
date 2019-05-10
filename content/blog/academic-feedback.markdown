@@ -10,10 +10,10 @@ As the Fall semester is about to begin, here again by popular demand are your in
 
 {{% img src="https://kieranhealy.org/files/misc/anglo-feedback.png" %}}
 
-[*Click for a larger version.*](http://kieranhealy.org/files/misc/anglo-feedback.png)
+[*Click for a larger version.*](https://kieranhealy.org/files/misc/anglo-feedback.png)
 
 And second, its counterpart, The European Grad Student's Guide to Interpreting Feedback from American Faculty:
 
 {{% img src="https://kieranhealy.org/files/misc/USfeedback.png" %}}
 
-[*Click for a larger version.*](http://kieranhealy.org/files/misc/USfeedback.png)
+[*Click for a larger version.*](https://kieranhealy.org/files/misc/USfeedback.png)

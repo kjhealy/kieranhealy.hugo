@@ -29,7 +29,7 @@ Alternatively, we can label the land categories not by use type but rather by th
 
 (A [PNG file](http://www.kieranhealy.org/files/misc/federal-lands-admin.png) is also available.)
 
-One final point. A few months ago I drew a couple of maps I called "[America's Ur-Choropleths](http://kieranhealy.org/blog/archives/2015/06/12/americas-ur-choropleths/)", where the idea was that most of the choropleth maps of the US that you see are expressible as some combination of Population Density and Percent Black, the two basic features of US demographic geography. As you can see, the Feds mostly control land where nobody lives:
+One final point. A few months ago I drew a couple of maps I called "[America's Ur-Choropleths](https://kieranhealy.org/blog/archives/2015/06/12/americas-ur-choropleths/)", where the idea was that most of the choropleth maps of the US that you see are expressible as some combination of Population Density and Percent Black, the two basic features of US demographic geography. As you can see, the Feds mostly control land where nobody lives:
 
 {{% figure src="https://kieranhealy.org/files/misc/us-pop-density-2014.png" link="http://www.kieranhealy.org/files/misc/us-pop-density-2014.png" alt="US Population Density." caption="US Population Density Estimates, by county, 2014. Source: US Census." %}}
 

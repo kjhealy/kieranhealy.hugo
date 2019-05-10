@@ -16,10 +16,10 @@ categories:
 
 So what he's looking for are titles that better convey the core of the argument of academic monographs. Like this.
 
-![Couch Potatoes](http://kieranhealy.org/files/misc/couchpotatoes.png)
+![Couch Potatoes](https://kieranhealy.org/files/misc/couchpotatoes.png)
 
 Of course, we shouldn't just pick on the famous. So here's another one, a bit closer to home.
 
-![image](http://kieranhealy.org/files/misc/baf.png)
+![image](https://kieranhealy.org/files/misc/baf.png)
 
 Contributions welcomed.

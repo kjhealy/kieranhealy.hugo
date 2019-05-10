@@ -12,6 +12,6 @@ categories:
 
 [New this season](http://www.core77.com/blog/object_culture/shoes_that_make_everyone_the_same_height__16220.asp), shoes designed to make everyone two meters tall.
 
-![Same Height Shoes](http://kieranhealy.org/files/misc/same-height-shoes.jpg)
+![Same Height Shoes](https://kieranhealy.org/files/misc/same-height-shoes.jpg)
 
 As you may know, following the passage of the Health Care Reform bill these shoes are now mandatory for all Americans.

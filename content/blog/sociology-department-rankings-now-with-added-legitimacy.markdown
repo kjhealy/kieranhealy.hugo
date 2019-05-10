@@ -13,7 +13,7 @@ categories:
 
 So, where should you go to find [sociology rankings](http://orgtheory.wordpress.com/2011/01/07/crowdsourcing-sociology-department-rankings/)? The NRC? No. U.S. News and World Report? Perhaps, if you also need to catch up on AARP-related news and events. Google, however, shows a new player in the game:
 
-[![image](http://kieranhealy.org/files/misc/sociology-rankings-google.jpg "Sociology Rankings — Google Search")](http://kieranhealy.org/files/misc/sociology-rankings-google.jpg)
+[![image](https://kieranhealy.org/files/misc/sociology-rankings-google.jpg "Sociology Rankings — Google Search")](https://kieranhealy.org/files/misc/sociology-rankings-google.jpg)
 
 So there you have it. If you search for [sociology department rankings](http://www.google.com/search?rls=en&q=sociology+department+rankings) you'll find OrgTheory-related material is the first and third hit, with US News managing 2nd (for now) and NRC back somewhere in the dust.
 

@@ -172,7 +172,7 @@ p_out <- p + geom_tile() +
 p_out
 {{< /highlight >}}
 
-{{% figure src="http://kieranhealy.org/files/misc/age_heatmap_media-01.png" alt="" caption="Age distribution heatmap" %}}
+{{% figure src="https://kieranhealy.org/files/misc/age_heatmap_media-01.png" alt="" caption="Age distribution heatmap" %}}
 
 Or we can look at it a different way, using the `ggbeeswarm` package. We layer a few different pieces here: a trend line for average age, a ribbon showing the 25th and 75th percentiles of the age distribution, the distribution itself (exlcuding its oldest and youngest 1%), and the names of the representatives in the oldest and youngest percentiles. We'll create a separate dataset for each of these pieces.
 
@@ -346,9 +346,9 @@ p_out <- p + geom_quasirandom(size = 0.1, alpha = 0.4,
     theme(plot.subtitle = element_text(size = 10))
 {{< /highlight >}}
 
-{{% figure src="http://kieranhealy.org/files/misc/age_careers_line_labeled.png" alt="" caption="Age trends, distributions, and outliers." %}}
+{{% figure src="https://kieranhealy.org/files/misc/age_careers_line_labeled.png" alt="" caption="Age trends, distributions, and outliers." %}}
 
-That one might be easier to see [as a PDF](http://kieranhealy.org/files/misc/age_careers_line_labeled.pdf).
+That one might be easier to see [as a PDF](https://kieranhealy.org/files/misc/age_careers_line_labeled.pdf).
 
 Finally, here's a neat trick. One thing I was interested in was changes in the composition of the so-called "Freshman Class" of representatives over time---that is, people elected to the House for the very first time. To extract that subset, I needed to create a `term_id` nested with each person's unique identifier (their `pid`). I knew what Congressional session each person-term was in, but just needed to count from the first to the last. I'm sure there's more than one way to do it, but here's a solution:
 
@@ -386,9 +386,9 @@ first_terms
 
 The trick here is that `mutate(data = map(data, ~ mutate(.x, term_id = 1 + congress - first(congress))))` line, which nests one mutate call inside another. We group the data by `pid` and `nest()` it so it's as if we have a separate table for each representative. Then we use `map()` to add a `term_id` column to each subtable. Once we have a per-person `term_id`, and we grab everyone's first term, we can e.g. take a look at the breakdown of freshman representatives by gender for every session since 1945:
 
-{{% figure src="http://kieranhealy.org/files/misc/fc_mf_pct.png" alt="" caption="First-term representatives by gender, 1945-2019" %}}
+{{% figure src="https://kieranhealy.org/files/misc/fc_mf_pct.png" alt="" caption="First-term representatives by gender, 1945-2019" %}}
 
 And also to break that out by Party:
 
-{{% figure src="http://kieranhealy.org/files/misc/fc_f_party_pct.png" alt="" caption="First-term representatives by gender and party, 1945-2019" %}}
+{{% figure src="https://kieranhealy.org/files/misc/fc_f_party_pct.png" alt="" caption="First-term representatives by gender and party, 1945-2019" %}}
 

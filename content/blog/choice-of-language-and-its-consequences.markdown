@@ -10,6 +10,6 @@ categories:
 - Nerdery
 ---
 
-![Latex](http://kieranhealy.org/files/misc/latex-paper.png)
+![Latex](https://kieranhealy.org/files/misc/latex-paper.png)
 
 Part of [a series](http://i.imgur.com/ZyeCO.jpg).

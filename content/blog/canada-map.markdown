@@ -179,6 +179,6 @@ p_out
 
 {{< /highlight >}}
 
-{{% figure src="http://kieranhealy.org/files/misc/canada.png" alt="Canada map" caption="Map of Canada, colored by Province, showing 2011 Census District boundaries." %}}
+{{% figure src="https://kieranhealy.org/files/misc/canada.png" alt="Canada map" caption="Map of Canada, colored by Province, showing 2011 Census District boundaries." %}}
 
 And there we have it. A map of Canada with census-division boundaries that you can join data to, in the same way as described in the "Draw Maps" chapter of _[Data Visualization: A Practical Introduction](http://socviz.co)_. 

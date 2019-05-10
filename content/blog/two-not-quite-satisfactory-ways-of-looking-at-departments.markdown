@@ -20,9 +20,9 @@ Now we scale the wedges so that each segment is proportional to the department's
 
 {{% img src="https://kieranhealy.org/files/misc/pgr-segment-all-06.png" %}}
 
-(<a href="http://kieranhealy.org/files/misc/pgr-segment-all-06-big.png">Large PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-segment-all-06.pdf">PDF</a>.)
+(<a href="https://kieranhealy.org/files/misc/pgr-segment-all-06-big.png">Large PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-segment-all-06.pdf">PDF</a>.)
 
-You will probably want to click through to a [larger image](http://kieranhealy.org/files/misc/pgr-segment-all-06-big.png) or a [PDF version](http://kieranhealy.org/files/misc/pgr-segment-all-06.pdf). 
+You will probably want to click through to a [larger image](https://kieranhealy.org/files/misc/pgr-segment-all-06-big.png) or a [PDF version](https://kieranhealy.org/files/misc/pgr-segment-all-06.pdf). 
 
 A lot of information is summarized in this figure. What does it tell us? In 2006, Oxford most closely approximated the key---i.e. it came closest to the top in the most subfields---but it was not the top-ranked department. (It was the _largest_ department, in terms of faculty, by some distance.) It's clear that not all specialty areas count equally for overall reputation. In 2006, NYU and Rutgers were weak or had very little reputation to speak of in a couple of areas, but still outranked Oxford. Similarly, the other top departments all have gaps in their coverage. At the same time, top departments are good at a lot of things. It's not enough to specialize in just a few areas. Amongst the top twenty departments in 2006, MIT and the ANU had the narrowest range, relatively speaking, but their strength was concentrated in areas that are very strongly associated with overall reputation---in particular, Metaphysics, Epistemology, Language, and Philosophy of Mind. 
 

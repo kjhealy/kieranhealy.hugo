@@ -7,7 +7,7 @@ mathjax: false
 ---
 
 
-Every couple of years---usually after one of the inevitable mass shootings---I find myself updating this graph. The originals were done in 2012. You can read [America is a Violent Country](http://www.kieranhealy.org/blog/archives/2012/07/20/america-is-a-violent-country/), and [Assault Deaths Within the United States](http://www.kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/) to see those. This morning I pulled the latest figures from the OECD Health Status database. The method and scope are the [same as before](http://kieranhealy.org/blog/archives/2012/12/18/assault-death-rates-in-america-some-follow-up/). Here is the main figure, showing assault death rates for the US and 23 other OECD countries. 
+Every couple of years---usually after one of the inevitable mass shootings---I find myself updating this graph. The originals were done in 2012. You can read [America is a Violent Country](http://www.kieranhealy.org/blog/archives/2012/07/20/america-is-a-violent-country/), and [Assault Deaths Within the United States](http://www.kieranhealy.org/blog/archives/2012/07/21/assault-deaths-within-the-united-states/) to see those. This morning I pulled the latest figures from the OECD Health Status database. The method and scope are the [same as before](https://kieranhealy.org/blog/archives/2012/12/18/assault-death-rates-in-america-some-follow-up/). Here is the main figure, showing assault death rates for the US and 23 other OECD countries. 
 
 {{% figure src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-1960-2015.png" caption="Assault Death rates in the US and other OECD countries, 1960-2015." alt="Assault Death rates in the US and other OECD countries, 1960-2015." %}}
 

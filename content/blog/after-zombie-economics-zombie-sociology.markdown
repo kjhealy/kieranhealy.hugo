@@ -12,4 +12,4 @@ categories:
 ---
 
 It's just a minor chest wound.
- [![image](http://kieranhealy.org/files/misc/zombie-sociologist.png "Halloween costume")](http://kieranhealy.org/files/misc/zombie-sociologist.png)
+ [![image](https://kieranhealy.org/files/misc/zombie-sociologist.png "Halloween costume")](https://kieranhealy.org/files/misc/zombie-sociologist.png)
