@@ -16,7 +16,6 @@ Here's the code in full, using the `babynames` dataset, which can be installed f
 
 
 {{< highlight r >}}
-
 library(tidyverse)
 library(babynames)
 library(gganimate)
@@ -30,13 +29,11 @@ library(myriad)
 import_myriad_semi()
 
 theme_set(theme_myriad_semi())
-
 {{< /highlight >}}
 
 The `babynames` data looks like this:
 
 {{< highlight r >}}
-
 > babynames
 # A tibble: 1,924,665 x 5
     year sex   name          n   prop
@@ -58,7 +55,6 @@ The `babynames` data looks like this:
 We're going to create a plot object, `p`, by taking this data, subsetting to boys' names, and creating a table of end-letter frequencies by year. Then we add the plot instructions.
 
 {{< highlight r >}}
-
 ## Create the plot object
 p <- babynames %>%
     filter(sex == "M") %>%
