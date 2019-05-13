@@ -9,7 +9,7 @@ mathjax: false
 
 I was playing around with the [gganimate](https://github.com/thomasp85/gganimate) package this morning and thought I'd make a little animation showing a favorite finding about the distribution of baby names in the United States. This is the fact---I think first noticed by Laura Wattenberg, of the Baby Name Voyager---that there has been a sharp, relatively recent rise in boys' names ending in the letter 'n', at the expense of names with 'e', 'l', and 'y' endings.
 
-Our goal is to animate a bar chart showing this distribution as a bar chart with one bar for each letter, which we'll draw once for each year from 1880 to 2017 and then smoothly stitch together with `gganimate`'s tools. 
+Our goal is to animate a bar chart showing this distribution as a bar chart with one bar for each letter, which we'll draw once for each year from 1880 to 2017 and then smoothly stitch them together with `gganimate`'s tools. 
 
 Here's the code in full, using the `babynames` dataset, which can be installed from CRAN.
 
@@ -52,7 +52,7 @@ The `babynames` data looks like this:
 
 {{< /highlight >}}
 
-We're going to create a plot object, `p`, by taking this data, subsetting to boys' names, and creating a table of end-letter frequencies by year. Then we add the plot instructions.
+We're going to create a plot object, `p`. We take the data and subset it to boys' names, then calculate a table of end-letter frequencies by year. Finally,  we add the instructions for the plot.
 
 {{< highlight r >}}
 ## Create the plot object
