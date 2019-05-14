@@ -61,7 +61,7 @@
           </div>
           {{ end }}
           <h2>Articles and Book Chapters</h2>
-          {{ range (where .Data.Pages "Type" "published" ).GroupByDate "2006" "desc" }}
+          {{ range (where (where .Data.Pages "Type" "published") ".Params.kind" "!=" "book").GroupByDate "2006" "desc" }}          
           <div class="units-row">
             <div class="unit-10">
               <h3>{{ .Key }}</h3>
