@@ -12,7 +12,7 @@ First, voting frequency. Might it be the case that _how many votes a rater casts
 
 {{% img src="https://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png" %}}
 
-(<a href="http://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.pdf">PDF</a>.) 
+(<a href="https://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.pdf">PDF</a>.) 
 
 Sadly, there doesn't seem to be much of a relationship either way. The blue line is a [LOESS](http://en.wikipedia.org/wiki/Local_regression) curve that's trying to find the best-fitting locally-weighted path through the data. As you can see, the association is mostly pretty flat, except for raters from very low-scoring departments (PGR < 2, say). You'll recall from yesterday that there aren't very many such raters in the survey, so there's more uncertainty associated with where the line ought to go. Once you get up to raters from departments with a PGR score of 2.5 or higher, the line is more or less flat---not coincidentally it sits around the high 70s. As I said yesterday the median rater evaluated 77 departments in 2006.
 
@@ -20,7 +20,7 @@ By contrast, consider the association between the number of votes a _Department 
 
 {{% img src="https://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png" %}} 
 
-(<a href="http://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-desc-nratedvmean.pdf">PDF</a>.) 
+(<a href="https://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-desc-nratedvmean.pdf">PDF</a>.) 
 
 Much tighter, as you can see. 
 
@@ -30,7 +30,7 @@ OK, so what can we do to visualize the level of consensus or disagreement betwee
 
 {{% img src="https://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png" %}}
 
-(<a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.pdf">PDF</a>.) 
+(<a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.pdf">PDF</a>.) 
 
 The boxplots show how much variation there is in the distribution of these speciality-based overall PGR scores. The blue area for each department covers the interquartile range (the 
 space between the 25th and 75th percentiles). The "whiskers" on the plot extend out to the highest value that's within 1.5 times this range in either direction. Any remaining outlying 
@@ -43,7 +43,7 @@ We can extend the exericise to all departments, with another very tall figure:
 
 {{% img src="https://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png" %}}
 
-(<a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png">PNG</a>, <a href="http://kieranhealy.org/files/misc/pgr-rank-volatility06-all.pdf">PDF</a>.) 
+(<a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-all.pdf">PDF</a>.) 
 
 Looking at all 99 departments we see a broadly similar sort of pattern to the overall degree of confidence in the actual overall ratings: there's a relatively high degree of consensus around the top seven or eight departments, with some widening of disagreement in around the 10-20 range. Outside the top 20 variability is greatest---i.e., cross-subfield consensus is lowest---in the middle to lower-middle of the table. And for the bottom 20 or so departments there's generally more consensus once again. 
 

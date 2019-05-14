@@ -12,4 +12,4 @@ categories:
 - Personal
 ---
 
-I have [an interview](http://kieran.healy.usesthis.com/) over at [The Setup](http://usesthis.com/), for those of you who are interested in cursor-gazing.
+I have [an interview](https://kieran.healy.usesthis.com/) over at [The Setup](http://usesthis.com/), for those of you who are interested in cursor-gazing.

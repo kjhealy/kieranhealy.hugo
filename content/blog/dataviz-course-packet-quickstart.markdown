@@ -10,11 +10,11 @@ mathjax: false
 Chapter 2 of [Data Visualization](https://amzn.to/2vfAixM) walks you through setting up an R Project, and takes advantage of R Studio's support for RMarkdown templates. That is, once you've created your project in R Studio, can choose File > New File > R Markdown, like this:
 
 
-{{% figure src="http://kieranhealy.org/files/misc/rstudio_rmarkdown.png" alt="R Studio menu" caption="Select R Markdown ..." %}}
+{{% figure src="https://kieranhealy.org/files/misc/rstudio_rmarkdown.png" alt="R Studio menu" caption="Select R Markdown ..." %}}
 
 And then choose "From Template" on the left side of the dialog box that pops up, and select the "Data Visualization Notes" option on the right: 
 
-{{% figure src="http://kieranhealy.org/files/misc/rstudio_template_dialog.png" alt="R Studio menu" caption="Pick a Template" %}}
+{{% figure src="https://kieranhealy.org/files/misc/rstudio_template_dialog.png" alt="R Studio menu" caption="Pick a Template" %}}
 
 Unfortunately, this option isn't showing up for some users, due to a now-fixed error in the `socviz` library. If you run `install_github("kjhealy/socviz")` again from the console, you will get the newer version that fixes this issue.
 
@@ -41,6 +41,6 @@ Your user name will most likely be different, and the destination shown may be d
 Once it has been created, you can navigate to that `dataviz_course_notes` folder and open it. Inside will be a `dataviz` folder that looks like this:
 
 
-{{% figure src="http://kieranhealy.org/files/misc/dataviz_notes_listing.png" alt="R Studio menu" caption="Contents of the course packet." %}}
+{{% figure src="https://kieranhealy.org/files/misc/dataviz_notes_listing.png" alt="R Studio menu" caption="Contents of the course packet." %}}
 
 Double-click on the `dataviz.Rproj` file and you should be good to go.

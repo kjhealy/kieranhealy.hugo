@@ -4,7 +4,7 @@ date: "2014-08-05"
 categories: [Sociology,Nerdery,Visualization]
 ---
 
-My [Annual Review](http://www.annualreviews.org/journal/soc) piece with Jim Moody, [Data Visualization in Sociology](http://kieranhealy.org/files/papers/data-visualization.pdf), was officially published just recently. Reaction to the article has been positive and hopefully people will find it useful. One theme of the article is that good use of visualization can help pick out unusual patterns in data and help researchers figure out errors or other anomalies in their data. So, life being what it is,  naturally there's a mistake in one of the figures.
+My [Annual Review](http://www.annualreviews.org/journal/soc) piece with Jim Moody, [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf), was officially published just recently. Reaction to the article has been positive and hopefully people will find it useful. One theme of the article is that good use of visualization can help pick out unusual patterns in data and help researchers figure out errors or other anomalies in their data. So, life being what it is,  naturally there's a mistake in one of the figures.
 
 I didn't spot it myself. I got a nice email from Thomas Wood at Ohio State's Political Science department. He pointed out something odd in Figure 5, which shows a correlation matrix where the upper triangle is plotted as a heatmap and the lower triangle shows the corresponding numbers. It's a nice technique that uses the lower triangle to show an extra bit of information. (If the whole thing were a heatmap the lower triangle would just be a mirror image of the upper.) Except in this case something is wrong.
 

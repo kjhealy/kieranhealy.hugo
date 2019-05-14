@@ -24,7 +24,7 @@ Here is a dotplot of the 2014 USNWR National University Ranking, where the dots 
 
 {{% figure src="https://kieranhealy.org/files/misc/babcock-universities.png" alt="Colleges" caption="Babcock's 1911 Rankings of Public and Private Universities, and US News and World Report Rankings for 2014." %}}
 
-You can get a [larger image](http://kieranhealy.org/files/misc/babcock-universities.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-universities.pdf) if you want a closer look at it. 
+You can get a [larger image](https://kieranhealy.org/files/misc/babcock-universities.png) or a  [PDF version of the figure](https://kieranhealy.org/files/misc/babcock-universities.pdf) if you want a closer look at it. 
 
 As you can see, for private universities, especially, the 1911 Babcock Classification  tracks prestige in 2014 very well indeed. The top fifteen or so USNWR Universities that were around in 1911 were regarded as Class 1 by Babcock. Class 2 Privates and a few Class 1 stragglers make up the next chunk of the list. The only serious outliers are the [Stevens Institute of Technology](http://stevens.edu) and the [Catholic University of America](http://cua.edu).
 
@@ -34,7 +34,7 @@ I also did the same figure for Liberal Arts Colleges, almost all of which are pr
 
 {{% figure src="https://kieranhealy.org/files/misc/babcock-colleges.png" alt="Colleges" caption="Babcock's 1911 Classification and US News and World Report Rankings of Liberal Arts Colleges for 2014." %}}
 
-You can get a [larger image](http://kieranhealy.org/files/misc/babcock-colleges.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-colleges.pdf) if you want a closer look at it. 
+You can get a [larger image](https://kieranhealy.org/files/misc/babcock-colleges.png) or a  [PDF version of the figure](https://kieranhealy.org/files/misc/babcock-colleges.pdf) if you want a closer look at it. 
 
 
 Again, there is a substantial degree of stability over the course of the century. Here we see a bit more evidence of some movement up by colleges that Babcock put in Class II---Swarthmore, for example, as well as Middlebury and Pomona. The Class I schools that seem to have fallen from favor most are Knox, Lake Forest, and Goucher colleges. 
@@ -45,7 +45,7 @@ We can add these in a final, rather large, chart for the National University dat
 
 {{% figure src="https://kieranhealy.org/files/misc/babcock-all-universities.png" alt="Colleges" caption="Babcock's 1911 Rankings of Public and Private Universities and US News and World Report Rankings for 2014." %}}
 
-You can get a [larger image](http://kieranhealy.org/files/misc/babcock-all-universities.png) or a  [PDF version of the figure](http://kieranhealy.org/files/misc/babcock-all-universities.pdf) if you want a closer look at it.
+You can get a [larger image](https://kieranhealy.org/files/misc/babcock-all-universities.png) or a  [PDF version of the figure](https://kieranhealy.org/files/misc/babcock-all-universities.pdf) if you want a closer look at it.
 
 Now the coding includes the pink "None" category, which adds universities that appear in the USNWR rankings but which are not in Babcock, either because they did not exist at all in 1911, or had not yet taken their present names. In fairness to him, the new additions still leave Babcock's classification looking pretty good. On the private side, Duke, Caltech, and Rice are added to the upper end of the list, and a number of new private schools further down.
 

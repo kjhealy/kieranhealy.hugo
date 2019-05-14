@@ -6,7 +6,7 @@ categories: [Visualization,Data,Sociology]
 
 _Update:_ Updated to identify Catholic schools. (And again later, with more Catholic schools ID'd.)
 
-I took another look at the vaccination exemption data I [discussed the other day](http://kieranhealy.org/blog/archives/2015/01/29/vaccination-exemptions-in-california-kindergartens/). This time I was interested in getting a closer look at the range of variation between different sorts of schools. My goal was to extract a bit more information about the different sorts of elementary schools in the state, just using the data from the Health Department spreadsheet. As we [saw before](http://kieranhealy.org/blog/archives/2015/01/29/vaccination-exemptions-in-california-kindergartens/), the smaller the unit of observation the more variability we are likely to uncover. So, looking at the rate of Personal Belief Exemptions (PBEs) in public vs private schools shows less variation than looking at the rates across counties, which in turn show less variation than what we observe at the district and school level. At the same time, the larger the number of observations within any particular category, the more variability there is likely to be as well. There are far more public schools than any other sort of school in California, so even if most public schools have very low rates of PBEs, the fact that there are thousands of them makes some outliers more likely.
+I took another look at the vaccination exemption data I [discussed the other day](https://kieranhealy.org/blog/archives/2015/01/29/vaccination-exemptions-in-california-kindergartens/). This time I was interested in getting a closer look at the range of variation between different sorts of schools. My goal was to extract a bit more information about the different sorts of elementary schools in the state, just using the data from the Health Department spreadsheet. As we [saw before](https://kieranhealy.org/blog/archives/2015/01/29/vaccination-exemptions-in-california-kindergartens/), the smaller the unit of observation the more variability we are likely to uncover. So, looking at the rate of Personal Belief Exemptions (PBEs) in public vs private schools shows less variation than looking at the rates across counties, which in turn show less variation than what we observe at the district and school level. At the same time, the larger the number of observations within any particular category, the more variability there is likely to be as well. There are far more public schools than any other sort of school in California, so even if most public schools have very low rates of PBEs, the fact that there are thousands of them makes some outliers more likely.
 
 To get a more fine-grained sense of the different sorts of schools there are, I used their names as a guide. How many private schools have the word "Christ" or "Christian" in their names, for example? How many have "Waldorf" or "Montessori"? This is an imperfect measure because it's not guaranteed that, say, a private Christian academy will have the words "Christ" or "Christian" in its name. But it's imperfect in a generally conservative direction---though not uniformly, as if you don't search carefully you might mistake Christa McAuliffe Elementary, a public school, for a private Christian school. So you take care not to write regular expressions that aren't too greedy, and double check against their public/private status, which is also given in the CDPH data. With this in mind we can produce a table of different types of schools ordered by mean PBE rate.
 
@@ -31,13 +31,13 @@ The data show right away that, in addition to the broad differences between type
 
 {{% figure src="https://kieranhealy.org/files/misc/pbe-by-type-dot.jpg" alt="California Kindergarten PBE Average Rates by Type of School, 2014-2015" caption="California Kindergarten Average PBE Rates by Type of School, 2014-15." %}}
 
-([PDF available.](http://kieranhealy.org/files/misc/pbe-by-type-dot.pdf))
+([PDF available.](https://kieranhealy.org/files/misc/pbe-by-type-dot.pdf))
 
 We can also try to capture the heterogeneity of PBE rates across types of school:
 
 {{% figure src="https://kieranhealy.org/files/misc/pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
 
-([PDF available.](http://kieranhealy.org/files/misc/pbe-by-school-type-jit.pdf))
+([PDF available.](https://kieranhealy.org/files/misc/pbe-by-school-type-jit.pdf))
 
 Each circle is a school. I've scaled them a little to reflect variation in the number of pupils enrolled. As before, this is kindergrarten enrollments not overall school size. Within each type of school, the vertical axis doesn't mean anything: the points are just jittered a little to make them more easily visible. A note at the right hand side reminds you how many schools and how many students are represented in each row.
 
@@ -45,11 +45,11 @@ As I say, Montessori schools are interesting. Their patterns cut against the exp
 
 {{% figure src="https://kieranhealy.org/files/misc/pbe-by-county-jit.jpg" alt="California Kindergarten PBE Rates by County, High PBE schools only, 2014-2015" caption="California Kindergarten PBE Rates by County, High PBE schools only, 2014-15." %}}
 
-([PDF available.](http://kieranhealy.org/files/misc/pbe-by-county-jit.pdf))
+([PDF available.](https://kieranhealy.org/files/misc/pbe-by-county-jit.pdf))
 
 Finally, to get a further sense how numbers of children are distributed across exemption rates, here is a mosaic plot of school types and binned exemption rates, where the size of each box or cell is proportional to the number of children in that category. This brings us back to the point that the vast majority of kindergarteners in California are in public school.
 
 
 {{% figure src="https://kieranhealy.org/files/misc/pbe-by-type-mosaic.jpg" alt="Mosaic Plot of California Kindergarten PBE Rates by School Type, 2014-2015" caption="Mosaic Plot of California Kindergarten PBE Rates by School Type, 2014-15." %}}
 
-([PDF available.](http://kieranhealy.org/files/misc/pbe-by-type-mosaic.pdf))
+([PDF available.](https://kieranhealy.org/files/misc/pbe-by-type-mosaic.pdf))

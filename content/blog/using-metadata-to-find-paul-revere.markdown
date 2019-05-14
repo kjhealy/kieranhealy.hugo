@@ -76,13 +76,13 @@ Again, interesting! (I beg to venture.) Instead of seeing how (and which) people
 
 Rather than relying on tables, we can make a picture of the relationship between the groups, using the number of shared members as an index of the strength of the link between the seditious groups. Here's what that looks like.
 
-{{% figure src="https://kieranhealy.org/files/misc/group-view.png" caption="The network of groups" link="http://kieranhealy.org/files/misc/group-view.png" %}}
+{{% figure src="https://kieranhealy.org/files/misc/group-view.png" caption="The network of groups" link="https://kieranhealy.org/files/misc/group-view.png" %}}
 
 And, of course, we can also do that for the links between the people, using our 254x254 "Person by Person" table. Here is what that looks like.
 
-{{% figure src="https://kieranhealy.org/files/misc/revere-network-reduced.png" caption="The network of individuals" link="http://kieranhealy.org/files/misc/revere-network-reduced.png" %}}
+{{% figure src="https://kieranhealy.org/files/misc/revere-network-reduced.png" caption="The network of individuals" link="https://kieranhealy.org/files/misc/revere-network-reduced.png" %}}
 
-What a nice picture! The analytical engine has arranged everyone neatly, picking out clusters of individuals and also showing both peripheral individuals and---more intriguingly---people who seem to bridge various groups in ways that might perhaps be relevant to national security. Look at that person right in the middle there. [Zoom in if you wish](http://kieranhealy.org/files/misc/revere-network-reduced.png). He seems to bridge several groups in an unusual (though perhaps not unique) way. His name is Paul Revere.
+What a nice picture! The analytical engine has arranged everyone neatly, picking out clusters of individuals and also showing both peripheral individuals and---more intriguingly---people who seem to bridge various groups in ways that might perhaps be relevant to national security. Look at that person right in the middle there. [Zoom in if you wish](https://kieranhealy.org/files/misc/revere-network-reduced.png). He seems to bridge several groups in an unusual (though perhaps not unique) way. His name is Paul Revere.
 
 {{% img src="https://kieranhealy.org/files/misc/revere-closeup.png" %}}
 

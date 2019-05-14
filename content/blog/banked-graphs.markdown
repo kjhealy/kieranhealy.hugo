@@ -4,7 +4,7 @@ title: Banking on it
 categories: [Data,Apple,Visualization]
 ---
 
-A side-note to the enjoyable exchange [with Dr Drang](http://leancrew.com/all-this/2015/04/moving-averages-and-the-ipad/) about sales trends in [Apple products](http://kieranhealy.org/blog/archives/2015/04/28/apple-sales-trends/), which was picked up by [John Gruber](http://daringfireball.net). The LOESS decompositions I posted looked like this:
+A side-note to the enjoyable exchange [with Dr Drang](http://leancrew.com/all-this/2015/04/moving-averages-and-the-ipad/) about sales trends in [Apple products](https://kieranhealy.org/blog/archives/2015/04/28/apple-sales-trends/), which was picked up by [John Gruber](http://daringfireball.net). The LOESS decompositions I posted looked like this:
 
 {{% figure src="https://kieranhealy.org/files/misc/apple-iphone-decomposition-gg.png" alt="STL decomposition for iPhone sales." caption="Quarterly sales decomposition for iPhones." %}}
 

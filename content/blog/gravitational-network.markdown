@@ -10,7 +10,7 @@ There are of course many ways scientists can be connected without sharing an ins
 
 {{% figure src="https://kieranhealy.org/files/misc/person-bp-edit.png" alt="That's a lot of co-authors." caption="Affiliation Network." %}}
 
-You can [click through](http://kieranhealy.org/files/misc/person-bp-edit.png) for the full-size PNG, and there's also a [PDF file](http://kieranhealy.org/files/misc/person-bp-edit.pdf) that's zoomable, if you want to see the names of the authors. I wrote this on the bus, so there might be some coding errors with the national affiliations of the multi-sited researchers. 
+You can [click through](https://kieranhealy.org/files/misc/person-bp-edit.png) for the full-size PNG, and there's also a [PDF file](https://kieranhealy.org/files/misc/person-bp-edit.pdf) that's zoomable, if you want to see the names of the authors. I wrote this on the bus, so there might be some coding errors with the national affiliations of the multi-sited researchers. 
 
 _Update:_ I also took a look at this aggregated to the University/Institute level. Here's the core component of that network, leaving out many singletons and dyads surrounding it:
 
