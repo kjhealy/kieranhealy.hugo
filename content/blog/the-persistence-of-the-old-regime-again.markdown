@@ -20,11 +20,11 @@ And descending all the way to Class IV:
 
 Babcock's discussion of his methods is admirably brief (the snippet above hints at the one sampling problem that possibly troubled him), so I recommend you [read the report yourself](https://ia700504.us.archive.org/0/items/classificationof01unit/classificationof01unit.pdf).
 
-University reputations are extremely sticky, the conventional wisdom goes. I was interested to see whether Babcock's report bore that out. I grabbed the US News and World Report [National University Rankings](http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/national-universities) for 2014 and made a quick pass through them, coding their 1911 Babcock Class. The question is whether Mr Babcock would be satisfied with how his rankings had held up, were he to return to us from the grave, ---more than a century of massive educational expansion and alleged disruption notwithstanding. 
+University reputations are extremely sticky, the conventional wisdom goes. I was interested to see whether Babcock's report bore that out. I grabbed the US News and World Report [National University Rankings](http://colleges.usnews.rankingsandreviews.com/best-colleges/rankings/national-universities) for 2014 and made a quick pass through them, coding their 1911 Babcock Class. The question is whether Mr Babcock would be satisfied with how his rankings had held up, were he to return to us from the grave---more than a century of massive educational expansion and alleged disruption notwithstanding. 
 
 It turns out that he would be quite pleased with himself. 
 
-Here is a plot of the 2014 USNWR National University Rankings, color-coded by Babcock Class. In 2014,  USNWR's highest-ranked school was Princeton, and so it is at the top left of the dotplot. You read down the ranking from there and across the columns.
+Here is a plot of the 2014 USNWR National University Rankings, color-coded by Babcock Class. In 2014,  USNWR's highest-ranked school was Princeton, and so it is at the top left of the figure. You read down the ranking from there and across the columns.
 
 {{% figure src="https://kieranhealy.org/files/misc/babcock-universities-tile.png" alt="University rankings" caption="University rankings and Babcock classifications." %}}
 
