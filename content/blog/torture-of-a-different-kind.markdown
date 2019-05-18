@@ -18,7 +18,7 @@ Remember to watch the [Eurovision Song Contest](http://www.eurovision.tv/) this 
 
 As we can see, the main counterintuitive result is that Ireland and the UK form a distinctive group by themselves. It seems that their more-or-less shared language makes for a common cause against the rest of Europe, 600 years of colonial oppression notwithstanding. Though now that I think of it, the oppression is the reason the languages are shared in the first place. Elsewhere, as expected, Norway and Sweden sit snugly alongside one another, although surprisingly Finland is not included. Similarly, the BeNeLux nations cluster together. France and Spain show some similarities also. On the fringes, Israel, Germany and Switzerland are left out in the cold.
 
-It's well known that unscrupulous researchers can manipulate data to their own ends. This is particularly true of graphical representations of network data, so we take full advantage of this here. The following figure shows the basic graph data, with the layout determined by the structural equivalence distances of the nodes, based on the Hamming metric.
+It's well known that unscrupulous researchers can manipulate data to their own ends. This is particularly true of graphical representations of network data, so we take full advantage of this here. The following figure shows the basic graph data, with the layout determined by the structural equivalence distances of the nodes, wholly inappropriately based on the Hamming metric.
 
 ![seham](http://www.kieranhealy.org/files/misc/seham.png)
 
