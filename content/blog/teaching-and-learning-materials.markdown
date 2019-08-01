@@ -43,13 +43,13 @@ library(socviz)
 
 ## The Course Packet
 
-The supporting materials are contained in a compressed `.zip` file. To extract them to your Desktop, make sure the `socviz` package is loaded as described above. Then do this:
+The supporting materials are contained in a compressed `.zip` file. To extract them to your Desktop, make sure the `socviz` package is loaded as described above. Then do something like this:
 
 {{< highlight r >}}
-setup_course_notes()
+setup_course_notes(folder = "~/Desktop")
 {{< /highlight >}}
 
-This will copy the `dataviz_course_notes.zip` file to your Desktop, and uncompress it into a folder called `dataviz_course_notes`. Double-click the file named `dataviz.Rproj` to launch the project as a new RStudio session. If you want to uncompress the file somewhere other than your Desktop, e.g. your Documents folder, you can do this:
+If you're using a Mac, this will copy the `dataviz_course_notes.zip` file to your Desktop, and uncompress it into a folder called `dataviz_course_notes`. Double-click the file named `dataviz.Rproj` to launch the project as a new RStudio session. If you want to uncompress the file somewhere other than your Desktop, e.g. your Documents folder, you can do this:
 
 {{< highlight r >}}
 setup_course_notes(folder = "~/Documents")
