@@ -23,11 +23,21 @@ To install the package, you can follow the instructions in the Preface to the bo
 my_packages <- c("tidyverse", "fs", "devtools")
 install.packages(my_packages)
 
+{{< /highlight >}}
 
+Then install the `socviz` library, either from CRAN, the main R repository (this is the recommended way):
+
+{{< highlight r >}}
+install.packages("socviz")
+{{< /highlight >}}
+
+Or, if you want the development version, from GitHub:
+
+{{< highlight r >}}
 devtools::install_github("kjhealy/socviz")
 {{< /highlight >}}
 
-Once everything has downloaded and been installed (which may take a little while), load the `socviz` package: 
+Once everything has downloaded and been installed, load the `socviz` package: 
 
 {{< highlight r >}}
 library(socviz)
