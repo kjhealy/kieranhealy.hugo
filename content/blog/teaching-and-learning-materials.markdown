@@ -19,10 +19,8 @@ A course packet is also included the package. This is a zipped file containing a
 To install the package, you can follow the instructions in the Preface to the book. Alternatively, first download and install R for [MacOS](https://cran.r-project.org/bin/macosx/), [Windows](https://cran.r-project.org/bin/windows/) or [Linux](https://cran.r-project.org/bin/linux/), as appropriate. Then download and install [RStudio](http://rstudio.com/download/). Launch RStudio and then type the following code at the Console prompt (`> `), hitting return at the end of each line:
 
 {{< highlight r >}}
-
 my_packages <- c("tidyverse", "fs", "devtools")
 install.packages(my_packages)
-
 {{< /highlight >}}
 
 Then install the `socviz` library, either from CRAN, the main R repository (this is the recommended way):
@@ -48,17 +46,13 @@ library(socviz)
 The supporting materials are contained in a compressed `.zip` file. To extract them to your Desktop, make sure the `socviz` package is loaded as described above. Then do this:
 
 {{< highlight r >}}
-
 setup_course_notes()
-
 {{< /highlight >}}
 
 This will copy the `dataviz_course_notes.zip` file to your Desktop, and uncompress it into a folder called `dataviz_course_notes`. Double-click the file named `dataviz.Rproj` to launch the project as a new RStudio session. If you want to uncompress the file somewhere other than your Desktop, e.g. your Documents folder, you can do this:
 
 {{< highlight r >}}
-
 setup_course_notes(folder = "~/Documents")
-
 {{< /highlight >}}
 
 
