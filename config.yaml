@@ -28,5 +28,4 @@ menu:
         weight: 5
 permalinks:
   blog: /blog/archives/:year/:month/:day/:slug
-  archive: /blog/archives/
 ...

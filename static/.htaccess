@@ -178,6 +178,7 @@ RewriteRule .* - [F,L]
 #Redirect Permanent /comments.xml http://crookedtimber.org/comments/feed/
 
 # These rules follow up on Octopress/Hugo and deal with orphaned WP category pages
+RewriteRule ^blog/archives/ /archives/ [L,R=301]
 RewriteRule ^blog/archives/category/(.+)/$ /categories/$1 [L,R=301]
 RewriteRule ^blog/archives/category/(.+)/atom.xml$ /categories/$1/index.xml [L,R=301]
 #RewriteRule ^blog/categories/([^/]+)/page/.*$ /blog/categories/$1 [L,R=301]
