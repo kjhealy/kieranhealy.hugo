@@ -15,7 +15,7 @@ And leave some bullshit note for you<br />
 But they were robbed blind in their day<br />
 Of damsons, prunes, and blackthorn sloes<br />
 Their breakfast treats all poached away<br />
-Then justified with old-style prose<br />
+Thefts justified with old-style prose<br />
 
 “Forgive us” both your parents moan<br />
 “They were delicious, sweet, and cold”<br />
