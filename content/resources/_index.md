@@ -3,7 +3,7 @@ type: page
 title: "Resources"
 ---
 
-<p><em>This page has links to configuration files, templates, and a few other things that might be of use to people who want to write (and give talks about) well-formatted social science papers using plain text tools.</em></p> 
+<p><em>This page has links to configuration files, R packages, templates, and a few other things that might be of use to people who want to write (and give talks about) well-formatted social science papers using plain text tools.</em></p> 
 
 <figure><img src="https://kieranhealy.org/files/misc/workflow-wide-tx.png"><figcaption>The Sausage Factory</figcaption></figure>
 
@@ -86,8 +86,11 @@ href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own e
 under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the entire site is on GitHub</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you 
 to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>
 
+     
+<h4><a href="/resources/github/">GSS for R</a></h4>
+    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) in an R-friendly format, together with the codebook (as a tibble). It's in its early days at present. 
     
-    <h4><a href="/resources/github/">All GitHub Projects</a></h4>
+<h4><a href="/resources/github/">All GitHub Projects</a></h4>
     <p>Here is a <a href="/resources/github/">full list of the various public code and data repositories</a> that I have put on GitHub. They range from the configuration and templating tools listed above to data 
 visualization exercises and other bits of data analysis, mostly written in R. 
   </div>
