@@ -87,8 +87,8 @@ under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="T
 to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>
 
      
-<h4><a href="http://kjhealy.github.io/gssr">GSS for R</a></h4>
-    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) in an R-friendly format, together with the codebook (as a tibble). It's in its early days at present. 
+<h4><a href="http://kjhealy.github.io/gssr">The GSS for R</a></h4>
+    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and the Three Wave Panel data file in an R-friendly format, together with their codebooks (as tibbles). It's in its early days at present. 
     
 <h4><a href="/resources/github/">All GitHub Projects</a></h4>
     <p>Here is a <a href="/resources/github/">full list of the various public code and data repositories</a> that I have put on GitHub. They range from the configuration and templating tools listed above to data 
