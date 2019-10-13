@@ -34,6 +34,16 @@ title: "Resources"
   because no humane person should recommend Emacs without presenting
   some other options as well.</p>
 
+<h4><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h4>
+<p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that lets you begin with an 
+<code>.org</code> file in Emacs (as set up in the <a href="http://kjhealy.github.com/emacs-starter-kit/">Starter Kit</a>), and go from there to a nice, fully-processed PDF in one step. Or the pieces can be used separately 
+to set up a <code>.tex</code> file with a nice Article layout.</p>  
+
+<h4><a href="https://github.com/kjhealy/pandoc-templates">Pandoc Templates</a> &rarr;</h4>
+<p>Some Pandoc templates meant to go in <code>~/.pandoc/templates</code>. Point to them directly with the <code>--template</code> or <code>--css</code> switches as appropriate, and use them with what's provided in <a 
+href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>. Includes a shell script for setting pandoc up to work with the <a href="http://marked2app.com">Marked</a> app, a handy HTML live 
+previewer for <code>.md</code> files.
+</p>
 
 <h4><a href="/resources/emacs-starter-kit"
     title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit
@@ -54,23 +64,16 @@ title: "Resources"
     title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
     can clone the repository</a>.</p>
     
-<h4><a href="https://amzn.to/2vfAixM">Data Visualization: A Practical Introduction</a> &rarr;</h4>
-    <p><a href="https://amzn.to/2vfAixM"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
-    </p>
-    
   </div>
 
 <div class="unit-50">
-<h4><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h4>
-<p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that lets you begin with an 
-<code>.org</code> file in Emacs (as set up in the <a href="http://kjhealy.github.com/emacs-starter-kit/">Starter Kit</a>), and go from there to a nice, fully-processed PDF in one step. Or the pieces can be used separately 
-to set up a <code>.tex</code> file with a nice Article layout.</p>  
+<h4><a href="https://amzn.to/2vfAixM">Data Visualization: A Practical Introduction</a> &rarr;</h4>
+    <p><a href="https://amzn.to/2vfAixM"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
+    </p>
 
-<h4><a href="https://github.com/kjhealy/pandoc-templates">Pandoc Templates</a> &rarr;</h4>
-<p>Some Pandoc templates meant to go in <code>~/.pandoc/templates</code>. Point to them directly with the <code>--template</code> or <code>--css</code> switches as appropriate, and use them with what's provided in <a 
-href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>. Includes a shell script for setting pandoc up to work with the <a href="http://marked2app.com">Marked</a> app, a handy HTML live 
-previewer for <code>.md</code> files.
-</p>
+<h4><a href="http://kjhealy.github.io/gssr">The GSS for R</a></h4>
+    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and the Three Wave Panel data file in an R-friendly format, together with their codebooks (as tibbles). It's in its early days at present. 
+
 
 <h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h4>
 
@@ -84,11 +87,7 @@ title="kjhealy's kjh-vita @ GitHub">here it is</a>. Feel free to adapt it yourse
 <p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a 
 href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too. The design is borrowed mostly from <a href="http://consequently.org/">Greg Restall</a>. If you want to look 
 under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the entire site is on GitHub</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you 
-to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>
-
-     
-<h4><a href="http://kjhealy.github.io/gssr">The GSS for R</a></h4>
-    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and the Three Wave Panel data file in an R-friendly format, together with their codebooks (as tibbles). It's in its early days at present. 
+to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>    
     
 <h4><a href="/resources/github/">All GitHub Projects</a></h4>
     <p>Here is a <a href="/resources/github/">full list of the various public code and data repositories</a> that I have put on GitHub. They range from the configuration and templating tools listed above to data 
