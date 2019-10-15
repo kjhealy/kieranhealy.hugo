@@ -72,7 +72,7 @@ previewer for <code>.md</code> files.
     </p>
 
 <h4><a href="http://kjhealy.github.io/gssr">The GSS for R</a></h4>
-    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and the Three Wave Panel data file in an R-friendly format, together with their codebooks (as tibbles). It's in its early days at present. 
+    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and Three Wave Panel data files in an R-friendly format, together with their codebooks (as tibbles). 
 
 
 <h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h4>
