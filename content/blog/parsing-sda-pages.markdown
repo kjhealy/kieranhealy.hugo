@@ -69,7 +69,7 @@ walk2(page_list, fnames, ~ write_xml(.x, file = .y))
 
 The `walk()` and `walk2()` functions are very handy for processing batches of items when you want to produce a "side-effect" of the function you're mapping, such as a plot or (in this case) a saved file.
 
-# Read in the pages from the local directory
+## Read in the pages from the local directory
 
 Using the local data we've saved, we read in a list of all the web pages. Our goal is to get them into a tractable format (a tibble or data frame). From there we can write some functions to, e.g., query the codebook directly from the console, or alterantively produce the codebook in a format suitable for integrating into the R help system via a package.
 
@@ -123,11 +123,11 @@ doc_pages[[1]]
 ## NULL
 {{< /highlight >}}
 
-# Parse the pages
+## Parse the pages
 
 Next, we parse every webpage to extract a row for every variable. There are multiple variables per page.
 
-## Functions
+### Functions
 
 
 {{< highlight r >}}
