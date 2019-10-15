@@ -24,7 +24,7 @@ library(rvest)
 
 ## Scrape the GSS codebook from SDA
 
-This next code chunk shows how we got the codebook data, but it is not evaluated (we set `eval = FALSE`), because we only need to do it once. We use `sprintf()` to generate a series of numbers with leading zeros, of the form `0001`, `0002`, `0003`, and so on. The `261` is hard-coded for this particular directory, but we should really grab the directory listing, evaluate how many files it lists (of the sort we want), and then use that number instead. 
+This next code chunk shows how we got the codebook data, but it is not evaluated (we set `eval = FALSE`), because we only need to do it once. We use `sprintf()` to generate a series of numbers with leading zeros, of the form `001`, `002`, `003`, and so on. The `261` is hard-coded for this particular directory, but we should really grab the directory listing, evaluate how many files it lists (of the sort we want), and then use that number instead. 
 
 {{< highlight r >}}
 ## Generate vector of doc page urls
