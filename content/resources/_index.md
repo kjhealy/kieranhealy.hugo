@@ -34,16 +34,16 @@ title: "Resources"
   because no humane person should recommend Emacs without presenting
   some other options as well.</p>
 
-<h4><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h4>
-<p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that lets you begin with an 
-<code>.org</code> file in Emacs (as set up in the <a href="http://kjhealy.github.com/emacs-starter-kit/">Starter Kit</a>), and go from there to a nice, fully-processed PDF in one step. Or the pieces can be used separately 
-to set up a <code>.tex</code> file with a nice Article layout.</p>  
-
 <h4><a href="https://github.com/kjhealy/pandoc-templates">Pandoc Templates</a> &rarr;</h4>
 <p>Some Pandoc templates meant to go in <code>~/.pandoc/templates</code>. Point to them directly with the <code>--template</code> or <code>--css</code> switches as appropriate, and use them with what's provided in <a 
 href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>. Includes a shell script for setting pandoc up to work with the <a href="http://marked2app.com">Marked</a> app, a handy HTML live 
 previewer for <code>.md</code> files.
 </p>
+
+<h4><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h4>
+<p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that lets you begin with an 
+<code>.org</code> file in Emacs (as set up in the <a href="http://kjhealy.github.com/emacs-starter-kit/">Starter Kit</a>), and go from there to a nice, fully-processed PDF in one step. Or the pieces can be used separately 
+to set up a <code>.tex</code> file with a nice Article layout.</p>  
 
 <h4><a href="/resources/emacs-starter-kit"
     title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit
@@ -64,6 +64,12 @@ previewer for <code>.md</code> files.
     title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
     can clone the repository</a>.</p>
     
+<h4><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h4>
+<p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a 
+href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too. The design is borrowed mostly from <a href="http://consequently.org/">Greg Restall</a>. If you want to look 
+under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the entire site is on GitHub</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you 
+to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>    
+        
   </div>
 
 <div class="unit-50">
@@ -71,8 +77,13 @@ previewer for <code>.md</code> files.
     <p><a href="https://amzn.to/2vfAixM"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
     </p>
 
-<h4><a href="http://kjhealy.github.io/gssr">The GSS for R</a></h4>
-    <p>The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and Three Wave Panel data files in an R-friendly format, together with their codebooks (as tibbles). 
+<h4>R Packages</h4>
+
+<p><strong><a href="http://kjhealy.github.io/socviz">socviz</a></strong>. The <a href="http://kjhealy.github.io/socviz">socviz package</a> supports the <a href="https://amzn.to/2vfAixM"><em>Data Visualization</em></a> book with a collection of small datasets and functions to help draw good graphs in R and ggplot.</p>
+
+<p><strong><a href="http://kjhealy.github.io/gssr">The GSS for R</a></strong> The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and Three Wave Panel data files in an R-friendly format, together with their codebooks (as tibbles). </p>
+
+<p><strong><a href="http://kjhealy.github.io/nycdogs">Dogs of New York</a></strong> The <a href="http://kjhealy.github.io/nycdogs">nycdogs package</a> is a fun dataset (actually three separate tibbles: licenses, bites, and zip codes) that I took from New York City's awesome Open Data site, cleaned, and packaged for R. It's useful for teaching [dplyr](http://dplyr.tidyverse.org), drawing maps, and seeing where dogs with particular names live. </p>
 
 
 <h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h4>
@@ -83,12 +94,6 @@ previewer for <code>.md</code> files.
 <p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.com/kjh-vita/" 
 title="kjhealy's kjh-vita @ GitHub">here it is</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you to fork the project on GitHub and make them available to others in the same way.</p>
 
-<h4><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h4>
-<p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a 
-href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too. The design is borrowed mostly from <a href="http://consequently.org/">Greg Restall</a>. If you want to look 
-under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the entire site is on GitHub</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you 
-to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>    
-    
 <h4><a href="/resources/github/">All GitHub Projects</a></h4>
     <p>Here is a <a href="/resources/github/">full list of the various public code and data repositories</a> that I have put on GitHub. They range from the configuration and templating tools listed above to data 
 visualization exercises and other bits of data analysis, mostly written in R. 
