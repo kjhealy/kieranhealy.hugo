@@ -2,8 +2,8 @@
 title: "Dealing with Awkward Relations"
 
 author: Kieran Healy
-status: Unpublished
-type: unpublished
+status: Inactive
+type: retired
 citation: "&ldquo;Dealing with Awkward Relations.&rdquo;"
 tag: awkward-relations
 file: awkward-relations.pdf
