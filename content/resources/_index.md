@@ -83,7 +83,7 @@ to fork the project on GitHub and make them available to others in the same way.
 
 <p><strong><a href="http://kjhealy.github.io/gssr">The GSS for R</a></strong> The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and Three Wave Panel data files in an R-friendly format, together with their codebooks (as tibbles). </p>
 
-<p><strong><a href="http://kjhealy.github.io/nycdogs">Dogs of New York</a></strong> The <a href="http://kjhealy.github.io/nycdogs">nycdogs package</a> is a fun dataset (actually three separate tibbles: licenses, bites, and zip codes) that I took from New York City's awesome Open Data site, cleaned, and packaged for R. It's useful for teaching [dplyr](http://dplyr.tidyverse.org), drawing maps, and seeing where dogs with particular names live. </p>
+<p><strong><a href="http://kjhealy.github.io/nycdogs">Dogs of New York</a></strong> The <a href="http://kjhealy.github.io/nycdogs">nycdogs package</a> is a fun dataset (actually three separate tibbles: licenses, bites, and zip codes) that I took from New York City's awesome Open Data site, cleaned, and packaged for R. It's useful for teaching <a href ="http://dplyr.tidyverse.org">dplyr</a>, for drawing maps, and for seeing where dogs with particular names live. </p>
 
 
 <h4><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h4>
