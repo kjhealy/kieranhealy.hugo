@@ -66,7 +66,7 @@ head(img_df_long)
 ## 6 6 1 0.8862745
 {{< /highlight >}}
 
-Each x-y pair is a location in the 800 by 600 pixel grid, and the value is a grayscale value ranging from zero to one. To do a PCA we will need a matrix of data in wide format, though---one that reproduces the shape of the image, a row-and-column grid of pixels, each with some a level of gray. We'll widen it using `pivot_wider`:
+Each x-y pair is a location in the 800 by 633 pixel grid, and the value is a grayscale value ranging from zero to one. To do a PCA we will need a matrix of data in wide format, though---one that reproduces the shape of the image, a row-and-column grid of pixels, each with some a level of gray. We'll widen it using `pivot_wider`:
 
 
 {{< highlight r >}}
@@ -102,7 +102,7 @@ The values stretch off in both directions. Notice the `x` column there, which na
 
 ## Do the PCA
 
-Next, we do the PCA, dropping the `x` column and feeding the 800x600 matrix to Base R's `prcomp()` function.
+Next, we do the PCA, dropping the `x` column and feeding the 800x633 matrix to Base R's `prcomp()` function.
 
 {{< highlight r >}}
 img_pca <- img_df %>%
