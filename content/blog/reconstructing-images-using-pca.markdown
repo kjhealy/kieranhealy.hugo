@@ -7,7 +7,9 @@ htmlwidgets: false
 mathjax: false
 ---
 
-A decade or more ago I read a nice worked example from the political scientist Simon Jackman demonstrating how to do [Principal Components Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis). PCA is one of the basic techniques for reducing data with multiple dimensions to some much smaller subset that nevertheless represents or condenses the information we have in a useful way. In a PCA approach, we transform the data in order to find the "best" set of underlying components. We want the dimensions we choose to be orthogonal to one another---that is, linearly uncorrelated. PCA is an inductive approach to data analysis. Because of the way it works, we're arithmetically guaranteed to find a set of components that "explain" all the variance we observe. The *substantive* explanatory question is whether the main components uncovered by PCA have a plausible interpretation. 
+A decade or more ago I read a nice worked example from the political scientist Simon Jackman demonstrating how to do [Principal Components Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis). PCA is one of the basic techniques for reducing data with multiple dimensions to some much smaller subset that nevertheless represents or condenses the information we have in a useful way. In a PCA approach, we transform the data in order to find the "best" set of underlying components. We want the dimensions we choose to be orthogonal to one another---that is, linearly uncorrelated. 
+
+When used as an approach to data analysis, PCA is inductive. Because of the way it works, we're arithmetically guaranteed to find a set of components that "explains" all the variance we observe. The *substantive* explanatory question is whether the main components uncovered by PCA have a plausible interpretation. 
 
 I was reminded of all of this on Friday because some of my first-year undergrad students are doing an "Algorithms for Data Science" course, and the topic of PCA came up there. Some students not in that class wanted some intuitions about what PCA was. The thing I remembered about Jackman's discussion was that he had the nice idea of doing PCA on an image, in order to show both how you could reconstruct the whole image from the PCA, if you wanted, and more importantly to provide some intuition about what the first few components of a PCA picked up on. His discussion doesn't seem to be available anymore, so this afternoon I rewrote the example myself. I'll use the same image he did. This one:
 
@@ -165,7 +167,7 @@ names(img_pca)
 ## [1] "sdev"     "rotation" "center"   "scale"    "x"
 {{< /highlight >}}
 
-What are these? `sdev` contains the standard deviations of the principal components. `rotation` is a matrix where the rows correspond to the columns of the original data, and the columns are the principal components. `x` is a matrix containing the value of the rotated data multiplied by the `rotation` matrix. Finally, `center` and `scale` are vectors with the centering and scaling information for each observation. 
+What are these? `sdev` contains the standard deviations of the principal components. `rotation` is a square matrix where the rows correspond to the columns of the original data, and the columns are the principal components. `x` is a matrix of the same dimensions as the original data. It contains the values of the rotated data multiplied by the `rotation` matrix. Finally, `center` and `scale` are vectors with the centering and scaling information for each observation. 
 
 Now, to get from this information back to the original data matrix, we need to multiply `x` by the transpose of the `rotation` matrix, and then revert the centering and scaling steps. If we multiply by the transpose of the _full_ rotation matrix (and then un-center and un-scale), we'll recover the original data matrix exactly. But we can also choose to use just the first few principal components, instead. There are 633 components in all (corresponding to the number of rows in the original data matrix), but the scree plot suggests that most of the data is "explained" by a much smaller number of components than that. 
 
@@ -228,7 +230,7 @@ recovered_imgs <- map_dfr(n_pcs,
          pcs = factor(pcs, levels = unique(pcs), ordered = TRUE))
 {{< /highlight >}}
 
-This gives us a very long tibble with an index (`pcs`) for the number of components used to reconstruct the image. In essence it's eight images stacked on top of one another. Each image has been reconstituted using a some number of components, from a very small number (2) to a larger number (100). Now we can plot each resulting image in a small multiple. 
+This gives us a very long tibble with an index (`pcs`) for the number of components used to reconstruct the image. In essence it's eight images stacked on top of one another. Each image has been reconstituted using a some number of components, from a very small number (2) to a larger number (100). Now we can plot each resulting image in a small multiple. In the code for the plot, we use `scale_y_reverse` because by convention the indexing for pixel images starts in the top left corner of the image. If we plot it the usual way (with x = 1, y = 1 in the bottom left, instead of the top left) the image will be upside down.
 
 
 {{< highlight r >}}
