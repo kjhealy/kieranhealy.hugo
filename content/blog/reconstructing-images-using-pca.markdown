@@ -24,6 +24,7 @@ The [Imager Library](https://dahtah.github.io/imager/imager.html) is our friend 
 library(imager)
 library(here)
 library(dplyr)
+library(purrr)
 library(broom)
 library(ggplot2)
 
