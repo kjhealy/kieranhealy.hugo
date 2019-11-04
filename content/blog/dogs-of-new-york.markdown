@@ -24,6 +24,6 @@ In the end, after a bit of experimentation I decided to redo the figure in a one
 
 {{% figure src="files/misc/breedposter_display_top25_orange.png" alt="Dogs of New York Poster" caption="Dogs of New York" %}}
 
-The palette isn't quite as immediately vivid as the Viridis version, but it seems to solve the problems of interpretation, and that's more important. The image is made to be blown up to quite a large size, which I plan on doing myself. To that end, here's a [PDF version of the poster](https://kieranhealy.org/files/misc/breedposter_display_top25_orange.pdf) as well. 
+The palette isn't quite as immediately vivid as the Viridis version, but it seems to solve the problems of interpretation, and that's more important. The image is made to be blown up to quite a large size, which I plan on doing myself. To that end, here's a [PDF version of the poster](https://kieranhealy.org/files/misc/breedposter_display_top25_orange.pdf), and a [PDF version that's 18 by 25 inches](https://kieranhealy.org/files/misc/breedposter_top25_orange_18x25.pdf) in size, as well. 
 
 
