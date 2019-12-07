@@ -10,6 +10,7 @@ baseurl: "https://kieranhealy.org/"
 title: "kieranhealy.org"
 CanonifyUrls: true
 rssLimit: 20
+disableKinds: "taxonomyTerm"
 taxonomy:
     category: "categories"   
 menu:

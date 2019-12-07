@@ -1,0 +1,43 @@
+MetaDataFormat = "yaml"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+buildFuture = true
+pygmentsuseclasses = true
+baseurl = "https://kieranhealy.org/"
+title = "kieranhealy.org"
+CanonifyUrls = true
+rssLimit = 20.0
+disableKinds = "taxonomyTerm"
+
+[taxonomy]
+category = "categories"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[menu]
+
+  [[menu.main]]
+  name = "Publications"
+  url = "/publications"
+  weight = 2.0
+
+  [[menu.main]]
+  name = "Resources"
+  url = "/resources"
+  weight = 3.0
+
+  [[menu.main]]
+  name = "Teaching"
+  url = "/teaching"
+  weight = 4.0
+
+  [[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 5.0
+
+[permalinks]
+blog = "/blog/archives/:year/:month/:day/:slug"

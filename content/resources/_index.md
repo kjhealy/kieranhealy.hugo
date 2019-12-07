@@ -1,6 +1,7 @@
 ---
+title: Resources
+description: Some useful tools and bits of software
 type: page
-title: "Resources"
 ---
 
 <p><em>This page has links to configuration files, R packages, templates, and a few other things that might be of use to people who want to write (and give talks about) well-formatted social science papers using plain text tools.</em></p> 
@@ -102,3 +103,4 @@ visualization exercises and other bits of data analysis, mostly written in R.
 </div>
 </div>
 </div>
+
