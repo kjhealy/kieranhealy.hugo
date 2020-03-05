@@ -1,141 +1,91 @@
-{{ partial "header.html" . }}
-<body lang="en" itemscope itemtype="http://schema.org/Article">
-  <div id="topbar">
-    <div class="wrapper">
-      <header>
-        
-        {{ template "partials/sidebar.html" . }}
+{{- define "title" }}{{ T "archive" }} - {{ .Site.Title }}{{ end -}}
 
-        {{ $baseurl := .Site.BaseURL }}
-      </header>
-    </div>
-  </div>
-  <div class="wrapper">
-    <div class="units-row">
-      <div class="unit-100">
-        <h4><a href="/vita.pdf"><em>Curriculum Vitae</em></a>&nbsp;&nbsp;<a href="/vita.pdf" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a></h4>
-      </div>
-    </div>
-  </div>  
-  <div class="wrapper">
-    <div class="units-row">
-      <div class="unit-50">
-        <h2>Working Papers</h2>
-          {{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                <li><i class="fa-li fa fa-file-o fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }} 
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}
-                  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
-                  {{ end }}
-                </li>
-	        {{ end }}
-              </ul>              
-            </div>	
-          </div>
-          {{ end }}
-          <h2>Books</h2>
-          {{ range (where .Data.Pages "Params.kind" "book").GroupByPublishDate "2006" "desc" }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByPublishDate.Reverse }}
-                <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }} 
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}
-                  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
-                  {{ end }}
-                </li>
-	        {{ end }}
-              </ul>              
-            </div>	
-          </div>
-          {{ end }}
-          <h2>Articles and Book Chapters</h2>
-          {{ range (where (where .Data.Pages "Type" "published") ".Params.kind" "!=" "book").GroupByDate "2006" "desc" }}          
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                {{ if ne .Params.kind "book" }}
-                <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}
-                  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
-                  {{ end }}
-                </li>
-                {{ end }}
-	        {{ end }}
-              </ul>              
-            </div>	
-          </div>
-          {{ end }}
-        </div>
+{{- define "content" }}
 
-      <div class="unit-50">
-      <h2>Retired Papers</h2>
-          <!-- Column of even-numbered items -->
-          {{ range (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                <li><i class="fa-li fa  {{ if eq .Type "retired" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}
-                  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
-                  {{ end }}
-                </li>
-	        {{ end }}
-              </ul>              
-            </div>	
-          </div>
-          {{ end }}
-          <h2>Essays and Reviews</h2>
-          {{ range (where .Data.Pages "Type" "other").GroupByDate "2006" "desc" }}
-          <div class="units-row">
-            <div class="unit-10">
-              <h3>{{ .Key }}</h3>
-            </div>
-            <div class="unit-90">
-              <ul class="compact fa-ul">
-	        {{ range .Pages.ByDate.Reverse }}
-                <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }}
-                  <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-                  {{ if isset .Params "file" }}
-                  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>
-                  {{ end }}
-                </li>
-	        {{ end }}
-              </ul>              
-            </div>	
-          </div>
-          {{ end }} 
-        </div>
-    </div> 
+{{ $baseurl := .Site.BaseURL }}
+
+<h1>Publications</h1>
+
+<div>
+  <h4><a href="/vita.pdf"><em>Full Curriculum Vitae in PDF format</em></a></h4>
+</div>  
+
+<h2>Working Papers</h2>
+
+{{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
+
+<!-- <h3>{{ .Key }}</h3> -->
+
+{{ range .Pages.ByDate.Reverse }}
+<li>{{ .Params.citation | safeHTML }} 
+  <a href="{{ .Permalink }}">/ Abstract</a> 
+  {{ if isset .Params "file" }}
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  {{ end }}
+</li>
+{{ end }}
+
+{{- end}}
 
 
-</div>
+<h2>Retired Papers</h2>
 
-<hr class="separator">
+{{ range (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
 
-{{ partial "whatisthis.html" . }}
+<!-- <h3>{{ .Key }}</h3> -->
 
-{{ partial "foot.html" . }}
-</body>
-</html>
+{{ range .Pages.ByDate.Reverse }}
+<li>{{ .Params.citation | safeHTML }} 
+  <a href="{{ .Permalink }}">/ Abstract</a> 
+  {{ if isset .Params "file" }}
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  {{ end }}
+</li>
+{{ end }}
+
+{{- end}}
+
+
+
+<h2>Books</h2>
+
+{{ range (where .Data.Pages "Params.kind" "book").GroupByPublishDate "2006" "desc" }}
+
+<!-- <h3>{{ .Key }}</h3> -->
+
+{{ range .Pages.ByPublishDate.Reverse }}
+<li>{{ .Params.citation | safeHTML }} 
+  <a href="{{ .Permalink }}">/ Overview</a> 
+  {{ if isset .Params "file" }}
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  {{ end }}
+</li>
+{{ end }}
+
+{{- end}}
+
+
+
+<h2>Articles and Book Chapters</h2>
+
+{{ range (where (where .Data.Pages "Type" "published") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
+
+<!-- <h3>{{ .Key }}</h3> -->
+{{ range .Pages.ByPublishDate.Reverse }}
+{{ if ne .Params.kind "book" }}
+<li>{{ .Params.citation | safeHTML }} 
+  <a href="{{ .Permalink }}">/ Abstract</a> 
+  {{ if isset .Params "file" }}
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  {{ end }}
+</li>
+{{ end }}
+{{ end }}
+
+{{- end}}
+
+
+
+
+
+{{- end }}

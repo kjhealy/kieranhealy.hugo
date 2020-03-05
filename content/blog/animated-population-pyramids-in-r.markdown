@@ -83,7 +83,7 @@ p_pyr <- p + geom_ribbon(alpha = 0.5) +
 
 The key line is the `scale_y_continuous()` call, which sets the axis `labels` to their absolute values (so they aren't printed as negative numbers), and fixes the `limits` on both sides in one quick step. We also reverse the legend guide for the `fill` variable so that it appears in the same order as drawn on the plot. We flip the coordinates at the end to put age on the y-axis. Everything else is just formatting for the plot --- the labels in `labs()`, the colors in `scale_fill_manual()` and the size adjustments in `theme()`. 
 
-{{% figure src="files/misc/eng-wal-pyr-1968.png" alt="" caption="Population Distribution by Age for England and Wales, 1968." %}}
+{{% figure src="https://kieranhealy.org/files/misc/eng-wal-pyr-1968.png" alt="" caption="Population Distribution by Age for England and Wales, 1968." %}}
 
 Not bad. Look at the people who are fifty in 1968---they were born in 1918, and there aren't that many of them. By contrast look at the people who were 23 then. They were born in 1945. 
 
@@ -123,7 +123,7 @@ gganimate(p_pyr_ani, filename = "figures/eng-wa-pop-pyr.gif",
 
 {{< /highlight >}}
 
-{{% figure src="files/misc/eng-wa-pop-pyr-opt.gif" alt="" caption="Population Distribution by Age for England and Wales, 1961-2014." %}}
+{{% figure src="https://kieranhealy.org/files/misc/eng-wa-pop-pyr-opt.gif" alt="" caption="Population Distribution by Age for England and Wales, 1961-2014." %}}
 
 Now you can sit back, relax, and watch time perform its terrible dance. 
 
@@ -230,4 +230,4 @@ gganimate(p_pyr_ani, filename = "figures/eng-wa-pop-pyr-labs.gif",
 {{< /highlight >}}
 
 
-{{% figure src="files/misc/eng-wa-pop-pyr-labs-opt.gif" alt="" caption="Population Distribution by Age for England and Wales, 1961-2014, with some birth years of interest labeled." %}}
+{{% figure src="https://kieranhealy.org/files/misc/eng-wa-pop-pyr-labs-opt.gif" alt="" caption="Population Distribution by Age for England and Wales, 1961-2014, with some birth years of interest labeled." %}}

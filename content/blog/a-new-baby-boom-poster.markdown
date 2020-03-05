@@ -10,7 +10,7 @@ mathjax: false
 
 I wanted to work through a few examples of more polished graphics done mostly but perhaps not entirely in R. So, I revisited the Baby Boom visualizations I made a while ago and made a new poster with them. This allowed me to play around with a few packages that I either hadn't made use of or that weren't available the first time around. The most notable additions are [Rob Hyndman's suite of tidy tools for time series analysis](https://robjhyndman.com/software/) and Thomas Lin Pedersen's packages [ggforce](https://ggforce.data-imaginist.com) and [patchwork](https://patchwork.data-imaginist.com). These are all fantastic resources. The time series decomposition was done with the `tsibble` family of tools. Meanwhile `ggforce` and `patchwork` allow for a tremendous degree of flexibility in laying out multiple plots while still being very straightforward to use. Here's a preview of the result:
 
-{{% figure src="files/misc/okboomer_composite_poster-300-01.png" alt="OK boomer" caption="OK Boomer" %}}
+{{% figure src="https://kieranhealy.org/files/misc/okboomer_composite_poster-300-01.png" alt="OK boomer" caption="OK Boomer" %}}
 
 For now, the annotations were done in post-production (as they say in the movie biz) rather than in R, but I think I'll be looking to see whether it's worth taking advantage of some other packages to do those in R as well. 
 

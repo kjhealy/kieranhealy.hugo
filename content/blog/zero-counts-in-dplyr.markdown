@@ -112,7 +112,7 @@ ggsave("figures/df_chr_col.png")
 {{< /highlight >}}
 
 
-{{% figure src="http:kieranhealy.org/files/misc/df_chr_col.png" alt="" caption="Stacked column chart based on character-encoded values." %}}
+{{% figure src="https://kieranhealy.org/files/misc/df_chr_col.png" alt="" caption="Stacked column chart based on character-encoded values." %}}
 
 That looks fine. You can see in each panel the 2015 column is 100% Men. If we were working on this a bit longer we'd polish up the x-axis so that the dates were centered under the columns. But as an exploratory plot it's fine. 
 
@@ -139,7 +139,7 @@ ggsave("figures/df_chr_line.png")
 
 {{< /highlight >}}
 
-{{% figure src="http:kieranhealy.org/files/misc/df_chr_line.png" alt="" caption="A line graph based on character-encoded variables for party and sex. The trend line for Women joins up the observed (or rather, the included) values, which don't include the zero values for 2015." %}}
+{{% figure src="https://kieranhealy.org/files/misc/df_chr_line.png" alt="" caption="A line graph based on character-encoded variables for party and sex. The trend line for Women joins up the observed (or rather, the included) values, which don't include the zero values for 2015." %}}
 
 That's not right. The line segments join up the data points in the summary tibble, but because those don't include the zero-count rows in the case of women, the lines join the 2013 and 2017 values directly. So we miss that the count (and thus the frequency) went to zero in that year. 
 
@@ -198,7 +198,7 @@ ggsave("figures/df_fac_line.png")
 
 {{< /highlight >}}
 
-{{% figure src="http:kieranhealy.org/files/misc/df_fac_line.png" alt="" caption="A line graph based on factor-encoded variables for party and sex. Now the trend line for Women does include the zero values, as they are preserved in the summary." %}}
+{{% figure src="https://kieranhealy.org/files/misc/df_fac_line.png" alt="" caption="A line graph based on factor-encoded variables for party and sex. Now the trend line for Women does include the zero values, as they are preserved in the summary." %}}
 
 Now the trend line goes to zero, as it should. (And by the same token the trend line for Men goes to 100%.)
 
@@ -263,6 +263,6 @@ ggsave("figures/df_chr_line_2.png")
 
 {{< /highlight >}}
 
-{{% figure src="http:kieranhealy.org/files/misc/df_chr_line_2.png" alt="" caption="Same as before, but based on the character-encoded version." %}}
+{{% figure src="https://kieranhealy.org/files/misc/df_chr_line_2.png" alt="" caption="Same as before, but based on the character-encoded version." %}}
 
 The new zero-preserving behavior of `group_by()` for factors will show up in the upcoming version 0.8 of dplyr. It's already there in the development version if you like to live dangerously. In the meantime, if you want your frequency tables to include zero counts, then make sure you `ungroup()` and then `complete()` the summary tables. 

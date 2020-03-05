@@ -1,21 +1,47 @@
 MetaDataFormat = "yaml"
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-builddrafts = false
-buildFuture = true
-pygmentsuseclasses = true
 baseurl = "https://kieranhealy.org/"
 title = "kieranhealy.org"
 CanonifyUrls = true
 rssLimit = 20.0
-disableKinds = "taxonomyTerm"
 
-[taxonomy]
-category = "categories"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+
+disableKinds = "taxonomyTerm"
+preserveTaxonomyNames = true
+
+#[taxonomy]
+#category = "categories"
+
+
+languageCode = "en"
+defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
+enableEmoji = false
+theme = "even"
+
+# Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
+pygmentsOptions = "linenos=table"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+
+hasCJKLanguage = false     # has chinese/japanese/korean ? 
+paginate = 20                                              
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
+
+
+[author]                  # essential                     
+  name = "Kieran Healy"
+
+[sitemap]                 # essential                     
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 
 [menu]
 
@@ -41,3 +67,148 @@ unsafe= true
 
 [permalinks]
 blog = "/blog/archives/:year/:month/:day/:slug"
+
+[params]
+  version = "4.x"           # Used to give a friendly message when you have an incompatible update
+  debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
+
+  since = "1995"            # Site creation time          # 站点建立时间
+  # use public git repo url to link lastmod git commit, enableGitInfo should be true.
+  # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
+  # gitRepo = "github.com/kjhealy/kieranhealy.hugo"
+
+  # site info (optional)                                 
+  logoTitle = "Kieran Healy"        # default: the title value    
+  keywords = ["", "",""]
+  description = "."
+
+  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
+  archivePaginate = 20
+
+  # show 'xx Posts In Total' in archive page ?            # 是否在归档页显示文章的总数
+  showArchiveCount = false
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+
+  # show word count and read time ?                       # 是否显示字数统计与阅读时间
+  moreMeta = false
+
+  # Syntax highlighting by highlight.js
+  highlightInClient = false
+
+  #  archetypes/default.md 
+  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+  toc = true                                                                            # 
+  autoCollapseToc = false   # Auto expand and collapse toc                              # 
+  fancybox = true           # see https://github.com/fancyapps/fancybox                 # 
+
+  # mathjax
+  mathjax = false           # see https://www.mathjax.org/                              # 
+  mathjaxEnableSingleDollar = false                                                     # 
+  mathjaxEnableAutoNumber = false                                                       # 
+  mathjaxUseLocalFiles = false  # You should install mathjax in `your-site/static/lib/mathjax`
+
+  postMetaInFooter = false   # contain author, lastMod, markdown link, license           # 
+  linkToMarkDown = false    # Only effective when hugo will output .md files.           # 
+  contentCopyright = ''     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  baiduPush = false        # baidu push                  # 百度
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []
+  customJS = []
+
+  uglyURLs = false          # please keep same with uglyurls setting
+
+  [params.publicCDN]        # load these files from public cdn                          # 
+    enable = true
+    jquery = '<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>'
+    slideout = '<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>'
+    fancyboxJS = '<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>'
+    fancyboxCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">'
+    timeagoJS = '<script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>'
+    timeagoLocalesJS = '<script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>'
+    flowchartDiagramsJS = '<script src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js" integrity="sha256-67By+NpOtm9ka1R6xpUefeGOY8kWWHHRAKlvaTJ7ONI=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/flowchart.js@1.8.0/release/flowchart.min.js" integrity="sha256-zNGWjubXoY6rb5MnmpBNefO0RgoVYfle9p0tvOQM+6k=" crossorigin="anonymous"></script>'
+    sequenceDiagramsCSS = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.css" integrity="sha384-6QbLKJMz5dS3adWSeINZe74uSydBGFbnzaAYmp+tKyq60S7H2p6V7g1TysM5lAaF" crossorigin="anonymous">'
+    sequenceDiagramsJS = '<script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/snapsvg@0.5.1/dist/snap.svg-min.js" integrity="sha256-oI+elz+sIm+jpn8F/qEspKoKveTc5uKeFHNNVexe6d8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/underscore@1.8.3/underscore-min.js" integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.js" integrity="sha384-8748Vn52gHJYJI0XEuPB2QlPVNUkJlJn9tHqKec6J3q2r9l8fvRxrgn/E5ZHV0sP" crossorigin="anonymous"></script>'
+
+
+  [params.social]                                        
+    a-email = "mailto:kjhealy@gmail.com"
+    c-twitter = "http://twitter.com/kjhealy"
+    g-github = "http://github/com/kjhealy"
+
+# See https://gohugo.io/about/hugo-and-gdpr/
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true      # 12.214.31.144 -> 12.214.31.0
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Uncomment these options to make hugo output .md files.
+#[mediaTypes]
+#  [mediaTypes."text/plain"]
+#    suffixes = ["md"]
+#
+#[outputFormats.MarkDown]
+#  mediaType = "text/plain"
+#  isPlainText = true
+#  isHTML = false
+#
+#[outputs]
+#  home = ["HTML", "RSS"]
+#  page = ["HTML", "MarkDown"]
+#  section = ["HTML", "RSS"]
+#  taxonomy = ["HTML", "RSS"]
+#  taxonomyTerm = ["HTML"]
+
+
+
+# builddrafts = false
+# buildFuture = true
+
+# pygmentsOptions = "linenos=table"
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# pygmentsCodefencesGuessSyntax = true
+
+
+# baseurl = "https://kieranhealy.org/"
+# title = "kieranhealy.org"
+# CanonifyUrls = true
+# rssLimit = 20.0
+
+# disableKinds = "taxonomyTerm"
+# preserveTaxonomyNames = true
+
+# theme = "even"
+
+# [sitemap]                 
+#   changefreq = "weekly"
+#   priority = 0.5
+#   filename = "sitemap.xml"
+
+
+# [menu]
+
+#   [[menu.main]]
+#   name = "Publications"
+#   url = "/publications"
+#   weight = 2.0
+
+#   [[menu.main]]
+#   name = "Resources"
+#   url = "/resources"
+#   weight = 3.0
+
+#   [[menu.main]]
+#   name = "Teaching"
+#   url = "/teaching"
+#   weight = 4.0
+
+#   [[menu.main]]
+#   name = "Blog"
+#   url = "/blog"
+#   weight = 5.0

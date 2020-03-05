@@ -1,122 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+{{- define "content" -}}
 
-    {{ partial "meta.html" . }}
+<p>I am <a href = "http://sociology.duke.edu">Professor of Sociology</a> at <a href = "http://www.duke.edu">Duke University</a>. (<a href = "about/">&rarr; Read a short biosketch.</a>)
 
-    <base href="{{ .Site.BaseURL }}">
-    <title>{{ .Site.Title }}</title>
-    <link rel="canonical" href="{{ .Permalink }}">
-    <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+<h1>Recently ...</h1>
+<section id="pubs" class="pubs">
+<h3>Publications</h3>  
+<ul>
+{{ range first 5 (where .Site.RegularPages.ByDate "Section" "publications").Reverse }}
+<li>{{ .Params.citation | safeHTML }} <a href="{{ .Permalink }}"> / Summary</a>
+              {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> / PDF</a>{{ end }}
+  {{ end }}</li>
+</ul>  
+</section>
+<section>
+<hr>  
+</section>
+<section id="posts" class="posts">
+<h3>Occasional Writing</h3>  
+  {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3> <em>{{ .Date.Format "2 January 2006" }}</em>
+  {{ if .Truncated }}
+  {{ .Summary }}
+  <p class="text-right"><a href="{{ .RelPermalink }}">Read More…</a></p>
+  {{ else }}
+  {{ .Content }}
+  {{ end }}	
+</section>
+{{ end }}	
 
-    {{ partial "head_includes.html" . }}
-  </head>
-  <body>
-    <div id="topbar">
-      <div class="wrapper">
-        <header>
-          {{ partial "sidebar.html" . }}  
-        </header>
-      </div>
-    </div>
-
-    <div class="wrapper">		
-      <div class="units-row">
-        <div class="unit-66">
-          <div class="units-row-end">
-            <div class="unit-33 dateblock">
-              &nbsp;
-            </div>
-            <div class="unit-66">
-	      <p></p>
-	    </div>
-          </div>
-          {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
-          <div class="units-row-end">
-            <div class="unit-33 dateblock">
-              <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-              <h4>{{ .Date.Format "2 January 2006" }}</h4>
-            </div>
-            <div class="unit-66">
-              {{ if .Truncated }}
-              {{ .Summary }}
-              <p class="text-right"><a href="{{ .RelPermalink }}">Read More…</a></p>
-              {{ else }}
-              {{ .Content }}
-              {{ end }}	
-            </div>
-          </div>
-
-          {{ end }}
-
-          <hr>
-
-          <div class="units-row-end">
-            <div class="unit-33 dateblock">&nbsp;</div>
-          </div>	
-        </div>
-
-        <div class="unit-33">
-
-          <h3>Recent Work</h3>
-          <ul class="compact fa-ul">
-            {{ range first 5 (where .Site.RegularPages.ByDate "Section" "publications").Reverse }}
-            <li><i class="fa-li fa  {{ if eq .Type "unpublished" }}fa-file-o {{ else if eq .Params.kind "book" }}fa-book {{ else }}fa-file {{ end }} fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i> {{ .Params.citation | safeHTML }} 
-              <a href="{{ .Permalink }}" class="badge badge-small">Abstract</a>
-              {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}" class="badge badge-small"><i class="fa fa-file-pdf-o"></i>&nbsp;pdf</a>{{ end }}
-            </li>
-	    {{ end }}
-          </ul>
-	  
-          <footer class="group">	
-            <nav class="navbar navbar-right"><a href="/publications">&rarr; More Papers</a></nav> 
-          </footer>
-	  
-          <h3>Current Teaching</h3>			
-	  <ul class="compact fa-ul">
-            {{ range (where .Site.RegularPages.ByDate "Section" "teaching").Reverse }}
-	    {{ if (ge .Date.Unix now.Unix) }}
-	    {{ if (le .Date.Unix (add now.Unix 7776000)) }}
-            <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}.  {{ partial "comingsoon.html" . }}
-            </li>		
-	    {{ end }}
-	    {{ end }}
-	    {{ end }}
-
-            {{ range (where .Site.RegularPages.ByDate "Section" "teaching").Reverse }}
-	    {{ if (le .Date.Unix now.Unix) }}
-	    {{ if (le now.Unix (add .Date.Unix .Params.duration)) }}
-            <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. {{ partial "nowon.html" . }}
-            </li>		
-	    {{ end }}
-	    {{ end }}
-	    {{ end }}
-            {{ range (where .Site.RegularPages.ByDate "Section" "teaching").Reverse }}
-	    {{ $classend := (add .Date.Unix .Params.duration) }}
-	    {{ if (ge now.Unix $classend ) }}
-	    {{ if (le now.Unix (add $classend 10368000)) }}
-
-            <li><i class="fa-li fa fa-mortar-board fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>, {{ .Date.Format "January" }}&ndash;{{ .Params.enddate | dateFormat "January 2006" }}. <span class="badge badge-small">completed</span>
-            </li>		
-	    {{ end }}
-	    {{ end }}
-	    {{ end }}
-          </ul>
-
-
-          <footer class="group">	
-            <nav class="navbar navbar-right"><br /><a href="teaching">&rarr; Other Classes</a></nav> 
-          </footer>
-        </div>
-      </div>	
-
-    </div><!-- /end .wrapper -->
-
-    <hr class="separator">
-
-    {{ partial "whatisthis.html" . }}
-
-    {{ partial "foot.html" . }}
-  </body>
-</html>
+{{- end -}}

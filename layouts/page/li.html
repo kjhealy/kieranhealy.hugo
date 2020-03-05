@@ -24,12 +24,6 @@
       </div>
     </header>
 
-    <!-- <\!-- TOC -\-> -->
-    <!-- {{- partial "post/toc.html" . -}} -->
-
-    <!-- Outdated Info Warning -->
-    {{- partial "post/outdated-info-warning.html" . -}}
-
     <!-- Content -->
     <div class="post-content">
       {{ .Content }}
@@ -38,8 +32,8 @@
     <!-- Copyright -->
     {{- partial "post/copyright.html" . -}}
 
-    <!-- <\!-- Reward -\-> -->
-    <!-- {{- partial "post/reward.html" . -}} -->
+    <!-- Reward -->
+    {{- partial "post/reward.html" . -}}
 
     <footer class="post-footer">
       {{ with .Params.tags -}}

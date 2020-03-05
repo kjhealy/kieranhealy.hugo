@@ -11,22 +11,22 @@ The American Sociological Association [released some data](http://www.asanet.org
 
 First, students and retirees.
 
-{{% figure src="files/misc/asa17-student-spread.png" alt="Concentrations of Student Members." caption="Concentrations of Student Members." %}}
+{{% figure src="https://kieranhealy.org/files/misc/asa17-student-spread.png" alt="Concentrations of Student Members." caption="Concentrations of Student Members." %}}
 
-{{% figure src="files/misc/asa17-retired-spread.png" alt="Concentrations of Retired Members." caption="Concentrations of Retired Members." %}}
+{{% figure src="https://kieranhealy.org/files/misc/asa17-retired-spread.png" alt="Concentrations of Retired Members." caption="Concentrations of Retired Members." %}}
 
-{{% figure src="files/misc/asa17-student-hilo.png" alt="Student concentrations with sections ordered from high to low membership." caption="Student concentrations with sections ordered from high to low membership." %}}
+{{% figure src="https://kieranhealy.org/files/misc/asa17-student-hilo.png" alt="Student concentrations with sections ordered from high to low membership." caption="Student concentrations with sections ordered from high to low membership." %}}
 
 Next, some data on gender.
 
-{{% figure src="files/misc/asa17-female-spread.png" alt="Percent women in each section, centered on average percent across all sections." caption="Percent women in each section, centered on average percent across all sections. The overall average is about 52 percent." %}}
+{{% figure src="https://kieranhealy.org/files/misc/asa17-female-spread.png" alt="Percent women in each section, centered on average percent across all sections." caption="Percent women in each section, centered on average percent across all sections. The overall average is about 52 percent." %}}
 
 The gender composition of sections is somewhat related to how large they are. 
 
-{{% figure src="files/misc/asa17-scatter.png" alt="Percent female vs Total section membership." caption="Percent female vs total section membership." %}}
+{{% figure src="https://kieranhealy.org/files/misc/asa17-scatter.png" alt="Percent female vs Total section membership." caption="Percent female vs total section membership." %}}
 
 We can look at all these together, if we like, using a ternary plot. However, we are cheating somewhat, because the three variables are constrained to sum to 1 on the plot but not in reality. 
 
-{{% figure src="files/misc/asa17-ternary.png" alt="" caption="Ternary plot of percent female, percent student, and percent retired." %}}
+{{% figure src="https://kieranhealy.org/files/misc/asa17-ternary.png" alt="" caption="Ternary plot of percent female, percent student, and percent retired." %}}
 
 Code and data to reproduce these figures [is available on GitHub](https://github.com/kjhealy/asa_sections17).

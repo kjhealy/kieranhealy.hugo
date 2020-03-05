@@ -14,7 +14,7 @@ If you're interested in learning more about how to making graphs and charts usin
 
 ## Vaccination Exemptions in California Kindergartens
 
-{{% figure src="files/misc/pbe_by_school_type_bee_poster-01.png" alt="" caption="Vaccination exemptions poster." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pbe_by_school_type_bee_poster-01.png" alt="" caption="Vaccination exemptions poster." %}}
 
 
 - [PNG](https://kieranhealy.org/files/misc/pbe_by_school_type_bee_poster.png)
@@ -24,7 +24,7 @@ If you're interested in learning more about how to making graphs and charts usin
 
 ## A Co-Citation Network for Philosophy
 
-{{% figure src="files/misc/a_cocitation_matrix_for_philosophy.png" alt="" caption="Co-Citation in Philosophy." %}}
+{{% figure src="https://kieranhealy.org/files/misc/a_cocitation_matrix_for_philosophy.png" alt="" caption="Co-Citation in Philosophy." %}}
 
 
 - [PNG](https://kieranhealy.org/files/misc/a_cocitation_matrix_for_philosophy.png)
@@ -34,7 +34,7 @@ If you're interested in learning more about how to making graphs and charts usin
 
 ## Mortality in France, 1816-2016
 
-{{% figure src="files/misc/france_blackposter.png" alt="" caption="French mortality." %}}
+{{% figure src="https://kieranhealy.org/files/misc/france_blackposter.png" alt="" caption="French mortality." %}}
 
 - [PNG](https://kieranhealy.org/files/misc/france_blackposter.png)
 - [PDF](https://kieranhealy.org/files/misc/france_blackposter.pdf)
@@ -43,7 +43,7 @@ If you're interested in learning more about how to making graphs and charts usin
 
 ## Visualizing the Baby Boom
 
-{{% figure src="files/misc/combined_births_components_tile_poster.png" alt="" caption="The Baby Boom in the US and the UK." %}}
+{{% figure src="https://kieranhealy.org/files/misc/combined_births_components_tile_poster.png" alt="" caption="The Baby Boom in the US and the UK." %}}
 
 
 - [PNG](https://kieranhealy.org/files/misc/combined_births_components_tile_poster.png)

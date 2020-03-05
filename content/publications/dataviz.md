@@ -13,7 +13,7 @@ date: 2019-01-01
 publishdate: 2019-01-01
 ---
 
-<p>Buy the book <a class = "badge badge-small" href="https://amzn.to/2vfAixM" style = "background-color: #F99F46;">From Amazon</a> | <a class = "badge badge-small" href="http://www.powells.com/book/-9780691181622" style = "background-color: #F99F46;">From Powell's</a> | <a class = "badge badge-small" href="https://press.princeton.edu/titles/13826.html" style = "background-color: #F99F46;">From Princeton University Press</a></p>
+<p>Or buy <a class = "badge badge-small" href="http://www.powells.com/book/-9780691181622">from Powell's</a> | <a class = "badge badge-small" href="https://press.princeton.edu/titles/13826.html">from Princeton University Press</a></p>
 
 <h4>Data Visualization: A Practical Introduction</a></em> teaches you data visualization using R and ggplot2 in a clear, sensible, and reproducible way.</h4> 
 
