@@ -1,0 +1,30 @@
+{{- define "title" }}{{ T "prints" }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" }}
+
+{{ $baseurl := .Site.BaseURL }}
+
+ <article class="post">
+    <!-- post-header -->
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+
+    </header>
+    
+{{ range (where .Data.Pages "Type" "print").GroupByDate "2006" "desc" }}
+
+<!-- <h3>{{ .Key }}</h3> -->
+
+{{ range .Pages.ByDate.Reverse }}
+    <h2>{{ .Params.title | safeHTML }}</h2>
+      <a href="{{ .Params.storelink }}">Society6 page</a>
+
+      {{ .Content }}
+      
+{{ end }}
+
+{{- end}}
+
+
+{{- end }}
+</article>

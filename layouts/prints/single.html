@@ -1,0 +1,53 @@
+{{ define "content" -}}
+  <article class="post">
+    <!-- post-header -->
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+
+    </header>
+
+
+    <!-- Content -->
+    <div class="post-content">      
+      {{ .Content }}
+    </div>
+
+
+          (<a href = {{ printf "%s" .Params.storelink }}> &rarr; Buy Print</a>)
+      <br /><br />
+      <a href = {{ printf "%s" .Params.storelink }}><img src= {{ printf "../%s" .Params.image }} ></a>
+      <br /><br /><hr>
+
+    <!-- Copyright -->
+    {{- partial "post/copyright.html" . -}}
+
+    <footer class="post-footer">
+      {{ with .Params.tags -}}
+        <div class="post-tags">
+          {{ range . -}}
+            <a href="{{ "tags" | relLangURL }}/{{ . | urlize }}/">{{ . }}</a>
+          {{ end -}}
+        </div>
+      {{- end -}}
+
+      <!-- Post Pagination -->
+      <nav class="post-nav">
+        {{ with .NextInSection -}}
+          <a class="prev" href="{{ .RelPermalink }}">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">{{ .Title }}</span>
+            <span class="prev-text nav-mobile">{{ T "prevPost" }}</span>
+          </a>
+        {{- end }}
+        {{ with .PrevInSection -}}
+          <a class="next" href="{{ .RelPermalink }}">
+            <span class="next-text nav-default">{{ .Title }}</span>
+            <span class="next-text nav-mobile">{{ T "nextPost" }}</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+        {{- end }}
+      </nav>
+    </footer>
+  </article>
+{{- end }}
+

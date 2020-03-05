@@ -61,9 +61,14 @@ unsafe = true
   weight = 4.0
 
   [[menu.main]]
+  name = "Prints"
+  url = "/prints"
+  weight = 5.0
+
+  [[menu.main]]
   name = "Blog"
   url = "/blog"
-  weight = 5.0
+  weight = 6.0
 
 [permalinks]
 blog = "/blog/archives/:year/:month/:day/:slug"
@@ -91,7 +96,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
 
-  # show word count and read time ?                       # 是否显示字数统计与阅读时间
+  # show word count and read time ?                       
   moreMeta = false
 
   # Syntax highlighting by highlight.js

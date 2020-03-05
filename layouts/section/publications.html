@@ -4,7 +4,14 @@
 
 {{ $baseurl := .Site.BaseURL }}
 
-<h1>Publications</h1>
+ <article class="post">
+    <!-- post-header -->
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+
+    </header>
+    
+<!-- <h1 class = "post post-title">Publications</h1> -->
 
 <div>
   <h4><a href="/vita.pdf"><em>Full Curriculum Vitae in PDF format</em></a></h4>
@@ -17,12 +24,12 @@
 <!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByDate.Reverse }}
-<li>{{ .Params.citation | safeHTML }} 
+<p>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}">/ Abstract</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
   {{ end }}
-</li>
+</p>
 {{ end }}
 
 {{- end}}
@@ -35,12 +42,12 @@
 <!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByDate.Reverse }}
-<li>{{ .Params.citation | safeHTML }} 
+<p>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}">/ Abstract</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
   {{ end }}
-</li>
+</p>
 {{ end }}
 
 {{- end}}
@@ -54,12 +61,12 @@
 <!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByPublishDate.Reverse }}
-<li>{{ .Params.citation | safeHTML }} 
+<p>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}">/ Overview</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
   {{ end }}
-</li>
+</p>
 {{ end }}
 
 {{- end}}
@@ -73,12 +80,12 @@
 <!-- <h3>{{ .Key }}</h3> -->
 {{ range .Pages.ByPublishDate.Reverse }}
 {{ if ne .Params.kind "book" }}
-<li>{{ .Params.citation | safeHTML }} 
+<p>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}">/ Abstract</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
   {{ end }}
-</li>
+</p>
 {{ end }}
 {{ end }}
 
@@ -89,3 +96,4 @@
 
 
 {{- end }}
+

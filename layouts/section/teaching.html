@@ -1,0 +1,28 @@
+{{- define "title" }}{{ T "archive" }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" }}
+
+{{ $baseurl := .Site.BaseURL }}
+
+ <article class="post">
+    <!-- post-header -->
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+
+
+    </header>
+
+{{ range .Pages.ByDate.Reverse }}
+<h2>{{ .Params.title | safeHTML }}</h2>
+
+<p>{{.Content}}</p>
+
+{{- end}}
+
+    
+</article>
+
+    
+{{ end }}
+
+

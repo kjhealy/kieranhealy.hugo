@@ -1,0 +1,31 @@
+{{- define "title" }}{{ T "prints" }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" }}
+
+<article class="post">
+  <header class = "post-header">
+    <h1 class = "post-title">{{ .Title }}</h1>
+  </header>  
+
+  <p>Since I started working on data visualization, I've had several requests for copies of the images that I use when teaching people how to use R and ggplot. I typically make the R code for the images available on <a href="https://github.com/kjhealy">my GitHub page</a>, but getting things printed on good-quality paper or other media can be a pain. With that in mind, this page has a selection of visualizations with links to a <a href="https://society6.com/kjhealy">Society6</a> store where you can buy framed or unframed prints and posters of them. I've mostly used this for myself in the past when I wanted a version of an image to put up in my office, but printed on something other than either ordinary printer paper or a glossy conference poster. The Society6 people do a decent job. The paper stock for the art prints is a smooth matte cotton rag, that's acid free. The printing is a giclée (read: fancy inkjet) process so each one is made to order. Most of the prints look better at larger sizes, especially the maps. Society6 also offer an option to print on a sheet of aluminum, which makes for a good high-detail image.</p>
+
+  <p>&nbsp;</p>
+  
+    {{ range .Pages }}
+  <hr>  
+  <h1>{{ .Params.title | safeHTML }}</h1>
+  <a href = {{ printf "%s" .Params.storelink }}><img src= "{{ printf "%s" .Params.image }}" ></a>
+  <br />
+  
+<h5>(<a href = {{ printf "%s" .Params.storelink }}> &rarr; Buy Print</a>)</h5>
+ 
+<h5>(<a href="{{ .Permalink }}">&rarr; Learn more about this image</a>)</h5>
+  <br /><br /><br />
+
+  {{ end }}
+ 
+    
+</article>
+
+
+{{- end }}
