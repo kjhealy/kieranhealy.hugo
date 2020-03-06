@@ -77,20 +77,16 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
-  since = "1995"            # Site creation time          # 站点建立时间
-  # use public git repo url to link lastmod git commit, enableGitInfo should be true.
-  # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
-  # gitRepo = "github.com/kjhealy/kieranhealy.hugo"
-
+  since = "1995"            # Site creation time         
   # site info (optional)                                 
   logoTitle = "Kieran Healy"        # default: the title value    
   keywords = ["", "",""]
   description = "."
 
-  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
+  # paginate of archives, tags and categories            
   archivePaginate = 20
 
-  # show 'xx Posts In Total' in archive page ?            # 是否在归档页显示文章的总数
+  # show 'xx Posts In Total' in archive page ?           
   showArchiveCount = false
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
@@ -187,33 +183,3 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
 # disableKinds = "taxonomyTerm"
 # preserveTaxonomyNames = true
-
-# theme = "even"
-
-# [sitemap]                 
-#   changefreq = "weekly"
-#   priority = 0.5
-#   filename = "sitemap.xml"
-
-
-# [menu]
-
-#   [[menu.main]]
-#   name = "Publications"
-#   url = "/publications"
-#   weight = 2.0
-
-#   [[menu.main]]
-#   name = "Resources"
-#   url = "/resources"
-#   weight = 3.0
-
-#   [[menu.main]]
-#   name = "Teaching"
-#   url = "/teaching"
-#   weight = 4.0
-
-#   [[menu.main]]
-#   name = "Blog"
-#   url = "/blog"
-#   weight = 5.0
