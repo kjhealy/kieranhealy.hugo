@@ -158,7 +158,7 @@ p1 <- p0 +  geom_text(data = dat_text,
                 size = 3) + 
   scale_color_manual(values = my_colors, 
                      labels = c("Other Countries", "Spain")) + 
-  scale_y_continuous(labels = scales::percent_format(accuracy = 5L)) + 
+  scale_y_continuous(labels = scales::percent) + 
   labs(title = "Female Mortality, Selected Ages and Countries 1900-1929", 
        x = "Year", y = "Female Mortality Rate", color = NULL,
        caption = "@kjhealy / Data: mortality.org") + 
