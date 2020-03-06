@@ -2,7 +2,7 @@ MetaDataFormat = "yaml"
 baseurl = "https://kieranhealy.org/"
 title = "kieranhealy.org"
 CanonifyUrls = true
-rssLimit = 20.0
+rssLimit = 20
 
 contentdir = "content"
 layoutdir = "layouts"
@@ -42,6 +42,8 @@ unsafe = true
   priority = 0.5
   filename = "sitemap.xml"
 
+[services.rss]
+  limit = 20
 
 [menu]
 
