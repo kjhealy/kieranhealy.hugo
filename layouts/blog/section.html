@@ -3,6 +3,7 @@
 {{- define "content" }}
 {{- $paginator := .Paginate .Data.Pages.ByDate.Reverse .Site.Params.archivePaginate }}
 <section id="archive" class="archive">
+  
   {{- if and (not $paginator.HasPrev) .Site.Params.showArchiveCount }}
     <div class="archive-title">
       <span class="archive-post-counter">
