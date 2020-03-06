@@ -45,6 +45,8 @@ unsafe = true
 [services.rss]
   limit = 20
 
+
+
 [menu]
 
   [[menu.main]]
@@ -160,13 +162,17 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 #  isPlainText = true
 #  isHTML = false
 #
-#[outputs]
-#  home = ["HTML", "RSS"]
-#  page = ["HTML", "MarkDown"]
-#  section = ["HTML", "RSS"]
-#  taxonomy = ["HTML", "RSS"]
-#  taxonomyTerm = ["HTML"]
 
+
+[outputFormats]
+    [outputFormats.RSS]
+        baseName = "index"
+
+[outputs]
+ home = ["HTML", "RSS"]
+ page = ["HTML"]
+ section = ["HTML", "RSS"]
+ taxonomy = ["HTML", "RSS"]
 
 
 # builddrafts = false
