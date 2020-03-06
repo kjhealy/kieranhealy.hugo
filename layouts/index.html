@@ -16,6 +16,7 @@
 <hr>  
 </section>
 <section id="posts" class="posts">
+<br />  
 <h1>Recent Writing</h1>  
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
   <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3> <em>{{ .Date.Format "2 January 2006" }}</em>
