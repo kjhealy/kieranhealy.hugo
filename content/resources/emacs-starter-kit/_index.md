@@ -14,13 +14,13 @@ To accompany the <a href="http://www.kieranhealy.org/files/misc/workflow-apps.pd
 </p>
 <p>
 
-<a href="http://kieranhealy.org/files/misc/emacs-starter-kit.jpg"><img src="https://kieranhealy.org/img/emacs-starter-kit.jpg" caption="The Obligatory Screenshot, showing the Solarized (Dark) Theme"></a>
+<a href="http://kieranhealy.org/files/misc/emacs-starter-kit.jpg"><img src="https://kieranhealy.org/files/misc/emacs-starter-kit.jpg" caption="The Obligatory Screenshot, showing the Solarized (Dark) Theme"></a>
 
 </p>
 
 <p>
 
-<a href="http://kieranhealy.org/files/misc/emacs-starter-kit-light.png"><img src="https://kieranhealy.org/img/emacs-starter-kit-light.png" alt="Solarized (Light) Theme. Some other themes are also included."></a>
+<a href="http://kieranhealy.org/files/misc/emacs-starter-kit-light.png"><img src="https://kieranhealy.org/files/misc/emacs-starter-kit-light.png" alt="Solarized (Light) Theme. Some other themes are also included."></a>
 
 </p>
 <p>
