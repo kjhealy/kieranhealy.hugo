@@ -4,7 +4,9 @@
 
 {{ $baseurl := .Site.BaseURL }}
 
- <article class="post">
+<div class="content-wrapper">
+  <div id="content" class="content">
+
     <!-- post-header -->
     <header class="post-header">
       <h1 class="post-title">{{ .Title }}</h1>
@@ -91,9 +93,8 @@
 
 {{- end}}
 
-
-
-
+  </div>
+</div>
 
 {{- end }}
 

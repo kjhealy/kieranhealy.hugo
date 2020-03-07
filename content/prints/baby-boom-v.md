@@ -9,6 +9,6 @@ type: "prints"
 
 
 
-The U.S. Baby Boom as a heatmap and a time-series decomposed into its components. The poster highlights various noteworthy aspects of changes in birthrates since the 1930s. Available as a print on paper or on metal.
+The U.S. Baby Boom as a heatmap and a time-series decomposed into its components. The poster highlights various noteworthy aspects of changes in birthrates since the 1930s. Available as a [framed](https://society6.com/product/visualizing-the-baby-boom-time-series_framed-print?sku=s6-13435579p21a12v65a13v54) or [unframed](https://society6.com/product/visualizing-the-baby-boom-time-series_print?sku=s6-13435579p4a1v45) print on paper, or as a [metal print](https://society6.com/product/visualizing-the-baby-boom-time-series_metal-print?sku=s6-13435579p54a71v477).
 
 
