@@ -14,8 +14,11 @@
 
 {{ range .Pages.ByDate.Reverse }}
 <h2>{{ .Params.title | safeHTML }}</h2>
+<p class = "small"><a href="{{ .Permalink }}">(&rarr; Course Summary Page)</a></p> 
 
 <p>{{.Content}}</p>
+
+
 
 {{- end}}
 

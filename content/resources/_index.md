@@ -9,27 +9,32 @@ type: page
 <figure><img src="https://kieranhealy.org/files/misc/workflow-wide-tx.png"><figcaption>The Sausage Factory</figcaption></figure>
 
 
-<div class="units-row"> <div class="unit-50"> <h2><a
-  href="http://plain-text.co">The Plain Person's Guide to Plain Text
-  Social Science</a> &rarr;</h2> <p><a
-  href="http://plain-text.co"><img src = "https://kieranhealy.org/files/misc/plaintext_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> Available either as <a href = "http://kieranhealy.org/files/papers/plain-person-text.pdf">booklet</a> or as a <a href="http://plain-text.co">website</a>. As a
-  beginning graduate student in the social sciences, what sort of
-  software should you use to do your work? More importantly, what
-  principles should guide your choices? This article offers some
-  answers. The short version is: you should use tools that give you
-  more control over the process of data analysis and writing. I
-  recommend you write prose and code using a good text editor; analyze
-  quantitative data with R or Stata; minimize error by storing your
-  work in a simple format (plain text is best), and make a habit of
-  documenting what you've done. For data analysis, consider using a
-  format like Rmarkdown and tools like Knitr to make your work more
-  easily reproducible for your future self. Use Pandoc to turn your
+<div> <div> <h2><a href="http://plain-text.co">The Plain Person's
+  Guide to Plain Text Social Science</a> &rarr;</h2> <p><a
+  href="http://plain-text.co"><img src =
+  "https://kieranhealy.org/files/misc/plaintext_cover_tiny.png"
+  style="float: left; padding: 5px 10px 5px 3px;"></a> Available
+  either as <a href =
+  "http://kieranhealy.org/files/papers/plain-person-text.pdf">booklet</a>
+  or as a <a href="http://plain-text.co">website</a>. As a beginning
+  graduate student in the social sciences, what sort of software
+  should you use to do your work? More importantly, what principles
+  should guide your choices? This article offers some answers. The
+  short version is: you should use tools that give you more control
+  over the process of data analysis and writing. I recommend you write
+  prose and code using a good text editor; analyze quantitative data
+  with R or Stata; minimize error by storing your work in a simple
+  format (plain text is best), and make a habit of documenting what
+  you've done. For data analysis, consider using a format like
+  Rmarkdown and tools like Knitr to make your work more easily
+  reproducible for your future self. Use Pandoc to turn your
   plain-text documents into PDF, HTML, or Word files to share with
   others. Keep your projects in a version control system. Back
   everything up regularly. Make your computer work for you by
   automating as many of these steps as you can. To help you get
   started, I briefly discuss a drop-in set of useful defaults to get
-  started with Emacs (a powerful, free text-editor). I share some
+  started with Emacs (a powerful, free text-editor), though I
+  emphasize that there are many other alternatives. I share some
   templates and style files that can get you quickly from plain text
   to various output formats. And I point to several alternatives,
   because no humane person should recommend Emacs without presenting
@@ -48,7 +53,7 @@ to set up a <code>.tex</code> file with a nice Article layout.</p>
 
 <h2><a href="/resources/emacs-starter-kit"
     title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit
-    for the Social Sciences</a></h2> <p>This is a fork of Eric
+    for the Social Sciences</a></h2> <p>This is a much-changed fork of Eric
     Schulte's <a
     href="http://github.com/eschulte/emacs-starter-kit/tree">Emacs
     Starter Kit</a> (itself an offshoot of <a
@@ -63,8 +68,9 @@ to set up a <code>.tex</code> file with a nice Article layout.</p>
     title="Git - Fast Version Control System">Git</a>, <a
     href="http://github.com/kjhealy/emacs-starter-kit/tree/master"
     title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
-    can clone the repository</a>.</p>
-    
+    can clone the repository</a>. I don't particularly recommend that anyone just starting out in the social sciences actively choose Emacs these days as their one and only text editor. There are many alternatives and the most important thing, in general, is that you get used to using a good text editor and then just learn the hell out of it. I've been using Emacs for decades and frankly I'm still not very good at it. But this is the setup I use myself, so it's available here. Caveat emptor.</p>
+
+
 <h2><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h2>
 <p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a 
 href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too. The design is borrowed mostly from <a href="http://consequently.org/">Greg Restall</a>. If you want to look 
@@ -73,7 +79,7 @@ to fork the project on GitHub and make them available to others in the same way.
         
   </div>
 
-<div class="unit-50">
+<div>
 <h2><a href="https://amzn.to/2vfAixM">Data Visualization: A Practical Introduction</a> &rarr;</h2>
     <p><a href="https://amzn.to/2vfAixM"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
     </p>
@@ -90,6 +96,8 @@ to fork the project on GitHub and make them available to others in the same way.
 <h2><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h2>
 
 <p><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/"><img src = "https://kieranhealy.org/files/misc/sampletalk_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> This is a short talk, originally given in my Departmental Proseminar, on the topic of giving presentations. I discuss how to think about your talk in general (and how to distinguish it from the paper you're taking about, on the one hand, and the slides you're showing people, on the other.) I then say some things about how to use slides to best get your point across.</p> 
+
+<p> &nbsp; </p>
 
 <h2><a href="http://kjhealy.github.com/kjh-vita/">So You Like My Vita</a> &rarr;</h2>
 <p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.com/kjh-vita/" 
