@@ -41,15 +41,14 @@ type: page
   some other options as well.</p>
 
 <h2><a href="https://github.com/kjhealy/pandoc-templates">Pandoc Templates</a> &rarr;</h2>
-<p>Some Pandoc templates meant to go in <code>~/.pandoc/templates</code>. Point to them directly with the <code>--template</code> or <code>--css</code> switches as appropriate, and use them with what's provided in <a 
-href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>. Includes a shell script for setting pandoc up to work with the <a href="http://marked2app.com">Marked</a> app, a handy HTML live 
-previewer for <code>.md</code> files.
+<p>Some Pandoc templates meant to go in <code>~/.pandoc/templates</code>. Point to them directly from the command line, use them with what's provided in <a 
+href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>, or use them as part of a Markdown or RMarkdown workflow.
 </p>
 
 <h2><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h2>
-<p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that lets you begin with an 
+<p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that, for example, lets you begin with an 
 <code>.org</code> file in Emacs (as set up in the <a href="http://kjhealy.github.com/emacs-starter-kit/">Starter Kit</a>), and go from there to a nice, fully-processed PDF in one step. Or the pieces can be used separately 
-to set up a <code>.tex</code> file with a nice Article layout.</p>  
+to set up a <code>.tex</code> file with a nice Article layout. However, these days I almost never write anything directly in LaTeX. Instead, these templates form part of a pipeline that stars with a Markdown or RMarkdown file and ends up as a HTML, Word, or PDF document.</p> 
 
 <h2><a href="/resources/emacs-starter-kit"
     title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit
@@ -74,7 +73,7 @@ to set up a <code>.tex</code> file with a nice Article layout.</p>
 <h2><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h2>
 <p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a 
 href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too, though the discussion there is now quite old. If you want to look 
-under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the code for the entire site is on GitHub</a>, along with a fork of the [theme](https://github.com/kjhealy/hugo-theme-even) the site uses. Fair warning: if you just want to set up a website with your research interests, contact information, and links to your publications, then there are [many simpler and more straightforward options](http://squarespace.com) you should seriously consider instead.</p>
+under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the code for the entire site is on GitHub</a>, along with a fork of the <a href="https://github.com/kjhealy/hugo-theme-even">theme</a> the site uses. Fair warning: if you just want to set up a website with your research interests, contact information, and links to your publications, then there are <a href = "http://squarespace.com">many simpler and more straightforward options</a> you should seriously consider instead.</p>
         
   </div>
 
