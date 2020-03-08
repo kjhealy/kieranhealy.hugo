@@ -54,7 +54,7 @@ Prerequisites
 <strong>0.1 Get Emacs</strong>. <a href="http://emacsformacosx.com/" title="GNU Emacs For MacOS">Download Emacs here</a>. Alternatively, if you are comfortable with <a href="https://brew.sh">Homebrew</a>, compile and install it from there. 
 </p>
 <p>
-<strong>0.2 Install a Modern TeX Distribution and the Skim PDF reader</strong>. If you are using OS X, <a href="http://www.tug.org/mactex/" title="MacTeX - TeX Users Group">download MacTeX here</a> and install it. The kit is set up to use the <a href="http://skim-app.sourceforge.net">Skim PDF reader</a> to display PDF files created from <code>.tex</code> files. You can use other readers, but will need to modify the setup in the <code>starter-kit-latex.org</code> file.
+<strong>0.2 Install a Modern TeX Distribution and the Skim PDF reader</strong>. If you are using MacOS, <a href="http://www.tug.org/mactex/" title="MacTeX - TeX Users Group">download MacTeX here</a> and install it.
 </p>
 <p>
 <strong>0.3 Install R and Pandoc</strong>. These are not strictly required for the installation to work, and you can skip this step if you like. But you will probably be using them anyway, if you're not already. If you're doing statistical work you will probably want to use R or Stata. R is free and you can <a href="http://www.r-project.org">download it here</a>. Pandoc is a very useful utility that lets you convert easily between many different forms of plain-text markup (such as Markdown, HTML, LaTeX, and others). <a href="http://pandoc.org/">Get Pandoc here</a>.
