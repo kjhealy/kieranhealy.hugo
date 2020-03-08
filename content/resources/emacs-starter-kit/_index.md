@@ -10,7 +10,7 @@ aliases:
 <h2>An Emacs Starter Kit for the Social Sciences</h2>
   
 <p>
-To accompany the <a href="http://www.kieranhealy.org/files/misc/workflow-apps.pdf">Choosing Your Workflow Applications</a> paper, here is <a href="https://github.com/kjhealy/emacs-starter-kit">the Emacs Starter Kit for the Social Sciences</a>. It is a version of Phil Hagelberg's <a href="http://github.com/technomancy/emacs-starter-kit/tree">emacs starter kit</a> by way of <a href="http://eschulte.github.com/emacs-starter-kit/" title="Emacs Starter Kit">Eric Schulte's</a> Org-Mode implementation. I've made some further tweaks and added some tools of particular use to social scientists. The starter-kit includes up-to-date versions of <a href="http://ess.r-project.org/">Emacs Speaks Statistics</a>, <a href="http://www.gnu.org/software/auctex/" title="AUCTeX - Sophisticated document creation">AucTeX</a>, <a href="http://philjackson.github.com/magit/" title="It's Magit!">Magit</a>, <a href="http://jblevins.org/projects/markdown-mode/" title="Emacs markdown-mode">Markdown mode</a>, <a href="http://code.google.com/p/yasnippet/" title="yasnippet - Project Hosting on Google Code">Yasnippet</a>, and assorted other useful bits and pieces. It should work immediately on Mac OS X with the current version of Emacs.
+To accompany the <a href="http://www.kieranhealy.org/files/misc/workflow-apps.pdf">Choosing Your Workflow Applications</a> paper, here is <a href="https://github.com/kjhealy/emacs-starter-kit">the Emacs Starter Kit for the Social Sciences</a>. It is a version of Phil Hagelberg's <a href="http://github.com/technomancy/emacs-starter-kit/tree">emacs starter kit</a> by way of <a href="http://eschulte.github.com/emacs-starter-kit/" title="Emacs Starter Kit">Eric Schulte's</a> Org-Mode implementation. I've made some further tweaks and added some tools of particular use to social scientists. The starter-kit includes up-to-date versions of <a href="http://ess.r-project.org/">Emacs Speaks Statistics</a>, <a href="http://www.gnu.org/software/auctex/" title="AUCTeX - Sophisticated document creation">AucTeX</a>, <a href="http://philjackson.github.com/magit/" title="It's Magit!">Magit</a>, <a href="http://jblevins.org/projects/markdown-mode/" title="Emacs markdown-mode">Markdown mode</a>, <a href="http://code.google.com/p/yasnippet/" title="yasnippet - Project Hosting on Google Code">Yasnippet</a>, and assorted other useful bits and pieces. It should work immediately on MacOS with the current version of Emacs.
 </p>
 <p>
 
@@ -27,10 +27,10 @@ To accompany the <a href="http://www.kieranhealy.org/files/misc/workflow-apps.pd
 What's the motivation for the starter kit? Emacs is a very powerful editor but it is less useful out-of-the-box than it might be, in part because many convenient settings and modes are not activated by default. The starter kit is a drop-in set of nice default settings. The idea is for you to be able to download GNU Emacs, put the starter kit into <code>~/.emacs.d/</code>, and get to work. If you already use Emacs and have a <code>.emacs</code> file or <code>~/.emacs.d</code> directory, the starter kit is designed to replace them, while leaving a place for you to easily append your own customizations.
 </p>
 <p>
-The starter kit is designed to be used with GNU Emacs. Version 24.4 (released October 2014) or later is required. The current version of Emacs (>25) is recommended. It will not work with <a href="http://aquamacs.org/" title="Aquamacs: Emacs for Mac OS X">Aquamacs</a> without modification. More detailed commentary and documentation is provided inside the kit's <code>.org</code> files. 
+The starter kit is designed to be used with the current version of GNU Emacs. It will probably not work with <a href="http://aquamacs.org/" title="Aquamacs: Emacs for MacOS">Aquamacs</a> without modification. More detailed commentary and documentation is provided inside the kit's <code>.org</code> files. 
 </p>
 <h2>
-Installation Instructions (Mac OS X)
+Installation Instructions (MacOS)
 </h2>
 
 <h3>Before you Begin</h3>
@@ -51,7 +51,7 @@ Prerequisites
 </h3>
 
 <p>
-<strong>0.1 Get Emacs</strong>. <a href="http://emacsformacosx.com/" title="GNU Emacs For Mac OS X">Download Emacs here</a>. Alternatively, if you are comfortable with <a href="https://brew.sh">Homebrew</a>, compile and install it from there. 
+<strong>0.1 Get Emacs</strong>. <a href="http://emacsformacosx.com/" title="GNU Emacs For MacOS">Download Emacs here</a>. Alternatively, if you are comfortable with <a href="https://brew.sh">Homebrew</a>, compile and install it from there. 
 </p>
 <p>
 <strong>0.2 Install a Modern TeX Distribution and the Skim PDF reader</strong>. If you are using OS X, <a href="http://www.tug.org/mactex/" title="MacTeX - TeX Users Group">download MacTeX here</a> and install it. The kit is set up to use the <a href="http://skim-app.sourceforge.net">Skim PDF reader</a> to display PDF files created from <code>.tex</code> files. You can use other readers, but will need to modify the setup in the <code>starter-kit-latex.org</code> file.
