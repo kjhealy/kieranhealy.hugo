@@ -13,12 +13,14 @@
     </header>
 
 {{ range .Pages.ByDate.Reverse }}
-<h2>{{ .Params.title | safeHTML }}</h2>
-<p class = "small"><a href="{{ .Permalink }}">(&rarr; Course Summary Page)</a></p> 
-
-<p>{{.Content}}</p>
-
-
+    <h2>{{ .Params.title | safeHTML }}</h2>
+    <p><a href="{{ .Permalink }}">&rarr; Course Summary Page</a> 
+  {{ if isset .Params "syllabus" }}
+  / <a href="{{ .Params.syllabus }}">Course Syllabus</a> 
+  {{ end }}
+  {{ if isset .Params "website" }}
+  / <a href="{{ .Params.website }}">Course Website</a></p>
+  {{ end }}  
 
 {{- end}}
 
@@ -29,3 +31,5 @@
 {{ end }}
 
 
+
+ 

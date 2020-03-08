@@ -5,6 +5,7 @@ enddate: "2016-05-30T00:00:00+11:00"
 publishdate: "2016-01-08"
 host: "Duke University"
 duration: 7776000
+syllabus: "http://www.kieranhealy.org/files/teaching/contemp-theory.pdf"
 ---
 
 This graduate-level course is an introduction to some main themes
@@ -15,5 +16,4 @@ social theory broadly conceived or to humanities-style "Theory".
 
 <!--more-->
 
-#### [Syllabus (PDF).](http://www.kieranhealy.org/files/teaching/contemp-theory.pdf) 
 
