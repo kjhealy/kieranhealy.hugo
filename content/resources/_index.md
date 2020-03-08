@@ -73,9 +73,8 @@ to set up a <code>.tex</code> file with a nice Article layout.</p>
 
 <h2><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h2>
 <p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a 
-href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too. The design is borrowed mostly from <a href="http://consequently.org/">Greg Restall</a>. If you want to look 
-under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the entire site is on GitHub</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you 
-to fork the project on GitHub and make them available to others in the same way. You should also change the Google Analytics information in the footer partial, or I will receive analytics information about your site.</p>    
+href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too, though the discussion there is now quite old. If you want to look 
+under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the code for the entire site is on GitHub</a>, along with a fork of the [theme](https://github.com/kjhealy/hugo-theme-even) the site uses. Fair warning: if you just want to set up a website with your research interests, contact information, and links to your publications, then there are [many simpler and more straightforward options](http://squarespace.com) you should seriously consider instead.</p>
         
   </div>
 
