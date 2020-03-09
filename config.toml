@@ -87,8 +87,11 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   keywords = ["", "",""]
   description = "."
 
-  # paginate of archives, tags and categories            
+  # paginate of archives, tags and categories
+  # general archives
   archivePaginate = 10
+  # blog archive, because we want full content on the blog inde
+  blogPaginate = 5
 
   # show 'xx Posts In Total' in archive page ?           
   showArchiveCount = false
