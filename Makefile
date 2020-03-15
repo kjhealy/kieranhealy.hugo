@@ -15,6 +15,10 @@ server: css
 deploy: site
 	rsync --exclude='.DS_Store' -Prvzce 'ssh -p 22' $(PUBLIC_DIR) $(SSH_USER):$(DOCUMENT_ROOT) 
 
+depdel: site
+	rsync --exclude='.DS_Store' -Prvzce 'ssh -p 22' --delete-after $(PUBLIC_DIR) $(SSH_USER):$(DOCUMENT_ROOT) 
+
+
 site: .FORCE
 	hugo 
 	find public -type d -print0 | xargs -0 chmod 755
