@@ -146,7 +146,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   [params.social]                                        
     a-email = "mailto:kjhealy@gmail.com"
     c-twitter = "http://twitter.com/kjhealy"
-    g-github = "http://github/com/kjhealy"
+    g-github = "http://github.com/kjhealy"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
