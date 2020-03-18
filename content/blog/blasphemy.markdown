@@ -10,7 +10,7 @@ categories:
 - Sociology
 ---
 
-I just finished a writing up a 500-word entry for a forthcoming *Encyclopedia of Economic Sociology*, edited by [Jens Beckert](http://www.amazon.com/exec/obidos/ASIN/0691049076/kieranhealysw-20/ref=nosim/%22) and Milan Zafiroski. (I was only about a year late. You'd think the blogging would have made 500-word chunks easy to churn out.) While reading the boilerplate in the contributor's agreement, I came across the following clause:
+I just finished a writing up a 500-word entry for a forthcoming *Encyclopedia of Economic Sociology*, edited by [Jens Beckert](http://www.amazon.com/exec/obidos/ASIN/0691049076/ref=nosim/%22) and Milan Zafiroski. (I was only about a year late. You'd think the blogging would have made 500-word chunks easy to churn out.) While reading the boilerplate in the contributor's agreement, I came across the following clause:
 
 > 2 (a) ... The Contributor further warrants that the Contribution contains nothing obscene, libellous, **blasphemous**, in breach of copyright or otherwise unlawful …
 

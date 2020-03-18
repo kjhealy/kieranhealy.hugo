@@ -10,7 +10,7 @@ categories:
 - Politics
 ---
 
-I've just discovered that complete versions of both [Yes, Minister](http://www.amazon.com/exec/obidos/ASIN/B00008DP4B/kieranhealysw-20/ref=nosim/) and [Yes, Prime Minister](http://www.amazon.com/exec/obidos/ASIN/B00009XN37/kieranhealysw-20/ref=nosim/) are available on DVD. On to the wish list they go. And I recommend you follow those links and buy them yourself, too.
+I've just discovered that complete versions of both [Yes, Minister](http://www.amazon.com/exec/obidos/ASIN/B00008DP4B/ref=nosim/) and [Yes, Prime Minister](http://www.amazon.com/exec/obidos/ASIN/B00009XN37/ref=nosim/) are available on DVD. On to the wish list they go. And I recommend you follow those links and buy them yourself, too.
 
 Question for discussion: Compare and contrast the political culture that gave us this series to the one that produced [The West Wing](http://www.nbc.com/The_West_Wing/).
 

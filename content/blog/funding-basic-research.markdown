@@ -10,7 +10,7 @@ categories:
 - Books
 ---
 
-My gradual progress through the multi-volume Latham and Matthews transcription of [The Diary of Samuel Pepys](http://www.amazon.com/exec/obidos/ASIN/0520225791/kieranhealysw-20/ref=nosim/) continues. Here we are on February 1st [1664](http://www.amazon.com/exec/obidos/ASIN/0520226968/kieranhealysw-20/ref=nosim/):
+My gradual progress through the multi-volume Latham and Matthews transcription of [The Diary of Samuel Pepys](http://www.amazon.com/exec/obidos/ASIN/0520225791/ref=nosim/) continues. Here we are on February 1st [1664](http://www.amazon.com/exec/obidos/ASIN/0520226968/ref=nosim/):
 
 > Thence to White-Hall, where in the Dukes chamber the King came and stayed an hour or two, laughing at Sir W. Petty, who was there about his boat, and at Gresham College in general … Gresham College he mightily laughed at for spending its time only in weighing of ayre, and doing nothing else since they sat.
 

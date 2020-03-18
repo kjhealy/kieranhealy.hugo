@@ -10,7 +10,7 @@ categories:
 - Internet
 ---
 
-Though it can never replace [the old one](http://www.amazon.com/exec/obidos/ASIN/1564782158/kieranhealysw-20/ref=nosim/), in what way is a new one needed?
+Though it can never replace [the old one](http://www.amazon.com/exec/obidos/ASIN/1564782158/ref=nosim/), in what way is a new one needed?
 
 Sorely.
 

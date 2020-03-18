@@ -14,9 +14,9 @@ Some comments to [this post](http://www.crookedtimber.org/archives/001639.html) 
 
 **Philosophy**: The immortal giants continue to dominate the field: Kant, Nietzsche, and Rand. Especially the latter. In Metaphysics and Epistemology, Descartes may sometimes be found and possibly also Quine (whose work was both anticipated and eclipsed by Ayn Rand, in the manner of Kierkegaard and Hegel). But the most exciting work in contemporary Metaphysics is being done by [David Icke](http://www.davidicke.com/), whose tightly-argued lizard ontology has revolutionized the field in recent years.
 
-**Sociology**: Dominated in the 1990s by research on the O.J. Simpson trial, sociologists have recently turned their attention to [Frank McCourt's early adulthood](http://www.amazon.com/exec/obidos/ASIN/0684865742/kieranhealysw-20/ref=nosim/) and [life in the year 2000](http://www.amazon.com/exec/obidos/ASIN/0553277375/kieranhealysw-20/ref=nosim/).
+**Sociology**: Dominated in the 1990s by research on the O.J. Simpson trial, sociologists have recently turned their attention to [Frank McCourt's early adulthood](http://www.amazon.com/exec/obidos/ASIN/0684865742/ref=nosim/) and [life in the year 2000](http://www.amazon.com/exec/obidos/ASIN/0553277375/ref=nosim/).
 
-**Economics**: The founding fathers, [Adam Smith](http://www.amazon.com/exec/obidos/ASIN/0553585975/kieranhealysw-20/ref=nosim/) and [Thomas Sowell](http://www.amazon.com/exec/obidos/ASIN/0465081452/kieranhealysw-20/ref=nosim/), are the mainstays of this now defunct field which barely hangs on, surrounded by better-grounded research programs like Stock Marketeering and Retirement Planning.
+**Economics**: The founding fathers, [Adam Smith](http://www.amazon.com/exec/obidos/ASIN/0553585975/ref=nosim/) and [Thomas Sowell](http://www.amazon.com/exec/obidos/ASIN/0465081452/ref=nosim/), are the mainstays of this now defunct field which barely hangs on, surrounded by better-grounded research programs like Stock Marketeering and Retirement Planning.
 
 **Law**: Core subjects like True Crime and Do-It-Yourself-Divorce Kits continue to be well-represented. But recently, constitutional theory has been on the rise through titles like David Bernstein's [*You Can't Say That I Didn't Publicize This Book Enough*](http://www.crookedtimber.org/archives/000750.html).
 

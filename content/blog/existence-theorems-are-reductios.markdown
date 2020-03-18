@@ -10,7 +10,7 @@ categories:
 - Sociology
 ---
 
-John Quiggin gives a modest defence of [existence theorems in economics](http://mentalspace.ranters.net/quiggin/archives/001228.html), one of the three real vices of economists according to [Deirdre McCloskey](http://www.amazon.com/exec/obidos/ASIN/0472067443/kieranhealysw-20/ref=nosim/).
+John Quiggin gives a modest defence of [existence theorems in economics](http://mentalspace.ranters.net/quiggin/archives/001228.html), one of the three real vices of economists according to [Deirdre McCloskey](http://www.amazon.com/exec/obidos/ASIN/0472067443/ref=nosim/).
 
 > Existence theorems, for McCloskey are the archetypal example of 'blackboard economics', mathematical games yielding purely qualitative results that can be overturned with modest changes in assumptions. They were the high point of mathematical economics in the 50s and 60s … There are a wide variety of 'impossibility theorems' demonstrating the non-existence of index numbers with various properties [an area of research interest for John]. Familiarity with such theorems can save a lot of pointless effort, and they are therefore worth looking for. **But an impossibility theorem is just the negative form of an existence theorem** (or, if you prefer, an existence theorem proves the impossibility of the corresponding impossibility theorem).
 

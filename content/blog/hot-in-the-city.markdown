@@ -10,7 +10,7 @@ categories:
 - Sociology
 ---
 
-*Draft review of [Heat Wave: A social autopsy of disaster in Chicago](http://www.amazon.com/exec/obidos/ASIN/0226443221/kieranhealysw-20/ref=nosim/), by Eric Klinenberg. Chicago: University of Chicago Press.*
+*Draft review of [Heat Wave: A social autopsy of disaster in Chicago](http://www.amazon.com/exec/obidos/ASIN/0226443221/ref=nosim/), by Eric Klinenberg. Chicago: University of Chicago Press.*
 
 In the middle of July of 1995, temperatures in Chicago rose to record heights as a mass of hot, humid air settled over the city. On Thursday the 16th, the high temperature was 106 degrees Fahrenheit, or just over 41 degrees centigrade. The humidity made it feel even hotter, more like 126 degrees (52 degrees centigrade). Chicago prides itself on being "the city that works," but during the week of the 13th to the 20th, the city's infrastructure, its administration and its people were tested to breaking point. Like the city's buildings and roads, Chicago's government, police force and hospitals buckled in the heat as they tried to deal with the crisis. In the end, epidemiologists found that there had been 739 excess deaths that week. "According to emergency workers, the task [of dealing with these deaths] was equivalent to having one fatal jetliner crash per day for three consecutive days" (p8). Eric Klinenberg describes and analyzes the effects of the heat wave in this ambitious book. His goal is to produce a "social autopsy" of the disaster by looking closely at the "social organs of the city" to "identify the conditions that contributed to the deaths of so many Chicago residents that July" (p11).
 

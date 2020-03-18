@@ -14,6 +14,6 @@ Based on the [heatmaps](https://kieranhealy.org/blog/archives/2018/12/04/heatmap
 
 Here's a [PDF version](https://kieranhealy.org/files/misc/france_blackposter.pdf) if you have access to a color printer or plotter and would like a hard copy.
 
-As before, the data are from [mortality.org](http://mortality.org), and the plots were produced in R using ggplot. The code to make them is [available on GitHub](https://github.com/kjhealy/lexis_surface). The sidebar was added in Adobe Illustrator. And, of course, if you'd like to learn how to make, refine, and understand plots like this, consider [buying my book](https://amzn.to/2vfAixM), *Data Visualization: A Practical Introduction*. 
+As before, the data are from [mortality.org](http://mortality.org), and the plots were produced in R using ggplot. The code to make them is [available on GitHub](https://github.com/kjhealy/lexis_surface). The sidebar was added in Adobe Illustrator. And, of course, if you'd like to learn how to make, refine, and understand plots like this, consider [buying my book](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624), *Data Visualization: A Practical Introduction*. 
 
 

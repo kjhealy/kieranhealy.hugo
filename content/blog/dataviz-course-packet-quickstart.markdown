@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-Chapter 2 of [Data Visualization](https://amzn.to/2vfAixM) walks you through setting up an R Project, and takes advantage of R Studio's support for RMarkdown templates. That is, once you've created your project in R Studio, can choose File > New File > R Markdown, like this:
+Chapter 2 of [Data Visualization](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624) walks you through setting up an R Project, and takes advantage of R Studio's support for RMarkdown templates. That is, once you've created your project in R Studio, can choose File > New File > R Markdown, like this:
 
 
 {{% figure src="https://kieranhealy.org/files/misc/rstudio_rmarkdown.png" alt="R Studio menu" caption="Select R Markdown ..." %}}

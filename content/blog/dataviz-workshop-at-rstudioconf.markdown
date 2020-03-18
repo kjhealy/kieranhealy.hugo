@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 > Workshop materials are available here:  https://rstd.io/conf20-dataviz <br>
-> Consider buying the book; it's good: [Data Visualization: A Practical Introduction](http://socviz.co) / [Buy on Amazon](https://amzn.to/2vfAixM)
+> Consider buying the book; it's good: [Data Visualization: A Practical Introduction](http://socviz.co) / [Buy on Amazon](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624)
 
 
 I was delighted to have the opportunity to teach a two-day workshop on Data Visualization using ggplot2 at this year's [rstudio::conf(2020)](https://rstudio.com/conference/) in January. It was my first time attending the conference and it was a terrific experience. I particularly appreciated the friendly and constructive atmosphere that RStudio so clearly goes out of its way to encourage and sustain.

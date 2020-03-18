@@ -10,7 +10,7 @@ categories:
 - Sociology
 ---
 
-Well, OK not really—Durkheim died in 1917. But there's more to crowds than [being able to estimate prices accurately](http://www.crookedtimber.org/archives/002357.html) and [The Elementary Forms of Religious Life](http://www.amazon.com/exec/obidos/ASIN/0029079373/kieranhealysw-20/ref=nosim/) is without doubt the place to begin when reflecting on the Republican Convention once the speeches are all done:
+Well, OK not really—Durkheim died in 1917. But there's more to crowds than [being able to estimate prices accurately](http://www.crookedtimber.org/archives/002357.html) and [The Elementary Forms of Religious Life](http://www.amazon.com/exec/obidos/ASIN/0029079373/ref=nosim/) is without doubt the place to begin when reflecting on the Republican Convention once the speeches are all done:
 
 > The force of the collectivity is not wholly external; it does not move us entirely from outside. Indeed … it must enter into us and become organized within us … This stimulating and invigorating effect of society is particularly apparent in certain circumstances. In the midst of an assembly that becomes worked up, we become capable of feelings and conduct which we are incapable when left to our individual resources … For this reason all parties—be they political, economic, or denominational—see to it that periodic conventions are held, at which their followers can renew their common faith by making a public demonstration of it together …
 >

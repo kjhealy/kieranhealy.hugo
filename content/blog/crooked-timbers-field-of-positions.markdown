@@ -10,7 +10,7 @@ categories:
 - Sociology
 ---
 
-Thanks to the SQL gurus who responded so quickly to my [question](http://crookedtimber.org/2005/04/22/sql-query-query/). Their help allowed me to get the data I wanted, namely, a table showing how often each of our authors has posted in each of our categories. A matrix like this allows for a [correspondence analysis](http://www.statsoft.com/textbook/stcoran.html) of the joint space of authors and topics, in the spirit of [Pierre Bourdieu](http://www.amazon.com/exec/obidos/ASIN/0804717982/kieranhealysw-20/ref=nosim/).
+Thanks to the SQL gurus who responded so quickly to my [question](http://crookedtimber.org/2005/04/22/sql-query-query/). Their help allowed me to get the data I wanted, namely, a table showing how often each of our authors has posted in each of our categories. A matrix like this allows for a [correspondence analysis](http://www.statsoft.com/textbook/stcoran.html) of the joint space of authors and topics, in the spirit of [Pierre Bourdieu](http://www.amazon.com/exec/obidos/ASIN/0804717982/ref=nosim/).
 
 I've updated the analysis from the original post, following some of my own advice to amalgamate the categories that different people were using to post a short joke or trivial item (like "Look like flies" or "Et Cetera" and so on). I grouped all of them into a "Trivia" category. "Books" and "Literature" were grouped together, as were "Internet", "Intellectual Property" and "Information Technology". Finally, I also grouped "British Politics" and "UK Politics" into a single category. Unfortunately I had to drop Jon Mandle from the analysis (sorry Jon!) because none of his posts has a category.
 

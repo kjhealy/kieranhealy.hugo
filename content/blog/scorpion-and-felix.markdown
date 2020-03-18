@@ -20,7 +20,7 @@ Well, as a matter of fact, he [did](http://www.marxists.org/archive/marx/works/1
 >
 > Thus the bases are precipitated, while the spirit evaporates.
 
-In his [biography of Marx](http://www.amazon.com/exec/obidos/ASIN/0393321576/ref=nosim/kieranhealysw-20), Francis Wheen points out that the convoluted parodic style seen in the novel was a feature of Marx's writing throughout his life, and in *Capital* in particular. He also notes that the passage above, with its contrast of Napoleon and Louis Philippe as giant and dwarf, clearly prefigures the famous opening of the *Eighteenth Brumaire*:
+In his [biography of Marx](http://www.amazon.com/exec/obidos/ASIN/0393321576/ref=nosim/), Francis Wheen points out that the convoluted parodic style seen in the novel was a feature of Marx's writing throughout his life, and in *Capital* in particular. He also notes that the passage above, with its contrast of Napoleon and Louis Philippe as giant and dwarf, clearly prefigures the famous opening of the *Eighteenth Brumaire*:
 
 > Hegel remarks somewhere that all great world-historic facts and personages appear, so to speak, twice. He forgot to add: the first time as tragedy, the second time as farce. Caussidiere after Danton, Louis Blanc after Robespierre, the *montagne* of 1848 to 1851 after the *montagne* of 1793 to 1795, and then the London constable [Louis Bonaparte], with a dozen of his best debt-ridden lieutenants, after the little corporal [Napoleon Bonaparte], with his roundtable of military marshalls.
 

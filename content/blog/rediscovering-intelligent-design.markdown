@@ -10,7 +10,7 @@ categories:
 - Misc
 ---
 
-Here is a likely poorly-specified question for biologists, prompted by wanting to buy Alan Weisman's [The World Without Us](http://www.amazon.com/exec/obidos/ASIN/0312347294/ref=nosim/kieranhealysw-20) and then reading a story about genetically modified mice. Weisman's book asks how the world would change and what of us would survive if humans were all wiped out overnight or just disappeared by something (a virus, the Rapture). The premise is unlikely (something that kills people—all people—but leaves the rest of the world standing) but intriguing.
+Here is a likely poorly-specified question for biologists, prompted by wanting to buy Alan Weisman's [The World Without Us](http://www.amazon.com/exec/obidos/ASIN/0312347294/ref=nosim/) and then reading a story about genetically modified mice. Weisman's book asks how the world would change and what of us would survive if humans were all wiped out overnight or just disappeared by something (a virus, the Rapture). The premise is unlikely (something that kills people—all people—but leaves the rest of the world standing) but intriguing.
 
 So I wondered, what if, long, long after our disappearance, some other species arose on earth at least as intelligent as us and eventually started doing evolutionary and molecular biology. Let's say they have a working theory of evolution much like our own. Now say for the sake of argument that a bunch of transgenic organisms produced by humans have survived and prospered in the interim. So our future biologists find things like a bacteria that produces insulin, or a plant that secretes insecticide, or rice that is high in beta carotene, or more exotic stuff as needed.[1]
 

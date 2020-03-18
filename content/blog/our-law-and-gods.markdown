@@ -14,7 +14,7 @@ As [Brian notes](http://www.crookedtimber.org/archives/002985.html) (via [Kevin 
 
 > [Clarence] Thomas is one of the few jurists today, conservative or otherwise, who understands and defends the principle that our rights come not from government but from a "creator" and "the laws of nature and of nature's God," as our Declaration of Independence says, and that the purpose and power of government should therefore be limited to protecting our natural, God-given rights.
 
-My feeling is that objections to Clarence Thomas's jurisprudence should focus on what we think people's rights are, substantively, rather than where we think they come from. But let me comment on the God vs Man question anyway. Actually, let Roberto Mangabeira Unger comment on it, from his [Politics](http://www.amazon.com/exec/obidos/ASIN/1859841317/kieranhealysw-20/ref=nosim/):
+My feeling is that objections to Clarence Thomas's jurisprudence should focus on what we think people's rights are, substantively, rather than where we think they come from. But let me comment on the God vs Man question anyway. Actually, let Roberto Mangabeira Unger comment on it, from his [Politics](http://www.amazon.com/exec/obidos/ASIN/1859841317/ref=nosim/):
 
 > Modern social thought was born proclaiming that society is made and imagined, that it is a human artifact rather than an expression of an underlying natural order.
 

@@ -4,7 +4,7 @@ author: Kieran Healy
 status: Published
 type: published
 kind: book
-citation: "<em>Data Visualization: A Practical Introduction</em>. Princeton University Press. <a  href=\"https://amzn.to/2vfAixM\" style = \"background-color: #F99F46;\">Buy on Amazon</a>"
+citation: "<em>Data Visualization: A Practical Introduction</em>. Princeton University Press. <a  href=\"https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624\" style = \"background-color: #F99F46;\">Buy on Amazon</a>"
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
@@ -16,7 +16,7 @@ publishdate: 2019-01-01
 
 Data Visualization: A Practical Introduction</a></em> teaches you how to make compelling data visualizations with R and ggplot2 in a clear, sensible, and reproducible way.
 
-<p><figure><a href="https://amzn.to/2vfAixM"><img src="http://kieranhealy.org/files/misc/dv-cover-pupress.jpg" align="right" width=800px alt="Data Visualization: A Practical Introduction"></a></figure></p>
+<p><figure><a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><img src="http://kieranhealy.org/files/misc/dv-cover-pupress.jpg" align="right" width=800px alt="Data Visualization: A Practical Introduction"></a></figure></p>
 
 <p>&nbsp;</p>
 

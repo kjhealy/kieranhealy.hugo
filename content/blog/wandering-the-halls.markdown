@@ -25,7 +25,7 @@ Seminar rooms in the building are helpfully labelled A to F. Some of them also h
 {{% figure src="https://kieranhealy.org/files/misc/coombs-map.jpg" alt="The Coombs Building Map." caption="It's very intuitive, really." %}}
 
 
-The information booth (if you can find it) is staffed by helpful people who will give you directions and even a map of the building. All the same, I may soon invest in a GPS unit of some sort, and a copy of [A Pattern Language](http://www.amazon.com/exec/obidos/ASIN/0195019199/kieranhealysw-20/ref=nosim/), which Chris has recommended before. The book offers a set of basic building patterns that make for livable and navigable spaces, and a set of rules for distinguishing patterns that work from ones that just look good on the drawing board. I wonder if the "three interlocking hexagons" pattern is in there somewhere.
+The information booth (if you can find it) is staffed by helpful people who will give you directions and even a map of the building. All the same, I may soon invest in a GPS unit of some sort, and a copy of [A Pattern Language](http://www.amazon.com/exec/obidos/ASIN/0195019199/ref=nosim/), which Chris has recommended before. The book offers a set of basic building patterns that make for livable and navigable spaces, and a set of rules for distinguishing patterns that work from ones that just look good on the drawing board. I wonder if the "three interlocking hexagons" pattern is in there somewhere.
 
 Any other contenders out there for least-easily navigable building in the world? More precisely, buildings which look at first glance like they *ought* to be navigable, but turn out to be impossible?
 

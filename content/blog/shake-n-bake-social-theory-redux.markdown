@@ -23,9 +23,9 @@ Take a few basic kinds of institutions, structures or practices that can be iden
 
 For example, you can say **Politics is really Markets**. This is Public Choice Theory. Because the market form is such a dominant feature of contemporary societies and of talk about them, applying the "*x* is really a market" trick to any given *x* is by now ubiquitous not just in theory but also often as a matter of common interpretation and even public policy, facts on the ground notwithstanding.
 
-**Markets are really Politics**. This is one wing of economic sociology—[Neil Fligstein's work](http://www.amazon.com/exec/obidos/ASIN/0691102546/kieranhealysw-20/ref=nosim/) for instance—but also a line of left-wing economics.
+**Markets are really Politics**. This is one wing of economic sociology—[Neil Fligstein's work](http://www.amazon.com/exec/obidos/ASIN/0691102546/ref=nosim/) for instance—but also a line of left-wing economics.
 
-**Markets are really Culture**. Viviana Zelizer's [*The Social Meaning of Money*](http://www.amazon.com/exec/obidos/ASIN/0465078923/kieranhealysw-20/ref=nosim/) takes the world of apparently cold-blooded economic exchange and shows how the ritual creation of social ties between people is fundamental to the nature of money. Alternatively, for a comparative approach read Frank Dobbin's [Forging Industrial Policy](http://www.amazon.com/exec/obidos/ASIN/052162990X/kieranhealysw-20/ref=nosim/) to see how 19th-century economic policy about Railroads took as its model different conceptions of the polity in each of France, Britain and the United States.
+**Markets are really Culture**. Viviana Zelizer's [*The Social Meaning of Money*](http://www.amazon.com/exec/obidos/ASIN/0465078923/ref=nosim/) takes the world of apparently cold-blooded economic exchange and shows how the ritual creation of social ties between people is fundamental to the nature of money. Alternatively, for a comparative approach read Frank Dobbin's [Forging Industrial Policy](http://www.amazon.com/exec/obidos/ASIN/052162990X/ref=nosim/) to see how 19th-century economic policy about Railroads took as its model different conceptions of the polity in each of France, Britain and the United States.
 
 **Organizations are really Ritual**. Meyer and Rowan's "[Institutional organizations: Formal structure as myth and ceremony](http://www.stanford.edu/~mmorten/orgweb/summaries/gsb/content/Meyer+Rowa1.html)" makes the case.
 
@@ -33,7 +33,7 @@ For example, you can say **Politics is really Markets**. This is Public Choice T
 
 **Ritual is really Markets**. Rational Choice theory of Religion.
 
-**Markets are really Networks**. Mark Granovetter; [Harrison White](http://www.amazon.com/exec/obidos/ASIN/0691088713/kieranhealysw-20/ref=nosim/). Production markets are really self-reproducing interfaces created by the mutual monitoring of firms trying to find a sustainable niche in a production system.
+**Markets are really Networks**. Mark Granovetter; [Harrison White](http://www.amazon.com/exec/obidos/ASIN/0691088713/ref=nosim/). Production markets are really self-reproducing interfaces created by the mutual monitoring of firms trying to find a sustainable niche in a production system.
 
 And so on and so forth.
 

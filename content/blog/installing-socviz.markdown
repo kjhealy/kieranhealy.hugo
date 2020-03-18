@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-I've gotten a couple of reports from people having trouble installing the development version of the `socviz` library that's meant to be used with *[Data Visualization: A Practical Introduction](https://amzn.to/2vfAixM)*. As best as I can tell, the difficulties are being caused by GitHub's rate limits. The symptom is that, after installing the `tidyverse` and `devtools` libraries, you try `install_github("kjhealy/socviz")` and get an error something like this:
+I've gotten a couple of reports from people having trouble installing the development version of the `socviz` library that's meant to be used with *[Data Visualization: A Practical Introduction](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624)*. As best as I can tell, the difficulties are being caused by GitHub's rate limits. The symptom is that, after installing the `tidyverse` and `devtools` libraries, you try `install_github("kjhealy/socviz")` and get an error something like this:
 
 ```{r}
 

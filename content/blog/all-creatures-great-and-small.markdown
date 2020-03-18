@@ -12,7 +12,7 @@ categories:
 - Sociology
 ---
 
-![image](http://www.kieranhealy.org/files/misc/kittyheaven.jpg) Technorati's [List of Popular Books](http://www.technorati.com/pop/books/) introduces me to [There is Eternal Life for Animals](http://www.amazon.com/exec/obidos/ASIN/0972030107/kieranhealysw-20), which argues that
+![image](http://www.kieranhealy.org/files/misc/kittyheaven.jpg) Technorati's [List of Popular Books](http://www.technorati.com/pop/books/) introduces me to [There is Eternal Life for Animals](http://www.amazon.com/exec/obidos/ASIN/0972030107/), which argues that
 
 > All animals go to heaven. How do we know? We look in the book that God left us, the Bible. This book takes you through the Bible and proves through the scriptures that there is life after death for all the animals. It covers:—God's relationship with the animals;—The current life of the animal kingdom;—The future life of the animals and its restoration;—What animals are currently in heaven;—Whether animals have souls and spirits;—Praying for animals. There Is Eternal Life For Animals includes numerous Bible scriptures, opinions and commentaries from Bible Theologians, visions, stories, near-death experiences of children, and personal experiences. It also reviews many of the original Greek and Hebrew words and their translations.
 

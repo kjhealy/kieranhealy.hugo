@@ -11,7 +11,7 @@ categories:
 - Sociology
 ---
 
-On a couple of long plane flights this week, I read Janet Browne's [Charles Darwin: The Power of Place](http://www.amazon.com/exec/obidos/ASIN/0691114390/kieranhealysw-20/), the second volume of her biography of Darwin. (I haven't read [Volume One](http://www.amazon.com/exec/obidos/ASIN/0691026068/kieranhealysw-20/).) I strongly recommend it. Three things stood out for me.
+On a couple of long plane flights this week, I read Janet Browne's [Charles Darwin: The Power of Place](http://www.amazon.com/exec/obidos/ASIN/0691114390/), the second volume of her biography of Darwin. (I haven't read [Volume One](http://www.amazon.com/exec/obidos/ASIN/0691026068/).) I strongly recommend it. Three things stood out for me.
 
 First, in an unobtrusive but compelling way, Browne brings insights from the sociology and social history of science to bear on her narrative. She discusses how Darwin was at the center of a vast and remarkable network of written correspondence: he wrote thousands of letters to all kinds of people, in the effort to gather information and clarify points of interpretation about everything from rare Malaysian birds to common English flowers. He built up and exploited this network for data over the course of many years, and then—when he was finally compelled to write the *Origin* (itself an interesting story)—he drew on it to quietly but efficiently promote and defend his ideas.
 

@@ -10,7 +10,7 @@ categories:
 - Books
 ---
 
-Our household has just finished reading [Harry Potter and the Order of the Phoenix](http://www.amazon.com/exec/obidos/ASIN/043935806X/kieranhealysw-20/ref=nosim/) and the general feeling is one of disappointment. Henry has [already written](http://www.crookedtimber.org/archives/000202.html) about the claim, made recently by the much-reviled [A.S. Byatt](http://www.nytimes.com/2003/07/07/opinion/07BYAT.html?th=&pagewanted=print&position=),that Harry is derivative and ersatz. The real problem is more that Harry seems to be an idiot.
+Our household has just finished reading [Harry Potter and the Order of the Phoenix](http://www.amazon.com/exec/obidos/ASIN/043935806X/ref=nosim/) and the general feeling is one of disappointment. Henry has [already written](http://www.crookedtimber.org/archives/000202.html) about the claim, made recently by the much-reviled [A.S. Byatt](http://www.nytimes.com/2003/07/07/opinion/07BYAT.html?th=&pagewanted=print&position=),that Harry is derivative and ersatz. The real problem is more that Harry seems to be an idiot.
 
 **Spoilers**, and a certain amount of ranting, ahead.
  

@@ -18,17 +18,17 @@ Alas, the main thing standing between us and better writing may be Microsoft Wor
 
 Sociologists are notoriously bad writers, of course, so when [writing papers](http://www.u.arizona.edu/~kjhealy/papers.php3), or even just blogging, I feel I have a lot to make up for. Pardon me. I mean, I've got a lot up for which to make. If you want to be a better writer, here are three books which will help a great deal. They cover three parts of the Eightfold Way of Writing: right grammar, right words, and right edits. (I'll make up the other five later.)
 
--   [The Deluxe Transitive Vampire](http://www.amazon.com/exec/obidos/ASIN/0679418601/kieranhealysw-20/ref=nosim/), by Karen Elizabeth Gordon.
+-   [The Deluxe Transitive Vampire](http://www.amazon.com/exec/obidos/ASIN/0679418601/ref=nosim/), by Karen Elizabeth Gordon.
 
-    The book about grammar with the best pictures. Read, look, learn. (Consider also [The New Well-Tempered Sentence](http://www.amazon.com/exec/obidos/ASIN/0395628830/kieranhealysw-20/ref=nosim/), Gordon's guide to punctuation.)
+    The book about grammar with the best pictures. Read, look, learn. (Consider also [The New Well-Tempered Sentence](http://www.amazon.com/exec/obidos/ASIN/0395628830/ref=nosim/), Gordon's guide to punctuation.)
 
--   [Bryson's Dictionary of Troublesome Words](http://www.amazon.com/exec/obidos/ASIN/0767910427/kieranhealysw-20/ref=nosim/), by Bill Bryson.
+-   [Bryson's Dictionary of Troublesome Words](http://www.amazon.com/exec/obidos/ASIN/0767910427/ref=nosim/), by Bill Bryson.
 
     Originally published in the 1980s and also known as "Facts on File: Dictionary of Troublesome Words" and "The Penguin Dictionary of Troublesome Words" (that's the version I have), this book is in the same spirit as Kevin's post. It lists troublesome words and phrases of all kinds (Affect or Effect? Pathos or Bathos? Can you Gild a Lily? Is that modifier dangling?) and explains their proper use in a reasonable way. There are lots of entertaining examples, too.
 
--   [The 10% Solution: Self-editing for the modern writer](http://www.amazon.com/exec/obidos/ASIN/0966818407/kieranhealysw-20/ref=nosim/), by Ken Rand.
+-   [The 10% Solution: Self-editing for the modern writer](http://www.amazon.com/exec/obidos/ASIN/0966818407/ref=nosim/), by Ken Rand.
     A quirky little book, but very useful. Amongst other things, Rand gives a list of words and phrases that everyone should search their writing for when editing. This alone is worth the price of book. The book tends to provoke strongly divergent reactions, as the Amazon reviews show. It has the virtue of being very cheap, so if you don't like it you'll only be down the price of a large latte.
 
-I've deliberately chosen less well-known guides, partly because everyone should have their copy of [Strunk & White](http://www.amazon.com/exec/obidos/ASIN/0205313426/kieranhealysw-20/ref=nosim/), but mostly because learning to write well means learning to write in your own voice, and each of these books has a strong personality.
+I've deliberately chosen less well-known guides, partly because everyone should have their copy of [Strunk & White](http://www.amazon.com/exec/obidos/ASIN/0205313426/ref=nosim/), but mostly because learning to write well means learning to write in your own voice, and each of these books has a strong personality.
 
 Oh yeah, before I forget. Using "incredibly" as a synonym for "very" is currently at the top of Kieran's List of Usage Peeves.

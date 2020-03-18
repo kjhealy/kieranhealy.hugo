@@ -16,4 +16,4 @@ This immediately led to an email from me, where I semi-politely tried to figure 
 
 The upshot is that, even though we've never actually met, we have now Placed Each Other. This is standard operating procedure for Irish people everywhere, especially when abroad. Roughly the procedure is, (1) Meet in bar. (2) Buy a few pints. (3) Conduct extensive exploration of family tree and social network until some connection is found. (4) When connection is inevitably discovered sit back with satisfaction and think "Ah, *now* I know who you are."
 
-This process amuses non-Irish people no end, not least because there always does seem to be a connection. Irish people are appallingly good at navigating their [small-world networks](http://www.amazon.com/exec/obidos/ASIN/0691005419/kieranhealysw-20/ref=nosim/).
+This process amuses non-Irish people no end, not least because there always does seem to be a connection. Irish people are appallingly good at navigating their [small-world networks](http://www.amazon.com/exec/obidos/ASIN/0691005419/ref=nosim/).

@@ -11,9 +11,9 @@ categories:
 - Sociology
 ---
 
-[![image](http://ec1.images-amazon.com/images/P/0226039706.01._AA240_SCLZZZZZZZ_.jpg)](http://www.amazon.com/exec/obidos/ASIN/0226039706/kieranhealysw-20/)
+[![image](http://ec1.images-amazon.com/images/P/0226039706.01._AA240_SCLZZZZZZZ_.jpg)](http://www.amazon.com/exec/obidos/ASIN/0226039706/)
 
-I just finished reading [*Doormen*](http://www.amazon.com/exec/obidos/ASIN/0226039706/kieranhealysw-20), by [Peter Bearman](http://www.iserp.columbia.edu/people/faculty_fellows/bearman.html). It's a study of the residential doormen who work in the buildings of New York's Upper West and East sides. A fairly restricted topic, to be sure, but the book is a small gem: the kind of sociology that takes a particular job and investigates it in a way that derives quite general lessons even as it delves into the specifics.
+I just finished reading [*Doormen*](http://www.amazon.com/exec/obidos/ASIN/0226039706/), by [Peter Bearman](http://www.iserp.columbia.edu/people/faculty_fellows/bearman.html). It's a study of the residential doormen who work in the buildings of New York's Upper West and East sides. A fairly restricted topic, to be sure, but the book is a small gem: the kind of sociology that takes a particular job and investigates it in a way that derives quite general lessons even as it delves into the specifics.
 
 Appropriately, *Doormen* was [featured in the *New Yorker*](http://www.newyorker.com/talk/content/articles/051010ta_talk_paumgarten) recently, though the article didn't convey the flavor of the book all that well. To get a better sense of it, you can [read an excerpt](http://www.press.uchicago.edu/Misc/Chicago/039706.html) from the chapter about the twists and turns surrounding the all-important Christmas bonus. In *Micromotives and Macrobehavior*, Thomas Schelling remarks that "not all ellipses are circles," meaning that not all systems of interdependent, decentralized interaction are markets. He uses the example of people trapped in a cycle of Christmas-card sending. Figuring out the bonus is one of life's ellipses, too, though a more complex one:
 

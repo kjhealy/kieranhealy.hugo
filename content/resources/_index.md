@@ -78,13 +78,13 @@ under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="T
   </div>
 
 <div>
-<h2><a href="https://amzn.to/2vfAixM">Data Visualization: A Practical Introduction</a> &rarr;</h2>
-    <p><a href="https://amzn.to/2vfAixM"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
+<h2><a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624">Data Visualization: A Practical Introduction</a> &rarr;</h2>
+    <p><a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
     </p>
 
 <h2>R Packages</h2>
 
-<p><strong><a href="http://kjhealy.github.io/socviz">socviz</a></strong>. The <a href="http://kjhealy.github.io/socviz">socviz package</a> supports the <a href="https://amzn.to/2vfAixM"><em>Data Visualization</em></a> book with a collection of small datasets and functions to help draw good graphs in R and ggplot.</p>
+<p><strong><a href="http://kjhealy.github.io/socviz">socviz</a></strong>. The <a href="http://kjhealy.github.io/socviz">socviz package</a> supports the <a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><em>Data Visualization</em></a> book with a collection of small datasets and functions to help draw good graphs in R and ggplot.</p>
 
 <p><strong><a href="http://kjhealy.github.io/gssr">The GSS for R</a></strong> The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and Three Wave Panel data files in an R-friendly format, together with their codebooks (as tibbles). </p>
 

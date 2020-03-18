@@ -10,7 +10,7 @@ categories:
 - Politics
 ---
 
-If I were less tired, I would write a post exploring the applicability, in our post-WMD world, of [The Five Standard Excuses for any Failed Government Project](http://www.yes-minister.com/polterms.htm#5%20Standard%20Excuses) described by Sir Humphrey in [Yes, Minister](http://www.amazon.com/exec/obidos/ASIN/B00008DP4B/kieranhealysw-20/ref=nosim/). I conjecture that some varietal of each of them will be found in talk about Iraq as [prior certainties](http://www.google.com/search?hl=en&ie=ISO-8859-1&q=%22we+know+he+has+weapons+of+mass+destruction%22&btnG=Google+Search) about Saddam's monstrous armaments [evaporate](http://www.crookedtimber.org/archives/001248.html). The excuses are as follows:
+If I were less tired, I would write a post exploring the applicability, in our post-WMD world, of [The Five Standard Excuses for any Failed Government Project](http://www.yes-minister.com/polterms.htm#5%20Standard%20Excuses) described by Sir Humphrey in [Yes, Minister](http://www.amazon.com/exec/obidos/ASIN/B00008DP4B/ref=nosim/). I conjecture that some varietal of each of them will be found in talk about Iraq as [prior certainties](http://www.google.com/search?hl=en&ie=ISO-8859-1&q=%22we+know+he+has+weapons+of+mass+destruction%22&btnG=Google+Search) about Saddam's monstrous armaments [evaporate](http://www.crookedtimber.org/archives/001248.html). The excuses are as follows:
 
 > 1. There is a perfectly satisfactory explanation for everything but security prevents its disclosure. (The [Anthony Blunt](http://www.bbc.co.uk/history/historic_figures/blunt_anthony.shtml) excuse.)
 >  2. It has only gone wrong because of heavy cuts in staff and budget which have stretched supervisory resources beyond the limit.

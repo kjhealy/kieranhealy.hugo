@@ -12,7 +12,7 @@ categories:
 - Sociology
 ---
 
-Review of *[Freakonomics](http://www.amazon.com/exec/obidos/ASIN/006073132X/kieranhealysw-20/ref=nosim/)*, by Steven Levitt and Stephen Dubner.
+Review of *[Freakonomics](http://www.amazon.com/exec/obidos/ASIN/006073132X/ref=nosim/)*, by Steven Levitt and Stephen Dubner.
 
 I'll admit that I rolled my eyes a little at first. Behold the Freakonomist! "Politically incorrect in the best, most essential way," said the blurb. A "rogue economist," who goes out of his way in the first few pages to say he is "afraid of calculus" and doesn't know how to do theory. Amazing! Incidentally, he trained at Harvard and MIT, was at the Harvard Society of Fellows, won the John Bates Clark medal and teaches at the University of Chicago. Now there's a sociologically interesting kind of maverick. If only my own fear of calculus had propelled me towards the same peripheries. But this is unfair. Steven Levitt does first-class work that's reliably provocative in the most productive sort of way. The packaging of the book—the silly title, the song-and-dance to make Levitt himself seem a little, well, freakish—seems mostly the result of getting a journalist and a marketing department on board and turning out the goods a little too fast. The product is a bit thin. But the underlying material is terrific.
 

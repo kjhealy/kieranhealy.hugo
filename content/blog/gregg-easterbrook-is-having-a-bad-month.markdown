@@ -16,7 +16,7 @@ By "the spiritual debate" I believe Gregg means "the question of the existence o
 
 > At Yale, Princeton, Stanford, and other top schools, researchers discuss ten unobservable dimensions, or an infinite number of imperceptible universes, without batting an eye.
 
-Cosmologists and astrophysicists are indeed [known for their ability](http://www.physicstoday.org/pt/vol-54/iss-12/p10.html) to come up with quite striking hypotheses of this sort. Though in this case they may have been anticipated [by philosophers](http://www.amazon.com/exec/obidos/ASIN/0631224262/kieranhealysw-20/ref=nosim/).
+Cosmologists and astrophysicists are indeed [known for their ability](http://www.physicstoday.org/pt/vol-54/iss-12/p10.html) to come up with quite striking hypotheses of this sort. Though in this case they may have been anticipated [by philosophers](http://www.amazon.com/exec/obidos/ASIN/0631224262/ref=nosim/).
 
 > No one considers discussion of other dimensions to be peculiar. Ten unobservable dimensions, an infinite number of invisible parallel universes—hey, why not?
 

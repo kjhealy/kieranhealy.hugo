@@ -10,7 +10,7 @@ categories:
 - Books
 ---
 
-Draft review of [A Man After His Own Heart](http://www.amazon.com/exec/obidos/ASIN/1565847709/kieranhealysw-20/ref=nosim/), by Charles Siebert. (Final version to appear in [The Drawing Board](http://www.econ.usyd.edu.au/drawingboard/).)
+Draft review of [A Man After His Own Heart](http://www.amazon.com/exec/obidos/ASIN/1565847709/ref=nosim/), by Charles Siebert. (Final version to appear in [The Drawing Board](http://www.econ.usyd.edu.au/drawingboard/).)
 
 The language of the heart is all-pervasive. Art and everyday life are full of emotions expressed through talk about the heart, be it given or joined, singing or broken, closed or kind. The Ancient Greek view that the liver is the seat of the soul can seem plausible on a good Friday night, and Descartes' case that it's our head that matters may be felt with some force the following morning. For sheer range of metaphor, though, the heart has no serious competitors. But what about the thing itself? The cheerful curve of a Valentine's heart does not convey what a real heart looks like. A heart ache is not a heart attack. We all know that the heart is a pump that moves blood around the body, but very few of us could give an accurate account of how it happens. The dynamic interplay of all those chambers, arteries and valves is difficult to picture, hard to explain, and took a very long time to discover.
 
