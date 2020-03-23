@@ -81,7 +81,7 @@ coalesce_join <- function(x, y,
                           join = dplyr::full_join, ...) {
     joined <- join(x, y, by = by, suffix = suffix, ...)
     # names of desired output
-    cols <- union(names(x), names(y))
+    cols <- dplyr::union(names(x), names(y))
     
     to_coalesce <- names(joined)[!names(joined) %in% cols]
     suffix_used <- suffix[ifelse(endsWith(to_coalesce, suffix[1]), 1, 2)]
