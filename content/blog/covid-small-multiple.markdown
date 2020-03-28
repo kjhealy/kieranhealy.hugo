@@ -134,7 +134,7 @@ We drop `cname` in the `cov_case_curve_bg` layer, because we're going to facet b
 
 And now we can draw the plot. 
 
-{{< highlight r >}}
+```r {linenos=table,hl_lines=[6,10,13,20,28,30,40]}
 
 cov_case_sm <- cov_case_curve  %>%
   filter(iso3 %in% top_50$iso3) %>%
@@ -186,5 +186,5 @@ cov_case_sm <- cov_case_curve  %>%
 ggsave("figures/cov_case_sm.png", 
        cov_case_sm, width = 10, height = 12, dpi = 300)
 
-{{< /highlight >}}
+```
 
