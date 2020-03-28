@@ -134,7 +134,7 @@ We drop `cname` in the `cov_case_curve_bg` layer, because we're going to facet b
 
 And now we can draw the plot. 
 
-```r {linenos=table,hl_lines=[6,10,13,20,28,30,40]}
+```r {linenos=table,hl_lines=[5,9,12,19,27,29,39]}
 
 cov_case_sm <- cov_case_curve  %>%
   filter(iso3 %in% top_50$iso3) %>%
