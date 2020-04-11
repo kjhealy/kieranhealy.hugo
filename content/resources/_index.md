@@ -10,7 +10,7 @@ type: page
 
 
 <div> <div> <h2><a href="http://plain-text.co">The Plain Person's
-  Guide to Plain Text Social Science</a> &rarr;</h2> <p><a
+  Guide to Plain Text Social Science</a> &rarr;</h2> <p class = "clearfix"><a
   href="http://plain-text.co"><img src =
   "https://kieranhealy.org/files/misc/plaintext_cover_tiny.png"
   style="float: left; padding: 5px 10px 5px 3px;"></a> Available
@@ -40,10 +40,23 @@ type: page
   because no humane person should recommend Emacs without presenting
   some other options as well.</p>
 
+<h2>R Packages</h2>
+
+<p class = "clearfix"><a href="http://kjhealy.github.io/socviz"><img src = "/files/misc/hex-socviz.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/socviz">socviz package</a> supports the <a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><em>Data Visualization</em></a> book with a collection of datasets and utility functions to help you draw good graphs in R and ggplot. </p>
+
+<p class = "clearfix"><a href="http://kjhealy.github.io/gssr"><img src = "/files/misc/hex-gssr.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the complete General Social Survey cumulative data file (1972-2018) and Three Wave Panel data files in an R-friendly format, together with their codebooks. </p>
+
+<p class = "clearfix"><a href="http://kjhealy.github.io/nycdogs"><img src = "/files/misc/hex-nycdogs.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/nycdogs">nycdogs package</a> is a fun dataset (actually three separate tibbles: licenses, bites, and zip codes) taken from New York City's Open Data initiative, cleaned up and packaged for R. It's useful for teaching <a href ="http://dplyr.tidyverse.org">dplyr</a>, for drawing maps, and for seeing where dogs with particular names live. </p>
+
+
+<p class = "clearfix"><a href="http://kjhealy.github.io/uscenpops"><img src = "/files/misc/hex-uscenpops.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/uscenpops">uscenpops package</a> contains a table of birth counts for the United States by year-of-age and sex for every year from 1900 to 2018.</p>
+
+
+<p class = "clearfix"><a href="http://kjhealy.github.io/covdata"><img src = "/files/misc/hex-covdata.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/covdata">covdata package</a> contains data on reported cases of and deaths from COVID-19 from three sources: (1) Cross-national data from the <a href="https://www.ecdc.europa.eu/en">European Centers for Disease Control</a> (2) State-level data for the United States from the <a href = "https://covidtracking.com">COVID Tracking Project</a>. (3) State-level and county-level data for the United States from the <a href = "https://github.com/nytimes/covid-19-data">New York Times</a>.</p>
+
 <h2><a href="https://github.com/kjhealy/pandoc-templates">Pandoc Templates</a> &rarr;</h2>
 <p>Some Pandoc templates meant to go in <code>~/.pandoc/templates</code>. Point to them directly from the command line, use them with what's provided in <a 
-href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>, or use them as part of a Markdown or RMarkdown workflow.
-</p>
+href="http://github.com/kjhealy/latex-custom-kjh"><code>latex-custom-kjh</code></a>, or use them as part of a Markdown or RMarkdown workflow. </p>
 
 <h2><a href="http://github.com/kjhealy/latex-custom-kjh">LaTeX Templates and Styles</a> &rarr;</h2>
 <p>A collection of LaTeX style files, templates, and org-mode documents providing some nice layouts for typesetting articles using pdfLaTeX or XeLaTeX. They make a pipeline that, for example, lets you begin with an 
@@ -78,24 +91,21 @@ under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="T
   </div>
 
 <div>
+<div class = "clearfix">
 <h2><a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624">Data Visualization: A Practical Introduction</a> &rarr;</h2>
     <p><a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><img src = "https://kieranhealy.org/files/misc/dv_cover_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> <em>Data Visualization: A Practical Introduction</em> is published by Princeton University Press. It introduces you to both the ideas and the methods of data visualization in a clear, sensible, and reproducible way, using R and ggplot2. It is accompanied by an <a href="http://kjhealy.github.io/socviz">R package</a> containing supporting materials for teaching and learning, including a variety of datasets, convenience functions, and an R Studio project file containing all the code for each of the book's chapters.
     </p>
 
-<h2>R Packages</h2>
+</div>
+<br />
 
-<p><strong><a href="http://kjhealy.github.io/socviz">socviz</a></strong>. The <a href="http://kjhealy.github.io/socviz">socviz package</a> supports the <a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><em>Data Visualization</em></a> book with a collection of small datasets and functions to help draw good graphs in R and ggplot.</p>
-
-<p><strong><a href="http://kjhealy.github.io/gssr">The GSS for R</a></strong> The <a href="http://kjhealy.github.io/gssr">gssr package</a> provides the General Social Survey cumulative data file (1972-2018) and Three Wave Panel data files in an R-friendly format, together with their codebooks (as tibbles). </p>
-
-<p><strong><a href="http://kjhealy.github.io/nycdogs">Dogs of New York</a></strong> The <a href="http://kjhealy.github.io/nycdogs">nycdogs package</a> is a fun dataset (actually three separate tibbles: licenses, bites, and zip codes) that I took from New York City's awesome Open Data site, cleaned, and packaged for R. It's useful for teaching <a href ="http://dplyr.tidyverse.org">dplyr</a>, for drawing maps, and for seeing where dogs with particular names live. </p>
-
-
-<h2><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h2>
+<div class = "clearfix">
+<h2 style="clear:right"><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/">Making Slides</a></h2>
 
 <p><a href="https://kieranhealy.org/blog/archives/2018/03/24/making-slides/"><img src = "https://kieranhealy.org/files/misc/sampletalk_tiny.png" style="float: left; padding: 5px 10px 5px 3px;"></a> This is a short talk, originally given in my Departmental Proseminar, on the topic of giving presentations. I discuss how to think about your talk in general (and how to distinguish it from the paper you're taking about, on the one hand, and the slides you're showing people, on the other.) I then say some things about how to use slides to best get your point across.</p> 
 
 <p> &nbsp; </p>
+</div>
 
 <h2><a href="http://kjhealy.github.com/kjh-vita/">So You Like My Vita</a> &rarr;</h2>
 <p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.com/kjh-vita/" 
