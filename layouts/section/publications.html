@@ -3,6 +3,7 @@
 {{- define "content" }}
 
 {{ $baseurl := .Site.BaseURL }}
+ <article class="post">
 
 <div class="content-wrapper">
   <div id="content" class="content">
@@ -10,11 +11,9 @@
     <!-- post-header -->
     <header class="post-header">
       <h1 class="post-title">{{ .Title }}</h1>
-
     </header>
     
-<!-- <h1 class = "post post-title">Publications</h1> -->
-
+ 
 <div>
   <h4><a href="https://kieranhealy.org/vita.pdf"><em>Full Curriculum Vitae in PDF format</em></a></h4>
 </div>  
@@ -95,6 +94,6 @@
 
   </div>
 </div>
-
+</article>
 {{- end }}
 
