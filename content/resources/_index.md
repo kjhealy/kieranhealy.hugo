@@ -6,7 +6,7 @@ type: page
 
 <p><em>This page has links to configuration files, R packages, templates, and a few other things that might be of use to people who want to write (and give talks about) well-formatted social science papers using plain text tools.</em></p> 
 
-<figure><img src="https://kieranhealy.org/files/misc/workflow-wide-tx.png"><figcaption>The Sausage Factory</figcaption></figure>
+<figure><img src="https://kieranhealy.org/files/misc/worfklow-wide-v2.png"><figcaption>The Sausage Factory</figcaption></figure>
 
 
 <div> <div> <h2><a href="http://plain-text.co">The Plain Person's
