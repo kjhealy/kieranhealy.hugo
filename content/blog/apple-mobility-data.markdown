@@ -1,13 +1,13 @@
 ---
 title: "Apple's COVID Mobility Data"
 date: 2020-04-23T08:16:08-04:00
-categories: [Sociology,Visualization,Apple]
+categories: [Sociology,Visualization,Apple,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false
 ---
 
-Apple recently released [a batch of mobility data](https://www.apple.com/covid19/mobility) in connection with the COVID-19 pandemic. The data is aggregated from requests for directions in Apple Maps and is provided at the level of whole countries and also of a selection of large cities around the world. I folded the dataset into the [covdata package for R](https://kjhealy.github.io/covdata/) that I've been updating, as I plan to use it this Fall in a course I'll be teaching. Here I'll take a quick look at some of the data. Along the way---as it turns out---I end up reminding myself of a lesson I've learned before about making sure you understand your measure before you think you understand what it is showing.
+Apple recently released [a batch of mobility data](https://www.apple.com/covid19/mobility) in connection with the COVID-19 pandemic. The data is aggregated from requests for directions in Apple Maps and is provided at the level of whole countries and also for a selection of large cities around the world. I folded the dataset into the [covdata package for R](https://kjhealy.github.io/covdata/) that I've been updating, as I plan to use it this Fall in a course I'll be teaching. Here I'll take a quick look at some of the data. Along the way---as it turns out---I end up reminding myself of a lesson I've learned before about making sure you understand your measure before you think you understand what it is showing.
 
 Apple released time series data for countries and cities for each of three modes of getting around: driving, public transit, and walking. The series begins on January 13th and, at the time of writing, continues down to April 20th. The mobility measures for every country or city are indexed to 100 at the beginning of the series, so trends are relative to that baseline. We don't know anything about the absolute volume of usage of the Maps service. 
 
@@ -33,7 +33,7 @@ Here's what the data look like:
 
 {{< /highlight >}}
 
-The `index` is the measured outcome, tracking relative usage of each service. Let's take a look at the data for New York. 
+The `index` is the measured outcome, tracking relative usage of directions for each mode of transportation. Let's take a look at the data for New York. 
 
 {{< highlight r >}}
 raw_ny <- apple_mobility %>%
@@ -70,7 +70,7 @@ p_raw_ny
 
 As you can see, we have three series. The weekly pulse of activity is immediately visible as people do more or less walking, driving, and taking the subway depending on what day it is. Remember that the data is based on requests for directions. So on the one hand, taxis and Ubers might be making that sort of request every trip. But people living in New York do not require turn-by-turn or step-by-step directions in order to get to work. They already know how to get to work. Even if overall activity is down at the weekends, requests for directions go up as people figure out how to get to restaurants, social events, or other destinations. On the graph here I've marked the highest relative value of requests for directions, which is for foot-traffic on February 22nd. I'm not interested in that particular date for New York, but when we look at more than one city it might be useful to see how the maximum values vary.
 
-The big COVID-related drop-off in mobility clearly comes in mid-March. We might want to see just that trend, removing the "noise" of daily variation. When looking at time series, we often want to decompose the series into components, in order to see some underlying trend. There are many ways to do this, and many decisions to be made if we're going to be making any strong inferences from the data. Here I'll just keep it straightforward and use some of the very handy tools provided by the [tidyverts](https://tidyverts.org) (sic) packages for time-series analysis. We'll use an [STL decomposition](https://feasts.tidyverts.org/reference/STL.html) to decompose the series into _trend_, _seasonal_, and _remainder_ components. In this case the "season" is a week rather than a month or a calendar quarter. The trend is a locally-weighted regression fitted to the data. The remainder is the residual left over on any given day once the underlying trend and "normal" daily fluctuations have been accounted for. Here's the trend for New York.  
+The big COVID-related drop-off in mobility clearly comes in mid-March. We might want to see just that trend, removing the "noise" of daily variation. When looking at time series, we often want to decompose the series into components, in order to see some underlying trend. There are many ways to do this, and many decisions to be made if we're going to be making any strong inferences from the data. Here I'll just keep it straightforward and use some of the very handy tools provided by the [tidyverts](https://tidyverts.org) (sic) packages for time-series analysis. We'll use an [STL decomposition](https://feasts.tidyverts.org/reference/STL.html) to decompose the series into _trend_, _seasonal_, and _remainder_ components. In this case the "season" is a week rather than a month or a calendar quarter. The trend is a locally-weighted regression fitted to the data, net of seasonality. The remainder is the residual left over on any given day once the underlying trend and "normal" daily fluctuations have been accounted for. Here's the trend for New York.  
 
 {{< highlight r >}}
 resids_ny <- apple_mobility %>%
@@ -170,7 +170,7 @@ ggplot(raw_ts, mapping = aes(x = date, y = index,
 
 {{% figure src="/files/misc/apple_raw_tall.png" alt="" caption="Selected cities only. Touch or click to zoom." %}}
 
-What's going on here? At this point, it might useful to take a look at the residual or remainder component of the series rather than looking at the raw data, so we can see if something interesting is happening. 
+Look at all those transit peaks on February 17th. What's going on here? At this point, it might useful to take a look at the residual or remainder component of the series rather than looking at the raw data, so we can see if something interesting is happening. 
 
 {{< highlight r >}}
 resids <- apple_mobility %>%
@@ -215,5 +215,5 @@ After wondering aloud about this on Twitter, the best candidate for an explanati
 
 In this case, there's a further wrinkle. I probably would have been quicker to twig what was going on had I looked a little harder at the raw data rather than moving to the remainder component of the time series decomposition. Having had my eye caught by Rio's big Carnival spike I went to look at the remainder component for all these cities and so ended up focusing on that. But if you look again at the raw city trends you can see that the transit data series (the blue line) spikes up on February 17th but then _sticks around_ afterwards, settling in to a regular presence, at quite a high relative level in comparison to its previous non-existence. And this of course is because people have begun to use this new feature regularly. If we'd had raw data on the absolute levels of usage in transit directions this would likely have been clearly more quickly.
 
-The tendency to launch right into what social scientists call the "Storytime!" phase of data analysis when looking at some graph or table of results is really strong. We already know from other COVID-related analysis how tricky and indeed dangerous it can be to mistakenly infer too much from what you think you see in the data. ([Here's a recent example.](https://statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence/)) Taking care to understand what your measurement instrument is doing really does matter. In this case, I think, it's all the more important because with data of the sort that Apple (and also [Google](https://www.google.com/covid19/mobility/index.html?hl=en)) have released, the tendency is just to jump into it and start speculating. That's because we don't often get to play with even highly aggregated data from sources like this. I wonder if, in the next year or so, someone doing an ecological, city-level  analysis of social response to COVID-19 will inadvertently get caught out by the change in the measure lurking in this dataset. 
+The tendency to launch right into what social scientists call the "Storytime!" phase of data analysis when looking at some graph or table of results is really strong. We already know from other COVID-related analysis how tricky and indeed dangerous it can be to mistakenly infer too much from what you think you see in the data. ([Here's a recent example.](https://statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence/)) Taking care to understand what your measurement instrument is doing really does matter. In this case, I think, it's all the more important because with data of the sort that Apple (and also [Google](https://www.google.com/covid19/mobility/index.html?hl=en)) have released, it's fun to just jump into it and start speculating. That's because we don't often get to play with even highly aggregated data from sources like this. I wonder if, in the next year or so, someone doing an ecological, city-level  analysis of social response to COVID-19 will inadvertently get caught out by the change in the measure lurking in this dataset. 
 
