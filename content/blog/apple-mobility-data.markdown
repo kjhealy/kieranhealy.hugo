@@ -106,7 +106,7 @@ p_resid_ny <- ggplot(resids_ny, aes(x = date, y = remainder, group = mode, color
 
 {{% figure src="/files/misc/apple_nyc_trend.png" alt="" caption="Trend component of the New York series. Touch or click to zoom." %}}
 
-We can make small multiple showing the raw data (or the components, as we please) for all the cities in the dataset if we like:
+We can make a small multiple graph showing the raw data (or the components, as we please) for all the cities in the dataset if we like:
 
 {{< highlight r >}}
 p_base_all <- apple_mobility %>%
@@ -129,7 +129,7 @@ p_base_all
 
 {{% figure src="/files/misc/apple_all_cities_raw.png" alt="" caption="Data for all cities. Touch or click to zoom." %}}
 
-This isn't the sort of graph that's going to look great on your phone, but it's useful for getting some overall sense of the trends. Beyond the sharp declines everywhere---with slightly different timings, something that'd be worth looking at separately---a few other things pop out. There's a fair amount of variation across cities by mode of transport and also by the intensity of the seasonal component. No-one is walking anywhere in Dubai. Some sharp spikes are evident, too, not always on the same day or by the same mode of transport. We can take a closer look at some of the cities of interest on this front. 
+This isn't the sort of graph that's going to look great on your phone, but it's useful for getting some overall sense of the trends. Beyond the sharp declines everywhere---with slightly different timings, something that'd be worth looking at separately---a few other things pop out. There's a fair amount of variation across cities by mode of transport and also by the intensity of the seasonal component. Some sharp spikes are evident, too, not always on the same day or by the same mode of transport. We can take a closer look at some of the cities of interest on this front. 
 
 {{< highlight r >}}
 focus_on <- c("Rio de Janeiro", "Lyon", "Bochum - Dortmund", "Dusseldorf",
@@ -170,7 +170,7 @@ ggplot(raw_ts, mapping = aes(x = date, y = index,
 
 {{% figure src="/files/misc/apple_raw_tall.png" alt="" caption="Selected cities only. Touch or click to zoom." %}}
 
-Look at all those transit peaks on February 17th. What's going on here? At this point, it might useful to take a look at the residual or remainder component of the series rather than looking at the raw data, so we can see if something interesting is happening. 
+Look at all those transit peaks on February 17th. What's going on here? At this point, we could take a look at the residual or remainder component of the series rather than looking at the raw data, so we can see if something interesting is happening. 
 
 {{< highlight r >}}
 resids <- apple_mobility %>%
@@ -213,7 +213,7 @@ After wondering aloud about this on Twitter, the best candidate for an explanati
 
 > As a rule, when you see a sharp change in a long-running time-series, you should always check to see if some aspect of the data-generating process changed—such as the measurement device or the criteria for inclusion in the dataset—before coming up with any substantive stories about what happened and why. This is especially the case for something susceptible to change over time, but not to extremely rapid fluctuations. ...  As Tom Smith, the director of the General Social Survey, likes to say, if you want to measure change, you can’t change the measure.
 
-In this case, there's a further wrinkle. I probably would have been quicker to twig what was going on had I looked a little harder at the raw data rather than moving to the remainder component of the time series decomposition. Having had my eye caught by Rio's big Carnival spike I went to look at the remainder component for all these cities and so ended up focusing on that. But if you look again at the raw city trends you can see that the transit data series (the blue line) spikes up on February 17th but then _sticks around_ afterwards, settling in to a regular presence, at quite a high relative level in comparison to its previous non-existence. And this of course is because people have begun to use this new feature regularly. If we'd had raw data on the absolute levels of usage in transit directions this would likely have been clearly more quickly.
+In this case, there's a further wrinkle. I probably would have been quicker to twig what was going on had I looked a little harder at the raw data rather than moving to the remainder component of the time series decomposition. Having had my eye caught by Rio's big Carnival spike I went to look at the remainder component for all these cities and so ended up focusing on that. But if you look again at the raw city trends you can see that the transit data series (the blue line) spikes up on February 17th but then _sticks around_ afterwards, settling in to a regular presence, at quite a high relative level in comparison to its previous non-existence. And this of course is because people have begun to use this new feature regularly. If we'd had raw data on the absolute levels of usage in transit directions this would likely have been clear more quickly.
 
 The tendency to launch right into what social scientists call the "Storytime!" phase of data analysis when looking at some graph or table of results is really strong. We already know from other COVID-related analysis how tricky and indeed dangerous it can be to mistakenly infer too much from what you think you see in the data. ([Here's a recent example.](https://statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence/)) Taking care to understand what your measurement instrument is doing really does matter. In this case, I think, it's all the more important because with data of the sort that Apple (and also [Google](https://www.google.com/covid19/mobility/index.html?hl=en)) have released, it's fun to just jump into it and start speculating. That's because we don't often get to play with even highly aggregated data from sources like this. I wonder if, in the next year or so, someone doing an ecological, city-level  analysis of social response to COVID-19 will inadvertently get caught out by the change in the measure lurking in this dataset. 
 
