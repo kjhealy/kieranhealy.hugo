@@ -7,7 +7,11 @@ htmlwidgets: false
 mathjax: false
 ---
 
-_Update (April 26th):_ I've added a [GitHub repository](https://github.com/kjhealy/apple_covid_post) containing the code needed to reproduce the graphs in this post, as what's shown here isn't self-contained. 
+{{% admonition info Update %}}
+
+I've added a [GitHub repository](https://github.com/kjhealy/apple_covid_post) containing the code needed to reproduce the graphs in this post, as what's shown here isn't self-contained. 
+
+{{% /admonition %}}
 
 Apple recently released [a batch of mobility data](https://www.apple.com/covid19/mobility) in connection with the COVID-19 pandemic. The data is aggregated from requests for directions in Apple Maps and is provided at the level of whole countries and also for a selection of large cities around the world. I folded the dataset into the [covdata package for R](https://kjhealy.github.io/covdata/) that I've been updating, as I plan to use it this Fall in a course I'll be teaching. Here I'll take a quick look at some of the data. Along the way---as it turns out---I end up reminding myself of a lesson I've learned before about making sure you understand your measure before you think you understand what it is showing.
 
