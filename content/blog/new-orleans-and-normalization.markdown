@@ -7,9 +7,9 @@ htmlwidgets: false
 mathjax: false
 ---
 
-My post about [Apple's mobility data](https://kieranhealy.org/blog/archives/2020/04/23/apples-covid-mobility-data/) from a few days ago has been doing the rounds. (People have been [very](https://kieranhealy.org/blog/archives/2020/04/23/apples-covid-mobility-data/) [kind](https://daringfireball.net/linked/2020/04/26/healy-covid-mobility-data).) Unsurprisingly, one of the most thoughtful responses came from Dr. Drang, who wrote up a great discussion about the importance of choosing the right baseline if you're going to be indexing change with respect to some time. His discussion of [Small Multiples and Normalization](https://leancrew.com/all-this/2020/04/small-multiples-and-normalization/) is really worth your while.
+My post about [Apple's mobility data](https://kieranhealy.org/blog/archives/2020/04/23/apples-covid-mobility-data/) from a few days ago has been doing the rounds. (People have been [very](https://sixcolors.com/link/2020/04/parsing-through-apples-covid-mobility-data/) [kind](https://daringfireball.net/linked/2020/04/26/healy-covid-mobility-data).) Unsurprisingly, one of the most thoughtful responses came from Dr. Drang, who wrote up a great discussion about the importance of choosing the right baseline if you're going to be indexing change with respect to some time. His discussion of [Small Multiples and Normalization](https://leancrew.com/all-this/2020/04/small-multiples-and-normalization/) is really worth your while.
 
-Dr. Drang's eye was caught by the case of Seattle, where the transit series was odd in a way that was related to Apple's arbitrary choice of April 13th as the baseline for its series:
+Dr. Drang's eye was caught by the case of Seattle, where the transit series was odd in a way that was related to Apple's arbitrary choice of January 13th as the baseline for its series:
 
 > One effect of this normalization choice is to make the recent walking and driving requests in Seattle look higher than they should. Apple’s scores suggest that they are currently averaging 50–65% of what they were pre-COVID, but those are artificially high numbers because the norm was set artificially low.
 >

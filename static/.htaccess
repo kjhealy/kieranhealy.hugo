@@ -9,9 +9,10 @@ RewriteEngine on
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
- 
+
 Redirect 301 /gender https://www.kieranhealy.org/blog/archives/category/gender
 Redirect 301 /blog/bingo-in-utopia https://kieranhealy.org/blog/archives/2012/08/13/bingo-in-utopia
+
 ErrorDocument 404 https://www.kieranhealy.org/404/
 ErrorDocument 403 https://www.kieranhealy.org/403/
 
