@@ -97,7 +97,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   showArchiveCount = false
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
+  dateFormatToUse = "January 2, 2006"
 
   # show word count and read time ?                       
   moreMeta = false
