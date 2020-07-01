@@ -109,7 +109,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
   toc = false                                                                            # 
   autoCollapseToc = false   # Auto expand and collapse toc                              # 
-  fancybox = true           # see https://github.com/fancyapps/fancybox                 # 
+  fancybox = false           # see https://github.com/fancyapps/fancybox                 # 
 
   # mathjax
   mathjax = false           # see https://www.mathjax.org/                              # 
