@@ -175,7 +175,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
  home = ["HTML", "RSS"]
  page = ["HTML"]
  section = ["HTML", "RSS"]
- taxonomy = ["HTML", "RSS"]
+ term = ["HTML", "RSS"]
 
 
 # builddrafts = false
