@@ -8,10 +8,6 @@
 
     </header>
 
-    <!-- <\!-- TOC -\-> -->
-    <!-- {{- partial "post/toc.html" . -}} -->
-
-
     <!-- Content -->
     <div class="post-content">
       {{ .Content }}
@@ -20,8 +16,33 @@
     <!-- Copyright -->
     {{- partial "post/copyright.html" . -}}
 
-    <!-- <\!-- Reward -\-> -->
-    <!-- {{- partial "post/reward.html" . -}} -->
+    <footer class="post-footer">
+      {{ with .Params.tags -}}
+        <div class="post-tags">
+          {{ range . -}}
+            <a href="{{ "tags" | relLangURL }}/{{ . | urlize }}/">{{ . }}</a>
+          {{ end -}}
+        </div>
+      {{- end -}}
+
+      <!-- Post Pagination -->
+      <nav class="post-nav">
+        {{ with .NextInSection -}}
+          <a class="prev" href="{{ .RelPermalink }}">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">{{ .Title }}</span>
+            <span class="prev-text nav-mobile">{{ T "prevPost" }}</span>
+          </a>
+        {{- end }}
+        {{ with .PrevInSection -}}
+          <a class="next" href="{{ .RelPermalink }}">
+            <span class="next-text nav-default">{{ .Title }}</span>
+            <span class="next-text nav-mobile">{{ T "nextPost" }}</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+        {{- end }}
+      </nav>
+    </footer>
 
   </article>
 {{- end }}

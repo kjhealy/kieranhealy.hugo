@@ -1,10 +1,9 @@
 ---
 title: "Digital Technology and Cultural Goods"
-
 author: Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Digital Technology and Cultural Goods.&rdquo; <em>Journal of Political Philosophy</em> ."
+citation: "&ldquo;Digital Technology and Cultural Goods.&rdquo; <em>Journal of Political Philosophy</em>"
 tag: commodification
 subjects: commodification internet culture copyright
 file: jpp.pdf

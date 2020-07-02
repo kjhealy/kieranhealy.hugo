@@ -12,7 +12,7 @@ comments: no
 date: 2006-06-15
 publishdate: 2006-06-20
 ---
-<p><figure><img src="http://kieranhealy.org/files/misc/lbg-large.jpg" align="right" width=300px alt="Last Best Gifts"></figure><em><a href="http://www.amazon.com/Last-Best-Gifts-Altruism-Market/dp/0226322378">Last Best Gifts</a></em> is a study of the social organization of 
+<p class = "clearfix"><figure><img src="http://kieranhealy.org/files/misc/lbg-large.jpg" align="right" style = "padding: 10px" width=200px alt="Last Best Gifts"></figure><em><a href="http://www.amazon.com/Last-Best-Gifts-Altruism-Market/dp/0226322378">Last Best Gifts</a></em> is a study of the social organization of 
 exchange in 
 human blood and organs. It develops the idea that procurement organizations evoke and sustain altruism by providing opportunities to give, and by producing public accounts of what giving means. It won <a href="http://www.arnova.org/" title="ARNOVA">ARNOVA</a>'s Outstanding Book Award and was a finalist for the <a href="http://www.sssp1.org/?pageID=1018" title="Society for the Study of Social Problems-2006 C. Wright Mills Award Winner and Finalists">C. Wright Mills Award</a>.</p>
 

@@ -1,6 +1,5 @@
 ---
 title: "Review of Comparative Politics"
-
 author: Kieran Healy
 status: Published
 type: other

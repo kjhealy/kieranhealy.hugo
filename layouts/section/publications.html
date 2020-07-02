@@ -89,8 +89,25 @@
 </p>
 {{ end }}
 {{ end }}
-
 {{- end}}
+
+
+<h2>Essays and Reviews</h2>
+
+{{ range (where (where .Data.Pages "Type" "other") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
+
+<!-- <h3>{{ .Key }}</h3> -->
+{{ range .Pages.ByPublishDate.Reverse }}
+{{ if ne .Params.kind "book" }}
+<p>{{ .Params.citation | safeHTML }} 
+  <a href="{{ .Permalink }}">/ Abstract</a> 
+  {{ if isset .Params "file" }}
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  {{ end }}
+</p>
+{{ end }}
+{{ end }}
+{{ end }}
 
   </div>
 </div>

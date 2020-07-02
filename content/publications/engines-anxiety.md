@@ -1,6 +1,5 @@
 ---
 title: "By the Numbers"
-
 author: Kieran Healy
 status: Published
 type: other
