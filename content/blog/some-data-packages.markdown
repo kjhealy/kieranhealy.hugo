@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-If you're teaching statistics, data analysis, or data visualization with R this semester, especially in the social sciences, I've pulled together various bits of data into packages that I use in my own teaching. You might find useful once you're sick of Gapminder. They cover a variety of topics and range from single tables of data to whole longitudinal and panel surveys.
+If you're teaching statistics, data analysis, or data visualization with R this semester, especially in the social sciences, I've pulled together various bits of data into packages that I use in my own teaching. You might find them useful once you're sick of Gapminder. They cover a variety of topics and range from single tables of data to whole longitudinal and panel surveys.
 
 <p class = "clearfix"><a href="http://kjhealy.github.io/uscenpops"><img src = "/files/misc/hex-cavax.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/cavax">cavax package</a> contains a school-level table of rates of Personal Belief Exemptions (PBEs) in California kindergartens for the 2014-15 school year. At that time (the rules have since changed), a PBE allowed a child to enter kindergarten without having received the usual complement of vaccinations. Information on the school's name, district, city, county, and type is included, along with the size of the kindergarten class.</p>
 
