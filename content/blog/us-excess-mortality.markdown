@@ -32,10 +32,10 @@ Bear in mind that these are counts and not modeled estimates. For the CDC's own 
 
 I think the data make some patterns quite clear. Most obviously, deaths attributed to influenza and pneumonia surge upwards beginning about ten weeks into the year. But so, too, do deaths from Alzheimer's, hypertension, and diabetes. While I'm not a public health expert, I think the distribution of these surges is clearly suggestive of the differential impact on various groups of people, such as the elderly and those more likely to suffer from various diseases.
 
-As I say, these data are available at the state as well as the national level. Here, for example, is the same graph for New York:
+As I say, these data are available at the state as well as the national level. Here, for example, is the same graph for New York City:
 
 
-{{% figure src="/files/misc/cdc/new_york_patch.png" alt="" caption="New York State" %}}
+{{% figure src="/files/misc/cdc/new_york_city_patch.png" alt="" caption="New York City" %}}
 
 
 And here, for contrast, is Georgia:
