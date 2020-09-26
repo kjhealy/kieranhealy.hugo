@@ -7,6 +7,16 @@ htmlwidgets: false
 mathjax: false
 ---
 
+
+{{% admonition info Update %}}
+
+I've redrawn the graphs here to add more information about COVID-19 deaths specifically. This post is getting a substantial amount of traffic and some of the feedback I've gotten suggests people were confused about what exactly was being shown. The original graphs were drawn from [this CDC dataset](https://data.cdc.gov/NCHS/Weekly-counts-of-death-by-jurisdiction-and-cause-o/u6jv-9ijr/), which led some readers to think that there was some undercounting happening. In the new versions, I've used a merged version of the [2014-2018 data](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/3yf8-kanr) and the ongoing [2019-2020 counts](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/muzy-jte6). 
+
+I've also put up a [GitHub repository](https://github.com/kjhealy/us_mortality_cdc) containing the code needed to reproduce the graphs here, if you're interested in looking in more detail. 
+
+{{% /admonition %}}
+
+
 The CDC recently released some new data on mortality counts by state and cause of death in the U.S., allowing us to get a look at excess mortality patterns due to the COVID-19 pandemic. I've folded the data into [the covdata package](http://kjhealy.github.io/covdata/). As an illustration of the sort of thing you can do with it---and of the sort of thing you can do with ggplot and R---here's a graph of various aspects of mortality in the U.S. so far this year.
 
 
@@ -51,10 +61,9 @@ These plots were all made in R and ggplot, and assembling the multiple panels wa
 | [Illinois](/files/misc/cdc/illinois_patch.png)                         | [New Jersey](/files/misc/cdc/new_jersey_patch.png)       | [Vermont](/files/misc/cdc/vermont_patch.png)               |
 | [Indiana](/files/misc/cdc/indiana_patch.png)                           | [New Mexico](/files/misc/cdc/new_mexico_patch.png)       | [Virginia](/files/misc/cdc/virginia_patch.png)             |
 | [Iowa](/files/misc/cdc/iowa_patch.png)                                 | [New York](/files/misc/cdc/new_york_city_patch.png)      | [Washington](/files/misc/cdc/washington_patch.png)          |
-| [Kansas](/files/misc/cdc/kansas_patch.png)                             | [New York City](/files/misc/cdc/new_york_patch.png)      | [Wisconsin](/files/misc/cdc/wisconsin_patch.png)           |
+| [Kansas](/files/misc/cdc/kansas_patch.png)                             | [New York City](/files/misc/cdc/new_york_patch.png)      | [West Virginia](/files/misc/cdc/west_virginia_patch.png)           |
+|                                                                        |                                                          | [Wisconsin](/files/misc/cdc/wisconsin_patch.png)   |
 |                                                                        |                                                          | [Wyoming](/files/misc/cdc/wyoming_patch.png)               |
-
-
 
 
 
