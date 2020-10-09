@@ -38,7 +38,7 @@ I include All Cause mortality, i.e. all recorded deaths, along with the more spe
 
 Next, for all-cause mortality only, here are all the jurisdictions arranged from high to low average total mortality across the period, which is essentially a proxy for overall population size.
 
-{{% figure src="/files/misc/excess_by_selected_cause_jurisdiction.png" alt="" caption="Excess all-cause mortality by jurisdictions." %}}
+{{% figure src="/files/misc/excess_all_cause_by_jurisdiction.png" alt="" caption="Excess all-cause mortality by jurisdictions." %}}
 
 In addition to the clear patterns for this year, there are a couple of other things to note about the jurisdiction-level numbers. First, the smaller the population of a place the noisier the numbers are going to be, which is why we stick to All Cause mortality. Second, even here there are some issues. Wisconsin, for instance, has some strange periodic dips in its 2015-2019 numbers that clearly seem to be reporting or recording problems. Feel free to tell me what's happening with mortality reporting in the state if you know. The upshot here is that one of the years has one data point radically below the average number of deaths, which pulls the range of the state way out of line. Second, there are also data reporting issues for this year in at least North Carolina, Connecticut, and West Virginia. These states have been lagging more than average in their reporting of recent deaths since around July or August, and it is artificially suppressing their excess mortality numbers. I expect these numbers to shift as time goes on. 
 
