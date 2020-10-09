@@ -9,7 +9,7 @@ mathjax: false
 
 As I was [saying the other day](https://kieranhealy.org/blog/archives/2020/10/01/walk-the-walk/), calculating excess deaths can be a tricky business, especially if your focus is on understanding counterfactuals like how many people died of some cause who would not have died due to some other competing risk over the period of interest. Moreover, even setting the counterfactuals aside, the whole business of accurately counting and classifying deaths on the scale of a country as large and variegated as the United States is an enormous challenge in itself. The CDC has been putting out its own [estimates of deaths due to COVID-19](https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm), and they make various efforts (such as weighting the estimates and so on) to account for delayed reporting and other issues. 
 
-I'll do something a little simpler here, but I think still useful. Using the [weekly counts for 2019-2020](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/muzy-jte6) and the [final counts for 2015-2019](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/3yf8-kanr) we can example selected causes for evidence of excess mortality beyond the baseline of expectations set by the past five years. 
+I'll do something a little simpler here, but I think still useful. Using the [weekly counts for 2019-2020](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/muzy-jte6) and the [final counts for 2015-2019](https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/3yf8-kanr) we can examine selected causes for evidence of excess mortality beyond the baseline of expectations set by the past five years. 
 
 Here's the overall figure.
 
@@ -23,54 +23,57 @@ Here's a closer look at the code and the tables the graph was produced from. As 
 
 {{< highlight r >}}
  
+start_week <- 9
+end_week <- 34
+
 df_yr <- nchs_wdc %>%
-  filter(jurisdiction == "United States") %>%
-  filter(year > 2014, 
-         week >= 9 & 
-         week <= 34) %>% 
-  group_by(cause, year) %>%
+#  filter(jurisdiction == "United States") %>% 
+  filter(year > 2014,
+         week >= start_week & 
+         week <= end_week) %>% 
+  group_by(jurisdiction, cause, year) %>%
   summarize(period_deaths = sum(n, na.rm = TRUE)) 
 
-
 baseline_deaths <- nchs_wdc %>% 
-  filter(jurisdiction == "United States") %>%
+  #filter(jurisdiction == "United States") %>% 
   filter(year %in% c(2015:2019),
-         week >= 9 & 
-         week <= 34) %>%
-  group_by(year, cause) %>%
+         week >= start_week & 
+         week <= end_week) %>%
+  group_by(jurisdiction, year, cause) %>%
   summarize(total_n = sum(n, na.rm = TRUE)) %>%
-  group_by(cause) %>%
+  group_by(jurisdiction, cause) %>%
   summarize(baseline = mean(total_n, na.rm = TRUE), 
             baseline_sd = sd(total_n, na.rm = TRUE)) 
 
 df_excess <- left_join(df_yr, baseline_deaths) %>%
   mutate(excess = period_deaths - baseline, 
-         pct_excess = (excess / period_deaths)*100,
+         pct_excess = (excess / period_deaths)*100, 
          pct_sd = (baseline_sd/baseline)*100) %>%
   rename(deaths = period_deaths)
-
+  
 {{< /highlight >}}
 
-Our excess deaths table (covering March 1st to September 1st) looks like this:
+The portion of our excess deaths table for the United States (covering March 1st to September 1st) now looks like this:
 
 {{< highlight r >}}
 
-> df_excess
-# A tibble: 82 x 8
-# Groups:   cause [15]
-   cause        year  deaths baseline baseline_sd  excess pct_excess pct_sd
-   <chr>       <dbl>   <dbl>    <dbl>       <dbl>   <dbl>      <dbl>  <dbl>
- 1 All Cause    2015 1318237 1359816       32421. -41579      -3.15    2.38
- 2 All Cause    2016 1338615 1359816       32421. -21201      -1.58    2.38
- 3 All Cause    2017 1367439 1359816       32421.   7623       0.557   2.38
- 4 All Cause    2018 1372444 1359816       32421.  12628       0.920   2.38
- 5 All Cause    2019 1402345 1359816       32421.  42529       3.03    2.38
- 6 All Cause    2020 1641133 1359816       32421. 281317      17.1     2.38
- 7 Alzheimer's  2015   51412   55788.       2684.  -4376.     -8.51    4.81
- 8 Alzheimer's  2016   55137   55788.       2684.   -651.     -1.18    4.81
- 9 Alzheimer's  2017   57448   55788.       2684.   1660.      2.89    4.81
-10 Alzheimer's  2018   56828   55788.       2684.   1040.      1.83    4.81
-# … with 72 more rows
+> df_excess %>% filter(jurisdiction == "United States")
+## # A tibble: 82 x 9
+## # Groups:   jurisdiction, cause [15]
+##    jurisdiction  cause        year  deaths baseline baseline_sd  excess pct_excess pct_sd
+##    <chr>         <chr>       <dbl>   <dbl>    <dbl>       <dbl>   <dbl>      <dbl>  <dbl>
+##  1 United States All Cause    2015 1318237 1359816       32421. -41579      -3.15    2.38
+##  2 United States All Cause    2016 1338615 1359816       32421. -21201      -1.58    2.38
+##  3 United States All Cause    2017 1367439 1359816       32421.   7623       0.557   2.38
+##  4 United States All Cause    2018 1372444 1359816       32421.  12628       0.920   2.38
+##  5 United States All Cause    2019 1402345 1359816       32421.  42529       3.03    2.38
+##  6 United States All Cause    2020 1641133 1359816       32421. 281317      17.1     2.38
+##  7 United States Alzheimer's  2015   51412   55788.       2684.  -4376.     -8.51    4.81
+##  8 United States Alzheimer's  2016   55137   55788.       2684.   -651.     -1.18    4.81
+##  9 United States Alzheimer's  2017   57448   55788.       2684.   1660.      2.89    4.81
+## 10 United States Alzheimer's  2018   56828   55788.       2684.   1040.      1.83    4.81
+## # … with 72 more rows
+## 
 
 {{< /highlight >}}
 
@@ -96,7 +99,8 @@ The core of the plot is produced like this:
 
 {{< highlight r >}}
 
-df_excess %>% 
+out <- df_excess %>% 
+  filter(jurisdiction == "United States") %>%
   filter(cause %nin% c("COVID-19 Underlying", "COVID-19 Multiple cause", "Other")) %>%
   mutate(yr_ind = ifelse(year == 2020, TRUE, FALSE)) %>%
   ggplot(aes(x = pct_excess/100, y = reorder(cause, pct_excess, median), color = yr_ind, group = year)) + 
@@ -113,7 +117,6 @@ df_excess %>%
        title = "Excess Deaths in the U.S. from March 1st to September 1st",
        subtitle = "Selected Causes, arranged by median excess deaths.",
        caption = "Data: CDC. Calculations and Graph: @kjhealy")
-       
 {{< /highlight >}}
 
 ## COVID and All-Cause mortality
@@ -121,34 +124,6 @@ df_excess %>%
 We can also take a look at the `df_excess` table to see what's happening with All-Cause mortality and COVID-19 specifically. We need to wrangle the table a little to get the estimates side by side.
 
 {{< highlight r >}}
-
-start_week <- 9
-end_week <- 34
-
-df_yr <- nchs_wdc %>%
-  filter(jurisdiction == "United States") %>% 
-  filter(year > 2014,
-         week >= start_week & 
-         week <= end_week) %>% 
-  group_by(jurisdiction, cause, year) %>%
-  summarize(period_deaths = sum(n, na.rm = TRUE)) 
-
-
-baseline_deaths <- nchs_wdc %>% 
-  filter(jurisdiction == "United States") %>% 
-  filter(year %in% c(2015:2019),
-         week >= start_week & 
-         week <= end_week) %>%
-  group_by(jurisdiction, year, cause) %>%
-  summarize(total_n = sum(n, na.rm = TRUE)) %>%
-  group_by(jurisdiction, cause) %>%
-  summarize(baseline = mean(total_n, na.rm = TRUE), 
-            baseline_sd = sd(total_n, na.rm = TRUE)) 
-
-df_excess <- left_join(df_yr, baseline_deaths) %>%
-  mutate(excess = period_deaths - baseline, 
-         pct_excess = (excess / period_deaths)*100) %>%
-  rename(deaths = period_deaths)
 
 excess_count <- df_excess %>%
   filter(year == 2020 &
@@ -171,7 +146,7 @@ excess_table <- excess_table %>%
          pct_covid = (covid / all_cause) * 100, 
          pct_deficit = (deficit / all_cause) * 100) %>%
   select(jurisdiction, all_cause, baseline, baseline_sd, excess, covid, deficit, everything()) 
-  
+
 {{< /highlight >}}
 
 
@@ -179,13 +154,24 @@ Which (finally) gives us this:
 
 {{< highlight r >}}
 
-excess_table 
+excess_table %>% 
+  filter(jurisdiction == "United States") %>%
+  pivot_longer( all_cause:pct_deficit, names_to = "measure", values_to = "value")
 
-# A tibble: 1 x 10
-# Groups:   jurisdiction [1]
-  jurisdiction  all_cause baseline baseline_sd excess  covid deficit pct_excess pct_covid pct_deficit
-  <chr>             <dbl>    <dbl>       <dbl>  <dbl>  <dbl>   <dbl>      <dbl>     <dbl>       <dbl>
-1 United States   1641133  1359816      32421. 281317 179303  102014       17.1      10.9        6.22
+
+## # A tibble: 9 x 3
+## # Groups:   jurisdiction [1]
+##   jurisdiction  measure          value
+##   <chr>         <chr>            <dbl>
+## 1 United States all_cause   1641133   
+## 2 United States baseline    1359816   
+## 3 United States baseline_sd   32421.  
+## 4 United States excess       281317   
+## 5 United States covid        179303   
+## 6 United States deficit      102014   
+## 7 United States pct_excess       17.1 
+## 8 United States pct_covid        10.9 
+## 9 United States pct_deficit       6.22
 
 {{< /highlight >}}
 

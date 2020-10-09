@@ -67,3 +67,6 @@ These plots were all made in R and ggplot, and assembling the multiple panels wa
 | [Kansas](/files/misc/cdc/kansas_patch.png)                             | [New York (excl. NYC)](/files/misc/cdc/new_york_patch.png)      | [West Virginia](/files/misc/cdc/west_virginia_patch.png)           |
 |                                                                        |                                                          | [Wisconsin](/files/misc/cdc/wisconsin_patch.png)   |
 |                                                                        |                                                          | [Wyoming](/files/misc/cdc/wyoming_patch.png)               |
+
+
+{{< foldergallery src="files/misc/cdc/" >}}
