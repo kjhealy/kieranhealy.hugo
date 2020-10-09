@@ -1,6 +1,6 @@
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "src" -}}
-        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }} class="fancybox" data-fancybox="gallery">
+        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }} class="fancybox" data-fancybox="image">
     {{- end }}
     <img src="{{ .Get "src" }}"
          {{- if or (.Get "alt") (.Get "caption") }}
