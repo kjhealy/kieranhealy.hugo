@@ -1,0 +1,36 @@
+<style>
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    </style>
+
+    <div class="gallery">
+        {{ $base := .Get "src" }}
+	{{ $path := print "/static/" (.Get "src") }}
+
+	{{ range (readDir $path) }}
+        {{- $thumbext := "_thumb" }}
+        {{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
+        {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->
+        {{- if and $isimg (not $isthumb) }}
+        {{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}
+            <a data-fancybox="gallery" href="/{{ $base }}/{{ .Name }}">
+                <img src="/{{ $base  }}/{{ $thumb }}">  <br/>            
+            </a>
+        {{- end }}
+	{{ end }}
+    </div>
