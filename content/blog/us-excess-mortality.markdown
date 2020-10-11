@@ -46,27 +46,9 @@ I imagine a serious dive into this data would reveal not just structural variati
 
 These plots were all made in R and ggplot, and assembling the multiple panels was made much easier thanks to Thomas Lin Pedersen's fabulous [patchwork](https://patchwork.data-imaginist.com) package. The combination of patchwork and [purrr](https://purrr.tidyverse.org) makes the production of a whole lot of plots quite efficient. I'll put a repository with the code on GitHub once I've cleaned it up a little. In the meantime, here are links to graphs for all the jurisdictions in the data. Bear in mind that the graphs have different y-axes, each appropriate to the range of variation within each state and directly connected to the number of people that live in that jurisdiction. So you can't just overlay one on top of another. For a PDF version of any one of these, replace the `.png` extension in the file name with a `.pdf`.
 
-| Jurisdictions| | |
-|:--|:--|:--|
-| [Alabama](/files/misc/cdc/alabama_patch.png)                           | [Kentucky](/files/misc/cdc/kentucky_patch.png)           | [North Carolina](/files/misc/cdc/north_carolina_patch.png) |
-| [Alaska](/files/misc/cdc/alaska_patch.png)                             | [Louisiana](/files/misc/cdc/louisiana_patch.png)         | [North Dakota](/files/misc/cdc/north_dakota_patch.png)     |
-| [Arizona](/files/misc/cdc/arizona_patch.png)                           | [Maine](/files/misc/cdc/maine_patch.png)                 | [Ohio](/files/misc/cdc/ohio_patch.png)                     |
-| [Arkansas](/files/misc/cdc/arkansas_patch.png)                         | [Maryland](/files/misc/cdc/maryland_patch.png)           | [Oklahoma](/files/misc/cdc/oklahoma_patch.png)             |
-| [California](/files/misc/cdc/california_patch.png)                     | [Massachusetts](/files/misc/cdc/massachusetts_patch.png) | [Oregon](/files/misc/cdc/oregon_patch.png)                 |
-| [Colorado](/files/misc/cdc/colorado_patch.png)                         | [Michigan](/files/misc/cdc/michigan_patch.png)           | [Pennsylvania](/files/misc/cdc/pennsylvania_patch.png)     |
-| [Connecticut](/files/misc/cdc/connecticut_patch.png)                   | [Minnesota](/files/misc/cdc/minnesota_patch.png)         | [Puerto Rico](/files/misc/cdc/puerto_rico_patch.png)       |
-| [Delaware](/files/misc/cdc/delaware_patch.png)                         | [Mississippi](/files/misc/cdc/mississippi_patch.png)     | [Rhode Island](/files/misc/cdc/rhode_island_patch.png)     |
-| [District of Columbia](/files/misc/cdc/district_of_columbia_patch.png) | [Missouri](/files/misc/cdc/missouri_patch.png)           | [South Carolina](/files/misc/cdc/south_carolina_patch.png) |
-| [Florida](/files/misc/cdc/florida_patch.png)                           | [Montana](/files/misc/cdc/montana_patch.png)             | [South Dakota](/files/misc/cdc/south_dakota_patch.png)     |
-| [Georgia](/files/misc/cdc/georgia_patch.png)                           | [Nebraska](/files/misc/cdc/nebraska_patch.png)           | [Tennessee](/files/misc/cdc/tennessee_patch.png)           |
-| [Hawaii](/files/misc/cdc/hawaii_patch.png)                             | [Nevada](/files/misc/cdc/nevada_patch.png)               | [Texas](/files/misc/cdc/texas_patch.png)                   |
-| [Idaho](/files/misc/cdc/idaho_patch.png)                               | [New Hampshire](/files/misc/cdc/new_hampshire_patch.png) | [Utah](/files/misc/cdc/utah_patch.png)                     |
-| [Illinois](/files/misc/cdc/illinois_patch.png)                         | [New Jersey](/files/misc/cdc/new_jersey_patch.png)       | [Vermont](/files/misc/cdc/vermont_patch.png)               |
-| [Indiana](/files/misc/cdc/indiana_patch.png)                           | [New Mexico](/files/misc/cdc/new_mexico_patch.png)       | [Virginia](/files/misc/cdc/virginia_patch.png)             |
-| [Iowa](/files/misc/cdc/iowa_patch.png)                                 | [New York City](/files/misc/cdc/new_york_city_patch.png)      | [Washington](/files/misc/cdc/washington_patch.png)          |
-| [Kansas](/files/misc/cdc/kansas_patch.png)                             | [New York (excl. NYC)](/files/misc/cdc/new_york_patch.png)      | [West Virginia](/files/misc/cdc/west_virginia_patch.png)           |
-|                                                                        |                                                          | [Wisconsin](/files/misc/cdc/wisconsin_patch.png)   |
-|                                                                        |                                                          | [Wyoming](/files/misc/cdc/wyoming_patch.png)               |
 
+## Gallery of Jurisdictions
+
+Click or touch a thumbnail to see the full version and browse the gallery of images.
 
 {{< foldergallery src="files/misc/cdc/" >}}
