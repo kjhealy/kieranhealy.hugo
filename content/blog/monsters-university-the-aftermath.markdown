@@ -1,6 +1,7 @@
 ---
 #layout: post
 title: "Monsters University: the Aftermath"
+fave: true
 date: "2013-06-22"
 comments: false
 categories: [Obiter Dicta]

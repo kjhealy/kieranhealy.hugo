@@ -1,5 +1,6 @@
 ---
 author: kjhealy
+fave: true
 date: "2003-12-21"
 #layout: post
 slug: the-dead-of-winter

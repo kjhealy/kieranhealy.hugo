@@ -1,5 +1,6 @@
 ---
 date: 2017-01-19T13:26:15-05:00
+fave: true
 title: Rank Error in Your Favor
 categories: [Sociology,Data,Politics,Nerdery]
 ---

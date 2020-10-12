@@ -1,5 +1,6 @@
 ---
 date: "2015-02-25"
+fave: true
 title: Gender and Citation in Four General-Interest Philosophy Journals, 1993-2013
 categories: [Philosophy,Sociology,Gender,Visualization]
 ---

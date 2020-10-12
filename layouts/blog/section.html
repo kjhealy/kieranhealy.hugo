@@ -2,7 +2,30 @@
 
 {{- define "content" }}
 {{- $paginator := .Paginate .Data.Pages.ByDate.Reverse .Site.Params.blogPaginate }}
+
+<section id="pubs" class="archive">
+<h1>Some Favorite Things</h1>  
+
+  {{ range (where .Site.RegularPages "Section" "blog") }}  
+  {{ if .Params.fave }}
+
+      <span class="post-title">
+        <a href="{{ .RelPermalink }}" class="archive-post-link">
+          {{ .Title }}
+        </a>
+      </span> &middot;
+ 
+  {{ end }}
+
+  {{ end }}
+ <br >  <br >   
+<hr />
+</section>
+
+
 <section id="archive" class="archive">
+
+<h1>All Posts</h1>
   
   {{- if and (not $paginator.HasPrev) .Site.Params.showArchiveCount }}
     <div class="archive-title">
@@ -21,21 +44,14 @@
       </div>
     {{- end }}
 
-    <article class="post">
       <span class="archive-post-time">
-        {{ $element.Date.Format "January 2" }}
+        <em>{{ $element.Date.Format "January 2" }}</em> &nbsp;
       </span>
-      <h2><span class="post-title">
+      <span class="post-title">
         <a href="{{ $element.RelPermalink }}" class="archive-post-link">
           {{ .Title }}
         </a>
-      </span></h2>
-      <div class="post-content">
-      <p>{{ .Content }}<p>
-    <div class="read-more">
-      <p><a href="{{ .RelPermalink }}" class="archive-post-link">(&rarr; Permanent link)</a></p>
-    </div>
-  </article>
+      </span> &middot;
 
   {{- end -}}
 </section>

@@ -1,6 +1,5 @@
 ---
 title: "Last Best Gifts: Altruism and the Market for Human Blood and Organs"
-fave: true
 author: Kieran Healy
 status: Published
 type: published

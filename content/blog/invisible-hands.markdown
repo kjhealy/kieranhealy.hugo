@@ -2,6 +2,7 @@
 author: kjhealy
 date: "2007-10-03"
 #layout: post
+fave: true
 slug: invisible-hands
 status: publish
 title: Invisible Hands

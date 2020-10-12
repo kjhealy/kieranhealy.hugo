@@ -6,12 +6,28 @@
 <section id="pubs" class="pubs">
 <h1>Some Favorite Things</h1>  
 <ul>
-  {{ range (where .Site.RegularPages.ByDate "Section" "publications").Reverse }}
+  {{ range (where .Site.RegularPages "Section" "in" (slice "publications")) }}  
+
   {{ if .Params.fave }}
-<li>{{ .Params.citation | safeHTML }} <a href="{{ .Permalink }}"> / Summary</a>
-              {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> / PDF</a>{{ end }}
-  {{ end }}</li>
+
+  {{ if .Params.citation }}
+  <li>
+    <a href="{{ .Permalink }}"> {{ .Params.citation | safeHTML }} </a> /    
+    {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">PDF</a>{{ end }}
+  </li>
+
+  {{ else }}
+
+    <li>
+      <a href="{{ .Permalink }}"> {{ .Params.title | safeHTML }} </a>
+    </li>
+
   {{ end }}
+ 
+  {{ end }}
+
+  {{ end }}
+  
 </ul>  
 </section>
 <section>

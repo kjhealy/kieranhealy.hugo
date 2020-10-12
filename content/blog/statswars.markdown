@@ -1,5 +1,6 @@
 ---
 title: "Statswars"
+fave: true
 date: 2019-02-07T14:33:33-05:00
 categories: [Nerdery,R]
 footnotes: false

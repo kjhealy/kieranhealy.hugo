@@ -1,6 +1,7 @@
 ---
 #layout: post
 title: "Using Metadata to find Paul Revere"
+fave: true
 date: "2013-06-09"
 comments: false
 categories: [Sociology,IT,Politics,Data,R]

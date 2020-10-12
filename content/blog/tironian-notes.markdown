@@ -1,5 +1,6 @@
 ---
 date: 2016-04-08T07:16:58-04:00
+fave: true
 title: Tironian Notes
 categories: [Misc]
 ---

@@ -1,5 +1,6 @@
 ---
 title: "The Kitchen Counter Observatory"
+fave: true
 date: 2020-05-21T17:25:52-04:00
 categories: [Obiter Dicta]
 footnotes: false

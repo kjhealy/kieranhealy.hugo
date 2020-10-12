@@ -90,7 +90,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   # general archives
   archivePaginate = 10
   # blog archive, because we want full content on the blog inde
-  blogPaginate = 5
+  blogPaginate = 100
 
   # show 'xx Posts In Total' in archive page ?           
   showArchiveCount = false

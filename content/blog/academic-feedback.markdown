@@ -1,6 +1,7 @@
 ---
 #layout: post
 title: "Academic Feedback"
+fave: true
 date: "2013-08-16"
 comments: false
 categories: [Sociology,Misc]

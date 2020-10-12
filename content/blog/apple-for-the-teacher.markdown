@@ -1,6 +1,7 @@
 ---
 #layout: post
 title: "Apple for the Teacher"
+fave: true
 date: "2012-01-19"
 comments: false
 categories: [Nerdery,IT,Apple]

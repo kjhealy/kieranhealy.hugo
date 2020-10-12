@@ -1,5 +1,6 @@
 ---
 title: "Frank Oz Muppets and the Big Five Personality Traits"
+fave: true
 date: 2019-03-18T21:59:15-04:00
 categories: [Obiter Dicta]
 footnotes: false

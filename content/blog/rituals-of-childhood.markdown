@@ -1,5 +1,6 @@
 ---
 title: "Rituals of Childhood"
+fave: true
 date: 2019-08-03T20:33:08-04:00
 categories: [Sociology,Politics]
 footnotes: false

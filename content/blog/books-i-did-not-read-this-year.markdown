@@ -1,6 +1,7 @@
 ---
 author: kjhealy
 date: "2003-12-15"
+fave: true
 #layout: post
 slug: books-i-did-not-read-this-year
 status: publish

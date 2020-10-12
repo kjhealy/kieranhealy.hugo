@@ -1,5 +1,6 @@
 ---
 title: "This is Just to Say he Wishes"
+fave: true
 date: "2014-07-19"
 categories: [Misc]
 ---

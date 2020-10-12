@@ -1,6 +1,7 @@
 ---
 title: "Making Slides"
 date: 2018-03-24T09:50:01-04:00
+fave: true
 categories: [Sociology,Nerdery,Obiter Dicta]
 footnotes: false
 htmlwidgets: false

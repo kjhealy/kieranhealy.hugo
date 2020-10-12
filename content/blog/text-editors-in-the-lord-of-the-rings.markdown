@@ -1,6 +1,7 @@
 ---
 author: kjhealy
 date: "2011-07-29"
+fave: true
 #layout: post
 slug: text-editors-in-the-lord-of-the-rings
 status: publish

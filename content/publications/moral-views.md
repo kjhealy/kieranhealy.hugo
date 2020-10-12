@@ -1,6 +1,5 @@
 ---
 title: "Moral Views of Market Society"
-fave: true
 author: Marion Fourcade and Kieran Healy
 status: Published
 type: published
