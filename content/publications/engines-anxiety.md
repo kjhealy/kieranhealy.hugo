@@ -1,9 +1,10 @@
 ---
 title: "By the Numbers"
+fave: true
 author: Kieran Healy
 status: Published
 type: other
-citation: "&ldquo;By the Numbers.&rdquo; <em>European Journal of Sociology</em> (2017), 58:512-519"
+citation: "&ldquo;By the Numbers.&rdquo; <em>European Journal of Sociology</em>, 58:512-519"
 tag: engines-anxiety
 file: engines-anxiety.pdf
 subjects: sociology rankings espeland sauder book

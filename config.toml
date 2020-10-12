@@ -10,7 +10,6 @@ publishdir = "public"
 
 
 disableKinds = "taxonomyTerm"
-preserveTaxonomyNames = true
 
 #[taxonomy]
 #category = "categories"

@@ -1,10 +1,10 @@
 ---
 title: "Fuck Nuance"
-
+fave: true
 author: Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Fuck Nuance.&rdquo; <em>Sociological Theory</em> (2017), 35:118-127."
+citation: "&ldquo;Fuck Nuance.&rdquo; <em>Sociological Theory</em> 35:118-127."
 tag: theory nuance
 file: fuck-nuance.pdf
 subjects: sociology theory fuck

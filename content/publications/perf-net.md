@@ -1,6 +1,6 @@
 ---
 title: "The Performativity of Networks"
-
+fave: true
 author: Kieran Healy
 status: Published
 type: published

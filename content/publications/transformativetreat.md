@@ -1,6 +1,5 @@
 ---
 title: "Transformative Treatments"
-
 author: L.A. Paul and Kieran Healy
 status: Published
 type: published

@@ -1,5 +1,6 @@
 ---
 title: "Data Visualization: A Practical Introduction"
+fave: true
 author: Kieran Healy
 status: Published
 type: published
