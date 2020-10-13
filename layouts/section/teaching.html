@@ -12,15 +12,12 @@
 
     </header>
 
+<p>Some of the graduate and undergraduate courses I regularly teach.</p>
+    
 {{ range .Pages.ByDate.Reverse }}
-<p><h2>{{ .Params.title | safeHTML }}</h2>
-    <a href="{{ .Permalink }}">&rarr; Course Summary Page</a> 
-  {{ if isset .Params "syllabus" }}
-  / <a href="{{ .Params.syllabus }}">Course Syllabus</a> 
-  {{ end }}
-  {{ if isset .Params "website" }}
-  / <a href="{{ .Params.website }}">Course Website</a>
-    {{ end }}
+    <p><em>{{ .Params.title | safeHTML }}</em> / <a href="{{ .Permalink }}"> Course Summary Page</a>  
+      {{ if isset .Params "syllabus" }} / <a href="{{ .Params.syllabus }}">Course Syllabus</a> {{ end }}
+      {{ if isset .Params "website" }} / <a href="{{ .Params.website }}">Course Website</a> {{ end }}
 <br />    
 </p>
 {{- end}}
