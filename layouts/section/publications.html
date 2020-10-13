@@ -63,6 +63,9 @@
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
   {{ end }}
+
+  {{ if isset .Params "buy" }} / {{ .Params.buy | safeHTML }} {{ end }}
+  
 </p>
 {{ end }}
 

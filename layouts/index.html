@@ -1,10 +1,10 @@
 {{- define "content" -}}
 
-<p>I am <a href = "http://sociology.duke.edu">Professor of Sociology</a> at <a href = "http://www.duke.edu">Duke University</a>. (<a href = "about/">&rarr; Read a short biosketch.</a>)
+<p>I am <a href = "http://sociology.duke.edu">Professor of Sociology</a> at Duke University. (<a href = "about/">&rarr; More about me.</a>)
 
 
 <section id="pubs" class="pubs">
-<h1>Some Favorite Things</h1>  
+<h1>Some of my Work</h1>  
 <ul>
   {{ range (where .Site.RegularPages "Section" "in" (slice "publications")) }}  
 
@@ -12,8 +12,10 @@
 
   {{ if .Params.citation }}
   <li>
-    <a href="{{ .Permalink }}"> {{ .Params.citation | safeHTML }} </a> /    
+    {{ .Params.citation | safeHTML }} /    
     {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">PDF</a>{{ end }}
+    {{ if isset .Params "overview" }} <a href="{{ .Permalink }}">Overview</a> /  {{ end }}
+    {{ if isset .Params "buy" }} {{ .Params.buy | safeHTML }} {{ end }}
   </li>
 
   {{ else }}

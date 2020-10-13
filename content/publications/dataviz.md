@@ -5,7 +5,9 @@ author: Kieran Healy
 status: Published
 type: published
 kind: book
-citation: "<em>Data Visualization: A Practical Introduction</em>. Princeton University Press. <a  href=\"https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
+overview: true
+buy: "<a  href=\"https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
+citation: "<em>Data Visualization: A Practical Introduction</em>. Princeton University Press."
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
