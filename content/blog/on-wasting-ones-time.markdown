@@ -1,6 +1,7 @@
 ---
 author: kjhealy
 date: "2008-02-07"
+fave: true
 #layout: post
 slug: on-wasting-ones-time
 status: publish

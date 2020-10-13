@@ -1,6 +1,7 @@
 ---
 author: kjhealy
 date: "2004-09-16"
+fave: true
 #layout: post
 slug: sui-generis
 status: publish

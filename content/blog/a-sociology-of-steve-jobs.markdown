@@ -2,6 +2,7 @@
 #layout: post
 title: "A Sociology of Steve Jobs"
 date: "2011-10-10"
+fave: true
 categories: [IT,Sociology,Nerdery,OrgTheory,Apple]
 ---
 

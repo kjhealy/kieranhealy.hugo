@@ -3,6 +3,7 @@ author: kjhealy
 date: "2005-04-02"
 #layout: post
 slug: when-the-pope-came-to-ireland
+fave: true
 status: publish
 title: When the Pope came to Ireland
 wordpress_id: '783'

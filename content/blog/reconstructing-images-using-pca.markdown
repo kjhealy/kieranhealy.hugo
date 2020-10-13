@@ -1,6 +1,7 @@
 ---
 title: "Reconstructing Images Using PCA"
 date: 2019-10-27T20:22:00-04:00
+fave: true
 categories: [R,Visualization]
 footnotes: false
 htmlwidgets: false
