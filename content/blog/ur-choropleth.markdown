@@ -1,6 +1,7 @@
 ---
 date: 2015-06-12T13:50:46
 title: America's Ur-Choropleths
+fave: true
 categories: [Data,Visualization,Sociology]
 ---
 
