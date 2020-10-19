@@ -52,7 +52,7 @@ type: page
 <p class = "clearfix"><a href="http://kjhealy.github.io/uscenpops"><img src = "/files/misc/hex-uscenpops.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/uscenpops">uscenpops package</a> contains a table of birth counts for the United States by year-of-age and sex for every year from 1900 to 2018.</p>
 
 
-<p class = "clearfix"><a href="http://kjhealy.github.io/covdata"><img src = "/files/misc/hex-covdata.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/covdata">covdata package</a> contains data on reported cases of and deaths from COVID-19 from from a variety of sources including (1) National-level case and mortality data from the ECDC, U.S. state-level case and morality data from the CDC and the New York Times, and patient-level data from the CDC. (2) All-cause mortality and excess mortality data from the Human Mortality Database. (3) Mobility data from Apple.
+<p class = "clearfix"><a href="http://kjhealy.github.io/covdata"><img src = "/files/misc/hex-covdata.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/covdata">covdata package</a> contains data on COVID-19 from a variety of sources including cross-national data from the ECDC; U.S. state-level data from the CDC and the New York Times; patient-level data from the CDC; excess mortality data from the Human Mortality Database; and mobility data from Apple.
 
 <p class = "clearfix"><a href="http://kjhealy.github.io/covmobility"><img src = "/files/misc/hex-covmobility.png" width = "140" align = "left"></a> The <a href="http://kjhealy.github.io/covmobility">covmobility package</a> is a companion to covdata and contains COVID-related mobility data released by Apple and Google.
 
