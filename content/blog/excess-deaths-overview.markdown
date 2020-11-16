@@ -8,6 +8,13 @@ mathjax: false
 ---
 
 
+{{% admonition info Update %}}
+
+Jurisdiction figures updated on October 25th with data up to week 37 (ending September 12th).
+
+{{% /admonition %}}
+
+
 Recent posts on the CDC data have been getting a fair amount of traffic. This page is an overview of the things I've been doing with the data.
 
 ## Summarizing excess mortality in the United States this year so far
