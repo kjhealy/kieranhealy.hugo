@@ -124,7 +124,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = []
+  customCSS = ['dark.css']
   customJS = []
 
   uglyURLs = false          # please keep same with uglyurls setting
