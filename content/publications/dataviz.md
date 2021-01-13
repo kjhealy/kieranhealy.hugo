@@ -68,5 +68,4 @@ Austin</em></p>
 
 <h3>Teaching and Learning Materials <img src = "http://kieranhealy.org/files/misc/socviz_logo.png" width = 150px></h3>
 
-- The `socviz` R package provides datasets, functions, and a course packet to use as you work through the book yourself or for use in the classroom. You can [learn more about it at its website](https://kjhealy.github.io/socviz/).
-- The [code for almost all the figures in the book](https://github.com/kjhealy/dataviz) (along with other examples and supplementary material) is included in a series of R Markdown notebooks contained in the `socviz` package. But this material is also available separately. You can get it [via GitHub](https://github.com/kjhealy/dataviz) or by [downloading a zip file](https://github.com/kjhealy/dataviz/archive/master.zip) of all the material directly.
+- The `socviz` R package provides datasets, functions, and a course packet to use as you work through the book yourself or for use in the classroom. You can [learn more about it at its website](https://kjhealy.github.io/socviz/). The code for almost all the figures in the book (along with other examples and supplementary material) is included in a series of R Markdown notebooks contained in the `socviz` package. For details, see the [package website](https://kjhealy.github.io/socviz/).
