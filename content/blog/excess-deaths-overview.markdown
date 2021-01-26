@@ -31,7 +31,7 @@ The bottom left panel shows the same weekly data as the upper panel, but broken 
 
 ## A gallery of excess mortality summaries for every jurisdiction the CDC tracks
 
-These graphs are the same as the one above, but there is one for every jurisdiction that the CDC tracks. Click or touch a thumbnail to see the full version and browse the gallery of images. Trend lines for these counts, especially when broken out by cause, will be noisier the smaller the population of the jurisdiction.
+These graphs are the same as the one above, but there is one for every jurisdiction that the CDC tracks. Click or touch a thumbnail to see the full version and browse the gallery of images. Trend lines for these counts, especially when broken out by cause, will be noisier the smaller the population of the jurisdiction. Some states (e.g. North Carolina) are slow in reporting complete statewide totals and so more recent weeks are undercounted, sometimes severely.
 
 {{< foldergallery src="files/misc/cdc/" >}}
 
@@ -44,7 +44,7 @@ The idea here is to look at selected non-COVID causes of death (and also All-Cau
 Most causes bounce around their average, but some are more variable than others. Cancer deaths, for instance, do not move around much from year to year. Others, such as Alzheimer's, and infectious diseases like the 'flu, are more variable. In the figure here, each gray dot is one of the years from 2015 to 2019, bouncing around that "No different from average" zero line. I've banded them with a blue bar showing twice the standard deviation from the mean. Anything outside two standard deviations from average is probably worth paying attention to. We restrict ourselves to deaths that take place from March 1st because COVID wasn't causing fatalities in the US before March 2020. Again, more recent weeks are likely to be partial or substantial undercounts in some states.
 
 
-## An overview of excess deaths by cause for selected large states
+## An overview of excess deaths by cause for selected large states and New York City
 
 {{% figure src="/files/misc/excess_by_selected_cause_jurisdiction.png" alt="" caption="Excess mortality across a number of causes by selected jurisdictions." %}}
 
