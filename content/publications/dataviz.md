@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization: A Practical Introduction"
+title: "Data Visualization"
 fave: true
 author: Kieran Healy
 status: Published
@@ -7,7 +7,7 @@ type: published
 kind: book
 overview: true
 buy: "<a  href=\"https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
-citation: "<em>Data Visualization: A Practical Introduction</em>. Princeton University Press."
+citation: "<em>Data Visualization</em>. Princeton University Press."
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
@@ -17,7 +17,11 @@ publishdate: 2019-01-01
 
 <p>Or buy <a class = "badge badge-small" href="http://www.powells.com/book/-9780691181622">from Powell's</a> | <a class = "badge badge-small" href="https://press.princeton.edu/titles/13826.html">from Princeton University Press</a></p>
 
-Data Visualization: A Practical Introduction</a></em> teaches you how to make compelling data visualizations with R and ggplot2 in a clear, sensible, and reproducible way.
+<p><a href="http://acornpub.co.kr/book/data-visualization-healy">Korean Edition</a> (Acorn publishing)</p>
+
+<p><a href="https://www.amazon.co.jp/dp/4065164044">Japanese Edition</a> (Kodansha)</p>
+
+<h4><em>Data Visualization: A Practical Introduction</em> teaches you how to make compelling data visualizations with R and ggplot2 in a clear, sensible, and reproducible way.</h4>
 
 <p><figure><a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><img src="http://kieranhealy.org/files/misc/dv-cover-pupress.jpg"x alt="Data Visualization: A Practical Introduction"></a></figure></p>
 
@@ -68,4 +72,4 @@ Austin</em></p>
 
 <h3>Teaching and Learning Materials <img src = "http://kieranhealy.org/files/misc/socviz_logo.png" width = 150px></h3>
 
-- The `socviz` R package provides datasets, functions, and a course packet to use as you work through the book yourself or for use in the classroom. You can [learn more about it at its website](https://kjhealy.github.io/socviz/). The code for almost all the figures in the book (along with other examples and supplementary material) is included in a series of R Markdown notebooks contained in the `socviz` package. For details, see the [package website](https://kjhealy.github.io/socviz/).
+The `socviz` R package provides datasets, functions, and a course packet to use as you work through the book yourself or for use in the classroom. You can [learn more about it at its website](https://kjhealy.github.io/socviz/). The code for almost all the figures in the book (along with other examples and supplementary material) is included in a series of R Markdown notebooks contained in the `socviz` package. For details, see the [package website](https://kjhealy.github.io/socviz/).
