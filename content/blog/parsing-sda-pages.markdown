@@ -17,16 +17,16 @@ Here's the code for the GSS documentation. There's a [GitHub repository](https:/
 
 ## Libraries
 
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 library(rvest)
-{{< /highlight >}}
+{{< /code >}}
 
 ## Scrape the GSS codebook from SDA
 
 This next code chunk shows how we got the codebook data, but it is not evaluated (we set `eval = FALSE`), because we only need to do it once. We use `sprintf()` to generate a series of numbers with leading zeros, of the form `001`, `002`, `003`, and so on. The `261` is hard-coded for this particular directory, but we should really grab the directory listing, evaluate how many files it lists (of the sort we want), and then use that number instead. 
 
-{{< highlight r >}}
+{{< code r >}}
 ## Generate vector of doc page urls
 urls <- paste0("https://sda.berkeley.edu/D3/GSS18/Doc/", 
                "hcbk", sprintf('%0.4d', 1:261), ".htm")
@@ -39,7 +39,7 @@ doc_pages <- urls %>%
     Sys.sleep(5) # try to be polite
     safely(read_html)(.x)
   })
-{{< /highlight >}}
+{{< /code >}}
 
 ## Save the scraped webpages locally
 
@@ -48,7 +48,7 @@ There's a gotcha with objects like `doc_pages`: they cannot be straightforwardly
 Again, this code chunk is shown but not run, as we only do it once. 
 
 
-{{< highlight r >}}
+{{< code r >}}
 ## Get a list containing every codebook webpage, 
 ## Drop the safely() error codes from the initial scrape (after we've checked them), 
 ## and also drop any NULL entries
@@ -65,7 +65,7 @@ fnames <-paste0("raw/",
 ## Walk the elements of the page list and the file names to 
 ## save each HTML file under is respective local file name
 walk2(page_list, fnames, ~ write_xml(.x, file = .y))
-{{< /highlight >}}
+{{< /code >}}
 
 The `walk()` and `walk2()` functions are very handy for processing batches of items when you want to produce a "side-effect" of the function you're mapping, such as a plot or (in this case) a saved file.
 
@@ -74,7 +74,7 @@ The `walk()` and `walk2()` functions are very handy for processing batches of it
 Using the local data we've saved, we read in a list of all the web pages. Our goal is to get them into a tractable format (a tibble or data frame). From there we can write some functions to, e.g., query the codebook directly from the console, or alterantively produce the codebook in a format suitable for integrating into the R help system via a package.
 
 
-{{< highlight r >}}
+{{< code r >}}
 ## The names of all the files we just created
 local_urls <- fs::dir_ls("raw/")
 
@@ -87,32 +87,32 @@ doc_pages <- local_urls %>%
 ## Are there any errors?
 doc_pages %>% pluck("error") %>% 
   flatten_dfr()
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 0 x 0
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## quick look at first five items in the list
 summary(doc_pages)[1:5,]
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ##              Length Class  Mode
 ## raw/0001.htm 2      -none- list
 ## raw/0002.htm 2      -none- list
 ## raw/0003.htm 2      -none- list
 ## raw/0004.htm 2      -none- list
 ## raw/0005.htm 2      -none- list
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## Quick look inside the first record
 doc_pages[[1]]
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## $result
 ## {html_document}
 ## <html>
@@ -121,7 +121,7 @@ doc_pages[[1]]
 ## 
 ## $error
 ## NULL
-{{< /highlight >}}
+{{< /code >}}
 
 ## Parse the pages
 
@@ -130,7 +130,7 @@ Next, we parse every webpage to extract a row for every variable. There are mult
 ### Functions
 
 
-{{< highlight r >}}
+{{< code r >}}
 ## Page of variables to list of variables and their info, 
 parse_page <- function(x){
   html_nodes(x, ".dflt") %>%
@@ -238,29 +238,29 @@ process_page <- function(x){
   q_tbl
 
   }
-{{< /highlight >}}
+{{< /code >}}
 
 ## Make the tibble
 
 Parse the GSS variables into a tibble, with list columns for the marginals and the variable properties.
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc <-  doc_pages %>% 
   pluck("result") %>% # Get just the webpages
   compact() %>%
   map(process_page) %>%
   bind_rows()
-{{< /highlight >}}
+{{< /code >}}
 
 
 ## Look at the outcome
 
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 6,144 x 5
 ##    id     description      properties   marginals   text                   
 ##    <chr>  <chr>            <list>       <list>      <chr>                  
@@ -275,31 +275,31 @@ gss_doc
 ##  9 RACEC… What Is R's rac… <tibble [3 … <tibble [2… 1602. What is your rac…
 ## 10 HISPA… Hispanic specif… <tibble [3 … <tibble [3… 1601. IF R IS FEMALE, …
 ## # … with 6,134 more rows
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc$id <- tolower(gss_doc$id)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc %>% filter(id == "race") %>% 
   select(text)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 1 x 1
 ##   text                                   
 ##   <chr>                                  
 ## 1 24. What race do you consider yourself?
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc %>% filter(id == "race") %>% 
   select(marginals) %>% 
   unnest(cols = c(marginals))
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 4 x 5
 ##   percent n      value label id   
 ##     <dbl> <chr>  <chr> <chr> <chr>
@@ -307,72 +307,72 @@ gss_doc %>% filter(id == "race") %>%
 ## 2    14.2 9,187  2     BLACK RACE 
 ## 3     5.5 3,594  3     OTHER RACE 
 ## 4   100   64,814 <NA>  Total RACE
-{{< /highlight >}}
+{{< /code >}}
 
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc %>% filter(id == "sex") %>% 
   select(text)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 1 x 1
 ##   text                     
 ##   <chr>                    
 ## 1 23. Code respondent's sex
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc %>% filter(id == "sex") %>% 
   select(marginals) %>% 
   unnest(cols = c(marginals))
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 3 x 5
 ##   percent n      value label  id   
 ##     <dbl> <chr>  <chr> <chr>  <chr>
 ## 1    44.1 28,614 1     MALE   SEX  
 ## 2    55.9 36,200 2     FEMALE SEX  
 ## 3   100   64,814 <NA>  Total  SEX
-{{< /highlight >}}
+{{< /code >}}
 
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc %>% filter(id == "fefam") %>% 
   select(text)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 1 x 1
 ##   text                                                                     
 ##   <chr>                                                                    
 ## 1 252. Now I'm going to read several more statements. As I read each one, …
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 gss_doc %>% filter(id == "fefam") %>% 
   select(properties) %>% 
   unnest(cols = c(properties))
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 3 x 3
 ##   property           value   id   
 ##   <chr>              <chr>   <chr>
 ## 1 Data type          numeric FEFAM
 ## 2 Missing-data codes 0,8,9   FEFAM
 ## 3 Record/column      1/1114  FEFAM
-{{< /highlight >}}
+{{< /code >}}
 
 ## Save the data object as efficiently as we can
 
 Shown here but not run.
 
-{{< highlight r >}}
+{{< code r >}}
 save(gss_doc, file = "data/gss_doc.rda", 
      compress = "xz") 
 
 # tools::checkRdaFiles("data")
-{{< /highlight >}}
+{{< /code >}}
 

@@ -18,7 +18,7 @@ bibtex exited with status 2
 
 Biblatex works in part by generating an additional bibfile called *file*-blx.bib in the same directory as the *file*.tex being processed. This is in addition to whatever *main*.bib file is being used to store actual citations and located in the BIBINPUTS directory. The problem is that that TextMate can't find this file during its compilation sequence.
 
-{{< highlight tex >}}
+{{< code tex >}}
 
 This is BibTeX, Version 0.99c (TeX Live 2009)
 The top-level auxiliary file: organizations.aux
@@ -30,7 +30,7 @@ I couldn't open database file organizations-blx.bib
 I'm skipping whatever remains of this command
 I found no database files---while reading file organizations.aux
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 The solution is to explicitly append the current directory to BIBINPUTS in Preferences \>; Advanced \>; Shell Variables, so that instead of , say,

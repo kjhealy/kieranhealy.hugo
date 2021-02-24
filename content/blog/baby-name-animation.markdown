@@ -15,7 +15,7 @@ Here's the code in full, using the `babynames` dataset, which can be installed f
 
 
 
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 library(babynames)
 library(gganimate)
@@ -29,11 +29,11 @@ library(myriad)
 import_myriad_semi()
 
 theme_set(theme_myriad_semi())
-{{< /highlight >}}
+{{< /code >}}
 
 The `babynames` data looks like this:
 
-{{< highlight r >}}
+{{< code r >}}
 > babynames
 # A tibble: 1,924,665 x 5
     year sex   name          n   prop
@@ -50,11 +50,11 @@ The `babynames` data looks like this:
 10  1880 F     Sarah      1288 0.0132
 # … with 1,924,655 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 We're going to create a plot object, `p`. We take the data and subset it to boys' names, then calculate a table of end-letter frequencies by year. Finally,  we add the instructions for the plot.
 
-{{< highlight r >}}
+{{< code r >}}
 ## Create the plot object
 p <- babynames %>%
     filter(sex == "M") %>%
@@ -86,19 +86,19 @@ p <- babynames %>%
     ease_aes('cubic-in-out')
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 The first bit of code finds the last letter of every name in `babynames` using `stringr`'s `str_sub()` function. Then we count the number of ending letters and calculate a proportion, which we then rank. From there we hand things over to `ggplot` to draw a column chart. With `gganimate` you draw and polish the plot as normal---here just a column chart using `geom_col()`---and then add the animation instructions using `transition_states()` and `ease_aes()`. The only other trick is the use of the placeholder macro `'{closest_state}'` in the `labs()` call, where we specify the subtitle. This is what gives us the year counter.  
 
 With the plot object ready to go, we call `animate()` to save it to a file.
 
-{{< highlight r >}}
+{{< code r >}}
 
 animate(p, fps = 25, duration = 20, width = 800, height = 600, renderer = gifski_renderer("figures/name_endings_boys.gif"))
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 And here's the result: 
 

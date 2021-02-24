@@ -13,7 +13,7 @@ With the 2020 U.S. Census in motion already, I've been looking at various pieces
 
 First we get ourselves set up as usual.
 
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 library(here)
 library(janitor)
@@ -33,7 +33,7 @@ import_myriad_semi()
 
 theme_set(theme_myriad_semi())
 
-{{< /highlight >}}
+{{< /code >}}
 
 Now, the data. What we want are the decennial and intercensal estimates by year, sex, and year of age. These aren't all in the same place. Moreover, they aren't all in the same format. The estimates for 1900 to 1979 are available [at this link](https://www2.census.gov/programs-surveys/popest/tables/1900-1980/national/asrh/?C=N;O=D), but (as quickly became clear), the format of the CSV file changes slightly. Subsequent decades vary their format and expand the range of measures counted. Some of the formats are rather difficult to work with. For example, here's part of the description of the 1980-89 files:
 
@@ -83,7 +83,7 @@ That means that the data file for any particular year during this period looks s
 
 Not so nice. The cleanest way to work with stuff like this would be to write a spec to read in the data by column position. In the end I wrote a series of short scripts using some old-fashioned Unix tools, especially `sed`, to do the slicing and dicing for me. They looked like this:
 
-{{< highlight bash >}}
+{{< code bash >}}
 ## Extract every row between the first
 ## July estimate (^2I 7) to oct (2I10)
 for filename in *.TXT; do
@@ -99,11 +99,11 @@ done
 for filename in *.new; do
     gsed -i '1d;$d' "$filename"
 done
-{{< /highlight >}}
+{{< /code >}}
 
 In the end I had some fairly clean delimited files that I could work with that needed only a little more cleaning in R. For each batch of files I'd do something like this: get a list of the files needed from the directory, read the contents into a tibble and harmonize the column names if needed. Here's the segment for the 1980s files, for example:
 
-{{< highlight r >}}
+{{< code r >}}
 target <- "1980_1989"
 path <- paste0("data/",target)
 
@@ -135,11 +135,11 @@ pop_1980_1989
  8 1987  /Users/kjhealy/Documents/data/misc/census_pop… <tibble [101 …
  9 1988  /Users/kjhealy/Documents/data/misc/census_pop… <tibble [101 …
 10 1989  /Users/kjhealy/Documents/data/misc/census_pop… <tibble [101 …
-{{< /highlight >}}
+{{< /code >}}
 
 Eventually all the series are read in and can be bound together and the year, age, and population counts extracted.
 
-{{< highlight r >}}
+{{< code r >}}
 # Now we're suckin' diesel
 pop_data <- bind_rows(pop_1900_1959, 
                       pop_1960_1979, 
@@ -168,11 +168,11 @@ pop_series
  9 1900      8 1750000 884000 866000
 10 1900      9 1717000 868000 849000
 # … with 10,510 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 From there we pivot series to long format:
 
-{{< highlight r >}}
+{{< code r >}}
 pop_lon <- pop_series %>% select(year, age, male, female) %>%
   pivot_longer(male:female, names_to = "group", values_to = "count") %>%
   group_by(year, group) %>%
@@ -198,11 +198,11 @@ pop_lon
 10 1900      4 female 913000 37227000  2.45     0
 # … with 21,030 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Here, within each  year and for males and females, we calculate the percentage of the total population that is of any particular age. As I mentioned, one feature of the Census data is that over the years the top-code for age---the highest age the Census tables report---gradually increases. We can see what those limits are and when they change:
 
-{{< highlight r >}}
+{{< code r >}}
 pop_series %>%
   group_by(year) %>%
   summarize(max_age = max(age)) %>%
@@ -216,11 +216,11 @@ pop_series %>%
 1      75 1900  1939 
 2      85 1940  1979 
 3     100 1980  2019 
-{{< /highlight >}}
+{{< /code >}}
 
 Now we can make some animations. First, rather than a population pyramid, we'll use `geom_density()` to produce kernel density estimates of the age distribution for every year, for both males and females. In cases like this, when we have a variable like `year` and a summary count for each age in that year (but not individual-level observations), the way to get the density is to put `age` on the x-axis and use the proportion (`pct/100`) to weight each year-of-age. (Weights need to sum to 1, hence the use of proportions rather than percents.) Here we're using the `after_stat()` function that's new in the `scales` package and `ggplot2` version 3.3.0. This way of expressing what we want to do replaces earlier syntaxes like the double-period `..density..` convention.  
 
-{{< highlight r >}}
+{{< code r >}}
 
 p_dens <- pop_lon %>%
   ggplot(aes(x = age, 
@@ -256,7 +256,7 @@ p_dens <- pop_lon %>%
     
 animate(p_dens, fps = 25, duration = 30, width = 1024, height = 1024, renderer = ffmpeg_renderer())
 
-{{< /highlight >}}
+{{< /code >}}
 
 The `theme()` calls are all about making the default label text larger, using the handy `rel()` function to boost size in relative terms rather than worrying about units. We get the animation almost for free, thanks to Thomas Lin Pedersen's `gganimate` package. Just the two functions, `transition_time()` and `ease_aes()` do all the work. Then we use `animate()` to actually render the animation. After saving the results as an `mp4` file, here's what we get. 
 
@@ -266,16 +266,16 @@ The `theme()` calls are all about making the default label text larger, using th
 
 The curves here are estimated kernel densities. A more conventional way to represent the demographic data we have is with a _population pyramid_, where we put ages on the x axis and population counts (or percentages) on the y axis, and then put males on the left and females on the right. To accomplish this in R we'll use `geom_ribbon()` and cheat a little bit by making the ages for males all be negative. Then we'll set the base of the male and female ribbons to be zero. Here's how that works. We're going to show the absolute rather than the relative population distribution, so we can watch the size of the pyramid grow over time as well as see its shape change.
 
-{{< highlight r >}}
+{{< code r >}}
 pop_pyr <- pop_lon
 
 ## Make all the Male ages negative
 pop_pyr$count[pop_pyr$group == "male"] <- -pop_pyr$count[pop_pyr$group == "male"]
-{{< /highlight >}}
+{{< /code >}}
 
 The code for the plot is very similar to before:
 
-{{< highlight r >}}
+{{< code r >}}
 
 mbreaks <- c("1M", "2M", "3M")
 
@@ -310,7 +310,7 @@ p_pyr_count <- p + geom_ribbon(alpha = 0.5) +
     
     
 animate(p_pyr_count, fps = 25, duration = 60, width = 1024, height = 1024, renderer = ffmpeg_renderer())
-{{< /highlight >}}
+{{< /code >}}
 
 The main changes are in the labeling. `geom_ribbon` needs a `ymin` and a `ymax` value. The former will always be zero. The latter will be the population count for that age. We make a little vector of population labels, `mbreaks`, for the x-axis, and join it up first in reverse, and then in regular order on either side of zero: `labels = c(rev(mbreaks), "0", mbreaks)`. We also set the breaks between -3 million and 3 millon in steps of 1 millon: `breaks = seq(-3e6, 3e6, 1e6)`. The `cubic-in-out` easing function makes for a better-looking step-by-step animation than the default `linear`, which bobbles around too much. 
 

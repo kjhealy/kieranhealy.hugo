@@ -12,7 +12,7 @@ Two things have changed since Matt's helpful  [writeup](https://msalganik.wordpr
 
 Here's an example. We create a GitHub repository called [lintscreen](https://github.com/kjhealy/lintscreen) and set it up [so that Travis-CI will see it](https://travis-ci.org/getting_started). Travis's build environment is controlled by a configuration file called `.travis.yml` that lives in our repository. [Jan Tilly](http://jtilly.io/) has done all the hard work of configuring a [container-based R on Travis](https://github.com/jtilly/R-travis-container-example), so I just follow his example here. His configuration is intended for people writing R packages. We're just linting code, not running it, so things are more straightforward. Here's what `.travis.yml` looks like:
 
-{{< highlight yaml >}}
+{{< code yaml >}}
 
 # .travis.yml using container-based infrastructure
 # travis configuration file courtesy of Jan Tilly:
@@ -68,11 +68,11 @@ install:
 script:
   - ./travis-linter.sh
 
-{{< /highlight >}}
+{{< /code >}}
 
 As you can see in the "addons" and "install" segments, we get a whole R setup here, including all of `devtools` and the `covr` testing suite. We don't really need these for what we're doing, and so this configuration file could be simplified even more than I've already done. I've left them there partly to remind you that you can use this environment for more challenging coding tasks. In any event, once R is setup and the additional packages compiled in our container's local directory, we tell Travis (in the `script:`) section, to run a very simple shell script. It takes any `.Rmd` files in the top-level directory and puts them through `lintr`, returning a non-zero exit status if anything goes wrong. It looks like this:
 
-{{< highlight bash >}}
+{{< code bash >}}
 
 #!/bin/bash
 set -e
@@ -91,7 +91,7 @@ done
 
 exit $exitstatus
 
-{{< /highlight >}}
+{{< /code >}}
 
 It's very straightforward, but a script like this can easily be extended to perform much more complicated tasks. Rscript is called twice so that you can see the output (if any) in your Travis log (the first call) and to generate the exit status that lets Travis decide whether your build has failed (the second call). (There's certainly got to be a more efficient way to do this than effectively linting the file twice. Probably I should just pipe the first to a file and `cat` the output if there is any, while setting the exit status at the same time.)
 

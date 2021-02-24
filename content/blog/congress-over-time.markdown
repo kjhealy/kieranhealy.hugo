@@ -11,51 +11,51 @@ Since the U.S. midterm elections I've been playing around with some Congressiona
 
 The data comes as a set of CSV files, one for each congressional session. You download the data by repeatedly querying CQ's main database by year. In its initial form, the top of each file looks like this:
 
-{{< highlight text >}}
+{{< code text >}}
 Results for 79th Congress
 ,
 Last,First,Middle,Suffix,Nickname,Born,Death,Sex,Position,Party,State,District,Start,End,Religion,Race,Educational Attainment,JobType1,JobType2,JobType3,JobType4,JobType5,Mil1,Mil2,Mil3
 Abernethy,Thomas,Gerstle,,,05/16/1903,01/23/1953,M,U.S. Representative,Democrat,MS,4,01/03/1945,01/03/1953,Methodist,White,Professional degree,Law,,,,,Did not serve,,
 Adams,Sherman,,,,01/08/1899,10/27/1986,M,U.S. Representative,Republican,NH,2,01/03/1945,01/03/1947,Not specified,White,Bachelor's degree,Construction/building trades,,,,,,,
-{{< /highlight >}}
+{{< /code >}}
 
 The bottom of each file looks like this:
 
-{{< highlight text >}}
+{{< code text >}}
 Young,Milton,Ruben,,,12/06/1897,05/31/1983,M,U.S. Senator,Republican,ND,,03/19/1945,01/03/1981,Mormon,White,Unknown,Agriculture,,,,,Did not serve,,
 Zimmerman,Orville,,,,12/31/1880,04/07/1948,M,U.S. Representative,Democrat,MO,10,01/03/1945,04/07/1948,Methodist,White,Professional degree,Education,Law,,,,Army,,
 ,
 ,
 "Export list of members by biographical characteristics. Washington: CQ Press. Dynamically generated November 10, 2018, from CQ Press Electronic Library, CQ Press Congress Collection: http://library.cqpress.com/congress/export.php?which=memberbioadv&congress=198&yearlimit=0"
-{{< /highlight >}}
+{{< /code >}}
 
 To make the files readable in R, the first thing we'll want to do is strip the first two lines of each file and the last three lines of each file. (Of course I checked first to make sure each file was the same in this regard.) There are several ways to get rid of specific lines from files. The venerable `sed` command is one. We loop it over each CSV file, telling it to delete (`d`) lines 1 and 2:
 
-{{< highlight sh >}}
+{{< code sh >}}
 ## Remove first two lines from each csv file
 for i in *.csv; do
     sed -i.orig '1,2d' $i
 done
-{{< /highlight >}}
+{{< /code >}}
 
 The `-i.orig` option makes a copy of the original file first, appending a `.orig` extension to the filename. 
 
 We do the same thing to delete the last three lines of each file. You can use some versions of `head` to do this quite easily, because they accept a negative number to their `-n` argument. Thus, while `head -n 3` usually returns the first three lines of a file, `head -n -3` will show you all but the last three lines. But the version of `head` that ships with macOS won't do this. So I used sed again, this time taking advantage of Stack Overflow to find the following grotesque incantation:
 
-{{< highlight sh >}}
+{{< code sh >}}
 ## Remove last three lines from each csv file
 for i in *.csv; do
     sed -i.orig -e :a -e '1,3!{P;N;D;};N;ba' $i
 done
-{{< /highlight >}}
+{{< /code >}}
 
 The `-e :a` is a label for the expression, and the `'1,3!{P;N;D;};N;ba'` is where the work gets done, streaming through the file till it locates the end, deletes that line, and then branches (`b`) back to the labeled script again (`a`) until it's done it three times. Gross.
 
 You could also do this using a combination of `wc` (to get a count of the number of lines in the file) and `awk`, like this:
 
-{{< highlight sh >}}
+{{< code sh >}}
 awk -v n=$(($(wc -l < file) - 3)) 'NR<n' file
-{{< /highlight >}}
+{{< /code >}}
 
 There's a reason people used to say `sed` and `awk` had those names because of the sounds people made when forced to use them. 
 
@@ -63,7 +63,7 @@ Anyway, now we have a folder full of clean CSV files. Time to fire up R and get 
 
 Inside R, we get a vector of our filenames:
 
-{{< highlight r >}}
+{{< code r >}}
 filenames <- dir(path = "data/clean",
                  pattern = "*.csv",
                  full.names = TRUE)
@@ -89,11 +89,11 @@ filenames
 #> [33] "data/clean/33_111_congress.csv" "data/clean/34_112_congress.csv"
 #> [35] "data/clean/35_113_congress.csv" "data/clean/36_114_congress.csv"
 #> [37] "data/clean/37_115_congress.csv" "data/clean/38_116_congress.csv"
-{{< /highlight >}}
+{{< /code >}}
 
 Then, instead of writing a `for` loop and doing a bunch of `rbind`-ing, we can pipe our vector of filenames to the `map_dfr()` function and we're off to the races:
 
-{{< highlight r >}}
+{{< code r >}}
 data <- filenames %>% map_dfr(read_csv, .id = "congress")
 
 colnames(data) <- to_snake_case(colnames(data))
@@ -118,14 +118,14 @@ data
 #> #   educational_attainment <chr>, job_type_1 <chr>, job_type_2 <chr>,
 #> #   job_type_3 <chr>, job_type_4 <chr>, job_type_5 <chr>, mil_1 <chr>,
 #> #   mil_2 <chr>, mil_3 <chr>
-{{< /highlight >}}
+{{< /code >}}
 
 A little data-cleaning later and the `congress` variable is properly numbered and we're good to go. The `to_snake_case()` function comes from the `snakecase` package.
 
 
 The data are observed at the level of congressional terms. So, for example, we can draw a heatmap of the age distribution of U.S. representatives across the dataset:
 
-{{< highlight r >}}
+{{< code r >}}
 age_counts <- data_all %>%
     filter(position == "U.S. Representative",
            party %in% c("Democrat", "Republican")) %>%
@@ -170,13 +170,13 @@ p_out <- p + geom_tile() +
     theme(legend.position = "top", legend.box.just = "top")
 
 p_out
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/age_heatmap_media-01.png" alt="" caption="Age distribution heatmap" %}}
 
 Or we can look at it a different way, using the `ggbeeswarm` package. We layer a few different pieces here: a trend line for average age, a ribbon showing the 25th and 75th percentiles of the age distribution, the distribution itself (exlcuding its oldest and youngest 1%), and the names of the representatives in the oldest and youngest percentiles. We'll create a separate dataset for each of these pieces.
 
-{{< highlight r >}}
+{{< code r >}}
 age_counts <- data_all %>%
     filter(position == "U.S. Representative",
            party %in% c("Democrat", "Republican")) %>%
@@ -203,11 +203,11 @@ oldest_group_by_year <- data_all %>% filter(party %in% c("Democrat", "Republican
 youngest_group_by_year <- data_all %>% filter(party %in% c("Democrat", "Republican"),
                                         position == "U.S. Representative") %>%
     group_by(congress, party) %>% filter(start_age < quantile(start_age, 0.01))
-{{< /highlight >}}
+{{< /code >}}
 
 Here's what they look like: 
 
-{{< highlight r >}}
+{{< code r >}}
 age_counts 
 
 #> # A tibble: 3,410 x 6
@@ -296,11 +296,11 @@ youngest_group_by_year
 #> #   name_dob <chr>, pid <int>, start_age <int>, poc <chr>, days_old <dbl>,
 #> #   months_old <int>, full_name <chr>, end_career <date>, entry_age <int>,
 #> #   yr_fac <fct>
-{{< /highlight >}}
+{{< /code >}}
 
 Now we can draw a graph, faceted by Party:
 
-{{< highlight r >}}
+{{< code r >}}
 ## Don't show points for the people we're naming
 exclude_pid <- c(oldest_group_by_year$pid, youngest_group_by_year$pid)
 
@@ -344,7 +344,7 @@ p_out <- p + geom_quasirandom(size = 0.1, alpha = 0.4,
          caption = caption_text) +
     facet_wrap( ~ party, nrow = 1, labeller = as_labeller(party_names)) +
     theme(plot.subtitle = element_text(size = 10))
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/age_careers_line_labeled.png" alt="" caption="Age trends, distributions, and outliers." %}}
 
@@ -352,7 +352,7 @@ That one might be easier to see [as a PDF](https://kieranhealy.org/files/misc/ag
 
 Finally, here's a neat trick. One thing I was interested in was changes in the composition of the so-called "Freshman Class" of representatives over time---that is, people elected to the House for the very first time. To extract that subset, I needed to create a `term_id` nested with each person's unique identifier (their `pid`). I knew what Congressional session each person-term was in, but just needed to count from the first to the last. I'm sure there's more than one way to do it, but here's a solution:
 
-{{< highlight r >}}
+{{< code r >}}
 first_terms <- data_all %>%
     filter(position == "U.S. Representative", start > "1945-01-01") %>%
     group_by(pid) %>% nest() %>%
@@ -382,7 +382,7 @@ first_terms
 #> #   name_dob <chr>, start_age <int>, poc <chr>, days_old <dbl>,
 #> #   months_old <int>, full_name <chr>, end_career <date>, entry_age <int>,
 #> #   yr_fac <fct>, term_id <dbl>
-{{< /highlight >}}
+{{< /code >}}
 
 The trick here is that `mutate(data = map(data, ~ mutate(.x, term_id = 1 + congress - first(congress))))` line, which nests one mutate call inside another. We group the data by `pid` and `nest()` it so it's as if we have a separate table for each representative. Then we use `map()` to add a `term_id` column to each subtable. Once we have a per-person `term_id`, and we grab everyone's first term, we can e.g. take a look at the breakdown of freshman representatives by gender for every session since 1945:
 

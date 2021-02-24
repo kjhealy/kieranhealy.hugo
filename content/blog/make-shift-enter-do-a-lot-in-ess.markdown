@@ -13,7 +13,7 @@ categories:
 
 If you use Emacs and ESS to run R, then here's a nice tweak I found on the [Emacs Wiki](http://www.emacswiki.org/). The following bit of elisp goes in your .emacs file (or equivalent). Starting with an R file in the buffer, hitting shift-enter vertically splits the window and starts R in the right-side buffer. If R is running and a region is highlighted, shift-enter sends the region over to R to be evaluated. If R is running and no region is highlighted, shift-enter sends the current line over to R. Repeatedly hitting shift-enter in an R file steps through each line (sending it to R), skipping commented lines. The cursor is also moved down to the bottom of the R buffer after each evaluation. Although you can of course use various emacs and ESS keystrokes to do all this (C-x-3, C-c-C-r, etc, etc) it's convenient to have them bound in a context-sensitive way to one command.
 
-{{< highlight cl >}}
+{{< code cl >}}
 
 ;; Adapted with one minor change from Felipe Salazar at
 ;; http://www.emacswiki.org/emacs/EmacsSpeaksStatistics
@@ -53,6 +53,6 @@ If you use Emacs and ESS to run R, then here's a nice tweak I found on the [Emac
              (local-set-key [(shift return)] 'my-ess-eval)))
 (require 'ess-site)
 
-{{< /highlight >}}
+{{< /code >}}
 
 This is in my fork of the [Emacs Starter Kit](http://kjhealy.github.com/emacs-starter-kit/), by the way.

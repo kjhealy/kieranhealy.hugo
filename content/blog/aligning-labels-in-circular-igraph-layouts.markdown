@@ -22,7 +22,7 @@ So, with a circular graph layout, how to get the labels aligned nicely? Here's a
 
 As is common in R, you can give this parameter a scalar argument (0, say, so all labels are aligned to the right) but it will also accept a vector. Because we're plotting the entire graph in a circle, and igraph lays out its nodes predictably when plotting in a circle, we can take advantage of this and calculate the right position for each label with respect to its vertex given the vertex's position on the big circle. Like this.
 
-{{< highlight r >}}
+{{< code r >}}
  ### Here's one way to do it.
  
  library(igraph)
@@ -65,7 +65,7 @@ As is common in R, you can give this parameter a scalar argument (0, say, so all
  lab.locs <- radian.rescale(x=1:n, direction=-1, start=0)
  plot(g, layout=la, vertex.size=2, vertex.label.dist=1,
          vertex.label.degree=lab.locs)
-{{< /highlight >}}
+{{< /code >}}
 
 This gives us a graph with a nice layout, like this:
 

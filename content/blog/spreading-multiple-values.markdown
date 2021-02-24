@@ -11,7 +11,7 @@ Earlier this year my colleague [Steve Vaisey](http://stephenvaisey.com) was conv
 
 Here's a motivating example, using some made-up data. What we have are measures of sex, race, stratum (from a survey, say), education, and income. Of these, everything is categorical except income. Here's what it looks like:
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(tidyverse)
 library(data.table)
@@ -58,11 +58,11 @@ df
 #> 10       7 M     B     BA      88.8
 #> # ... with 990 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 In order to do a bit of modeling, what Steve wanted to do was to get a table with the data grouped by sex, race, and stratum, but with averages and totals for income by education. In particular, he needed to spread the average income and count values by education into columns. One way to do this, just to show what's needed, is using the `data.table` library: 
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## Data Table
 data.table::setDT(df)
@@ -86,13 +86,13 @@ head(dt_wide)
 #> 5:               10
 #> 6:               17
 
-{{< /highlight >}}
+{{< /code >}}
 
 As you can see, we stratify by sex, race, and stratum, and then in the new columns we have average income values and observation counts for BA and HS values of education.
 
 The `data.table` library is great, and does the job nicely. What if we wanted to keep everything in the tidyverse, just for expositional purposes? A first cut gets us some of the way:
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## Simple tidy summary
 tv_wide1 <- df %>% group_by(sex, race, stratum, educ) %>%
@@ -115,13 +115,13 @@ tv_wide1
 10 F     B           5 HS        70.7    10
 # ... with 54 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 There the education variable is still tidily organized, and so the mean income and count variables are their own columns, rather than widened out. To widen them in the way we want, we will need to do a bit more work. In effect---and this is a general strategy when doing this kind of thing with `tidyr`---we `gather()` the data into a long-enough form, then temporarily re-aggregate it to the level we want using `unite()`, and finally `spread()` the result into columns. I'll show the results of each of the additional steps cumulatively, so you can see what each stage of the pipeline produces. 
 
 First we gather the summaries (mean income and N observations) for each value of the  education variable, still stratifying on sex, race, and stratum:
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## 1. gather()
 tv_wide2 <- df %>% group_by(sex, race, stratum, educ) %>%
@@ -146,13 +146,13 @@ tv_wide2
 10 F     B           5 HS    mean_inc  70.7
 # ... with 118 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 The `gather()` step has converted the `mean_inc` and `N` columns into long form, with `variable` and `value` columns. 
 
 We then use `unite()` to create a temporary variable that unites the education variable with the means and counts for each row. In effect we're sticking the `educ` and `variable` columns together:
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## 2. unite()
 tv_wide2 <- df %>% group_by(sex, race, stratum, educ) %>%
@@ -177,11 +177,11 @@ tv_wide2
  9 F     B           5 BA_mean_inc 111. 
 10 F     B           5 HS_mean_inc  70.7
 # ... with 118 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 As you can see, `educ` and `variable` are gone, replaced by a single new variable, `temp` that's glued them together. Finally we `spread()` this `temp` variable into columns, giving us separate columns for BA Mean income, BA N observations, HS Mean income, and HS N observations:
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## 3. spread()
 tv_wide2 <- df %>% group_by(sex, race, stratum, educ) %>%
@@ -208,13 +208,13 @@ tv_wide2
 10 F     W           2       104.     14        93.4    12
 # ... with 22 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 This table is the same as the `data.table` output, except that the naming conventions for the created columns are a little different.
 
 Because we might be doing this gather-unite-spread step quite often, it'd be useful to have a function to bundle up the steps for us into something more convenient. Dan Sullivan has [helpfully written one for us](https://community.rstudio.com/t/spread-with-multiple-value-columns/5378/2) on the Rstudio community website. It uses tidyeval conventions for its internals. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 multi_spread <- function(df, key, value) {
     # quote key
@@ -228,11 +228,11 @@ multi_spread <- function(df, key, value) {
 }
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 The multi-spread function generalizes to more than two values, by the way. It lets us do this:
 
-{{< highlight r >}}
+{{< code r >}}
 ## Final version
 tv_wide3 <- df %>% group_by(sex, race, stratum, educ) %>%
     summarize(mean_inc = mean(income), N = n()) %>%
@@ -255,6 +255,6 @@ tv_wide3
  9 F     W           1        86.4    20        93.0     8
 10 F     W           2       104.     14        93.4    12
 # ... with 22 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 And there we are. A tidyverse-only way to `spread()` with multiple value columns. 

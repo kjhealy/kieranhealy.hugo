@@ -14,7 +14,7 @@ I resigned myself to doing the update manually for a bit, and then I got stuck i
 
 The `index.json` file is just a string of metadata. It looks like this:
 
-{{< highlight json >}}
+{{< code json >}}
 
 {"basePath":"/covid19-mobility-data/2008HotfixDev38/v3",
  "mobilityDataVersion":"2008HotfixDev38:2020-05-21",
@@ -24,12 +24,12 @@ The `index.json` file is just a string of metadata. It looks like this:
                      "initialPath":"/en-us/initial-data.json",
                      "shards":{"defaults":"/en-us/shards/defaults.json"}}}}
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 So, we grab this file (whose URL we know) and extract the information we want about the `basePath` and `csvPath` that point to the data:
 
-{{< highlight r >}}
+{{< code r >}}
 
 get_apple_target <- function(cdn_url = "https://covid19-static.cdn-apple.com",
                              json_file = "covid19-mobility-data/current/v3/index.json") {
@@ -42,11 +42,11 @@ get_apple_target <- function(cdn_url = "https://covid19-static.cdn-apple.com",
 ## > get_apple_target()
 ## [1] "https://covid19-static.cdn-apple.com/covid19-mobility-data/2008HotfixDev38/v3/en-us/applemobilitytrends-2020-05-21.csv"
 
-{{< /highlight >}}
+{{< /code >}}
 
 Then we can grab the data itself, with this function:
 
-{{< highlight r >}}
+{{< code r >}}
 
 get_apple_data <- function(url = get_apple_target(),
                              fname = "applemobilitytrends-",
@@ -72,12 +72,12 @@ get_apple_data <- function(url = get_apple_target(),
   janitor::clean_names(readr::read_csv(tf))
 }
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 This will pull the data into a tibble, which you can then clean further (e.g., put into long format) as desired.
 
-{{< highlight r >}}
+{{< code r >}}
 
 apple <- get_apple_data()
 
@@ -133,5 +133,5 @@ apple
 ###   x2020_04_18 <dbl>, x2020_04_19 <dbl>, x2020_04_20 <dbl>, x2020_04_21 <dbl>, x2020_04_22 <dbl>,
 ###   x2020_04_23 <dbl>, x2020_04_24 <dbl>, …
 ##
-{{< /highlight >}}
+{{< /code >}}
 

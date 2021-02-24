@@ -13,7 +13,7 @@ On Twitter the other day, [Philip Cohen put up](https://twitter.com/familyunequa
 
 Afterwards, I was messing around with the data and wanted to draw some time-series plots for the various subject areas the NCES tracks. After cleaning up the data, we end up with a tidy table that looks like this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 > data_l
 # A tibble: 594 x 5
@@ -32,14 +32,14 @@ Afterwards, I was messing around with the data and wanted to draw some time-seri
 10 Engineering                                       1970 4.50e4  5.36   TRUE  
 # ... with 584 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 The data and code for everything here (including the figure above) is [available on Github](https://github.com/kjhealy/nces-degrees), by the way. 
 
 What we want is a small-multiple of the trends for each subject area with more than two percent of degrees conferred. That's what the `cutoff` variable is for. When we create small multiples, we almost always want to order them in some sensible way. This is almost never the default of alphabetically by category. Instead, we will reorder the panels (the _facets_, in ggplot's terms) by some statistic of interest---most often, the mean value of the variable we're showing. We set up some labels (because we'll be reusing them) and draw the plot. The key bit is the `~ reorder(field_of_study, -yr_pct)` instruction. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 my_xlab = "Year"
 my_ylab = "Percent of all BAs conferred"
@@ -64,7 +64,7 @@ p + geom_line() +
          subtitle = my_subtitle) +
     theme_minimal() +
     theme(strip.text.x = element_text(size = 6))
-{{< /highlight >}}
+{{< /code >}}
 
 
 {{% figure src="https://kieranhealy.org/files/misc/facet-row-1.png" alt="" caption="Facets ordered by the mean value of the time series, from top left to bottom right. The bottom row is not completely filled." %}}
@@ -78,7 +78,7 @@ Again on Twitter, [DrDrang asked](https://twitter.com/drdrang/status/98161668396
 
 We can set `as.table` to `FALSE`:
 
-{{< highlight r >}}
+{{< code r >}}
 
 p + geom_line() +
     facet_wrap(~ reorder(field_of_study, -yr_pct),
@@ -92,14 +92,14 @@ p + geom_line() +
     theme_minimal() +
     theme(strip.text.x = element_text(size = 6))
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 {{% figure src="https://kieranhealy.org/files/misc/facet-row-2.png" alt="" caption="Facets ordered by setting as.table to FALSE. The bottom row is filled, but the ordering of the facets is not right, because the fill order now starts at the bottom left." %}}
 
 This fills the bottom row, but it breaks the high-to-low ordering that we're trying to set with `reorder()`. We can get it back manually. First we create `vars`, which summarizes the areas of study by mean number of degrees awarded over the years. Separately, we great a vector, `o`, the same length as the subset of categories we're going to display. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 vars <- area_pcts[!area_pcts$cutoff,] %>% arrange(desc(mean_pct))
 o <- c(10:14, 5:9, 1:4)
@@ -122,7 +122,7 @@ p + geom_line() +
     theme(strip.text.x = element_text(size = 6))
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 Here, instead of using `reorder()`, we recode the `field_of_study` variable on the fly, reordering its factor levels to reflect the desired panel order. We keep `as.table = FALSE`. The `field_of_study` categories then appear in the order we want. 
 
@@ -132,7 +132,7 @@ Here, instead of using `reorder()`, we recode the `field_of_study` variable on t
 
 We can do the same again for the fields with less than two percent of all degrees on average:
 
-{{< highlight r >}}
+{{< code r >}}
 
 vars <- area_pcts[area_pcts$cutoff,] %>% arrange(desc(mean_pct))
 o <- c(15:19, 10:14, 5:9, 1:4)
@@ -154,7 +154,7 @@ p + geom_line() +
     theme_minimal() +
     theme(strip.text.x = element_text(size = 6))
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/facet-row-4.png" alt="" caption="Same again for degrees with <2% of BAs." %}}
 

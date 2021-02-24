@@ -20,15 +20,15 @@ Unfortunately, this option isn't showing up for some users, due to a now-fixed e
 
 There's also an alternative and very quick way to get a project and notes files up and running. From the console, first make sure the `socviz` package is loaded:
 
-{{< highlight r >}}
+{{< code r >}}
 library(socviz)
-{{< /highlight >}}
+{{< /code >}}
 
 Then, do this: 
 
-{{< highlight r >}}
+{{< code r >}}
 setup_course_notes()
-{{< /highlight >}}
+{{< /code >}}
 
 This will copy and unzip a folder to your Desktop containing an R project with a set of Rmarkdown files that are ready to be used to take notes with. You'll get a message that looks something like this: 
 

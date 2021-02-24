@@ -18,42 +18,42 @@ A course packet is also included the package. This is a zipped file containing a
 
 To install the package, you can follow the instructions in the Preface to the book. Alternatively, first download and install R for [MacOS](https://cran.r-project.org/bin/macosx/), [Windows](https://cran.r-project.org/bin/windows/) or [Linux](https://cran.r-project.org/bin/linux/), as appropriate. Then download and install [RStudio](http://rstudio.com/download/). Launch RStudio and then type the following code at the Console prompt (`> `), hitting return at the end of each line:
 
-{{< highlight r >}}
+{{< code r >}}
 my_packages <- c("tidyverse", "fs", "devtools")
 install.packages(my_packages)
-{{< /highlight >}}
+{{< /code >}}
 
 Then install the `socviz` library, either from CRAN, the main R repository (this is the recommended way):
 
-{{< highlight r >}}
+{{< code r >}}
 install.packages("socviz")
-{{< /highlight >}}
+{{< /code >}}
 
 Or, if you want the development version, from GitHub:
 
-{{< highlight r >}}
+{{< code r >}}
 devtools::install_github("kjhealy/socviz")
-{{< /highlight >}}
+{{< /code >}}
 
 Once everything has downloaded and been installed, load the `socviz` package: 
 
-{{< highlight r >}}
+{{< code r >}}
 library(socviz)
-{{< /highlight >}}
+{{< /code >}}
 
 ## The Course Packet
 
 The supporting materials are contained in a compressed `.zip` file. To extract them to your Desktop, make sure the `socviz` package is loaded as described above. Then do something like this:
 
-{{< highlight r >}}
+{{< code r >}}
 setup_course_notes(folder = "~/Desktop")
-{{< /highlight >}}
+{{< /code >}}
 
 If you're using a Mac, this will copy the `dataviz_course_notes.zip` file to your Desktop, and uncompress it into a folder called `dataviz_course_notes`. Double-click the file named `dataviz.Rproj` to launch the project as a new RStudio session. If you want to uncompress the file somewhere other than your Desktop, e.g. your Documents folder, you can do this:
 
-{{< highlight r >}}
+{{< code r >}}
 setup_course_notes(folder = "~/Documents")
-{{< /highlight >}}
+{{< /code >}}
 
 
 

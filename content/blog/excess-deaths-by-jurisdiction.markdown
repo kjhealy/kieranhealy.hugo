@@ -9,7 +9,7 @@ mathjax: false
 
 Although yesterday's [excess deaths plots by cause graph](https://kieranhealy.org/blog/archives/2020/10/06/excess-deaths-by-cause/) was for the whole of the United States only, the table we made did the same calculations on the whole CDC dataset, so the resulting `df_excess` table has numbers for all U.S. states and several other jurisdictions, such as New York City. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 > df_excess   
 ## # A tibble: 4,428 x 9
@@ -28,7 +28,7 @@ Although yesterday's [excess deaths plots by cause graph](https://kieranhealy.or
 ## 10 Alabama      Alzheimer's  2018   1150    1152.        101.    -2.2     -0.191   8.75
 ## # … with 4,418 more rows
  
-{{< /highlight >}}
+{{< /code >}}
 
 This means we can make similar plots for these jurisdictions. Making a multi-panel plot for all the states _and_ all the causes would be a little too much, though. Instead, here are two graphs. First, we can look at excess deaths for a number of causes but just for ten or so states with large populations. 
 

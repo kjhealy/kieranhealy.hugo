@@ -13,7 +13,7 @@ As [promised previously](https://kieranhealy.org/blog/archives/2020/03/14/animat
 
 Instead of an animation, let's make the less-flashy but, frankly, in all likelihood more useful small multiple plot seen here. With the package installed we can produce it as follows:
 
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 library(uscenpops)
 
@@ -33,11 +33,11 @@ uscenpops
 #> 10  1900     9 1717000 868000 849000
 #> # … with 10,510 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 That's what the dataset looks like. We'll lengthen it, calculate a relative frequency (that we won't use in this particular plot) and add a base value that we'll use for the ribbon boundaries below.
 
-{{< highlight r >}}
+{{< code r >}}
 
 pop_pyr <- uscenpops %>% select(year, age, male, female) %>%
   pivot_longer(male:female, names_to = "group", values_to = "count") %>%
@@ -64,12 +64,12 @@ pop_pyr
 #> 10  1900     4 female 913000 37227000  2.45     0
 #> # … with 21,030 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 Next we set up some little vectors of labels and colors, and then make a mini-dataframe of what we'll use as labels in the plot area, rather than using the default strip labels in `facet_wrap()`. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## Axis labels
 mbreaks <- c("1M", "2M", "3M")
@@ -85,12 +85,12 @@ dat_text <- data.frame(
   count = rep(-2.75e6, 25)
 )
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 As before, the trick to making the pyramid is to set all the values for one category (here, males) to negative numbers. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 pop_pyr$count[pop_pyr$group == "male"] <- -pop_pyr$count[pop_pyr$group == "male"]
 
@@ -125,6 +125,6 @@ p + geom_ribbon(alpha = 0.9, color = "black", size = 0.1) +
   coord_flip() + 
   facet_wrap(~ year, ncol = 5)
 
-{{< /highlight >}}
+{{< /code >}}
 
 The calls to `geom_ribbon()` and `geom_label()` draw the actual plots, and everything else is just a little attention to detail in order to make it come out nicely. 

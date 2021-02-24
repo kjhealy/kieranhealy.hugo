@@ -19,7 +19,7 @@ Apple released time series data for countries and cities for each of three modes
 
 Here's what the data look like:
 
-{{< highlight r >}}
+{{< code r >}}
 
 > apple_mobility
 # A tibble: 39,500 x 5
@@ -37,11 +37,11 @@ Here's what the data look like:
 10 country/region Albania driving             2020-01-22  93.5
 # … with 39,490 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 The `index` is the measured outcome, tracking relative usage of directions for each mode of transportation. Let's take a look at the data for New York. 
 
-{{< highlight r >}}
+{{< code r >}}
 raw_ny <- apple_mobility %>%
   filter(region == "New York City") %>%
   select(region:index) %>%
@@ -70,7 +70,7 @@ p_raw_ny <- ggplot(raw_ny, mapping = aes(x = date, y = index,
   theme(legend.position = "top")
 
 p_raw_ny
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="/files/misc/apple_nyc_raw.png" alt="" caption="Relative Mobility in New York City. Touch or click to zoom." %}}
 
@@ -78,7 +78,7 @@ As you can see, we have three series. The weekly pulse of activity is immediatel
 
 The big COVID-related drop-off in mobility clearly comes in mid-March. We might want to see just that trend, removing the "noise" of daily variation. When looking at time series, we often want to decompose the series into components, in order to see some underlying trend. There are many ways to do this, and many decisions to be made if we're going to be making any strong inferences from the data. Here I'll just keep it straightforward and use some of the very handy tools provided by the [tidyverts](https://tidyverts.org) (sic) packages for time-series analysis. We'll use an [STL decomposition](https://feasts.tidyverts.org/reference/STL.html) to decompose the series into _trend_, _seasonal_, and _remainder_ components. In this case the "season" is a week rather than a month or a calendar quarter. The trend is a locally-weighted regression fitted to the data, net of seasonality. The remainder is the residual left over on any given day once the underlying trend and "normal" daily fluctuations have been accounted for. Here's the trend for New York.  
 
-{{< highlight r >}}
+{{< code r >}}
 resids_ny <- apple_mobility %>%
   filter(region == "New York City") %>%
   select(region:index) %>%
@@ -108,13 +108,13 @@ p_resid_ny <- ggplot(resids_ny, aes(x = date, y = remainder, group = mode, color
   theme(legend.position = "top")
   
  p_resid_ny 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="/files/misc/apple_nyc_trend.png" alt="" caption="Trend component of the New York series. Touch or click to zoom." %}}
 
 We can make a small multiple graph showing the raw data (or the components, as we please) for all the cities in the dataset if we like:
 
-{{< highlight r >}}
+{{< code r >}}
 p_base_all <- apple_mobility %>%
   filter(geo_type == "city") %>%
   select(region:index) %>%
@@ -130,14 +130,14 @@ p_base_all <- apple_mobility %>%
   theme(legend.position = "top")
 
 p_base_all
-{{< /highlight >}}
+{{< /code >}}
 
 
 {{% figure src="/files/misc/apple_all_cities_raw.png" alt="" caption="Data for all cities. Touch or click to zoom." %}}
 
 This isn't the sort of graph that's going to look great on your phone, but it's useful for getting some overall sense of the trends. Beyond the sharp declines everywhere---with slightly different timings, something that'd be worth looking at separately---a few other things pop out. There's a fair amount of variation across cities by mode of transport and also by the intensity of the seasonal component. Some sharp spikes are evident, too, not always on the same day or by the same mode of transport. We can take a closer look at some of the cities of interest on this front. 
 
-{{< highlight r >}}
+{{< code r >}}
 focus_on <- c("Rio de Janeiro", "Lyon", "Bochum - Dortmund", "Dusseldorf",
               "Barcelona", "Detroit", "Toulouse", "Stuttgart",
               "Cologne", "Hamburg", "Cairo", "Lille")
@@ -172,13 +172,13 @@ ggplot(raw_ts, mapping = aes(x = date, y = index,
        caption = "Data: Apple. Graph: @kjhealy") +
   theme(legend.position = "top")         
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="/files/misc/apple_raw_tall.png" alt="" caption="Selected cities only. Touch or click to zoom." %}}
 
 Look at all those transit peaks on February 17th. What's going on here? At this point, we could take a look at the residual or remainder component of the series rather than looking at the raw data, so we can see if something interesting is happening. 
 
-{{< highlight r >}}
+{{< code r >}}
 resids <- apple_mobility %>%
   filter(geo_type == "city") %>%
   select(region:index) %>%
@@ -209,7 +209,7 @@ ggplot(resids, aes(x = date, y = remainder, group = mode, color = mode)) +
        subtitle = "Weekends shown as vertical bars. Date with highest remainder component labeled.\nNote that in Apple's data 'Days' are defined as Midnight to Midnight PST.",
        caption = "Data: Apple. Graph: @kjhealy") +
   theme(legend.position = "top")         
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="/files/misc/apple_remainders_tall.png" alt="" caption="Remainder components only. Touch or click to zoom." %}}
 

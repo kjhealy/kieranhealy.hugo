@@ -36,7 +36,7 @@ The upper panel shows the raw count of All-Cause mortality for the year so far (
 
 Each figure is made up of four pieces. Assembling them in an elegant way is made much easier by Thomas Lin Pedersen's [patchwork](https://patchwork.data-imaginist.com) package. Let's say we have done our data cleaning and calculations on our initial data and now have a tibble, `df`, that looks in part like this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 > df %>% select(jurisdiction, year, week, cause, n, pct_diff)
 # A tibble: 185,991 x 6
@@ -54,13 +54,13 @@ Each figure is made up of four pieces. Assembling them in an elegant way is made
 10 Alabama       2015     1 Other Respiratory disease             30    32.  
 # … with 185,981 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 This is a table of weekly numbers of deaths by each of eleven causes for each of fifty four jurisdictions over five years. The `pct_diff` column is how far a specific cause in that week in that jurisdiction differed from its 2015-2019 average.
 
 For convenience we also have a table of the names of our 54 jurisdictions and we've made a column called `fname` that we'll use later when saving each graph as a file.
 
-{{< highlight r >}}
+{{< code r >}}
 
 states <- nchs_wdc %>% 
   select(jurisdiction) %>% 
@@ -84,13 +84,13 @@ states <- nchs_wdc %>%
 10 Florida              figures/florida_patch             
 # … with 44 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 What we do next is write a few functions that draw the plots we want. We'll have one for each plot. For example, here's a slightly simplified version of the `patch_state_count()` function that draws the top panel, the one showing the count of All Cause mortality:
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 
 patch_state_count <- function(state) {
@@ -115,14 +115,14 @@ patch_state_count <- function(state) {
 }
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 These functions aren't general-purpose. They depend on a specific tibble (`df`) and some other things that we know are present in our working environment. We write similar functions for the other three kinds of plot. Call them `patch_state_covid()`, `patch_state_cause()`, and `patch_state_percent()`. Give any one of them the name of a state and it will draw the requested plot for that state. 
 
 Next we write a convenience function to assemble each of the patches into a single image. Again, this one is slightly simplified.
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 make_patchplot <- function(state){
   
@@ -137,13 +137,13 @@ timestamp <-  lubridate::stamp("March 1, 1999", "%B %d, %Y")(lubridate::ymd(Sys.
 }
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 The patchwork package's tremendous flexibility does all the work here. We just imagine each of our functions as making a plot and assemble it according to patchworks rules, where `/` signifies a new row and `+` adds a plot next to whatever is in the current row. Patchwork's `plot_layout()` function lets us specify the relative heights of the panels, and its `plot_annotation()` function lets us add global titles and captions to the plot as a whole, just as we would for an individual ggplot. 
 
 At this stage we're at the point where writing, say, `make_patchplot("Michigan")` will produce a nice multi-part plot for that state. All that remains is to do this for every jurisdiction. There are several ways we might do this, depending on whatever else we might have in mind for the plots. We could just write a `for()` loop that iterates over the names of the jurisdictions, makes a plot for each one, and saves it out to disk. Or we could use `map()` and some its relations to feed the name of each jurisdiction to our `make_patchplot()` function and bundle the results up in a tibble. Like this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 out_patch <- states %>% 
   mutate(patch_plot = map(jurisdiction, make_patchplot))
@@ -164,7 +164,7 @@ out_patch <- states %>%
 10 Florida              figures/florida_patch              <patchwrk>
 # … with 44 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Neat! We took our little `states` tibble from above and added a new list-column to it. Each `<patchwrk>` row is a fully-composed plot, sitting there waiting for us to do something with it. You could of course do something equivalent in Base R with `lapply()`.
 
@@ -172,14 +172,14 @@ What we'll do with it is save a PDF of each plot. We'll use `ggsave()` for that.
 
 To create a named file for each jurisdiction and have it actually contain the plot we need to provide _two_ arguments: the file name and the plot itself. We assemble a valid file name using the `fname` column of `out_patch`. The plot is in the `patch_plot` column. When we need to map two arguments to a function in this way, we use `map2()` or its counterpart `walk2()`.
 
-{{< highlight r >}}
+{{< code r >}}
 
 walk2(paste0(out_patch$fname, ".pdf"), 
      out_patch$patch_plot, 
      ggsave, 
      height = 16, width = 9)
      
-{{< /highlight >}}
+{{< /code >}}
 
 The first argument creates the filename, for example, `"figures/alabama_patch.pdf"`. The second is the corresponding plot for that jurisdiction. The function we feed those two bits of information to is `ggsave`, and we also pass along a `height` and `width` instruction. Those will be the same for every plot. 
 

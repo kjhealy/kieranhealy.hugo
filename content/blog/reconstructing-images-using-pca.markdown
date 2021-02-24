@@ -20,7 +20,7 @@ I was reminded of all of this on Friday because some of my first-year undergrad 
 
 The [Imager Library](https://dahtah.github.io/imager/imager.html) is our friend here. It's a great toolkit for processing images in R, and it's friendly to tidyverse packages, too. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(imager)
 library(here)
@@ -29,7 +29,7 @@ library(purrr)
 library(broom)
 library(ggplot2)
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 ## Load the image
@@ -37,30 +37,30 @@ library(ggplot2)
 Our image is in a subfolder of our project directory. The `load.image()` function is from Imager, and imports the image as a `cimg` object. The library provides a method to convert these objects to a long-form data frame. Our image is greyscale, which makes it easier to work with. It's 800 pixels wide by 633 pixels tall. 
 
 
-{{< highlight r >}}
+{{< code r >}}
 img <- load.image(here("img/elvis-nixon.jpeg"))
 str(img)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ##  'cimg' num [1:800, 1:633, 1, 1] 0.914 0.929 0.91 0.906 0.898 ...
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 dim(img)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## [1] 800 633   1   1
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 img_df_long <- as.data.frame(img)
 
 head(img_df_long)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ##   x y     value
 ## 1 1 1 0.9137255
 ## 2 2 1 0.9294118
@@ -68,30 +68,30 @@ head(img_df_long)
 ## 4 4 1 0.9058824
 ## 5 5 1 0.8980392
 ## 6 6 1 0.8862745
-{{< /highlight >}}
+{{< /code >}}
 
 Each x-y pair is a location in the 800 by 633 pixel grid, and the value is a grayscale value ranging from zero to one. To do a PCA we will need a matrix of data in wide format, though---one that reproduces the shape of the image, a row-and-column grid of pixels, each with some a level of gray. We'll widen it using `pivot_wider`:
 
 
-{{< highlight r >}}
+{{< code r >}}
 img_df <- tidyr::pivot_wider(img_df_long, 
                              names_from = y, 
                              values_from = value)
 
 dim(img_df)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## [1] 800 634
-{{< /highlight >}}
+{{< /code >}}
 
 So now it's the right shape. Here are the first few rows and columns.
 
-{{< highlight r >}}
+{{< code r >}}
 img_df[1:5, 1:5]
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## # A tibble: 5 x 5
 ##       x   `1`   `2`   `3`   `4`
 ##   <int> <dbl> <dbl> <dbl> <dbl>
@@ -100,7 +100,7 @@ img_df[1:5, 1:5]
 ## 3     3 0.910 0.910 0.902 0.894
 ## 4     4 0.906 0.902 0.898 0.894
 ## 5     5 0.898 0.894 0.890 0.886
-{{< /highlight >}}
+{{< /code >}}
 
 The values stretch off in both directions. Notice the `x` column there, which names the rows. We'll drop that when we do the PCA.
 
@@ -108,19 +108,19 @@ The values stretch off in both directions. Notice the `x` column there, which na
 
 Next, we do the PCA, dropping the `x` column and feeding the 800x633 matrix to Base R's `prcomp()` function.
 
-{{< highlight r >}}
+{{< code r >}}
 img_pca <- img_df %>%
   dplyr::select(-x) %>%
   prcomp(scale = TRUE, center = TRUE)
-{{< /highlight >}}
+{{< /code >}}
 
 There are a lot of components---633 of them altogether, in fact, so I'm only going to show the first twelve and the last six here. You can see that by component 12 we're already up to almost 87% of the total variance "explained".
 
-{{< highlight r >}}
+{{< code r >}}
 summary(img_pca)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## Importance of components:
 ##                            PC1     PC2     PC3     PC4     PC5     PC6
 ## Standard deviation     15.2124 10.9823 7.54308 5.57239 4.77759 4.55531
@@ -141,18 +141,18 @@ summary(img_pca)
 ## Standard deviation     0.0009215
 ## Proportion of Variance 0.0000000
 ## Cumulative Proportion  1.0000000
-{{< /highlight >}}
+{{< /code >}}
 
 We can tidy the output of `prcomp` with broom's `tidy` function, just to get a summary scree plot showing the variance "explained" by each component. 
 
-{{< highlight r >}}
+{{< code r >}}
 pca_tidy <- tidy(img_pca, matrix = "pcs")
 
 pca_tidy %>%
     ggplot(aes(x = PC, y = percent)) +
     geom_line() +
     labs(x = "Principal Component", y = "Variance Explained") 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/scree-plot.png" alt="Scree plot of the PCA" caption="Scree plot of the PCA." %}}
 
@@ -161,13 +161,13 @@ pca_tidy %>%
 Now the fun bit. The object produced by `prcomp()` has a few pieces inside:
 
 
-{{< highlight r >}}
+{{< code r >}}
 names(img_pca)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## [1] "sdev"     "rotation" "center"   "scale"    "x"
-{{< /highlight >}}
+{{< /code >}}
 
 What are these? `sdev` contains the standard deviations of the principal components. `rotation` is a square matrix where the rows correspond to the columns of the original data, and the columns are the principal components. `x` is a matrix of the same dimensions as the original data. It contains the values of the rotated data multiplied by the `rotation` matrix. Finally, `center` and `scale` are vectors with the centering and scaling information for each observation. 
 
@@ -176,7 +176,7 @@ Now, to get from this information back to the original data matrix, we need to m
 Here's a function that takes a PCA object created by `prcomp()` and returns an approximation of the original data, calculated by some number (`n_comp`) of principal components. It returns its results in long format, in a way that mirrors what the Imager library wants. This will make plotting easier in a minute.
 
 
-{{< highlight r >}}
+{{< code r >}}
 reverse_pca <- function(n_comp = 20, pca_object = img_pca){
   ## The pca_object is an object created by base R's prcomp() function.
   
@@ -214,12 +214,12 @@ reverse_pca <- function(n_comp = 20, pca_object = img_pca){
   
   recon_df_long
 }
-{{< /highlight >}}
+{{< /code >}}
 
 Let's put the function to work by mapping it to our PCA object, and reconstructing our image based on the first 2, 3, 4, 5, 10, 20, 50, and 100 principal components.
 
 
-{{< highlight r >}}
+{{< code r >}}
 ## The sequence of PCA components we want
 n_pcs <- c(2:5, 10, 20, 50, 100)
 names(n_pcs) <- paste("First", n_pcs, "Components", sep = "_")
@@ -230,12 +230,12 @@ recovered_imgs <- map_dfr(n_pcs,
                           .id = "pcs") %>%
   mutate(pcs = stringr::str_replace_all(pcs, "_", " "), 
          pcs = factor(pcs, levels = unique(pcs), ordered = TRUE))
-{{< /highlight >}}
+{{< /code >}}
 
 This gives us a very long tibble with an index (`pcs`) for the number of components used to reconstruct the image. In essence it's eight images stacked on top of one another. Each image has been reconstituted using a some number of components, from a very small number (2) to a larger number (100). Now we can plot each resulting image in a small multiple. In the code for the plot, we use `scale_y_reverse` because by convention the indexing for pixel images starts in the top left corner of the image. If we plot it the usual way (with x = 1, y = 1 in the bottom left, instead of the top left) the image will be upside down.
 
 
-{{< highlight r >}}
+{{< code r >}}
 p <- ggplot(data = recovered_imgs, 
             mapping = aes(x = x, y = y, fill = value))
 p_out <- p + geom_raster() + 
@@ -248,7 +248,7 @@ p_out <- p + geom_raster() +
         plot.title = element_text(size = rel(1.5)))
 
 p_out
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/elvis-pca.png" alt="Elvis meets Nixon, as recaptured by varying numbers of principal components." caption="Elvis Meets Nixon, as recaptured by varying numbers of principal components." %}}
 

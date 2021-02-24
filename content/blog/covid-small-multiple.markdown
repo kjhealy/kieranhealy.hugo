@@ -19,7 +19,7 @@ The code for this (including code to pull the data) is in [my COVID GitHub repos
 
 We'll start with the data mostly cleaned and organized. 
 
-{{< highlight r >}}
+{{< code r >}}
 > covid
 # A tibble: 7,320 x 14
    date_rep     day month  year cases deaths countries_and_territories geo_id countryterritory_code pop_data2018 date       iso2  iso3  cname      
@@ -35,11 +35,11 @@ We'll start with the data mostly cleaned and organized.
  9 20/03/2020    20     3  2020     0      0 Afghanistan               AF     AFG                       37172386 2020-03-20 AF    AFG   Afghanistan
 10 19/03/2020    19     3  2020     0      0 Afghanistan               AF     AFG                       37172386 2020-03-19 AF    AFG   Afghanistan
 # … with 7,310 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 This is the data as we get it from the ECDC, with some cleaning of the country codes and the date format. We'll calculate some cumulative totals and do some final recoding of the country labels.
 
-{{< highlight r >}}
+{{< code r >}}
 
 cov_case_curve <- covid %>%
   select(date, cname, iso3, cases, deaths) %>%
@@ -77,12 +77,12 @@ cov_case_curve <- covid %>%
 10 2020-01-28 China CHN    1753     25     4528       106 9 days       NA       
 # … with 1,252 more rows                        
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 Then we pick out the top 50 countries, isolating their maximum case value.
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## Top 50 countries by >> 100 cases, let's say. 
 top_50 <- cov_case_curve %>%
@@ -111,13 +111,13 @@ top_50 <- cov_case_curve %>%
  9 CHL   Chile        94686            1
 10 CHN   China        94686            1
 # … with 40 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 This gives us our label layer. We've set `days_elapsed` and `cu_cases` values to the same thing for every country, because these are the x and y locations where the country labels will go.
 
 Next, a data layer for the grey line traces and a data layer for the little endpoints at the current case-count value. 
 
-{{< highlight r >}}
+{{< code r >}}
 cov_case_curve_bg <- cov_case_curve %>% 
   select(-cname) %>%
   filter(iso3 %in% top_50$iso3) 
@@ -128,7 +128,7 @@ cov_case_curve_endpoints <- cov_case_curve %>%
   filter(cu_cases == max(cu_cases)) %>%
   select(cname, iso3, days_elapsed, cu_cases) %>%
   ungroup()
-{{< /highlight >}}
+{{< /code >}}
 
 We drop `cname` in the `cov_case_curve_bg` layer, because we're going to facet by that value with the main dataset in a moment. That's the trick that allows the traces for all the countries to appear in each panel.
 

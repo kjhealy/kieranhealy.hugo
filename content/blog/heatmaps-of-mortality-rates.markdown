@@ -11,7 +11,7 @@ As part of the run-up to the release of [Data Visualization](https://www.amazon.
 
 Available mortality data for England and Wales runs back to 1841. Here's sample code for a plot of that for males:
 
-{{< highlight r >}}
+{{< code r >}}
 
 p <- ggplot(subset(britain, age < 101), aes(x = year, y = age, fill = ntile(male, 100)))
 p_out <- p + geom_raster() +
@@ -31,7 +31,7 @@ ggsave("figures/britain_men.png", p_out, height = 9, width = 10)
 ggsave("figures/britain_men.pdf", p_out, height = 9, width = 10)
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 You can look at the full code on [GitHub](https://github.com/kjhealy/lexis_surface).
 

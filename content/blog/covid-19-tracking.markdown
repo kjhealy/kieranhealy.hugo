@@ -27,7 +27,7 @@ Each day, the [ECDC](https://www.ecdc.europa.eu) publishes a [a summary spreadsh
 
 First we load some libraries to help us out.
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(tidyverse)
 library(lubridate)
@@ -37,13 +37,13 @@ library(socviz)
 library(ggrepel)
 library(paletteer)
 
-{{< /highlight >}}
+{{< /code >}}
 
 Next, we set things up by writing some functions that will help us grab and clean the data. In reality, of course, these functions got written piecemeal and were then cleaned up and moved to the front of the file. I didn't sit down and write them off the top of my head.
 
 The first one is going to grab the spreadsheet from the ECDC and both save the `.xlsx` file to our `data/` folder and create a tibble of the results.
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## Download today's excel file, saving it to data/ and reading it in
 get_ecdc_data <- function(url = "https://www.ecdc.europa.eu/sites/default/files/documents/",
@@ -68,13 +68,13 @@ get_ecdc_data <- function(url = "https://www.ecdc.europa.eu/sites/default/files/
   )
 }                          
 
-{{< /highlight >}}
+{{< /code >}}
 
 Things to notice: We have to  use `curl_download()` to get the file, because `read_xls` cannot directly grab an Excel file from a URL in the way that e.g. `read_csv()` can for a `.csv` file. So we create a temporary file handle and use `curl` to download the data file to it. Then we copy the file to its permanent home in our `data/` folder, and we read the target file into R with the appropriate `readxl` function.
 
 As we'll see in a moment, the country codes contained in the ECDC data are not quite standard. It will be useful in the long run to make sure that every country has standardized two- and three-letter abbreviations. Some of the countries in the ECDC's `geo_id` variable are missing these. This is a very common situation in data cleaning, where we have a big table with some data we know is missing (e.g., a country code), _and_ we know for sure which cases the data are missing for, _and_ we have a little lookup table that can fill in the blanks. The operation we will need to perform here is called a _coalescing join_. Before I knew that's what it was called, I used to do this manually (I'll show you below). But a little googling eventually revealed both the proper name for this operation and also a very useful function, written by [Edward Visel](https://alistaire.rbind.io) that does [exactly what I want](https://alistaire.rbind.io/blog/coalescing-joins/):
 
-{{< highlight r >}}
+{{< code r >}}
 
 coalesce_join <- function(x, y, 
                           by = NULL, suffix = c(".x", ".y"), 
@@ -101,11 +101,11 @@ coalesce_join <- function(x, y,
     dplyr::bind_cols(joined, coalesced)[cols]
 }
 
-{{< /highlight >}}
+{{< /code >}}
 
 Next we set up some country codes using ISO2 and ISO3 abbreviations. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 iso3_cnames <- read_csv("data/countries_iso3.csv")
 iso2_to_iso3 <- read_csv("data/iso2_to_iso3.csv")
@@ -167,14 +167,14 @@ oceania <- c("ASM", "AUS", "NZL", "COK", "FJI", "PYF", "GUM", "KIR", "MNP", "MHL
         "FSM", "UMI", "NRU", "NCL", "NZL", "NIU", "NFK", "PLW", "PNG", "MNP",
         "SLB", "TKL", "TON", "TUV", "VUT", "UMI", "WLF", "WSM", "TLS")
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 ## Now Actually Get the Data
 
 The next step is to read the data. The file _should_ be called `COVID-19-geographic-distribution-worldwide-` with the date appended and the extension `.xlsx`. But as it turns out there is a typo in the filename. The `distribution` part is misspelled `disbtribution`. I think it must have been introduced early on in the data collection process and so far---possibly by accident, but also possibly so as not to break a thousand scripts like this one---they have not been fixing the typo.
 
-{{< highlight r >}}
+{{< code r >}}
 
 covid_raw <- get_ecdc_data(url = "https://www.ecdc.europa.eu/sites/default/files/documents/",
                            fname = "COVID-19-geographic-disbtribution-worldwide-",
@@ -197,13 +197,13 @@ covid_raw
 # … with 6,002 more rows, and 1 more variable: geo_id <chr>
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 That's our base data. The `get_ecdc_data()` function uses `file_copy()` from the `fs` library to move the temporary file to the `data/` folder. It will not overwrite a file if it finds one with that name already there. So if you grab the data more than once a day, you'll need to decide what to do with the file you already downloaded. 
 
 The `geo_id` country code column isn't visible here. We're going to duplicate it (naming it `iso2`) and then join our table of two- and three-letter country codes. It has an `iso2` column as well. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 covid <- covid_raw %>%
   mutate(date = lubridate::ymd(date_rep),
@@ -230,11 +230,11 @@ covid
 # … with 6,002 more rows, and 5 more variables: geo_id <chr>,
 #   date <date>, iso2 <chr>, iso3 <chr>, cname <chr>
 
-{{< /highlight >}}
+{{< /code >}}
 
 At this point we can notice a couple of things about the dataset. For example, not everything in the dataset is a country. This one's a cruise ship:
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## Looks like a missing data code
 covid %>% 
@@ -247,11 +247,11 @@ covid %>%
 # … with 5 more variables: geo_id <chr>, date <date>, iso2 <chr>,
 #   iso3 <chr>, cname <chr>
 
-{{< /highlight >}}
+{{< /code >}}
 
 We can also learn, using an `anti_join()` that not all the ECDC's `geo_id` country codes match up with the ISO codes:
 
-{{< highlight r >}}
+{{< code r >}}
 
 anti_join(covid, cname_table) %>%
   select(geo_id, countries_and_territories, iso2, iso3, cname) %>%
@@ -268,11 +268,11 @@ anti_join(covid, cname_table) %>%
 6 AN       Netherlands_Antilles                    AN      <NA>  <NA> 
 7 UK       United_Kingdom                          UK      <NA>  <NA> 
 
-{{< /highlight >}}
+{{< /code >}}
 
 Let's fix this. I made a small crosswalk file that can be coalesced into the missing values. In an added little wrinkle, we need to specify the `na` argument in `read_csv` explicity because the missing country codes include Namibia, which has an ISO country code of "NA"! This is different from the missing data code `NA` but `read_csv()` won't know this by default.
 
-{{< highlight r >}}
+{{< code r >}}
 
 cname_xwalk <- read_csv("data/ecdc_to_iso2_xwalk.csv",
                         na = "")
@@ -287,11 +287,11 @@ cname_xwalk
 3 NA     NAM   Namibia       
 4 XK     XKV   Kosovo        
 
-{{< /highlight >}}
+{{< /code >}}
 
 I used to do coalescing like this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 # covid <- covid %>%
 #   left_join(cname_xwalk, by = "geo_id") %>% 
@@ -299,11 +299,11 @@ I used to do coalescing like this:
 #          cname = coalesce(cname.x, cname.y)) %>% 
 #   select(-iso3.x, -iso3.y, cname.x, cname.y)
 
-{{< /highlight >}}
+{{< /code >}}
 
 Actually, I _used_ to do it using `match()` and some index vectors, like an animal. But now I can use Edward Visel's handy function instead.
 
-{{< highlight r >}}
+{{< code r >}}
 
 covid <- coalesce_join(covid, cname_xwalk, 
                        by = "geo_id", join = dplyr::left_join)
@@ -324,7 +324,7 @@ anti_join(covid, cname_table) %>%
 6 AN       Netherlands_Antilles              AN      <NA>  <NA>       
 7 UK       United_Kingdom                    UK      GBR   United Kin…
 
-{{< /highlight >}}
+{{< /code >}}
 
 Looks like a couple of new territories have been added to the ECDC file since I made the crosswalk file. I'll have to update that soon.
 
@@ -332,7 +332,7 @@ Looks like a couple of new territories have been added to the ECDC file since I 
 
 Now we can actually analyze the data (in the privacy of our own home). Let's draw the plot that everyone draws, looking at cumulative counts. We'll take an arbitrary threshold for number of deaths, let's say ten, start every country from zero days when they hit ten deaths, and count the cumulative deaths since that day. Again, note that we are not modeling or extrapolating from the data here, we're just focusing on getting a count of deaths attributed to the disease. The numbers are definitely undercounts because not all deaths directly attributable to COVID-19 have been counted as such at this point. Not everyone who died from it was tested for it, and so e.g. a chunk of direct COVID-19 deaths will have been mis-classified as flu deaths. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 cov_curve <- covid %>%
   select(date, cname, iso3, cases, deaths) %>%
@@ -364,13 +364,13 @@ cov_curve
 # … with 235 more rows, and 1 more variable: end_label <chr>
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 See how at the end there we create an `end_label` variable for use in the plot. It only has values for the most recent day in the dataset (i.e. the country name if `date` is `max(date)`, otherwise `NA`).
 
 Now we'll narrow our focus to a few countries and make the plot.
 
-{{< highlight r >}}
+{{< code r >}}
 
 focus_cn <- c("CHN", "GBR", "USA", "IRN", "JPN",
               "KOR", "ITA", "FRA", "ESP")
@@ -408,7 +408,7 @@ cov_curve %>%
           legend.text = element_text(size = rel(2))
           )
 
-{{< /highlight >}}
+{{< /code >}}
 
 Again, a few small details polish the plot. We do a quick bit of recoding on the `end_label` to shorten some country names, and use `geom_text_repel()` to put the labels at the end of the line. We get our y-axis breaks with `2^seq(4, 12)`, which (as case numbers rise) will be easier to extend than manually typing all the numbers. I use a base 2 log scale for the reasons [Dr Drang gives here](https://leancrew.com/all-this/2020/03/exponential-growth-and-log-scales/). It's useful to look at the doubling time, which base 2 helps you see, rather than powers of ten. (The graphs won't look any different.) Finally on the thematic side we can date-stamp the title of the graph using the opaque but standard [UNIX date formatting codes](https://gist.github.com/nikreiman/1408399), with `paste("Data as of", format(max(cov_curve$date), "%A, %B %e, %Y"))`. 
 

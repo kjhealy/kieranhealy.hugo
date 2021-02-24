@@ -18,7 +18,7 @@ The time series decomposition takes the births series and separates it into tren
 
 Here's the snippet of code that makes the time series line graphs: 
 
-{{< highlight r >}}
+{{< code r >}}
 p_trends <- ggplot(data_lon, aes(x = date, y = value)) + 
     geom_line(color = "gray20") + 
     scale_x_date(breaks = break_vec, labels = break_labs, expand = c(0,0)) + 
@@ -26,13 +26,13 @@ p_trends <- ggplot(data_lon, aes(x = date, y = value)) +
     theme(  strip.background = element_blank(),
             strip.text.x = element_blank()) + 
     labs(y = NULL, x = "Year")
-{{< /highlight >}}
+{{< /code >}}
 
 Meanwhile combining the trends plot with the tiled heatmap (called `p_tile`) is a piece of cake with `patchwork`: 
 
-{{< highlight r >}}
+{{< code r >}}
 (p_tile / p_trends) + plot_layout(heights = c(30, 70)) 
-{{< /highlight >}}
+{{< /code >}}
 
 The `/` convention means stack the plot objects, and `plot_layout()` proportionally divides the available space. 
 

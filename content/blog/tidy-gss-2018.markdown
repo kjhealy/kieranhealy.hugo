@@ -18,7 +18,7 @@ Respondents may answer that they Strongly Agree, Agree, Disagree, or Strongly Di
 We'll grab the [GSS Cumulative Data File](http://gss.norc.org/get-the-data/stata) in Stata's `.dta` format, and work from there in R, using the [Tidyverse](https://tidyverse.org) tools, Thomas Lumley's [Survey package](http://r-survey.r-forge.r-project.org/survey/), and Greg Freedman Ellis's [srvyr](http://gdfe.co/srvyr/) package, which provides a set of wrappers to `survey` functions that allow them to be piped and worked with in a way familiar to tidyverse residents. 
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(tidyverse)
 
@@ -31,12 +31,12 @@ library(srvyr)
 
 library(tools)
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 We also load some libraries that aren't strictly needed, but that will make our plots conform to the house style.
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(showtext)
 showtext_auto()
@@ -44,11 +44,11 @@ showtext_auto()
 library(myriad)
 import_myriad_semi()
 
-{{< /highlight >}}
+{{< /code >}}
 
 This is a quick-and-dirty function we'll use to clean some age group labels we'll create in a minute.
 
-{{< highlight r >}}
+{{< code r >}}
 
 convert_agegrp <- function(x){
     x <- gsub("\\(", "", x)
@@ -77,11 +77,11 @@ my_colors <- _function (palette = "cb"){
     else stop("Choose cb, rcb, or bly only.")
 }
 
-{{< /highlight >}}
+{{< /code >}}
 
 The names of some of the weighting and stratifying variables.
 
-{{< highlight r >}}
+{{< code r >}}
 
 cont_vars <- c("year", "id", "ballot", "age")
 
@@ -98,22 +98,22 @@ wt_vars <- c("vpsu",
 vars <- c(cont_vars, cat_vars, wt_vars)
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 Load in the data to `gss_all` and create a small subset of it, `gss_sm` containing just the variables of interest. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 gss_all <- read_stata("data/GSS7218_R1.DTA")
 
 gss_sm <- gss_all %>%
     select(one_of(vars)) 
 
-{{< /highlight >}}
+{{< /code >}}
 
 Let's take a look at it:
 
-{{< highlight r >}}
+{{< code r >}}
 
 gss_sm
 
@@ -134,13 +134,13 @@ gss_sm
 ## #   oversamp <dbl>, formwt <dbl>, wtssall <dbl+lbl>, sampcode <dbl+lbl>,
 ## #   sample <dbl+lbl>
 
-{{< /highlight >}}
+{{< /code >}}
 
 The `read_stata()` function has carried over the labeling information from Stata, which might be useful to us under other circumstances. Columns with, e.g., `<dbl+lbl>` designations behave like regular `<dbl>` (double-precision floating point numbers), but have the label information as metadata.
 
 Now we clean up `gss_sm` a bit, discarding some of the label and missing value information we don't need. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded `fefam` to binary "Agree" or "Disagree" (with non-responses dropped). 
 
-{{< highlight r >}}
+{{< code r >}}
 
 qrts <- quantile(as.numeric(gss_sm$age), na.rm = TRUE)
 
@@ -168,12 +168,12 @@ gss_sm$samplerc <- with(gss_sm, ifelse(sample %in% 3:4, 3,
                          ifelse(sample %in% 6:7, 6,
                                sample)))
 
-{{< /highlight >}}
+{{< /code >}}
 
 Now we need to take this data and use the survey variables in it, so we can properly calculate population means and errors and so on. We use `svyr`'s wrappers to `survey` for this:
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 options(survey.lonely.psu = "adjust")
 options(na.action="na.pass")
@@ -187,11 +187,11 @@ gss_svy <- gss_sm %>%
                      weights = wtssall,
                      nest = TRUE)
 
-{{< /highlight >}}
+{{< /code >}}
 
 Now `gss_svy` is a survey object:
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## Stratified 1 - level Cluster Sampling design (with replacement)
 ## With (3585) clusters.
@@ -205,12 +205,12 @@ Now `gss_svy` is a survey object:
 ##   sample (dbl), ageq (fct), agequint (fct), year_f (fct), young (chr), fefam_d (fct), fefam_n
 ##   (dbl), compwt (dbl), samplerc (dbl), stratvar (fct)
   
-{{< /highlight >}} 
+{{< /code >}} 
 
 We're in a position to draw some pictures of `fefam` trends now.
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 out_ff <- gss_svy %>%
     group_by(year, sex, young, fefam_d) %>%
@@ -262,14 +262,14 @@ p <- ggplot(subset(out_ff, fefam_d == "Disagree"),
 
 ggsave("figures/fefam_svy.png", p, width = 8, height = 6, dpi = 300)
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/fefam_svy.png" alt="" caption="" %}}
 
 
 Let's take a closer look at the age breakdown. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 out_ff_agequint <- gss_svy %>%
     group_by(year, agequint, fefam_d) %>%
@@ -311,7 +311,7 @@ ggsave("figures/fefam_age_quin_svy.png", p, height = 7, width = 12, dpi = 300)
 ## Warning: Removed 100 rows containing missing values (geom_label_repel).
 ## Warning: Removed 100 rows containing missing values (geom_label_repel).
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 {{% figure src="https://kieranhealy.org/files/misc/fefam_age_quin_svy.png" alt="" caption="" %}}
@@ -319,7 +319,7 @@ ggsave("figures/fefam_age_quin_svy.png", p, height = 7, width = 12, dpi = 300)
 Finally, we can make a plot to get a sense of generational replacement and cohort effects. We'll make two panels. First, a comparison of more or less the same cohort (though not of course the same individuals): these are people who answered the `fefam` question in 1977 when they were aged 18-25 and those who answered in 2018 and were aged 63 or older. We'll also look at two very different cohorts: people who were over 63 in 1977, and people who were aged 18-25 in 2018. 
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 cohort_comp <- gss_svy %>%
     filter(year %in% c(1977, 2018) &
@@ -363,6 +363,6 @@ ggsave("figures/fefam_age_quin_svy_synth.png", p, height = 7, width = 13, dpi = 
 ## Warning: Removed 12 rows containing missing values (geom_label_repel).
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/fefam_age_quin_svy_synth.png" alt="" caption="" %}}

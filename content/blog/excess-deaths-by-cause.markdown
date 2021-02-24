@@ -21,7 +21,7 @@ I think the patterns here are interesting, and pretty clear. Most of the variati
 
 Here's a closer look at the code and the tables the graph was produced from. As usual, I used R and the [covdata package](https://kjhealy.github.io/covdata/). 
 
-{{< highlight r >}}
+{{< code r >}}
  
 start_week <- 9
 end_week <- 34
@@ -51,11 +51,11 @@ df_excess <- left_join(df_yr, baseline_deaths) %>%
          pct_sd = (baseline_sd/baseline)*100) %>%
   rename(deaths = period_deaths)
   
-{{< /highlight >}}
+{{< /code >}}
 
 The portion of our excess deaths table for the United States (covering March 1st to September 1st) now looks like this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 > df_excess %>% filter(jurisdiction == "United States")
 ## # A tibble: 82 x 9
@@ -75,11 +75,11 @@ The portion of our excess deaths table for the United States (covering March 1st
 ## # … with 72 more rows
 ## 
 
-{{< /highlight >}}
+{{< /code >}}
 
 We also make a little tibble of the medians and standard deviations to make drawing the bars more convenient.
 
-{{< highlight r >}}
+{{< code r >}}
 
 df_meds <- df_excess %>%
   summarize(med = median(pct_excess))
@@ -93,11 +93,11 @@ df_sd <- df_excess %>%
          upr = 2*pct_sd) %>%
   left_join(df_meds)
 
-{{< /highlight >}}
+{{< /code >}}
 
 The core of the plot is produced like this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 out <- df_excess %>% 
   filter(jurisdiction == "United States") %>%
@@ -117,13 +117,13 @@ out <- df_excess %>%
        title = "Excess Deaths in the U.S. from March 1st to September 1st",
        subtitle = "Selected Causes, arranged by median excess deaths.",
        caption = "Data: CDC. Calculations and Graph: @kjhealy")
-{{< /highlight >}}
+{{< /code >}}
 
 ## COVID and All-Cause mortality
 
 We can also take a look at the `df_excess` table to see what's happening with All-Cause mortality and COVID-19 specifically. We need to wrangle the table a little to get the estimates side by side.
 
-{{< highlight r >}}
+{{< code r >}}
 
 excess_count <- df_excess %>%
   filter(year == 2020 &
@@ -147,12 +147,12 @@ excess_table <- excess_table %>%
          pct_deficit = (deficit / all_cause) * 100) %>%
   select(jurisdiction, all_cause, baseline, baseline_sd, excess, covid, deficit, everything()) 
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 Which (finally) gives us this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 excess_table %>% 
   filter(jurisdiction == "United States") %>%
@@ -173,7 +173,7 @@ excess_table %>%
 ## 8 United States pct_covid        10.9 
 ## 9 United States pct_deficit       6.22
 
-{{< /highlight >}}
+{{< /code >}}
 
 So in these data (remember, the numbers are updated regularly, we're looking at March 1 to September 1 only, and this is a rough-and-ready calculation), we have 1,641,133 All-Cause deaths in comparison to a baseline 2015-2019 average of 1,359,816. In this period the raw excess is 281,317 deaths. COVID-19 was listed as a cause of 179,303 of these, leaving a deficit---a remaining excess---of 102,014. Overall excess mortality from March 1st to September 1st is 17.1% above the baseline, with COVID-19 accounting for 10.9 of those percentage points, with a 6.22 percentage point excess distributed across other causes. 
 

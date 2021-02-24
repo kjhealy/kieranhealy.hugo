@@ -10,7 +10,7 @@ mathjax: false
 
 While I'm talking about [getting data into R](https://kieranhealy.org/blog/archives/2019/11/09/reading-in-data/) this weekend, here's another quick example that came up in class this week. The mortality data in the [previous example](https://kieranhealy.org/blog/archives/2019/11/09/reading-in-data/) were nice and clean coming in the door. That's usually not the case. Data can be and usually is messy in all kinds of ways. One of the most common, particularly in the case of summary tables obtained from some source or other, is that the values aren't directly usable. The following summary table was copied and pasted into Excel from an external source, saved as a CSV file, and arrived looking like this:
 
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 
 rfm_tbl <- read_csv("data/rfm_table.csv")
@@ -44,7 +44,7 @@ rfm_tbl
 ## 10 Promising      Recent shoppers, but haven’t spent much 3– 4  <= 1  <= 1 
 ## # … with 13 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 This is messy and we can't do anything with the values in `R`, `F`, and `M`. Ultimately we want a table with separate columns containing the low and high values for these variables. If no lower bound is shown, the lower bound is zero. We're going to use a few tools, notably `separate()` to get where we want to be. I'll step through this pipeline one piece at a time, so you can see how the table is being changed from start to finish.
@@ -52,7 +52,7 @@ This is messy and we can't do anything with the values in `R`, `F`, and `M`. Ult
 First let's clean clean the variable names and remove the entirely blank lines. 
 
 
-{{< highlight r >}}
+{{< code r >}}
 rfm_tbl %>% 
   janitor::clean_names() %>%
   filter_all(any_vars(!is.na(.))) 
@@ -72,12 +72,12 @@ rfm_tbl %>%
 ##  9 Can’t Lose Th… Made big purchases and often, but long… <= 1  4– 5  4– 5 
 ## 10 Hibernating    Low spenders, low frequency, purchased… 1– 2  1– 2  1– 2 
 ## 11 Lost           Lowest recency, frequency & monetary s… <= 2  <= 2  <= 2
-{{< /highlight >}}
+{{< /code >}}
 
 Next we start work on the values. I thought about different ways of doing this, notably working out a way to apply or map `separate()` to each of the columns I want to change. I got slightly bogged down doing this, and instead decided to lengthen the `r`, `f`, and `m` variables into a single key-value pair, do the recoding there, and then widen the result again. First, lengthen the data:
 
 
-{{< highlight r >}}
+{{< code r >}}
 rfm_tbl %>% 
   janitor::clean_names() %>%
   filter_all(any_vars(!is.na(.))) %>%
@@ -98,14 +98,14 @@ rfm_tbl %>%
 ##  9 Potential Loya… Recent customers, spent good amount, bought… m     1– 3 
 ## 10 New Customers   Bought more recently, but not often          r     4– 5 
 ## # … with 23 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 I'm quite sure that there's an elegant way to use one of the `map()` functions to process the `r`, `f`, and `m` columns in sequence. But seeing as I couldn't quickly figure it out, this alternative strategy works just fine. In fact, as a general approach I think it's always worth remembering that the tidyverse really "wants" your data to be in long form, and lots of things that are awkward or conceptually tricky can suddenly become _much_ easier if you get the data into the shape that the function toolbox wants it to be in. Lengthening the data you're working with is very often the right approach, and you know you can widen it later on once you're done cleaning or otherwise manipulating it.
 
 With our table in long format we can now use `separate()` on the value column. The `separate()` function is very handy for pulling apart variables that should be in different columns. Its defaults are good, too. In this case I didn't have to write a regular expression to specify the characters that are dividing up the values. In the function call we use `convert = TRUE` to turn the results into integers, and `fill = "left"` because there's an implicit zero on the left of each entry that looks like e.g. `<= 2`.
 
 
-{{< highlight r >}}
+{{< code r >}}
 rfm_tbl %>% 
   janitor::clean_names() %>%
   filter_all(any_vars(!is.na(.))) %>%
@@ -129,12 +129,12 @@ rfm_tbl %>%
 ##  9 Potential Lo… Recent customers, spent good amou… m     1– 3      1     3
 ## 10 New Customers Bought more recently, but not oft… r     4– 5      4     5
 ## # … with 23 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 Before widening the data again we drop the `value` column. We don't need it anymore. (It will mess up the widening if we keep it, too: try it and see what happens.)
 
 
-{{< highlight r >}}
+{{< code r >}}
 rfm_tbl %>% 
   janitor::clean_names() %>%
   filter_all(any_vars(!is.na(.))) %>%
@@ -159,12 +159,12 @@ rfm_tbl %>%
 ##  9 Potential Loy… Recent customers, spent good amount, b… m         1     3
 ## 10 New Customers  Bought more recently, but not often     r         4     5
 ## # … with 23 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 Now we can widen the data, with `pivot_wider()`.
 
 
-{{< highlight r >}}
+{{< code r >}}
 rfm_tbl %>% 
   janitor::clean_names() %>%
   filter_all(any_vars(!is.na(.))) %>%
@@ -191,12 +191,12 @@ rfm_tbl %>%
 ##  9 Can’t Lose… Made big purchases and …    NA     4     4     1     5     5
 ## 10 Hibernating Low spenders, low frequ…     1     1     1     2     2     2
 ## 11 Lost        Lowest recency, frequen…    NA    NA    NA     2     2     2
-{{< /highlight >}}
+{{< /code >}}
 
 Finally we put back those implicit zeros using `replace_na()` and reorder the columns to our liking. Using `replace_na()` is fine here because we know that every missing value should in fact be a zero.
 
 
-{{< highlight r >}}
+{{< code r >}}
 rfm_tbl %>% 
   janitor::clean_names() %>%
   filter_all(any_vars(!is.na(.))) %>%
@@ -229,7 +229,7 @@ rfm_tbl %>%
 ##  9 Can’t Lose…     0     1     4     5     4     5 Made big purchases and …
 ## 10 Hibernating     1     2     1     2     1     2 Low spenders, low frequ…
 ## 11 Lost            0     2     0     2     0     2 Lowest recency, frequen…
-{{< /highlight >}}
+{{< /code >}}
 
 Much nicer. 
 

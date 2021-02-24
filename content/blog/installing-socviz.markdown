@@ -29,9 +29,9 @@ When you download and install a package from GitHub via R or RStudio, you use th
 
 **Option Zero** The `socviz` library is now on CRAN. That is, it's available from the main repository for R packages. This wasn't the case when the book went to print. So, simply do the following from the R console:
 
-{{< highlight r >}}
+{{< code r >}}
 install.packages("socviz")
-{{< /highlight >}}
+{{< /code >}}
 
 This should work without any problems, assuming you are connected to the internet.
 

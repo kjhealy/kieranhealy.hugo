@@ -17,19 +17,19 @@ I know from the documentation provided by [mortality.org](http://mortality.org) 
 
 Here we go. First, some libraries.
 
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 library(janitor)
 library(here)
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 ## here() starts at /Users/kjhealy/Source/demog
-{{< /highlight >}}
+{{< /code >}}
 
 We get a list of the filenames in our raw data folder, along with their full paths. Then we take a look at them.
 
-{{< highlight r >}}
+{{< code r >}}
 filenames <- dir(path = here("rawdata"),
                  pattern = "*.txt",
                  full.names = TRUE)
@@ -86,11 +86,11 @@ filenames
 ## [48] "/Users/kjhealy/Source/demog/rawdata/UKR.Mx_1x1.txt"    
 ## [49] "/Users/kjhealy/Source/demog/rawdata/USA.Mx_1x1.txt"
 
-{{< /highlight >}}
+{{< /code >}}
 
 What does each of these files look like? Let's take a look at the first one, using `read_lines()` to show us the top of the file.
 
-{{< highlight r >}}
+{{< code r >}}
 read_lines(filenames[1], n_max = 5)
 
 ## [1] "Australia, Death rates (period 1x1), \tLast modified: 26 Sep 2017;  Methods Protocol: v6 (2017)"
@@ -99,7 +99,7 @@ read_lines(filenames[1], n_max = 5)
 ## [4] "  1921           0             0.059987        0.076533        0.068444"                        
 ## [5] "  1921           1             0.012064        0.014339        0.013225"
 
-{{< /highlight >}}
+{{< /code >}}
 
 All the files have a header section like this. When we read the data in we'll want to ignore that and go straight to the data. But seeing as it's there, we can make use of it to grab the name of the country. It saves us typing it ourselves. Let's say we'd also like to have a code-friendly version of those names (i.e., in lower-case with underscores instead of spaces). And finally---while we're at it---let's grab those all-caps country codes used in the file names, too. We write three functions: 
 
@@ -107,7 +107,7 @@ All the files have a header section like this. When we read the data in we'll wa
   - `shorten_name()` makes the names lower-case and replaces spaces with underscores, and also shortens "The United States of America" to "USA".
   - `make_ccode()` wraps a regular expression that finds and extracts the capitalized country codes in the file names.
 
-{{< highlight r >}}
+{{< code r >}}
 
 get_country_name <- function(x){
     read_lines(x, n_max = 1) %>%
@@ -125,11 +125,11 @@ make_ccode <- function(x){
     str_extract(x, "[:upper:]+((?=\\.))")
 }
 
-{{< /highlight >}}
+{{< /code >}}
 
 Now we create a tibble of summary information by mapping the functions to the filenames.
 
-{{< highlight r >}}
+{{< code r >}}
 
 countries <- tibble(country = map_chr(filenames, get_country_name),
                         cname = map_chr(country, shorten_name),
@@ -154,7 +154,7 @@ countries
 ## # … with 39 more rows
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 Nice. We could have written each of those operations as anonymous functions directly inside of `map_chr()`. This would have been more compact. But often it can be useful to break out the steps as shown here, for clarity---especially if `map()` operations have a tendency to break your brain, as they do mine.
 
@@ -163,7 +163,7 @@ We still haven't touched the actual data files, of course. But now we can just u
 
 The hard work is done by the `map()` call. This time we will use `~` formula notation inside `map()` to write what we want to do. We're going to feed every filename in `path` to `read_table()`, one at a time. We tell `read_table()` to skip the first two lines of every file it reads, and also tell it that in these files missing data are represented by a `.` character. Everything read in ends up in a new list column named `data`.
 
-{{< highlight r >}}
+{{< code r >}}
 
 mortality <- countries %>%
     mutate(data = map(path,
@@ -192,11 +192,11 @@ mortality
 ## 10 East Germany east_germany DEUTE    [6,660 × 5]
 ## # … with 39 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 And we're done. Forty nine tables of data smoothly imported and bundled together. Each of the country-level data tables is a row in `data` that we can take a look at as we like:
 
-{{< highlight r >}}
+{{< code r >}}
 
 mortality %>% 
   filter(country == "Austria") %>% 
@@ -218,7 +218,7 @@ mortality %>%
 ## 10 Austria austria AUT    1947     9 0.000836 0.000997 0.000918
 ## # … with 7,871 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Now you can get on with the actual analysis. 
 

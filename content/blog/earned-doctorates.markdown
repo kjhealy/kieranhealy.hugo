@@ -15,7 +15,7 @@ mathjax: false
 Here's the code for the plot shown here. Code and data for it and several others is available on GitHub at <https://github.com/kjhealy/earned_doctorates>.
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(tidyverse)
 library(janitor)
@@ -65,5 +65,5 @@ p <- ggplot(phds_all, aes(x = int_to_year(year), y = n, color = discipline)) +
   
 ggsave("figures/socsci_phd_trends.png", p, width = 8, height = 6) 
 
-{{< /highlight >}}
+{{< /code >}}
 

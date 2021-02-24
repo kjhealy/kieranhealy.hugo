@@ -21,7 +21,7 @@ There are several implementations of upset plots in R. I'm going to use the [Com
 
 I used a spreadsheet to copy out the data from the _Nature_ report, and then loaded it in to R. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 symptoms <- c("Anosmia", "Cough", "Fatigue", "Diarrhea", "Breath", "Fever")
 names(symptoms) <- symptoms
@@ -66,13 +66,13 @@ dat %>% print(n = nrow(dat))
 ## 31 Anosmia&Breath&Cough&Diarrhea&Fatigue&Fever    23
 ## 32 Anosmia&Cough&Diarrhea&Fatigue&Fever           50
 
-{{< /highlight >}}
+{{< /code >}}
 
 We have six basic symptoms ("Breath" means "Shortness of Breath"). They occur in various combinations. We need to get this data into a shape we can work with. We have two tasks. First, it will be convenient to convert this summary back into an observation-level table. The `tidyr` package has a [handy function](https://tidyr.tidyverse.org/reference/uncount.html) called `uncount` that will do this for us. However, we can't do that directly. Think of the table as showing counts of where various combinations of symptoms are `TRUE`. Implicitly, where we don't see a symptom, it's implicitly `FALSE` in those cases where it isn't there. For example, in the first row, the 140 patients reporting Anosmia are implicitly also reporting they don't have any of the other five symptoms. If we don't get those implicit negatives back, we won't get a proper picture of the clustering. 
 
 So, we're going to generate table of `TRUE` and `FALSE` values for our symptom combinations. There's probably a substantially more elegant way to do this than shown here, but let's press on regardless.
 
-{{< highlight r >}}
+{{< code r >}}
 subsets <- dat$combination
 
 ## Check if each subset mentions each symptom or not
@@ -123,11 +123,11 @@ symptom_mat %>% print(n = nrow(symptom_mat))
 ## 31 TRUE    TRUE  TRUE    TRUE     TRUE   TRUE     23
 ## 32 TRUE    TRUE  TRUE    TRUE     FALSE  TRUE     50
 
-{{< /highlight >}}
+{{< /code >}}
 
 OK, so with that table in place, we can use the `uncount()` function to turn our summary back into quasi-individual-level data:
 
-{{< highlight r >}}
+{{< code r >}}
 indvs <- symptom_mat %>%
     uncount(count) 
 
@@ -147,13 +147,13 @@ indvs
 ##  9 TRUE    FALSE FALSE   FALSE    FALSE  FALSE
 ## 10 TRUE    FALSE FALSE   FALSE    FALSE  FALSE
 ## # … with 1,754 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 If we hadn't done that tabulation, `uncount` would have given us the wrong answers. Ask me how I know!
 
 Now that we've reconstituted the data, we can draw our graph.
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(ComplexUpset)
 
@@ -164,7 +164,7 @@ upset(data = indvs, intersect = symptoms,
     labs(title = "Co-Occurence of COVID-19 Symptoms",
          caption = "Data: covid.joinzoe.com/us | Graph: @kjhealy")
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="/files/misc/covid-upset-plot-1.png" alt="COVID Symptoms Upset Plot" caption="An UpSet plot showing the co-occurrence of reported COVID-19 symptoms. Click or touch to zoom." %}}
 

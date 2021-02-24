@@ -11,7 +11,7 @@ Last year I wrote about the slightly tedious business of [spreading (or widening
 
 The motivating case is something that happens all the time when working with social science data. We'll load the tidyverse, and then quickly make up some sample data to work with. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(tidyverse)
 
@@ -32,12 +32,12 @@ vars <- list(stratum = c(1:8),
 df <- as_tibble(map_dfc(vars, gen_cats))
 df <- add_column(df, income)
 
-{{< /highlight >}}
+{{< /code >}}
 
 What we have are measures of sex, race, stratum (from a survey, say), education, and income. Of these, everything is categorical except income. Here's what it looks like:
 
 
-{{< highlight r >}}
+{{< code r >}}
 df
 
 ## # A tibble: 1,000 x 5
@@ -55,13 +55,13 @@ df
 ## 10       2 F     W     BA      88.8
 ## # … with 990 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Let's say we want to transform this to a wider format, specifically by widening the `educ` column, so we end up with columns for both the `HS` and `BA` categories, and as we do so we want to calculate both the mean of `income` and the total `n` within each category of `educ`.
 
 For comparison, one could do this with `data.table` in the following way:
 
-{{< highlight r >}}
+{{< code r >}}
 
 data.table::setDT(df)
 df_wide_dt <- data.table::dcast(df, sex + race + stratum ~ educ,
@@ -70,9 +70,9 @@ df_wide_dt <- data.table::dcast(df, sex + race + stratum ~ educ,
 
 head(df_wide_dt)
 
-{{< /highlight >}}
+{{< /code >}}
 
-{{< highlight r >}}
+{{< code r >}}
 
 ##    sex race stratum income_mean_BA income_mean_HS income_length_BA income_length_HS 
 ## 1:   F    B       1       93.78002       99.25489               19                 6
@@ -82,13 +82,13 @@ head(df_wide_dt)
 ## 5:   F    B       5       91.02870       92.56888               11                15
 ## 6:   F    B       6       92.99184      116.06218               15                15
 
-{{< /highlight >}}
+{{< /code >}}
 
 Until recently, widening or spreading on multiple values like this was kind of a pain when working in the tidyverse. You can see [how I approached it before](https://kieranhealy.org/blog/archives/2018/11/06/spreading-multiple-values/) in the earlier post. (The code there still works fine.) Previously, you had to put `spread()` and `gather()` through a slightly tedious series of steps, best wrapped in a function you'd have to write yourself. No more! Since `tidyr` v1.0.0 has been released, though, the new function `pivot_wider()` (and its complement, `pivot_longer()`) make this common operation more accessible. 
 
 Here's how to do it now. Remember that in the tidyverse approach, we'll first do the summary calculations, `mean` and `length`, respectively, though we'll use `dplyr`'s `n()` for the latter. Then we widen the long result.
 
-{{< highlight r >}}
+{{< code r >}}
 
 tv_pivot <- df %>%
     group_by(sex, race, stratum, educ) %>% 
@@ -97,11 +97,11 @@ tv_pivot <- df %>%
     pivot_wider(names_from = (educ),
                 values_from = c(mean_inc, n))
 
-{{< /highlight >}}
+{{< /code >}}
 
 This gives us an object that's equivalent to the `df_wide_dt` object created by `data.table`. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 tv_pivot
 
@@ -121,6 +121,6 @@ tv_pivot
 ## 10 F     W           2        98.5       101.     15    19
 ## # … with 22 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 And there you have it. Be sure to check out the complement of `pivot_wider()`, `pivot_longer()`, also.

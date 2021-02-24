@@ -11,7 +11,7 @@ Here's a feature of `dplyr` that occasionally bites me (most recently while maki
 
 Say we have a data frame or tibble and we want to get a frequency table or set of counts out of it. In this case, each row of our data is a person serving a congressional term for the very first time, for the years 2013 to 2019. We have information on the term year, the party of the representative, and whether they are a man or a woman. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(tidyverse)
 
@@ -47,13 +47,13 @@ df
 #> 10  3169 2013-01-03 Democrat   M
 #> # ... with 270 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 When we load our data into R with `read_csv`, the columns for `party` and `sex` are parsed as character vectors. If you've been around R for any length of time, and especially if you've worked in the tidyverse framework, you'll be familiar with the drumbeat of "[stringsAsFactors=FALSE](http://notstatschat.tumblr.com/post/124987394001/stringsasfactors-sigh)", by which we avoid classing character variables as factors unless we have a good reason to do so (there are several good reasons), and we don't do so by default. Thus our `df` tibble shows us `<chr>` instead of `<fct>` for `party` and `sex`. 
 
 Now, let's say we want a count of the number of men and women elected by party in each year. (Congressional elections happen every two years.) We write a little pipeline to group the data by year, party, and sex, count up the numbers, and calculate a frequency that's the proportion of men and women elected that year within each party. That is, the frequencies of M and F will sum to 1 for each party in each year.
 
-{{< highlight r >}}
+{{< code r >}}
 
 df %>%
     group_by(start_year, party, sex) %>%
@@ -79,20 +79,20 @@ df %>%
 #> 13 2019-01-03 Republican F         1 0.0323
 #> 14 2019-01-03 Republican M        30 0.968
 
-{{< /highlight >}}
+{{< /code >}}
 
 You can see that, in 2015, neither party had a woman elected to Congress for the first time. Thus, the `freq` is 1 in row 5 and row 6. But you can also see that, because there are no observed `F`s in 2015, they don't show up in the table at all. The zero values are dropped. These rows, call them `5'` and `6'` don't appear:
 
-{{< highlight r >}}
+{{< code r >}}
 #>     start_year party      sex       N freq
 #>  5' 2015-01-03 Democrat   F         0 0
 #>  6' 2015-01-03 Republican F         0 0
 
-{{< /highlight >}}
+{{< /code >}}
 
 How is that going to bite us? Let's add some graphing instructions to the pipeline, first making a stacked column chart:
 
-{{< highlight r >}}
+{{< code r >}}
 
 df %>%
     group_by(start_year, party, sex) %>%
@@ -109,7 +109,7 @@ df %>%
 
 ggsave("figures/df_chr_col.png")
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 {{% figure src="https://kieranhealy.org/files/misc/df_chr_col.png" alt="" caption="Stacked column chart based on character-encoded values." %}}
@@ -118,7 +118,7 @@ That looks fine. You can see in each panel the 2015 column is 100% Men. If we we
 
 But let's say that, instead of a column plot, you looked at a line plot instead. This would be a natural thing to do given that time is on the x-axis and so you're looking at a trend, albeit one over a small number of years. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 df %>%
     group_by(start_year, party, sex) %>%
@@ -137,7 +137,7 @@ df %>%
 ggsave("figures/df_chr_line.png")
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/df_chr_line.png" alt="" caption="A line graph based on character-encoded variables for party and sex. The trend line for Women joins up the observed (or rather, the included) values, which don't include the zero values for 2015." %}}
 
@@ -145,7 +145,7 @@ That's not right. The line segments join up the data points in the summary tibbl
 
 This issue has been recognized in dplyr for some time. It happened whether your data was encoded as character or as a factor. There's a [huge thread about it](https://github.com/tidyverse/dplyr/issues/341) in the development version on GitHub, going back to 2014. In the upcoming version 0.8 release of dplyr, the behavior for zero-count rows will change, but as far as I can make out it will change _for factors only_. Let's see what happens when we change the encoding of our data frame. We'll make a new one, called `df_f`.  
 
-{{< highlight r >}}
+{{< code r >}}
 
 df_f <- df %>% modify_if(is.character, as.factor)
 
@@ -174,11 +174,11 @@ df_f %>%
 #> 15 2019-01-03 Republican F         1
 #> 16 2019-01-03 Republican M        30
 
-{{< /highlight >}}
+{{< /code >}}
 
 Now we have `party` and `sex` encoded as unordered factors. This time, our zero rows are present (here as rows 5 and 7). The grouping and summarizing operation has preserved all the factor values by default, instead of dropping the ones with no observed values in any particular year. Let's run our line graph code again:
 
-{{< highlight r >}}
+{{< code r >}}
 
 df_f %>%
     group_by(start_year, party, sex) %>%
@@ -196,7 +196,7 @@ df_f %>%
 
 ggsave("figures/df_fac_line.png")
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/df_fac_line.png" alt="" caption="A line graph based on factor-encoded variables for party and sex. Now the trend line for Women does include the zero values, as they are preserved in the summary." %}}
 
@@ -204,7 +204,7 @@ Now the trend line goes to zero, as it should. (And by the same token the trend 
 
 What if we want to keep working with our variables encoded as characters rather than factors? There is a workaround, using the `complete()` function. You will need to `ungroup()` the data after summarizing it, and then use `complete()` to fill in the implicit missing values. You have to re-specify the grouping structure for complete, and then tell it what you want the fill-in value to be for your summary variables. In this case it's zero.
 
-{{< highlight r >}}
+{{< code r >}}
 
 ## using df again, with <chr> variables
 
@@ -236,11 +236,11 @@ df %>%
 #> 15 2019-01-03 Republican F         1 0.0323
 #> 16 2019-01-03 Republican M        30 0.968
 
-{{< /highlight >}}
+{{< /code >}}
 
 If we re-draw the line plot with the `ungroup() ... complete()` step included, we'll get the correct output in our line plot, just as in the factor case.
 
-{{< highlight r >}}
+{{< code r >}}
 
 df %>%
     group_by(start_year, party, sex) %>%
@@ -261,7 +261,7 @@ df %>%
 
 ggsave("figures/df_chr_line_2.png")
 
-{{< /highlight >}}
+{{< /code >}}
 
 {{% figure src="https://kieranhealy.org/files/misc/df_chr_line_2.png" alt="" caption="Same as before, but based on the character-encoded version." %}}
 

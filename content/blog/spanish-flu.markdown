@@ -10,7 +10,7 @@ mathjax: false
 
 I was teaching some dplyr and ggplot today. Because Coronavirus is in the, uh, air, I decided to work with the mortality data from <http://mortality.org> and have the students practice getting a bunch of data files into R and then plotting the resulting data quickly and informatively. We took a look at the years around the 1918 Influenza Epidemic and, after poking at the data for a little while, came to realize why it was called the _Spanish_ Flu. Here's some code you can run if you download the (freely available) 1x1 mortality files from <mortality.org>. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(here)
 library(janitor)
@@ -39,11 +39,11 @@ make_ccode <- function(x){
   str_extract(x, "[:upper:]+((?=\\.))")
 }
 
-{{< /highlight >}}
+{{< /code >}}
 
 First we're going to make a little tibble of country codes, names, and associated file paths.
 
-{{< highlight r >}}
+{{< code r >}}
 
 filenames <- dir(path = here(path),
                  pattern = "*.txt",
@@ -71,11 +71,11 @@ countries
 10 East Germ… east_ger… DEUTE /Users/kjhealy/Documents/data/misc/lexi…
 # … with 39 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Next we ingest the data as a nested column, clean it a little, and subset it to those countries that we actually have mortality data for from the relevant time period. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 mortality <- countries %>%
   mutate(data = map(path,
@@ -110,11 +110,11 @@ flu
 10 Belgium belgium BEL    1841     9 0.00814 0.00696 0.00754
 # … with 298,913 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 For the purposes of labeling an upcoming plot, we're going to make a little dummy dataset. 
 
-{{< highlight r >}}
+{{< code r >}}
 
 dat_text <- data.frame(
   label = c("1918", rep(NA, 5)),
@@ -135,11 +135,11 @@ label agegrp year female flag
 6  <NA> Age 60   NA     NA   NA
 
 
-{{< /highlight >}}
+{{< /code >}}
 
 And now we filter the data to look only at female mortality between 1900 and 1929 for a series of specific ages: every decade from 10 years old to 60 years old. We'll use that dummy dataset to label the first (but only the first) panel in the faceted plot we're going to draw.
 
-{{< highlight r >}}
+{{< code r >}}
 
 p0 <- flu %>%
   group_by(country, year) %>%
@@ -167,7 +167,7 @@ p1 <- p0 +  geom_text(data = dat_text,
   
 p1
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 {{% figure src = "https://kieranhealy.org/files/misc/spanish-flu.png" %}}
