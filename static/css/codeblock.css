@@ -1,0 +1,23 @@
+.highlight-wrapper {
+    position: relative;
+    font-size: 14px;
+    border: 1px solid #EFF2F8;
+    padding: 0 0 20px 0;
+    position: relative;
+}
+
+.highlight-before {
+    background-color: #EFF2F8;
+    color: #0047ab;
+    padding: 2px 0px 0px 8px;
+}
+
+.highlight-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2px 10px 2px 8px;
+    font-size: 14px;
+}
+
+

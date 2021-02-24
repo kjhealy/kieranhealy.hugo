@@ -14,7 +14,7 @@ Following up on yesterday's post on [within-state variation in deaths in the Uni
 
 To draw a version of this figure in R, install [the covdata package](https://kjhealy.github.io/covdata/) along with the [tidyverse](https://www.tidyverse.org) tools, and then do this: 
 
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 library(covdata)
 
@@ -65,5 +65,5 @@ stmf %>%
         legend.text = element_text(size = rel(1.1)), 
         legend.title = element_text(size = rel(1.1)))
 
-{{< /highlight >}}
+{{< /code >}}
 

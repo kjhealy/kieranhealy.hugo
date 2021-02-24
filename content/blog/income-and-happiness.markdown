@@ -23,7 +23,7 @@ If you were an adherent of the ceiling view, you might reasonably say, look, eve
 
 We can see this if we re-draw the figure with income on a linear scale, which is what I did. The summary data for the paper is available on OSF at <https://osf.io/cfnbv/>. With the CSV of the data, we can do this:
 
-{{< highlight r >}}
+{{< code r >}}
 
 library(tidyverse)
 
@@ -49,7 +49,7 @@ happy %>%
   theme_bw() + 
   theme(legend.position = "top")
 
-{{< / highlight >}}
+{{< / code >}}
 
 And get a figure that looks like this:
 
@@ -59,7 +59,7 @@ So you can see why an advocate of the threshold or ceiling view of income satisf
 
 This figure raises a further issue, though. If you look at the two lines you can see that while the green (life satisfaction) measure is the same as in the paper's figure, the red (Experienced Wellbeing) one is different. In particular it does actually dip downwards for the highest observed income class, which might be relevant for the thesis of the paper. There are very few observations up that high in the income distribution, so everything's very noisy. Still, if we redraw the original figure based on the data supplied in the replication package we can see they're not the same series:
 
-{{< highlight r >}}
+{{< code r >}}
 
 happy %>% 
   select(household_income, 
@@ -83,14 +83,14 @@ happy %>%
   theme(legend.position = "top")
 
 
-{{< / highlight >}}
+{{< / code >}}
 
 
 {{% figure src="/files/misc/killingsworth-1-log-redraw.png" alt="" caption="Killingsworth Figure 1 redrawn. Notice amongst other things the dip in the last value of Experienced Wellbeing." %}}
 
 At first I thought I'd chosen the wrong variable to draw, but looking again at the data I can't see a plausible alternative.
 
-{{< highlight r >}}
+{{< code r >}}
 
 happy %>% 
   select(contains("experienced")) %>% 
@@ -100,7 +100,7 @@ happy %>%
 ## [3] "experienced_wellbeing.std.error"          "experienced_wellbeing_zscore.std.error"  
 ## [5] "experienced_wellbeing.personcount"        "experienced_wellbeing_zscore.personcount"
 
-{{< / highlight >}}
+{{< / code >}}
 
 I could still be missing something, of course, and would welcome any corrections. Another possibility is that the data uploaded to the OSF replication package isn't quite the one used in the paper. This is the sort of thing that happens quite often. 
 
