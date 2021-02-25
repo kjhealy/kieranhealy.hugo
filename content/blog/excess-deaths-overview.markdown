@@ -1,7 +1,7 @@
 ---
 title: "Excess Deaths Overview"
 date: 2020-10-10T11:59:32-04:00
-categories: [Sociology,Politics]
+categories: [Sociology,Politics,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false
@@ -13,6 +13,8 @@ mathjax: false
 Jurisdiction figures updated on October 25th with data up to week 37 (ending September 12th).
 
 Updated again on December 4th to include data up to week 45.
+
+Updated on February 24th, 2021.
 
 {{% /admonition %}}
 
