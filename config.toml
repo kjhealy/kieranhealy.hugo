@@ -146,6 +146,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
     a-email = "mailto:kjhealy@gmail.com"
     c-twitter = "http://twitter.com/kjhealy"
     g-github = "http://github.com/kjhealy"
+    s-google = "https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
