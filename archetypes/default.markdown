@@ -11,8 +11,8 @@ mathjax: false
 {{% figure src="" alt="" caption="" %}}
 
 
-{{< highlight r >}}
+{{< code r >}}
 
 
-{{< /highlight >}}
+{{< /code >}}
 
