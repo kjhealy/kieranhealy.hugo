@@ -12,11 +12,9 @@ Recently I came across a question where someone was looking to take a bunch of C
 
 I already know how to use `map_dfr()` to read a lot of CSVs with the same structure into a nice tidy tibble. (I'll show you below in a moment if you don't know how to do this.) It's a nice demonstration of the utility of iterating over a vector of filenames with a tidy result. But in thinking about the question I also wanted to provide a reproducible answer, which meant thinking about how to _create_ a bunch of CSV files to read in by way of an example. So, here's one way to do that. Along the way we'll take advantage of a few small features of common tidyverse functions that I've found very helpful but whose existence is sometimes a little hard to discover. Or rather, their utility is sometimes hard to see when reading the help pages.
 
-First let's make a bunch of CSVs in a folder called `tmpdat`. Each CSV will have five columns containing 100 normally-distributed observations with a mean of zero and a standard deviation of one. 
+First let's make a bunch of CSVs in a folder called `tmpdat`. Each CSV will have five columns containing 100 normally-distributed observations with a mean of zero and a standard deviation of one. Here's the code all at once:
 
-Here's the code all at once:
-
-{{< highlight r >}}
+{{< code r >}}
 library(tidyverse)
 
 ## Make a "tmpdat" folder in the working dir if one doesn't exist
@@ -33,7 +31,7 @@ paste0("csv_", 1:100) %>%
   group_by(id) %>%
   nest() %>%
   pwalk(~ write_csv(x = .y, file = paste0("tmpdat/", .x, ".csv")))
-{{< /highlight >}}
+{{< /code >}}
 
 The first few lines load the tidyverse and create the `tmpdir` folder if it doesn't already exist. We could do this in a full-on tidyverse way with the `fs` package, but here I just use the Base R equivalent.
 
@@ -41,19 +39,19 @@ Next we create `nvars` which is the number of columns each of our CSV files will
 
 Now the fun starts. The first line creates a vector of 100 identifiers. The call to `set_names()` gives each element of the vector a name, which by default is the same as the value of that element. We do this so that the elements of the list we're about to create will have recognizable names as well.
 
-{{< highlight r >}}
+{{< code r >}}
 paste0("csv_", 1:100) %>%
   set_names()
 #>     csv_1     csv_2     csv_3     csv_4     csv_5     csv_6     csv_7     csv_8 
 #>   "csv_1"   "csv_2"   "csv_3"   "csv_4"   "csv_5"   "csv_6"   "csv_7"   "csv_8"
 
 ## (Cut off to save space)
-{{< /highlight >}}
+{{< /code >}}
 
 
-Next, we use `map()` to feed each of our hundred elements to the `replicate()` function. We don't pass through any arguments to replicate at all (except for `nvars` which is the same for all of them). Instead, what happens is that `replicate()` creates a list of one hundred random matrices, each one of dimensions 100x5. One matrix lives inside each named list item, from `csv_1` to `csv_100`.
+We then use `map()` to feed each of our hundred elements to the `replicate()` function. We don't pass through any arguments to replicate at all (except for `nvars` which is the same for all of them). Instead, what happens is that `replicate()` creates a list of one hundred random matrices, each one of dimensions 100x5. One matrix lives inside each named list item, from `csv_1` to `csv_100`.
 
-{{< highlight r >}}
+{{< code r "hl_lines=3">}}
 paste0("csv_", 1:100) %>%
   set_names() %>%
   map(~ replicate(n = nvars, rnorm(100, 0, 1)))
@@ -64,11 +62,11 @@ paste0("csv_", 1:100) %>%
 #>   [3,] -0.131462279  2.025939426  1.01061386 -0.97849787 -0.86495635
 
 ## (Cut off to save space)
-{{< /highlight >}}
+{{< /code >}}
 
 Step three, convert each matrix to a tibble and then bind them all together into one large tibble:
 
-{{< highlight r >}}
+{{< code r "hl_lines=4">}}
 paste0("csv_", 1:100) %>%
   set_names() %>%
   map(~ replicate(n = nvars, rnorm(100, 0, 1))) %>%
@@ -89,13 +87,13 @@ paste0("csv_", 1:100) %>%
 #> 10 csv_1  1.01   0.657  0.519 -0.630 -0.927
 #> # … with 9,990 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 It's starting to look a little tidier now. Like `map()`, `map_dfr()` feeds each element of the data---in this case, 100 list items, each of which contains a matrix---to the `as_tibble()` function. This converts each matrix to a tibble. Unlike `map()`, which always returns a list, `map_dfr()` will return a data frame or tibble (bound by row). Along the way we add an `id` column, to keep track of which imaginary dataset this will be from, and we also name the columns of the made-up data. The `.name_repair` argument has several useful pre-sets, but you can also send it a function. We do that here, to create the column names `v1`, `v2`, etc, all the way to however many columns there are. Tibbles require unique column names. 
 
 Onward:
 
-{{< highlight r >}}
+{{< code r >}}
 paste0("csv_", 1:100) %>%
   set_names() %>%
   map(~ replicate(n = nvars, rnorm(100, 0, 1))) %>%
@@ -118,11 +116,11 @@ paste0("csv_", 1:100) %>%
 #>  9 csv_9  <tibble[,5] [100 × 5]>
 #> 10 csv_10 <tibble[,5] [100 × 5]>
 #> # … with 90 more rows
-{{< /highlight >}}
+{{< /code >}}
 
 Having created our data, we `group_by()` the `id` column and use `nest()` to create a list column of datasets, which are now all tibbles and all have consistent column names. Finally, we write each one out to a file:
 
-{{< highlight r >}}
+{{< code r "hl_lines=7">}}
 paste0("csv_", 1:100) %>%
   set_names() %>%
   map(~ replicate(n = nvars, rnorm(100, 0, 1))) %>%
@@ -131,7 +129,7 @@ paste0("csv_", 1:100) %>%
   nest() %>%
   pwalk(~ write_csv(x = .y, file = paste0("tmpdat/", .x, ".csv")))
 
-{{< /highlight >}}
+{{< /code >}}
 
 We use `walk()` when we want to iterate over a list, just as with `map()`. But `walk()` is for those times when the result of whatever we do is not an object we'll use further in R, but rather a "side effect", like a file or a plot. The `pwalk()` function is a special case of `walk()` designed for tibbles and data frames. It iterates over each row of the tibble. Here it takes the second argument of the tibble, the `data` list-column, and writes out its contents to a file whose name is constructed from the `id` column.
 
@@ -141,7 +139,7 @@ Now we have conjured up one hundred CSVs of made-up data. Perhaps a career in So
 
 With our data now on disk, we can read it all back in and do our calculations. Once again, `map_dfr()` is our friend. We feed it a vector, `filenames`, which is just the full path to each CSV file in `tmpdat`. 
 
-{{< highlight r >}}
+{{< code r >}}
 filenames %>%
   map_dfr(read_csv, .id = "id", col_types = cols()) %>%
   group_by(id) %>%
@@ -161,12 +159,12 @@ filenames %>%
 #> 4 v4    -0.00533   0.994
 #> 5 v5    -0.0172    0.986
 
-{{< /highlight >}}
+{{< /code >}}
 
 
 Three things here. First, sending `filenames` down the pipe results in each element of it (i.e. each filename) getting fed one at a time to `read_csv()`. Because we're using `map_dfr()` to do the feeding, we get a tibble back. Second, we know we're pivoting all the columns except `id`, so instead of naming the column range we're including, we drop the single column that's not part of the pivot, using the shorthand of putting a minus sign in front of its name, like this: `-id`. Third, given that we know what we're dealing with inside each CSV, we use `col_types = cols()` to suppress the column specification message that would otherwise be displayed at the console for each file as it's read in.
 
-{{< highlight r >}}
+{{< code r "hl_lines=2">}}
 filenames %>%
   map_dfr(read_csv, .id = "id", col_types = cols())
 #> # A tibble: 10,000 x 6
@@ -184,11 +182,11 @@ filenames %>%
 #> 10 1     -0.553   0.185 -0.172 -0.0263  0.281
 #> # … with 9,990 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Next we group by `id` (i.e., by CSV file) and use `across()` to get the means and standard deviations for everything. There's no missing data, so we don't need to add `na.rm = TRUE` in the summarize statement.
 
-{{< highlight r >}}
+{{< code r "hl_lines=4-5">}}
 filenames %>%
   map_dfr(read_csv, .id = "id", col_types = cols()) %>%
   group_by(id) %>%
@@ -210,11 +208,11 @@ filenames %>%
 #> 10 17    -0.278   1.09  -0.115  1.06   0.0784 1.16   0.0556  0.979 -0.0731  0.992
 #> # … with 90 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Now, what we'd like next is to end up with a tibble with four columns that looks like this:
 
-{{< highlight r >}}
+{{< code r >}}
 # A tibble: 500 x 4
    id    col       mean    sd
    <chr> <chr>    <dbl> <dbl>
@@ -230,13 +228,13 @@ Now, what we'd like next is to end up with a tibble with four columns that looks
 10 10    v5     0.0243  0.973
 # … with 490 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 That is, a tidy or long-form summary, where the first column is the CSV id, the second is which variable we're talking about, and the third and fourth columns are the summary statistics for that variable in that CSV. 
 
 If you use `pivot_longer()` to do this in the default way, you will not get quite what you want:
 
-{{< highlight r >}}
+{{< code r >}}
 filenames %>%
   map_dfr(read_csv, .id = "id", col_types = cols()) %>%
   group_by(id) %>%
@@ -258,11 +256,11 @@ filenames %>%
 #> 10 1     v5_sd    1.05  
 #> # … with 990 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 And if you read in the docs for `pivot_longer()` you might also try giving it a regular expression to remove the variable prefixes and get them in to their own column:
 
-{{< highlight r >}}
+{{< code r "hl_lines=7-8">}}
 filenames %>%
   map_dfr(read_csv, .id = "id", col_types = cols()) %>%
   group_by(id) %>%
@@ -287,13 +285,13 @@ filenames %>%
 #> 10 1     v5    sd     1.05  
 #> # … with 990 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 Whoops, that's not right either. And even if we clean up the column headers we would still be left wanting to pivot wider again to get `mean` and `sd` in their own columns. But _that_ would create a tibble with alternating `NA`s on each row for `mean` and `sd`. All we want is for the `mean` and `sd` parts to become the column names, and get their respective `value`. We should be able to do this in one step.  
 
 We can:
 
-{{< highlight r "hl_lines=9">}}
+{{< code r "hl_lines=7-8">}}
 filenames %>%
   map_dfr(read_csv, .id = "id", col_types = cols()) %>%
   group_by(id) %>%
@@ -318,7 +316,7 @@ filenames %>%
 #> 10 10    v5     0.0243  0.973
 #> # … with 490 more rows
 
-{{< /highlight >}}
+{{< /code >}}
 
 We create the names of the new columns by splitting the existing names (`v1_mean`, `v1_sd` etc) on the `_` character. In the first place the split gives us `v1`, `v2`, `v3`, etc, which we put into a column named `col`. This leaves us with `mean` and `sd` names, each with its own particular `value`. Now, we _don't_ want to put alternating  `mean` and `sd` names in a single column named, say, "measure", with their values in a `value` column, as is the default. We want a single column of mean values and a single column of sd values. The trick is the special `.value` sentinel in the `names_to` argument. As noted in the help, the `names_to` argument is "a string specifying the name of the column to create from the data stored in the column names of  `data`." This can be a character vector, thus enabling the pivoting of multiple columns. And in addition, the help goes on to note, 
 
@@ -328,7 +326,7 @@ It might not jump out at you how handy this is. What it means is that we just ta
 
 From there we can get the overall statistics we originally wanted, grouping by `col` to return the mean of all means and the mean of all sds per column:
 
-{{< highlight r >}}
+{{< code r >}}
 filenames %>%
   map_dfr(read_csv, .id = "id", col_types = cols()) %>%
   group_by(id) %>%
@@ -349,5 +347,5 @@ filenames %>%
 #> 4 v4    -0.00533   0.994
 #> 5 v5    -0.0172    0.986
 
-{{< /highlight >}}
+{{< /code >}}
 
