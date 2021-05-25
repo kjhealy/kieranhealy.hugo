@@ -36,6 +36,6 @@ Meanwhile combining the trends plot with the tiled heatmap (called `p_tile`) is 
 
 The `/` convention means stack the plot objects, and `plot_layout()` proportionally divides the available space. 
 
-Chances are that I'll make some posters of these and other recent visualizations. Because people often ask, I've been looking into options for making them available for sale in various formats ... hopefully that'll be sorted out soon and I can join e.g. _Waterlilies_, _The Kiss_, and John Belushi on dorm room walls everywhere.
-
 The code for the decomposition and the core plots is [on GitHub](https://github.com/kjhealy/us_births). 
+
+You can [buy a print of this poster](https://kieranhealy.org/prints/baby-boom-v/) in a variety of formats.
