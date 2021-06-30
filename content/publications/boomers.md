@@ -1,6 +1,5 @@
 ---
 title: "Visualizing the Baby Boom"
-
 author: Kieran Healy
 status: Published
 type: published
