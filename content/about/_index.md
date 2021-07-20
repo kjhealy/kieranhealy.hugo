@@ -15,7 +15,7 @@ Most of my <a href="https://kieranhealy.org/publications/">publications and work
 <div class="logo-wrapper">
 <a href="mailto:kjhealy@gmail.com" class="iconfont icon-email" title="email"></a>
 <a href="http://twitter.com/kjhealy" class="iconfont icon-twitter" title="twitter"></a>
-<a href="http://github/com/kjhealy" class="iconfont icon-github" title="github"></a>
+<a href="http://github.com/kjhealy" class="iconfont icon-github" title="github"></a>
 <a href="https://kieranhealy.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 </center>
