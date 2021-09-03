@@ -12,7 +12,7 @@ I updated the [`covdata` package](https://kjhealy.github.io/covdata/) for the fi
 
 The daily mortality counts are sourced from the _New York Times_, which as a series is a little noisy but will do for this exercise because the aggregation to a weekly moving average and by decile smooths a lot of the noise. Density and population data come from the Census. Election data are from the MIT Election Lab. I'd have used their 2020 county data, but at first glance it seemed to be missing about eight hundred counties. 2016 will do fine. Here are the graphs. 
 
-{{% figure src="https://kieranhealy.org/files/misc/partisan-density-man.png" alt="Partisan trajectory graph" caption="Partisanship and COVID deaths at the country level." %}}
+{{% figure src="https://kieranhealy.org/files/misc/partisan-decile-man.png" alt="Partisan trajectory graph" caption="Partisanship and COVID deaths at the country level." %}}
 
 {{% figure src="https://kieranhealy.org/files/misc/density-decile-man.png" alt="Population density trajectory graph" caption="Population density and COVID deaths at the country level." %}}
 
