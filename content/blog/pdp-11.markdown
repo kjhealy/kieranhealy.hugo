@@ -53,7 +53,7 @@ I moved it up to my office. Appropriately, it sits on the shelf next to some anc
 
 And finally the moment you've been waiting for. Time to relaxen and watschen der blinkenlights.
 
-<video src="https://kieranhealy.org/files/misc/pdp-blinkenlights.mp4" controls>
+<video src="https://kieranhealy.org/files/misc/pdp-blinkenlights.mp4" controls width="100%">
   Your browser does not support the video element. 
 </video >
 
