@@ -26,7 +26,7 @@ So many LEDs, so many diodes. Not _enough_ diodes, as it turned out. The kit was
 {{% figure src="https://kieranhealy.org/files/misc/pdp-board-1.jpeg" alt="" caption="On go the first batch of diodes." %}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/pdp-led-2.jpeg" alt="" caption="LEDs on." %}}
+{{% figure src="https://kieranhealy.org/files/misc/pdp-led2.jpeg" alt="" caption="LEDs on." %}}
 
 I will quietly skip the part where I soldered the GPIO connector to the wrong side of the board and had to desolder it and attach it to the correct side. You will be unsurprised to learn that, having done this, I was not in the right state of mind to cheerfully take pictures.
 
@@ -53,8 +53,7 @@ I moved it up to my office. Appropriately, it sits on the shelf next to some anc
 
 And finally the moment you've been waiting for. Time to relaxen and watschen der blinkenlights.
 
-<video controls>
-  <source src="https://kieranhealy.org/files/misc/pdp-blinkenlights.mp4" type="video /mpeg">
+<video src="https://kieranhealy.org/files/misc/pdp-blinkenlights.mp4" controls>
   Your browser does not support the video element. 
 </video >
 
