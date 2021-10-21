@@ -14,7 +14,7 @@ I am interested in all-cause mortality in the United States for 2020. I look at 
 
 {{% figure src="/files/misc/excess_all_cause_by_jurisdiction.png" alt="" caption="All-cause mortality by jurisdiction." %}}
 
-The zero-percent line in this graph is average deaths between 2015 and 2015. For each jurisdiction, the grey dots show how many percentage points above or below its average each year from 2015 to 2019 was. Because zero represents each jurisdiction's mean, the grey points are distributed around it. The blue bar shows a range of plus or minus two standard deviations from this mean. The red triangle is where each jurisdiction ended up in 2020, again in comparison to its own average over the previous five years. It's clear that the pandemic was quite devastating across the country. 
+The zero-percent line in this graph is average deaths between 2015 and 2015. For each jurisdiction, the grey dots show how far above or below its average each year from 2015 to 2019 was. Because zero represents each jurisdiction's mean, the grey points are distributed around it. The blue bar shows a range of plus or minus two standard deviations from this mean. The red triangle is where each jurisdiction ended up in 2020, again in comparison to its own average over the previous five years. It's clear that the pandemic was quite devastating across the country. 
 
 Next, here's a dashboard-style overview of weekly mortality in 2020 for the whole of the United States, based on CDC data as of October 21st, 2021. We look at a few different things at once here.
 
