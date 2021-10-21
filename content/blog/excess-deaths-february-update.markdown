@@ -14,7 +14,7 @@ Updated on April 29th,  2021.
 
 The CDC continues to update its counts of deaths by cause for 2020 as data comes in from the jurisdictions that report to it. The data are by now fairly complete, though there are still significant gaps in several states due to delayed reporting. North Carolina, in particular, has yet to report almost any deaths for the entire final quarter of 2020. But I haven't updated my gallery since last October. A nice post last week from [Dr Drang](https://leancrew.com/all-this/2021/02/closing-out-2020/) and a request from [Cameron Wimpy](https://cwimpy.com) nudged me to do it. 
 
-Here's all-cause mortality for each judrisdiction, ordered by how far off their 2015-2019 average they were in 2020. Even though we're into 2021 there's still a fair amount of under-reporting in this data. North Carolina is omitted as they have barely reported any mortality data since the end of October. Other jurisdictions are still finalizing their numbers.
+Here's all-cause mortality for each jurisdiction, ordered by how far off their 2015-2019 average they were in 2020. Even though we're into 2021 there's still a fair amount of under-reporting in this data. North Carolina is omitted as they have barely reported any mortality data since the end of October. Other jurisdictions are still finalizing their numbers.
 
 {{% figure src="/files/misc/excess_all_cause_by_jurisdiction.png" alt="" caption="All-cause mortality by jurisdiction." %}}
 
