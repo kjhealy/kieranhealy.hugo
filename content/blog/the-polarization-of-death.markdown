@@ -11,5 +11,6 @@ I'm continuing to update the [`covdata` package](https://kjhealy.github.io/covda
 
 {{% figure src="https://kieranhealy.org/files/misc/partisan-decile-2020-man.png" alt="" caption="Partisanship and COVID deaths at the county level." %}}
 
+The code and data are [on GitHub](https://github.com/kjhealy/covid_polarization).
 
 
