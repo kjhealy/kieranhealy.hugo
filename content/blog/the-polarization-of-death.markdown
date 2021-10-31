@@ -11,7 +11,7 @@ I'm continuing to update the [`covdata` package](https://kjhealy.github.io/covda
 
 {{% figure src="https://kieranhealy.org/files/misc/partisan-decile-2020-man.png" alt="" caption="Partisanship and COVID deaths at the county level." %}}
 
-The main thing I'd like to add to these estimates to adjust (i.e. weight) by the age distribution of the counties. The difficulty is that breakdowns of COVID mortality by county and age aren't straightforwardly available at present. Ideally, of course, what we want is full individual-level data on the outcomes and their covariates, but we're not going to get that. Still, it's hard not to think that these gaps are going to continue to widen, given where resistance to getting vaccinated is highest. There are a few ways we might do to at least get a sense of the structure of things, particularly as the age and racial/ethnic composition of counties is something we know. Over the longer term what will be interesting to see is whether these gaps continue to widen.
+The main thing I'd like to add to these estimates to adjust (i.e. weight) by the age distribution of the counties. The difficulty is that breakdowns of COVID mortality by county and age aren't straightforwardly available at present. Ideally, of course, what we want is full individual-level data on the outcomes and their covariates, but we're not going to get that. Still, it's hard not to think that these gaps are going to continue to widen, given where resistance to getting vaccinated is highest. There are a few ways we might do to at least get a sense of the structure of things, particularly as the age and racial/ethnic composition of counties is something we know. 
 
 The code and data are [on GitHub](https://github.com/kjhealy/covid_polarization).
 
