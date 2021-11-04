@@ -38,29 +38,19 @@ Our image is in a subfolder of our project directory. The `load.image()` functio
 
 
 {{< code r >}}
-img <- load.image(here("img/elvis-nixon.jpeg"))
+img <- load.image(here("img", "elvis-nixon.jpeg"))
 str(img)
-{{< /code >}}
 
-{{< code r >}}
 ##  'cimg' num [1:800, 1:633, 1, 1] 0.914 0.929 0.91 0.906 0.898 ...
-{{< /code >}}
 
-{{< code r >}}
 dim(img)
-{{< /code >}}
 
-{{< code r >}}
 ## [1] 800 633   1   1
-{{< /code >}}
 
-{{< code r >}}
 img_df_long <- as.data.frame(img)
 
 head(img_df_long)
-{{< /code >}}
 
-{{< code r >}}
 ##   x y     value
 ## 1 1 1 0.9137255
 ## 2 2 1 0.9294118
@@ -79,9 +69,7 @@ img_df <- tidyr::pivot_wider(img_df_long,
                              values_from = value)
 
 dim(img_df)
-{{< /code >}}
 
-{{< code r >}}
 ## [1] 800 634
 {{< /code >}}
 
@@ -89,9 +77,7 @@ So now it's the right shape. Here are the first few rows and columns.
 
 {{< code r >}}
 img_df[1:5, 1:5]
-{{< /code >}}
 
-{{< code r >}}
 ## # A tibble: 5 x 5
 ##       x   `1`   `2`   `3`   `4`
 ##   <int> <dbl> <dbl> <dbl> <dbl>
@@ -118,9 +104,7 @@ There are a lot of components---633 of them altogether, in fact, so I'm only goi
 
 {{< code r >}}
 summary(img_pca)
-{{< /code >}}
 
-{{< code r >}}
 ## Importance of components:
 ##                            PC1     PC2     PC3     PC4     PC5     PC6
 ## Standard deviation     15.2124 10.9823 7.54308 5.57239 4.77759 4.55531
@@ -160,12 +144,9 @@ pca_tidy %>%
 
 Now the fun bit. The object produced by `prcomp()` has a few pieces inside:
 
-
 {{< code r >}}
 names(img_pca)
-{{< /code >}}
 
-{{< code r >}}
 ## [1] "sdev"     "rotation" "center"   "scale"    "x"
 {{< /code >}}
 
@@ -173,7 +154,7 @@ What are these? `sdev` contains the standard deviations of the principal compone
 
 Now, to get from this information back to the original data matrix, we need to multiply `x` by the transpose of the `rotation` matrix, and then revert the centering and scaling steps. If we multiply by the transpose of the _full_ rotation matrix (and then un-center and un-scale), we'll recover the original data matrix exactly. But we can also choose to use just the first few principal components, instead. There are 633 components in all (corresponding to the number of rows in the original data matrix), but the scree plot suggests that most of the data is "explained" by a much smaller number of components than that. 
 
-Here's a function that takes a PCA object created by `prcomp()` and returns an approximation of the original data, calculated by some number (`n_comp`) of principal components. It returns its results in long format, in a way that mirrors what the Imager library wants. This will make plotting easier in a minute.
+Here's a rough-and-ready function that takes a PCA object created by `prcomp()` and returns an approximation of the original data, calculated by some number (`n_comp`) of principal components. It returns its results in long format, in a way that mirrors what the Imager library wants. This will make plotting easier in a minute.
 
 
 {{< code r >}}
@@ -183,6 +164,7 @@ reverse_pca <- function(n_comp = 20, pca_object = img_pca){
   ## Multiply the matrix of rotated data by the transpose of the matrix 
   ## of eigenvalues (i.e. the component loadings) to get back to a 
   ## matrix of original data values
+
   recon <- pca_object$x[, 1:n_comp] %*% t(pca_object$rotation[, 1:n_comp])
   
   ## Reverse any scaling and centering that was done by prcomp()
