@@ -167,7 +167,8 @@ df %>%
   geom_histogram(mapping = aes(x = log(value), y = ..count.., 
                           color = name, fill = name), 
             stat = "bin", bins = 20, size = 0.5,
-            alpha = 0.7) + 
+            alpha = 0.7,
+            position = "identity") + 
   scale_color_manual(values = alpha(c( my_oka[1:3], "gray40"), 1),
                      labels = as_labeller(grp_names)) + 
   scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.6),
