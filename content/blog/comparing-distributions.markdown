@@ -86,7 +86,7 @@ grp_names <- c(`a` = "Group A",
 
 {{< /code >}}
 
-In the tibble we've just made up, `unit` is our county, `a`, `b`, and `c` are the proportions of the groups within each county, and the `pop_` columns are the total populations and the subgroup populations. We make a vector of 3,000 populations using `rlnorm` and a plausible values based on the mean and standard deviations of the logged population of US counties. A call to `rdirichlet` produces the matrix of subgroup populations where each row sums to one. Then we multiply the populations by their respective proportions, and now we have a world of three thousand counties, each with some population that we've also broken out by group. 
+In the tibble we've just made up, `unit` is our county, `a`, `b`, and `c` are the proportions of the groups within each county, and the `pop_` columns are the total populations and the subgroup populations. We make a vector of 3,000 populations using `rlnorm` and plausible values based on the mean and standard deviations of the logged population of actual US counties. A call to `rdirichlet` produces the matrix of subgroup populations where each row sums to one. Then we multiply the populations by their respective proportions, and now we have a world of three thousand counties, each with some population that we've also broken out by group. 
 
 We can look at the distribution of group populations across counties:
 
