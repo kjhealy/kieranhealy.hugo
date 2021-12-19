@@ -201,7 +201,7 @@ df %>%
 
 {{% figure src="https://kieranhealy.org/files/misc/ref-distribs-8-1.png" alt="Kernel densities." caption="A single panel of kernel densities." %}}
 
-Better, but still not great. A very serviceable compromise that has many of the virtues of a small multiple but has the advantage of keeping things in one panel is a ridgeline plot, courtesy of Claus Wilke's `geom_ridgeline():
+Better, but still not great. A very serviceable compromise that has many of the virtues of a small multiple but has the advantage of keeping things in one panel is a ridgeline plot, courtesy of `geom_ridgeline()` from Claus Wilke's `ggridges` package:
 
 {{< code r >}}
 df %>%
