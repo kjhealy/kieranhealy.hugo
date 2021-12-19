@@ -158,7 +158,7 @@ df %>%
 
 Now we can plot the group-level population distributions across counties. Again, we
 want to compare group distributions to one another and to the overall population
-distribution by county. A single-panel histogram showing all four distributions isn't very satisfactory. 
+distribution by county. A single-panel histogram showing all four distributions isn't very satisfactory. Even though we're using `alpha` to make the columns semi-transparent, it's still very muddy.
 
 {{< code r >}}
 df %>%
@@ -180,7 +180,7 @@ df %>%
 
 {{% figure src="https://kieranhealy.org/files/misc/ref-distribs-7-1.png" alt="Histogram of all groups.." caption="Histogram of all groups." %}}
 
-If we use a `geom_density()` rather than `geom_histogram()` we'll generate kernel density estimates for each group. These look a little better, because we can set the `alpha` channel to make them semi-transparent.
+If we use a `geom_density()` rather than `geom_histogram()` we'll generate kernel density estimates for each group. These look a little better, but not great.
 
 {{< code r >}}
 df %>%
@@ -220,7 +220,7 @@ df %>%
 
 {{% figure src="https://kieranhealy.org/files/misc/ref-distribs-9-1.png" alt="Ridgeline plot." caption="A ridgeline plot."  %}}
 
-Ridgeline plots look good and scale pretty well when there are larger numbers of categories to put on the vertical axis, especially if there's a reasonable amount of structure in the data, especially a trend or sequence in the distributions. They can be slightly inefficient in terms of space with smaller numbers of categories. When the number of groups gets large they work best in a very strongly tall and narrow aspect ratio that can be hard to integrate into a page. 
+Ridgeline plots look good and scale pretty well when there are larger numbers of categories to put on the vertical axis, especially if there's a reasonable amount of structure in the data, such as a trend or sequence in the distributions. They can be slightly inefficient in terms of space with smaller numbers of categories. When the number of groups gets large they work best in a very strongly tall and narrow aspect ratio that can be hard to integrate into a page. 
 
 ## Histograms with a reference distribution
 
