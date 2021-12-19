@@ -220,7 +220,7 @@ df %>%
 
 {{% figure src="https://kieranhealy.org/files/misc/ref-distribs-9-1.png" alt="Ridgeline plot." caption="A ridgeline plot."  %}}
 
-Ridgeline plots look good and scale pretty well when there are larger numbers of categories to put on the vertical axis, especially if there's a reasonable amount of structure in the data, such as a trend or sequence in the distributions. They can be slightly inefficient in terms of space with smaller numbers of categories. When the number of groups gets large they work best in a very strongly tall and narrow aspect ratio that can be hard to integrate into a page. 
+Ridgeline plots look good and scale pretty well when there are larger numbers of categories to put on the vertical axis, especially if there's a reasonable amount of structure in the data, such as a trend or sequence in the distributions. They can be slightly inefficient in terms of space with smaller numbers of categories. When the number of groups gets large they work best in a very tall and narrow aspect ratio that can be hard to integrate into a page. 
 
 ## Histograms with a reference distribution
 
@@ -280,7 +280,7 @@ df %>%
 
 This is a handy trick. We’ll use it repeatedly in the remaining figures, as we look at different ways of drawing the same comparison.
 
-While putting the reference distribution behind the subgroup distribution is handy, the way the layering works produces an overlap that some viewers find difficult to read. It seems like a third distribution (the darker color created by the overlapping area) has appeared along with the two we're interested in. We can avoid this by taking advantage of the underused `geom_step()` and its `direction` argument. We can tell `geom_step()` to use a binning method (`stat = "bin"`) that's the same as `geom_histogram()`. Here we're also using the computed `..density..` value rather than `..count..`, but we could use `..count..` just fine as well. 
+While putting the reference distribution behind the subgroup distribution is nice, the way the layering works produces an overlap that some viewers find difficult to read. It seems like a third distribution (the darker color created by the overlapping area) has appeared along with the two we're interested in. We can avoid this by taking advantage of the underused `geom_step()` and its `direction` argument. We can tell `geom_step()` to use a binning method (`stat = "bin"`) that's the same as `geom_histogram()`. Here we're also using the computed `..density..` value rather than `..count..`, but we could use `..count..` just fine as well. 
 
 {{< code r >}}
 df %>% 
@@ -299,7 +299,7 @@ df %>%
    scale_color_manual(values = alpha(my_oka, 1)) + 
    guides(color = "none", fill = "none") + 
    labs(x = "Logged Population", y = "Density", 
-        title = "Comparing Subgroups: Histograms (Density)", 
+        title = "Comparing Subgroups: Histograms", 
         subtitle = "Overall distribution shown in outline") + 
    facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
 
