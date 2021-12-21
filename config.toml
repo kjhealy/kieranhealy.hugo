@@ -89,7 +89,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
   # paginate of archives, tags and categories
   # general archives
   archivePaginate = 10
-  # blog archive, because we want full content on the blog inde
+  # blog archive. This indexes n /posts/ not n /years/ for pagination purposes
   blogPaginate = 100
 
   # show 'xx Posts In Total' in archive page ?           
@@ -143,10 +143,8 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
 
   [params.social]                                        
-    a-email = "mailto:kjhealy@gmail.com"
     c-twitter = "http://twitter.com/kjhealy"
     g-github = "http://github.com/kjhealy"
-    s-google = "https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
