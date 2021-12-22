@@ -122,7 +122,7 @@ df %>%
                      labels = as_labeller(grp_names)) + 
   scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.6),
                     labels = as_labeller(grp_names)) + 
-  labs(x = "Population", y = "Count", color = "Group", 
+  labs(x = "Measure", y = "Count", color = "Group", 
        fill = "Group",
        title = "Comparing Subgroups: Histograms", 
        subtitle = "Overall distribution shown in gray")
@@ -143,7 +143,7 @@ df %>%
                      labels = as_labeller(grp_names)) + 
   scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.6),
                     labels = as_labeller(grp_names)) + 
-  labs(x = "Population", y = "Density", 
+  labs(x = "Measure", y = "Density", 
        title = "Comparing Subgroups: Density", 
        color = "Group", 
        fill = "Group")
@@ -164,7 +164,7 @@ df %>%
   scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.7)) + 
   scale_y_discrete(labels = as_labeller(grp_names)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Population", y = NULL, title = "Comparing Total and Subgroups: Ridgelines") + 
+  labs(x = "Measure", y = NULL, title = "Comparing Total and Subgroups: Ridgelines") + 
   theme_ridges(font_family = "Myriad Pro SemiCondensed")
 {{< /code >}}
 
@@ -225,7 +225,7 @@ df %>%
   scale_fill_okabe_ito() + 
   scale_color_okabe_ito() + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Population", y = "Count", 
+  labs(x = "Measure", y = "Count", 
        title = "Comparing Subgroups: Histograms", 
        subtitle = "Overall distribution shown in gray") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
@@ -254,7 +254,7 @@ df %>%
    scale_fill_manual(values = alpha(my_oka, 0.8)) + 
    scale_color_manual(values = alpha(my_oka, 1)) + 
    guides(color = "none", fill = "none") + 
-   labs(x = "Population", y = "Density", 
+   labs(x = "Measure", y = "Density", 
         title = "Comparing Subgroups: Histograms", 
         subtitle = "Overall distribution shown in outline") + 
    facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
@@ -284,7 +284,7 @@ df %>%
   scale_fill_manual(values = alpha(my_oka, 0.8)) + 
   scale_color_manual(values = alpha(my_oka, 1)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Population", y = "Scaled Count", 
+  labs(x = "Measure", y = "Scaled Count", 
        title = "Comparing Subgroups: Histograms (Scaled Counts)", 
        subtitle = "Overall distribution shown in outline") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
@@ -311,7 +311,7 @@ df %>%
   scale_fill_manual(values = alpha(my_oka, 0.7)) + 
   scale_color_manual(values = alpha(my_oka, 1)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Population", y = "Count", 
+  labs(x = "Measure", y = "Count", 
        title = "Comparing Subgroups: Frequency Polygons", 
        subtitle = "Overall distribution shown in outline") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
@@ -335,7 +335,7 @@ df %>%
   scale_fill_manual(values = alpha(my_oka, 0.7)) + 
   scale_color_manual(values = alpha(my_oka, 1)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Population", y = "Count", 
+  labs(x = "Measure", y = "Count", 
        title = "Comparing Subgroups: Frequency Polygons (Scaled Counts)", 
        subtitle = "Overall distribution shown in outline") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
@@ -359,7 +359,7 @@ df %>%
   scale_fill_manual(values = alpha(my_oka, 0.7)) + 
   scale_color_manual(values = alpha(my_oka, 1)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Population", y = "Density", 
+  labs(x = "Measure", y = "Density", 
        title = "Comparing Subgroups: Kernel Densities", 
        subtitle = "Overall distribution shown in outline") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
@@ -384,7 +384,7 @@ df %>%
   scale_fill_manual(values = alpha(my_oka, 0.7)) + 
   scale_color_manual(values = alpha(my_oka, 1)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Population", y = "Density", 
+  labs(x = "Measure", y = "Density", 
        title = "Comparing Subgroups: Kernel Densities (Scaled)", 
        subtitle = "Overall distribution shown in outline") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
