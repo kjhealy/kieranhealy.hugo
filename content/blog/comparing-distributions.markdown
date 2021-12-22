@@ -7,6 +7,12 @@ htmlwidgets: false
 mathjax: false
 ---
 
+
+{{% admonition info Update %}}
+Updated on December 22nd,  2021. I made the generated data simpler so that the resulting distributions would be less confusing to look at. 
+{{% /admonition %}}
+
+
 When we want to see how something varies across categories, the _trellis_ or _small multiple_ plot is a good friend. We repeatedly draw the same graph once for each category, lining them up in a way that makes them comparable. Here's an example from [my book](https://amzn.to/2vfAixM), using the `gapminder` data, which provides a cross-national time series of GDP per capita for many countries.  
 
 {{< code r >}}
@@ -24,17 +30,14 @@ p + geom_line(color="gray70", aes(group = country)) +
 {{< /code >}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-17-1.png" alt="Small multiple of gapminder data." caption="A Gapminder small multiple." %}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-17-1.png" alt="Small multiple of gapminder data." caption="A Gapminder small multiple." %}}
     
 Sometimes, we're interested in comparing distributions across categories in something like this way. In particular, I'm interested in cases where we want to compare a distribution to some reference category, as when we look at subpopulations in comparison to an overall distribution.
 
 ## Generate some population and subgroup data 
 
 Say we have some number of observed units, e.g., three thousand “counties” or
-whatever. Each county has some population. Across all counties, the population
-is distributed log-normally. Within counties, the populations are divided into
-three groups. The particular proportions of groups A, B, and C will vary across
-counties but always sum to one within each county.
+whatever. Each county has some population made up of three groups. Across all counties, each group has a measure of interest. The measures are all distributed normally but vary in their means and standard deviations.
 
 {{< code r >}}
 
@@ -54,117 +57,56 @@ grp_names <- c(`a` = "Group A",
  set.seed(1243098)
 
  N <- 3e3
- alphas <- c(1.5, 0.9, 2)
 
- pop <- round(rlnorm(N, meanlog = 10.3, sdlog = 1.49), 0)
+ mus <- c(0.2, 1, -0.1)
+ sds <- c(1.1, 0.9, 1)
+ grp <- c("pop_a", "pop_b", "pop_c")
 
- df <- as_tibble(gtools::rdirichlet(N, alphas), 
-                        .name_repair = "unique") %>% 
-   rename_with(~ c("a", "b", "c")) %>% 
+ params <- list(mean = mus, 
+                sd = sds)
+
+ df <- pmap_dfc(params, rnorm, n = N) %>% 
+   rename_with(~ grp) %>%
    rowid_to_column("unit") %>% 
-   add_column(pop_total = pop) %>% 
-   mutate(across(a:c, 
-                 .fns = list(pop = ~ round(.x * pop_total, 0) + 1),
-                 .names = "{fn}_{col}"))
+   rowwise() %>% 
+   mutate(pop_total = mean(c(pop_a, pop_b, pop_c))) %>% 
+   ungroup()
+
+
 
  df
-
- ## # A tibble: 3,000 × 8
- ##     unit     a      b     c pop_total pop_a pop_b  pop_c
- ##    <int> <dbl>  <dbl> <dbl>     <dbl> <dbl> <dbl>  <dbl>
- ##  1     1 0.156 0.196  0.648      6467  1008  1269   4194
- ##  2     2 0.288 0.154  0.558    211075 60729 32579 117771
- ##  3     3 0.165 0.391  0.443    128243 21186 50184  56876
- ##  4     4 0.294 0.124  0.582     76843 22561  9555  44730
- ##  5     5 0.301 0.146  0.553     12178  3671  1780   6730
- ##  6     6 0.397 0.148  0.455      2707  1076   401   1232
- ##  7     7 0.364 0.258  0.378    143261 52112 36987  54166
- ##  8     8 0.859 0.0375 0.103     61109 52517  2290   6305
- ##  9     9 0.129 0.477  0.394     61718  7968 29433  24320
- ## 10    10 0.185 0.182  0.632      3217   597   588   2035
- ## # … with 2,990 more rows
-
-{{< /code >}}
-
-In the tibble we've just made up, `unit` is our county, `a`, `b`, and `c` are the proportions of the groups within each county, and the `pop_` columns are the total populations and the subgroup populations. We make a vector of 3,000 populations using `rlnorm` and plausible values based on the mean and standard deviations of the logged population of actual US counties. A call to `rdirichlet` produces the matrix of subgroup proportions where each row sums to one. Then we multiply the populations by their respective proportions, and now we have a world of three thousand counties, each with some population that we've also broken out by group. 
-
-We can look at the distribution of group populations across counties:
-
-{{< code r >}}
-df %>% 
-   pivot_longer(a:c) %>% 
-   ggplot() + 
-   geom_area(mapping = aes(x = value, y = ..count.., 
-                           color = name, fill = name), 
-             stat = "bin", bins = 20, size = 0.5) + 
-   scale_fill_manual(values = alpha(my_oka, 0.7)) + 
-   scale_color_manual(values = alpha(my_oka, 1)) + 
-   guides(color = "none", 
-          fill = "none") + 
-   labs(x = "Logged Population", y = "Count", 
-        title = "Subgroup distribution across units") + 
-   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
-{{< /code >}}
-
-
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-4-1.png" alt="The distribution of the county populations of our three subgroups." caption="The distribution of the county populations of our three subgroups." %}}
-
-From now on let’s just work with the population counts.
-
-{{< code r >}}
-df <- df %>% 
-  select(unit, pop_a:pop_c, pop_total)
-
-df
-
+ 
 ## # A tibble: 3,000 × 5
-##     unit pop_a pop_b  pop_c pop_total
-##    <int> <dbl> <dbl>  <dbl>     <dbl>
-##  1     1  1008  1269   4194      6467
-##  2     2 60729 32579 117771    211075
-##  3     3 21186 50184  56876    128243
-##  4     4 22561  9555  44730     76843
-##  5     5  3671  1780   6730     12178
-##  6     6  1076   401   1232      2707
-##  7     7 52112 36987  54166    143261
-##  8     8 52517  2290   6305     61109
-##  9     9  7968 29433  24320     61718
-## 10    10   597   588   2035      3217
+##     unit  pop_a  pop_b   pop_c pop_total
+##    <int>  <dbl>  <dbl>   <dbl>     <dbl>
+##  1     1 -0.926 0.0604  0.0799  -0.262  
+##  2     2  1.65  1.30    1.01     1.32   
+##  3     3  1.28  1.69    0.425    1.13   
+##  4     4  0.901 0.915   1.40     1.07   
+##  5     5 -0.459 0.764  -0.292    0.00435
+##  6     6 -1.57  1.38   -1.37    -0.521  
+##  7     7  1.36  1.32    0.0935   0.923  
+##  8     8  0.732 2.07   -0.208    0.865  
+##  9     9  0.739 1.27   -2.23    -0.0727 
+## 10    10 -1.44  2.93   -0.0114   0.493  
 ## # … with 2,990 more rows
 
 {{< /code >}}
 
-Here's what our population totals look like across groups, including the total:
+In the tibble we've just made up, `unit` is our county, `pop_a`, `pop_b`, and `pop_c` are our groups, measured on whatever we are measuring, and `pop_total` is the mean value of `pop_a`, `pop_b`, and `pop_c` for each unit. We make a vector of 3,000 populations using `rnorm`. Each group is distributed normally but with a slightly different mean and standard deviation in each case. 
 
-{{< code r >}}
-
-df %>%
-  pivot_longer(pop_a:pop_total) %>% 
-  group_by(name) %>% 
-  summarize(total = sum(value)) %>% 
-  ggplot(mapping = aes(x = total, y = name, fill = name)) +  
-  geom_col() + 
-  guides(fill = "none") + 
-  scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.9))  + 
-  scale_x_continuous(labels = scales::label_number_si()) + 
-  scale_y_discrete(labels = as_labeller(grp_names)) +
-  labs(y = NULL, x = "Population")
-
-{{< /code >}}
-
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-6-1.png" alt="Population totals." caption="Population totals." %}}
 
 ## Single panels
 
 Now we can plot the group-level population distributions across counties. Again, we
-want to compare group distributions to one another and to the overall population
+want to compare group distributions to one another and to the overall average 
 distribution by county. A single-panel histogram showing all four distributions isn't very satisfactory. Even though we're using `alpha` to make the columns semi-transparent, it's still very muddy.
 
 {{< code r >}}
 df %>%
   pivot_longer(cols = pop_a:pop_total) %>%
   ggplot() + 
-  geom_histogram(mapping = aes(x = log(value), y = ..count.., 
+  geom_histogram(mapping = aes(x = value, y = ..count.., 
                           color = name, fill = name), 
             stat = "bin", bins = 20, size = 0.5,
             alpha = 0.7,
@@ -173,13 +115,13 @@ df %>%
                      labels = as_labeller(grp_names)) + 
   scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.6),
                     labels = as_labeller(grp_names)) + 
-  labs(x = "Logged Population", y = "Count", color = "Group", 
+  labs(x = "Population", y = "Count", color = "Group", 
        fill = "Group",
        title = "Comparing Subgroups: Histograms", 
        subtitle = "Overall distribution shown in gray")
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-7-1.png" alt="Histogram of all groups.." caption="Histogram of all groups." %}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-4-1.png" alt="Histogram of all groups.." caption="Histogram of all groups." %}}
 
 If we use a `geom_density()` rather than `geom_histogram()` we'll generate kernel density estimates for each group. These look a little better, but not great.
 
@@ -187,65 +129,71 @@ If we use a `geom_density()` rather than `geom_histogram()` we'll generate kerne
 df %>%
   pivot_longer(cols = pop_a:pop_total) %>%
   ggplot() + 
-  geom_density(mapping = aes(x = log(value), 
+  geom_density(mapping = aes(x = value, 
                           color = name, fill = name), 
             alpha = 0.5) + 
   scale_color_manual(values = alpha(c( my_oka[1:3], "gray40"), 1),
                      labels = as_labeller(grp_names)) + 
   scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.6),
                     labels = as_labeller(grp_names)) + 
-  labs(x = "Logged Population", y = "Density", 
+  labs(x = "Population", y = "Density", 
        title = "Comparing Subgroups: Density", 
        color = "Group", 
        fill = "Group")
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-8-1.png" alt="Kernel densities." caption="A single panel of kernel densities." %}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-5-1.png" alt="Kernel densities." caption="A single panel of kernel densities." %}}
 
-Better, but still not great. A very serviceable compromise that has many of the virtues of a small multiple but has the advantage of keeping things in one panel is a ridgeline plot, courtesy of `geom_ridgeline()` from Claus Wilke's `ggridges` package:
+That's better, but still not great. A very serviceable compromise that has many of the virtues of a small multiple but has the advantage of keeping things in one panel is a ridgeline plot, courtesy of `geom_ridgeline()` from Claus Wilke's `ggridges` package:
 
 {{< code r >}}
 df %>%
   pivot_longer(cols = pop_a:pop_total) %>%
   ggplot() + 
-  geom_density_ridges(mapping = aes(x = log(value + 1), 
+  geom_density_ridges(mapping = aes(x = value, 
                                     y = name, 
                                     fill = name), 
                       color = "white") + 
   scale_fill_manual(values = alpha(c( my_oka[1:3], "gray40"), 0.7)) + 
   scale_y_discrete(labels = as_labeller(grp_names)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Logged Population", y = NULL, title = "Comparing Total and Subgroups: Ridgelines") + 
+  labs(x = "Population", y = NULL, title = "Comparing Total and Subgroups: Ridgelines") + 
   theme_ridges(font_family = "Myriad Pro SemiCondensed")
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-9-1.png" alt="Ridgeline plot." caption="A ridgeline plot."  %}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-6-1.png" alt="Ridgeline plot." caption="A ridgeline plot."  %}}
 
 Ridgeline plots look good and scale pretty well when there are larger numbers of categories to put on the vertical axis, especially if there's a reasonable amount of structure in the data, such as a trend or sequence in the distributions. They can be slightly inefficient in terms of space with smaller numbers of categories. When the number of groups gets large they work best in a very tall and narrow aspect ratio that can be hard to integrate into a page. 
 
 ## Histograms with a reference distribution
 
-Like with the Gapminder plot, we can facet our plot so that every subgroup gets its own
-panel. But instead of having the Total population be its own panel, we will put it inside each group's panel as a reference point. This allows us to compare the group to the overall population, and also makes eyeballing differences between the group distributions a little easier. To do this, we're going to need to have some way to put the total population distribution into every panel. The trick is to hold on to the total population by only pivoting the subgroups to long format. That leaves us with repeated
-values for the total population, `pop_total`, like this:
+Like with the Gapminder plot, we can facet our plot so that every subgroup gets
+its own panel. But instead of having the Total population be its own panel, we
+will put it inside each group's panel as a reference point. This allows us to
+compare the group to the overall population, and also makes eyeballing
+differences between the group distributions a little easier. To do this, we're
+going to need to have some way to put the total population distribution into
+every panel. The trick is to hold on to the total population by only pivoting
+the subgroups to long format. That leaves us with repeated values for the total
+population, `pop_total`, like this:
 
 {{< code r >}}
 df %>%
   pivot_longer(cols = pop_a:pop_c)
 
 ## # A tibble: 9,000 × 4
-##     unit pop_total name   value
-##    <int>     <dbl> <chr>  <dbl>
-##  1     1      6467 pop_a   1008
-##  2     1      6467 pop_b   1269
-##  3     1      6467 pop_c   4194
-##  4     2    211075 pop_a  60729
-##  5     2    211075 pop_b  32579
-##  6     2    211075 pop_c 117771
-##  7     3    128243 pop_a  21186
-##  8     3    128243 pop_b  50184
-##  9     3    128243 pop_c  56876
-## 10     4     76843 pop_a  22561
+##     unit pop_total name    value
+##    <int>     <dbl> <chr>   <dbl>
+##  1     1    -0.262 pop_a -0.926 
+##  2     1    -0.262 pop_b  0.0604
+##  3     1    -0.262 pop_c  0.0799
+##  4     2     1.32  pop_a  1.65  
+##  5     2     1.32  pop_b  1.30  
+##  6     2     1.32  pop_c  1.01  
+##  7     3     1.13  pop_a  1.28  
+##  8     3     1.13  pop_b  1.69  
+##  9     3     1.13  pop_c  0.425 
+## 10     4     1.07  pop_a  0.901 
 ## # … with 8,990 more rows
 {{< /code >}}
 
@@ -260,24 +208,24 @@ overall population distribution.
 df %>%
   pivot_longer(cols = pop_a:pop_c) %>%
   ggplot() + 
-  geom_histogram(mapping = aes(x = log(pop_total), y = ..count..), 
+  geom_histogram(mapping = aes(x = pop_total, y = ..count..), 
                 bins = 20, alpha = 0.7,
                 fill = "gray40", size = 0.5) + 
-  geom_histogram(mapping = aes(x = log(value), y = ..count.., 
+  geom_histogram(mapping = aes(x = value, y = ..count.., 
                           color = name, fill = name), 
             stat = "bin", bins = 20, size = 0.5,
             alpha = 0.7) + 
   scale_fill_okabe_ito() + 
   scale_color_okabe_ito() + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Logged Population", y = "Count", 
+  labs(x = "Population", y = "Count", 
        title = "Comparing Subgroups: Histograms", 
        subtitle = "Overall distribution shown in gray") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
 {{< /code >}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-11-1.png" alt="Histograms." caption="Histograms with a reference distribution in each panel." %}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-8-1.png" alt="Histograms." caption="Histograms with a reference distribution in each panel." %}}
 
 This is a handy trick. We’ll use it repeatedly in the remaining figures, as we look at different ways of drawing the same comparison.
 
@@ -287,11 +235,11 @@ While putting the reference distribution behind the subgroup distribution is nic
 df %>% 
    pivot_longer(cols = pop_a:pop_c) %>%
    ggplot() + 
-   geom_histogram(mapping = aes(x = log(value), y = ..density.., 
+   geom_histogram(mapping = aes(x = value, y = ..density.., 
                            color = name, fill = name), 
              stat = "bin", bins = 20, size = 0.5,
              alpha = 0.7) + 
-   geom_step(mapping = aes(x = log(pop_total), y = ..density..), 
+   geom_step(mapping = aes(x = pop_total, y = ..density..), 
                  bins = 20, alpha = 0.9,
                  color = "gray30", size = 0.6, 
              stat = "bin",
@@ -299,7 +247,7 @@ df %>%
    scale_fill_manual(values = alpha(my_oka, 0.8)) + 
    scale_color_manual(values = alpha(my_oka, 1)) + 
    guides(color = "none", fill = "none") + 
-   labs(x = "Logged Population", y = "Density", 
+   labs(x = "Population", y = "Density", 
         title = "Comparing Subgroups: Histograms", 
         subtitle = "Overall distribution shown in outline") + 
    facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
@@ -308,56 +256,139 @@ df %>%
 
 With `geom_step()`, we get a histogram with just its outline drawn. This works quite well, I think. Because we're just drawing the outline, we call it _after_ we've drawn our histograms, so that it sits in a layer on top of them. 
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-14-1.png" alt="Histogram and outline." caption="Group histograms and overall distribution in outline."%}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-11-1.png" alt="Histogram and outline." caption="Group histograms and overall distribution in outline."%}}
+
+We can also scale the counts within bins, if we like, using `..ncount..`, which is one of the statistics that `stat_bin()` computes along with the default `..count..`. 
+
+{{< code r >}}
+
+df %>% 
+  pivot_longer(cols = pop_a:pop_c) %>%
+  ggplot() + 
+  geom_histogram(mapping = aes(x = value, y = ..ncount.., 
+                          color = name, fill = name), 
+            stat = "bin", bins = 20, size = 0.5,
+            alpha = 0.7) + 
+  geom_step(mapping = aes(x = pop_total, y = ..ncount..), 
+                bins = 20, alpha = 0.9,
+                color = "gray30", size = 0.6, 
+            stat = "bin",
+            direction = "mid") + 
+  scale_fill_manual(values = alpha(my_oka, 0.8)) + 
+  scale_color_manual(values = alpha(my_oka, 1)) + 
+  guides(color = "none", fill = "none") + 
+  labs(x = "Population", y = "Scaled Count", 
+       title = "Comparing Subgroups: Histograms (Scaled Counts)", 
+       subtitle = "Overall distribution shown in outline") + 
+  facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
+{{< /code >}}
+
+{{% figure src="https://kieranhealy.org/files/misc/distros-12-1.png" alt="Histogram and outline, scaled counts." caption="Group histograms and overall distribution in outline, with scaled counts."%}}
+
+
 
 ## Frequency polygons
 
 A final option, half way between histograms and smoothed kernel density estimates, is to use filled and open _frequency polygons_. Like `geom_histogram()`, these use `stat_bin()` behind the scenes but rather than columns they draw filled areas (`geom_area`) or lines (`geom_freqpoly`). The code is essentially the same as `geom_histogram` otherwise. We switch back to counts on the y-axis here. 
 
-{{< code r >}}
+{{< code r >}} 
 df %>% 
   pivot_longer(cols = pop_a:pop_c) %>%
   ggplot() + 
-  geom_area(mapping = aes(x = log(value), y = ..count.., 
+  geom_area(mapping = aes(x = value, y = ..count.., 
                           color = name, fill = name), 
             stat = "bin", bins = 20, size = 0.5) + 
-  geom_freqpoly(mapping = aes(x = log(pop_total), y = ..count..), 
+  geom_freqpoly(mapping = aes(x = pop_total, y = ..count..), 
                 bins = 20, 
                 color = "gray20", size = 0.5) + 
   scale_fill_manual(values = alpha(my_oka, 0.7)) + 
   scale_color_manual(values = alpha(my_oka, 1)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Logged Population", y = "Count", 
+  labs(x = "Population", y = "Count", 
        title = "Comparing Subgroups: Frequency Polygons", 
        subtitle = "Overall distribution shown in outline") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-15-1.png" alt="Frequency polygons." caption="Frequency polygons, filled and unfilled." %}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-13-1.png" alt="Frequency polygons." caption="Frequency polygons, filled and unfilled." %}}
 
-We can do the same thing with kernel densities, of course:
+We can scale the counts in frequency polygons, too:
+
+{{< code r >}} 
+df %>% 
+  pivot_longer(cols = pop_a:pop_c) %>%
+  ggplot() + 
+  geom_area(mapping = aes(x = value, y = ..ncount.., 
+                          color = name, fill = name), 
+            stat = "bin", bins = 20, size = 0.5) + 
+  geom_freqpoly(mapping = aes(x = pop_total, y = ..ncount..), 
+                bins = 20, 
+                color = "gray20", size = 0.5) + 
+  scale_fill_manual(values = alpha(my_oka, 0.7)) + 
+  scale_color_manual(values = alpha(my_oka, 1)) + 
+  guides(color = "none", fill = "none") + 
+  labs(x = "Population", y = "Count", 
+       title = "Comparing Subgroups: Frequency Polygons (Scaled Counts)", 
+       subtitle = "Overall distribution shown in outline") + 
+  facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
+
+{{< /code >}}
+
+{{% figure src="https://kieranhealy.org/files/misc/distros-14-1.png" alt="Frequency polygons (scaled counts)." caption="Frequency polygons, filled and unfilled, with scaled counts." %}}
+
+
+And once more we can do both of these things with kernel densities, too:
 
 {{< code r >}}
 df %>% 
   pivot_longer(cols = pop_a:pop_c) %>%
   ggplot() + 
-  geom_density(mapping = aes(x = log(value), 
+  geom_density(mapping = aes(x = value, 
                           color = name, fill = name), 
             size = 0.5) + 
-  geom_density(mapping = aes(x = log(pop_total)), 
+  geom_density(mapping = aes(x = pop_total), 
                 color = "gray20", size = 0.5) + 
   scale_fill_manual(values = alpha(my_oka, 0.7)) + 
   scale_color_manual(values = alpha(my_oka, 1)) + 
   guides(color = "none", fill = "none") + 
-  labs(x = "Logged Population", y = "Density", 
+  labs(x = "Population", y = "Density", 
        title = "Comparing Subgroups: Kernel Densities", 
        subtitle = "Overall distribution shown in outline") + 
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/ref-distribs-16-1.png" alt="Kernel densities with an outline reference distribution." caption="Kernel densities with an outline reference distribution." %}}
+{{% figure src="https://kieranhealy.org/files/misc/distros-15-1.png" alt="Kernel densities with an outline reference distribution." caption="Kernel densities with an outline reference distribution." %}}
+
+For the scaled kernel densities we use `..ndensity..` on the y-axis.
+
+{{< code r >}}
+
+df %>% 
+  pivot_longer(cols = pop_a:pop_c) %>%
+  ggplot() + 
+  geom_density(mapping = aes(x = value, 
+                             y = ..ndensity..,
+                          color = name, fill = name), 
+            size = 0.5) + 
+  geom_density(mapping = aes(x = pop_total, 
+                             y = ..ndensity..), 
+                color = "gray20", size = 0.5) + 
+  scale_fill_manual(values = alpha(my_oka, 0.7)) + 
+  scale_color_manual(values = alpha(my_oka, 1)) + 
+  guides(color = "none", fill = "none") + 
+  labs(x = "Population", y = "Density", 
+       title = "Comparing Subgroups: Kernel Densities (Scaled)", 
+       subtitle = "Overall distribution shown in outline") + 
+  facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
+
+
+{{< /code >}}
+
+{{% figure src="https://kieranhealy.org/files/misc/distros-16-1.png" alt="Kernel densities with an outline reference distribution (scaled)." caption="Kernel densities with an outline reference distribution (scaled densities)." %}}
+
 
 While these look good, kernel densities can be a little tricker for people to interpret than straightforward bin-and-count histograms. So it's nice to have the frequency polygon as an option to use when you just want to show counts on the y-axis.
+
 
 The full code for this post is [available on GitHub](https://github.com/kjhealy/distros). 
