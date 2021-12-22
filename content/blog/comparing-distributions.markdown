@@ -54,23 +54,30 @@ grp_names <- c(`a` = "Group A",
                `C` = "Group C")
 
 
- set.seed(1243098)
+# make it reproducible
+set.seed(1243098)
 
- N <- 3e3
+# 3,000 "counties"
+N <- 3e3
 
- mus <- c(0.2, 1, -0.1)
- sds <- c(1.1, 0.9, 1)
- grp <- c("pop_a", "pop_b", "pop_c")
+# Means and standard deviations of groups
+mus <- c(0.2, 1, -0.1)
+sds <- c(1.1, 0.9, 1)
+grp <- c("pop_a", "pop_b", "pop_c")
 
- params <- list(mean = mus, 
+# Make the parameters into a list
+params <- list(mean = mus, 
                 sd = sds)
 
- df <- pmap_dfc(params, rnorm, n = N) %>% 
-   rename_with(~ grp) %>%
-   rowid_to_column("unit") %>% 
-   rowwise() %>% 
-   mutate(pop_total = mean(c(pop_a, pop_b, pop_c))) %>% 
-   ungroup()
+# Feed the parameters to rnorm() to make three columns, 
+# switch to rowwise() to take the average of the columns for
+# each row.
+df <- pmap_dfc(params, rnorm, n = N) %>% 
+  rename_with(~ grp) %>%
+  rowid_to_column("unit") %>% 
+  rowwise() %>% 
+  mutate(pop_total = mean(c(pop_a, pop_b, pop_c))) %>% 
+  ungroup()
 
 
 
@@ -93,7 +100,7 @@ grp_names <- c(`a` = "Group A",
 
 {{< /code >}}
 
-In the tibble we've just made up, `unit` is our county, `pop_a`, `pop_b`, and `pop_c` are our groups, measured on whatever we are measuring, and `pop_total` is the mean value of `pop_a`, `pop_b`, and `pop_c` for each unit. We make a vector of 3,000 populations using `rnorm`. Each group is distributed normally but with a slightly different mean and standard deviation in each case. 
+In the tibble we've just made up, `unit` is our county, `pop_a`, `pop_b`, and `pop_c` are our groups, measured on whatever we are measuring, and `pop_total` is the mean value of `pop_a`, `pop_b`, and `pop_c` for each unit. We make a vector of 3,000 populations using `rnorm`. Each group is distributed normally but with a slightly different mean and standard deviation in each case. The unit names here are just to make things explicit, we don't need them for the `rowwise()` operation to work. 
 
 
 ## Single panels
