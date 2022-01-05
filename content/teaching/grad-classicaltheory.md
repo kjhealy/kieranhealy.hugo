@@ -1,8 +1,8 @@
 ---
 title: Social Theory from Marx to Parsons
-date: "2019-08-24T00:00:00+11:00"
-enddate: "2019-12-07T00:00:00+11:00"
-publishdate: "2019-08-19"
+date: "2021-08-24T00:00:00+11:00"
+enddate: "2021-12-07T00:00:00+11:00"
+publishdate: "2021-12-19"
 host: "Duke University"
 duration: 6652800
 syllabus: "http://www.kieranhealy.org/files/teaching/gradtheory.pdf"

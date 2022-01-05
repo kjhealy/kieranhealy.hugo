@@ -1,8 +1,8 @@
 ---
 title: Contemporary Sociological Theory
-date: "2016-01-05T00:00:00+11:00"
-enddate: "2016-05-30T00:00:00+11:00"
-publishdate: "2016-01-08"
+date: "2022-01-04T00:00:00+11:00"
+enddate: "2022-05-30T00:00:00+11:00"
+publishdate: "2022-01-04"
 host: "Duke University"
 duration: 7776000
 syllabus: "http://www.kieranhealy.org/files/teaching/contemp-theory.pdf"
