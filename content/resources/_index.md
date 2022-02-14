@@ -82,7 +82,8 @@ to set up a <code>.tex</code> file with a nice Article layout. However, these da
     title="Git - Fast Version Control System">Git</a>, <a
     href="http://github.com/kjhealy/emacs-starter-kit/tree/master"
     title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
-    can clone the repository</a>. I don't particularly recommend that anyone just starting out in the social sciences actively choose Emacs these days as their one and only text editor. There are many alternatives and the most important thing, in general, is that you get used to using a good text editor and then just learn the hell out of it. I've been using Emacs for decades and frankly I'm still not very good at it. But this is the setup I use myself, so it's available here. Caveat emptor.</p>
+    can clone the repository</a>.</p> 
+    <p>**Note**. I don't particularly recommend that anyone just starting out in the social sciences actively choose Emacs these days as their one and only text editor. There are many alternatives and the most important thing, in general, is that you get used to using a good text editor and then just learn the hell out of it. I've been using Emacs for decades and frankly I kind of hate it. Also, in late 2021 I began using <a href="https://github.com/hlissner/doom-emacs">Doom Emacs</a> rather than the starter kit. Doom Emacs (with the Vim stuff turned off, in my case) does a great job of managing a bunch of things that the Starter Kit also sets up. If you want to get into Emacs I'd recommend you use that instead, rather than the kit here. Soon I will probably retire this kit and remove it from this page. Caveat emptor.</p>
 
 
 <h2><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h2>
@@ -109,8 +110,8 @@ under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="T
 <p> &nbsp; </p>
 </div>
 
-<h2><a href="http://kjhealy.github.com/kjh-vita/">So You Like My Vita</a> &rarr;</h2>
-<p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.com/kjh-vita/" 
+<h2><a href="http://kjhealy.github.io/kjh-vita/">So You Like My Vita</a> &rarr;</h2>
+<p>Every few months I get an email asking to see the LaTeX markup that I use to generate my <a href="http://kieranhealy.org/vita.pdf">Curriculum Vitae</a>. So, <a href="http://kjhealy.github.io/kjh-vita/" 
 title="kjhealy's kjh-vita @ GitHub">here it is</a>. Feel free to adapt it yourself. If you make stylistic modifications, I encourage you to fork the project on GitHub and make them available to others in the same way.</p>
 
 <h2><a href="/resources/github/">All GitHub Projects</a></h2>
