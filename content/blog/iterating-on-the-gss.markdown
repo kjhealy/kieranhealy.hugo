@@ -545,7 +545,7 @@ mtcars %>%
 More complex grouped operations need a little more work. That’s what we
 did above when we used `group_map_dfr()`. The function took our grouped
 survey data and fed it a year at a time to a couple of nested functions
-that produced tidied output from a glm. If try using `group_map()`
+that produced tidied output from a glm. If you try using `group_map()`
 instead in the code above you’ll see that you’ll get a *list* of tidied
 results rather than a data frame with the groups bound together in
 row-order—that’s what the `dfr` part means.
