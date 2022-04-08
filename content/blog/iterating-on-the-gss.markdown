@@ -23,7 +23,7 @@ respondents being inclined to agree with the statement.
 
 ## Setup
 
-First we load the libraries we’ll need.
+First we load the packages we’ll need.
 
 {{< code r >}}
 library(tidyverse)
