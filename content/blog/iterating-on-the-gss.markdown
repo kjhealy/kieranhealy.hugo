@@ -302,7 +302,7 @@ out_yr %>%
 
 The proper used of survey weights in regression models is a thing people
 argue about, but I won’t pursue that here. We can turn the tibble into a
-survey object by integrating the weights and other sampling unformation
+survey object by integrating the weights and other sampling information
 using Thomas Lumley’s `survey` package, and Greg Freedman Ellis’s
 `srvyr`, which integrates `survey` functions with the tidyverse.
 
