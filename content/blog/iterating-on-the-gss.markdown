@@ -9,7 +9,7 @@ mathjax: false
 
 Let’s say we’re working with the General Social Survey. We’re
 interested in repeatedly fitting some model each year to see how some
-predictor changes over time. For example, the General Social Survey has
+predictor changes over time. For example, the GSS has
 a longstanding question named `fefam`, where respondents are asked to
 give their opinion on the following statement:
 
