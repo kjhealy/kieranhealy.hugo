@@ -181,6 +181,7 @@ character vector, so we convert it back to an integer again at the end.
 The result is that we can now do something like this:
 
 {{< code r >}}
+## Every county this time.
 2005:2019 %>% 
   set_names() %>% 
   map_dfr(~ get_acs(geography = "county", 
