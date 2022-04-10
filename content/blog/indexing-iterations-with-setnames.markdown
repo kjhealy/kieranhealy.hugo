@@ -1,5 +1,5 @@
 ---
-title: "Indexing Iterations With set_names()"
+title: "Indexing Iterations with set_names()"
 date: 2022-04-10T12:42:30-04:00
 categories: [sociology,R]
 footnotes: false
