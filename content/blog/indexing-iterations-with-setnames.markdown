@@ -68,9 +68,8 @@ out
 ## # … with 28 more rows
 {{< /code >}}
 
-What if we want the results for *every* available year? Like \[with the
-GSS\])(<https://kieranhealy.org/blog/archives/2022/04/08/iterating-on-the-gss/>),
-we could write an explicit loop to download each piece and then bind
+What if we want the results for *every* available year? [As with the GSS](https://kieranhealy.org/blog/archives/2022/04/08/iterating-on-the-gss),
+we _could_ write an explicit loop to download each piece and then bind
 them all together into a data frame. But it’s better to use `map_dfr()`
 to do this for us. In the process, we’ll take advantage of a nice way to
 make sure our rows are properly indexed by year.
