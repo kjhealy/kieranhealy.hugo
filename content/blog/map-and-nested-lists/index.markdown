@@ -169,7 +169,7 @@ split_list <- df_list %>%
     map(~ split(., as.factor(.$over_under))) 
 {{< /code >}}
 
-The `.` inside the `mutate()` and `split()` functions are pronouns standing for "the thing we're referring to/computing on right now". In thid case, that's "the current data frame as we iterate through `df_list`".  Now we have a nested list. Each of `df_1` to `df_5` is split into an over or under table. The whole thing looks like this:
+The `.` inside the `mutate()` and `split()` functions are pronouns standing for "the thing we're referring to/computing on right now". In this case, that's "the current data frame as we iterate through `df_list`".  Now we have a nested list. Each of `df_1` to `df_5` is split into an over or under table. The whole thing looks like this:
 
 {{< code r >}}
 split_list
