@@ -8,11 +8,11 @@ mathjax: false
 ---
 
 
-On StackOverflow, a questioner with a bunch of data frames, already existing as object in their environment, wanted to split each of them into two based on some threshold being met or not on a specific column. Their thought was that they'd write a loop, or use `lapply` after putting the data frames in a list, and write a function that split the data fames, named each one, and wrote them out as separate objects in the environment. 
+On StackOverflow, a questioner with a bunch of data frames (already existing as objects in their environment) wanted to split each of them into two based on some threshold being met or not on a specific column. Every one of the data frames had this column in it. Their thought was that they'd write a loop, or use `lapply` after putting the data frames in a list, and write a function that split the data fames, named each one, and wrote them out as separate objects in the environment. 
 
 Here's a tidyverse solution that avoids the need to explicitly write loops, using `map` instead of `lapply`. (I have no particular dislike of `lapply` et fam, I'll just be working with the tidyverse equivalents.) 
 
-I should say at the outset that you could probably do the whole thing using grouped or nested data frames, thus avoiding the need to create the objects in the first place. But if you really do want to create the objects, or perhaps the starting data frames are a little less amenable to living in a single data frame because have different numbers of columns, then working with lists will do very well. You could do something like the following. 
+I should say at the outset that you could probably do the whole thing using grouped or nested data frames, thus avoiding the need to create the objects in the first place. But if you really do want to create the objects, or perhaps the starting data frames are a little less amenable to living in a single data frame because they have different numbers of columns or something, then working a list of data frames will do very well. You could do something like the following. 
 
 First, let's do some setup to make the example reproducible. 
 
@@ -54,6 +54,8 @@ df_1
 #>  9 Duster 360            8   245
 #> 10 Merc 230              4    95
 {{< /code >}}
+
+This is a handy use of `walk()`, by the way, which works just the same as `map()` except it's for when you are interested in producing side-effects like a bunch of graphs or output files or, as here, new objects, rather than further manipulating a table or tables of data.
 
 Next, get these five data frames and put them in a list, which is where the question starts from. 
 
@@ -167,7 +169,7 @@ split_list <- df_list %>%
     map(~ split(., as.factor(.$over_under))) 
 {{< /code >}}
 
-Now we have a nested list. Each of `df_1` to `df_5` is split into an over or under table. The whole thing looks like this:
+The `.` inside the `mutate()` and `split()` functions are pronouns standing for "the thing we're referring to/computing on right now". In thid case, that's "the current data frame as we iterate through `df_list`".  Now we have a nested list. Each of `df_1` to `df_5` is split into an over or under table. The whole thing looks like this:
 
 {{< code r >}}
 split_list
@@ -302,7 +304,7 @@ split_list$df_3$under
 
 This is handy because we can use tab completion in our IDE to investigate the tables in the list. 
 
-We could just work with the list like this. Or we could bind them by row into a big data frame, assuming they all have the same columns. But the original questioner wanted them as separate data frame objects with the suffix `_over` or `_under` as appropriate. To extract all the "over" data frames from our `split_list` object and make them objects with names of the form `df_1_over`` etc, we can do
+We could just work with the list like this. Or we could bind them by row into a big data frame, assuming they all have the same columns. But the original questioner wanted them as separate data frame objects with the suffix `_over` or `_under` as appropriate. To extract all the "over" data frames from our `split_list` object and make them objects with names of the form `df_1_over` etc, we can do
 
 {{< code r >}}
 split_list %>% 
@@ -314,6 +316,17 @@ split_list %>%
                 value = as_tibble(.y),
                 envir = .GlobalEnv))
 {{< /code >}}
+
+The line `map("over")` works just like---in fact, behind the scenes are in fact using--- the `pluck()` function to retrieve the nested list elements named "`over`". This is equivalent to something like 
+
+
+{{< code r >}}
+lapply(split_list, `[[`, "over")
+{{< /code >}}
+
+in Base R, which applies the `[[` selector to the named element.
+
+We use `walk2()` rather than `walk()` because the function we're iterating needs two arguments to work: a vector of names for the objects, and the tibbles to be assigned to those names.
 
 Now in our environment we have e.g.
 
