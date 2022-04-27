@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 
-On StackOverflow, a questioner with a bunch of data frames (already existing as objects in their environment) wanted to split each of them into two based on some threshold being met or not on a specific column. Every one of the data frames had this column in it. Their thought was that they'd write a loop, or use `lapply` after putting the data frames in a list, and write a function that split the data fames, named each one, and wrote them out as separate objects in the environment. 
+On StackOverflow, a questioner with a bunch of data frames (already existing as objects in their environment) wanted to split each of them into two based on some threshold being met, or not, on a specific column. Every one of the data frames had this column in it. Their thought was that they'd write a loop, or use `lapply` after putting the data frames in a list, and write a function that split the data fames, named each one, and wrote them out as separate objects in the environment. 
 
 Here's a tidyverse solution that avoids the need to explicitly write loops, using `map` instead of `lapply`. (I have no particular dislike of `lapply` et fam, I'll just be working with the tidyverse equivalents.) 
 
