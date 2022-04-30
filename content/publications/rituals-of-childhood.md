@@ -7,8 +7,8 @@ citation: "&ldquo;Rituals of Childhood.&rdquo; <em>The State of Families: Law, P
 tag: rituals-of-childhood
 subjects: theory guns ritual culture family childhood
 comments: no
-date: 2021-06-01
-publishdate: 2021-06-01
+date: 2021-01-02
+publishdate: 2021-01-02
 filter:
   - erb
   - markdown
