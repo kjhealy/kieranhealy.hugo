@@ -5,6 +5,7 @@ categories: [Sociology,Politics,R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false
+fave: true
 ---
 
 
