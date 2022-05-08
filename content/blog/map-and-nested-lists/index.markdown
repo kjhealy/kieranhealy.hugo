@@ -65,7 +65,7 @@ df_list <- map(df_names, get)
 
 Here we use `get()`, which returns the _value_ of a named object (i.e., for our purposes, the object). We have `map()` feed the vector of df names to it, and because `map()` always returns a list we get the data frames we created, now bundled into a list.
 
-Because I'm working with Tidyverse functions, I wrote `map(df_list, get)` out of habit. But there's also a Base R function that does the same thing, for the case of getting named objects into a named list. It's `mget()`. I could have written
+Because I'm working with Tidyverse functions, I wrote `map(df_names, get)` out of habit. But there's also a Base R function that does the same thing, for the case of getting named objects into a named list. It's `mget()`. I could have written
 
 {{< code r >}}
 df_list <- mget(df_names) 
@@ -317,7 +317,7 @@ split_list %>%
                 envir = .GlobalEnv))
 {{< /code >}}
 
-The line `map("over")` works just like---in fact, behind the scenes are in fact using--- the `pluck()` function to retrieve the nested list elements named "`over`". This is equivalent to something like 
+The line `map("over")` works just like---and in fact, behind the scenes is in fact using--- the `pluck()` function to retrieve the nested list elements named "`over`". This is equivalent to something like 
 
 
 {{< code r >}}
@@ -341,7 +341,7 @@ df_5_over
 #> 3 Toyota Corolla     4    65 over
 {{< /code >}}
 
-We can get the "under" dat frames as objects in the same way.
+We can get the "under" data frames as objects in the same way.
 
 As I said above, depending on what was needed it might---in fact, it would probably---make more sense to do the whole thing from start to finish using a single tibble, grouping  or perhaps nesting the data as needed. Or, if we did start for whatever reason with different object, but we knew they all had the same columnar layout, we could bind them by row into a big data frame indexed by their names, like this:
 
