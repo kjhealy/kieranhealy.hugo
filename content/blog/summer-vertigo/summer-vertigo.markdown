@@ -10,7 +10,7 @@ categories:
 - Misc
 ---
 
-Summer Vertigo is the counterpart to Winter Regret, the Christmastime feeling that produces lists of [Books I Did Not Read This Year](http://crookedtimber.org/2003/12/16/books-i-did-not-read-this-year). At the beginning of the Summer break, teaching is done and it seems like there's a bunch of free time open for you to tackle, oh, well just about any number of projects. Projects fall into three categories:
+Summer Vertigo is the counterpart to Winter Regret, the Christmastime feeling that produces lists of [Books I Did Not Read This Year](https://kieranhealy.org/blog/archives/2003/12/15/books-i-did-not-read-this-year/). At the beginning of the Summer break, teaching is done and it seems like there's a bunch of free time open for you to tackle, oh, well just about any number of projects. Projects fall into three categories:
 
 - 1.  Stuff you should be finished with already.
 - 2.  Stuff that's been on the back-burner for a while, but is doable now you have some time.
