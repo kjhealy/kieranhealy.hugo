@@ -67,7 +67,7 @@ to set up a <code>.tex</code> file with a nice Article layout. However, these da
 
 <h2><a href="/resources/emacs-starter-kit"
     title="kjhealy/emacs-starter-kit @ GitHub">An Emacs Starter Kit
-    for the Social Sciences</a></h2> <p>This is a much-changed fork of Eric
+    for the Social Sciences</a></h2> <p>Now deprecated! This is a much-changed fork of Eric
     Schulte's <a
     href="http://github.com/eschulte/emacs-starter-kit/tree">Emacs
     Starter Kit</a> (itself an offshoot of <a
@@ -76,14 +76,10 @@ to set up a <code>.tex</code> file with a nice Article layout. However, these da
     social scientists, mostly related to writing books or papers in
     LaTeX and analyzing quantitative data using <a
     href="http://ess.r-project.org/">ESS</a> and <a
-    href="http://www.r-project.org/">R</a>. The goal is to provide a
-    drop-in configuration for Emacs that makes it easier to use right
-    from the get-go. If you know about <a href="http://git-scm.com/"
-    title="Git - Fast Version Control System">Git</a>, <a
-    href="http://github.com/kjhealy/emacs-starter-kit/tree/master"
-    title="kjhealy's emacs-starter-kit at master &mdash; GitHub">you
-    can clone the repository</a>.</p> 
-    <p>**Note**. I don't particularly recommend that anyone just starting out in the social sciences actively choose Emacs these days as their one and only text editor. There are many alternatives and the most important thing, in general, is that you get used to using a good text editor and then just learn the hell out of it. I've been using Emacs for decades and frankly I kind of hate it. Also, in late 2021 I began using <a href="https://github.com/hlissner/doom-emacs">Doom Emacs</a> rather than the starter kit. Doom Emacs (with the Vim stuff turned off, in my case) does a great job of managing a bunch of things that the Starter Kit also sets up. If you want to get into Emacs I'd recommend you use that instead, rather than the kit here. Soon I will probably retire this kit and remove it from this page. Caveat emptor.</p>
+    href="http://www.r-project.org/">R</a>. The goal of the starter kit was to provide a
+    drop-in configuration for Emacs that made it easier to use right
+    from the get-go. However, I no longer use it myself, or maintain it.  
+    I don't particularly recommend that anyone just starting out in the social sciences actively choose Emacs these days as their one and only text editor. There are many alternatives and the most important thing, in general, is that you get used to using a good text editor and then just learn the hell out of it. I do continue to use Emacs myself for many things, but that is mostly because I've been using it for decades now. I still kind of hate it, frankly. In late 2021 I began using <a href="https://github.com/hlissner/doom-emacs">Doom Emacs</a> rather than the starter kit as the basis for my Emacs configuration. Doom Emacs (with the Vim stuff turned off, in my case) does a great job of managing a bunch of things that the Starter Kit also sets up. If you want to get into Emacs I'd recommend you use that instead, rather than the kit here. So the kit is now retired and will soon be removed from this page and its GitHub repo will probably go away as well. Caveat emptor.</p>
 
 
 <h2><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h2>
