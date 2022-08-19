@@ -85,7 +85,7 @@ to set up a <code>.tex</code> file with a nice Article layout. However, these da
 <h2><a href="http://github.com/kjhealy/kieranhealy.hugo/">So You Like My Website</a> &rarr;</h2>
 <p>This site is produced using <a href="http://gohugo.io">Hugo</a>, a very fast static site generator, which you can <a href="http://gohugo.io/overview/introduction/">read more about here</a>. I've written about <a 
 href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">my own experience setting it up</a>, too, though the discussion there is now quite old. If you want to look 
-under the bonnet, <a href="http://kjhealy.github.com/kieranhealy.hugo/" title="This website's source">the code for the entire site is on GitHub</a>, along with a fork of the <a href="https://github.com/kjhealy/hugo-theme-even">theme</a> the site uses. Fair warning: if you just want to set up a website with your research interests, contact information, and links to your publications, then there are <a href = "http://squarespace.com">many simpler and more straightforward options</a> you should seriously consider instead.</p>
+under the bonnet, <a href="http://github.com/kjhealy/kieranhealy.hugo/" title="This website's source">the code for the entire site is on GitHub</a>, along with a fork of the <a href="https://github.com/kjhealy/hugo-theme-even">theme</a> the site uses. Fair warning: if you just want to set up a website with your research interests, contact information, and links to your publications, then there are <a href = "http://squarespace.com">many simpler and more straightforward options</a> you should seriously consider instead.</p>
         
   </div>
 
