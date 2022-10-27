@@ -2,15 +2,16 @@
 title: "Organ Entrepreneurs"
 
 author: Kieran Healy and Kimberly D. Krawiec
-status: Forthcoming
-type: unpublished
-citation: "&ldquo;Organ Entrepreneurs.&rdquo; <em>The Cambridge Handbook of Law and Entrepreneurship in the United States</em>, D. Gordon Smith and Christine Hurt, eds." 
+status: Published
+type: published
+citation: "&ldquo;Organ Entrepreneurs.&rdquo; <em>The Cambridge Handbook of Law and Entrepreneurship in the United States</em>, D. Gordon Smith, Brian Broughton, and Christine Hurt, eds, Cambridge University Press 2022, pp.268-282." 
 tag: orgentrep
 file: orgentrep.pdf
 subjects: organs law markets sociology gifts obfuscated exchange
 comments: no
-date: 2017-02-24
-publishdate: 2017-02-24
+doi: 10.1017/9781316771105.019
+date: 2022-10-24
+publishdate: 2022-10-24
 filter:
   - erb
   - markdown
