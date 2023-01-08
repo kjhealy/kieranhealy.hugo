@@ -4,9 +4,7 @@ title: Opiate-Related Deaths in the US, 1999-2014
 categories: [Visualization,Data,Sociology]
 ---
 
-Yesterday I had a conversation on Twitter with Josh Zumbrun that followed on from this tweet: 
-
-{{< tweet 781157309145686016 >}}
+Yesterday I had a conversation on Twitter with Josh Zumbrun.
 
 The striking [maps](files/misc/opiate-deaths-us-ts-region.png) he linked to tracked the rise in deaths due to drug-related overdoses over the past 15 years, caused in large part to the surge in use of heroin and synthetic opiates. The details are in the [WSJ report](http://www.wsj.com/articles/for-small-town-cops-opioid-scourge-hits-close-to-home-1475074699) on the problem. 
 

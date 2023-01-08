@@ -17,9 +17,7 @@ And here's Figure 1 from the paper, that makes the case:
 
 On Twitter I noted---in the spirit of a seminar question---that the figure, consistent with the argument of the paper, puts the x-axis income groups on a log scale. The y-axis is in standardized z-score units for each of the two measures of happiness. There's nothing wrong with that per se, of course, and it often makes perfect sense to log-transform something like income, and to graph change on a log scale. (Don't @-me, inverse hyperbolic sine people. I know.) In the context of the paper, the main target is the idea that there's a ceiling above which more money doesn't make you happier---in this case, from previous research, that is taken to be $75,000 of income per year. There is of course no particular reason why this number should be a specific and absolute dollar figure---or at least, that's something that one would have to argue for. But let's set that issue aside as it's not relevant here. 
 
-If you were an adherent of the ceiling view, you might reasonably say, look, even if the effect of income on happiness is linear in the log of income, that's basically the same as saying it's _not_ linear in income, and that above some threshold or ceiling you'd need to increase your income by a _lot_ in order to see any substantial increase in happiness. My colleague Steve Vaisey noted the same thing:
-
-{{< tweet 1353819963426021376 >}}
+If you were an adherent of the ceiling view, you might reasonably say, look, even if the effect of income on happiness is linear in the log of income, that's basically the same as saying it's _not_ linear in income, and that above some threshold or ceiling you'd need to increase your income by a _lot_ in order to see any substantial increase in happiness. My colleague Steve Vaisey noted the same thing.
 
 We can see this if we re-draw the figure with income on a linear scale, which is what I did. The summary data for the paper is available on OSF at <https://osf.io/cfnbv/>. With the CSV of the data, we can do this:
 

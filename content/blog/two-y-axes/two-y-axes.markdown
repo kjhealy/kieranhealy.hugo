@@ -5,9 +5,7 @@ footnotes: true
 categories: [Data,Visualization,R]
 ---
 
-A few days ago, Matt Yglesias shared this tweet from Liz Ann Sonders, Chief Investment Strategist with Charles Schwab, Inc: 
-
-{{< tweet 687980610544119808 >}}
+A few days ago, Matt Yglesias shared this tweet from Liz Ann Sonders, Chief Investment Strategist with Charles Schwab, Inc.
 
 [Matt remarked](https://twitter.com/mattyglesias/status/687989460424912902) that "Friends don't let friends use two y-axes". It's a good rule. The topic came up a couple of times during the data visualization short course I taught last semester. Using two y-axes makes it even easier than usual to fool yourself (or someone else) about the degree of association between two variables. This is because you can adjust the scaling of the axes to relative to one another in way that moves the data series around more or less however you like. 
 
