@@ -1,7 +1,7 @@
 ---
 title: "Escaping the Malthusian Trap"
 date: 2023-01-08T10:49:46-05:00
-categories: [x,y]
+categories: [Sociology,Economics,R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false
