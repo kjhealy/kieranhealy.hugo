@@ -18,7 +18,7 @@ disableKinds = "taxonomyTerm"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
 enableEmoji = false
-theme = "even"
+theme = ["hugo-video", "even"]
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsOptions = "linenos=table"

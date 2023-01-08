@@ -9,7 +9,7 @@ all: deploy
 staging: site
 	rsync -crzve 'ssh -p 22' $(PUBLIC_DIR) $(STAGING_USER):$(STAGING_ROOT)
 
-server: css
+server:
 	hugo server -ws .
 
 deploy: site
