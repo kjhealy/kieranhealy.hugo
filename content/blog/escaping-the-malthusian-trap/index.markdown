@@ -12,4 +12,4 @@ The Broadberry et al GDP series has estimates of real GDP and population from th
 
 {{< video src="malthusian-fin" >}}
 
-The rough periodization by color is my own, and there just for narrative clarity of the initial exposition. As usual the graph and animation is made using R and ggplot2. The code to reproduce the animation is [available on GitHub](https://github.com/kjhealy/england_gdp_long). 
+The rough periodization by color is my own, and is there just for convenience. As usual the graph and animation is made using R and ggplot2. The code to reproduce the animation is [available on GitHub](https://github.com/kjhealy/england_gdp_long). 
