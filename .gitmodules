@@ -1,4 +1,4 @@
 [submodule "themes/even"]
 	path = themes/even
 	url = git@github.com:kjhealy/hugo-theme-even.git
-
+	branch = kjh
