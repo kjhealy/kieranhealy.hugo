@@ -136,7 +136,10 @@ The spreadsheets are named according to a scheme with a two-letter state abbrevi
 Now that we have a vector of the file names (but just the file _names_ at this point) we can do a bit of prep:
 
 {{< code r >}}
+## Just take files ending in 1
 fname_stubs <- files[str_detect(files, "1")]
+
+## State abbreviations
 fname_labs <- substr(fname_stubs, start = 1, stop = 2)
 
 ## Construct the filenames and give them a name attribute of the 2-letter state
