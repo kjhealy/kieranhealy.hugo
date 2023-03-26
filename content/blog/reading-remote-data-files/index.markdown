@@ -188,7 +188,7 @@ life_tabs <- fnames |>
   map_dfr(~ get_lifetable(.x),
           .id = "state")
 
-{{< /code >}
+{{< /code >}}
 
 
 As I said, a nice thing is that `map_dfr()` will use the name attribute of `fnames` to create its id column, which we can therefore name `state`, because the name of each URL element is the abbrevation for the state it is providing data about. 
