@@ -20,7 +20,7 @@ filenames <- dir(path = here("files", "data", "congress"),
                  pattern = "*.csv",
                  full.names = TRUE)
 
-filenames[1:15] # Just displaying the first 10
+filenames[1:15] # Just displaying the first 15
 
 ##  [1] "/Users/kjhealy/Documents/courses/vsd/files/data/congress/01_79_congress.csv"
 ##  [2] "/Users/kjhealy/Documents/courses/vsd/files/data/congress/02_80_congress.csv"
