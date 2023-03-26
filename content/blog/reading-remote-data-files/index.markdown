@@ -134,7 +134,7 @@ We open a connection to the remote folder and use `ftp_use_epsv` and `dirlistonl
 The spreadsheets are named according to a scheme with a two-letter state abbreviation followed by a number. The number signifies the kind of life-table it is. The files ending in `1` have the life-table for the population as a whole, which is what we are interested in. 
 
 
-If we wanted to do things at a slightly higher level we could use `rvest` to get the filenames, extract all the link elements, and get the text from inside of them:
+If we wanted to do things at a slightly higher level of abstraction we could use `rvest` to get the filenames, extract all the link elements, and get the text from inside of them. The `rvest` package handles the business of opening and closing web connections for us. It also provides handy functions to get and extract the text of pages based on there position in a CSS selection hierarchy (which isn't relevant here) or based on particular HTML elements. First we get the page, then we grab all the link elements in it, and then convert their content to a character vector: 
 
 {{< code r >}}
 
