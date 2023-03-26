@@ -12,7 +12,7 @@ Sometimes data arrives as a series of individual files each of which is organize
 
 ### Case 1: Lots of local CSV files
 
-For example, for our Congressional example, or project might have a `data` folder with a subfolder called `congress`. We can get a listing of the CSV files inside it like this:
+For example, our Congressional project might have a `data` folder with a subfolder called `congress`. We can get a listing of the CSV files inside it like this:
 
 {{< code r >}}
 
