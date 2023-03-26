@@ -102,7 +102,7 @@ Now, if these were provided as CSVs our task would be a little easier because in
 
 {{% figure src="excel-lifetable.png" alt="Excel lifetable." caption="The top of a state-level life table Excel file." %}}
 
-Those first two rows are a mild violation of one of the rules of thumb for entering data in spreadsheets, helpfully outlined by [Karl Broman and Kara Woo](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989). The first row is metadata; the second is a more verbose description of the standard lifetable headers in the third row (except for Age, which is not labeled in the second row). Fortunately these are easily dealt with, as we can just tell our read function to skip those two lines. There's also a `Source` row at the bottom (not shown here) that we'll have to strip out. 
+Those first two rows are a mild violation of one of the rules of thumb for entering data in spreadsheets, helpfully outlined by [Karl Broman and Kara Woo](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989). The first row is metadata; the second is a more verbose description of the standard lifetable headers in the third row. Except for Age, which is not labeled in the _third_ row. That big box is actually an expanded _second_ row. That means the first element of row three, our actual column headers, is blank! This is annoying. Fortunately these are easily dealt with, as we can just tell our read function to skip those two lines. There's also a `Source` row at the bottom (not shown here) that we'll have to strip out. 
 
 But the first order of business is getting a vector of the actual file URLs to download. You could just copy and paste the listing, like an animal, but we are not going to do that. Instead, we'll take advantage of the old-school empty-directory listing to get the file names. We'll do this using R's implementation of `curl`.
 
@@ -178,7 +178,7 @@ get_lifetable <- function(x) {
 {{< /code >}}
 
 
-The first line inside the function uses `httr` to `GET` the file, and immediate save it to disk as a using `write_disk()`, taking care to specify that the tempfile should have an `.xlsx` extension. (Otherwise `read_xlsx()` will complain.) The second line actually reads in the file that's been downladed. We take the opportunity to suppress chatter about the name repair that has to happen on that blank first column of the third row, rename that location `age`, and strip the trailing line about the source of the data that I mentioned above. 
+The first line inside the function uses `httr` to `GET` the file, and immediate save it to disk as a using `write_disk()`, taking care to specify that the tempfile should have an `.xlsx` extension. (Otherwise `read_xlsx()` will complain.) The second line actually reads in the file that's been downladed. We take the opportunity to suppress chatter about the name repair that has to happen on that blank first column header in the third row, rename that location `age`, and strip the trailing line about the source of the data that I mentioned above. 
 
 This function reads _one_ given URL. Now we just need to map a vector of URLs to it and bind the results by row:
 
