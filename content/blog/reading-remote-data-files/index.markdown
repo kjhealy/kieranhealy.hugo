@@ -133,6 +133,24 @@ We open a connection to the remote folder and use `ftp_use_epsv` and `dirlistonl
 
 The spreadsheets are named according to a scheme with a two-letter state abbreviation followed by a number. The number signifies the kind of life-table it is. The files ending in `1` have the life-table for the population as a whole, which is what we are interested in. 
 
+
+If we wanted to do things at a slightly higher level we could use `rvest` to get the filenames, extract all the link elements, and get the text from inside of them:
+
+{{< code r >}}
+
+rvest::read_html("https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/NVSR/71-02/") |> 
+  rvest::html_elements("a") |> 
+  rvest::html_text2()
+
+## [1] "[To Parent Directory]" "AK1.xlsx"              "AK2.xlsx"              "AK3.xlsx"             
+##   [5] "AK4.xlsx"              "AL1.xlsx"              "AL2.xlsx"              "AL3.xlsx"             
+##   [9] "AL4.xlsx"              "AR1.xlsx"              "AR2.xlsx"              "AR3.xlsx"             
+##  [13] "AR4.xlsx"              "AZ1.xlsx"              "AZ2.xlsx"              "AZ3.xlsx"
+
+{{< /code >}}
+
+In this case we'd need to clean up the resulting vector (to remove navigation links to the parent directory and so on) but would end up in the same place.
+
 Now that we have a vector of the file names (but just the file _names_ at this point) we can do a bit of prep:
 
 {{< code r >}}
