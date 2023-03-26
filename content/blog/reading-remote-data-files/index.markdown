@@ -178,7 +178,7 @@ get_lifetable <- function(x) {
 {{< /code >}}
 
 
-The first line inside the function uses `httr` to `GET` the file, and immediate save it locally using `write_disk()`, taking care to specify that the temporary file we save should have an `.xlsx` extension. (Otherwise `read_xlsx()` will complain.) The second line actually reads in the file that's been downloaded. We take the opportunity to suppress chatter about the name repair that has to happen on that blank first column header in the third row, rename that location `age`, and strip the trailing line about the source of the data that I mentioned above. 
+The first line inside the function uses `httr` to `GET` the file, and immediately save it locally using `write_disk()`, taking care to specify that the temporary file we save should have an `.xlsx` extension. (Otherwise `read_xlsx()` will complain.) The second line actually reads in the file that's been downloaded. We take the opportunity to suppress chatter about the name repair that has to happen on that blank first column header in the third row, rename that location `age`, and strip the trailing line about the source of the data that I mentioned above. 
 
 This function reads _one_ given URL. Now we just need to map a vector of URLs to it and bind the results by row:
 
