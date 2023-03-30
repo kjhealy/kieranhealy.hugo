@@ -10,6 +10,8 @@ mathjax: false
 
 While we're redoing some classics, here is the time series of assault deaths in the United States and eighteen other OECD countries from 1960 to 2020.
 
+<!--more-->
+
 {{% figure src="oecd-assault.png" alt="" caption="Assault deaths in the OECD, 1960-2020." %}}
 
 
