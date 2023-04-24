@@ -6,7 +6,7 @@
  <article class="post">
 
 <div class="content-wrapper">
-  <div id="content" class="content">
+  <div id="content" class="posts">
 
     <!-- post-header -->
     <header class="post-header">
@@ -19,50 +19,49 @@
 
 <div class="posts">
     <h3>Working Papers</h3>
-
+<ul class = "publication">
 {{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByDate.Reverse }}
-<p>{{ .Params.citation | safeHTML }} 
+<li>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
-</p>
+</li>
 {{ end }}
 
 {{- end}}
-
+</ul>
 
 <h3>Retired Papers</h3>
-
+<ul class = "publication">
 {{ range (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByDate.Reverse }}
-<p>{{ .Params.citation | safeHTML }} 
+<li>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
-</p>
+</li>
 {{ end }}
 
 {{- end}}
-
-
+</ul>
 
 <h3>Books</h3>
-
+<ul class = "publication">
 {{ range (where .Data.Pages "Params.kind" "book").GroupByPublishDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByPublishDate.Reverse }}
-<p>{{ .Params.citation | safeHTML }} 
+<li>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}"> &middot; Overview</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
@@ -70,48 +69,48 @@
 
   <!-- >{{ if isset .Params "buy" }} &middot; {{ .Params.buy | safeHTML }} {{ end }} -->
   
-</p>
+</li>
 {{ end }}
 
 {{- end}}
-
+</ul>
 
 
 <h3>Articles and Book Chapters</h3>
-
+<ul class = "publication">
 {{ range (where (where .Data.Pages "Type" "published") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 {{ range .Pages.ByPublishDate.Reverse }}
 {{ if ne .Params.kind "book" }}
-<p>{{ .Params.citation | safeHTML }} 
+<li>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
-</p>
+</li>
 {{ end }}
 {{ end }}
 {{- end}}
-
+</ul>
 
 <h3>Essays and Reviews</h3>
-
+<ul class = "publication">
 {{ range (where (where .Data.Pages "Type" "other") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 {{ range .Pages.ByPublishDate.Reverse }}
 {{ if ne .Params.kind "book" }}
-<p>{{ .Params.citation | safeHTML }} 
+<li>{{ .Params.citation | safeHTML }} 
   <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
   <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
-</p>
+</li>
 {{ end }}
 {{ end }}
 {{ end }}
-
+</ul>
   </div>
   </div>
 </div>
