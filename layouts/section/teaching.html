@@ -15,9 +15,9 @@
 <p>Some of the graduate and undergraduate courses I regularly teach.</p>
     
 {{ range .Pages.ByDate.Reverse }}
-    <p><em>{{ .Params.title | safeHTML }}</em> / <a href="{{ .Permalink }}"> Course Summary Page</a>  
-      {{ if isset .Params "syllabus" }} / <a href="{{ .Params.syllabus }}">Course Syllabus</a> {{ end }}
-      {{ if isset .Params "website" }} / <a href="{{ .Params.website }}">Course Website</a> {{ end }}
+    <p><em>{{ .Params.title | safeHTML }}</em> &middot; <a href="{{ .Permalink }}"> Course Summary Page</a>  
+      {{ if isset .Params "syllabus" }} &middot; <a href="{{ .Params.syllabus }}">Course Syllabus</a> {{ end }}
+      {{ if isset .Params "website" }} &middot; <a href="{{ .Params.website }}">Course Website</a> {{ end }}
 <br />    
 </p>
 {{- end}}

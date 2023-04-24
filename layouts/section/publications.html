@@ -25,9 +25,9 @@
 
 {{ range .Pages.ByDate.Reverse }}
 <p>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}">/ Abstract</a> 
+  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
 </p>
 {{ end }}
@@ -43,9 +43,9 @@
 
 {{ range .Pages.ByDate.Reverse }}
 <p>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}">/ Abstract</a> 
+  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
 </p>
 {{ end }}
@@ -62,12 +62,12 @@
 
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}">/ Overview</a> 
+  <a href="{{ .Permalink }}"> &middot; Overview</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
 
-  {{ if isset .Params "buy" }} / {{ .Params.buy | safeHTML }} {{ end }}
+  {{ if isset .Params "buy" }} &middot; {{ .Params.buy | safeHTML }} {{ end }}
   
 </p>
 {{ end }}
@@ -84,9 +84,9 @@
 {{ range .Pages.ByPublishDate.Reverse }}
 {{ if ne .Params.kind "book" }}
 <p>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}">/ Abstract</a> 
+  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
 </p>
 {{ end }}
@@ -102,9 +102,9 @@
 {{ range .Pages.ByPublishDate.Reverse }}
 {{ if ne .Params.kind "book" }}
 <p>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}">/ Abstract</a> 
+  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">/ PDF</a>
+  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
   {{ end }}
 </p>
 {{ end }}
