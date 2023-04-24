@@ -143,9 +143,10 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
 
   [params.social]                                        
-    c-twitter = "http://twitter.com/kjhealy"
-    g-github = "http://github.com/kjhealy"
-
+    c-twitter = "https://twitter.com/kjhealy"
+    g-github = "https://github.com/kjhealy"
+    m-mastodon = "https://mastodon.social/@kjhealy"
+	
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
   [privacy.googleAnalytics]
