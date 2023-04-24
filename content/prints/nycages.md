@@ -1,5 +1,5 @@
 ---
-title: New York City Building Footprints and Ages
+title: New York City Building Footprints & Ages
 date: "2022-06-27T00:00:00+11:00"
 publishdate: "2022-06-27"
 image: "thumbs/nyc_ages_po_compressed.jpg"

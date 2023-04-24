@@ -1,5 +1,5 @@
 ---
-title: Manhattan Building Footprints and Heights
+title: Manhattan Building Footprints & Heights
 date: "2022-06-27T00:00:00+11:00"
 publishdate: "2022-06-27"
 image: "thumbs/manhattan_heights_po_compressed.jpg"
