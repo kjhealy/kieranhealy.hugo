@@ -17,8 +17,8 @@
   <li>
     {{ .Params.citation | safeHTML }} /    
     {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">PDF</a>{{ end }}
-    {{ if isset .Params "overview" }} <a href="{{ .Permalink }}">Overview</a> /  {{ end }}
-    {{ if isset .Params "buy" }} {{ .Params.buy | safeHTML }} {{ end }}
+    {{ if isset .Params "overview" }} <a href="{{ .Permalink }}">Overview</a> {{ end }}
+<!--    {{ if isset .Params "buy" }} {{ .Params.buy | safeHTML }} {{ end }} -->
   </li>
 
   {{ else }}
