@@ -1,9 +1,7 @@
 ---
 type: page
-title: "Code and Data"
+title: "Code on GitHub"
 ---
-
-<h2>Code on GitHub</h2>
 
 <p>These are ordered by most recent commit to the repository.</p> 
 
