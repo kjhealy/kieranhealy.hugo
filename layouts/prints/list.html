@@ -13,7 +13,7 @@
   
     {{ range .Pages }}
   <hr>  
-  <h1>{{ .Params.title | safeHTML }}</h1>
+  <h2>{{ .Params.title | safeHTML }}</h2>
   <a href = {{ printf "%s" .Params.storelink }}><img src= "{{ printf "%s" .Params.image }}" ></a>
   <br />
   

@@ -16,7 +16,7 @@
 <!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByDate.Reverse }}
-    <h2>{{ .Params.title | safeHTML }}</h2>
+    <h3>{{ .Params.title | safeHTML }}</h3>
       <a href="{{ .Params.storelink }}">Society6 page</a>
 
       {{ .Content }}

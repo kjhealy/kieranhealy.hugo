@@ -12,12 +12,13 @@
     <header class="post-header">
       <h1 class="post-title">{{ .Title }}</h1>
     </header>
-
+	<br />
     &rarr; <a href = "https://kieranhealy.org/vita.pdf"><em>Full Curriculum Vitae in PDF format</em></a>
     <br />
     &rarr; <a href = "https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en"><em>Google Scholar Profile</em></a>
 
-    <h2>Working Papers</h2>
+<div class="posts">
+    <h3>Working Papers</h3>
 
 {{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
 
@@ -35,7 +36,7 @@
 {{- end}}
 
 
-<h2>Retired Papers</h2>
+<h3>Retired Papers</h3>
 
 {{ range (where .Data.Pages "Type" "retired").GroupByDate "2006" "desc" }}
 
@@ -54,7 +55,7 @@
 
 
 
-<h2>Books</h2>
+<h3>Books</h3>
 
 {{ range (where .Data.Pages "Params.kind" "book").GroupByPublishDate "2006" "desc" }}
 
@@ -76,7 +77,7 @@
 
 
 
-<h2>Articles and Book Chapters</h2>
+<h3>Articles and Book Chapters</h3>
 
 {{ range (where (where .Data.Pages "Type" "published") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
 
@@ -94,7 +95,7 @@
 {{- end}}
 
 
-<h2>Essays and Reviews</h2>
+<h3>Essays and Reviews</h3>
 
 {{ range (where (where .Data.Pages "Type" "other") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
 
@@ -111,6 +112,7 @@
 {{ end }}
 {{ end }}
 
+  </div>
   </div>
 </div>
 </article>
