@@ -1,6 +1,6 @@
 {{- define "content" -}}
 
-<p>I am <a href = "http://sociology.duke.edu">Professor of Sociology</a> at Duke University. <a href = "about/">&rarr; More about me.</a>
+<p>I am Professor of <a href = "https://sociology.duke.edu">Sociology</a> at <a href = "https://www.duke.edu">Duke University</a>. &rarr; <a href = "about/">More about me.</a>
 
 <!--Mastodon verify-->
 <a rel="me" href="https://mastodon.social/@kjhealy">&nbsp;</a>
@@ -15,9 +15,9 @@
 
   {{ if .Params.citation }}
   <li>
-    {{ .Params.citation | safeHTML }} &middot;    
-    {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">PDF</a>{{ end }}
-    {{ if isset .Params "overview" }} <a href="{{ .Permalink }}">Overview</a> {{ end }}
+    {{ .Params.citation | safeHTML }}     
+    {{ if isset .Params "file" }} »  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}">PDF</a>{{ end }}
+    {{ if isset .Params "overview" }} » <a href="{{ .Permalink }}">Overview</a> {{ end }}
 <!--    {{ if isset .Params "buy" }} {{ .Params.buy | safeHTML }} {{ end }} -->
   </li>
 
@@ -42,14 +42,18 @@
 <br />  
 <h1>Recent Writing</h1>  
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
-  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3> <em>{{ .Date.Format "2 January 2006" }}</em>
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3><p> <em>{{ .Date.Format "2 January 2006" }}</em>
+<!-- 
   {{ if .Truncated }}
   {{ .Summary }}
-  <p class="text-right"><a href="{{ .RelPermalink }}">Read More…</a></p>
+ -->
+ {{ .Summary }}
+  &nbsp; <em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
+<!-- 
   {{ else }}
   {{ .Content }}
   {{ end }}	
-</section>
+ -->
 {{ end }}	
-
+</section>
 {{- end -}}
