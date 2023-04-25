@@ -4,26 +4,20 @@
 
 {{ $baseurl := .Site.BaseURL }}
 
- <article class="post">
-    <!-- post-header -->
-    <header class="post-header">
+<div class="posts">
       <h1 class="post-title">{{ .Title }}</h1>
-
-
-    </header>
 
 <p>Some of the graduate and undergraduate courses I regularly teach.</p>
     
 {{ range .Pages.ByDate.Reverse }}
-    <p><em>{{ .Params.title | safeHTML }}</em> &middot; <a href="{{ .Permalink }}"> Course Summary Page</a>  
-      {{ if isset .Params "syllabus" }} &middot; <a href="{{ .Params.syllabus }}">Course Syllabus</a> {{ end }}
-      {{ if isset .Params "website" }} &middot; <a href="{{ .Params.website }}">Course Website</a> {{ end }}
-<br />    
-</p>
+    <h3>{{ .Params.title | safeHTML }} &nbsp;
+     {{ if isset .Params "syllabus" }} &rarr; <a href="{{ .Params.syllabus }}">Syllabus</a> {{ end }}
+     {{ if isset .Params "website" }} &rarr; <a href="{{ .Params.website }}">Website</a> {{ end }}</h3>
+     <p>{{ .Content }}</p>
 {{- end}}
 
-    
-</article>
+<br />    
+</div>
 
     
 {{ end }}
