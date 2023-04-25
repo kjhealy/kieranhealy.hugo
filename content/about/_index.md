@@ -14,8 +14,10 @@ Most of my <a href="https://kieranhealy.org/publications/">publications and work
 <center>
 <div class="logo-wrapper">
 <a href="mailto:kjhealy@gmail.com" class="iconfont icon-email" title="email"></a>
-<a href="http://twitter.com/kjhealy" class="iconfont icon-twitter" title="twitter"></a>
-<a href="http://github.com/kjhealy" class="iconfont icon-github" title="github"></a>
+<a href="https://twitter.com/kjhealy" class="logo" title="Twitter"><img class="icon-svg" src = "/icons/twitter.svg"></a>
+<a href="https://mastodon.social/@kjhealy" class="logo" title="Mastodon"><img class="icon-svg" src = "/icons/mastodon.svg"></a>
+<a href="https://github.com/kjhealy" class="logo" title="GitHub"><img class="icon-svg" src = "/icons/github.svg"></a>
+<a href="https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en" class="logo" title="Google Scholar"><img class="icon-svg" src = "/icons/googlescholar.svg"></a>
 <a href="https://kieranhealy.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 </center>
