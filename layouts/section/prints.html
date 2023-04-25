@@ -4,16 +4,13 @@
 
 {{ $baseurl := .Site.BaseURL }}
 
- <article class="post">
-    <!-- post-header -->
-    <header class="post-header">
+  <div id="content" class="posts">
+	<header class="post-header">
       <h1 class="post-title">{{ .Title }}</h1>
-
     </header>
     
 {{ range (where .Data.Pages "Type" "print").GroupByDate "2006" "desc" }}
 
-<!-- <h3>{{ .Key }}</h3> -->
 
 {{ range .Pages.ByDate.Reverse }}
     <h3>{{ .Params.title | safeHTML }}</h3>
@@ -25,6 +22,5 @@
 
 {{- end}}
 
-
+</div>
 {{- end }}
-</article>
