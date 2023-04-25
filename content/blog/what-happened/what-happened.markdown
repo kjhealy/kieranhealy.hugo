@@ -1,5 +1,6 @@
 ---
 title: "What Happened?"
+fave: true
 date: 2021-01-08T21:01:26-05:00
 categories: [Sociology,Politics]
 footnotes: false
