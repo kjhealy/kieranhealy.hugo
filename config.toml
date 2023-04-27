@@ -82,7 +82,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
   since = "1995"            # Site creation time         
   # site info (optional)                                 
-  logoTitle = "Kieran Healy"        # default: the title value    
+  logoTitle = "kieran healy"        # default: the title value    
   keywords = ["", "",""]
   description = "."
 

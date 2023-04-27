@@ -11,7 +11,7 @@
       <h1 class="post-title">{{ .Title }}</h1>
     </header>
 	<br />
-    &rarr; <a href = "https://kieranhealy.org/vita.pdf"><em>Full Curriculum Vitae in PDF format</em></a>
+    &rarr; <a href = "https://kieranhealy.org/vita.pdf"><em>Full Curriculum Vitae in</em> <span class="scp">pdf</span> <em>format</em></a>
     <br />
     &rarr; <a href = "https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en"><em>Google Scholar Profile</em></a>
 
@@ -24,9 +24,9 @@
 
 {{ range .Pages.ByDate.Reverse }}
 <li>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
+  <a class="scp" href="{{ .Permalink }}"> &middot; abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
+  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
   {{ end }}
 </li>
 {{ end }}
@@ -42,9 +42,9 @@
 
 {{ range .Pages.ByDate.Reverse }}
 <li>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
+  <a class="scp" href="{{ .Permalink }}"> &middot; abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
+  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
   {{ end }}
 </li>
 {{ end }}
@@ -60,9 +60,9 @@
 
 {{ range .Pages.ByPublishDate.Reverse }}
 <li>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}"> &middot; Overview</a> 
+  <a class="scp" href="{{ .Permalink }}"> &middot; overview</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
+  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
   {{ end }}
 
   <!-- >{{ if isset .Params "buy" }} &middot; {{ .Params.buy | safeHTML }} {{ end }} -->
@@ -82,9 +82,9 @@
 {{ range .Pages.ByPublishDate.Reverse }}
 {{ if ne .Params.kind "book" }}
 <li>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
+  <a class="scp" href="{{ .Permalink }}"> &middot; abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
+  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
   {{ end }}
 </li>
 {{ end }}
@@ -100,9 +100,9 @@
 {{ range .Pages.ByPublishDate.Reverse }}
 {{ if ne .Params.kind "book" }}
 <li>{{ .Params.citation | safeHTML }} 
-  <a href="{{ .Permalink }}"> &middot; Abstract</a> 
+  <a class="scp" href="{{ .Permalink }}"> &middot; abstract</a> 
   {{ if isset .Params "file" }}
-  <a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; PDF</a>
+  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
   {{ end }}
 </li>
 {{ end }}

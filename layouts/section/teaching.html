@@ -11,8 +11,8 @@
     
 {{ range .Pages.ByDate.Reverse }}
     <h3>{{ .Params.title | safeHTML }} &nbsp;
-     {{ if isset .Params "syllabus" }} &rarr; <a href="{{ .Params.syllabus }}">Syllabus</a> {{ end }}
-     {{ if isset .Params "website" }} &rarr; <a href="{{ .Params.website }}">Website</a> {{ end }}</h3>
+     {{ if isset .Params "syllabus" }} &rarr; <a class="scp" href="{{ .Params.syllabus }}">syllabus</a> {{ end }}
+     {{ if isset .Params "website" }} &rarr; <a  class="scp" href="{{ .Params.website }}">website</a> {{ end }}</h3>
      <p>{{ .Content }}</p>
 {{- end}}
 
