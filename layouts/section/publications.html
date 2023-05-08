@@ -16,7 +16,30 @@
     &rarr; <a href = "https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en"><em>Google Scholar Profile</em></a>
 
 <div class="posts">
-    <h3>Working Papers</h3>
+
+<h3>Books</h3>
+<ul class = "publication">
+{{ range (where .Data.Pages "Params.kind" "book").GroupByPublishDate "2006" "desc" }}
+
+<!-- <h3>{{ .Key }}</h3> -->
+
+{{ range .Pages.ByPublishDate.Reverse }}
+<li>{{ .Params.citation | safeHTML }}
+  <a class="scp" href="{{ .Permalink }}"> &middot; overview</a>
+  {{ if isset .Params "file" }}
+  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
+  {{ end }}
+
+  <!-- >{{ if isset .Params "buy" }} &middot; {{ .Params.buy | safeHTML }} {{ end }} -->
+
+</li>
+{{ end }}
+
+{{- end}}
+</ul>
+
+
+<h3>Working Papers</h3>
 <ul class = "publication">
 {{ range (where .Data.Pages "Type" "unpublished").GroupByDate "2006" "desc" }}
 
@@ -46,27 +69,6 @@
   {{ if isset .Params "file" }}
   <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
   {{ end }}
-</li>
-{{ end }}
-
-{{- end}}
-</ul>
-
-<h3>Books</h3>
-<ul class = "publication">
-{{ range (where .Data.Pages "Params.kind" "book").GroupByPublishDate "2006" "desc" }}
-
-<!-- <h3>{{ .Key }}</h3> -->
-
-{{ range .Pages.ByPublishDate.Reverse }}
-<li>{{ .Params.citation | safeHTML }} 
-  <a class="scp" href="{{ .Permalink }}"> &middot; overview</a> 
-  {{ if isset .Params "file" }}
-  <a class="scp" href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> &middot; pdf</a>
-  {{ end }}
-
-  <!-- >{{ if isset .Params "buy" }} &middot; {{ .Params.buy | safeHTML }} {{ end }} -->
-  
 </li>
 {{ end }}
 
