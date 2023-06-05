@@ -37,7 +37,7 @@ theme_set(theme_myriad_semi())
 
 Now, the data. What we want are the decennial and intercensal estimates by year, sex, and year of age. These aren't all in the same place. Moreover, they aren't all in the same format. The estimates for 1900 to 1979 are available [at this link](https://www2.census.gov/programs-surveys/popest/tables/1900-1980/national/asrh/?C=N;O=D), but (as quickly became clear), the format of the CSV file changes slightly. Subsequent decades vary their format and expand the range of measures counted. Some of the formats are rather difficult to work with. For example, here's part of the description of the 1980-89 files:
 
-```{txt}
+```txt
 The 1990 monthly postcensal national population estimate data files have
 an identical layout.  All records contain 222 characters.  All data fields
 are right-justified.
@@ -61,7 +61,7 @@ Location            Type        Data
 
 And then: 
 
-```{txt}
+```txt
 Within each file, the records are first sorted by the reference date
 (Month-Year) in chronological order.  For each reference date, the first
 record lists the population counts for all ages combined.  The remaining
@@ -71,7 +71,7 @@ order.
 
 That means that the data file for any particular year during this period looks something like this:
 
-```{txt}
+```txt
 2I 780 98      14234      3485 
 2I 780 99       9652      2409 
 2I 780100      15099      3244 
