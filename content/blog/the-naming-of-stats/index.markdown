@@ -1,7 +1,7 @@
 ---
 title: "The Naming of Stats"
 date: 2023-06-15T10:03:35-04:00
-categories: [obiter dicta]
+categories: [obiter dicta,r,statistics]
 footnotes: false
 htmlwidgets: false
 mathjax: false
@@ -25,16 +25,16 @@ But I tell you, a stat needs a name that’s obscurer,<br>
 Else how can it keep on confusing the reader,<br>
      Or frustrate professors, or pass peer review?<br>	 
 Of names of this kind, there are many examples,<br>
-     Such as Hierarchical, Robust, or Omega-hat,<br>
+     Like Hierarchical, Robust, or Omega-hat,<br>
 Such as Marginal, Confidence, or just Weighted Samples,<br>
-     Names that always belong to more than one stat<br>
+     Names that always belong to more than one stat.<br>
 But above and beyond there’s still one name left over,<br>
      And that is the name that you never will guess;<br>
 The thing that no human research can discover—<br>
-     But THE STAT MIGHT JUST KNOW, and be forced to confess.<br>
-When you notice a stat getting robustly cited,<br>
+     But THE STAT MIGHT JUST KNOW, and be made to confess.<br>
+When you notice a stat getting quite widely cited,<br>
      The reason, I tell you, is always because:<br>
-Its user’s engaged, enraged, or excited<br>
+Its user’s engaged, or enraged, or excited<br>
      At the prospect of pinning the root of all laws:<br>
           That inviolable, friable<br>
           Unidentifiable<br>
