@@ -19,7 +19,7 @@ Such as Variance, Quartile, or else Standard Normal<br>
 There are fancier names that may be better-tasting,<br>
      Some for the frequentists, some for the Bayes:<br>
 Such as Skew, or Kurtosis, Metropolis–Hastings—<br>
-     But all of them sensible everyday names,<br>
+     But all of them sensible everyday names.<br>
 But I tell you, a stat needs a name that’s obscurer,<br>
      A name that’s misleading, and hard to construe,<br>
 Else how can it keep on confusing the reader,<br>
