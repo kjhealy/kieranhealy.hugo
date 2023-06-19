@@ -1,7 +1,7 @@
 ---
 title: "The Naming of Stats"
-date: 2023-06-15T10:03:35-04:00
-categories: [obiter dicta,r,statistics]
+date: 2023-06-19T10:03:35-04:00
+categories: [Obiter Dicta,R,Statistics]
 footnotes: false
 htmlwidgets: false
 mathjax: false
@@ -26,7 +26,7 @@ Else how can it keep on confusing the reader,<br>
      Or frustrate professors, or pass peer review?<br>	 
 Of names of this kind, there are many examples,<br>
      Like Hierarchical, Robust, or Omega-hat,<br>
-Such as Marginal, Confidence, or just Weighted Samples,<br>
+Such as Marginal, Confidence, or just Weighted Sample,<br>
      Names that always belong to more than one stat.<br>
 But above and beyond there’s still one name left over,<br>
      And that is the name that you never will guess;<br>

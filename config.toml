@@ -9,11 +9,7 @@ layoutdir = "layouts"
 publishdir = "public"
 
 
-disableKinds = "taxonomyTerm"
-
-#[taxonomy]
-#category = "categories"
-
+disableKinds = ["taxonomyTerm"]
 
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
