@@ -1,8 +1,10 @@
 {{- define "title" }}{{ T "archive" }} - {{ .Site.Title }}{{ end -}}
 
 {{- define "content" }}
-{{- $paginator := .Paginate .Data.Pages.ByDate.Reverse .Site.Params.blogPaginate }}
 
+{{- $paginator := .Paginate .RegularPagesRecursive.ByDate.Reverse .Site.Params.blogPaginate }}
+
+{{- if and (not $paginator.HasPrev) }}
 <section id="pubs" class="archive">
 <h1>Some Favorite Things</h1>  
 
@@ -21,7 +23,7 @@
  <br >  <br >   
 <hr />
 </section>
-
+{{- end }}
 
 <section id="archive" class="archive">
 
