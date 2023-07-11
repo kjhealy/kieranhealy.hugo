@@ -4,7 +4,7 @@
 
 {{- $paginator := .Paginate .RegularPagesRecursive.ByDate.Reverse .Site.Params.blogPaginate }}
 
-{{- if and (not $paginator.HasPrev) }}
+{{- if not $paginator.HasPrev }}
 <section id="pubs" class="archive">
 <h1>Some Favorite Things</h1>  
 
