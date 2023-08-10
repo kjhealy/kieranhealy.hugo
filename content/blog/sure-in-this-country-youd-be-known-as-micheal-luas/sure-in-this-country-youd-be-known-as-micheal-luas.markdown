@@ -4,7 +4,7 @@ date: "2011-02-04"
 #layout: post
 slug: sure-in-this-country-youd-be-known-as-micheal-luas
 status: publish
-title: Sure in this country you'd be known as MicheÃ¡l Luas
+title: Sure in this country you'd be known as Micheál Luas
 wordpress_id: '1830'
 categories:
 - Economics
