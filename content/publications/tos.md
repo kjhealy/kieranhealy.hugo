@@ -13,11 +13,11 @@ date: 2023-05-08
 publishdate: 2023-09-30
 ---
 
-<h4><em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world.</h4>
+<h3><em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world.</h3>
 
 Forthcoming from [Harvard University Press](https://www.hup.harvard.edu/catalog.php?isbn=9780674971141) in April 2024.
 
-<p><figure><img src="http://kieranhealy.org/files/misc/tos_cover_1024.pn"x alt="The Ordinal Society"></figure></p>
+<p><figure><img src="http://kieranhealy.org/files/misc/tos_cover_1024.png" alt="The Ordinal Society"></figure></p>
 
 <h3>Summary</h3>
 
