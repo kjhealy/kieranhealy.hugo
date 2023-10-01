@@ -10,7 +10,7 @@ tag: theory
 subjects: technology society theory stratification economy culture markets
 comments: no
 date: 2023-05-08
-publishdate: 2024-04-01
+publishdate: 2023-09-30
 ---
 
 <h4><em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world.</h4>
