@@ -13,7 +13,6 @@ Most of my <a href="https://kieranhealy.org/publications/">publications and work
 <center>
 <div class="logo-wrapper">
 <a href="mailto:kjhealy@gmail.com" class="iconfont icon-email" title="email"></a>
-<a href="https://twitter.com/kjhealy" class="logo" title="Twitter"><img class="icon-svg" src = "/icons/twitter.svg"></a>
 <a href="https://mastodon.social/@kjhealy" class="logo" title="Mastodon"><img class="icon-svg" src = "/icons/mastodon.svg"></a>
 <a href="https://github.com/kjhealy" class="logo" title="GitHub"><img class="icon-svg" src = "/icons/github.svg"></a>
 <a href="https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en" class="logo" title="Google Scholar"><img class="icon-svg" src = "/icons/googlescholar.svg"></a>
