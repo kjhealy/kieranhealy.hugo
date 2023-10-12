@@ -13,9 +13,9 @@ date: 2023-05-08
 publishdate: 2023-09-30
 ---
 
-Forthcoming from [Harvard University Press](https://www.hup.harvard.edu/catalog.php?isbn=9780674971141) in April 2024.
+Forthcoming from [Harvard University Press](https://www.hup.harvard.edu/catalog.php?isbn=9780674971141) in April 2024
 
-<h3><em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world.</h3>
+<h2><em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world</h2>
 
 Over the past fifty years, changes in the scope of social data collection and analysis have radically reorganized how we experience and make our lives. Much of what we do is now immediately authenticated, recorded, classified, and scored on some sort of scale. We live in an ordinal society, a society oriented toward, justified by, and governed through measurement. 
 
