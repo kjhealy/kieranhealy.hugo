@@ -139,7 +139,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
 
   [params.social]                                        
-    c-twitter = "https://twitter.com/kjhealy"
+    #c-twitter = "https://twitter.com/kjhealy"
     g-github = "https://github.com/kjhealy"
     m-mastodon = "https://mastodon.social/@kjhealy"
 	
