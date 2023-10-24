@@ -4,7 +4,7 @@ title: "About"
 ---
 
 
-I am Professor of <a href ="http://sociology.duke.edu">Sociology</a> at [Duke University](http://www.duke.edu). Much of my research has been about the social organization of exchange in human blood and organs, cultural goods, software, and ideas. My current work focuses on the moral order of market society, the effect of models and measurement on social classification, and the link between those two topics. I also work on techniques and methods for data visualization, and some problems in social theory.
+I am Professor of <a href ="http://sociology.duke.edu">Sociology</a> at [Duke University](https://www.duke.edu). Much of my research has been about the social organization of exchange in [human blood and organs](https://kieranhealy.org/publications/lbg/), cultural goods, software, and ideas. My current work focuses on the moral order of market society, the effect of models and measurement on social classification, and the [link between those two topics](https://www.kierahealy.org/publications/tos). I also work on techniques and methods for [data visualization](https://kieranhealy.org/publications/dataviz), and some [problems in social theory](https://kieranhealy.org/publications/fuck-nuance/).
 
 {{< figure src="https://kieranhealy.org/files/misc/kjh-about.jpg" title="Kieran Healy" >}}
 
