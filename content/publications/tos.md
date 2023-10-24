@@ -32,6 +32,8 @@ Forthcoming from [Harvard University Press](https://www.hup.harvard.edu/catalog.
 
 
 “If any work can advance contemporary social theory for our age of AI and bring it to a wide audience, it is The Ordinal Society. With the elegant theory of ordinality as a common thread uniting disparate phenomena, Fourcade and Healy sort out key paradoxes of digitality, particularly the way in which computation simultaneously promotes democratization and hierarchy. This important book deserves to have a lasting influence in sociology and beyond.” —**Frank Pasquale**, author of _The Black Box Society_
+
+“An incisive, crystalline account of how the tracking and scoring of personal data has come to modulate contemporary existence—not only its dreary routines, creepy supervisions, and troublesome extractions and biases, but also its experiences of delight, connection, and effervescence. Essential reading for understanding the hold of digital ordering on our world, and for thinking up ways to loosen its grip." —**Natasha Schüll**, author of _Addiction by Design_
  
 
 “With precision and eloquence, Healy and Fourcade map the tectonic forces driving the digitization of everyday life. If you want to know where the fault lines are—and how they got there—read this book.” —**Fred Turner**, author of _From Counterculture to Cyberculture_
