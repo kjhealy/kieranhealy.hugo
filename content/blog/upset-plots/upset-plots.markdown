@@ -70,7 +70,7 @@ dat %>% print(n = nrow(dat))
 
 We have six basic symptoms ("Breath" means "Shortness of Breath"). They occur in various combinations. We need to get this data into a shape we can work with. We have two tasks. First, it will be convenient to convert this summary back into an observation-level table. The `tidyr` package has a [handy function](https://tidyr.tidyverse.org/reference/uncount.html) called `uncount` that will do this for us. However, we can't do that directly. Think of the table as showing counts of where various combinations of symptoms are `TRUE`. Implicitly, where we don't see a symptom, it's implicitly `FALSE` in those cases where it isn't there. For example, in the first row, the 140 patients reporting Anosmia are implicitly also reporting they don't have any of the other five symptoms. If we don't get those implicit negatives back, we won't get a proper picture of the clustering. 
 
-So, we're going to generate table of `TRUE` and `FALSE` values for our symptom combinations. There's probably a substantially more elegant way to do this than shown here, but let's press on regardless.
+So, we're going to generate table of `TRUE` and `FALSE` values for our symptom combinations. 
 
 {{< code r >}}
 subsets <- dat$combination
