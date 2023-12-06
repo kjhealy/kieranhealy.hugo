@@ -76,14 +76,11 @@ So, we're going to generate table of `TRUE` and `FALSE` values for our symptom c
 subsets <- dat$combination
 
 ## Check if each subset mentions each symptom or not
-symptom_mat <- map_dfc(subsets, str_detect, symptoms) %>%
-    data.frame() %>%
-    t() %>% # transpose the result, ugh
-    as_tibble()
-
-colnames(symptom_mat)  <- symptoms
-
-symptom_mat$count <- dat$count
+symptom_mat <- map(subsets, \(x) str_detect(x, symptoms)) %>%
+  set_names(nm = subsets) %>%
+  map(\(x) set_names(x, nm = symptoms)) %>%
+  bind_rows(.id = "subset") %>%
+  left_join(dat, join_by(subset == combination))
 
 symptom_mat %>% print(n = nrow(symptom_mat))
 
