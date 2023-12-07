@@ -22,6 +22,25 @@ Also, some people asked for the code. So here it is, fwiw, after the pictures. T
 And the code:
 
 {{< code r >}}
+## Dorling Cartogram example with US Census data
+## Requires you sign up for a free Census API key
+## https://api.census.gov/data/key_signup.html
+##
+
+## Required packages
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(cartogram)
+library(colorspace)
+
+## Setup
+options(tigris_use_cache = TRUE)
+
+## Do this
+census_api_key("YOUR API KEY HERE")
+## or, to install in your .Rprofile follow the instructions at
+## https://walker-data.com/tidycensus/reference/census_api_key.html
 
 pop_names <- tribble(
   ~varname, ~clean,
