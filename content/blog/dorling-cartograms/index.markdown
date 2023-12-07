@@ -23,26 +23,6 @@ And the code:
 
 {{< code r >}}
 
-## Dorling Cartogram example with US Census data
-## Requires you sign up for a free Census API key
-## https://api.census.gov/data/key_signup.html
-
-## Required packages
-library(tidyverse)
-library(tidycensus)
-library(sf)
-library(cartogram)
-library(colorspace)
-
-## Setup
-options(tigris_use_cache = TRUE)
-
-## Census API key:
-## Either do this
-census_api_key("YOUR API KEY HERE")
-## or, to install in your .Rprofile follow the instructions at
-## https://walker-data.com/tidycensus/reference/census_api_key.html
-
 pop_names <- tribble(
   ~varname, ~clean,
   "B01003_001", "pop",
@@ -53,27 +33,13 @@ pop_names <- tribble(
   "B01001D_001", "asian"
 )
 
-clean_names <- function(variable, lookup) {
-
-  vtbl <- lookup
-
-  for(i in 1:nrow(vtbl)) {
-    variable <- stringr::str_replace(variable,
-                                     vtbl$varname[i],
-                                     vtbl$clean[i])
-  }
-
-  variable
-
-}
-
-
 ## Get the data
 fips_pop <- get_acs(geography = "county",
                     variables = pop_names$varname,
                     cache_table = TRUE) |>
-  mutate(variable = clean_names(variable, lookup = pop_names)) |>
-  select(-moe) |>
+  left_join(pop_names, join_by(variable == varname)) |> 
+  mutate(variable = clean) |> 
+  select(-clean, -moe) |>
   pivot_wider(names_from = variable, values_from = estimate) |>
   rename(fips = GEOID, name = NAME) |>
   mutate(prop_pop = pop/sum(pop),
@@ -215,5 +181,8 @@ out_asian <- county_dorling |>
         plot.title = element_text(size = rel(1.4), hjust = 0.15))
 
 ggsave("figures/dorling-asian.png", out_asian, height = 10, width = 12)
+
+
+
 
 {{< /code >}}
