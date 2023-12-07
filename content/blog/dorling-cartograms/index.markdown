@@ -17,7 +17,7 @@ Also, some people asked for the code. So here it is, fwiw, after the pictures. T
 
 {{% figure src="dorling-asian.png" alt="Dorling cartogram, percent Asian by county" caption="Percent Asian by County" %}}
 
-{{% figure src="dorling-hs.png" alt="Dorling cartogram, percent Hispanic by county" caption="Percent Hispanic Asian by County" %}}
+{{% figure src="dorling-hs.png" alt="Dorling cartogram, percent Hispanic by county" caption="Percent Hispanic by County" %}}
 
 And the code:
 
