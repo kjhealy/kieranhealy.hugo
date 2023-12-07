@@ -9,7 +9,7 @@ mathjax: false
 
 I was writing some examples for next semester's dataviz class and shared one of them---a [Dorling Cartogram](https://www.arcgis.com/home/item.html?id=b686a7679cb747e9825d1d1bb6b26046)---on the socials medias. Some people don't like cartograms, some people do like cartograms; in conclusion, we live in a world of contrasts. 
 
-Also, some people asked for the code. So here it is, fwiw, after the pictures. These are not the most polished figures, but that is kind of the point, as we go through them in class and ~indoctrinate students~ discuss them and so on.
+Also, some people asked for the code. So here it is, fwiw, after the pictures. These are not the most polished figures, but that is kind of the point, as we go through them in class and ~~indoctrinate students in the inflexible ideology of Cultural Marxism~~ discuss them like reasonable people and so on.
 
 {{% figure src="dorling-bl.png" alt="Dorling cartogram, percent Black by county" caption="Percent Black by County" %}}
 
