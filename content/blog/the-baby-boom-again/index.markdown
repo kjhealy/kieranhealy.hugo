@@ -14,3 +14,4 @@ Prompted by a local data visualization event, I revisited my old "Visualizing th
 
 In case you're interested in learning more about Richard Nixon's effects on the U.S. birth rate (highlighted in one of the callouts on the poster), see Martha Bailey and Eric Chyn, ["The Demographic Effects of Dodging the Vietnam Draft"](https://public.websites.umich.edu/~baileymj/Bailey_Chyn_PP.pdf). 
 
+As usual, the components of the graph were made using R and ggplot, though in this case they were partly assembled using Adobe Illustrator.
