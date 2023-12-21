@@ -13,7 +13,7 @@ date: 2023-05-08
 publishdate: 2023-09-30
 ---
 
-Forthcoming from [Harvard University Press](https://www.hup.harvard.edu/catalog.php?isbn=9780674971141) in April 2024.
+[Forthcoming from Harvard University Press](https://theordinalsociety.com) in April 2024.
 
 <h2><em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world</h2>
 
@@ -56,4 +56,4 @@ Even when the data is bad, or the analytical results are spurious, the outcome i
 
 That is the social form we seek to understand in this book.
 
-
+More details at [the book's website](https://theordinalsociety.com)
