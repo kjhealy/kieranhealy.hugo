@@ -75,18 +75,18 @@ You can see how `path` is created as an id column, to help us keep track of whic
 
 ### Case 2: Lots of local Excel files
 
-What if the data is in a file format whose read-in function doesn't know this trick about accepting a vector of file paths? In that case we can do what `read_csv()` is doing behind the scenes and _map_ the vector of file names to the read-in function, and explicitly bind the results together. The default `map()` function binds by making a list of whatever you did. But there are type-specific mappers, too. We are dealing with data frames---with regular tables of data---so we have a function, `map_dfr()`, that takes input and binds its output by row into a data frame (or dies trying). So for example, if our Congressional data were all Excel files in `.xlsx` format, and they all had the same structure with a header row of column names, we could write this:
+What if the data is in a file format whose read-in function doesn't know this trick about accepting a vector of file paths? In that case we can do what `read_csv()` is doing behind the scenes and _map_ the vector of file names to the read-in function, and explicitly bind the results together. The default `map()` function binds by making a list of whatever you did.  So for example, if our Congressional data were all Excel files in `.xlsx` format, and they all had the same structure with a header row of column names, we could write this:
 
 {{< code r >}}
 
-df <- filenames |>
-    map_dfr(~ readxl::read_xlsx(.x),
-          .id = "path")
-
+df <- filenames |> 
+  set_names() |> 
+  map(\(x) readxl::read_xlsx(x)) |> 
+  list_rbind(names_to = "path")
 {{< /code >}}
 
 
-And we would get (almost) the same result. Here we start with the vector of filenames and pass it down a pipe to `map_dfr()`, which goes ahead and maps, or applies, the `read_xlsx()` function to each element of the filenames vector---i.e. to each file. The `.x` there is a placeholder or pronoun that means 'whatever one we're working on right now'. Mapping functions like this is just a kind of iteration where you don't have to explicitly write a loop. This makes it easier to cleanly compose sequences or chains of functions without having to explicitly create a bunch of placeholder objects or declare counters and so on. 
+And we would get (almost) the same result. Here we start with the vector of filenames and pass it down a pipe to `set_names()`, which usefully labels the elements of the filename vector with their values (in this case, the file paths). Then we pass it along to `map()`, which goes ahead and maps, or applies, the `read_xlsx()` function to each element of the filenames vector---i.e. to each file. The `\(x)` notation there is a the shorthand for an anonymous function. Each element of the `filenames` vector becomes the `x` that is read in turn. Mapping a function like this is just a kind of iteration where you don't have to explicitly write a loop. This makes it easier to cleanly compose sequences or chains of functions without having to create a bunch of placeholder objects, declare counters, and so on. 
 
 ### Case 3: Lots of remote CSV or Excel files in a bare directory
 
@@ -95,16 +95,15 @@ Now, what if the files we want are stored remotely on a server? These days there
 {{% figure src="ftp-listing.png" alt="A listing of CDC life-table spreadsheets" caption="A listing of state-level life-tables from the National Center for Health Statistics" %}}
 
 
-This is a directory of state-by-state [life tables](https://en.wikipedia.org/wiki/Life_table) associated with a [CDC report](https://en.wikipedia.org/wiki/Life_table). Again, we want them (or, as we'll see, some of them) as a single table. 
+This is a directory of state-by-state [life tables](https://en.wikipedia.org/wiki/Life_table) associated with a CDC report. Again, we want them (or, as we'll see, some of them) as a single table. 
 
 Now, if these were provided as CSVs our task would be a little easier because in addition to being able to deal with a vector of filenames at once, `read_csv()`, and indeed all the read-in functions in  `readr` in general, will happily read URLs as well as local file paths. However, the `read_xlsx()` function in the `readxl` package can't do this yet. It only wants file paths. A second issue is that the Excel files themselves are not entirely tidy. At the top they look like this:
-
 
 {{% figure src="excel-lifetable.png" alt="Excel lifetable." caption="The top of a state-level life table Excel file." %}}
 
 Those first two rows are a mild violation of one of the rules of thumb for entering data in spreadsheets, helpfully outlined by [Karl Broman and Kara Woo](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989). The first row is metadata; the second is a more verbose description of the standard lifetable headers in the third row. Except for Age, which is not labeled in the _third_ row. That big box labeled "Age (years)" is actually an super-sized _second_ row. That means the first element of row three, our actual column headers, is blank! This is annoying. Fortunately these are easily dealt with, as we can just tell our read function to skip those two lines. There's also a `Source` row at the bottom (not shown here) that we'll have to strip out. 
 
-But the first order of business is getting a vector of the actual file URLs to download. You could just copy and paste the listing, like an animal, but we are not going to do that. Instead, we'll take advantage of the old-school empty-directory listing to get the file names. We'll do this using R's implementation of `curl`.
+But the first order of business is getting a vector of the actual file URLs to download. You could just copy and paste the listing, like an animal, but we are not going to do that. Instead, we'll look at two ways to get the file listing programmatically. First, we'll take advantage of the old-school ftp-style directory listing to get the file names. We'll do this using R's implementation of `curl`.
 
 {{< code r >}}
 ## The directory location
@@ -124,7 +123,7 @@ files <- readLines(con)
 close(con)
 
 files[1:10] # Just show the first ten
-
+  
 ## [1] "AK1.xlsx" "AK2.xlsx" "AK3.xlsx" "AK4.xlsx" "AL1.xlsx" "AL2.xlsx" "AL3.xlsx" "AL4.xlsx" "AR1.xlsx" "AR2.xlsx"
 
 {{< /code >}}
@@ -134,13 +133,15 @@ We open a connection to the remote folder and use `ftp_use_epsv` and `dirlistonl
 The spreadsheets are named according to a scheme with a two-letter state abbreviation followed by a number. The number signifies the kind of life-table it is. The files ending in `1` have the life-table for the population as a whole, which is what we are interested in. 
 
 
-If we wanted to do things at a slightly higher level of abstraction we could use `rvest` to get the filenames, extract all the link elements, and get the text from inside of them. The `rvest` package handles the business of opening and closing web connections for us. It also provides handy functions to get and extract the text of pages based on there position in a CSS selection hierarchy (which isn't relevant here) or based on particular HTML elements. First we get the page, then we grab all the link elements in it, and then convert their content to a character vector: 
+Literally the _day after_ I wrote this example, the CDC turned off FTP access to these pages. Now they are HTTPS only. So the code above no-longer works. However, alternatively and a little more straightforwardly we can use `rvest` to get the filenames, extract all the link elements, and get the text from inside of them. The `rvest` package handles the business of opening and closing web connections for us. It also provides handy functions to get and extract the text of pages based on there position in a CSS selection hierarchy (which isn't relevant here) or based on particular HTML elements. First we get the page, then we grab all the link elements in it, and then convert their content to a character vector: 
 
 {{< code r >}}
 
-rvest::read_html("https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/NVSR/71-02/") |> 
+files <- rvest::read_html("https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/NVSR/71-02/") |> 
   rvest::html_elements("a") |> 
   rvest::html_text2()
+
+files 
 
 ## [1] "[To Parent Directory]" "AK1.xlsx"              "AK2.xlsx"              "AK3.xlsx"             
 ##   [5] "AK4.xlsx"              "AL1.xlsx"              "AL2.xlsx"              "AL3.xlsx"             
@@ -151,7 +152,7 @@ rvest::read_html("https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/NV
 
 In this case we'd need to clean up the resulting vector (to remove navigation links to the parent directory and so on) but would end up in the same place.
 
-Now that we have a vector of the file names (but just the file _names_ at this point) we can do a bit of prep:
+Now that we have a vector of the file names (but just the file _names_ at this point) we can do a bit of prep. As you can see we use `set_names()` again. It's very handy. This time we make each element's name attribute be the state abbreviation rather than the full URL.
 
 {{< code r >}}
 ## Just take files containing a `1``
@@ -180,12 +181,12 @@ fnames[1:4]
 {{< /code >}}
 
 
-You can see that the vector elements (the actual URLs) also have a name or label (the state abbreviation). This will make it easier to create a `state` id column, because `map_dfr()` will use the label as its index counter. 
+The label makes it much easier to create a `state` id column, because after we `map()`, `bind_rows()` can use the label as its index counter. 
 
 The last step is to get `read_xlsx()` to get all the remote files, which it does not have the capacity to do directly. It won't even accept a single URL, it only wants file paths. So we will have to write a one-off function that gets the file and puts it in a temporary location that `read_xlsx()` _can_ see.
 
 {{< code r >}}
-# Feed this an http URL
+# Feed this an http URL from the CDC directory
 get_lifetable <- function(x) {
   httr::GET(x, httr::write_disk(tf <- tempfile(fileext = ".xlsx")))
   readxl::read_xlsx(tf, skip = 2, .name_repair = "unique_quiet") |>
@@ -201,15 +202,13 @@ The first line inside the function uses `httr` to `GET` the file, and immediatel
 This function reads _one_ given URL. Now we just need to map a vector of URLs to it and bind the results by row:
 
 {{< code r >}}
-
 life_tabs <- fnames |>
-  map_dfr(~ get_lifetable(.x),
-          .id = "state")
-
+  map(\(x) get_lifetable(x)) |>
+  list_rbind(names_to = "state")
 {{< /code >}}
 
 
-As I said, a nice thing is that `map_dfr()` will use the name attribute of `fnames` to create its id column, which we can therefore name `state`, because the name of each URL element is the abbrevation for the state it is providing data about. 
+The `map()` function makes a list of all the data frames and `bind_rows()` binds them. As I said, a nice thing is that will use the name attribute of `fnames` to create its id column, which we can therefore name `state`, because the name of each URL element is the abbreviation for the state it is providing data about. 
 
 And we're done:
 
