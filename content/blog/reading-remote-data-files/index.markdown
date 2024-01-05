@@ -181,7 +181,7 @@ fnames[1:4]
 {{< /code >}}
 
 
-The label makes it much easier to create a `state` id column, because after we `map()`, `bind_rows()` can use the label as its index counter. 
+The label makes it much easier to create a `state` id column, because after we `map()`, `list_rbind()` can use the label as its index counter. 
 
 The last step is to get `read_xlsx()` to get all the remote files, which it does not have the capacity to do directly. It won't even accept a single URL, it only wants file paths. So we will have to write a one-off function that gets the file and puts it in a temporary location that `read_xlsx()` _can_ see.
 
@@ -196,7 +196,6 @@ get_lifetable <- function(x) {
 
 {{< /code >}}
 
-
 The first line inside the function uses `httr` to `GET` the file, and immediately save it locally using `write_disk()`, taking care to specify that the temporary file we save should have an `.xlsx` extension. (Otherwise `read_xlsx()` will complain.) The second line actually reads in the file that's been downloaded. We take the opportunity to suppress chatter about the name repair that has to happen on that blank first column header in the third row, rename that location `age`, and strip the trailing line about the source of the data that I mentioned above. 
 
 This function reads _one_ given URL. Now we just need to map a vector of URLs to it and bind the results by row:
@@ -208,7 +207,7 @@ life_tabs <- fnames |>
 {{< /code >}}
 
 
-The `map()` function makes a list of all the data frames and `bind_rows()` binds them. As I said, a nice thing is that will use the name attribute of `fnames` to create its id column, which we can therefore name `state`, because the name of each URL element is the abbreviation for the state it is providing data about. 
+The `map()` function makes a list of all the data frames and `list_rbind()` binds them. As I said, a nice thing is that will use the name attribute of `fnames` to create its id column, which we can therefore name `state`, because the name of each URL element is the abbreviation for the state it is providing data about. 
 
 And we're done:
 
