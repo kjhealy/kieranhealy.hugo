@@ -8,6 +8,20 @@ var vis = d3.select("#chart")
     .attr("width", w)
     .attr("height", h);
 
+var insertLinebreaks = function (d) {
+    var el = d3.select(this);
+    var words = d.split('\n');
+    el.text('');
+
+    for (var i = 0; i < words.length; i++) {
+        var tspan = el.append('tspan').text(words[i]);
+        if (i > 0)
+            tspan.attr('x', 0).attr('dy', '15');
+    }
+};
+
+
+
 d3.json("cites.json", function(json) {
   var force = d3.layout.force()
       .charge(-125)
@@ -40,8 +54,8 @@ d3.json("cites.json", function(json) {
   node.append("svg:text")
     .attr("class", "nodetext")
     .attr("dx", 10)
-	.attr("dy", ".35em")
-	.text(function(d) { return d.name; });
+    .attr("dy", ".35em")
+    .text(function(d) { return d.name; });    
 
   node.append("svg:title")
     .text(function(d) { return d.name; });
@@ -60,4 +74,3 @@ d3.json("cites.json", function(json) {
     node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
   });
 });
-
