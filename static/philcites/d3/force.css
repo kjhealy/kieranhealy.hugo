@@ -1,3 +1,9 @@
+.encode-sans condensed-extralight {
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
 circle.node {
   stroke: #fff;
   stroke-width: 1.5px;
@@ -8,4 +14,4 @@ line.link {
   stroke-opacity: .6;
 }
 
-.nodetext { pointer-events: none; font-size: 8px}
+.nodetext { pointer-events: none; font-size: 8px; font-family: "Encode Sans Condensed", sans-serif;}

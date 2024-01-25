@@ -61,9 +61,3 @@ d3.json("cites.json", function(json) {
   });
 });
 
-d3.select(window)
-  .on("resize", function() {
-    var targetWidth = vis.node().getBoundingClientRect().width;
-    vis.attr("width", targetWidth);
-    vis.attr("height", targetWidth / aspect);
-  });
