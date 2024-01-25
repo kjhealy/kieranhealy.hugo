@@ -8,4 +8,4 @@ line.link {
   stroke-opacity: .6;
 }
 
-.nodetext { pointer-events: none; font: 10px
+.nodetext { pointer-events: none; font-size: 8px}

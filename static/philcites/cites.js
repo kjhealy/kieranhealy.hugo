@@ -1,5 +1,6 @@
-var w = 960,
-    h = 500,
+var w = 1600,
+    h = 2500,
+    aspect = w / h
     fill = d3.scale.category20();
 
 var vis = d3.select("#chart")
@@ -60,3 +61,9 @@ d3.json("cites.json", function(json) {
   });
 });
 
+d3.select(window)
+  .on("resize", function() {
+    var targetWidth = vis.node().getBoundingClientRect().width;
+    vis.attr("width", targetWidth);
+    vis.attr("height", targetWidth / aspect);
+  });
