@@ -1,5 +1,5 @@
 var w = 1600,
-    h = 2500,
+    h = 2400,
     aspect = w / h
     fill = d3.scale.category20();
 
