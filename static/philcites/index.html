@@ -1,21 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>LDAvis</title>
-    <script src="d3.v3.js"></script>
-    <script src="ldavis.js"></script>
-    <link rel="stylesheet" type="text/css" href="lda.css">
-  </head>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 
-  <body>
-    <div id="errorMsg"></div>
-    <!-- Placeholder div -->
-    <!-- <div id="lda" style="clear: left; background-color: #ffffff; transform: translate(0px, 50px)"></div>-->
-    <div id="lda" style="clear: left; background-color: #ffffff; position: absolute; top: 60px; left: 0px"></div>
-    <script>
-      var vis = new LDAvis("#lda", "lda.json");
-    </script>
+  <head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kieran Healy">
+  <meta name="description" content="A Philosophy Co-Citation Network">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="canonical" href="http://kieranhealy.org/philcites/">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+<title>Philosophy Co-Citation Network, Force-Directed Layout</title>
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3.geom.js"></script>
+    <script type="text/javascript" src="d3/d3.layout.js"></script>
+    <link type="text/css" rel="stylesheet" href="d3/force.css"/>
+  </head>
+<body style="min-width=1600px; margin-left:40px;">
+<section style="clear:both;"></section>
+<section>
+<br />
+<h2>A Co-Citation Network for Philosophy</h2>
+<h6><a href="http://kieranhealy.org">Kieran Healy</a></h6>
+<p>The graph below represents co-citation patterns based on all articles published between 1993 and 2013 in <em>Nous</em>, the <em>Journal of Philosophy</em>, the <em>Philosophical Review</em>, and <em>Mind</em>. These four were  chosen because they are all high-impact, high-prestige, and self-consciously "generalist" journals. The goal of the analysis---apart from teaching myself a bit of <a href="http://d3js.org">D3</a>---was to get a rough, descriptive sense of what the world of high-prestige, professional, academic, English-speaking Philosophy has been talking about for the past twenty years.</p> 
+
+<p>I collected all of the citations contained in the 2,262 articles published since 1993 in the four selected journals---about 34,000 citations altogether. The graph shows co-citation patterns for the 500 most-cited items---that is, it takes the books and articles that have been talked about most often over the past 20 years in these journals, and shows which items are talked about at the same time. The colors of the nodes represent the results of a community-detection algorithm applied to the co-citation matrix. The community colors are generated inductively, not assigned in advance. <p> 
+
+<p>Note again that the unit of analysis is <em>cited items</em>, not <em>authors</em>, so the same author may appear in different places in the graph for different books or papers. Each book or paper only appears once, however.</p> 
+
+<p>The graph is generated dynamically, so it will look a little different each time you load it. You can also click and drag particular nodes, to "pull" parts of the graph around. When you release the mouse the graph should reconfigure  itself. If you do this, let it finish moving around before you try moving another node. The idea is for the dynamic aspects of the visualization allow you a better view of different parts of the graph, while maintaining the  global structure of relations between the parts. It is best viewed on a high-resolution monitor.</p>
+
+<p>See <a href="http://kieranhealy.org/blog/archives/2013/06/18/a-co-citation-network-for-philosophy/">the main blog post</a> for more details and further discussion.
+
+<div id="chart" style="min-width:2140px; margin-left:10px;">
+    <script type="text/javascript" src="cites.js"></script>
+  </div>
+</p>
+</section>
   </body>
 
-</html>

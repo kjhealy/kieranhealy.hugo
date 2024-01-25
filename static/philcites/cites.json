@@ -1,0 +1,5002 @@
+{
+  "nodes": [
+    {
+      "group": "30", 
+      "name": "Unger P 1996 Living High Letting (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mcmahan J 1994 Ethics (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Watson G 1975 J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Mcmahan J 2002 Ethics Killing Probl (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Kymlicka W 1990 Cont Political Philo (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Pitkin H 1965 Am Polit Sci Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Simmons A 1979 Moral Principles Pol (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mcmahan J 2004 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Searle J 1983 Intentionality (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Kant I 1996 Practical Philos (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Sumner L 1996 Welfare Happiness Et (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Kymlicka W 1989 Liberalism Community (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Williams B 1973 Problems Self (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Jackson F 1991 Ethics (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Moore G 1965 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Hurka T 1993 Perfectionism (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Dworkin R 1985 Matter Principle (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Louise J 2004 Philos Quart (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Waldron J 1992 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Tamir Y 1993 Liberal Nat (6)", "nodeSize": 6  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Miller D 1999 Principles Social Ju (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Velleman J 1988 Philos Rev (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Ross W 1939 Fdn Ethics (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Luban D 1980 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Kymlicka W 1995 Multicultural Citize (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Moore G 1922 Philos Stud (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Hill T 1991 Autonomy Self Respec (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Velleman D 1999 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Hart H 1955 Philos Rev (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Rawls J 1955 Philos Rev (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Davis N 1984 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Dancy J 1983 Mind (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Mackie J 1977 Ethics Inventing Rig (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Quinn W 1993 Morality Action (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Kagan S 1989 Limits Morality (8)", "nodeSize": 8  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Barry B 1995 Justice Impartiality (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Frankfurt H 1969 J Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Stocker M 1990 Plural Conflicting V (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Velleman J 1989 Practical Reflection (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Baier K 1958 Moral Point View Rat (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Railton P 1984 Philos Public Aff (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Finlay S 2005 Philos Imprint (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Dahl R 1989 Democracy Its Critic (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Williams B 1973 Problems Self (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Desousa R 1987 Rationality Emotion (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Hare R 1981 Moral Thinking (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Larmore C 1987 Patterns Moral Compl (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Olsen L 1997 Made Am Immigrant St (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Thomson J 1986 Rights Restitution R (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Blum L 1980 Friendship Altruism (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Temkin L 1993 Inequality (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Anscombe G 1963 Intention (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Griffin J 1986 Well Being Its Meani (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Dworkin R 1986 Laws Empire (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Sen A 1982 Philos Public Aff (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Harsanyi J 1967 Manage Sci (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Kamm F 1997 Boston Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Dworkin R 1996 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Stratton-lake P 2005 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Kukathas C 1992 Polit Theory (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Nagel T 1991 Equality Partiality (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Gibbard A 1986 F Social Choice Theo (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Sandel M 1982 Liberalism Limits Ju (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Lewis D 1989 P Aristotelian Soc S (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Brandt R 1946 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Mele A 1992 Springs of Action (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Rawls J 1971 Theory Justice (31)", "nodeSize": 31  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Shklar J 1984 Ordinary Vices (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Bennett J 1966 Analysis (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Grofman B 1983 Theor Decis (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Schroeder M 2009 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Velleman J 1991 Pac Philos Quart (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Moore G 1912 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Brighouse H 2006 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Kamm F 1996 Morality Morality 1 (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Macedo S 1995 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Deigh J 1994 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Anscombe G 1963 Intention (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Mcclennen E 1990 Rationality and Dyna (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Brink D 1989 Moral Realism Fdn Et (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Davidson D 1980 Essays Actions Event (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Rorty A 1980 Essays Aristotles Et (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Moodyadams M 1994 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Roemer J 1996 Theories Distributiv (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Foot P 2001 Natural Goodness (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Raz J 1975 Practical Reason Nor (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Rawls J 1999 Law Peoples (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Sreenivasan G 2005 Oxford J Legal Stud (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Geach P 1957 Analysis (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Larmore C 1996 Morals Modernity (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Greenspan P 1988 Emotions Reasons Inq (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Raz J 1990 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Thomson J 1986 Rights Restitution R (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Williams B 1981 Moral Luck (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Waldron J 1993 Philos Public Aff (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Scanlon T 1998 What We Owe Each Oth (9)", "nodeSize": 9  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Rawls J 1980 J Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Bates S 1993 Battleground One Mot (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Dworkin R 1986 Laws Empire (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Davidson D 1980 Electron Microscopy and Analysis (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Gilligan C 1982 Different Voice Psyc (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Korsgaard C 1996 Sources Normativity (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Harman G 1975 Philos Rev (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Dworkin R 1977 Taking Rights Seriou (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Rawls J 1997 U Chicago Law Rev (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Gomberg P 1990 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Franck T 1992 Am J Int Law (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Miller D 1995 Nationality (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Mayerfeld J 1999 Suffering Moral Resp (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Pettit P 1996 J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Hume D 1978 Treatise Human Natur (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Broome J 1991 Weighing Goods (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Blackburn S 1998 Ruling Passions (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Grice P 1971 P Brit Acad (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Scheffler S 1992 Human Morality (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Scheffler S 1994 Rejection Consequent (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Williams B 1995 Making Sense Humanit (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Kagan S 1989 Limits Morality (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Raz J 1986 Morality Freedom (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Pogge T 1992 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Nelson A 1986 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Strawson P 2003 Free Will (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Hare R 1963 Freedom Reason (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Wolf S 1990 Freedom Reason (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Dworkin R 2000 Sovereign Virtue The (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Tooley M 1972 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Dancy J 1993 Moral Reasons (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Wallace R 1994 Responsibility Moral (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Kitcher P 1984 Philos Sci (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Parfit D 1984 Reasons Persons (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Harman G 1986 Change View (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Hart H 1983 Essays Jurisprudence (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Darwall S 1986 Philos Stud (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Buss S 1994 Midwest Stud Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Johnston M 1989 P Aristotelian Soc S (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Scanlon T 1990 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Parfit D 2011 What Matters (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Kolodny N 2005 Mind (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Stocker M 1981 J Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Slote M 1985 Common Sense Moralit (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Kagan S 1984 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Doris J 2002 Lack Character Perso (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Griffin J 1986 Well Being (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mcmahan J 1994 J Polit Philos (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Boyd R 1999 Philos Stud (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Kymlicka W 1989 Liberalism Community (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Mcmahan J 1996 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Watson G 1982 Free Will (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Nagel T 1986 View Nowhere (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Rashdall H 1907 Theory Good Evil (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Broad C 1930 5 Types Ethical Theo (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Arneson R 2000 Ethics (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Kymlicka W 1995 Multicultural Citize (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Mill J 1972 Liberty (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mcmahan J 1993 Can J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Scanlon T 1998 What We Owe Each Oth (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Deigh J 1983 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Gibbard A 2003 Thinking Live (6)", "nodeSize": 6  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Walzer M 1983 Spheres Justice Defe (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Gauthier D 1986 Morals Agreement (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Goodin R 1988 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Lewis D 1972 Australas J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Thomson J 1991 Philos Public Aff (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Regan D 2002 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Hart H 1968 Punishment Responsib (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Herman B 1993 Practice Moral Judgm (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Rosati C 1995 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Mcdowell J 1979 Monist (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Blackburn S 1992 P Aristotelian Soc S (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Nagel T 1986 View Nowhere (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Steiner H 1994 Essay Rights (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Scanlon T 2000 P Aristotelian Soc S (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Scanlon T 1982 Utilitarianism (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Thomson J 1999 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Darwall S 1983 Impartial Reason (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Roberts R 1988 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Hampshire S 1958 Mind (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Setiya K 2007 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Ridge M 2001 J Polit Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Rodin D 2002 War Self Defense (6)", "nodeSize": 6  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Rosati C 1995 Nous (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Hursthouse R 1999 Virtue Ethics (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Dworkin G 1988 Theory Practice Auto (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Stocker M 1979 J Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Rawls J 1999 Law Peoples (9)", "nodeSize": 9  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Raz J 1999 Engaging Reason (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Parfit D 1986 Reasons Persons (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Adams R 1999 Finite Infinite Good (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Cohen G 1995 Equal Freedom (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Riker W 1982 Liberalism Populism (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Sreenivasan G 2010 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Arrow K 1963 Social Choice Indivi (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Estlund D 2008 Democratic Authority: A Philosophical Framework (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Brink D 1986 J Philos (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Rawls J 1999 Collect Papers (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Gauthier D 1986 Morals Agreement (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Rawls J 1996 Political Liberalism (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Hare R 1981 Moral Thinking (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "D'arms J 2000 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Barry B 1995 Justice Impartiality (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Young I 1990 Justice Politics Dif (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Arneson R 1989 Philos Stud (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Sidgwick H 1981 Methods Ethics (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Benbaji Y 2008 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Bratman M 1987 Intentions Plans And (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Foot P 1978 Virtues Vices (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Watson G 2004 Agency Answerability (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Davidson D 1980 Essays Actions Event (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Quinn W 1985 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Hart H 1958 Harvard Law Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Moore G 1903 Principia Ethica (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Korsgaard C 1997 Ethics Practical Rea (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Aristotle No Year No Source (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Cruft R 2004 Law Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Sen A 1982 Utilitarianism Beyon (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Oldenquist A 1982 J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Doris J 1998 Nous (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Mckerlie D 1989 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Young I 1990 Justice Politics Dif (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Smith M 1994 Moral Problem (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Moore G 1993 Principia Ethica (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Kavka G 1978 J Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Mallon R 2003 Socializing Metaphys (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Rawls J 2005 Political Liberalism (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Gibbard 1990 Wise Choices Apt Fee (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Anderson E 1999 Ethics (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Barry B 1989 Theories Justice (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Allison H 1990 Kants Theory Freedom (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Wolf S 1982 J Philos (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Galston W 1995 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Raz J 1979 Authority Law (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Baier A 1986 Ethics (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "May L 1987 Morality Groups (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Scheffler S 1982 Rejection Consequent (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Raz J 2005 J Ethics Social Phil (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Sturgeon N 2003 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Arpaly N 2003 Unprincipled Virtue (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Haslanger S 2000 Nous (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Bratman M 1987 Intention Plans Prac (8)", "nodeSize": 8  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Moore G 1993 Principia Ethica (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Temkin L 1993 Inequality (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Senor D 1990 Hare Critics Essays (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Broome J 1999 Ratio (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Gutmann A 1987 Democratic Ed (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Mcdowell J 1985 Morality Objectivity (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Maccormick N 1972 P AR Soc S (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Lewis D 1970 J Philos (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Waldron J 1981 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Lewis D 1983 Philos Papers (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Kagan S 1998 Normative Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Anderson E 2008 Episteme (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Anderson E 1993 Value Ethics Ec (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Bratman M 1999 Faces Intention Sele (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Parfit D 2000 Ideal Equality (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Frankfurt H 1988 Importance What We C (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Singer P 1993 Practical Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Dworkin R 1981 Philos Public Aff (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Nagel T 1972 Philos Public Aff (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Hume D 1988 Treatise Human Natur (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Kant I 1991 Metaphysics Morals (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Dillon R 1992 Hypatia (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Sen A 1992 Inequality Reexamine (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Gauthier D 1984 Ethics (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Geach P 1965 Philos Rev (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Blackburn S 1998 Ruling Passions (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Nozick R 1981 Philos Explanations (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Brandt R 1979 Theory Good Right (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Gibbard A 1990 Wise Choices Apt Fee (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Hill T 1992 Dignity Practical Re (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Dancy J 1981 Mind (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Gilbert M 2004 J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Frankfurt H 1999 Necessity Volition L (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Lewis D 1969 Convention Philos St (6)", "nodeSize": 6  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Raz J 1990 Practical Reason Nor (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Lewis D 1989 S P Aristotelian Soc (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Nozick R 1974 Anarchy State Utopia (24)", "nodeSize": 24  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Rawls J 2001 Justice Fairness Res (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Nussbaum M 1988 Oxford Studies Ancie (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Sen A 1983 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Brandt R 1979 Theory Good Right (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Rabinowicz W 2004 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Kroon F 1996 Ethics (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Hurka T 2005 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Arneson R 1990 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Korsgaard C 1986 J Philos (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Young I 1995 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Walzer M 1977 Just Unjust Wars (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Sidgwick H 1907 Methods Ethics (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Sreenivasan G 2002 Mind (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Velleman J 1996 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Blackburn S 1993 Essays Quasirealism (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Donagan A 1977 Theory Morality (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Kamm F 2004 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Miller D 1995 Nationality (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Brink D 1989 Moral Realism F Ethi (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Falk W 1986 Ought Reasons Morali (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Solomon R 1976 Passions Myth Nature (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Sobel D 1994 Ethics (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Coady C 1985 Philosophy (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Thomson J 1990 Realm Rights (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Frankfurt H 1987 Ethics (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Wood A 1999 Kants Ethical Though (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Nozick R 1974 Anarchy State Utopia (8)", "nodeSize": 8  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Becker L 1973 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Wallace R 2001 Philos Imprint (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Bennett J 1981 Tanner Lectures Huma (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Scanlon T 1988 Tanner Lect Human Va (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Quinn W 1989 Philos Public Aff (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Vanroojen M 1996 Philos Rev (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Scanlon T 1972 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Smith M 1973 Yale Law J (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Scheffler S 1988 Consequentialism Its (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Darwall S 1983 Impartial Reason 2 (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Mcdowell J 1978 P Aristotelian Soc S (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Rawls J 1993 Political Liberalism (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Railton P 1988 Consequentialism Its (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Rawls J 1993 Political Liberalism (22)", "nodeSize": 22  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Murphy J 1972 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Korsgaard C 1996 Creating Kingdom End (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Swanton C 2001 Ethics (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Williams B 1973 Utilitarianism (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Mill J 1979 Utilitarianism (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Damasio A 1994 Descartes Error Emot (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Stocker M 1976 J Philos (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Gewirth A 1988 J Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Smith A 1976 Theory Moral Sentime (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Blum L 1980 Friendship Altruism (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Mason A 1997 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Bratman M 1981 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Buchanan A 2008 Legal Theory (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Thomson J 1971 Philos Public Aff (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Nussbaum M 1990 Loves Knowledge (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Galston W 1991 Liberal Purposes (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Strawson P 1974 Freedom Resentment (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Dreier J 1996 Philos Stud (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Griffin J 1986 Well Being Meaning M (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Searle J 1962 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Holton R 1994 Australas J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Locke J 1988 2 Treatises Govt (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Flanagan O 1991 Varieties Moral Pers (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Moore G 1903 Principia Ethica (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Stampe D 1987 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Hardimon M 1994 J Philos (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Bennett J 1995 Act Itself (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Rorty A 1980 Explaining Emotions (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Beitz C 2009 Idea Human Rights (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Sidgwick H 1907 Methods Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Gibbard A 1990 Wise Choices Apt Fee (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Hacking I 1999 Social Construction (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Smith H 1983 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Hare R 1952 Language Morals (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Mill J 1978 Liberty (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Tamir Y 1993 Liberal Natl (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Smith M 1994 Moral Problem (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mapel D 1998 J Polit Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Fleurbaey M 1995 Econ Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Sturgeon N 1982 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Velleman J 1999 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Kant I 1964 Groundwork Metaphysi (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Walzer M 1977 Just Unjust Wars (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Adams R 1976 J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Hubin D 1996 Nous (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Roemer J 1994 Egalitarian Perspect (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Darwall S 2006 2 Person Standpoint (8)", "nodeSize": 8  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Williams B 1985 Ethics Limits Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Ridge M 2006 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Walzer M 2006 Philosophia (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Dreier J 1990 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Ackerman B 1991 We People (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Sen A 1979 J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Blackburn S 1984 Spreading Word (8)", "nodeSize": 8  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Matsuda M 1989 Mich Law Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Ayer A 1936 Language Truth Logic (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Frank R 1988 Passions Reason (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mcmahan J 2006 Philosophia (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Arneson R No Year No Source (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Gilbert M 1993 Ethics (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Singer P 1972 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Otsuka M 1994 Philos Public Aff (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Ross W 1930 Right Good (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Macedo S 1990 Liberal Virtues (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Strawson P 1968 Studies Philos Thoug (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Raz J 1986 Morality Freedom (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Williams B 1962 Philos Polit Soc (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Mcclennen E 1990 Rationality Dynamic (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Frye M 1983 Politics Reality Ess (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Hart H 1961 Concept Law (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Simmons A 1979 Moral Principles Pol (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Adams R 1985 Philos Rev (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Darwall S 1990 Nous (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Nagel T 1979 Mortal Questions (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Nozick R 1993 Nature Rationality (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Boorse C 1988 J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Anderson E 1993 Value Ethics Ec (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Harman G 1999 P Aristotelian Soc (6)", "nodeSize": 6  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Harsanyi J 1982 Utilitarianism (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Raz J 1999 Engaging Reason (4) THEO"
+    }, 
+    {
+      "group": "26", 
+      "name": "Kamm F 1989 Philos Stud (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Hart H 1982 Essays Bentham (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Sen A 1992 Inequality Reexamine (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Gauthier D 1994 Ethics (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Cullity G 1997 Ethics Practical Rea (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Zohar N 1993 Polit Theory (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Baker J 1987 Pac Philos Quart (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Williams B 1995 Making Sense Humanit (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Wolf S 1990 Freedom Reason (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Kavka G 1986 Hobbesian Moral Poli (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Horgan T 1992 Philos Papers (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Rawls J 1971 Theory Justice (53)", "nodeSize": 53  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Unger P 1996 Living High Letting (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Railton P 1989 Soc Philos Policy (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Woozley A 1983 VA Law Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Herman B 1993 Practice Moral Judgm (6)", "nodeSize": 6  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Butler J 1983 15 Sermons Preached (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Margalit A 1990 J Philos (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Dancy J 1993 Moral Reasons (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Ross W 1930 Right Good (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Nagel T 1991 Equality Partiality (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Darwall S 1977 Ethics (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Regan D 1980 Utilitarianism Coope (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Pogge T 1994 Philos Public Aff (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Griffin J 2008 Hum Rights (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Isen A 1972 J Pers Soc Psychol (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Parfit D 2011 What Matters (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mcmahan J 1993 Canadian J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Schueler G 1988 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Darwall S 1992 Philos Rev (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Lyons W 1980 Emotion (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Kagan S 1988 Ethics (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Foot P 1978 Virtues Vices (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Nussbaum M 1999 Sex Social Justice (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Taylor G 1985 Pride Shame Guilt Em (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Simmons A 1996 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Mcmahan J 2002 Ethics Killing Probl (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Parfit D 1984 Reasons Persons (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Harman G 1976 Rev Metaphys (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Dreier J 1993 Monist (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Boyd R 1988 Essays Moral Realism (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Slote M 1983 Goods Virtues (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Mcnaughton D 1991 Philos Stud (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Kittay E 1999 Loves Labor (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Gibbard A 1999 Ethics (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Feinberg J 1978 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Scheffler S 1985 Mind (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Nagel T 1970 Possibility Altruism (8)", "nodeSize": 8  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Darley J 1973 J Pers Soc Psychol (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Hill J 1992 Dignity Practical Re (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Barry B 2005 Why Social Justice M (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Copp D 2001 Soc Philos Policy (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Korsgaard C 1996 Sources Normativity (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Williams B 1985 Ethics Limits Philos (6)", "nodeSize": 6  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Rosati C 1996 Ethics (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Nagel T 1970 Possibility Altruism (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Cohen G 1989 Ethics (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Boyd R 2003 Philos Phenomen Res (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Railton P 1986 Philos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Scheffler S 1982 Rejection Consequent (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Broome J 1991 Weighing Goods (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Geach P 1960 Philos Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Dworkin R 1993 Lifes Dominion (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Ackerman B 1980 Social Justice Liber (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Wellman C 1995 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Brink D 1989 Moral Realism Fdn Et (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Murphy L 2000 Moral Demands Nonide (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Frankfurt H 1988 Importance What We C (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Sen A 1985 J Philos (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Kavka G 1983 Analysis (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Mcdowell J 1998 Mind Value Reality (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Roemer J 1998 Equality Opportunity (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "9", 
+      "name": "Brighouse H 1998 Ethics (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "D'arms J 2000 Philos Phenomen Res (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "30", 
+      "name": "Enoch D 2002 Law Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Nussbaum M 1992 Polit Theory (7)", "nodeSize": 7  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Raz J 1994 Ethics Public Domain (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Firth R 1952 Philos Phenomenologi (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Gauthier D 1996 Ethics Rationality E (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Hare R 1952 Language Morals (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Railton P 1986 Philos Topics (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Kramer M 2007 Oxford J Legal Stud (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Rawls J 1999 Theory Justice (9)", "nodeSize": 9  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Korsgaard C 1993 Soc Philos Policy (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "22", 
+      "name": "Fischer J 1998 Responsibility Contr (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Finnis J 1980 Natural Law Natural (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Stocker M 1990 Plural Conflicting V (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Slote M 1989 Optimizing Study Rat (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Hume D 1987 Essays Moral Politic (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Schelling T 1960 Strategy Conflict (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Scanlon T 1978 Public Private Moral (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Thomson J 1990 Realm Rights (8)", "nodeSize": 8  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Frankena W 1976 Perspectives Moralit (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Schoeman F 1987 Responsibility Chara (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Williams B 1981 Moral Luck (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Hill T 2000 Respect Pluralism Ju (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "7", 
+      "name": "Wasserman D 2003 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Nedelsky J 1989 Yale J Law Feminism (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Haidt J 2001 Psychol Rev (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Greenspan P 1975 J Philos (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Taylor C 1985 Philos Human Sci Phi (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Feinberg J 1984 Harm Others Moral Li (7)", "nodeSize": 7  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "21", 
+      "name": "Wellman C 1996 Philos Public Aff (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "0", 
+      "name": "Hume D 1739 Treatise Human Natur (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "28", 
+      "name": "Nagel T 1987 Philos Public Aff (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Harman G 1977 Nature Morality (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Taylor P 2000 Social Theory Practi (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "26", 
+      "name": "Foot P 1985 Mind (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "4", 
+      "name": "Quinn W 1989 Philos Rev (6)", "nodeSize": 6  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Lemos N 1994 Intrinsic Value Conc (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Whiting J 1991 Monist (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "14", 
+      "name": "Parfit D 2001 Exploring Practical (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Singer P 1993 Practical Ethics (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Okin S 1989 Justice Gender Famil (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "3", 
+      "name": "Mackie J 1977 Ethics Inventing Rig (8)", "nodeSize": 8  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "25", 
+      "name": "Feinberg J 1970 J Value Inquiry (4)", "nodeSize": 4  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "29", 
+      "name": "Tersman F 2008 Australas J Philos (3)", "nodeSize": 3  , "strokeWidth": 1, "strokecolor":"white" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Hurka T 1993 Perfectionism (5)", "nodeSize": 5  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "15", 
+      "name": "Dworkin G 1988 Theory Practice Auto (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "1", 
+      "name": "Pink T 1996 Psychol Freedom (3)", "nodeSize": 3  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "16", 
+      "name": "Mcnaughton D 1988 Moral Vision (4)", "nodeSize": 4  , "strokeWidth": 3, "strokecolor":"black" 
+    }, 
+    {
+      "group": "6", 
+      "name": "Wolff J 1998 Philos Public Aff (5)", "nodeSize": 5  , "strokeWidth": 1, "strokecolor":"white" 
+    }
+  ], 
+  "links": [
+    {
+      "source": 0, 
+      "target": 158, 
+      "value": 2
+    }, 
+    {
+      "source": 1, 
+      "target": 424, 
+      "value": 2
+    }, 
+    {
+      "source": 1, 
+      "target": 378, 
+      "value": 4
+    }, 
+    {
+      "source": 1, 
+      "target": 354, 
+      "value": 3
+    }, 
+    {
+      "source": 1, 
+      "target": 154, 
+      "value": 1
+    }, 
+    {
+      "source": 1, 
+      "target": 162, 
+      "value": 5
+    }, 
+    {
+      "source": 2, 
+      "target": 266, 
+      "value": 2
+    }, 
+    {
+      "source": 3, 
+      "target": 92, 
+      "value": 2
+    }, 
+    {
+      "source": 4, 
+      "target": 256, 
+      "value": 2
+    }, 
+    {
+      "source": 4, 
+      "target": 457, 
+      "value": 1
+    }, 
+    {
+      "source": 4, 
+      "target": 218, 
+      "value": 1
+    }, 
+    {
+      "source": 5, 
+      "target": 275, 
+      "value": 1
+    }, 
+    {
+      "source": 6, 
+      "target": 94, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 292, 
+      "value": 2
+    }, 
+    {
+      "source": 8, 
+      "target": 331, 
+      "value": 1
+    }, 
+    {
+      "source": 9, 
+      "target": 155, 
+      "value": 2
+    }, 
+    {
+      "source": 10, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 11, 
+      "target": 414, 
+      "value": 3
+    }, 
+    {
+      "source": 12, 
+      "target": 230, 
+      "value": 1
+    }, 
+    {
+      "source": 13, 
+      "target": 488, 
+      "value": 2
+    }, 
+    {
+      "source": 13, 
+      "target": 202, 
+      "value": 3
+    }, 
+    {
+      "source": 13, 
+      "target": 436, 
+      "value": 2
+    }, 
+    {
+      "source": 13, 
+      "target": 22, 
+      "value": 2
+    }, 
+    {
+      "source": 14, 
+      "target": 25, 
+      "value": 3
+    }, 
+    {
+      "source": 15, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 15, 
+      "target": 52, 
+      "value": 1
+    }, 
+    {
+      "source": 16, 
+      "target": 316, 
+      "value": 2
+    }, 
+    {
+      "source": 17, 
+      "target": 439, 
+      "value": 2
+    }, 
+    {
+      "source": 18, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 19, 
+      "target": 293, 
+      "value": 3
+    }, 
+    {
+      "source": 19, 
+      "target": 119, 
+      "value": 2
+    }, 
+    {
+      "source": 20, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 21, 
+      "target": 266, 
+      "value": 4
+    }, 
+    {
+      "source": 21, 
+      "target": 477, 
+      "value": 4
+    }, 
+    {
+      "source": 21, 
+      "target": 455, 
+      "value": 4
+    }, 
+    {
+      "source": 22, 
+      "target": 48, 
+      "value": 2
+    }, 
+    {
+      "source": 23, 
+      "target": 420, 
+      "value": 1
+    }, 
+    {
+      "source": 24, 
+      "target": 118, 
+      "value": 1
+    }, 
+    {
+      "source": 25, 
+      "target": 295, 
+      "value": 3
+    }, 
+    {
+      "source": 26, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 26, 
+      "target": 83, 
+      "value": 1
+    }, 
+    {
+      "source": 27, 
+      "target": 393, 
+      "value": 1
+    }, 
+    {
+      "source": 28, 
+      "target": 66, 
+      "value": 2
+    }, 
+    {
+      "source": 28, 
+      "target": 387, 
+      "value": 2
+    }, 
+    {
+      "source": 29, 
+      "target": 165, 
+      "value": 2
+    }, 
+    {
+      "source": 30, 
+      "target": 162, 
+      "value": 4
+    }, 
+    {
+      "source": 30, 
+      "target": 286, 
+      "value": 1
+    }, 
+    {
+      "source": 31, 
+      "target": 269, 
+      "value": 3
+    }, 
+    {
+      "source": 31, 
+      "target": 517, 
+      "value": 2
+    }, 
+    {
+      "source": 32, 
+      "target": 258, 
+      "value": 2
+    }, 
+    {
+      "source": 32, 
+      "target": 340, 
+      "value": 3
+    }, 
+    {
+      "source": 32, 
+      "target": 350, 
+      "value": 3
+    }, 
+    {
+      "source": 32, 
+      "target": 185, 
+      "value": 2
+    }, 
+    {
+      "source": 32, 
+      "target": 444, 
+      "value": 3
+    }, 
+    {
+      "source": 32, 
+      "target": 222, 
+      "value": 1
+    }, 
+    {
+      "source": 33, 
+      "target": 252, 
+      "value": 2
+    }, 
+    {
+      "source": 34, 
+      "target": 456, 
+      "value": 2
+    }, 
+    {
+      "source": 35, 
+      "target": 152, 
+      "value": 1
+    }, 
+    {
+      "source": 36, 
+      "target": 388, 
+      "value": 2
+    }, 
+    {
+      "source": 37, 
+      "target": 450, 
+      "value": 2
+    }, 
+    {
+      "source": 37, 
+      "target": 303, 
+      "value": 1
+    }, 
+    {
+      "source": 38, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 39, 
+      "target": 517, 
+      "value": 1
+    }, 
+    {
+      "source": 40, 
+      "target": 43, 
+      "value": 3
+    }, 
+    {
+      "source": 40, 
+      "target": 93, 
+      "value": 3
+    }, 
+    {
+      "source": 40, 
+      "target": 439, 
+      "value": 2
+    }, 
+    {
+      "source": 41, 
+      "target": 70, 
+      "value": 2
+    }, 
+    {
+      "source": 42, 
+      "target": 460, 
+      "value": 2
+    }, 
+    {
+      "source": 43, 
+      "target": 80, 
+      "value": 2
+    }, 
+    {
+      "source": 44, 
+      "target": 434, 
+      "value": 2
+    }, 
+    {
+      "source": 45, 
+      "target": 267, 
+      "value": 4
+    }, 
+    {
+      "source": 45, 
+      "target": 476, 
+      "value": 3
+    }, 
+    {
+      "source": 46, 
+      "target": 57, 
+      "value": 1
+    }, 
+    {
+      "source": 46, 
+      "target": 91, 
+      "value": 2
+    }, 
+    {
+      "source": 46, 
+      "target": 316, 
+      "value": 2
+    }, 
+    {
+      "source": 46, 
+      "target": 501, 
+      "value": 2
+    }, 
+    {
+      "source": 47, 
+      "target": 414, 
+      "value": 2
+    }, 
+    {
+      "source": 49, 
+      "target": 202, 
+      "value": 3
+    }, 
+    {
+      "source": 50, 
+      "target": 408, 
+      "value": 4
+    }, 
+    {
+      "source": 51, 
+      "target": 207, 
+      "value": 2
+    }, 
+    {
+      "source": 53, 
+      "target": 485, 
+      "value": 2
+    }, 
+    {
+      "source": 53, 
+      "target": 94, 
+      "value": 2
+    }, 
+    {
+      "source": 54, 
+      "target": 465, 
+      "value": 3
+    }, 
+    {
+      "source": 54, 
+      "target": 74, 
+      "value": 2
+    }, 
+    {
+      "source": 55, 
+      "target": 486, 
+      "value": 1
+    }, 
+    {
+      "source": 56, 
+      "target": 307, 
+      "value": 1
+    }, 
+    {
+      "source": 58, 
+      "target": 280, 
+      "value": 3
+    }, 
+    {
+      "source": 59, 
+      "target": 229, 
+      "value": 2
+    }, 
+    {
+      "source": 60, 
+      "target": 148, 
+      "value": 2
+    }, 
+    {
+      "source": 61, 
+      "target": 455, 
+      "value": 2
+    }, 
+    {
+      "source": 62, 
+      "target": 330, 
+      "value": 1
+    }, 
+    {
+      "source": 63, 
+      "target": 161, 
+      "value": 1
+    }, 
+    {
+      "source": 63, 
+      "target": 197, 
+      "value": 3
+    }, 
+    {
+      "source": 63, 
+      "target": 134, 
+      "value": 4
+    }, 
+    {
+      "source": 63, 
+      "target": 455, 
+      "value": 6
+    }, 
+    {
+      "source": 63, 
+      "target": 266, 
+      "value": 5
+    }, 
+    {
+      "source": 63, 
+      "target": 312, 
+      "value": 3
+    }, 
+    {
+      "source": 63, 
+      "target": 347, 
+      "value": 4
+    }, 
+    {
+      "source": 63, 
+      "target": 477, 
+      "value": 6
+    }, 
+    {
+      "source": 63, 
+      "target": 159, 
+      "value": 5
+    }, 
+    {
+      "source": 64, 
+      "target": 470, 
+      "value": 3
+    }, 
+    {
+      "source": 65, 
+      "target": 176, 
+      "value": 3
+    }, 
+    {
+      "source": 66, 
+      "target": 453, 
+      "value": 3
+    }, 
+    {
+      "source": 66, 
+      "target": 455, 
+      "value": 4
+    }, 
+    {
+      "source": 66, 
+      "target": 172, 
+      "value": 4
+    }, 
+    {
+      "source": 66, 
+      "target": 369, 
+      "value": 2
+    }, 
+    {
+      "source": 66, 
+      "target": 498, 
+      "value": 3
+    }, 
+    {
+      "source": 66, 
+      "target": 275, 
+      "value": 3
+    }, 
+    {
+      "source": 66, 
+      "target": 372, 
+      "value": 2
+    }, 
+    {
+      "source": 66, 
+      "target": 314, 
+      "value": 5
+    }, 
+    {
+      "source": 66, 
+      "target": 347, 
+      "value": 3
+    }, 
+    {
+      "source": 66, 
+      "target": 159, 
+      "value": 5
+    }, 
+    {
+      "source": 67, 
+      "target": 199, 
+      "value": 1
+    }, 
+    {
+      "source": 68, 
+      "target": 305, 
+      "value": 2
+    }, 
+    {
+      "source": 68, 
+      "target": 92, 
+      "value": 2
+    }, 
+    {
+      "source": 69, 
+      "target": 460, 
+      "value": 2
+    }, 
+    {
+      "source": 69, 
+      "target": 493, 
+      "value": 1
+    }, 
+    {
+      "source": 69, 
+      "target": 189, 
+      "value": 1
+    }, 
+    {
+      "source": 70, 
+      "target": 157, 
+      "value": 2
+    }, 
+    {
+      "source": 71, 
+      "target": 356, 
+      "value": 1
+    }, 
+    {
+      "source": 72, 
+      "target": 367, 
+      "value": 1
+    }, 
+    {
+      "source": 73, 
+      "target": 363, 
+      "value": 1
+    }, 
+    {
+      "source": 75, 
+      "target": 243, 
+      "value": 2
+    }, 
+    {
+      "source": 75, 
+      "target": 316, 
+      "value": 4
+    }, 
+    {
+      "source": 75, 
+      "target": 229, 
+      "value": 3
+    }, 
+    {
+      "source": 76, 
+      "target": 155, 
+      "value": 2
+    }, 
+    {
+      "source": 77, 
+      "target": 328, 
+      "value": 2
+    }, 
+    {
+      "source": 77, 
+      "target": 176, 
+      "value": 2
+    }, 
+    {
+      "source": 78, 
+      "target": 466, 
+      "value": 2
+    }, 
+    {
+      "source": 79, 
+      "target": 511, 
+      "value": 2
+    }, 
+    {
+      "source": 81, 
+      "target": 326, 
+      "value": 1
+    }, 
+    {
+      "source": 82, 
+      "target": 207, 
+      "value": 1
+    }, 
+    {
+      "source": 84, 
+      "target": 181, 
+      "value": 4
+    }, 
+    {
+      "source": 85, 
+      "target": 396, 
+      "value": 1
+    }, 
+    {
+      "source": 86, 
+      "target": 316, 
+      "value": 3
+    }, 
+    {
+      "source": 87, 
+      "target": 398, 
+      "value": 2
+    }, 
+    {
+      "source": 88, 
+      "target": 455, 
+      "value": 2
+    }, 
+    {
+      "source": 89, 
+      "target": 118, 
+      "value": 2
+    }, 
+    {
+      "source": 90, 
+      "target": 347, 
+      "value": 2
+    }, 
+    {
+      "source": 90, 
+      "target": 427, 
+      "value": 2
+    }, 
+    {
+      "source": 90, 
+      "target": 175, 
+      "value": 2
+    }, 
+    {
+      "source": 92, 
+      "target": 164, 
+      "value": 2
+    }, 
+    {
+      "source": 92, 
+      "target": 429, 
+      "value": 2
+    }, 
+    {
+      "source": 93, 
+      "target": 323, 
+      "value": 5
+    }, 
+    {
+      "source": 93, 
+      "target": 167, 
+      "value": 3
+    }, 
+    {
+      "source": 93, 
+      "target": 202, 
+      "value": 4
+    }, 
+    {
+      "source": 93, 
+      "target": 114, 
+      "value": 3
+    }, 
+    {
+      "source": 93, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 94, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 94, 
+      "target": 359, 
+      "value": 2
+    }, 
+    {
+      "source": 95, 
+      "target": 384, 
+      "value": 1
+    }, 
+    {
+      "source": 95, 
+      "target": 434, 
+      "value": 3
+    }, 
+    {
+      "source": 95, 
+      "target": 363, 
+      "value": 2
+    }, 
+    {
+      "source": 96, 
+      "target": 455, 
+      "value": 3
+    }, 
+    {
+      "source": 96, 
+      "target": 490, 
+      "value": 2
+    }, 
+    {
+      "source": 96, 
+      "target": 381, 
+      "value": 2
+    }, 
+    {
+      "source": 96, 
+      "target": 408, 
+      "value": 4
+    }, 
+    {
+      "source": 96, 
+      "target": 477, 
+      "value": 3
+    }, 
+    {
+      "source": 96, 
+      "target": 266, 
+      "value": 3
+    }, 
+    {
+      "source": 97, 
+      "target": 229, 
+      "value": 3
+    }, 
+    {
+      "source": 98, 
+      "target": 432, 
+      "value": 2
+    }, 
+    {
+      "source": 98, 
+      "target": 316, 
+      "value": 2
+    }, 
+    {
+      "source": 99, 
+      "target": 428, 
+      "value": 1
+    }, 
+    {
+      "source": 100, 
+      "target": 408, 
+      "value": 1
+    }, 
+    {
+      "source": 101, 
+      "target": 405, 
+      "value": 2
+    }, 
+    {
+      "source": 101, 
+      "target": 455, 
+      "value": 2
+    }, 
+    {
+      "source": 102, 
+      "target": 419, 
+      "value": 1
+    }, 
+    {
+      "source": 103, 
+      "target": 275, 
+      "value": 3
+    }, 
+    {
+      "source": 104, 
+      "target": 257, 
+      "value": 1
+    }, 
+    {
+      "source": 105, 
+      "target": 215, 
+      "value": 2
+    }, 
+    {
+      "source": 106, 
+      "target": 225, 
+      "value": 1
+    }, 
+    {
+      "source": 107, 
+      "target": 352, 
+      "value": 3
+    }, 
+    {
+      "source": 107, 
+      "target": 217, 
+      "value": 1
+    }, 
+    {
+      "source": 107, 
+      "target": 152, 
+      "value": 3
+    }, 
+    {
+      "source": 108, 
+      "target": 416, 
+      "value": 2
+    }, 
+    {
+      "source": 109, 
+      "target": 267, 
+      "value": 1
+    }, 
+    {
+      "source": 110, 
+      "target": 267, 
+      "value": 2
+    }, 
+    {
+      "source": 110, 
+      "target": 413, 
+      "value": 1
+    }, 
+    {
+      "source": 111, 
+      "target": 275, 
+      "value": 2
+    }, 
+    {
+      "source": 112, 
+      "target": 254, 
+      "value": 1
+    }, 
+    {
+      "source": 113, 
+      "target": 176, 
+      "value": 2
+    }, 
+    {
+      "source": 114, 
+      "target": 409, 
+      "value": 1
+    }, 
+    {
+      "source": 114, 
+      "target": 148, 
+      "value": 3
+    }, 
+    {
+      "source": 114, 
+      "target": 132, 
+      "value": 2
+    }, 
+    {
+      "source": 114, 
+      "target": 117, 
+      "value": 3
+    }, 
+    {
+      "source": 115, 
+      "target": 297, 
+      "value": 1
+    }, 
+    {
+      "source": 115, 
+      "target": 311, 
+      "value": 1
+    }, 
+    {
+      "source": 116, 
+      "target": 364, 
+      "value": 3
+    }, 
+    {
+      "source": 117, 
+      "target": 411, 
+      "value": 2
+    }, 
+    {
+      "source": 117, 
+      "target": 140, 
+      "value": 2
+    }, 
+    {
+      "source": 118, 
+      "target": 408, 
+      "value": 5
+    }, 
+    {
+      "source": 118, 
+      "target": 196, 
+      "value": 1
+    }, 
+    {
+      "source": 120, 
+      "target": 417, 
+      "value": 1
+    }, 
+    {
+      "source": 121, 
+      "target": 127, 
+      "value": 2
+    }, 
+    {
+      "source": 122, 
+      "target": 452, 
+      "value": 2
+    }, 
+    {
+      "source": 123, 
+      "target": 481, 
+      "value": 2
+    }, 
+    {
+      "source": 123, 
+      "target": 155, 
+      "value": 2
+    }, 
+    {
+      "source": 124, 
+      "target": 225, 
+      "value": 4
+    }, 
+    {
+      "source": 125, 
+      "target": 459, 
+      "value": 1
+    }, 
+    {
+      "source": 125, 
+      "target": 340, 
+      "value": 1
+    }, 
+    {
+      "source": 126, 
+      "target": 428, 
+      "value": 3
+    }, 
+    {
+      "source": 127, 
+      "target": 155, 
+      "value": 2
+    }, 
+    {
+      "source": 127, 
+      "target": 206, 
+      "value": 2
+    }, 
+    {
+      "source": 128, 
+      "target": 237, 
+      "value": 1
+    }, 
+    {
+      "source": 128, 
+      "target": 350, 
+      "value": 1
+    }, 
+    {
+      "source": 129, 
+      "target": 169, 
+      "value": 2
+    }, 
+    {
+      "source": 130, 
+      "target": 155, 
+      "value": 2
+    }, 
+    {
+      "source": 131, 
+      "target": 398, 
+      "value": 2
+    }, 
+    {
+      "source": 133, 
+      "target": 180, 
+      "value": 2
+    }, 
+    {
+      "source": 135, 
+      "target": 238, 
+      "value": 2
+    }, 
+    {
+      "source": 136, 
+      "target": 186, 
+      "value": 1
+    }, 
+    {
+      "source": 136, 
+      "target": 351, 
+      "value": 1
+    }, 
+    {
+      "source": 137, 
+      "target": 242, 
+      "value": 4
+    }, 
+    {
+      "source": 137, 
+      "target": 234, 
+      "value": 4
+    }, 
+    {
+      "source": 138, 
+      "target": 323, 
+      "value": 3
+    }, 
+    {
+      "source": 139, 
+      "target": 456, 
+      "value": 2
+    }, 
+    {
+      "source": 141, 
+      "target": 394, 
+      "value": 3
+    }, 
+    {
+      "source": 141, 
+      "target": 339, 
+      "value": 3
+    }, 
+    {
+      "source": 142, 
+      "target": 404, 
+      "value": 2
+    }, 
+    {
+      "source": 143, 
+      "target": 433, 
+      "value": 1
+    }, 
+    {
+      "source": 143, 
+      "target": 378, 
+      "value": 3
+    }, 
+    {
+      "source": 143, 
+      "target": 282, 
+      "value": 1
+    }, 
+    {
+      "source": 144, 
+      "target": 350, 
+      "value": 1
+    }, 
+    {
+      "source": 145, 
+      "target": 229, 
+      "value": 2
+    }, 
+    {
+      "source": 146, 
+      "target": 390, 
+      "value": 1
+    }, 
+    {
+      "source": 147, 
+      "target": 464, 
+      "value": 3
+    }, 
+    {
+      "source": 148, 
+      "target": 289, 
+      "value": 3
+    }, 
+    {
+      "source": 148, 
+      "target": 323, 
+      "value": 3
+    }, 
+    {
+      "source": 148, 
+      "target": 426, 
+      "value": 3
+    }, 
+    {
+      "source": 148, 
+      "target": 364, 
+      "value": 3
+    }, 
+    {
+      "source": 148, 
+      "target": 401, 
+      "value": 2
+    }, 
+    {
+      "source": 148, 
+      "target": 180, 
+      "value": 3
+    }, 
+    {
+      "source": 148, 
+      "target": 408, 
+      "value": 6
+    }, 
+    {
+      "source": 148, 
+      "target": 202, 
+      "value": 4
+    }, 
+    {
+      "source": 149, 
+      "target": 416, 
+      "value": 2
+    }, 
+    {
+      "source": 150, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 151, 
+      "target": 408, 
+      "value": 5
+    }, 
+    {
+      "source": 151, 
+      "target": 225, 
+      "value": 5
+    }, 
+    {
+      "source": 151, 
+      "target": 253, 
+      "value": 2
+    }, 
+    {
+      "source": 151, 
+      "target": 201, 
+      "value": 4
+    }, 
+    {
+      "source": 152, 
+      "target": 380, 
+      "value": 2
+    }, 
+    {
+      "source": 152, 
+      "target": 414, 
+      "value": 4
+    }, 
+    {
+      "source": 153, 
+      "target": 408, 
+      "value": 1
+    }, 
+    {
+      "source": 155, 
+      "target": 236, 
+      "value": 2
+    }, 
+    {
+      "source": 155, 
+      "target": 491, 
+      "value": 5
+    }, 
+    {
+      "source": 155, 
+      "target": 322, 
+      "value": 2
+    }, 
+    {
+      "source": 155, 
+      "target": 207, 
+      "value": 3
+    }, 
+    {
+      "source": 155, 
+      "target": 464, 
+      "value": 5
+    }, 
+    {
+      "source": 155, 
+      "target": 271, 
+      "value": 2
+    }, 
+    {
+      "source": 155, 
+      "target": 178, 
+      "value": 2
+    }, 
+    {
+      "source": 155, 
+      "target": 211, 
+      "value": 3
+    }, 
+    {
+      "source": 155, 
+      "target": 500, 
+      "value": 3
+    }, 
+    {
+      "source": 155, 
+      "target": 245, 
+      "value": 3
+    }, 
+    {
+      "source": 155, 
+      "target": 408, 
+      "value": 4
+    }, 
+    {
+      "source": 155, 
+      "target": 441, 
+      "value": 2
+    }, 
+    {
+      "source": 155, 
+      "target": 346, 
+      "value": 2
+    }, 
+    {
+      "source": 155, 
+      "target": 347, 
+      "value": 4
+    }, 
+    {
+      "source": 155, 
+      "target": 252, 
+      "value": 2
+    }, 
+    {
+      "source": 155, 
+      "target": 318, 
+      "value": 4
+    }, 
+    {
+      "source": 156, 
+      "target": 418, 
+      "value": 2
+    }, 
+    {
+      "source": 157, 
+      "target": 370, 
+      "value": 4
+    }, 
+    {
+      "source": 157, 
+      "target": 458, 
+      "value": 2
+    }, 
+    {
+      "source": 157, 
+      "target": 267, 
+      "value": 5
+    }, 
+    {
+      "source": 157, 
+      "target": 290, 
+      "value": 4
+    }, 
+    {
+      "source": 158, 
+      "target": 453, 
+      "value": 2
+    }, 
+    {
+      "source": 158, 
+      "target": 327, 
+      "value": 1
+    }, 
+    {
+      "source": 159, 
+      "target": 452, 
+      "value": 3
+    }, 
+    {
+      "source": 159, 
+      "target": 262, 
+      "value": 3
+    }, 
+    {
+      "source": 159, 
+      "target": 455, 
+      "value": 5
+    }, 
+    {
+      "source": 159, 
+      "target": 266, 
+      "value": 3
+    }, 
+    {
+      "source": 159, 
+      "target": 466, 
+      "value": 4
+    }, 
+    {
+      "source": 159, 
+      "target": 477, 
+      "value": 5
+    }, 
+    {
+      "source": 159, 
+      "target": 400, 
+      "value": 4
+    }, 
+    {
+      "source": 159, 
+      "target": 338, 
+      "value": 2
+    }, 
+    {
+      "source": 159, 
+      "target": 275, 
+      "value": 4
+    }, 
+    {
+      "source": 159, 
+      "target": 408, 
+      "value": 5
+    }, 
+    {
+      "source": 159, 
+      "target": 202, 
+      "value": 4
+    }, 
+    {
+      "source": 160, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 160, 
+      "target": 421, 
+      "value": 1
+    }, 
+    {
+      "source": 162, 
+      "target": 292, 
+      "value": 2
+    }, 
+    {
+      "source": 162, 
+      "target": 299, 
+      "value": 3
+    }, 
+    {
+      "source": 162, 
+      "target": 173, 
+      "value": 2
+    }, 
+    {
+      "source": 162, 
+      "target": 366, 
+      "value": 2
+    }, 
+    {
+      "source": 162, 
+      "target": 179, 
+      "value": 2
+    }, 
+    {
+      "source": 162, 
+      "target": 374, 
+      "value": 2
+    }, 
+    {
+      "source": 162, 
+      "target": 378, 
+      "value": 4
+    }, 
+    {
+      "source": 163, 
+      "target": 301, 
+      "value": 2
+    }, 
+    {
+      "source": 164, 
+      "target": 248, 
+      "value": 1
+    }, 
+    {
+      "source": 165, 
+      "target": 299, 
+      "value": 2
+    }, 
+    {
+      "source": 165, 
+      "target": 227, 
+      "value": 2
+    }, 
+    {
+      "source": 166, 
+      "target": 408, 
+      "value": 5
+    }, 
+    {
+      "source": 166, 
+      "target": 297, 
+      "value": 3
+    }, 
+    {
+      "source": 166, 
+      "target": 410, 
+      "value": 3
+    }, 
+    {
+      "source": 166, 
+      "target": 477, 
+      "value": 4
+    }, 
+    {
+      "source": 166, 
+      "target": 455, 
+      "value": 3
+    }, 
+    {
+      "source": 167, 
+      "target": 319, 
+      "value": 2
+    }, 
+    {
+      "source": 168, 
+      "target": 450, 
+      "value": 2
+    }, 
+    {
+      "source": 169, 
+      "target": 480, 
+      "value": 2
+    }, 
+    {
+      "source": 169, 
+      "target": 442, 
+      "value": 1
+    }, 
+    {
+      "source": 169, 
+      "target": 267, 
+      "value": 3
+    }, 
+    {
+      "source": 170, 
+      "target": 382, 
+      "value": 3
+    }, 
+    {
+      "source": 171, 
+      "target": 343, 
+      "value": 2
+    }, 
+    {
+      "source": 172, 
+      "target": 456, 
+      "value": 4
+    }, 
+    {
+      "source": 172, 
+      "target": 233, 
+      "value": 2
+    }, 
+    {
+      "source": 172, 
+      "target": 358, 
+      "value": 3
+    }, 
+    {
+      "source": 172, 
+      "target": 249, 
+      "value": 1
+    }, 
+    {
+      "source": 174, 
+      "target": 313, 
+      "value": 3
+    }, 
+    {
+      "source": 174, 
+      "target": 347, 
+      "value": 3
+    }, 
+    {
+      "source": 174, 
+      "target": 491, 
+      "value": 4
+    }, 
+    {
+      "source": 174, 
+      "target": 284, 
+      "value": 3
+    }, 
+    {
+      "source": 177, 
+      "target": 466, 
+      "value": 2
+    }, 
+    {
+      "source": 181, 
+      "target": 288, 
+      "value": 2
+    }, 
+    {
+      "source": 182, 
+      "target": 464, 
+      "value": 2
+    }, 
+    {
+      "source": 182, 
+      "target": 371, 
+      "value": 1
+    }, 
+    {
+      "source": 183, 
+      "target": 452, 
+      "value": 2
+    }, 
+    {
+      "source": 184, 
+      "target": 194, 
+      "value": 1
+    }, 
+    {
+      "source": 187, 
+      "target": 239, 
+      "value": 2
+    }, 
+    {
+      "source": 188, 
+      "target": 453, 
+      "value": 2
+    }, 
+    {
+      "source": 189, 
+      "target": 368, 
+      "value": 1
+    }, 
+    {
+      "source": 190, 
+      "target": 512, 
+      "value": 2
+    }, 
+    {
+      "source": 190, 
+      "target": 345, 
+      "value": 1
+    }, 
+    {
+      "source": 190, 
+      "target": 270, 
+      "value": 2
+    }, 
+    {
+      "source": 190, 
+      "target": 478, 
+      "value": 3
+    }, 
+    {
+      "source": 191, 
+      "target": 393, 
+      "value": 1
+    }, 
+    {
+      "source": 191, 
+      "target": 250, 
+      "value": 1
+    }, 
+    {
+      "source": 192, 
+      "target": 316, 
+      "value": 1
+    }, 
+    {
+      "source": 193, 
+      "target": 323, 
+      "value": 3
+    }, 
+    {
+      "source": 194, 
+      "target": 382, 
+      "value": 2
+    }, 
+    {
+      "source": 194, 
+      "target": 223, 
+      "value": 2
+    }, 
+    {
+      "source": 195, 
+      "target": 314, 
+      "value": 1
+    }, 
+    {
+      "source": 197, 
+      "target": 312, 
+      "value": 3
+    }, 
+    {
+      "source": 198, 
+      "target": 470, 
+      "value": 3
+    }, 
+    {
+      "source": 199, 
+      "target": 417, 
+      "value": 2
+    }, 
+    {
+      "source": 200, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 201, 
+      "target": 256, 
+      "value": 6
+    }, 
+    {
+      "source": 201, 
+      "target": 225, 
+      "value": 6
+    }, 
+    {
+      "source": 201, 
+      "target": 453, 
+      "value": 6
+    }, 
+    {
+      "source": 201, 
+      "target": 518, 
+      "value": 4
+    }, 
+    {
+      "source": 201, 
+      "target": 300, 
+      "value": 3
+    }, 
+    {
+      "source": 201, 
+      "target": 306, 
+      "value": 3
+    }, 
+    {
+      "source": 201, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 201, 
+      "target": 383, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 393, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 215, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 275, 
+      "value": 4
+    }, 
+    {
+      "source": 202, 
+      "target": 279, 
+      "value": 4
+    }, 
+    {
+      "source": 202, 
+      "target": 408, 
+      "value": 6
+    }, 
+    {
+      "source": 202, 
+      "target": 291, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 434, 
+      "value": 5
+    }, 
+    {
+      "source": 202, 
+      "target": 312, 
+      "value": 4
+    }, 
+    {
+      "source": 202, 
+      "target": 321, 
+      "value": 4
+    }, 
+    {
+      "source": 202, 
+      "target": 323, 
+      "value": 5
+    }, 
+    {
+      "source": 202, 
+      "target": 324, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 455, 
+      "value": 4
+    }, 
+    {
+      "source": 202, 
+      "target": 205, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 343, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 477, 
+      "value": 4
+    }, 
+    {
+      "source": 202, 
+      "target": 360, 
+      "value": 2
+    }, 
+    {
+      "source": 202, 
+      "target": 491, 
+      "value": 4
+    }, 
+    {
+      "source": 203, 
+      "target": 366, 
+      "value": 2
+    }, 
+    {
+      "source": 204, 
+      "target": 466, 
+      "value": 2
+    }, 
+    {
+      "source": 206, 
+      "target": 349, 
+      "value": 1
+    }, 
+    {
+      "source": 207, 
+      "target": 435, 
+      "value": 2
+    }, 
+    {
+      "source": 208, 
+      "target": 378, 
+      "value": 1
+    }, 
+    {
+      "source": 209, 
+      "target": 386, 
+      "value": 2
+    }, 
+    {
+      "source": 210, 
+      "target": 370, 
+      "value": 2
+    }, 
+    {
+      "source": 211, 
+      "target": 496, 
+      "value": 2
+    }, 
+    {
+      "source": 212, 
+      "target": 464, 
+      "value": 1
+    }, 
+    {
+      "source": 213, 
+      "target": 398, 
+      "value": 2
+    }, 
+    {
+      "source": 214, 
+      "target": 417, 
+      "value": 2
+    }, 
+    {
+      "source": 216, 
+      "target": 394, 
+      "value": 2
+    }, 
+    {
+      "source": 219, 
+      "target": 312, 
+      "value": 3
+    }, 
+    {
+      "source": 220, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 221, 
+      "target": 400, 
+      "value": 4
+    }, 
+    {
+      "source": 224, 
+      "target": 389, 
+      "value": 1
+    }, 
+    {
+      "source": 225, 
+      "target": 256, 
+      "value": 4
+    }, 
+    {
+      "source": 225, 
+      "target": 453, 
+      "value": 7
+    }, 
+    {
+      "source": 225, 
+      "target": 518, 
+      "value": 5
+    }, 
+    {
+      "source": 225, 
+      "target": 300, 
+      "value": 4
+    }, 
+    {
+      "source": 225, 
+      "target": 408, 
+      "value": 6
+    }, 
+    {
+      "source": 225, 
+      "target": 329, 
+      "value": 1
+    }, 
+    {
+      "source": 225, 
+      "target": 479, 
+      "value": 3
+    }, 
+    {
+      "source": 226, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 228, 
+      "target": 323, 
+      "value": 4
+    }, 
+    {
+      "source": 228, 
+      "target": 403, 
+      "value": 1
+    }, 
+    {
+      "source": 230, 
+      "target": 386, 
+      "value": 2
+    }, 
+    {
+      "source": 231, 
+      "target": 245, 
+      "value": 1
+    }, 
+    {
+      "source": 232, 
+      "target": 402, 
+      "value": 1
+    }, 
+    {
+      "source": 234, 
+      "target": 466, 
+      "value": 3
+    }, 
+    {
+      "source": 235, 
+      "target": 350, 
+      "value": 2
+    }, 
+    {
+      "source": 238, 
+      "target": 466, 
+      "value": 4
+    }, 
+    {
+      "source": 239, 
+      "target": 426, 
+      "value": 2
+    }, 
+    {
+      "source": 239, 
+      "target": 287, 
+      "value": 2
+    }, 
+    {
+      "source": 240, 
+      "target": 453, 
+      "value": 2
+    }, 
+    {
+      "source": 241, 
+      "target": 279, 
+      "value": 3
+    }, 
+    {
+      "source": 244, 
+      "target": 347, 
+      "value": 2
+    }, 
+    {
+      "source": 245, 
+      "target": 337, 
+      "value": 2
+    }, 
+    {
+      "source": 246, 
+      "target": 347, 
+      "value": 2
+    }, 
+    {
+      "source": 247, 
+      "target": 421, 
+      "value": 1
+    }, 
+    {
+      "source": 251, 
+      "target": 267, 
+      "value": 3
+    }, 
+    {
+      "source": 251, 
+      "target": 357, 
+      "value": 2
+    }, 
+    {
+      "source": 254, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 255, 
+      "target": 518, 
+      "value": 3
+    }, 
+    {
+      "source": 256, 
+      "target": 453, 
+      "value": 7
+    }, 
+    {
+      "source": 256, 
+      "target": 518, 
+      "value": 4
+    }, 
+    {
+      "source": 256, 
+      "target": 306, 
+      "value": 3
+    }, 
+    {
+      "source": 256, 
+      "target": 408, 
+      "value": 5
+    }, 
+    {
+      "source": 256, 
+      "target": 283, 
+      "value": 3
+    }, 
+    {
+      "source": 257, 
+      "target": 366, 
+      "value": 2
+    }, 
+    {
+      "source": 259, 
+      "target": 358, 
+      "value": 2
+    }, 
+    {
+      "source": 260, 
+      "target": 418, 
+      "value": 3
+    }, 
+    {
+      "source": 261, 
+      "target": 453, 
+      "value": 4
+    }, 
+    {
+      "source": 262, 
+      "target": 400, 
+      "value": 4
+    }, 
+    {
+      "source": 262, 
+      "target": 484, 
+      "value": 1
+    }, 
+    {
+      "source": 263, 
+      "target": 336, 
+      "value": 3
+    }, 
+    {
+      "source": 263, 
+      "target": 370, 
+      "value": 4
+    }, 
+    {
+      "source": 263, 
+      "target": 267, 
+      "value": 5
+    }, 
+    {
+      "source": 264, 
+      "target": 290, 
+      "value": 5
+    }, 
+    {
+      "source": 264, 
+      "target": 467, 
+      "value": 3
+    }, 
+    {
+      "source": 264, 
+      "target": 370, 
+      "value": 4
+    }, 
+    {
+      "source": 265, 
+      "target": 473, 
+      "value": 1
+    }, 
+    {
+      "source": 266, 
+      "target": 356, 
+      "value": 3
+    }, 
+    {
+      "source": 266, 
+      "target": 294, 
+      "value": 3
+    }, 
+    {
+      "source": 266, 
+      "target": 455, 
+      "value": 5
+    }, 
+    {
+      "source": 266, 
+      "target": 477, 
+      "value": 5
+    }, 
+    {
+      "source": 267, 
+      "target": 290, 
+      "value": 8
+    }, 
+    {
+      "source": 267, 
+      "target": 370, 
+      "value": 7
+    }, 
+    {
+      "source": 267, 
+      "target": 415, 
+      "value": 2
+    }, 
+    {
+      "source": 268, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 270, 
+      "target": 471, 
+      "value": 1
+    }, 
+    {
+      "source": 272, 
+      "target": 435, 
+      "value": 2
+    }, 
+    {
+      "source": 272, 
+      "target": 486, 
+      "value": 2
+    }, 
+    {
+      "source": 273, 
+      "target": 396, 
+      "value": 1
+    }, 
+    {
+      "source": 273, 
+      "target": 382, 
+      "value": 2
+    }, 
+    {
+      "source": 274, 
+      "target": 290, 
+      "value": 1
+    }, 
+    {
+      "source": 275, 
+      "target": 443, 
+      "value": 2
+    }, 
+    {
+      "source": 275, 
+      "target": 504, 
+      "value": 2
+    }, 
+    {
+      "source": 275, 
+      "target": 309, 
+      "value": 2
+    }, 
+    {
+      "source": 275, 
+      "target": 408, 
+      "value": 7
+    }, 
+    {
+      "source": 275, 
+      "target": 505, 
+      "value": 2
+    }, 
+    {
+      "source": 275, 
+      "target": 314, 
+      "value": 3
+    }, 
+    {
+      "source": 275, 
+      "target": 399, 
+      "value": 3
+    }, 
+    {
+      "source": 275, 
+      "target": 382, 
+      "value": 4
+    }, 
+    {
+      "source": 276, 
+      "target": 301, 
+      "value": 2
+    }, 
+    {
+      "source": 277, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 277, 
+      "target": 331, 
+      "value": 2
+    }, 
+    {
+      "source": 278, 
+      "target": 465, 
+      "value": 3
+    }, 
+    {
+      "source": 279, 
+      "target": 312, 
+      "value": 3
+    }, 
+    {
+      "source": 279, 
+      "target": 408, 
+      "value": 4
+    }, 
+    {
+      "source": 280, 
+      "target": 470, 
+      "value": 4
+    }, 
+    {
+      "source": 281, 
+      "target": 400, 
+      "value": 2
+    }, 
+    {
+      "source": 285, 
+      "target": 316, 
+      "value": 3
+    }, 
+    {
+      "source": 290, 
+      "target": 425, 
+      "value": 2
+    }, 
+    {
+      "source": 290, 
+      "target": 370, 
+      "value": 6
+    }, 
+    {
+      "source": 290, 
+      "target": 367, 
+      "value": 3
+    }, 
+    {
+      "source": 290, 
+      "target": 308, 
+      "value": 4
+    }, 
+    {
+      "source": 290, 
+      "target": 365, 
+      "value": 3
+    }, 
+    {
+      "source": 295, 
+      "target": 389, 
+      "value": 2
+    }, 
+    {
+      "source": 296, 
+      "target": 427, 
+      "value": 2
+    }, 
+    {
+      "source": 297, 
+      "target": 477, 
+      "value": 4
+    }, 
+    {
+      "source": 298, 
+      "target": 379, 
+      "value": 1
+    }, 
+    {
+      "source": 300, 
+      "target": 355, 
+      "value": 3
+    }, 
+    {
+      "source": 300, 
+      "target": 447, 
+      "value": 2
+    }, 
+    {
+      "source": 300, 
+      "target": 518, 
+      "value": 3
+    }, 
+    {
+      "source": 301, 
+      "target": 318, 
+      "value": 5
+    }, 
+    {
+      "source": 302, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 304, 
+      "target": 466, 
+      "value": 3
+    }, 
+    {
+      "source": 307, 
+      "target": 428, 
+      "value": 2
+    }, 
+    {
+      "source": 308, 
+      "target": 336, 
+      "value": 3
+    }, 
+    {
+      "source": 308, 
+      "target": 370, 
+      "value": 3
+    }, 
+    {
+      "source": 308, 
+      "target": 334, 
+      "value": 3
+    }, 
+    {
+      "source": 310, 
+      "target": 386, 
+      "value": 2
+    }, 
+    {
+      "source": 311, 
+      "target": 391, 
+      "value": 1
+    }, 
+    {
+      "source": 312, 
+      "target": 477, 
+      "value": 4
+    }, 
+    {
+      "source": 313, 
+      "target": 491, 
+      "value": 3
+    }, 
+    {
+      "source": 314, 
+      "target": 408, 
+      "value": 4
+    }, 
+    {
+      "source": 315, 
+      "target": 323, 
+      "value": 3
+    }, 
+    {
+      "source": 316, 
+      "target": 420, 
+      "value": 2
+    }, 
+    {
+      "source": 316, 
+      "target": 332, 
+      "value": 3
+    }, 
+    {
+      "source": 316, 
+      "target": 440, 
+      "value": 2
+    }, 
+    {
+      "source": 316, 
+      "target": 469, 
+      "value": 1
+    }, 
+    {
+      "source": 316, 
+      "target": 408, 
+      "value": 4
+    }, 
+    {
+      "source": 316, 
+      "target": 382, 
+      "value": 4
+    }, 
+    {
+      "source": 317, 
+      "target": 363, 
+      "value": 1
+    }, 
+    {
+      "source": 318, 
+      "target": 446, 
+      "value": 2
+    }, 
+    {
+      "source": 320, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 320, 
+      "target": 330, 
+      "value": 2
+    }, 
+    {
+      "source": 321, 
+      "target": 489, 
+      "value": 2
+    }, 
+    {
+      "source": 321, 
+      "target": 483, 
+      "value": 1
+    }, 
+    {
+      "source": 321, 
+      "target": 477, 
+      "value": 3
+    }, 
+    {
+      "source": 321, 
+      "target": 455, 
+      "value": 3
+    }, 
+    {
+      "source": 323, 
+      "target": 326, 
+      "value": 3
+    }, 
+    {
+      "source": 325, 
+      "target": 504, 
+      "value": 1
+    }, 
+    {
+      "source": 330, 
+      "target": 495, 
+      "value": 1
+    }, 
+    {
+      "source": 332, 
+      "target": 510, 
+      "value": 2
+    }, 
+    {
+      "source": 333, 
+      "target": 418, 
+      "value": 2
+    }, 
+    {
+      "source": 335, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 335, 
+      "target": 514, 
+      "value": 2
+    }, 
+    {
+      "source": 335, 
+      "target": 410, 
+      "value": 3
+    }, 
+    {
+      "source": 339, 
+      "target": 445, 
+      "value": 3
+    }, 
+    {
+      "source": 341, 
+      "target": 507, 
+      "value": 1
+    }, 
+    {
+      "source": 341, 
+      "target": 444, 
+      "value": 2
+    }, 
+    {
+      "source": 342, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 344, 
+      "target": 412, 
+      "value": 2
+    }, 
+    {
+      "source": 347, 
+      "target": 502, 
+      "value": 2
+    }, 
+    {
+      "source": 347, 
+      "target": 455, 
+      "value": 3
+    }, 
+    {
+      "source": 347, 
+      "target": 437, 
+      "value": 2
+    }, 
+    {
+      "source": 348, 
+      "target": 394, 
+      "value": 1
+    }, 
+    {
+      "source": 348, 
+      "target": 515, 
+      "value": 1
+    }, 
+    {
+      "source": 351, 
+      "target": 498, 
+      "value": 2
+    }, 
+    {
+      "source": 351, 
+      "target": 499, 
+      "value": 1
+    }, 
+    {
+      "source": 353, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 361, 
+      "target": 491, 
+      "value": 2
+    }, 
+    {
+      "source": 362, 
+      "target": 453, 
+      "value": 2
+    }, 
+    {
+      "source": 370, 
+      "target": 448, 
+      "value": 3
+    }, 
+    {
+      "source": 373, 
+      "target": 400, 
+      "value": 3
+    }, 
+    {
+      "source": 375, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 376, 
+      "target": 406, 
+      "value": 2
+    }, 
+    {
+      "source": 377, 
+      "target": 408, 
+      "value": 2
+    }, 
+    {
+      "source": 378, 
+      "target": 402, 
+      "value": 3
+    }, 
+    {
+      "source": 379, 
+      "target": 456, 
+      "value": 2
+    }, 
+    {
+      "source": 382, 
+      "target": 417, 
+      "value": 3
+    }, 
+    {
+      "source": 382, 
+      "target": 453, 
+      "value": 4
+    }, 
+    {
+      "source": 382, 
+      "target": 460, 
+      "value": 2
+    }, 
+    {
+      "source": 382, 
+      "target": 408, 
+      "value": 5
+    }, 
+    {
+      "source": 382, 
+      "target": 473, 
+      "value": 2
+    }, 
+    {
+      "source": 385, 
+      "target": 431, 
+      "value": 2
+    }, 
+    {
+      "source": 386, 
+      "target": 408, 
+      "value": 3
+    }, 
+    {
+      "source": 386, 
+      "target": 406, 
+      "value": 2
+    }, 
+    {
+      "source": 388, 
+      "target": 390, 
+      "value": 2
+    }, 
+    {
+      "source": 390, 
+      "target": 408, 
+      "value": 4
+    }, 
+    {
+      "source": 392, 
+      "target": 428, 
+      "value": 2
+    }, 
+    {
+      "source": 395, 
+      "target": 455, 
+      "value": 2
+    }, 
+    {
+      "source": 397, 
+      "target": 439, 
+      "value": 2
+    }, 
+    {
+      "source": 398, 
+      "target": 478, 
+      "value": 3
+    }, 
+    {
+      "source": 399, 
+      "target": 494, 
+      "value": 1
+    }, 
+    {
+      "source": 400, 
+      "target": 466, 
+      "value": 4
+    }, 
+    {
+      "source": 400, 
+      "target": 475, 
+      "value": 2
+    }, 
+    {
+      "source": 404, 
+      "target": 491, 
+      "value": 2
+    }, 
+    {
+      "source": 406, 
+      "target": 482, 
+      "value": 1
+    }, 
+    {
+      "source": 407, 
+      "target": 462, 
+      "value": 2
+    }, 
+    {
+      "source": 407, 
+      "target": 502, 
+      "value": 2
+    }, 
+    {
+      "source": 407, 
+      "target": 511, 
+      "value": 2
+    }, 
+    {
+      "source": 408, 
+      "target": 410, 
+      "value": 3
+    }, 
+    {
+      "source": 408, 
+      "target": 417, 
+      "value": 5
+    }, 
+    {
+      "source": 408, 
+      "target": 418, 
+      "value": 4
+    }, 
+    {
+      "source": 408, 
+      "target": 518, 
+      "value": 3
+    }, 
+    {
+      "source": 408, 
+      "target": 426, 
+      "value": 4
+    }, 
+    {
+      "source": 408, 
+      "target": 434, 
+      "value": 6
+    }, 
+    {
+      "source": 408, 
+      "target": 477, 
+      "value": 4
+    }, 
+    {
+      "source": 408, 
+      "target": 438, 
+      "value": 2
+    }, 
+    {
+      "source": 408, 
+      "target": 449, 
+      "value": 3
+    }, 
+    {
+      "source": 408, 
+      "target": 450, 
+      "value": 3
+    }, 
+    {
+      "source": 408, 
+      "target": 451, 
+      "value": 3
+    }, 
+    {
+      "source": 408, 
+      "target": 503, 
+      "value": 1
+    }, 
+    {
+      "source": 408, 
+      "target": 465, 
+      "value": 4
+    }, 
+    {
+      "source": 408, 
+      "target": 472, 
+      "value": 2
+    }, 
+    {
+      "source": 408, 
+      "target": 487, 
+      "value": 2
+    }, 
+    {
+      "source": 408, 
+      "target": 431, 
+      "value": 2
+    }, 
+    {
+      "source": 408, 
+      "target": 491, 
+      "value": 4
+    }, 
+    {
+      "source": 408, 
+      "target": 497, 
+      "value": 2
+    }, 
+    {
+      "source": 408, 
+      "target": 506, 
+      "value": 2
+    }, 
+    {
+      "source": 408, 
+      "target": 509, 
+      "value": 2
+    }, 
+    {
+      "source": 410, 
+      "target": 455, 
+      "value": 3
+    }, 
+    {
+      "source": 412, 
+      "target": 434, 
+      "value": 2
+    }, 
+    {
+      "source": 414, 
+      "target": 461, 
+      "value": 2
+    }, 
+    {
+      "source": 414, 
+      "target": 430, 
+      "value": 1
+    }, 
+    {
+      "source": 416, 
+      "target": 428, 
+      "value": 3
+    }, 
+    {
+      "source": 417, 
+      "target": 463, 
+      "value": 2
+    }, 
+    {
+      "source": 418, 
+      "target": 492, 
+      "value": 2
+    }, 
+    {
+      "source": 419, 
+      "target": 456, 
+      "value": 2
+    }, 
+    {
+      "source": 422, 
+      "target": 445, 
+      "value": 3
+    }, 
+    {
+      "source": 423, 
+      "target": 516, 
+      "value": 2
+    }, 
+    {
+      "source": 429, 
+      "target": 498, 
+      "value": 2
+    }, 
+    {
+      "source": 451, 
+      "target": 477, 
+      "value": 4
+    }, 
+    {
+      "source": 453, 
+      "target": 468, 
+      "value": 3
+    }, 
+    {
+      "source": 454, 
+      "target": 476, 
+      "value": 1
+    }, 
+    {
+      "source": 455, 
+      "target": 477, 
+      "value": 7
+    }, 
+    {
+      "source": 455, 
+      "target": 474, 
+      "value": 3
+    }, 
+    {
+      "source": 464, 
+      "target": 491, 
+      "value": 4
+    }, 
+    {
+      "source": 466, 
+      "target": 516, 
+      "value": 2
+    }, 
+    {
+      "source": 470, 
+      "target": 508, 
+      "value": 4
+    }, 
+    {
+      "source": 477, 
+      "target": 491, 
+      "value": 3
+    }, 
+    {
+      "source": 511, 
+      "target": 513, 
+      "value": 2
+    }
+  ]
+}
