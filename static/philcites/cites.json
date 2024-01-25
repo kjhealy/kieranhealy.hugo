@@ -2,47 +2,47 @@
   "nodes": [
     {
       "group": "0", 
-      "name": "Field H 1994>>Mind (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Field H 1994\nMind (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Watson G 1975>>J Philos (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Watson G 1975\nJ Philos (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Huemer M 2001>>Skepticism Veil Perc (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Huemer M 2001\nSkepticism Veil Perc (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Dummett M 1981>>Frege Philos Languag (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dummett M 1981\nFrege Philos Languag (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Shoemaker S 1994>>Nous (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Shoemaker S 1994\nNous (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Anscombe G 1957>>Intention (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Anscombe G 1957\nIntention (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Jackson F 1979>>Philos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Jackson F 1979\nPhilos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Fodor J 1980>>Behav Brain Sci (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Fodor J 1980\nBehav Brain Sci (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Mcginn C 1983>>Subjective View Seco (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mcginn C 1983\nSubjective View Seco (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Carnap R 1956>>Meaning Necessity (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Carnap R 1956\nMeaning Necessity (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Evans G 1976>>Truth Meaning Essays (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Evans G 1976\nTruth Meaning Essays (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "9", 
@@ -50,103 +50,103 @@
     }, 
     {
       "group": "5", 
-      "name": "Hilbert D 1987>>Color Color Percepti (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hilbert D 1987\nColor Color Percepti (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Loux M 1979>>Possible Actual (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Loux M 1979\nPossible Actual (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Mellor D 1995>>Facts Causation (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mellor D 1995\nFacts Causation (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Baker L 2000>>Persons Bodies Const (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Baker L 2000\nPersons Bodies Const (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Ryle G 1949>>Concept Mind (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Ryle G 1949\nConcept Mind (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Schiffer S 1998>>Monist (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Schiffer S 1998\nMonist (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Kaplan D 1989>>Themes Kaplan (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kaplan D 1989\nThemes Kaplan (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Peacocke C 1992>>Study Concept (38)", "nodeSize": 38  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Peacocke C 1992\nStudy Concept (38)", "nodeSize": 38  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Vendler Z 1967>>Linguistics Philos (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Vendler Z 1967\nLinguistics Philos (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Mumford S 1998>>Dispositions (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mumford S 1998\nDispositions (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Fodor J 1983>>Modularity Mind (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fodor J 1983\nModularity Mind (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Burke M 1992>>Analysis (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Burke M 1992\nAnalysis (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Churchland P 1989>>Neurocomputational P (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Churchland P 1989\nNeurocomputational P (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Kagan S 1989>>Limits Morality (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kagan S 1989\nLimits Morality (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Field H 1986>>Fact Sci Morality (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Field H 1986\nFact Sci Morality (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "9", 
-      "name": "Frege G 1884>>Grundlagen Arithmeti (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Frege G 1884\nGrundlagen Arithmeti (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 2000>>J Philos (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 2000\nJ Philos (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1999>>Papers Metpahysics E (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1999\nPapers Metpahysics E (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Grice H 1961>>P Aristotelian Soc S (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Grice H 1961\nP Aristotelian Soc S (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Geach P 1980>>Reference Gen (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Geach P 1980\nReference Gen (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Alston W 1989>>Epistemic Justificat (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Alston W 1989\nEpistemic Justificat (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Strawson P 1959>>Individualy (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Strawson P 1959\nIndividualy (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Williams B 1973>>Problems Self (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Williams B 1973\nProblems Self (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Brandt R 1979>>Theory Good Right (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Brandt R 1979\nTheory Good Right (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Gettier E 1963>>Analysis (25)", "nodeSize": 25  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Gettier E 1963\nAnalysis (25)", "nodeSize": 25  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
@@ -154,279 +154,279 @@
     }, 
     {
       "group": "5", 
-      "name": "Jackson F 1998>>Metaphysics Ethics (45)", "nodeSize": 45  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Jackson F 1998\nMetaphysics Ethics (45)", "nodeSize": 45  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Lewis D 1989>>P Aristotelian Soc S (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1989\nP Aristotelian Soc S (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Quine W 1953>>Logical Point View (25)", "nodeSize": 25  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1953\nLogical Point View (25)", "nodeSize": 25  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Montague R 1974>>Formal Philosophy Se (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Montague R 1974\nFormal Philosophy Se (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Dummett M 1975>>Synthese (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Dummett M 1975\nSynthese (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Horwich P 1990>>Truth (39)", "nodeSize": 39  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Horwich P 1990\nTruth (39)", "nodeSize": 39  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Horn L 1989>>Natural Hist Negatio (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Horn L 1989\nNatural Hist Negatio (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Goldman A 1976>>J Philos (28)", "nodeSize": 28  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Goldman A 1976\nJ Philos (28)", "nodeSize": 28  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Lewis D 1966>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1966\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Priest G 1987>>Contradiction (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Priest G 1987\nContradiction (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Hardin C 1988>>Color Philosophers U (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hardin C 1988\nColor Philosophers U (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Adams R 1979>>J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Adams R 1979\nJ Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Soames S 2002>>Rigidity Unfinished (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Soames S 2002\nRigidity Unfinished (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Blackburn S 1984>>Spreading Word Groun (32)", "nodeSize": 32  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Blackburn S 1984\nSpreading Word Groun (32)", "nodeSize": 32  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Hintikka J 1962>>Knowledge Belief Int (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hintikka J 1962\nKnowledge Belief Int (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Wright C 2002>>Philos Phenomen Res (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Wright C 2002\nPhilos Phenomen Res (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Chisholm R 1957>>Perceiving Philos St (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Chisholm R 1957\nPerceiving Philos St (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Unger P 1975>>Ignorance Case Skept (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Unger P 1975\nIgnorance Case Skept (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Wiggins D 1980>>Sameness Substance (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Wiggins D 1980\nSameness Substance (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Bennett J 1988>>Events Their Names (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bennett J 1988\nEvents Their Names (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Rawls J 1971>>Theory Justice (53)", "nodeSize": 53  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Rawls J 1971\nTheory Justice (53)", "nodeSize": 53  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Quine W 1960>>Word Object (97)", "nodeSize": 97  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1960\nWord Object (97)", "nodeSize": 97  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Fodor J 1981>>Representations (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fodor J 1981\nRepresentations (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Larson R 1993>>Synthese (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Larson R 1993\nSynthese (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Hawthorne J 2004>>Knowledge I Ottenes (36)", "nodeSize": 36  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hawthorne J 2004\nKnowledge I Ottenes (36)", "nodeSize": 36  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Munitz M 1971>>Identity Individuati (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Munitz M 1971\nIdentity Individuati (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1981>>Australas J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1981\nAustralas J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Schiffer S 1996>>P Aristotelian Soc (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Schiffer S 1996\nP Aristotelian Soc (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Korsgaard C 1986>>J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Korsgaard C 1986\nJ Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Boyd R 1988>>Essays Moral Realism (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Boyd R 1988\nEssays Moral Realism (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "O'connor T 2000>>Persons Causes Metap (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "O'connor T 2000\nPersons Causes Metap (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Benacerraf P 1983>>Philos Math (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Benacerraf P 1983\nPhilos Math (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Russell B 1912>>Problems Philos (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Russell B 1912\nProblems Philos (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Lewis D 1981>>Theoria (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1981\nTheoria (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Davidson D 1980>>Essays Actions Event (77)", "nodeSize": 77  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Davidson D 1980\nEssays Actions Event (77)", "nodeSize": 77  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "May R 1985>>Logical Form Its Str (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "May R 1985\nLogical Form Its Str (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Margalit A 1979>>Meaning Use (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Margalit A 1979\nMeaning Use (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Vanfraassen B 1989>>Laws Symmetruy (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Vanfraassen B 1989\nLaws Symmetruy (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Foot P 2001>>Natural Goodness (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Foot P 2001\nNatural Goodness (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Kripke S 1980>>Naming Necessity (180)", "nodeSize": 180  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kripke S 1980\nNaming Necessity (180)", "nodeSize": 180  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Tarski A 1956>>Logic Semantics Meta (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Tarski A 1956\nLogic Semantics Meta (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Lewis D 1996>>Australas J Philos (44)", "nodeSize": 44  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1996\nAustralas J Philos (44)", "nodeSize": 44  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Gardenfors P 1988>>Knowledge Flux Cambr (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Gardenfors P 1988\nKnowledge Flux Cambr (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Boghossian P 1990>>Philos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Boghossian P 1990\nPhilos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Strawson G 1994>>Mental Reality (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Strawson G 1994\nMental Reality (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Pollock J 1986>>Cont Theories Knowle (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Pollock J 1986\nCont Theories Knowle (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Williams B 1981>>Moral Luck (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Williams B 1981\nMoral Luck (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Horwich P 1998>>Meaning (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Horwich P 1998\nMeaning (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Fine K 1994>>Philos Perspectives (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fine K 1994\nPhilos Perspectives (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Scanlon T 1998>>What We Owe Each Oth (58)", "nodeSize": 58  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Scanlon T 1998\nWhat We Owe Each Oth (58)", "nodeSize": 58  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Larson R 1995>>Knowledge Meaning In (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Larson R 1995\nKnowledge Meaning In (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Rawls J 1980>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Rawls J 1980\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Zagzebski L 1991>>Dilemma Freedom Resp (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Zagzebski L 1991\nDilemma Freedom Resp (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Burge T 1977>>J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Burge T 1977\nJ Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "9", 
-      "name": "Russell B 1903>>Principles Mathemati (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Russell B 1903\nPrinciples Mathemati (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Simons P 1987>>Parts Study Ontology (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Simons P 1987\nParts Study Ontology (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Plantinga A 1993>>Warrant Proper Funct (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Plantinga A 1993\nWarrant Proper Funct (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Korsgaard C 1996>>Sources Normativity (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Korsgaard C 1996\nSources Normativity (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Lange M 2000>>Natural Laws Sci Pra (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lange M 2000\nNatural Laws Sci Pra (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Maher P 1993>>Betting Theories (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Maher P 1993\nBetting Theories (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Williams B 1978>>Descartes Project Pu (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Williams B 1978\nDescartes Project Pu (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Merricks T 1995>>Mind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Merricks T 1995\nMind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Kim J 1993>>Supervenience Mind S (37)", "nodeSize": 37  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kim J 1993\nSupervenience Mind S (37)", "nodeSize": 37  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Ginet C 1990>>Action (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Ginet C 1990\nAction (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Soames S 1988>>Philos Topics (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Soames S 1988\nPhilos Topics (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Harman G 1990>>Philos Perspectives (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Harman G 1990\nPhilos Perspectives (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Armstrong D 1983>>What IS Law Nature (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1983\nWhat IS Law Nature (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Stalnaker R 1975>>Philosophia (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Stalnaker R 1975\nPhilosophia (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Conee E 2004>>Evidentialism (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Conee E 2004\nEvidentialism (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
@@ -434,111 +434,111 @@
     }, 
     {
       "group": "0", 
-      "name": "Sider T 1997>>Philos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Sider T 1997\nPhilos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Dancy J 2000>>Practical Reality (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dancy J 2000\nPractical Reality (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Bonjour L 1998>>Defense Pure Reason (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bonjour L 1998\nDefense Pure Reason (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Nagel T 1979>>Mortal Questions (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Nagel T 1979\nMortal Questions (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Wallace R 1994>>Responsibility Moral (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Wallace R 1994\nResponsibility Moral (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Rosen G 1990>>Mind (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Rosen G 1990\nMind (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Rysiew P 2001>>Nous (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Rysiew P 2001\nNous (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Almog J 1989>>Themes Kaplan (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Almog J 1989\nThemes Kaplan (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Parfit D 1984>>Reasons Persons (64)", "nodeSize": 64  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Parfit D 1984\nReasons Persons (64)", "nodeSize": 64  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Merricks T 2001>>Objects Persons (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Merricks T 2001\nObjects Persons (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Byrne A 1997>>Readings Color Philo (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Byrne A 1997\nReadings Color Philo (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Craig E 1990>>Knowledge State Nati (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Craig E 1990\nKnowledge State Nati (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Mcdermott M 1995>>Brit J Philos Sci (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Mcdermott M 1995\nBrit J Philos Sci (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Papineau D 1993>>Philos Naturalism (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Papineau D 1993\nPhilos Naturalism (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Chisholm R 1976>>Person Object Metaph (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Chisholm R 1976\nPerson Object Metaph (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Unger P 1975>>Ignorance (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Unger P 1975\nIgnorance (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Jackson F 1977>>Perception Represent (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Jackson F 1977\nPerception Represent (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Kyburg H 1961>>Probability Logic Ra (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kyburg H 1961\nProbability Logic Ra (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Forbes G 1985>>Metaphysics Modality (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Forbes G 1985\nMetaphysics Modality (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Derose K 2002>>Philos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Derose K 2002\nPhilos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Jeffrey R 1983>>Logic Decision (24)", "nodeSize": 24  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Jeffrey R 1983\nLogic Decision (24)", "nodeSize": 24  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Heller M 1990>>Ontology Phys Object (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Heller M 1990\nOntology Phys Object (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Fumerton R 1995>>Metaepistemology Sce (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fumerton R 1995\nMetaepistemology Sce (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Byrne A 2001>>Philos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Byrne A 2001\nPhilos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Putnam H 1975>>Philos Papers Math M (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Putnam H 1975\nPhilos Papers Math M (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Unger P 1980>>Midwest Stud Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Unger P 1980\nMidwest Stud Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Evans G 1982>>Varieties Reference (78)", "nodeSize": 78  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Evans G 1982\nVarieties Reference (78)", "nodeSize": 78  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "9", 
@@ -546,27 +546,27 @@
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1984>>Australas J Philos (25)", "nodeSize": 25  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1984\nAustralas J Philos (25)", "nodeSize": 25  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Vanfraassen B 1995>>Philos Stud (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Vanfraassen B 1995\nPhilos Stud (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Edgington D 1995>>Mind (27)", "nodeSize": 27  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Edgington D 1995\nMind (27)", "nodeSize": 27  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Quine W 1966>>Ways Paradox (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1966\nWays Paradox (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Wright C 1991>>Mind (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Wright C 1991\nMind (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Davidson D 1984>>Inquiries Truth Inte (64)", "nodeSize": 64  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Davidson D 1984\nInquiries Truth Inte (64)", "nodeSize": 64  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
@@ -574,219 +574,219 @@
     }, 
     {
       "group": "12", 
-      "name": "Gibbard A 2003>>Thinking Live (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Gibbard A 2003\nThinking Live (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Chisholm R 1977>>Theory Knowledge (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Chisholm R 1977\nTheory Knowledge (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Dennett D 1984>>Elbow Room (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dennett D 1984\nElbow Room (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Gauthier D 1986>>Morals Agreement (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Gauthier D 1986\nMorals Agreement (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Lewis D 1972>>Australas J Philos (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1972\nAustralas J Philos (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Block N 1995>>Behav Brain Sci (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Block N 1995\nBehav Brain Sci (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Horwich P 1998>>Truth (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Horwich P 1998\nTruth (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Mcginn C 1991>>Problem Consciousnes (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mcginn C 1991\nProblem Consciousnes (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Heck R 2000>>Philos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Heck R 2000\nPhilos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Putnam H 1971>>Philos Logic (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Putnam H 1971\nPhilos Logic (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Stalnaker R 1984>>Inquiry (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Stalnaker R 1984\nInquiry (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Austin J 1962>>Sense Sensabilia (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Austin J 1962\nSense Sensabilia (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Mackie J 1974>>Cement Universe Stud (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mackie J 1974\nCement Universe Stud (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Dretske F 1995>>Naturalizing Mind (32)", "nodeSize": 32  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dretske F 1995\nNaturalizing Mind (32)", "nodeSize": 32  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Salmon N 1989>>Philos Rev (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Salmon N 1989\nPhilos Rev (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Hall N 1994>>Mind (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Hall N 1994\nMind (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Leonard H 1940>>J Symbolic Logic (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Leonard H 1940\nJ Symbolic Logic (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Brewer B 1999>>Perception Reason (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Brewer B 1999\nPerception Reason (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Goldman A 1967>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Goldman A 1967\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Richard M 1983>>J Philos Logic (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Richard M 1983\nJ Philos Logic (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Dummett M 1977>>Elements Intuitionis (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dummett M 1977\nElements Intuitionis (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Dennett D 1978>>Brainstorms (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dennett D 1978\nBrainstorms (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Jackson F 1977>>Australas J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Jackson F 1977\nAustralas J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Russell B 1919>>Intro Math Philos (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Russell B 1919\nIntro Math Philos (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Sosa E 1991>>Knowledge Perspectiv (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Sosa E 1991\nKnowledge Perspectiv (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Fodor J 1974>>Synthese (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Fodor J 1974\nSynthese (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Mcdowell J 1982>>P Brit Acad (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Mcdowell J 1982\nP Brit Acad (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Grice H 1989>>Studies Way Words (30)", "nodeSize": 30  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Grice H 1989\nStudies Way Words (30)", "nodeSize": 30  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Ginet C 1975>>Knowledge Perception (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Ginet C 1975\nKnowledge Perception (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Frankfurt H 1969>>J Philos (36)", "nodeSize": 36  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Frankfurt H 1969\nJ Philos (36)", "nodeSize": 36  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Putnam H 1981>>Reason Truth Hist (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Putnam H 1981\nReason Truth Hist (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Searle J 1995>>Construction Social (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Searle J 1995\nConstruction Social (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Siewert C 1998>>Significance Conscio (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Siewert C 1998\nSignificance Conscio (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Cappelen H 2005>>Insensitive Semantic (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Cappelen H 2005\nInsensitive Semantic (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Braun D 1998>>Philos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Braun D 1998\nPhilos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Stanley J 2001>>J Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Stanley J 2001\nJ Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Goldman A 1979>>Justification Knowle (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Goldman A 1979\nJustification Knowle (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Bonjour L 1985>>Structure of Empiric (39)", "nodeSize": 39  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bonjour L 1985\nStructure of Empiric (39)", "nodeSize": 39  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Parsons T 1980>>Nonexistent Objects (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Parsons T 1980\nNonexistent Objects (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Hill C 1997>>Philos Stud (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Hill C 1997\nPhilos Stud (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Gibson J 1979>>Ecological Approach (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Gibson J 1979\nEcological Approach (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Stanley J 2005>>Knowledge Practical (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Stanley J 2005\nKnowledge Practical (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Tye M 2000>>Consciousness Colro (27)", "nodeSize": 27  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Tye M 2000\nConsciousness Colro (27)", "nodeSize": 27  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Dretske F 1970>>J Philos (30)", "nodeSize": 30  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Dretske F 1970\nJ Philos (30)", "nodeSize": 30  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Walton K 1990>>Mimesis Make-believe (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Walton K 1990\nMimesis Make-believe (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Olson E 1997>>Human Animal Persoan (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Olson E 1997\nHuman Animal Persoan (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Skyrms B 1980>>Causal Necessity (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Skyrms B 1980\nCausal Necessity (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Quine W 1981>>Theories Things (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1981\nTheories Things (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Foot P 1978>>Virtues Vices Other (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Foot P 1978\nVirtues Vices Other (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Fodor J 1992>>Holism Shoppers Guid (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fodor J 1992\nHolism Shoppers Guid (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Mcginn C 1982>>Character Mind (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mcginn C 1982\nCharacter Mind (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "9", 
-      "name": "Dummett M 1991>>Frege Philos Math (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dummett M 1991\nFrege Philos Math (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Moore G 1903>>Principia Ehtica (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Moore G 1903\nPrincipia Ehtica (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Korsgaard C 1997>>Ethics Practical Rea (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Korsgaard C 1997\nEthics Practical Rea (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "8", 
@@ -794,67 +794,67 @@
     }, 
     {
       "group": "5", 
-      "name": "Chalmers D 2001>>Philos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Chalmers D 2001\nPhilos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Salmon N 1988>>Propositions Attitud (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Salmon N 1988\nPropositions Attitud (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Brandom R 1994>>Making IT Explicit R (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Brandom R 1994\nMaking IT Explicit R (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Davidson D 1963>>J Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Davidson D 1963\nJ Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Chomsky N 2000>>New Horizons Study L (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Chomsky N 2000\nNew Horizons Study L (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Bach K 1979>>Linguistic Communica (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bach K 1979\nLinguistic Communica (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Dummett M 1991>>Logical Basis Metpah (31)", "nodeSize": 31  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dummett M 1991\nLogical Basis Metpah (31)", "nodeSize": 31  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Linsky B 1994>>Philos Perspectives (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Linsky B 1994\nPhilos Perspectives (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "8", 
-      "name": "Hart H 1961>>Concept Law (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hart H 1961\nConcept Law (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Menzies P 1989>>Philos Sci (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Menzies P 1989\nPhilos Sci (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1986>>Philos Papers (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1986\nPhilos Papers (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Boolos G 1984>>J Philos (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Boolos G 1984\nJ Philos (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Boghossian P 1989>>Mind (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Boghossian P 1989\nMind (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Bach K 1994>>Mind Lang (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Bach K 1994\nMind Lang (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Field H 1994>>Philos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Field H 1994\nPhilos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Williamson T 2000>>Knowledge Limits (83)", "nodeSize": 83  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Williamson T 2000\nKnowledge Limits (83)", "nodeSize": 83  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
@@ -862,19 +862,19 @@
     }, 
     {
       "group": "10", 
-      "name": "Kim J 1973>>J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Kim J 1973\nJ Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Barwise J 1981>>Linguist Philos (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Barwise J 1981\nLinguist Philos (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Bratman M 1987>>Intention Plans Prac (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bratman M 1987\nIntention Plans Prac (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Burke M 1994>>Philos Phenomen Res (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Burke M 1994\nPhilos Phenomen Res (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
@@ -882,431 +882,431 @@
     }, 
     {
       "group": "1", 
-      "name": "Hajek A 2003>>Synthese (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Hajek A 2003\nSynthese (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Davidson D 1969>>Words Objections Ess (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Davidson D 1969\nWords Objections Ess (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Broome J 1999>>Ratio (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Broome J 1999\nRatio (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Williamson T 2007>>Philos Philos (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Williamson T 2007\nPhilos Philos (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Nozick R 1981>>Philos Explanations (60)", "nodeSize": 60  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Nozick R 1981\nPhilos Explanations (60)", "nodeSize": 60  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Mcdowell J 1994>>Mind World (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mcdowell J 1994\nMind World (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1970>>J Philos (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1970\nJ Philos (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Lewis D 1997>>Philos Quart (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1997\nPhilos Quart (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Sellars W 1963>>Sci Perception Relai (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Sellars W 1963\nSci Perception Relai (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Martin C 1994>>Philos Quart (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Martin C 1994\nPhilos Quart (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Nagel T 1974>>Philos Rev (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Nagel T 1974\nPhilos Rev (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Dummett M 1981>>Interpretation Frege (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dummett M 1981\nInterpretation Frege (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Burge T 1979>>Midwest Stud Philos (40)", "nodeSize": 40  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Burge T 1979\nMidwest Stud Philos (40)", "nodeSize": 40  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Dretske F 1969>>Seeing Knowing (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dretske F 1969\nSeeing Knowing (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Hurvich L 1981>>Color Vision Intro (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hurvich L 1981\nColor Vision Intro (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Smith M 1994>>Moral Problem (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Smith M 1994\nMoral Problem (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Soames S 1999>>Understanding Truth (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Soames S 1999\nUnderstanding Truth (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Hitchcock C 2001>>J Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Hitchcock C 2001\nJ Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Peacocke C 2004>>Realm Reason (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Peacocke C 2004\nRealm Reason (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Geach P 1965>>Philos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Geach P 1965\nPhilos Rev (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Blackburn S 1998>>Ruling Passions Theo (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Blackburn S 1998\nRuling Passions Theo (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Bennett J 1984>>Philos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Bennett J 1984\nPhilos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Quine W 1951>>Philos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Quine W 1951\nPhilos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Fischer J 1994>>Metaphysics Free Wil (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fischer J 1994\nMetaphysics Free Wil (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Gibbard A 1990>>Wise Choices Apt Fee (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Gibbard A 1990\nWise Choices Apt Fee (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Hume D 1978>>Treatise Human Natur (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hume D 1978\nTreatise Human Natur (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Katz J 1994>>Philos Rev (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Katz J 1994\nPhilos Rev (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "9", 
-      "name": "Frege G 1918>>Beitrage Philos Dtsc (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Frege G 1918\nBeitrage Philos Dtsc (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Cartwright N 1983>>How Laws Physics Lie (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Cartwright N 1983\nHow Laws Physics Lie (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Armstrong D 1989>>Combinatorial Theory (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1989\nCombinatorial Theory (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Carroll L 1895>>Mind (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Carroll L 1895\nMind (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Lewis D 1969>>Convention Philos St (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1969\nConvention Philos St (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Parsons T 1990>>Events Sematics Engl (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Parsons T 1990\nEvents Sematics Engl (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Recanati F 1993>>Direct Reference Mea (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Recanati F 1993\nDirect Reference Mea (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1986>>Philos Papers (73)", "nodeSize": 73  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1986\nPhilos Papers (73)", "nodeSize": 73  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Vaninwagen P 1990>>Nous (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Vaninwagen P 1990\nNous (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Putnam H 1978>>Meaning Moral Sci (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Putnam H 1978\nMeaning Moral Sci (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Devitt M 1996>>Coming Our Senses Na (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Devitt M 1996\nComing Our Senses Na (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Gibbard A 1975>>J Philos Logic (22)", "nodeSize": 22  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Gibbard A 1975\nJ Philos Logic (22)", "nodeSize": 22  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Cohen S 1988>>Philos Perspectives (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Cohen S 1988\nPhilos Perspectives (29)", "nodeSize": 29  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Plantinga A 1983>>Philos Stud (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Plantinga A 1983\nPhilos Stud (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Harman G 1986>>Change View (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Harman G 1986\nChange View (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Jackson F 1982>>Philos Quart (32)", "nodeSize": 32  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Jackson F 1982\nPhilos Quart (32)", "nodeSize": 32  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Salmon N 1986>>Freges Puzzle (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Salmon N 1986\nFreges Puzzle (43)", "nodeSize": 43  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1986>>Plurality Worlds (131)", "nodeSize": 131  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1986\nPlurality Worlds (131)", "nodeSize": 131  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Bennett J 2003>>Philos Guide Conditi (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bennett J 2003\nPhilos Guide Conditi (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Sidgwick H 1907>>Methods Ethics (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Sidgwick H 1907\nMethods Ethics (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Crimmins M 1992>>Talk Beliefs (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Crimmins M 1992\nTalk Beliefs (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Dennett D 1987>>Intentional Stance (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dennett D 1987\nIntentional Stance (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Fine K 1975>>Synthese (34)", "nodeSize": 34  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Fine K 1975\nSynthese (34)", "nodeSize": 34  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Blackburn S 1993>>Essays Quasirealism (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Blackburn S 1993\nEssays Quasirealism (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Burge T 1993>>Philos Rev (28)", "nodeSize": 28  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Burge T 1993\nPhilos Rev (28)", "nodeSize": 28  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Merricks T 1994>>J Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Merricks T 1994\nJ Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Sider T 2001>>4 Dimensionalism Ont (42)", "nodeSize": 42  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Sider T 2001\n4 Dimensionalism Ont (42)", "nodeSize": 42  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Stalnaker R 1968>>Studies Logical Theo (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Stalnaker R 1968\nStudies Logical Theo (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Kim J 1998>>Mind Phys World Essa (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kim J 1998\nMind Phys World Essa (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1970>>Synthese (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1970\nSynthese (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Fodor J 1987>>Psychosemantics Prob (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fodor J 1987\nPsychosemantics Prob (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Shapiro S 1998>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Shapiro S 1998\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Rorty R 1979>>Philos Mirror Nature (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Rorty R 1979\nPhilos Mirror Nature (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Moore G 1912>>Ethics (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Moore G 1912\nEthics (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Peacocke C 1999>>Being Known (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Peacocke C 1999\nBeing Known (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Fine K 1985>>A Plantinga (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Fine K 1985\nA Plantinga (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Quine W 1970>>Philos Logic (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1970\nPhilos Logic (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1980>>Studies Interactive (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1980\nStudies Interactive (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Nozick R 1974>>Anarchy State Tuopia (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Nozick R 1974\nAnarchy State Tuopia (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Armstrong D 1973>>Belief Truth Knowled (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1973\nBelief Truth Knowled (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Plantinga A 1974>>Nature Neccessity (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Plantinga A 1974\nNature Neccessity (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Pereboom D 2001>>Living Free Will (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Pereboom D 2001\nLiving Free Will (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1983>>Philos Papers (18)", "nodeSize": 18  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1983\nPhilos Papers (18)", "nodeSize": 18  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Frankfurt H 1988>>Importance What Care (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Frankfurt H 1988\nImportance What Care (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Brink D 1989>>Moral Realism Fdn Et (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Brink D 1989\nMoral Realism Fdn Et (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Travis C 2004>>Mind (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Travis C 2004\nMind (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Haslanger S 1989>>Analysis (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Haslanger S 1989\nAnalysis (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Darwall S 1983>>Impartial Reason (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Darwall S 1983\nImpartial Reason (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Lycan W 1987>>Consciousness (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lycan W 1987\nConsciousness (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Rawls J 1993>>Political Liberalism (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Rawls J 1993\nPolitical Liberalism (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Russell B 1905>>Mind (30)", "nodeSize": 30  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Russell B 1905\nMind (30)", "nodeSize": 30  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Vaninwagen P 1983>>Essay Free Will (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Vaninwagen P 1983\nEssay Free Will (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1991>>Parts Classes (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1991\nParts Classes (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Markosian N 1998>>Philos Stud (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Markosian N 1998\nPhilos Stud (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Crimmins M 1998>>Philos Rev (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Crimmins M 1998\nPhilos Rev (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Jackson F 1987>>Conditionals (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Jackson F 1987\nConditionals (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Unger P 1984>>Philos Relativity (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Unger P 1984\nPhilos Relativity (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Earman J 1992>>Bayes Bust Critical (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Earman J 1992\nBayes Bust Critical (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Searle J 1992>>Rediscovery Mind (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Searle J 1992\nRediscovery Mind (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Derose K 1995>>Philos Rev (41)", "nodeSize": 41  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Derose K 1995\nPhilos Rev (41)", "nodeSize": 41  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Chalmers D 1996>>Conscious Mind (77)", "nodeSize": 77  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Chalmers D 1996\nConscious Mind (77)", "nodeSize": 77  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Evans G 1985>>Collected Papers (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Evans G 1985\nCollected Papers (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Marr D 1982>>Vision (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Marr D 1982\nVision (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Dretske F 1981>>Knowledge Flow Info (38)", "nodeSize": 38  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dretske F 1981\nKnowledge Flow Info (38)", "nodeSize": 38  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Boolos G 1985>>Philos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Boolos G 1985\nPhilos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Gupta A 1993>>Philos Topics (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Gupta A 1993\nPhilos Topics (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Joyce J 1999>>Fdn Causal Decision (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Joyce J 1999\nFdn Causal Decision (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Tye M 1995>>10 Problems Consciou (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Tye M 1995\n10 Problems Consciou (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Schiffer S 1987>>Remnants Meaning (27)", "nodeSize": 27  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Schiffer S 1987\nRemnants Meaning (27)", "nodeSize": 27  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "8", 
-      "name": "Dancy J 1993>>Moral Reasons (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dancy J 1993\nMoral Reasons (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Schiffer S 2003>>Things We Mean (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Schiffer S 2003\nThings We Mean (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1983>>Australas J Philos (48)", "nodeSize": 48  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1983\nAustralas J Philos (48)", "nodeSize": 48  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1992>>Australas J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1992\nAustralas J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Goldman A 1970>>Theory Human Action (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Goldman A 1970\nTheory Human Action (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Block N 1986>>Midwest Stud Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Block N 1986\nMidwest Stud Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Burge T 1986>>Philos Rev (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Burge T 1986\nPhilos Rev (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1973>>J Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1973\nJ Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Wright C 1992>>Truth Objectivity (35)", "nodeSize": 35  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Wright C 1992\nTruth Objectivity (35)", "nodeSize": 35  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Widerker D 1995>>Philos Rev (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Widerker D 1995\nPhilos Rev (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Putnam H 1975>>Minnesota Studies Ph (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Putnam H 1975\nMinnesota Studies Ph (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
@@ -1314,15 +1314,15 @@
     }, 
     {
       "group": "3", 
-      "name": "Perry J 1979>>Nous (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Perry J 1979\nNous (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Dowe P 2000>>Phys Causation (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dowe P 2000\nPhys Causation (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1994>>Mind (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1994\nMind (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
@@ -1330,23 +1330,23 @@
     }, 
     {
       "group": "5", 
-      "name": "Jackson F 1986>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Jackson F 1986\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "9", 
-      "name": "Frege G 1979>>Posthumous Writings (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Frege G 1979\nPosthumous Writings (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Searle J 1980>>Behav Brain Sci (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Searle J 1980\nBehav Brain Sci (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Armstrong D 1978>>Theory Universals Un (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1978\nTheory Universals Un (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Ramachandran M 1997>>Mind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Ramachandran M 1997\nMind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
@@ -1354,187 +1354,187 @@
     }, 
     {
       "group": "10", 
-      "name": "Adams E 1975>>Logic Conditionals (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Adams E 1975\nLogic Conditionals (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Mcginn C 1989>>Mental Content (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mcginn C 1989\nMental Content (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Davidson D 1972>>Semantics Natural La (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Davidson D 1972\nSemantics Natural La (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Margalit A 1979>>Meaning Use (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Margalit A 1979\nMeaning Use (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Crimmins M 1989>>J Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Crimmins M 1989\nJ Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Field H 1972>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Field H 1972\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Armstrong D 1978>>Universals Sci Reali (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1978\nUniversals Sci Reali (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Forbes G 1989>>Languages Possibilit (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Forbes G 1989\nLanguages Possibilit (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Stanley J 2000>>Mind Lang (18)", "nodeSize": 18  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Stanley J 2000\nMind Lang (18)", "nodeSize": 18  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Johnston M 1992>>Mind (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Johnston M 1992\nMind (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Paul L 2000>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Paul L 2000\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Campbell J 2002>>Reference Consciousn (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Campbell J 2002\nReference Consciousn (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Dummett M 1973>>Frege Philos Languag (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dummett M 1973\nFrege Philos Languag (29)", "nodeSize": 29  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Wright C 1985>>P Brit Acad (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Wright C 1985\nP Brit Acad (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Zimmerman D 1995>>Philos Rev (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Zimmerman D 1995\nPhilos Rev (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Boolos G 1998>>Logic Logic Logic (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Boolos G 1998\nLogic Logic Logic (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Moore G 1903>>Mind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Moore G 1903\nMind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Evans G 1977>>Can J Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Evans G 1977\nCan J Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "8", 
-      "name": "Ross W 1930>>Right Good (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Ross W 1930\nRight Good (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Kane R 1996>>Significance Free Wi (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kane R 1996\nSignificance Free Wi (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Schiffer S 1992>>J Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Schiffer S 1992\nJ Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Unger P 1979>>Synthese (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Unger P 1979\nSynthese (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Vanfraassen B 1984>>J Philos (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Vanfraassen B 1984\nJ Philos (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Davidson D 1986>>Truth Interpretation (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Davidson D 1986\nTruth Interpretation (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Pettit P 1990>>Philos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Pettit P 1990\nPhilos Rev (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Millikan R 1984>>Language Thought Oth (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Millikan R 1984\nLanguage Thought Oth (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Field H 1980>>Sci Without Numbers (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Field H 1980\nSci Without Numbers (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Goldman A 1986>>Epistemology Cogniti (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Goldman A 1986\nEpistemology Cogniti (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Sosa E 2007>>Virtue Epistemology (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Sosa E 2007\nVirtue Epistemology (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Armstrong D 1989>>Universals Opinionat (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1989\nUniversals Opinionat (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Dretske F 1971>>Australas J Philos (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dretske F 1971\nAustralas J Philos (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Benacerraf P 1965>>Philos Rev (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Benacerraf P 1965\nPhilos Rev (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Kaplan M 1996>>Decision Theory Phil (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kaplan M 1996\nDecision Theory Phil (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Evans G 1978>>Analysis (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Evans G 1978\nAnalysis (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Stalnaker R 1978>>Syntax Semantics (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Stalnaker R 1978\nSyntax Semantics (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Dretske F 1977>>Philos Sci (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Dretske F 1977\nPhilos Sci (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Putnam H 1994>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Putnam H 1994\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Block N 1999>>Philos Rev (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Block N 1999\nPhilos Rev (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Feldman R 1985>>Philos Stud (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Feldman R 1985\nPhilos Stud (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Derose K 1996>>Australas J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Derose K 1996\nAustralas J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Bratman M 1999>>Faces Intentions (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bratman M 1999\nFaces Intentions (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Thomson J 1983>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Thomson J 1983\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Mele A 1995>>Autonomous Agents Se (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mele A 1995\nAutonomous Agents Se (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Hazen A 1979>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Hazen A 1979\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Burge T 1986>>J Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Burge T 1986\nJ Philos (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Harman G 1977>>Nature Morality (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Harman G 1977\nNature Morality (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
@@ -1542,59 +1542,59 @@
     }, 
     {
       "group": "0", 
-      "name": "Quine W 1986>>Philos Logic (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1986\nPhilos Logic (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Clark A 1998>>Analysis (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Clark A 1998\nAnalysis (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Lepore E 1986>>Truth Interpretation (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lepore E 1986\nTruth Interpretation (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Searle J 1969>>Speech Acts Essay Ph (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Searle J 1969\nSpeech Acts Essay Ph (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Dummett M 1978>>Truth Other Enigmas (31)", "nodeSize": 31  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dummett M 1978\nTruth Other Enigmas (31)", "nodeSize": 31  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Yablo S 1987>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Yablo S 1987\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Herman B 1993>>Practice Moral Judgm (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Herman B 1993\nPractice Moral Judgm (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Cohen S 2002>>Philos Phenomen Res (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Cohen S 2002\nPhilos Phenomen Res (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Braun D 1993>>Nous (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Braun D 1993\nNous (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Strawson P 1950>>Mind (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Strawson P 1950\nMind (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Putnam H 1975>>Mind Language Realit (38)", "nodeSize": 38  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Putnam H 1975\nMind Language Realit (38)", "nodeSize": 38  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Pollock J 1999>>Cont Theories Knowel (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Pollock J 1999\nCont Theories Knowel (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Maddy P 1990>>Realism Math (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Maddy P 1990\nRealism Math (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Vaninwagen P 1981>>Pac Philos Quart (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Vaninwagen P 1981\nPac Philos Quart (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
@@ -1602,403 +1602,403 @@
     }, 
     {
       "group": "1", 
-      "name": "Derose K 1991>>Philos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Derose K 1991\nPhilos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Salmon N 1989>>Philos Perspectives (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Salmon N 1989\nPhilos Perspectives (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Barwise J 1983>>Situations Attitudes (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Barwise J 1983\nSituations Attitudes (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Levine J 1983>>Pac Philos Quart (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Levine J 1983\nPac Philos Quart (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Chisholm R 1989>>Theory Knowledge (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Chisholm R 1989\nTheory Knowledge (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Black M 1952>>Mind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Black M 1952\nMind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1983>>Philos Papers (50)", "nodeSize": 50  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1983\nPhilos Papers (50)", "nodeSize": 50  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Dretske F 1988>>Explaining Behav Rea (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dretske F 1988\nExplaining Behav Rea (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Perry J 1977>>Philos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Perry J 1977\nPhilos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Noe A 2004>>Action Perception (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Noe A 2004\nAction Perception (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Vaninwagen P 1990>>Material Beings (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Vaninwagen P 1990\nMaterial Beings (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "9", 
-      "name": "Sher G 1991>>Bounds Logic (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Sher G 1991\nBounds Logic (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Lycan W 1996>>Consciousness Experi (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lycan W 1996\nConsciousness Experi (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "11", 
-      "name": "Hurley S 1998>>Consciousness Action (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hurley S 1998\nConsciousness Action (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1976>>Philos Rev (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1976\nPhilos Rev (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Salmon N 1981>>Reference Essence (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Salmon N 1981\nReference Essence (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Wright C 1983>>Freges Conception Nu (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Wright C 1983\nFreges Conception Nu (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Lewis D 1979>>J Philos Logic (36)", "nodeSize": 36  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1979\nJ Philos Logic (36)", "nodeSize": 36  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Vaninwagen P 1980>>Time Cause (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Vaninwagen P 1980\nTime Cause (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Derose K 1992>>Philos Phenomen Res (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Derose K 1992\nPhilos Phenomen Res (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Williamson T 1994>>Vagueness (49)", "nodeSize": 49  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Williamson T 1994\nVagueness (49)", "nodeSize": 49  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1968>>J Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1968\nJ Philos (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Kuhn T 1970>>Structure Sci Revolu (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kuhn T 1970\nStructure Sci Revolu (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Campbell K 1990>>Abstract Particulars (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Campbell K 1990\nAbstract Particulars (14)", "nodeSize": 14  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Burge T 1988>>J Philos (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Burge T 1988\nJ Philos (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1986>>Australas J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1986\nAustralas J Philos (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Davidson D 1967>>Synthese (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Davidson D 1967\nSynthese (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Peacocke C 1983>>Sense Content Experi (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Peacocke C 1983\nSense Content Experi (23)", "nodeSize": 23  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Pryor J 2000>>Nous (26)", "nodeSize": 26  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Pryor J 2000\nNous (26)", "nodeSize": 26  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "James W 1890>>Principles Psychol (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "James W 1890\nPrinciples Psychol (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Field H 1973>>J Philos (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Field H 1973\nJ Philos (16)", "nodeSize": 16  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Searle J 1983>>Intentionality Essay (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Searle J 1983\nIntentionality Essay (44)", "nodeSize": 44  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Richard M 1990>>Propositional Attitu (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Richard M 1990\nPropositional Attitu (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Williams B 1985>>Ethics Limits Philos (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Williams B 1985\nEthics Limits Philos (26)", "nodeSize": 26  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Benacerraf P 1973>>J Philos (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Benacerraf P 1973\nJ Philos (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1973>>Counterfactuals (82)", "nodeSize": 82  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Lewis D 1973\nCounterfactuals (82)", "nodeSize": 82  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Martin M 2004>>Philos Stud (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Martin M 2004\nPhilos Stud (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Nagel T 1970>>Possibility Altruism (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Nagel T 1970\nPossibility Altruism (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Dennett D 1991>>Consciousness Explai (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Dennett D 1991\nConsciousness Explai (24)", "nodeSize": 24  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Neale S 1990>>Descriptions (36)", "nodeSize": 36  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Neale S 1990\nDescriptions (36)", "nodeSize": 36  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Quine W 1969>>Ontological Realitiv (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1969\nOntological Realitiv (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Lewis D 1999>>Papers Metaphysics E (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1999\nPapers Metaphysics E (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Fodor J 1990>>Theory Content (37)", "nodeSize": 37  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fodor J 1990\nTheory Content (37)", "nodeSize": 37  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Fischer J 1998>>Responsibility Contr (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fischer J 1998\nResponsibility Contr (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Mcgee V 1991>>Truth Vagueness Para (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mcgee V 1991\nTruth Vagueness Para (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Kripke S 1963>>Acta Philos Fenn (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Kripke S 1963\nActa Philos Fenn (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Railton P 1986>>Philos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Railton P 1986\nPhilos Rev (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "8", 
-      "name": "Scheffler S 1982>>Rejection Consequent (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Scheffler S 1982\nRejection Consequent (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Wiggins D 1968>>Philos Rev (18)", "nodeSize": 18  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Wiggins D 1968\nPhilos Rev (18)", "nodeSize": 18  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Byrne A 2003>>Behav Brain Sci (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Byrne A 2003\nBehav Brain Sci (13)", "nodeSize": 13  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Woodward J 2003>>Making Things Happen (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Woodward J 2003\nMaking Things Happen (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Keynes J 1921>>Treatise Probability (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Keynes J 1921\nTreatise Probability (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Johnston M 1992>>Philos Stud (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Johnston M 1992\nPhilos Stud (19)", "nodeSize": 19  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Davies M 1980>>Philos Stud (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Davies M 1980\nPhilos Stud (17)", "nodeSize": 17  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Soames S 1989>>Philos Perspectives (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Soames S 1989\nPhilos Perspectives (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Adams R 1974>>Nous (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Adams R 1974\nNous (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Davidson D 1990>>J Philos (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Davidson D 1990\nJ Philos (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Martin M 2002>>Mind Lang (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Martin M 2002\nMind Lang (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Salmon N 1998>>Nous (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Salmon N 1998\nNous (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Wiggins D 1987>>Needs Values Truth (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Wiggins D 1987\nNeeds Values Truth (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Bach K 1997>>Pac Philos Quart (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Bach K 1997\nPac Philos Quart (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Ginet C 1996>>Philos Perspectives (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Ginet C 1996\nPhilos Perspectives (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "9", 
-      "name": "Frege G 1984>>Collected Papers Mat (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Frege G 1984\nCollected Papers Mat (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "French P 1979>>Cont Perspectives Ph (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "French P 1979\nCont Perspectives Ph (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Salmon W 1984>>Sci Explanation Caus (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Salmon W 1984\nSci Explanation Caus (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Lewis D 1979>>Philos Rev (27)", "nodeSize": 27  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1979\nPhilos Rev (27)", "nodeSize": 27  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Kavka G 1983>>Analysis (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Kavka G 1983\nAnalysis (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Mele A 1992>>Springs Action Under (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mele A 1992\nSprings Action Under (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Stalnaker R 1999>>Context Content (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Stalnaker R 1999\nContext Content (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Mcdowell J 1979>>Monist (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Mcdowell J 1979\nMonist (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "1", 
-      "name": "Audi R 1993>>Structure Justificat (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Audi R 1993\nStructure Justificat (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Goodman N 1951>>Structure Apeparance (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Goodman N 1951\nStructure Apeparance (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Williams D 1953>>Rev Metaphys (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Williams D 1953\nRev Metaphys (21)", "nodeSize": 21  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Frege G 1892>>Z Philos Philos Krit (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Frege G 1892\nZ Philos Philos Krit (20)", "nodeSize": 20  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Hare R 1952>>Language Morals (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hare R 1952\nLanguage Morals (18)", "nodeSize": 18  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Braddon-mitchell D 1996>>Philos Mind Cognitio (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Braddon-mitchell D 1996\nPhilos Mind Cognitio (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Davies M 1981>>Meaning Quantificati (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Davies M 1981\nMeaning Quantificati (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Quine W 1953>>From Logical Point O (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Quine W 1953\nFrom Logical Point O (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Nagel T 1986>>View Nowhere (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Nagel T 1986\nView Nowhere (34)", "nodeSize": 34  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Sorensen R 1988>>Blindspots (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Sorensen R 1988\nBlindspots (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Foley R 1987>>Theory Epistemic Rat (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Foley R 1987\nTheory Epistemic Rat (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Grice P 1989>>Studies Ways Words (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Grice P 1989\nStudies Ways Words (20)", "nodeSize": 20  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Haji I 1998>>Moral Appraisability (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Haji I 1998\nMoral Appraisability (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Harman G 1999>>Reasoning Meaning Mi (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Harman G 1999\nReasoning Meaning Mi (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Schiffer S 1972>>Meaning (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Schiffer S 1972\nMeaning (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Yablo S 1992>>Philos Rev (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Yablo S 1992\nPhilos Rev (23)", "nodeSize": 23  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "2", 
-      "name": "Frankfurt H 1971>>J Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Frankfurt H 1971\nJ Philos (14)", "nodeSize": 14  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Kripke S 1975>>J Philos (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Kripke S 1975\nJ Philos (17)", "nodeSize": 17  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Tarski A 1983>>Logic Semantic (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Tarski A 1983\nLogic Semantic (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Plantinga A 1993>>Warrant Current Deba (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Plantinga A 1993\nWarrant Current Deba (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Williams B 1981>>Moral Luck (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Williams B 1981\nMoral Luck (11)", "nodeSize": 11  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Frege G 1879>>Begriffsschrift (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Frege G 1879\nBegriffsschrift (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Arntzenius F 2003>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Arntzenius F 2003\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Bealer G 1982>>Quality Concept (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Bealer G 1982\nQuality Concept (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Harman G 1973>>Thought (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Harman G 1973\nThought (19)", "nodeSize": 19  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "5", 
-      "name": "Armstrong D 1968>>Materialist Theory M (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1968\nMaterialist Theory M (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Field H 1989>>Realism Math Modalit (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Field H 1989\nRealism Math Modalit (21)", "nodeSize": 21  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Armstrong D 1997>>World Status Affairs (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Armstrong D 1997\nWorld Status Affairs (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Hyde D 1997>>Mind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Hyde D 1997\nMind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "3", 
-      "name": "Stanley J 2000>>Linguist Philos (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Stanley J 2000\nLinguist Philos (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "9", 
@@ -2006,79 +2006,79 @@
     }, 
     {
       "group": "1", 
-      "name": "Stroud B 1984>>Significance Philos (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Stroud B 1984\nSignificance Philos (13)", "nodeSize": 13  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Tooley M 1977>>Can J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Tooley M 1977\nCan J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Bird A 1998>>Philos Quart (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Bird A 1998\nPhilos Quart (12)", "nodeSize": 12  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Shoemaker S 1984>>Identity Cause Mind (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Shoemaker S 1984\nIdentity Cause Mind (11)", "nodeSize": 11  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "0", 
-      "name": "Wright C 1975>>Synthese (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Wright C 1975\nSynthese (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "10", 
-      "name": "Lewis D 1979>>Nous (24)", "nodeSize": 24  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Lewis D 1979\nNous (24)", "nodeSize": 24  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Millikan R 1989>>J Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Millikan R 1989\nJ Philos (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "12", 
-      "name": "Velleman J 2000>>Possibility Practica (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Velleman J 2000\nPossibility Practica (10)", "nodeSize": 10  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Donnellan K 1966>>Philos Rev (26)", "nodeSize": 26  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Donnellan K 1966\nPhilos Rev (26)", "nodeSize": 26  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "9", 
-      "name": "Frege G 1893>>Grundgesetze Arithme (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Frege G 1893\nGrundgesetze Arithme (12)", "nodeSize": 12  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "2", 
-      "name": "Mackie J 1977>>Ethics Inventing Rig (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Mackie J 1977\nEthics Inventing Rig (28)", "nodeSize": 28  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Vanfraassen B 1980>>Sci Image (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Vanfraassen B 1980\nSci Image (22)", "nodeSize": 22  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "10", 
-      "name": "Hempel C 1965>>Aspects Sci Explanat (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Hempel C 1965\nAspects Sci Explanat (16)", "nodeSize": 16  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "1", 
-      "name": "Fantl J 2002>>Philos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Fantl J 2002\nPhilos Rev (15)", "nodeSize": 15  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "11", 
-      "name": "Fodor J 1975>>Language Thought (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Fodor J 1975\nLanguage Thought (15)", "nodeSize": 15  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "12", 
-      "name": "Kripke S 1982>>Wittgenstein Rules P (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Kripke S 1982\nWittgenstein Rules P (33)", "nodeSize": 33  , "strokeWidth": 3, "strokecolor":"black" 
     }, 
     {
       "group": "3", 
-      "name": "Kaplan D 1989>>Themes Kaplan (57)", "nodeSize": 57  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Kaplan D 1989\nThemes Kaplan (57)", "nodeSize": 57  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "0", 
-      "name": "Tye M 1990>>Mind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
+      "name": "Tye M 1990\nMind (10)", "nodeSize": 10  , "strokeWidth": 1, "strokecolor":"white" 
     }, 
     {
       "group": "5", 
-      "name": "Wittgenstein L 1953>>Philos Investigation (32)", "nodeSize": 32  , "strokeWidth": 3, "strokecolor":"black" 
+      "name": "Wittgenstein L 1953\nPhilos Investigation (32)", "nodeSize": 32  , "strokeWidth": 3, "strokecolor":"black" 
     }
   ], 
   "links": [
