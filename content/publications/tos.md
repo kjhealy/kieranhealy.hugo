@@ -3,7 +3,7 @@ title: "The Ordinal Society"
 fave: true
 author: Marion Fourcade and Kieran Healy
 status: Forthcoming
-kind: book
+whatkind: book
 overview: true
 citation: "<em>The Ordinal Society</em>. Harvard University Press."
 tag: theory

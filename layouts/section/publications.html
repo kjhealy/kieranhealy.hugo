@@ -19,7 +19,7 @@
 
 <h3>Books</h3>
 <ul class = "publication">
-{{ range (where .Data.Pages "Params.kind" "book").GroupByPublishDate "2006" "desc" }}
+{{ range (where .Data.Pages "Params.whatkind" "book").GroupByPublishDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 
@@ -78,11 +78,11 @@
 
 <h3>Articles and Book Chapters</h3>
 <ul class = "publication">
-{{ range (where (where .Data.Pages "Type" "published") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
+{{ range (where (where .Data.Pages "Type" "published") ".Params.whatkind" "!=" "book").GroupByPublishDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 {{ range .Pages.ByPublishDate.Reverse }}
-{{ if ne .Params.kind "book" }}
+{{ if ne .Params.whatkind "book" }}
 <li>{{ .Params.citation | safeHTML }} 
   <a class="scp" href="{{ .Permalink }}"> &middot; abstract</a> 
   {{ if isset .Params "file" }}
@@ -96,11 +96,11 @@
 
 <h3>Essays and Reviews</h3>
 <ul class = "publication">
-{{ range (where (where .Data.Pages "Type" "other") ".Params.kind" "!=" "book").GroupByPublishDate "2006" "desc" }}
+{{ range (where (where .Data.Pages "Type" "other") ".Params.whatkind" "!=" "book").GroupByPublishDate "2006" "desc" }}
 
 <!-- <h3>{{ .Key }}</h3> -->
 {{ range .Pages.ByPublishDate.Reverse }}
-{{ if ne .Params.kind "book" }}
+{{ if ne .Params.whatkind "book" }}
 <li>{{ .Params.citation | safeHTML }} 
   <a class="scp" href="{{ .Permalink }}"> &middot; abstract</a> 
   {{ if isset .Params "file" }}

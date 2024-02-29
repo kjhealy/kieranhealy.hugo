@@ -4,7 +4,7 @@ fave: true
 author: Kieran Healy
 status: Published
 type: published
-kind: book
+whatkind: book
 overview: true
 buy: "<a  href=\"https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
 citation: "<em>Data Visualization</em>. Princeton University Press."
