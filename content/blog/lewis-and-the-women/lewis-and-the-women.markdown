@@ -21,10 +21,10 @@ It is fair to say that over the past twenty years discussion in our four journal
 <small>
 <table>
 <thead>
-<tr class="header">
-<th align="left"><em>Rank</em>&nbsp;&nbsp;&nbsp;</th>
-<th align="left"><em>Cites</em>&nbsp;&nbsp;&nbsp;</th>
-<th align="left"><em>Item</em>&nbsp;&nbsp;&nbsp;</th>
+<tr>
+<th align="left"><em>Rank</em></th>
+<th align="left"><em>Cites</em></th>
+<th align="left"><em>Item</em></th>
 <th align="left"><em>Typically Cited In</em></th>
 </tr>
 </thead>
@@ -189,10 +189,10 @@ Here is the full list of his appearances in our most-cited list:
 <small>
 <table>
 <thead>
-<tr class="header">
-<th align="left"><em>Rank</em>&nbsp;&nbsp;&nbsp;</th>
-<th align="left"><em>Cites</em>&nbsp;&nbsp;&nbsp;</th>
-<th align="left"><em>Item</em>&nbsp;&nbsp;&nbsp;</th>
+<tr>
+<th align="left"><em>Rank</em></th>
+<th align="left"><em>Cites</em></th>
+<th align="left"><em>Item</em></th>
 <th align="left"><em>Typically Cited In</em></th>
 </tr>
 </thead>
@@ -452,7 +452,7 @@ Here is a complete list of items in the data that were written by women.
 <small>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="left"><em>Rank</em></th>
 <th align="left"><em>Cites</em> </th>
 <th align="left"><em>Item</em> </th>
@@ -598,7 +598,7 @@ Here is the full ranked table of the 500 most-cited items---actually 520, for re
 <small>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right"><em>Rank</em></th>
 <th align="right"><em>Cites</em></th>
 <th align="left"><em>Item</em></th>
