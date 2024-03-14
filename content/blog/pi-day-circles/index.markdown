@@ -96,5 +96,4 @@ animate(out, duration = 30, fps = 24, height = 1080, width = 1080,
 anim_save(filename = "lissajous-fixed-lg-2.webm",
           height = 1080, width = 1080)
 
-
 {{< /code >}}
