@@ -26,7 +26,7 @@ with:
 remotes::install_github("kjhealy/gssr")
 {{< /code >}}
 
-### Loading the data
+Load the package:
 
 {{< code r >}}
 library(gssr)
@@ -95,7 +95,7 @@ capwords <- function(x, strict = FALSE) {
   sapply(strsplit(x, split = " "), cap, USE.NAMES = !is.null(names(x)))
 }
 
-## Th variables we want
+## The variables we want
 cont_vars <- c("year", "id", "ballot", "age")
 cat_vars <- c("race", "sex", "fefam")
 wt_vars <- c("vpsu", "vstrat", "wtssps")
