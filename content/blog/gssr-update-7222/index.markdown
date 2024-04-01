@@ -22,19 +22,19 @@ core R package repository.
 You can install gssr from [GitHub](https://github.com/kjhealy/gssr)
 with:
 
-``` r
+{{< code r >}}
 remotes::install_github("kjhealy/gssr")
-```
+{{< /code >}}
 
 ### Loading the data
 
-``` r
+{{< code r >}}
 library(gssr)
 #> Package loaded. To attach the GSS data, type data(gss_all) at the console.
 #> For the codebook, type data(gss_dict).
 #> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
 #> For help on a specific GSS variable, type ?varname at the console.
-```
+{{< /code >}}
 
 ### Single GSS years
 
@@ -42,7 +42,7 @@ You can quickly get the data for any single GSS year by using
 `gss_get_yr()` to download the data file from NORC and put it directly
 into a tibble.
 
-``` r
+{{< code r >}}
 gss18 <- gss_get_yr(2018)
 #> Fetching: https://gss.norc.org/documents/stata/2018_stata.zip
 
@@ -67,13 +67,13 @@ gss18
 #> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, spevwork <dbl+lbl>,
 #> #   cowrksta <dbl+lbl>, cowrkslf <dbl+lbl>, coevwork <dbl+lbl>,
 #> #   cohrs1 <dbl+lbl>, cohrs2 <dbl+lbl>, spwrkslf <dbl+lbl>, …
-```
+{{< /code >}}
 
 The GSS data comes in a *labelled* format, mirroring the way it is encoded for Stata and SPSS platforms. The numeric codes are the content of the column cells. The labeling information is stored as an attribute of the column. 
 
 Here's a typical workflow for getting the data ready:
 
-``` r
+{{< code r >}}
 suppressPackageStartupMessages({
   library(tidyverse)
   library(survey)
@@ -163,7 +163,7 @@ gss_svy
 #> Data variables: year (int), id (dbl), ballot (dbl+lbl), age (dbl+lbl), race
 #>   (fct), sex (fct), fefam (fct), vpsu (dbl), vstrat (dbl), wtssps (dbl), young
 #>   (chr), fefam_d (fct), fefam_n (dbl), stratvar (fct)
-```
+{{< /code >}}
 
 
 ### The Cumulative Data File
@@ -175,14 +175,14 @@ one of the datasets, first load the library and then use `data()` to
 make the data available. For example, load the cumulative GSS file like
 this:
 
-``` r
+{{< code r >}}
 data(gss_all)
-```
+{{< /code >}}
 
 This will take a moment. Once it is ready, the `gss_all` object is
 available to use in the usual way:
 
-``` r
+{{< code r >}}
 gss_all
 #> # A tibble: 72,390 × 6,694
 #>    year         id wrkstat    hrs1        hrs2        evwork      occ   prestige
@@ -204,12 +204,12 @@ gss_all
 #> #   occ10 <dbl+lbl>, occindv <dbl+lbl>, occstatus <dbl+lbl>, occtag <dbl+lbl>,
 #> #   prestg10 <dbl+lbl>, prestg105plus <dbl+lbl>, indus10 <dbl+lbl>,
 #> #   indstatus <dbl+lbl>, indtag <dbl+lbl>, marital <dbl+lbl>, …
-```
+{{< /code >}}
 
 In addition to the integrated help, information about the variables is also contained in the `gss_dict`
 object:
 
-``` r
+{{< code r >}}
 data(gss_dict)
 gss_dict
 #> # A tibble: 6,663 × 12
@@ -228,11 +228,11 @@ gss_dict
 #> # ℹ 6,653 more rows
 #> # ℹ 4 more variables: var_yrtab <list>, col_type <chr>, var_type <chr>,
 #> #   var_na_codes <chr>
-```
+{{< /code >}}
 
 There are also a few convenience functions. For example, to see which years some questions were ask, use `gss_which_years()`:
 
-``` r
+{{< code r >}}
 gss_all |> 
   gss_which_years(c(industry, indus80, wrkgovt, commute)) |> 
   print(n = Inf)
@@ -274,4 +274,4 @@ gss_all |>
 ## 32 2018      FALSE    FALSE   TRUE    FALSE  
 ## 33 2021      FALSE    FALSE   FALSE   FALSE  
 ## 34 2022      FALSE    FALSE   FALSE   FALSE 
-```
+{{< /code >}}
