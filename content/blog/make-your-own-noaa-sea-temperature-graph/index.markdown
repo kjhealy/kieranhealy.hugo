@@ -13,7 +13,7 @@ Sea-surface temperatures in the North Atlantic have been in the news recently as
 
 The specific dataset is the [NOAA 0.25-degree Daily Optimum Interpolation Sea Surface Temperature (OISST), Version 2.1](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C01606), which takes a global network of daily temperature observations (from things like buoys and platforms, but also satellites), and then interpolates and aggregates them to a regular spatial grid of observations at 0.25 degrees resolution. 
 
-The data is available as daily global observations doing back to September 1st, 1981. Each day's data is available as a single file in subdirectories organized by year-month. [It's all here.](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/). Each file is about 1.6MB in size. There are more than fifteen thousand of them. 
+The data is available as daily global observations doing back to September 1st, 1981. Each day's data is available as a single file in subdirectories organized by year-month. [It's all here](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/). Each file is about 1.6MB in size. There are more than fifteen thousand of them. 
 
 We can make a folder called `raw` in our project and then get all the data, preserving is subdirectory structure, with a `wget` command like this:
 
