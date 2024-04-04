@@ -468,7 +468,7 @@ ggsave(here("figures", "global_mean.png"), out_world_plot, height = 7, width = 1
 
 {{< /code >}}
 
-{{% figure src="global_mean.png" alt="Global Mean" caption="The global sea surface temperature mean" %}}
+{{% figure src="global_mean.png" alt="We're fucked" caption="Global mean sea surface temperature 1981-2024" %}}
 
 
 ### The North Atlantic
