@@ -285,7 +285,6 @@ I took the maritime boundaries from the [IHO Sea Areas Shapefile](https://www.ma
 
 {{< code r >}}
 
-``` r
 seas <- sf::read_sf(here("raw", "World_Seas_IHO_v3"))
 
 seas
@@ -308,7 +307,6 @@ seas
 #>  9 Coral Sea              64        157.    -18.2  141.  -30.0  170.   -6.79 4.13e6  4364 (((168.4912 -16.79469, 1…
 #> 10 Flores Sea             48j       120.     -7.51 117.   -8.74 123.   -5.51 1.03e5  4341 (((120.328 -5.510677, 12…
 #> # ℹ 91 more rows
-```
 {{< /code >}}
 
 Then we rasterize the polygons with a function from terra:
