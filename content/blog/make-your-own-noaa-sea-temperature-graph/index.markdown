@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-Sea-surface temperatures in the North Atlantic have been in the news recently as they continue to break records. While there are already a number of excellent summaries and graphs of the data, I thought I'd have a go at making some myself. The starting point is the data detailed data made available by the [National Centers for Environmental Information](https://www.ncei.noaa.gov), part of [NOAA](https://www.noaa.gov). As always, the sheer volume of high-quality data agencies like this make available to the public is astonishing. 
+Sea-surface temperatures in the North Atlantic have been in the news recently as they continue to break records. While there are already a number of excellent summaries and graphs of the data, I thought I'd have a go at making some myself. The starting point is the detailed data made available by the [National Centers for Environmental Information](https://www.ncei.noaa.gov), part of [NOAA](https://www.noaa.gov). As always, the sheer volume of high-quality data agencies like this make available to the public is astonishing. 
 
 ### Getting the Data
 
