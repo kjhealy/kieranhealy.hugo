@@ -255,7 +255,6 @@ world_df <- future_map(chunked_fnames, process_raster,
          yrday = lubridate::yday(date),
          season = season(date))
 
-``` r
 world_df
 #> # A tibble: 15,549 × 10
 #>    date         anom   err   ice   sst  year month   day yrday season
@@ -271,7 +270,6 @@ world_df
 #>  9 1981-09-09 -0.150 0.248 0.506  20.1  1981     9     9   252 Autumn
 #> 10 1981-09-10 -0.153 0.257 0.528  20.1  1981     9    10   253 Autumn
 #> # ℹ 15,539 more rows
-```
 {{< /code >}}
 
 Now we have a time series for each of the variables daily from 1981 to yesterday.
