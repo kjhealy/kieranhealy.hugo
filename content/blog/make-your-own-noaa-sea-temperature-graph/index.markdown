@@ -15,7 +15,7 @@ The specific dataset is the [NOAA 0.25-degree Daily Optimum Interpolation Sea Su
 
 The data is available as daily global observations doing back to September 1st, 1981. Each day's data is available as a single file in subdirectories organized by year-month. [It's all here](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/). Each file is about 1.6MB in size. There are more than fifteen thousand of them. 
 
-We can make a folder called `raw` in our project and then get all the data, preserving is subdirectory structure, with a `wget` command like this:
+We can make a folder called `raw` in our project and then get all the data, preserving its subdirectory structure, with a `wget` command like this:
 
 {{< code bash >}}
 wget --no-parent -r -l inf --wait 5 --random-wait 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/'
@@ -143,9 +143,9 @@ length(all_fnames)
 
 What we want to do is read in all this data and aggregate it so that we can take, for instance, the global average for each day and plot that trend for each year. Or perhaps we want to do that for specific regions of the globe, either defined directly by us in terms of some  latitude and longitude polygon, or taken from the coordinates of some conventional division of the world's oceans and seas into named areas.
 
-Our tool of choice is the [Terra package](https://rspatial.github.io/terra/), which is designed specifically for this kind of data. It has a number of tools for conveniently aggregating and cutting into arrays of geospatial data. The netCDF4 package has a lot of useful features, too, but for the specific things we want to do Terra's toolkit is quicker. One thing it can do, for example, is naturally aggregate over-time layers into single "bricks" of data, and then quickly summarize or calculate on these arrays.
+Our tool of choice is the [Terra package](https://rspatial.github.io/terra/), which is designed specifically for this kind of data. It has a number of methods for conveniently aggregating and cutting into arrays of geospatial data. The netCDF4 package has a lot of useful features, too, but for the specific things we want to do Terra's toolkit is quicker. One thing it can do, for example, is naturally aggregate over-time layers into single "bricks" of data, and then quickly slice, summarize, or calculate on these arrays.
 
-So, let's chunk our filenames into units of 25 days or so:
+So, let's chunk our filenames into units of 25 days or so. This will make the multi-file operation we're about to perform run faster, because we can read in and operate on a raster of 25 days at once instead of doing the same thing on 25 separate rasters. There's probably an optimal chunk size, but I didn't search too hard for it.
 
 {{< code r >}}
 ## This one gives you an unknown number of chunks each with approx n elements
@@ -153,7 +153,7 @@ chunk <- function(x, n) split(x, ceiling(seq_along(x)/n))
 chunked_fnames <- chunk(all_fnames, 25)
 {{< /code >}}
 
-Next, we write a function to process a raster file that terra creates. It calculates the area-weighted means of the layer variables. 
+Next, we write a function to process a raster file that terra creates. It calculates the area-weighted means of the layer variables. We have to weight our mean temperature calculation by area (instead of just directly taking the average of all the points) because the area of the degree-denominated grids gets smaller the closer you get to the poles. (This is because, some current views notwithstanding, the Earth is round.)
 
 {{< code r >}}
 layerinfo <- tibble(
