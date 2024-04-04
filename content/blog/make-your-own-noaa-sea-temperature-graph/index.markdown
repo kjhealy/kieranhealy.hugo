@@ -9,7 +9,7 @@ mathjax: false
 
 Sea-surface temperatures in the North Atlantic have been in the news recently as they continue to break records. While there are already a number of excellent summaries and graphs of the data, I thought I'd have a go at making some myself. The starting point is the data detailed data made available by the [National Centers for Environmental Information](https://www.ncei.noaa.gov), part of [NOAA](https://www.noaa.gov). As always, the sheer volume of high-quality data agencies like this make available to the public is astonishing. 
 
-## Getting the Data
+### Getting the Data
 
 The specific dataset is the [NOAA 0.25-degree Daily Optimum Interpolation Sea Surface Temperature (OISST), Version 2.1](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C01606), which takes a global network of daily temperature observations (from things like buoys and platforms, but also satellites), and then interpolates and aggregates them to a regular spatial grid of observations at 0.25 degrees resolution. 
 
@@ -131,7 +131,7 @@ File /Users/kjhealy/Documents/data/misc/noaa_ncei/raw/www.ncei.noaa.gov/data/sea
 This is the file for May 27th, 1984. As you can see, there's a _lot_ of metadata. The key information for our purposes is that we have a grid of 1440 by 720 lat-lon points. There are two additional dimensions---time and elevation (zlev)---but these are both just 1 for each particular file, because every file is observations at elevation zero on a particular day. There are four measures at each point: sea surface temperature anomalies, the standard deviation of the sea surface temperature estimate, sea ice concentration (as a percentage), and sea surface temperature (in degrees Celsius). As you can see, each variable is admirably well-documented in a standardized way. 
 
 
-## Processing the Data
+### Processing the Data
 
 We read in the filenames and see how many we have:
 
@@ -276,7 +276,7 @@ world_df
 
 Now we have a time series for each of the variables daily from 1981 to yesterday.
 
-## Calculating values for all the world's seas and oceans
+### Calculating values for all the world's seas and oceans
 
 We can do a little better though. What if we wanted to get these average values for the seas and oceans of the world? For that we'd need a map defining the conventional boundaries of those areas of water, which we'd then need to covert to raster format. After that, we'd slice up our global raster by the ocean and sea boundaries, and calculate averages for those areas. 
 
@@ -393,7 +393,7 @@ seameans_df
 Now we have properly-weighted daily averages for every sea and ocean since September 1981. Time to make some pictures.
 
 
-## Global Sea Surface Mean Temperature Graph
+### Global Sea Surface Mean Temperature Graph
 
 To make a graph of the global daily mean sea surface temperature we can use the `world_df` object we made. The idea is to put the temperature on the y-axis, the day of the year on the x-axis, and then draw a separate line for each year. We highlight 2023 and (the data to date for) 2024. And we also draw a ribbon underlay showing plus or minus two standard deviations of the global mean.
 
@@ -475,7 +475,7 @@ ggsave(here("figures", "global_mean.png"), out_world_plot, height = 7, width = 1
 {{% figure src="global_mean.png" alt="Global Mean" caption="The global sea surface temperature mean" %}}
 
 
-## The North Atlantic
+### The North Atlantic
 
 We can slice out the North Atlantic by name from `seameans_df` and make its graph in much the same way. For variety we can color most of the years blue, to lean into the "Great Wave off Kanagawa" (or [Rockall](https://en.wikipedia.org/wiki/Rockall)?) vibe.
 
@@ -509,7 +509,7 @@ ggsave(here("figures", "north_atlantic.png"), out_atlantic, height = 7, width = 
 
 {{% figure src="north_atlantic.png" alt="Not looking too good tbh" caption="The North Atlantic." %}}
 
-## All the Seas
+### All the Seas
 
 Finally we can of course go crazy with facets and just draw everything. 
 
