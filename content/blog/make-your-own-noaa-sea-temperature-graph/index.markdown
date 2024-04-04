@@ -21,11 +21,11 @@ We can make a folder called `raw` in our project and then get all the data, pres
 wget --no-parent -r -l inf --wait 5 --random-wait 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/'
 {{< /code >}}
 
-This tries to be polite with the NOAA. (I think its webserver is also lightly throttled in any case, but it never hurts to be nice.) The switches `--no-parent -r -l inf` tell `wget` not to move upwards in the folder hierarchy, but to recurse downwards indefinitely. The `--wait 5 --random-wait` jointly enforce a five-second wait time between requests, randomly varying between 0.5 and 1.5 times the `wait` period. Downloading the files this this way will take several *days* of real time downloading, though of course much less in actual file transfer time.
+This tries to be polite with the NOAA. (I think its webserver is also lightly throttled in any case, but it never hurts to be nice.) The switches `--no-parent -r -l inf` tell `wget` not to move upwards in the folder hierarchy, but to recurse downwards indefinitely. The `--wait 5 --random-wait` jointly enforce a five-second wait time between requests, randomly varying between 0.5 and 1.5 times the `wait` period. Downloading the files this way will take several *days* of real time downloading, though of course much less in actual file transfer time.
 
 ## The netCDF data format
 
-The data are in netCDF format, an interesting and in fact quite nice self-documenting binary file format. These files have regular arrays of data of some n-dimensional size, e.g. latitude by longitude, with measures that can be thought of as being stacked on the array. (E.g. a grid of points with a measure at each point for surface temperature, sea ice extent, etc, etc). So you have the potential to have big slabs of data that you can then summarize by aggregating on some dimension or other.
+The data are netCDF files, an interesting and in fact quite nice self-documenting binary file format. These files have regular arrays of data of some n-dimensional size, e.g. latitude by longitude, with measures that can be thought of as being stacked on the array. (E.g. a grid of points with a measure at each point for surface temperature, sea ice extent, etc, etc). So you have the potential to have big slabs of data that you can then summarize by aggregating on some dimension or other.
  
 The `ncdf4` package can read them in R, though as it turns out we won't use this package for the analysis. Here's what one file looks like: 
 
