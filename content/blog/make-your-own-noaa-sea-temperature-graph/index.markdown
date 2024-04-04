@@ -128,7 +128,7 @@ File /Users/kjhealy/Documents/data/misc/noaa_ncei/raw/www.ncei.noaa.gov/data/sea
 {{< /code >}}
 
 
-This is the file for May 27th, 1984. As you can see, there's a _lot_ of metadata. The key information for our purposes is that we have a grid of 1440 by 720 lat-lon points. There are two additional dimensions---time and elevation (zlev)---but these are both just 1 for each particular file, because every file is observations at elevation zero on a particular day. There are four measures at each point: sea surface temperature anomalies, the standard deviation of the sea surface temperature estimate, sea ice concentration (as a percentage), and sea surface temperature (in degrees Celsius). As you can see, each variable is admirably well-documented in a standardized way. 
+This is the file for May 27th, 1984. As you can see, there's a _lot_ of metadata. Each variable is admirably well-documented. The key information for our purposes is that we have a grid of 1440 by 720 lat-lon points. There are two additional dimensions---time and elevation (zlev)---but these are both just 1 for each particular file, because every file is observations at elevation zero on a particular day. There are four measures at each point: sea surface temperature anomalies, the standard deviation of the sea surface temperature estimate, sea ice concentration (as a percentage), and sea surface temperature (in degrees Celsius). So we have four bits of data for each grid point on our 1440 * 720 grid, which makes for just over 4.1 million data points _per day_ since 1981. 
 
 
 ### Processing the Data
