@@ -18,7 +18,7 @@ publishdate: 2024-04-05
 <p>Or buy <a class = "badge badge-small" href="https://bookshop.org/p/books/the-ordinal-society-marion-fourcade/20543470?ean=9780674971141">from Bookshop.org</a> | <a class = "badge badge-small" href = "https://www.barnesandnoble.com/w/the-ordinal-society-marion-fourcade/1143986891?ean=9780674971141"> from Barnes & Noble</a> | <a class = "badge badge-small" href="https://www.amazon.co.uk/Ordinal-Society-Marion-Fourcade/dp/0674971140">from Amazon UK</a></p>
 
 
-#### <em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world 
+#### <em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world.
 
 <p><figure><img src="http://kieranhealy.org/files/misc/tos_cover_1024.png" alt="The Ordinal Society"></figure></p>
 
