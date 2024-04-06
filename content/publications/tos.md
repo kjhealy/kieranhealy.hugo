@@ -2,18 +2,21 @@
 title: "The Ordinal Society"
 fave: true
 author: Marion Fourcade and Kieran Healy
-status: Forthcoming
+status: Published
+type: published
 whatkind: book
 overview: true
+buy: "<a href-\"https://www.amazon.com/Ordinal-Society-Marion-Fourcade/dp/0674971140\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
 citation: "<em>The Ordinal Society</em>. Harvard University Press."
 tag: theory
 subjects: technology society theory stratification economy culture markets
 comments: no
-date: 2023-05-08
-publishdate: 2023-09-30
+date: 2024-04-05
+publishdate: 2024-04-05
 ---
 
-[Forthcoming from Harvard University Press](https://theordinalsociety.com) in April 2024.
+<p>Or buy <a class = "badge badge-small" href="https://bookshop.org/p/books/the-ordinal-society-marion-fourcade/20543470?ean=9780674971141">from Bookshop.org</a> | <a class = "badge badge-small" href = "https://www.barnesandnoble.com/w/the-ordinal-society-marion-fourcade/1143986891?ean=9780674971141"> from Barnes & Noble</a> | <a class = "badge badge-small" href="https://www.amazon.co.uk/Ordinal-Society-Marion-Fourcade/dp/0674971140">from Amazon UK</a></p>
+
 
 <h2><em>The Ordinal Society</em> is an argument about how digital capitalism is reformatting the world</h2>
 
