@@ -15,5 +15,5 @@ Yesterday's eclipse as seen by the [GOES-East](https://www.star.nesdis.noaa.gov/
     <source src="./eclipse_sm.webm" type="video/webm">
 </video>
 
-BTW, If you're wondering why the clouds remain in view as night falls to the East, it's because the geocolor image is a composite of "true color" daytime (the RGB bands) and a Multispectral Infra-Red bands for the night part. GEOS-East and West capture I think sixteen basic wavelength bands that can then be composited into various combo images.
+BTW, If you're wondering why the clouds remain in view as night falls to the East, it's because the geocolor image is a composite of "true color" daytime and a Multispectral Infra-Red image for the night part. GEOS-East and West capture I think sixteen basic wavelength bands that can then be composited into various combination images. You can see them all, plus various composites, at [the GOES Image viewer](https://www.star.nesdis.noaa.gov/GOES/fulldisk.php?sat=G16)
 
