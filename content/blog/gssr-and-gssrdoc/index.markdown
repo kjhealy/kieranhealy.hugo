@@ -10,7 +10,7 @@ mathjax: false
 
 {{% admonition info Summary %}}
 
-My `gssr` package is now two packages: [`gssr`](https://kjhealy.github.io/gssr/) and [`gssrdoc`](https://kjhealy.github.io/gssrdoc/). They're also available as binary packages via R-Universe which means they will install much faster.
+My gssr package is now two packages: [gssr](https://kjhealy.github.io/gssr/) and [gssrdoc](https://kjhealy.github.io/gssrdoc/). They're also available as binary packages via R-Universe which means they will install much faster.
 
 {{% /admonition %}}
 
@@ -22,7 +22,7 @@ The [GSS](https://gss.norc.org) is a big survey with a big codebook. Distributin
 
 {{% figure src="fefam_help.png" alt="fefam in R" caption="Looking up a GSS variable" %}}
 
-The main downside to doing this is that it makes a large package even larger. In addition, it takes a fair amount of time to install from source because more than 6,500 variables have to be documented during the installation. Providing binary packages would be much better. The R OpenSci's [R-Universe](https://r-universe.dev/search/)  provides a package-building service that rests on a bunch of GitHub Actions. But the resource constraints of GitHub's runners meant that building a source package would fail on Ubuntu (specifically), and this meant that I couldn't use it. To get around this I have split the package in two. There’s now [`gssr`](https://kjhealy.github.io/gssr/), which has the datasets (and the ability to fetch yearly datasets) exactly as before, and [`gssrdoc`](https://kjhealy.github.io/gssrdoc/), which provides the integrated help. They are fully independent of one another. If you install both, you get exactly what `gssr` used to give you by itself. I think splitting them like this is worth it just because R-Universe can build package binaries of each now, and this means installation is _much faster_ and you can use `install.packages()`. To install both, do:
+The main downside to doing this is that it makes a large package even larger. In addition, it takes a fair amount of time to install from source because more than 6,500 variables have to be documented during the installation. Providing binary packages would be much better. The R OpenSci's [R-Universe](https://r-universe.dev/search/)  provides a package-building service that rests on a bunch of GitHub Actions. But the resource constraints of GitHub's runners meant that building a source package would fail on Ubuntu (specifically), and this meant that I couldn't use it. To get around this I have split the package in two. There’s now [gssr](https://kjhealy.github.io/gssr/), which has the datasets (and the ability to fetch yearly datasets) exactly as before, and [gssrdoc](https://kjhealy.github.io/gssrdoc/), which provides the integrated help. They are fully independent of one another. If you install both, you get exactly what `gssr` used to give you by itself. I think splitting them like this is worth it just because R-Universe can build package binaries of each now, and this means installation is _much faster_ and you can use `install.packages()`. To install both, do:
 
 {{< code r >}}
 # Install 'gssr' from 'ropensci' universe
