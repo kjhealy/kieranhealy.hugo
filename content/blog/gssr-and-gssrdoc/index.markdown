@@ -15,7 +15,7 @@ My `gssr` package is now two packages: [`gssr`](https://kjhealy.github.io/gssr/)
 {{% /admonition %}}
 
 
-<p class="clearfix"><a href="http://kjhealy.github.io/gssr"><img src="/files/misc/hex-gssr.png" width="140" align="left"></a></p><p class="clearfix"><a href="http://kjhealy.github.io/gssrdoc"><img src="/files/misc/hex-gssrdoc.png" width="140" align="left"></a></p>
+<p class="clearfix"><a href="http://kjhealy.github.io/gssr"><img src="/files/misc/hex-gssr.png" width="280" align="left"><a href="http://kjhealy.github.io/gssrdoc"><img src="/files/misc/hex-gssrdoc.png" width="280" align="left"></a></p>
 
 
 The [GSS](https://gss.norc.org) is a big survey with a big codebook. Distributing it as an R package poses a few challenges. It's too big for CRAN, of course, but that's fine because CRAN is not a repository for datasets in any case. For some time, my `gssr` package has bundled the main data file, the panel datasets, and functions for getting the file for a particular year directly from NORC. Recently, I started integrating the codebook---or at least, summaries of every variable in the 1972-2022 data file---into the package. It's a handy feature. It lets you look up GSS variables as if they were R functions:
