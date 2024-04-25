@@ -6,7 +6,7 @@ status: Published
 type: published
 whatkind: book
 overview: true
-buy: "<a href-\"https://www.amazon.com/Ordinal-Society-Marion-Fourcade/dp/0674971140\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
+buy: "<a href=\"https://www.amazon.com/Ordinal-Society-Marion-Fourcade/dp/0674971140\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
 citation: "<em>The Ordinal Society</em>. Harvard University Press."
 tag: theory
 subjects: technology society theory stratification economy culture markets
