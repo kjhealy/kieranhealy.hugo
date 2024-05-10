@@ -8,9 +8,9 @@ mathjax: false
 ---
 
 
-{{% admonition info Summary %}}
+{{% admonition info Another Update %}}
 
-Update 2: gssr is now two packages: [gssr](https://kjhealy.github.io/gssr/) and [gssrdoc](https://kjhealy.github.io/gssrdoc/). They're also available as binary packages via R-Universe which means they will install _much_ faster. See [this post](https://kieranhealy.org/blog/archives/2024/04/15/gssr-is-now-two-packages-gssr-and-gssrdoc/) for details. 
+gssr is now two packages: [gssr](https://kjhealy.github.io/gssr/) and [gssrdoc](https://kjhealy.github.io/gssrdoc/). They're also available as binary packages via R-Universe which means they will install _much_ faster. See [this post](https://kieranhealy.org/blog/archives/2024/04/15/gssr-is-now-two-packages-gssr-and-gssrdoc/) for details. 
 
 {{% /admonition %}}
 
