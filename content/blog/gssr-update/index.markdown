@@ -8,6 +8,13 @@ mathjax: false
 ---
 
 
+{{% admonition info Summary %}}
+
+Update 2: gssr is now two packages: [gssr](https://kjhealy.github.io/gssr/) and [gssrdoc](https://kjhealy.github.io/gssrdoc/). They're also available as binary packages via R-Universe which means they will install _much_ faster. See [this post](https://kieranhealy.org/blog/archives/2024/04/15/gssr-is-now-two-packages-gssr-and-gssrdoc/) for details. 
+
+{{% /admonition %}}
+
+
 The [General Social Survey](http://gss.norc.org), or GSS, is one of the cornerstones of US public opinion research and one of the most-analyzed datasets in Sociology. My colleague Steve Vaisey aptly describes it as the Hubble Space Telescope of American social science. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly. At present, the GSS is provided to researchers in a variety  of commercial formats: Stata (`.dta`), SAS, and SPSS (`.sav`). It's not too difficult to get the data into R using the [Haven](http://haven.tidyverse.org) package, but it can be a little annoying to have to do it repeatedly, or across projects. After doing it one too many times, a few years ago I got tired of it and I made an R package instead, `gssr`. Full details are available [at the gssr homepage](https://kjhealy.github.io/gssr).
 
 {{% figure src="fefam_svy.png" alt="Plot of GSS data from gssr" caption="GSS 'fefam' variable trends over time" %}}
