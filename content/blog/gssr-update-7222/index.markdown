@@ -8,6 +8,13 @@ mathjax: false
 ---
 
 
+{{% admonition info "Update (April 15th 2024)" %}}
+
+gssr is now two packages: [gssr](https://kjhealy.github.io/gssr/) and [gssrdoc](https://kjhealy.github.io/gssrdoc/). They're also available as binary packages via R-Universe which means they will install _much_ faster. See [this post](https://kieranhealy.org/blog/archives/2024/04/15/gssr-is-now-two-packages-gssr-and-gssrdoc/) for details. 
+
+{{% /admonition %}}
+
+
 [NORC released](https://gss.norc.org/get-the-data) version 2a of the 1972-2022 General Social Survey cumulative file. I’ve updated [`{gssr}`](https://kjhealy.github.io/gssr/), an R package that makes it more convenient for R users to work with GSS Data. One handy feature of `{gssr}` is that it lets you see documentation for individual GSS variables as R help pages.
 
 {{% figure src="fefam_help.png" alt="fefam_help" caption="Details on every GSS variable are available in the R help system." %}}
