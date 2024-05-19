@@ -11,7 +11,7 @@ I was messing around with some Census data this morning. I had two main thoughts
 
 
 
-{{% figure src="nyc_pctpoc_out_600.png" alt="" caption="NYC POC map." %}}
+{{% figure src="ny_pctpoc_out_600.png" alt="" caption="NYC POC map." %}}
 
 A [PDF](ny_pctpoc_out.pdf) is available as well if you want to look at it in a higher resolution. All the usual caveats apply about not reifying the block areas, but they're the most fine-grained unit data that are publicly available from the 2010 Census. One thing that's of interest are the fairly common "empty" areas where the Census does not record any residents. These include Parks and Cemeteries, LaGuardia and JFK Airports, and a variety of places like Brooklyn Navy Yards or the U.N., etc,where no-one lives. (It also includes Rikers Island, where people do live. You can see the special blocks designating the buildings.) There are more such places than you might think, especially in Midtown Manhattan and on either side of Newtown Creek, part of the border between Brooklyn and Queens. 
 
