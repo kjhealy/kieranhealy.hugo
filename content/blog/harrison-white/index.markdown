@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 The first [Sociological Scence Conference](https://socsciconf.org) began this
-morning. It was organized primarily by colleague Steve Vaisey, along with Ashley
+morning. It was organized primarily by my colleague Steve Vaisey, along with Ashley
 Harrell, Craig Rawlings, Turgut Kestinturk, Pablo Bello, and myself. We began on a
 somber note because of some news that came with the first visitors on Sunday
 evening.
@@ -24,7 +24,7 @@ science is surely its methods and techniques. And another part is its imagery,
 its metaphors, and its vision. And there are few sociologists who so fully
 embodied the power of technique while also being so gifted with imagery and so
 clearly in the grip of a vision of the world. I was looking last night at my
-copy of _Identity and Control_ and I was reminded, first, that Chuck Tilly a
+copy of _Identity and Controyl_ and I was reminded, first, that Chuck Tilly a
 little ruefully compared it to _Finnegans Wake_; and then, second, of a thing that
 Samuel Beckett said about that book. “Here” he remarked, “words are not the
 polite contortions of twentieth century printer’s ink. They are alive. They
