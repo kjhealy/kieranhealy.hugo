@@ -27,5 +27,5 @@ little ruefully compared it to _Finnegans Wake_; and then, second, of a thing th
 Samuel Beckett said about that book. “Here” he remarked, “words are not the
 polite contortions of twentieth century printer’s ink. They are alive. They
 elbow their way on to the page, and glow and blaze and fade and disappear.” We
-should all be so lucky to have our own scientific work to draw flame and catch
+should all be so lucky to have our own scientific work draw flame and catch
 fire in the way that Harrison White’s work so often did.
