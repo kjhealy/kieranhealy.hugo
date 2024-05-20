@@ -13,6 +13,8 @@ Harrell, Craig Rawlings, Turgut Kestinturk, Pablo Bello, and myself. We began on
 somber note because of some news that came with the first visitors on Sunday
 evening.
 
+_Opening Remarks_
+
 Harrison White passed away the day before yesterday after, I believe, a long
 illness. This is not the time for a proper remembrance, and I am not the person
 to do it. But we are here for the next two days under the label of [Sociological
