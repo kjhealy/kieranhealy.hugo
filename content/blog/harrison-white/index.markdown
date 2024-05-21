@@ -19,12 +19,12 @@ Harrison White passed away the day before yesterday after, I believe, a long
 illness. This is not the time for a proper remembrance, and I am not the person
 to do it. But we are here for the next two days under the label of [Sociological
 Science](https://sociologicalscience.com). Each of us likely has a view about
-what that phrase means, and probably disagree on many points. One part of
+what that phrase means, and probably disagree on many points. But one part of
 science is surely its methods and techniques. And another part is its imagery,
-its metaphors, and its vision. And there are few sociologists who so fully
+its metaphors, and its vision. There are few sociologists who so fully
 embodied the power of technique while also being so gifted with imagery and so
 clearly in the grip of a vision of the world. I was looking last night at my
-copy of _Identity and Controyl_ and I was reminded, first, that Chuck Tilly a
+copy of _Identity and Control_ and I was reminded, first, that Chuck Tilly a
 little ruefully compared it to _Finnegans Wake_; and then, second, of a thing that
 Samuel Beckett said about that book. “Here” he remarked, “words are not the
 polite contortions of twentieth century printer’s ink. They are alive. They
@@ -34,4 +34,4 @@ fire in the way that Harrison White’s work so often did.
 
 * * * 
 
-Here's a [short post from 2008](https://kieranhealy.org/blog/archives/2008/03/09/figs-from-thistles/) that touches on White's astonishing legacy of training students. 
+Here's a [short post from 2008](https://kieranhealy.org/blog/archives/2008/03/09/figs-from-thistles/Pp) that touches on White's astonishing legacy of training students. 
