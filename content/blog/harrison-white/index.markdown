@@ -34,4 +34,4 @@ fire in the way that Harrison White’s work so often did.
 
 * * * 
 
-Here's a [short post from 2008](https://kieranhealy.org/blog/archives/2008/03/09/figs-from-thistles/Pp) that touches on White's astonishing legacy of training students. 
+Here's a [short post from 2008](https://kieranhealy.org/blog/archives/2008/03/09/figs-from-thistles/) that touches on White's astonishing legacy of training students. 
