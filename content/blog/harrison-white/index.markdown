@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-The first [Sociological Scence Conference](https://socsciconf.org) began this
+The first [Sociological Science Conference](https://socsciconf.org) began this
 morning. It was organized primarily by my colleague Steve Vaisey, along with Ashley
 Harrell, Craig Rawlings, Turgut Kestinturk, Pablo Bello, and myself. We began on a
 somber note because of some news that came with the first visitors on Sunday
