@@ -33,6 +33,6 @@ And more than a [Kos](http://www.dailykos.com) daily stumps.<br />
 I swear to you by the stars above,<br />
 And below if such there be,<br />
 As Lott is loved by [Mary Rosh](http://www.cse.unsw.edu.au/~lambert/guns/maryrosh.html)<br />
-That's how [you're](http://www.kieranhealy.org/blog/images/Laurie1.jpg) loved by me.<br />
+That's how [you're]() loved by me.<br />
 <br />
 <br />(With sincere apologies to [Ogden Nash](http://www.westegg.com/nash/).)

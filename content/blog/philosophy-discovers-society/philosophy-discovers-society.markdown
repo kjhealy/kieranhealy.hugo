@@ -10,7 +10,7 @@ categories:
 - Sociology
 ---
 
-[Matthew Yglesias](http://www.matthewyglesias.com/ "Matthew Yglesias") reports on research investigating the radical idea that one's philosophical intuitions might vary by [culture, class position or prior exposure to philosophy](http://ruccs.rutgers.edu/ArchiveFolder/Research%20Group/Publications/Metaskept.htm). Although I think philosophy is great, and in fact am in the process of getting married to a [pure-type analytic metaphysician](http://www.u.arizona.edu/~lapaul), it's still hard for me to resist needling philosophers about their blind spot about intuitions. To caricature, the standard form of argument in the field goes like this:
+[Matthew Yglesias](http://www.matthewyglesias.com/ "Matthew Yglesias") reports on research investigating the radical idea that one's philosophical intuitions might vary by [culture, class position or prior exposure to philosophy](http://ruccs.rutgers.edu/ArchiveFolder/Research%20Group/Publications/Metaskept.htm). Although I think philosophy is great, and in fact am in the process of getting married to a [pure-type analytic metaphysician](), it's still hard for me to resist needling philosophers about their blind spot about intuitions. To caricature, the standard form of argument in the field goes like this:
 
 > 1. I wish to argue [that P](http://www.u.arizona.edu/~chalmers/misc/proofs.html).
 > 2. Choose premises for argument that P based on their intuitive plausibility.

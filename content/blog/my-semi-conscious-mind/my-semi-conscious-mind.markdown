@@ -10,7 +10,7 @@ categories:
 - Philosophy
 ---
 
-Following on from [last week's case](http://www.crookedtimber.org/archives/002867.html), which was concerned with the ontological argument, this week's nutter in [Laurie's](http://www.u.arizona.edu/~lapaul) Inbox gives us the complete and comprehensive solution to consciousness and morality, two perennial favorites.
+Following on from [last week's case](http://www.crookedtimber.org/archives/002867.html), which was concerned with the ontological argument, this week's nutter in Laurie's Inbox gives us the complete and comprehensive solution to consciousness and morality, two perennial favorites.
 
 > **The Essay (Forward this to all!)**
 >  [Name Redacted to Protect the Innocent]

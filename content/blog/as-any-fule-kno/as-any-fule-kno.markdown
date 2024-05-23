@@ -15,4 +15,4 @@ In an aside to a post, [John Quiggin](http://mentalspace.ranters.net/quiggin/arc
 
 > I know the spelling of my name is not obvious from its pronunciation, and I always take care to spell it out when I'm talking to someone. But how can people get it so consistently wrong when they're taking it from a printed source?
 
-Believe me, I sympathize. At least they don't get your last *and* your first name wrong, John. Nor are they likely to think you are a woman. And if your [wife's](http://www.u.arizona.edu/~lapaul) name is also gender-ambiguous to some audiences, the likelihood of farce increases even further. The dialog practically writes itself.
+Believe me, I sympathize. At least they don't get your last *and* your first name wrong, John. Nor are they likely to think you are a woman. And if your [wife's]() name is also gender-ambiguous to some audiences, the likelihood of farce increases even further. The dialog practically writes itself.

@@ -14,4 +14,4 @@ Brad DeLong has a [post worrying about color perception](http://www.j-bradford-d
 
 This gives me a chance to link to [Dave Chalmers](http://www.u.arizona.edu/~chalmers/), friend, philosopher, blog-reader and all-round qualia expert. Dave's book, [*The Conscious Mind*](http://www.u.arizona.edu/~chalmers/book/tcm.html), will tell you about consciousness and qualia of all kinds (absent, fading, dancing, inverted, others). On the specific topic of color, Alex Byrne and David Hilbert's anthologies on the [Philosophy of Color](http://www.amazon.com/exec/obidos/tg/detail/-/0262024241) and the [Science of Color](http://www.amazon.com/exec/obidos/tg/detail/-/026202425X) might be a good place to start.
 
-Maybe I should make a new "Philosophy" category for this blog. It would probably annoy [real philosophers](http://www.u.arizona.edu/~lapaul) no end.
+Maybe I should make a new "Philosophy" category for this blog. It would probably annoy [real philosophers]() no end.

@@ -10,7 +10,7 @@ categories:
 - Misc
 ---
 
-To my chagrin, it was [Laurie](http://www.u.arizona.edu/~lapaul) and not I who received this letter yesterday:
+To my chagrin, it was Laurie and not I who received this letter yesterday:
 
 > Dear Mr [*sic*] Paul,
 >
