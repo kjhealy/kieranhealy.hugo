@@ -23,9 +23,6 @@ For these new versions I decided to add a little more context by sketching in so
 {{% figure src="ny_pct_black_alone_2020_out_600.png" alt="" caption="New York City population, percent reporting 'Black Alone' to race question." %}}
 
 
-{{% figure src="ny_pctpoc_2020_out_600.png" alt="" caption="New York City's POC population." %}}
-
-
 {{% figure src="ny_pct_hispanic_2020_out_600.png" alt="" caption="New York City population, percent Hispanic/Latino origin." %}}
 
 
