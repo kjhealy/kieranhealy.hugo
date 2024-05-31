@@ -15,4 +15,4 @@ Our [New York City map adventure](https://kieranhealy.org/blog/archives/2024/05/
 
 There's also a [higher-resolution version](ny_dotpop_n10_2020_points_minimal_2400ppi.png) which is about 17MB in size. Contrary to my usual practice I won't share a PDF version of this one, because it's really pretty big.
 
-I very much like the pointillist look of this sort of map. They do a good job of compensating for some of the weaknesses of choropleths even though, we have to bear in mind once again, they are ultimately representations of a block-level count. A natural next step (which I imagine I'll get to) would be to take the counts e.g. by race and point-map those. 
+I very much like the pointillist look of this sort of map. They do a good job of compensating for some of the weaknesses of choropleths even though, we have to bear in mind once again, they are ultimately representations of a block-level count. A natural next step (which I imagine I'll get to) would be to take the counts e.g. by race and point-map those with different colors. 
