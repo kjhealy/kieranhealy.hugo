@@ -15,3 +15,6 @@ Disallow: /
 
 User-Agent: FacebookBot
 Disallow: /
+
+User-Agent: Applebot-Extended
+Disallow: /
