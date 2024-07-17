@@ -33,7 +33,7 @@ AVPGAS: Top Cardiologist Begs: Quit Eating Blueberries Before This Happens! Look
 
 FEDERIGHI: Uh, thanks ... John ... Hey, you know it's time once again for a new version of macOS to fully take advantage of the tremendous power that Apple Silicon provides. But what to call it? [chuckles] Well maybe we should visit our crack marketing t—
 
-AVPGAS [Appearing in each tile of the screen]: Harvard Doctors recomments this Sleep Apnea Treatment Without CPAP (It's Genius). Try it tonight!
+AVPGAS [Appearing in each tile of the screen]: Harvard Doctors recommend this Sleep Apnea Treatment Without CPAP (It's Genius). Try it tonight!
  
 AVPGAS2: Seven Discounts seniors only get if they ask!
 
