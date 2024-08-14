@@ -29,10 +29,7 @@ paginate = 10
 unsafe = true
 
 
-[author]                  # essential                     
-  name = "Kieran Healy"
-
-[sitemap]                 # essential                     
+[sitemap]                 # essential
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
@@ -142,6 +139,11 @@ blog = "/blog/archives/:year/:month/:day/:slug"
     #c-twitter = "https://twitter.com/kjhealy"
     g-github = "https://github.com/kjhealy"
     m-mastodon = "https://mastodon.social/@kjhealy"
+
+   [params.author]
+      name = "Kieran Healy"
+
+
 	
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
