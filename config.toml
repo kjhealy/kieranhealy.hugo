@@ -22,6 +22,8 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
+highlightInClient = false
+
 hasCJKLanguage = false     # has chinese/japanese/korean ? 
 paginate = 10                                              
 
