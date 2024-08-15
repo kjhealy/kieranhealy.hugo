@@ -27,8 +27,16 @@ highlightInClient = false
 hasCJKLanguage = false     # has chinese/japanese/korean ? 
 paginate = 10                                              
 
-[markup.goldmark.renderer]
-unsafe = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      [markup.goldmark.renderer.attribute]
+        unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+
 
 
 [sitemap]                 # essential
