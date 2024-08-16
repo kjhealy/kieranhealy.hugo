@@ -4,11 +4,11 @@ title: "About"
 ---
 
 
-I am Professor of <a href ="http://sociology.duke.edu">Sociology</a> at [Duke University](https://www.duke.edu). Much of my research has been about the social organization of exchange in [human blood and organs](https://kieranhealy.org/publications/lbg/), cultural goods, software, and ideas. My current work focuses on the moral order of market society, the effect of models and measurement on social classification, and the [link between those two topics](https://www.kieranhealy.org/publications/tos). I also work on techniques and methods for [data visualization](https://kieranhealy.org/publications/dataviz), and some [problems in social theory](https://kieranhealy.org/publications/fuck-nuance/).
+I am Professor of [Sociology](https://sociology.duke.edu) at [Duke University](https://www.duke.edu). Much of my research has been about the social organization of exchange in [human blood and organs](https://kieranhealy.org/publications/lbg/), cultural goods, software, and ideas. My current work focuses on the moral order of market society, the effect of models and measurement on social classification, and the [link between those two topics](https://www.kieranhealy.org/publications/tos). I also work on techniques and methods for [data visualization](https://kieranhealy.org/publications/dataviz), and some [problems in social theory](https://kieranhealy.org/publications/fuck-nuance/).
 
 {{< figure src="https://kieranhealy.org/files/misc/kjh-about.jpg" title="Kieran Healy" >}}
 
-Most of my <a href="https://kieranhealy.org/publications/">publications and working papers</a> are available on this site, along with information about <a href="https://kieranhealy.org/teaching/">classes I teach</a>, various <a href="https://kieranhealy.org/resources/">code and data</a> resources, and a lot of <a href="https://kieranhealy.org/blog/">occasional writing</a>. My <a href="https://kieranhealy.org/vita.pdf">Curriculum Vitae</a> has more detail, if you need it.
+Most of my [publications and working papers](/publications) are available on this site, along with information about [classes](/teaching) I teach, various [code,  data, and related resources](/resources), and a quite lot of [occasional writing](/blog). My [Curriculum Vitae](/vita.pdf) has more detail, if you need it.
 
 <center>
 <div class="logo-wrapper">
