@@ -7,7 +7,7 @@ status: publish
 title: Cos it's too darn hot
 wordpress_id: '815'
 categories:
-- Personal
+
 - Sociology
 ---
 

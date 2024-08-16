@@ -7,7 +7,7 @@ status: publish
 title: On the Road Again
 wordpress_id: '667'
 categories:
-- Personal
+
 ---
 
 After a year of leave in Australia (well, *someone* has to act as a counterweight to all those Aussie backpackers), I just arrived back in the U.S. Three observations:

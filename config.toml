@@ -9,7 +9,7 @@ layoutdir = "layouts"
 publishdir = "public"
 
 
-disableKinds = ["taxonomy"]
+#disableKinds = ["taxonomy"]
 
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
@@ -25,7 +25,7 @@ pygmentsCodefencesGuessSyntax = true
 highlightInClient = false
 
 hasCJKLanguage = false     # has chinese/japanese/korean ? 
-paginate = 10                                              
+paginate = 20
 
 
 [markup]
@@ -91,7 +91,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
   # paginate of archives, tags and categories
   # general archives
-  archivePaginate = 10
+  archivePaginate = 100
   # blog archive. This indexes n /posts/ not n /years/ for pagination purposes
   blogPaginate = 100
 

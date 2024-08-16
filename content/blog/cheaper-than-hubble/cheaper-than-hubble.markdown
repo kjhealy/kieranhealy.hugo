@@ -7,7 +7,7 @@ status: publish
 title: Cheaper than Hubble
 wordpress_id: '12'
 categories:
-- Personal
+
 ---
 
 There was an [annular eclipse](http://story.news.yahoo.com/news?tmpl=story&u=/space/20020607/sc_space/viewer_s_guide_to_the_june_10_solar_eclipse) yesterday. The Sun's disc was partly covered by the Moon. In the U.S., the best place to view it was in the southwest. (The further you were in this direction, the bigger the bite the Moon took out of the Sun.) As it turns out, there aren't many places further southwest than Tucson. So I had a great view. Almost 75% of the Sun was covered at one point. Of course, you couldn't look at the Sun directly to see this.

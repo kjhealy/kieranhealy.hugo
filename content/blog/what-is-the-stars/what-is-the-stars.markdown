@@ -7,7 +7,7 @@ status: publish
 title: What is the stars?
 wordpress_id: '141'
 categories:
-- Personal
+
 ---
 
 I spent yesterday evening participating in the [Nightly Observing Program](http://www.noao.edu/outreach/nop/) at the [Kitt Peak National Observatory](http://www.noao.edu/kpno/ "Kitt Peak National Observatory"). Kitt Peak is an 8,000ft mountain on the Tohono O'odham reservation, about sixty miles west of Tucson. The Observatory, part of the [NOAO](http://www.noao.edu/) and run by the National Science Foundation, has more optical telescopes in one place than anywhere else on earth—- almost 25—- as well as a few radio telescopes.

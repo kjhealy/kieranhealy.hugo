@@ -7,7 +7,7 @@ status: publish
 title: The Blogger to his Valentine
 wordpress_id: '279'
 categories:
-- Personal
+
 ---
 
 More than Dubya hates Saddam<br />

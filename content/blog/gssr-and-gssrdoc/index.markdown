@@ -1,7 +1,7 @@
 ---
 title: "gssr is now two packages: gssr and gssrdoc"
 date: 2024-04-15T16:18:57-04:00
-categories: [R, data]
+categories: [R, data,gss]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -6,7 +6,7 @@
 
 {{- if not $paginator.HasPrev }}
 <section id="pubs" class="archive">
-<h1>Some Favorite Things</h1>  
+<h1>Some Favorite Things</h1>
 
   {{ range (where .Site.RegularPages "Section" "blog") }}  
   {{ if .Params.fave }}
@@ -16,7 +16,7 @@
           {{ .Title }}
         </a>
       </span> &middot;
- 
+
   {{ end }}
 
   {{ end }}
@@ -24,6 +24,23 @@
 <hr />
 </section>
 {{- end }}
+
+
+<section id="pubs" class="archive">
+    <h1>Categories</h1>
+
+    {{ $taxonomyObject := .Site.Taxonomies.categories }}
+
+   {{ range $taxonomyObject.ByCount }}
+    <span class="post-title">
+    <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
+    </span>
+    &middot;
+    {{ end }}
+
+    <br> <br>
+    <hr />
+</section>
 
 <section id="archive" class="archive">
 

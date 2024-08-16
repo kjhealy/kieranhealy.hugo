@@ -8,7 +8,7 @@ title: The Triffid
 wordpress_id: '1057'
 categories:
 - Misc
-- Personal
+
 ---
 
 [![image](http://farm2.static.flickr.com/1040/615640249_fad1b14a63_m.jpg)](http://www.flickr.com/photos/kjhealy/615640249/ "photo sharing")

@@ -1,7 +1,7 @@
 ---
 title: "gssr Update"
 date: 2023-12-02T11:25:12-05:00
-categories: [sociology,r,nerdery]
+categories: [sociology,r,nerdery,gss]
 footnotes: false
 htmlwidgets: false
 mathjax: false

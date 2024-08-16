@@ -7,7 +7,7 @@ status: publish
 title: An Irish Ritual
 wordpress_id: '352'
 categories:
-- Personal
+
 ---
 
 [Henry Farrell](http://farrell.blogspot.com/ "Farrellblogger .") and I just exchanged a few emails where we went through a standard Irish process which we can call **Placing You**. [Very much like me](http://www.kieranhealy.org/blog/archives/000247.html), Henry's an expat Irish social scientist teaching in North America. Yesterday on his blog, he [mentioned in passing](http://farrell.blogspot.com/2003_04_06_farrell_archive.html#92193517) that his great-grandather was [Eoin McNeill](http://www.rte.ie/millennia/people/macneilleoin.html), a major figure in Irish political history.

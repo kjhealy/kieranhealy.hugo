@@ -7,7 +7,7 @@ status: publish
 title: Non-Presence
 wordpress_id: '995'
 categories:
-- Personal
+
 ---
 
 I'm sure you're all tearing your hair out with frustration or worry, so I apologise for not posting much. For the past week I have been on a very tiny island on the south end of the [Rangiroa](http://en.wikipedia.org/wiki/Rangiroa) atoll, in French Polynesia. No internet access there. Also no electricity.

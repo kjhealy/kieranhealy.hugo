@@ -7,7 +7,7 @@ status: publish
 title: Christmas in Oz
 wordpress_id: '565'
 categories:
-- Personal
+
 ---
 
 I'm having my least Christmas-like Christmas ever, mostly because I'm living in Canberra. I understand that it's unreasonable to expect Christmas to proceed as normal amidst the gum trees and sunshine, and of course there's a lot to be said for adapting traditions to fit the circumstances. At the same time, I can see why the first transplants from Europe held so grimly to traditions that were absurdly out of whack with their situation. I have a strong urge to light a candle and put it in the window, except Monday was the longest day of the year, so what's the point?

@@ -7,7 +7,7 @@ status: publish
 title: Goodbye, John
 wordpress_id: '1541'
 categories:
-- Personal
+
 - Philosophy
 ---
 

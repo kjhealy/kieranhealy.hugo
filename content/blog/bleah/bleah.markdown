@@ -7,7 +7,7 @@ status: publish
 title: Bleah
 wordpress_id: '385'
 categories:
-- Personal
+
 ---
 
 A pox on allergies. That is all.

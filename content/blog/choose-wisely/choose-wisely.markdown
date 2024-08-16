@@ -7,7 +7,7 @@ status: publish
 title: Choose Wisely
 wordpress_id: '412'
 categories:
-- Personal
+
 ---
 
 Semester's nearly over. Three options.

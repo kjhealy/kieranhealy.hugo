@@ -7,7 +7,7 @@ status: publish
 title: After Zombie Economics,  Zombie Sociology
 wordpress_id: '1744'
 categories:
-- Personal
+
 - Sociology
 ---
 

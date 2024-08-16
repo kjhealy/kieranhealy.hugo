@@ -7,7 +7,7 @@ status: publish
 title: If there's a Hell below, we're all gonna go
 wordpress_id: '404'
 categories:
-- Personal
+
 ---
 
 The Dante's Inferno Test has banished me to *the Sixth Level of Hell – The City of Dis*. Detailed report follows.

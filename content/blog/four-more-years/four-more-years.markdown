@@ -7,7 +7,7 @@ status: publish
 title: Four More Years?
 wordpress_id: '938'
 categories:
-- Personal
+
 ---
 
 A [comment by Bitch PhD](http://bitchphd.blogspot.com/2006/05/go-tell-norbiz-happy-fucking.html) reminded me that this week I'll have been blogging for four years. I'm not sure what to think about that, so let's look at some data. Here is a time-series of the number of posts per month on [my blog](http://www.kieranhealy.org/blog) from its [inauspicious beginning](http://www.kieranhealy.org/blog/archives/2002/05/21/the-hello-world-entry/) in May 2002 to the present. (Since CT started, I've just posted the same material to my own blog, so the trend represents all my posts.)

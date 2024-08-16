@@ -9,7 +9,7 @@ wordpress_id: '1742'
 categories:
 - IT
 - Obiter Dicta
-- Personal
+
 ---
 
 I have [an interview](https://kieran.healy.usesthis.com/) over at [The Setup](http://usesthis.com/), for those of you who are interested in cursor-gazing.

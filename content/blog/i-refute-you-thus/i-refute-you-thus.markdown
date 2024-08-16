@@ -7,7 +7,7 @@ status: publish
 title: I Refute You Thus
 wordpress_id: '1315'
 categories:
-- Personal
+
 - Philosophy
 ---
 

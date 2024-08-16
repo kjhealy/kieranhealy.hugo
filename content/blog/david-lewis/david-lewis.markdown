@@ -7,7 +7,7 @@ status: publish
 title: David Lewis
 wordpress_id: '120'
 categories:
-- Personal
+
 ---
 
 I was browsing around [Matthew Yglesias's blog](http://www.matthewyglesias.com/ "Matthew Yglesias"), wondering why I don't have him on my list of permanent links yet for posts like [this one](http://www.matthewyglesias.com/archives/000895.html#000895), when I came across a [philosophy paper](http://207.99.122.48/lewis.html) he wrote about David Lewis's [On the Plurality of Worlds](http://www.amazon.com/exec/obidos/tg/detail/-/0631224262). David died unexpectedly a year ago last Sunday. He was Laurie's adviser and, over the course of our time at Princeton, we were lucky enough to have him and his wife Steffi become our friends. His [obituary in the Guardian](http://books.guardian.co.uk/news/articles/0,6109,579258,00.html) gives some sense of his enormous contribution to analytic philosophy. Remarks from his memorial service by [Laurie](/paul-dkl.pdf), [Dave Chalmers](http://www.u.arizona.edu/~chalmers/lewis.html), [Philip Kitcher](http://web.princeton.edu/sites/philosph/kitcher2.htm), [Mark Johnston](http://web.princeton.edu/sites/philosph/Johnston.htm) and [David Armstrong](/armstrong-comments.pdf) tell you something of the standing he had amongst—and the impression he made upon—philosophers.
