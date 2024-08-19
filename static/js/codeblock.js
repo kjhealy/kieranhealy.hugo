@@ -17,13 +17,13 @@ function toggle(e) {
   var link = e.target;
   var div = link.parentElement.parentElement;
 
-  if (link.innerHTML == "more&nbsp;") {
-    link.innerHTML = "less&nbsp;";
+  if (link.innerHTML == "▾ More&nbsp;") {
+    link.innerHTML = "▴ Less&nbsp;";
     div.style.maxHeight = "";
     div.style.overflow = "none";
   }
   else {
-    link.innerHTML = "more&nbsp;";
+    link.innerHTML = "▾ More&nbsp;";
     div.style.maxHeight = height;
     div.style.overflow = "hidden";
     div.scrollIntoView({ behavior: 'smooth' });
@@ -42,7 +42,7 @@ function makeCollapsible() {
       var e = document.createElement('div');
       e.className = "highlight-link";
 
-      var html = '<a href="">more&nbsp;</a>';
+      var html = '<a href="">▾ More&nbsp;</a>';
       e.innerHTML = html;
       div.appendChild(e);
     }
