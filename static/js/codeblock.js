@@ -2,7 +2,6 @@
 // by Jiri De Jagere, @JiriDJ
 
 var height = "300px";
-var heighttest = 300;
 
 if (
   document.readyState === "complete" ||
@@ -36,7 +35,7 @@ function makeCollapsible() {
 
   for (i=0; i < divs.length; i++) {
     var div = divs[i];
-    if (div.offsetHeight > parseInt(heighttest, 10)) {
+    if (div.offsetHeight > parseInt(height, 10)) {
       div.style.maxHeight = height;
       div.style.overflow = "hidden";
 
@@ -45,7 +44,6 @@ function makeCollapsible() {
 
       var html = '<a href="">more&nbsp;</a>';
       e.innerHTML = html;
-      
       div.appendChild(e);
     }
   }
