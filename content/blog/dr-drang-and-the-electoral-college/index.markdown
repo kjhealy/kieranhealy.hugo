@@ -167,4 +167,4 @@ knitr::kable(align = "ccrr")
 
 {{< /code >}}
 
-And we're done. To reiterate, all I wanted to do here was show how basically the same  abstractions---specifically the very idea of a dataframe, and the idea of splitting it up into subunits and applying functions those units---are very useful when working with data, which is why they're present in the data-focused toolkits of different programming languages. 
+And we're done. To reiterate, all I wanted to do here was show how basically the same  abstractions---specifically the idea of a dataframe, and the idea of splitting it up into subunits and applying functions those units---are useful when working with data, which is why they're present in the data-focused toolkits of different programming languages. 
