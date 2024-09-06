@@ -33,7 +33,7 @@ The other week, the Internet's most beloved [creepy snowman](https://leancrew.co
 |    54    |             CA             | 11.63%| 10.04%|
 
 
-In fact, he wrote two versions of the the post. The first one used Python's `Pandas` library to do the aggregation but the code Dr Drang wrote was still based around a nested loop:
+In fact, he wrote two versions of the the post. The first one used Python's `Pandas` library to get the data in shape, but the code Dr Drang wrote was still based around a nested loop:
 
 {{< code python >}}
 # Print out the summary table
