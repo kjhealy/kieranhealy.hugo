@@ -94,11 +94,9 @@ Next, we'll do the initial aggregation to group by `Electors` and calculate the 
 
 df |>
   group_by(Electors) |>
-  summarize(
-    State_n = n(),
-    Electors_n = sum(Electors),
-    across(where(is.numeric), sum)
-  )
+  summarize(State_n = n(),
+            Electors_n = sum(Electors),
+            across(where(is.numeric), sum))
 
 #> # A tibble: 20 × 6
 #>    Electors State_n Electors_n Population PopPct  ECPct
@@ -133,13 +131,12 @@ Finally, we want to make the nice Markdown version of the table. It's much the s
 {{< code r >}}
 df |>
   group_by(Electors) |>
-  summarize(
-    States = paste0(Abbrev, collapse = ", "),
-    across(c("PopPct", "ECPct"), sum)
-    ) |>
-  mutate(
-    across(c("PopPct", "ECPct"),
-           \(x) scales::label_percent(accuracy = 0.01)(x))) |>
+  summarize(States = paste0(Abbrev, collapse = ", "), 
+            across(c("PopPct", "ECPct"), sum)) |>
+  mutate(across(
+    c("PopPct", "ECPct"),
+    \(x) scales::label_percent(accuracy = 0.01)(x)
+  )) |>
   knitr::kable(align = "ccrr")
 
 
