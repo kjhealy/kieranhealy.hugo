@@ -88,15 +88,16 @@ We don't really need the whole Tidyverse to do what we want here, but we'll just
 
 One feature of R in this step is that we can write `PopPct = Population/sum(Population)` to get the population proportion for each row. That's because the calculation is vectorized: the `Population` in the numerator will be each element of the `Population` vector (i.e. each row of the table). The `sum(Population)` in the denominator will be the sum of all the elements of that vector. This way of writing things is very handy and, again, is a "natural" way to express many kinds of calculation that arise when we are doing arithmetic on tables.
 
-Next, we'll do the initial aggregation to group by `Electors` and calculate the summary measures. We could have done this all in one breath above, just by adding more steps to the pipeline, but I've broken it out for ease of reading. This is the "Quick and Dirty Table" from Dr Drang's post. We start with our `df`, group by Electors and then, within each group, count up how many states there are, sum how many electors there are, and also sum the remaining proportion columns. The `across(where())` bit establishes a test for each column (is it numeric?) and the `\(x) sum(x)` bit is an anonymous function that's applied to each column that meets the test---i.e., sum it. These calculations are done by the grouping we set in the previous step in the pipeline. 
+Next, we'll do the initial aggregation to group by `Electors` and calculate the summary measures. We could have done this all in one breath above, just by adding more steps to the pipeline, but I've broken it out for ease of reading. This is the "Quick and Dirty Table" from Dr Drang's post. We start with our `df`, group by Electors and then, within each group, count up how many states there are, sum how many electors there are, and also sum the remaining proportion columns. The `across(where())` bit establishes a test for each column (is it numeric?) and `sum` is the function that's applied to each column that meets the test. These calculations are done by the grouping we set in the previous step in the pipeline. 
 
 {{< code r >}}
+
 df |>
   group_by(Electors) |>
   summarize(
     State_n = n(),
     Electors_n = sum(Electors),
-    across(where(is.numeric), \(x) sum(x))
+    across(where(is.numeric), sum)
   )
 
 #> # A tibble: 20 × 6
@@ -127,20 +128,20 @@ df |>
 
 You might have noticed that the `Abbrev` column disappeared in the `summarize()` step. This is because we didn't explicitly use it to create any column of the summary table, so there's no place for it. This would also be true of any other columns the `df` might have that we weren't interested in summarizing just now.
 
-Finally, we want to make the nice Markdown version of the table. It's much the same as before. The difference is that we'll use the state abbreviations (this time it's the full State names that disappear). During the summary step, when the rows are grouped by `Electors`, the `paste0` function  collapses them into a single string whose elements are separated by a ", ". We also calculate the grouped proportions as before in `PopPct` and`ECPct`. Once we've summarized the table, we need to format those proportions as percentages rounded to two decimal places. We apply the `label_percent()` function to those two columns, which does the job for us. Finally, we grab the `kable()` function from the `knitr` package to take the cleaned-up dataframe as input and output the actual markdown.
+Finally, we want to make the nice Markdown version of the table. It's much the same as before. The difference is that we'll use the state abbreviations (this time it's the full State names that disappear). During the summary step, when the rows are grouped by `Electors`, the `paste0` function  collapses them into a single string whose elements are separated by a ", ". We also calculate the grouped proportions as before in `PopPct` and`ECPct`. Once we've summarized the table, we need to format those proportions as percentages rounded to two decimal places. We apply the `label_percent()` function to those two columns, which does the job for us. We have to write that using the notation for an anonymous function, `\(x) function(x)` because `label_percent()` is a function factory: it's a function that can be given arguments, but whose output is itself a function that accepts an argument (in this case, `x`, a vector of numbers to format as percentages). This is why it's written in the form `label_percent(accuracy=0.01)(x)`. Finally, we grab the `kable()` function from the `knitr` package to take the cleaned-up dataframe as input and output the actual markdown.
 
 {{< code r >}}
-
 df |>
   group_by(Electors) |>
   summarize(
     States = paste0(Abbrev, collapse = ", "),
-    across(c("PopPct", "ECPct"),
-           \(x) sum(x))) |>
+    across(c("PopPct", "ECPct"), sum)
+    ) |>
   mutate(
     across(c("PopPct", "ECPct"),
            \(x) scales::label_percent(accuracy = 0.01)(x))) |>
-knitr::kable(align = "ccrr")
+  knitr::kable(align = "ccrr")
+
 
 | Electors |           States           | PopPct|  ECPct|
 |:--------:|:--------------------------:|------:|------:|
