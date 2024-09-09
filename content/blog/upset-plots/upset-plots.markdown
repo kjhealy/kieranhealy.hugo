@@ -1,7 +1,7 @@
 ---
 title: "Upset Plots"
 date: 2020-04-16T15:29:31-04:00
-categories: [R,Visulization]
+categories: [R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false
