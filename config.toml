@@ -8,9 +8,6 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-
-#disableKinds = ["taxonomy"]
-
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
 enableEmoji = false
@@ -25,7 +22,8 @@ pygmentsCodefencesGuessSyntax = true
 highlightInClient = false
 
 hasCJKLanguage = false     # has chinese/japanese/korean ?
-paginate = 20
+
+pagination.PagerSize = 20
 
 
 [markup]
