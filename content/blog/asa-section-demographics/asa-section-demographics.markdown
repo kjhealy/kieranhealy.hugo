@@ -25,8 +25,4 @@ The gender composition of sections is somewhat related to how large they are.
 
 {{% figure src="https://kieranhealy.org/files/misc/asa17-scatter.png" alt="Percent female vs Total section membership." caption="Percent female vs total section membership." %}}
 
-We can look at all these together, if we like, using a ternary plot. However, we are cheating somewhat, because the three variables are constrained to sum to 1 on the plot but not in reality. 
-
-{{% figure src="https://kieranhealy.org/files/misc/asa17-ternary.png" alt="" caption="Ternary plot of percent female, percent student, and percent retired." %}}
-
 Code and data to reproduce these figures [is available on GitHub](https://github.com/kjhealy/asa_sections17).
