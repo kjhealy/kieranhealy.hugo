@@ -199,11 +199,22 @@ fars_daily_means
 Now we can draw a plot. This one is generated from the code here but there's also theme setting, not shown, that makes the fonts a bit nicer.
 
 {{< code r >}}
+
+# Make a mini dataset of facet labels
+month_labs <- fars_daily_means |> 
+  distinct(month) |> 
+  mutate(x = 1L, y = 3.5, 
+         month_fac = factor(month, ordered = TRUE)) 
+
 fars_daily_means |> 
   ggplot( mapping = aes(x = day, y = mean_n, fill = flag)) +
     geom_col() +
     scale_fill_manual(values = c("gray30", "darkorange2")) +
     scale_x_continuous(breaks = c(1, 10, 20, 30)) + 
+    geom_label(data = month_labs, 
+                              mapping = aes(x = x, y = y, label = month),
+                              inherit.aes = FALSE, hjust = 0, 
+               family = "Myriad Pro Condensed") +     
     guides(fill = "none") + 
     facet_wrap(~ month_fac, ncol = 1) +
     labs(x = "Day of the Month",
