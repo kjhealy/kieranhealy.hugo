@@ -212,8 +212,8 @@ fars_daily_means |>
     scale_fill_manual(values = c("gray30", "darkorange2")) +
     scale_x_continuous(breaks = c(1, 10, 20, 30)) + 
     geom_label(data = month_labs, 
-                              mapping = aes(x = x, y = y, label = month),
-                              inherit.aes = FALSE, hjust = 0, 
+               mapping = aes(x = x, y = y, label = month),
+               inherit.aes = FALSE, hjust = 0, 
                family = "Myriad Pro Condensed") +     
     guides(fill = "none") + 
     facet_wrap(~ month_fac, ncol = 1) +
