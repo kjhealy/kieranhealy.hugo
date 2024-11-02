@@ -5,35 +5,34 @@
 {{- $paginator := .Paginate .RegularPagesRecursive.ByDate.Reverse .Site.Params.blogPaginate }}
 
 {{- if not $paginator.HasPrev }}
+
 <section id="pubs" class="archive">
-<h1>Some Favorite Things</h1>
+    <h1>Some Favorite Things</h1>
 
-  {{ range (where .Site.RegularPages "Section" "blog") }}  
-  {{ if .Params.fave }}
+    {{ range (where .Site.RegularPages "Section" "blog") }}
+    {{ if .Params.fave }}
 
-      <span class="post-title">
+    <span class="post-title">
         <a href="{{ .RelPermalink }}" class="archive-post-link">
-          {{ .Title }}
+            {{ .Title }}
         </a>
-      </span> &middot;
+        </span> &middot;
 
-  {{ end }}
+        {{ end }}
 
-  {{ end }}
- <br >  <br >   
-<hr />
+        {{ end }}
+        <br> <br>
+        <hr />
 </section>
-{{- end }}
 
-
-<section id="pubs" class="archive">
+<section id="categories" class="archive">
     <h1>Categories</h1>
 
     {{ $taxonomyObject := .Site.Taxonomies.categories }}
 
-   {{ range $taxonomyObject.ByCount }}
+    {{ range $taxonomyObject.ByCount }}
     <span class="post-title">
-    <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
+        <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
     </span>
     &middot;
     {{ end }}
@@ -42,51 +41,56 @@
     <hr />
 </section>
 
+{{- end }}
+
+
+
 <section id="archive" class="archive">
 
-<h1>All Posts</h1>
-  
-  {{- if and (not $paginator.HasPrev) .Site.Params.showArchiveCount }}
-    <div class="archive-title">
-      <span class="archive-post-counter">
-        {{ T "archiveCounter" (len .Data.Pages) }}
-      </span>
-    </div>
-  {{- end -}}
+    <h1>All Posts</h1>
 
-  {{- range $index, $element := $paginator.Pages -}}
+    {{- if and (not $paginator.HasPrev) .Site.Params.showArchiveCount }}
+    <div class="archive-title">
+        <span class="archive-post-counter">
+            {{ T "archiveCounter" (len .Data.Pages) }}
+        </span>
+    </div>
+    {{- end -}}
+
+    {{- range $index, $element := $paginator.Pages -}}
     {{- $thisYear := $element.Date.Format "2006" }}
     {{- $lastElement := $index | add -1 | index $paginator.Pages }}
     {{- if or (eq $index 0) ( ne ($lastElement.Date.Format "2006") $thisYear ) }}
-      <div class="collection-title">
+    <div class="collection-title">
         <h2 class="archive-year">{{ $thisYear }}</h2>
-      </div>
+    </div>
     {{- end }}
 
-      <span class="archive-post-time">
+    <span class="archive-post-time">
         <em>{{ $element.Date.Format "January 2" }}</em> &nbsp;
-      </span>
-      <span class="post-title">
+    </span>
+    <span class="post-title">
         <a href="{{ $element.RelPermalink }}" class="archive-post-link">
-          {{ .Title }}
+            {{ .Title }}
         </a>
-      </span> &middot;
+    </span> &middot;
 
-  {{- end -}}
+    {{- end -}}
 </section>
+
 <!-- pagination -->
 <nav class="pagination">
-  {{ with $paginator.Prev -}}
+    {{ with $paginator.Prev -}}
     <a class="prev" href="{{ .URL }}">
-      <i class="iconfont icon-left"></i>
-      <span class="prev-text">{{ T "prevPage" }}</span>
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text">{{ T "prevPage" }}</span>
     </a>
-  {{- end }}
-  {{ with $paginator.Next -}}
+    {{- end }}
+    {{ with $paginator.Next -}}
     <a class="next" href="{{ .URL }}">
-      <span class="next-text">{{ T "nextPage" }}</span>
-      <i class="iconfont icon-right"></i>
+        <span class="next-text">{{ T "nextPage" }}</span>
+        <i class="iconfont icon-right"></i>
     </a>
-  {{- end }}
+    {{- end }}
 </nav>
 {{- end }}

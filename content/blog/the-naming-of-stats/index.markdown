@@ -1,7 +1,7 @@
 ---
 title: "The Naming of Stats"
 date: 2023-06-19T10:03:35-04:00
-categories: [Obiter Dicta,R,Statistics]
+categories: [Obiter Dicta,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

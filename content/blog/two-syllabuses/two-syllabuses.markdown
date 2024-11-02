@@ -8,7 +8,6 @@ title: Two Syllabuses
 wordpress_id: '1782'
 categories:
 - Philosophy
-- Reading List
 - Sociology
 ---
 

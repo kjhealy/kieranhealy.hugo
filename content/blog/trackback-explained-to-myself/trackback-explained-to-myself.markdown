@@ -7,7 +7,7 @@ status: publish
 title: TrackBack Explained to Myself
 wordpress_id: '27'
 categories:
-- trackback
+- Misc
 ---
 
 [TrackBack](http://www.movabletype.org/trackback/) is a very neat new feature of my Weblog software. Here's how it works. Imagine we both have weblogs. I post an entry that you want to comment on. But you have a weblog of your own, and would rather write what you have to say there. (Why scatter your genius across the web willy-nilly, when it can all be on your site?) So instead of putting a comment under the entry on *my* webpage, you write a regular log entry in *your* weblog and use trackback to [ping](http://www.tuxedo.org/~esr/jargon/html/entry/ping.html) the entry on my page that you want to talk about.

@@ -7,7 +7,6 @@ status: publish
 title: The Great Depression
 wordpress_id: '1305'
 categories:
-- Reading List
 - Teaching
 ---
 

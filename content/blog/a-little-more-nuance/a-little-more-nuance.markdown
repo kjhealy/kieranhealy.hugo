@@ -1,7 +1,7 @@
 ---
 date: 2017-06-27T13:46:47+01:00
 title: A Little More Nuance
-categories: [Sociology,Theory,Visualization]
+categories: [Sociology,Visualization]
 ---
 
 "[Fuck Nuance](https://kieranhealy.org/files/papers/fuck-nuance.pdf)" has [just been published](http://journals.sagepub.com/doi/full/10.1177/0735275117709046) in *Sociological Theory*. The pace of academic publishing being what it is, the paper has been out in the world for a while in draft form, but it's nice to see the canonical version appear. The issue also contains [a symposium on theory in Sociology](http://journals.sagepub.com/toc/stxa/35/2), with contributions from Ivan Ermakoff, Ashley Mears, and Max Besbris and Shamus Khan. I've described the circumstances of the paper's conception before. Early in 2015, my colleague <a href="http://stephenvaisey.com">Steve Vaisey</a> told me he was interested in organizing a session at the American Sociological Association Meetings about---really *against*---the idea of "nuance" in sociological theory, and in particular about how there seemed to be a lot of demand for the stuff. He asked me if I'd be interested in submitting a paper called something like "Against Nuance". I replied that if you were going to do something like that, you should just bite the bullet and call it "<a href="https://kieranhealy.org/files/papers/fuck-nuance.pdf">Fuck Nuance</a>". "OK then", said Steve, "I'll put that down as the title". Having inadvertently bound myself to that mast like some accident-prone Ulysses, I was then obliged to write and present the paper. 

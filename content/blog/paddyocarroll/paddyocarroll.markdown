@@ -1,7 +1,7 @@
 ---
 date: "2015-03-22"
 title: Paddy O'Carroll
-categories: [Sociology,Ireland]
+categories: [Sociology]
 ---
 
 {{% figure src="https://kieranhealy.org/files/misc/jpoc.png" alt="Thanks, Paddy." caption="Thanks, Paddy." %}}

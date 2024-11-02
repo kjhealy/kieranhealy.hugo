@@ -8,7 +8,6 @@ title: Kenworthy on Nixonland
 wordpress_id: '1321'
 categories:
 - Politics
-- Reading List
 - Sociology
 ---
 

@@ -7,7 +7,7 @@ status: publish
 title: Internet Signal-to-Noise
 wordpress_id: '61'
 categories:
-- trackback
+- Misc
 ---
 
 A [recent item](http://www.ozzie.net/blog/stories/2002/08/12/architectureMattersTheRebirthOfPublicDiscussion.html) by Ray Ozzie, mentioned on [Brad DeLong's](http://www.j-bradford-delong.net/movable_type/archives/000530.html), weblog argues that whereas

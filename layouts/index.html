@@ -5,7 +5,6 @@
 <!--Mastodon verify-->
 <a rel="me" href="https://mastodon.social/@kjhealy">&nbsp;</a>
 </p>
-
 <section id="pubs" class="pubs">
 <h1>Some of my Work</h1>  
 <ul>
@@ -36,19 +35,17 @@
 </ul>  
 </section>
 <section>
-<hr>  
+<br />
 </section>
 <section id="posts" class="posts">
-<br />  
-<h1>Recent Writing</h1>  
+<h1>Recent Writing</h1>
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
-  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3><p> <em>{{ .Date.Format "2 January 2006" }}</em>
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 <!-- 
   {{ if .Truncated }}
   {{ .Summary }}
  -->
- {{ .Summary }}
-  &nbsp; <em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
+ {{ .Summary }} <em><a href="{{ .RelPermalink }}">Continue reading…</a></em>
 <!-- 
   {{ else }}
   {{ .Content }}

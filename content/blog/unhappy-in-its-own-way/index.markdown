@@ -1,12 +1,11 @@
 ---
 title: "Unhappy in its Own Way"
 date: 2022-07-22T13:54:58-04:00
-categories: [data,R,wrangling]
+categories: [data,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false
 ---
-
 
 “Happy families are all alike; every unhappy family is unhappy in its
 own way” runs the opening sentence of *Anna Karenina*. Hadley Wickham

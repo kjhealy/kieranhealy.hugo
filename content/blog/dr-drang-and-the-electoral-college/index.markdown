@@ -1,7 +1,7 @@
 ---
 title: "Dr Drang and the Electoral College"
 date: 2024-09-06T12:22:48-04:00
-categories: [wrangling,r,nerdery]
+categories: [r,nerdery]
 footnotes: false
 htmlwidgets: false
 mathjax: false

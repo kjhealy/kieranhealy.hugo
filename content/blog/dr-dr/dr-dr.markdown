@@ -7,8 +7,6 @@ status: publish
 title: Dr Dr
 wordpress_id: '1302'
 categories:
-
-- Reading List
 - Sociology
 ---
 
