@@ -73,7 +73,7 @@ This is what we get:
 
 Two things are going on here. First, most of the text is clearly not in Myriad Pro. It is in Bitstream Vera Sans, one of the fallback fonts handed down from X11 or somewhere. Second, it seems as though the colored text---the stuff put there by `annotate()`---*is* in Myriad---oh wait, [no it's not](https://bsky.app/profile/timpmorris.bsky.social/post/3lhluriul4s23). 
 
-The thing is, Andrew's post is essentially correct. The `cairo_pdf` device argument to `ggsave()` will embed fonts in the PDF. We can for example make it do this:
+The thing is, Andrew's post is essentially correct. The `cairo_pdf` device argument to `ggsave()` can and does embed fonts in PDF output. We can for example make it do this:
 
 {{< code r >}}
 out <- df |>
