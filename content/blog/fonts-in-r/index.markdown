@@ -208,7 +208,7 @@ In the PDF version the fonts will be properly embedded. Just like you wanted. So
 
 No of course we're not finished. Did I not say unto you earlier that we have built our HOUSE on a giant TANGLE of STRING stretching back yea even unto the Middle Ages slash 1982? Look at this picture:
 
-{{< figure src="08-kerning-lotus-europa-shit.jpg" caption="The Kerning is Bad, Bob." >}}
+{{< figure src="08-kerning-lotus-europa-shit.jpg" caption="The Kerning is Bad, Bob. Look at that gross 'ur' separated from its neighbors by some vast gulf, for example." >}}
 
 For reasons above my pay grade, the `cairo_pdf` device option to `ggsave()` cannot kern to save its life. Now, maybe you don't see the problem at all. Like, literally you don't see it, in the same way that you do not see the toilet paper that has been stuck to your shoe all day, or the piece of food that's still on your chin from this morning. You are one of those people who is happy to walk around with your shirt on inside out, or with no pants. Or perhaps your objections are more moral in nature. You see it, you insist, but you don't care about kerning. You shrug. What is kerning, you say, in the grand scheme of things? Who can be concerned with kerning when the world is berning? I mean, burning? Well, I'm afraid I can. Because a man needs a code. Specifically a code governing aesthetically pleasing and properly flexible spacing between letters and other letters, with due regard to capitalization, ligatures, punctuation, text size, and the specific function of the glyphs being typeset. 
 
