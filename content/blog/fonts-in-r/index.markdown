@@ -71,7 +71,7 @@ This is what we get:
 
 {{< figure src="03-fontpost-01-pdf-fail-cairo.png" caption="Again, a PNG conversion of what the PDF file looks like." >}}
 
-Two things are going on here. First, most of the text is clearly not in Myriad Pro. It is in Bitstream Vera Sans, one of the fallback fonts handed down from X11 or somewhere. Second, and this will turn out to be a hint, the colored text---the stuff put there by `annotate()`---*is* in Myriad, but it's just Myriad Pro Regular. Not the SemiCondensed variant we want. 
+Two things are going on here. First, most of the text is clearly not in Myriad Pro. It is in Bitstream Vera Sans, one of the fallback fonts handed down from X11 or somewhere. Second, it seems as though the colored text---the stuff put there by `annotate()`---*is* in Myriad---oh wait, [no it's not](https://bsky.app/profile/timpmorris.bsky.social/post/3lhluriul4s23). 
 
 Again, Andrew's post is essentially correct. The `cairo_pdf` device argument to `ggsave()` will embed fonts in the PDF. We can for example make it do this:
 
