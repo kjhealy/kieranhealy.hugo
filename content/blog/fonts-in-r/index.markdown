@@ -152,7 +152,7 @@ Also notice how we explicitly had to add the fonts there using the `sysfonts` pa
 
 Showtext will also make it harder to create, in one go, PDFs and PNGs where text and graphic elements are both the same size. Without further futzing around, you may find yourself getting PNG output like this for the same `ggsave()` height and width parameters:
 
-{{< figure src="06-fontpost-01-png-showtext.png" caption="Another barrel of worms" >}}
+{{< figure src="06-fontpost-01-png-showtext.png" caption="Another barrel-can of monkey-worms" >}}
 
 ## Back to Cairo 
 
