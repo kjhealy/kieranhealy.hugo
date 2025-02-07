@@ -156,7 +156,7 @@ Showtext will also make it harder to create, in one go, PDFs and PNGs where text
 
 ## Back to Cairo 
 
-I. Just. Want. To. Embed. The. Fonts. In. The. PDF. File. 
+I. Just. Want. To. Embed. The. Fonts. In. The. P. D. F. File. 
 
 Eventually, I figured out what was happening, after many a dead-end trying to persuade `systemfonts` to register the existence of the variants---something it in fact was already doing just fine for PNG files and the display devices on screen. For example you could write a function containing some code like this, which is adapted from [this very helpful post by June Choe](https://yjunechoe.github.io/posts/2021-06-24-setting-up-and-debugging-custom-fonts/). It forces `systemfonts` to register every single Myriad font file it can find as its own font family:
 
