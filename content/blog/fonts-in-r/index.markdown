@@ -73,7 +73,7 @@ This is what we get:
 
 Two things are going on here. First, most of the text is clearly not in Myriad Pro. It is in Bitstream Vera Sans, one of the fallback fonts handed down from X11 or somewhere. Second, it seems as though the colored text---the stuff put there by `annotate()`---*is* in Myriad---oh wait, [no it's not](https://bsky.app/profile/timpmorris.bsky.social/post/3lhluriul4s23). 
 
-Again, Andrew's post is essentially correct. The `cairo_pdf` device argument to `ggsave()` will embed fonts in the PDF. We can for example make it do this:
+The thing is, Andrew's post is essentially correct. The `cairo_pdf` device argument to `ggsave()` will embed fonts in the PDF. We can for example make it do this:
 
 {{< code r >}}
 out <- df |>
@@ -96,7 +96,7 @@ ggsave("figures/fontpost-01-pdf-papyrus-cairo.pdf",
 
 {{< figure src="04-fontpost-01-pdf-papyrus-cairo.png" caption="Oh so you'll embed Papyrus but not Myriad is that it?" >}}
 
-For some reason, though, R cannot see the variants of Myriad I want to embed _even though_ it sees them when making PNG files. This, friends, is where in the past I have halted and turned away to the alternative some of you are about to recommend; yes I see you with your hands up; settle down please. 
+But for some reason, R cannot see the variants of Myriad I want to embed _even though_ it sees them when making PNG files. This, friends, is where in the past I have halted and turned away to the alternative some of you are about to recommend; yes I see you with your hands up; settle down please. 
 
 ## Showtext
 
