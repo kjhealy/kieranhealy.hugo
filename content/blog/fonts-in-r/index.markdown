@@ -183,7 +183,7 @@ Some of these will just be a single font. But others, like Myriad, will be an en
 
 {{< figure src="fontbook-view-2.jpg" caption="Styles inside the Myriad family." >}}
 
-The `CairoPDF` device is great but _it cannot see inside families like this_. It can see the main variants, but that's it. The _only way_ I have found to get the `cairo_pdf` device to see a font like Myriad Semibold SemiCondensed is to have it installed as a _separately named family_ with appropriate regular, bold, italic, and bold italic faces named as such. Older fonts were installed like this more often, and some contemporary font families still are. For example I have loads of variants of Input:
+The `CairoPDF` device is great but _it cannot see inside families like this_. It can see the main variants, but that's it. The _only way_ I have found to get the `cairo_pdf` device to see a font like Myriad Semibold SemiCondensed is to have it installed as a _separately named family_ with appropriate regular, bold, italic, and bold italic faces named as such. In the past, fonts would be installed like this more often. Some contemporary font families still are provided this way, with many of the variants provided at the top-level of the system, so to speak. For example I have loads of variants of Input:
 
 {{< figure src="fontbook-view-3.jpg" caption="Input Mono, Sans, and Serif, in various Regular, Condensed, and Compressed varities." >}}
 
