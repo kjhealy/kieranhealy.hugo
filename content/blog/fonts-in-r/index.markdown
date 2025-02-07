@@ -52,7 +52,7 @@ And you get the plot above. You are done. Please, I beg you, leave now. Go on yo
 
 ## Not a PNG, a PDF
 
-I want a PDF where the specific fonts I use; fonts which very definitely exist on my computer, are embedded in the PDF produced by R. They should appear just like in the PNG above. Let's give it a shot. 
+I want a PDF where the specific fonts I use---fonts which very definitely exist on my computer---are embedded in the PDF produced by R. They should appear just like in the PNG above. Let's give it a shot. 
 
 {{< code r >}}
 ggsave("figures/fontpost-01-pdf-fail-1.pdf", out, width = 8, height = 8)
