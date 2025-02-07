@@ -58,7 +58,7 @@ I want a PDF where the specific fonts I use---fonts which very definitely exist 
 ggsave("figures/fontpost-01-pdf-fail-1.pdf", out, width = 8, height = 8)
 {{< /code >}}
 
-{{< figure src="02-fontpost-01-pdf-fail-1.png" caption= "This is a PNG representation of the PDF output." >}}
+{{< figure src="02-fontpost-01-pdf-fail-1.png" caption= "This is a PNG representation of the PDF output. At least it has a very, very high data-to-ink ratio, I suppose." >}}
 
 Well, shit. That's not right. "But Kieran", you say, "Surely you are aware that ggplot _can_ embed PDF fonts in PDF files in just the way that you want. Have you not read for example [this helpful post by Andrew Heiss, a prince amongst men](https://www.andrewheiss.com/blog/2017/09/27/working-with-r-cairo-graphics-custom-fonts-and-ggplot/), showing you how to do it with the Cairo graphics device that comes with R and that ggplot can take advantage of?" I am of course well-aware of this. All we have to do is tell our `ggsave()` call to specifically use `device = cairo_pdf` and our problems are over. Like this:
 
