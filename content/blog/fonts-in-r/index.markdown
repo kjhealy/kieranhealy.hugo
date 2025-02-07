@@ -173,7 +173,7 @@ purrr::pwalk(as.list(font_specs), systemfonts::register_font)
 
 {{< /code >}}
 
-But this is not our problem. The `ggplot()` graphics system can already see all those variants through `systemfonts` when it comes to making PNGs. The real problem is that while the Cairo PDF device can see and properly embed fonts that are installed on your system, it can only see the Regular, Bold, Italic and Bold Italic variants of named Font Families that are, as it were, physically installed as such on your system. `Cairo`` neither knows nor cares about the infrastructure provided by `systemfonts` to register new font family names and variants. 
+But this is not our problem. The `ggplot()` graphics system can already see all those variants through `systemfonts` when it comes to making PNGs. The real problem is that while the Cairo PDF device can see and properly embed fonts that are installed on your system, it can only see the Regular, Bold, Italic and Bold Italic variants of named Font Families that are, as it were, physically installed as such on your system. `Cairo` neither knows nor cares about the infrastructure provided by `systemfonts` to register new font family names and variants. 
 
 On a Mac, for instance, you can look at FontBook and see all your fonts:
 
