@@ -158,7 +158,7 @@ Showtext will also make it harder to create, in one go, PDFs and PNGs where text
 
 I. Just. Want. To. Embed. The. Fonts. In. The. PDF. File. 
 
-Eventually, I figured out what was happening, after many a dead end trying to persuade `systemfonts` to register the existence of the variants---something it in fact was already doing just fine for PNG files and the display devices on screen. The problem is that while the Cairo PDF device can see and properly embed fonts that are installed on your system, it can only see the Regular, Bold, Italic and Bold Italic variants of named Font Families. On a Mac, for instance, you can look at FontBook and see all your fonts:
+Eventually, I figured out what was happening, after many a dead-end trying to persuade `systemfonts` to register the existence of the variants---something it in fact was already doing just fine for PNG files and the display devices on screen. The problem is that while the Cairo PDF device can see and properly embed fonts that are installed on your system, it can only see the Regular, Bold, Italic and Bold Italic variants of named Font Families. On a Mac, for instance, you can look at FontBook and see all your fonts:
 
 {{< figure src="fontbook-view-1.jpg" caption="Many typefaces." >}}
 
