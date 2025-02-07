@@ -158,7 +158,24 @@ Showtext will also make it harder to create, in one go, PDFs and PNGs where text
 
 I. Just. Want. To. Embed. The. Fonts. In. The. PDF. File. 
 
-Eventually, I figured out what was happening, after many a dead-end trying to persuade `systemfonts` to register the existence of the variants---something it in fact was already doing just fine for PNG files and the display devices on screen. The problem is that while the Cairo PDF device can see and properly embed fonts that are installed on your system, it can only see the Regular, Bold, Italic and Bold Italic variants of named Font Families. On a Mac, for instance, you can look at FontBook and see all your fonts:
+Eventually, I figured out what was happening, after many a dead-end trying to persuade `systemfonts` to register the existence of the variants---something it in fact was already doing just fine for PNG files and the display devices on screen. For example you could write a function containing some code like this, which is adapted from [this very helpful post by June Choe](https://yjunechoe.github.io/posts/2021-06-24-setting-up-and-debugging-custom-fonts/). It forces `systemfonts` to register every single Myriad font file it can find as its own font family:
+
+{{< code r >}}
+
+font_family <- "Myriad Pro"
+
+font_specs <- systemfonts::system_fonts() |>
+    dplyr::filter(family == font_family) |>
+    dplyr::mutate(family = paste(font_family, style)) |>
+    dplyr::select(plain = path, name = family)
+
+purrr::pwalk(as.list(font_specs), systemfonts::register_font)
+
+{{< /code >}}
+
+But this is not our problem. The `ggplot()` graphics system can already see all those variants through `systemfonts` when it comes to making PNGs. The real problem is that while the Cairo PDF device can see and properly embed fonts that are installed on your system, it can only see the Regular, Bold, Italic and Bold Italic variants of named Font Families that are, as it were, physically installed as such on your system. `Cairo`` neither knows nor cares about the infrastructure provided by `systemfonts` to register new font family names and variants. 
+
+On a Mac, for instance, you can look at FontBook and see all your fonts:
 
 {{< figure src="fontbook-view-1.jpg" caption="Many typefaces." >}}
 
@@ -166,7 +183,7 @@ Some of these will just be a single font. But others, like Myriad, will be an en
 
 {{< figure src="fontbook-view-2.jpg" caption="Styles inside the Myriad family." >}}
 
-The Cairo device is great but it _cannot see inside families like this_. It can see the main variants, but that's it. The _only way_ I have found to get the `cairo_pdf` device to see a font like Myriad Semibold SemiCondensed is to have it installed as a _separately named family_ with appropriate regular, bold, italic, and bold italic faces named as such. Older fonts were installed like this more often, and some contemporary font families still are. For example I have loads of variants of Input:
+The `CairoPDF` device is great but it _cannot see inside families like this_. It can see the main variants, but that's it. The _only way_ I have found to get the `cairo_pdf` device to see a font like Myriad Semibold SemiCondensed is to have it installed as a _separately named family_ with appropriate regular, bold, italic, and bold italic faces named as such. Older fonts were installed like this more often, and some contemporary font families still are. For example I have loads of variants of Input:
 
 {{< figure src="fontbook-view-3.jpg" caption="Input Mono, Sans, and Serif, in various Regular, Condensed, and Compressed varities." >}}
 
