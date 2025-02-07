@@ -204,7 +204,7 @@ And get this:
 
 {{< figure src="07-fontpost-01-pdf-cairo-sepface-ggsave.png" caption="Again, this is a snapshot of the PDF." >}}
 
-In the PDF version the fonts will be properly embedded. Just like you wanted. So we're done, right? That's it? We finally it? We're finished?
+In the PDF version the fonts will be properly embedded. Just like you wanted. So we're done, right? That's it? We finally did it? We're finished?
 
 ## No of course we're not finished
 
