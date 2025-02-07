@@ -247,7 +247,7 @@ dev.off()
 
 {{< /code >}}
 
-We have to turn the device off once we're done with it, like it's 1997. If you forget, you won't notice for a while but eventually it's like your Dad is gonna yell at you because you forgot to turn the lights off downstairs before you went to bed or you left the fridge door open after you went to get a drink of milk or you opened the window while the air conditioning is running in the house what the hell kind of child have I raised. 
+We have to remember to turn the device off once we're done with it, like it's 1997. If you forget, you won't notice for a while but eventually it's like your Dad is gonna yell at you because you forgot to turn the lights off downstairs before you went to bed or you left the fridge door open after you went to get a drink of milk or you opened the window while the air conditioning is running in the house what the hell kind of child have I raised. 
 
 {{< figure src="08-kerning-lotus-europa-good.jpg" caption="Kerning is better now." >}}
 
