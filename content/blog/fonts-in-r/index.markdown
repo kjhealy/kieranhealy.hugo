@@ -170,7 +170,7 @@ The Cairo device is great but it _cannot see inside families like this_. It can 
 
 These are all addressable by Cairo and the methods described by Andrew will work just fine for them and similar fonts. But this is not true of superfamilies like Myriad and others. 
 
-Unfortunately, right now the only way I know to solve this (beyond just forgetting about it and using Papyrus, I mean) is to rewrite the metadata of individual OTF or TTF font files metadata such that they can be installed as a separate font, perhaps with a different name. For many fonts, this will break the terms of the license you bought it under. Applications like [TransType](https://www.fontlab.com/font-converter/transtype/) and others can do this, though they are careful to tell you, as I am telling you, that this may well be against licensing terms. You could also, possibly, only buy the specific font faces you want and install those.
+Unfortunately, right now the only way I know to solve this (beyond just forgetting about it and using Papyrus, I mean) is to rewrite the metadata of individual OTF or TTF font files such that they can be installed as a separate font, perhaps with a different name. For many fonts, this will break the terms of the license you bought it under. Applications like [TransType](https://www.fontlab.com/font-converter/transtype/) and others can do this, though they are careful to tell you, as I am telling you, that this may well be against licensing terms. You could also, possibly, only buy the specific font faces you want and install those.
 
 
 ## But like, just hypothetically
