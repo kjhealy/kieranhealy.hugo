@@ -12,7 +12,7 @@ This post summarizes an extended period of deep annoyance. I have tried to solve
 
 {{< figure src="dr-manhattan-fonts.jpg" caption="Dr Manhattan, the original overfull hbox." >}}
 
-When I make the PDF, I want the fonts in the PDF versions to be *embedded* in the file. That way, they can be addressed directly and changed later if necessary when it comes to printing. If font's aren't embedded in your PDF and the file is opened or printed on a system that doesn't have access to the fonts you used, they will be replaced with one of a small number of default fonts that every system or printer knows. This is bad.
+When I make the PDF, I want the fonts in the PDF versions to be *embedded* in the file. That way, they can be addressed directly and changed later if necessary when it comes to printing or other production. If the fonts used in your file aren't embedded in your PDF and the file is opened or printed on a system that doesn't have access to the fonts you used, they will be replaced with one of a small number of default fonts that every system or printer knows. This is bad.
 
 I said earlier (twice) that PDF is the Devil Incarnate. This is not really true. Font rendering in general is the Devil Incarnate. PDF is a Major Demon of the Font World. It is descended from greater demons. It traces its foul lineage through an immense tangle of filthy string, glue, and pins back to the earliest days of high-fidelity computer displays and printers.
 
