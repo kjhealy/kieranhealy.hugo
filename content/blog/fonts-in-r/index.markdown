@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 
-This post summarizes an extended period of deep annoyance. I have tried to solve the problem it describes more than once before and *not quite* done it. This has, in fact, happened again. I have still not satisfactorily solved the problem. But this time I know *why* I can't solve it in a civilized manner. My goal is simple, and reasonable. I want  to produce more or less identical plots in both PNG and PDF formats. PNG is a raster format. PDF is a vector format and also the Devil Incarnate. Sometimes you want one format, sometimes the other. Raster formats color in pixels on a grid of some fixed resolution. They are efficient when you need to plot a lot of elements but you can't zoom in on them without loss. Vector formats can be easily resized up or down without loss of fidelity, but they get big real fast when you have a lot of objects to show, because each one is drawn separately, and also they are the Devil Incarnate. Especially when it comes to fonts.
+This post summarizes an extended period of deep annoyance. I have tried to solve the problem it describes more than once before and *not quite* done it. This has, in fact, happened again. I have still not satisfactorily solved the problem. But this time I know *why* I can't solve it in a civilized manner. My goal is simple, and reasonable. I want  to produce more or less identical plots in both PNG and PDF formats. PNG is a raster format. PDF is a vector format and also the Devil Incarnate. Sometimes you want one format, sometimes the other. Raster formats color in pixels on a grid of some fixed resolution. They are efficient when you need to plot a lot of elements, but you can't zoom in on them without loss. Vector formats can be easily resized up or down without loss of fidelity, but they get big real fast when you have a lot of objects to show, because each one is drawn separately. Also they are the Devil Incarnate. Especially when it comes to fonts.
 
 {{< figure src="dr-manhattan-fonts.jpg" caption="Dr Manhattan, the original overfull hbox." >}}
 
@@ -96,11 +96,11 @@ ggsave("figures/fontpost-01-pdf-papyrus-cairo.pdf",
 
 {{< figure src="04-fontpost-01-pdf-papyrus-cairo.png" caption="Oh so you'll embed Papyrus but not Myriad is that it?" >}}
 
-For some reason, though, R cannot see the variants of Myriad I want to embed _even though_ it sees them when making PNG files. This, friends, is where in the past I have halted and turned away to the alternative some of you are about to recommend. 
+For some reason, though, R cannot see the variants of Myriad I want to embed _even though_ it sees them when making PNG files. This, friends, is where in the past I have halted and turned away to the alternative some of you are about to recommend; yes I see you with your hands up; settle down please. 
 
 ## Showtext
 
-The Showtext package solves this problem by routing around it. Instead of embedding the fonts we use, it inserts itself into the font rendering process and converts all the font glyphs --- the letters --- to vector outlines. It works! You will get the font shapes you want in the PDFs you create, for any font that you can access when making a PNG. You do it like this. 
+The [showtext](https://cran.rstudio.com/web/packages/showtext/vignettes/introduction.html) package solves this problem by routing around it. Instead of embedding the fonts we use, it inserts itself into the font rendering process and converts all the font glyphs --- the letters --- to vector outlines. It works! You will get the font shapes you want in the PDFs you create, for any font that you can access when making a PNG. You do it like this. 
 
 {{< code r >}}
 
