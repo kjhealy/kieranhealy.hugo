@@ -10,7 +10,7 @@ mathjax: false
 
 This post summarizes an extended period of deep annoyance. I have tried to solve the problem it describes more than once before and *not quite* done it. This has, in fact, happened again. I have still not satisfactorily solved the problem. But this time I know *why* I can't solve it in a civilized manner. My goal is simple, and reasonable. I want  to produce more or less identical plots in both PNG and PDF formats. PNG is a raster format. PDF is a vector format and also the Devil Incarnate. Sometimes you want one format, sometimes the other. Raster formats color in pixels on a grid of some fixed resolution. They are efficient when you need to plot a lot of elements, but you can't zoom in on them without loss. Vector formats can be easily resized up or down without loss of fidelity, but they get big real fast when you have a lot of objects to show, because each one is drawn separately. Also they are the Devil Incarnate. Especially when it comes to fonts.
 
-{{< figure src="dr-manhattan-fonts.jpg" caption="Dr Manhattan, the original overfull hbox." >}}
+{{< figure src="dr-manhattan-fonts.jpg" caption="Dr Manhattan, whose main destructive power is the original overfull hbox." >}}
 
 When I make the PDF, I want the fonts in the PDF versions to be *embedded* in the file. That way, they can be addressed directly and changed later if necessary when it comes to printing or other production. If the fonts used in your file aren't embedded in your PDF and the file is opened or printed on a system that doesn't have access to the fonts you used, they will be replaced with one of a small number of default fonts that every system or printer knows. This is bad.
 
