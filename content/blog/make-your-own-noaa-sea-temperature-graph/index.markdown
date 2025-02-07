@@ -15,13 +15,14 @@ The specific dataset is the [NOAA 0.25-degree Daily Optimum Interpolation Sea Su
 
 The data is available as daily global observations doing back to September 1st, 1981. Each day's data is available as a single file in subdirectories organized by year-month. [It's all here](https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/). Each file is about 1.6MB in size. There are more than fifteen thousand of them. 
 
-We can make a folder called `raw` in our project and then get all the data, preserving its subdirectory structure, with a `wget` command like this:
+To do it by hand, we can make a folder called `raw` in our project and then get all the data, preserving its subdirectory structure, with a `wget` command like this:
 
 {{< code bash >}}
 wget --no-parent -r -l inf --wait 5 --random-wait 'https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/'
 {{< /code >}}
 
 This tries to be polite with the NOAA. (I think its webserver is also lightly throttled in any case, but it never hurts to be nice.) The switches `--no-parent -r -l inf` tell `wget` not to move upwards in the folder hierarchy, but to recurse downwards indefinitely. The `--wait 5 --random-wait` jointly enforce a five-second wait time between requests, randomly varying between 0.5 and 1.5 times the `wait` period. Downloading the files this way will take several *days* of real time downloading, though of course much less in actual file transfer time.
+
 
 ## The netCDF data format
 
