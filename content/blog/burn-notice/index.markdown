@@ -9,14 +9,14 @@ mathjax: false
 
 Your Phone and Watch have a lot of data about you. I mean, like, a _lot_. Someone should really write [a book all about the general issues for society that this raises](https://theordinalsociety.com). Yesterday I decided I wanted to take a look specifically at the health data on my iPhone. I'm not a huge user of the iPhone's or the Apple Watch's health features. I don't use or subscribe to Apple Fitness+, for example. I'm not in any studies. But I do have a bathroom scale that records data and I allow the Watch to keep an eye on my activity. This means that, like so many people, I have grown to heartily despise the blandly affirming Californian inside those devices who periodically encourages me to take a walk, or stand up, or be mindful, and so forth. 
 
-I went to the Health app and selected my ID photo up in the top right corner, then scrolled down to "Export All Health Data". When I did, it asked me was I sure I wanted to do this, as it might take a while. Very stupidly, my first thought was "Eh, how much data can there be?" Again, I should make time to [read a good book on this topic](https://theordinalsociety.com). I think I vaguely had in mind a CSV with a few thousand rows of Withings Scale Meaurements. After a minute or two, what I got was a zip file that expanded to a folder with about four or five gigabytes of stuff inside. 
+I went to the Health app and selected my ID photo up in the top right corner, then scrolled down to "Export All Health Data". When I did, it asked me if was I sure I wanted to do this, as it might take a while. Very stupidly, my first thought was "Eh, how much data can there be?" Again, I should make time to [read a good book on this topic](https://theordinalsociety.com). I think I vaguely had in mind a CSV with a few thousand rows of Withings Scale Meaurements. After a minute or two, what I got was a zip file that expanded to a folder with about four  gigabytes of stuff inside. 
 
 
 {{% figure src="health-download.png" alt="Inside the export folder." caption="Inside the export folder." %}}
 
 As I say, I'm not a big direct user of Apple's own health offerings. So there were a few files in the ECG folder, each about 120KB in size. And there were just a few [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) files in the workout-routes folder, each about half a megabyte in size. Everything else was in `export_cda.xml` and `export.xml`. 
 
-[XML](https://en.wikipedia.org/wiki/XML) is, amongst other things, a way of specifying the contents of arbitrary data structures in a flat file while also providing that data in the file. It's a real pain in the neck to deal with, too. The `export_cda.xml` file is a specific kind of XML spec, a [Clinical Document Architecture](https://en.wikipedia.org/wiki/Clinical_Document_Architecture) file that in principle allows for medical records to be written and transported in a standard format. This is what allows, for example, your doctor's or dentist office to seamlessly accept medical records from other providers and smoothly integrate them into their own record system, just prior to asking you to fill it all out again on paper each time you visit them. Like your doctor's office, I decided to keep away from this file because it is very complicated and no-one knows how it works.
+[XML](https://en.wikipedia.org/wiki/XML) is, amongst other things, a way of specifying the contents of arbitrary data structures in a flat file while also providing that data in the file. It's a real pain in the neck to deal with, too. The `export_cda.xml` file is a specific kind of XML spec, a [Clinical Document Architecture](https://en.wikipedia.org/wiki/Clinical_Document_Architecture) file that in principle allows for medical records to be written and transported in a standard format. This is what allows, for example, your doctor's or dentist's office to seamlessly accept medical records from other providers and smoothly integrate them into their own record system, just prior to asking you to fill it all out again on paper each time you visit them. Like your doctor's office, I decided to keep away from this file because it is very complicated and no-one knows how it works.
 
 Instead I took a look at the larger file, `export.xml`. It is structurally simpler. It consists of some number of blobs of data, delimited by `Record` nodes. My goal was to get R to parse that file and work with the various pieces of data in there. Starting out I did not know how many distinct pieces of data were in there. 
 
@@ -55,7 +55,7 @@ This took about three minutes, which is a long time. Unfortunately there's no st
 # ℹ Use `print(n = ...)` to see more rows
 {{< /code >}}
 
-Nearly _eight million_ rows of data! Entirely about myself! I am not that interesting. At this point I just saved the file out to disk:
+Nearly _eight million_ rows of data! Entirely about myself! Now, in many ways I am quite a charming fellow but, let's face it, I am not eight million rows of data interesting. At this point I saved the file out to disk:
 
 {{< code r >}}
 write_tsv(apple_health_all, here("data", "apple_health_all.tsv"))
@@ -63,9 +63,9 @@ write_tsv(apple_health_all, here("data", "apple_health_all.tsv"))
 
 I wrote it out as a tab-delimited rather than a comma-delimited file just because that `device` column is full of comma-separated information (about my bathroom scale) and I didn't want to make trouble for myself later. 
 
-Originally what I wanted to do at this point was to read the whole TSV file back into memory via R's interface with [DuckDB](https://duckdb.org). DuckDB is a very fast in-memory database with many attractive features for data analysis. Big databases out in the world are optimized for things like very rapidly adding and deleting records (i.e. rows), and are carefully designed to be indexed on just the required number of keys. But when we're working with data, we're generally never adding or subtracting rows to the main dataset. We just want to summarize it really fast and that is hard when it's large with respect to memory. DuckDB reads in large amounts of data very quickly and by default indexes all the columns. It plays [very nicely](https://duckplyr.tidyverse.org) with [dplyr](https://dplyr.tidyverse.org) and other R data tabulation engines. 
+Originally what I wanted to do next was to read the whole TSV file back into memory via R's interface with [DuckDB](https://duckdb.org). DuckDB is a very fast in-memory database with many attractive features for data analysis. Big databases out in the world are optimized for things like very rapidly adding and deleting records (i.e. rows), and are carefully designed to be indexed on just the required number of keys. But when we're working with data, we're generally never adding or subtracting rows to the main dataset. (Columns, yes. But not rows.) We just want to summarize it really fast and that is hard when it's large with respect to memory. DuckDB reads in large amounts of data very quickly and by default indexes all the columns. It plays [very nicely](https://duckplyr.tidyverse.org) with [dplyr](https://dplyr.tidyverse.org) and other R data tabulation engines. 
 
-Annoyingly, getting the data re-ingested via DuckDB was tricky because the `export.xml` file is essentially a bunch of different datasets stacked one on top of the other. They _nearly_ all have the same structure but _not quite_. I could have gone down the road of figuring out (via the XML) what these fields all were and how they differed across sections of the data. But I was impatient and instead I decided to just split the data frame into its component parts. 
+Annoyingly, getting the data re-ingested via DuckDB was tricky because the `export.xml` file is essentially a bunch of different datasets stacked one on top of the other. They _nearly_ all have the same structure but _not quite_. I could have gone down the road of figuring out (via the XML) what these fields all were and how they differed across sections of the data. But I was impatient and instead I decided to just split the big data frame into its component parts and save them as separate files. 
 
 First we read it back in, with `read_tsv()`. This is extremely fast, as behind the scenes it uses [`vroom`](https://vroom.r-lib.org) to get everything. 
 
@@ -85,7 +85,7 @@ df <- read_tsv(here("data", "apple_health_all.tsv"),
   rowid_to_column()
 {{< /code >}}
 
-Here I specifically make every column of type `character` because we're not going to be computing on this data frame. I also add an explicit row id. 
+Here I specifically make every column of type `character` because we're not going to be computing on this data frame. I also add an explicit row id; might be useful later on. 
 
 Next, we extract the group names of the `type` column. We're going to use this information in a moment to name the new data files we'll be making. 
 
@@ -131,7 +131,7 @@ Next comes the elegant bit. We have a vector of names that's the same length as 
 df |>
   group_split(type) |>
   set_names(fnames) |>
-  iwalk(\(x, idx) write_csv(x, here::here("data", idx)))
+  iwalk(\(x, idx) write_csv(x, here("data", idx)))
 {{< /code >}}
 
 Now we can look in the `data/` folder:
@@ -191,7 +191,7 @@ fs::dir_ls(here("data"))
 
 You can see that some of these files are prefixed with `HKQuantityTypeIdentifier` and others with `HKCategoryTypeIdentifier`. One, a 221 byte file, is prefixed with `HKDataType` and is my `SleepDurationGoal`. It consists a single row with the frankly delusional value of "8". Small differences between the Quantity and Category type files were, I think, responsible for DuckDB complaining. The named columns are the same across all the records but I think they vary just enough in terms of what the read engine wants that when it got to one of them it choked. 
 
-The largest of these files is 829.8MB file measuring `ActiveEnergyBurned`. Records for this quantity are generated when you start doing something long enough for either your iPhone or your Watch to notice. Here's what it looks like when read in by itself:
+The largest of these files is 830MB file measuring `ActiveEnergyBurned`. Records for this quantity are generated when you start doing something long enough for either your iPhone or your Watch to notice. Here's what it looks like when read in by itself:
 
 {{< code r >}}
 burn_df
@@ -211,9 +211,9 @@ burn_df
 #> # ℹ 2,658,829 more rows
 {{< /code >}}
 
-The `startDate` and `endDate` periods on each row were almost all between thirty and ninety seconds, though there was a long, sparse tail of outliers. I haven't looked yet to see if these artifacts are errors or if they were created in some recognizable way. It's not that a workout gets recorded as 60 minutes in a single row or anything---once you're doing something the phone or watch will create a new row every 30 to 90 seconds for as long as you are doing something. While the first rows of the table here begin in September 2024, the rows are not ordered by date. I think it's by date within device, or `sourceName`. My data go back to 2018. Again, if you were the sort of person who worked out once or twice a day, and took full advantage of Apple's market offerings with health, and had had an iPhone or Watch for a long time, you would end up with a _lot_ of information about yourself.
+The `startDate` and `endDate` periods on each row were almost all between thirty and ninety seconds, though there was a long, sparse tail of outliers. I haven't looked yet to see if these artifacts are errors or if they were created in some recognizable way. It's not that a workout gets recorded as 60 minutes in a single row or anything---once you're doing something, the phone or watch will create a new row every 30 to 90 seconds for as long as you are doing something. While the first rows of the table here begin in September 2024, the rows are not ordered by date. I think it's by date within device, or `sourceName`. My data go back to 2018. Again, if you were the sort of person who worked out once or twice a day, and took full advantage of Apple's market offerings with health, and had owned an iPhone or Watch for a long time, you would end up with a _lot_ of information about yourself.
 
-Is it useful information? It's certainly extremely fine-grained. Whether all that monitoring amounts to anything particularly insightful is a harder question, particularly at the level of individuals. One of the many ironies of all broadly person-centric or social data over the past fifty years is that the people doing work on everything from social networks to epidemiology to personal health and beyond prayed for more and more fine-grained data ... and then they got it. 
+Is it useful information? It's certainly extremely fine-grained. Whether all that monitoring amounts to anything particularly insightful is a harder question, particularly at the level of individuals. One of the many ironies of all broadly person-centric or social data over the past fifty years is that the people doing work on everything from social networks to epidemiology to personal health and beyond prayed for more and more fine-grained data ... and then they got it. Now we are much better than we used to be at [bleating articulate monotony](https://allpoetry.com/poem/8480975-A-Sonnet-by-James-Kenneth-Stephen), quantitatively, and indicating that two and one are three, that grass is green, lakes damp, and mountains steep. 
 
 In the case of the ActiveEnergyBurned table, 2.5 million moment-to-moment estimates of the calories I'm burning might or might not be useful. We can aggregate it a bit by grouping the values by hour and summing them up for every hour, day, month, and year we have. Like this:
 
@@ -263,9 +263,9 @@ hourly_burn
 {{< /code >}}
 
 
-From there, we can make a kind of grid of every single hour of my life since July 2018, with each box of the grid showing---if there's data---an estimate of calories burned in that hour. Notice above how I used `with_tz()` to adjust the start and end dates before going the other calculations. If I didn't do that most of the data would be off by five hours (the difference between US/Eastern and UTC). This correction will still leave some data points off, as I do sometimes leave not just the house but the time zone, but for now it's good enough. 
+From there, we can make a kind of grid of every single hour of my life since July 2018, with each box of the grid showing---if there's data---an estimate of calories burned in that hour. Notice above how I used `with_tz()` to adjust the start and end dates before going the other calculations. If I didn't do that most of the data would be off by five hours (the difference between US/Eastern and UTC). This correction will still leave some data points off, as I do sometimes leave not only the house but even the time zone. But for now it's good enough. 
 
-To get a nice picture we should fold this data into a grid of all the days and hourse since July 2018, taking care to drop dates that don't exist, like June 31st or February 29th 2019.
+To get a nice picture we should fold this data into a grid of all the days and hours since July 2018, taking care to drop dates that don't exist, like June 31st or February 29th 2019.
 
 {{< code r >}}
 time_grid <- expand_grid(
@@ -316,8 +316,8 @@ out <- burned_grid |>
 {{< /code >}}
 
 
-I'm not going to show you the whole thing, all eight years of hourly data, because that would make me---and indeed perhaps you---feel a little queasy.  But here's a typical recent month:
+I'm not going to show you the whole thing---a large faceted grid of all eight years of hourly data---because that would make me, and indeed perhaps you, feel a little queasy. But here's a typical recent month:
 
 {{% figure src="burn-detail.png" alt="A detail from the plot." caption="A detail from the big graph." %}}
 
-Days of the month are on the x-axis, hours of the day on the y-axis. Where a cell is filled in, there's at least one activity measure for that hour. Where the grid cell is white, there's no data. You can see two things from this detail. The first thing is that on most weekday mornings I go for a run. It's not like I'm sedentary for the rest of the day, but given that this is a detail from a graph covering eight years of hourly data, the only reliable signal that jumps out from the background is running for a while. The second thing is that recently I have been experimenting with wearing my Watch while sleeping, but more often than not I forget to put it back on after taking it off to charge in the evenings. While I'm sure there are other things to be found in this data, and while, in fairness, some of the features of this sort of monitoring---like fall detection, and AFib triggering---are properly important, I am not entirely convinced that collecting this much data about me personally is going to be of much use to anyone. 
+Days of the month are on the x-axis, hours of the day on the y-axis. Where a cell is filled in, there's at least one activity measure for that hour. Where the grid cell is white, there's no data. You can see two things from this detail. The first thing is that on most weekday mornings I go for a run. Now, to be clear, it's not like I spend the rest of the day entirely comatose. But given that this is a detail from a graph covering eight years of hourly data, the only reliable signal that jumps out from the background is running for a while. The second thing is that, recently, I have been experimenting with wearing my Watch while sleeping, but more often than not I forget to put it back on after taking it off to charge in the evenings. I'm sure there are other things to be found in this data. And I haven't even looked at some of the other files yet. (`StairAscentSpeed.csv`? `TimeInDaylight.csv`? `WalkingAsymmetryPercentage.csv`? So many options.) And, in fairness, some of the features of this sort of monitoring---like fall detection, and AFib triggering---are properly important and very useful. But I am still not entirely convinced that collecting this much data about me personally is going to be of much use to anyone. 
