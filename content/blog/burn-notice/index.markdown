@@ -34,7 +34,7 @@ apple_health_all <- raw |>
   bind_rows()
 {{< /code >}}
 
-This took about three minutes, which is a long time. Unfortunately there's no straightforward way to make it go faster, because the xml file is stored with pointers and you can't parallelize the reading-in easily with those. I'd have had to split it up first, which is the thing I'm trying to do to begin with. As I say, there is definitely a better way to do this. However, I only had to do it once. What did we end up with?
+This took about three minutes, which is a long time. Unfortunately there's no straightforward way to make it go faster, because the XML file is stored with pointers and you can't parallelize the reading-in easily with those. I'd have had to split it up first, which is the thing I'm trying to do to begin with. As I say, there is definitely a better way to do this. However, I only had to do it once. What did we end up with?
 
 {{< code r >}}
 > apple_health_all
