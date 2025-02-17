@@ -280,11 +280,7 @@ time_grid <- expand_grid(
 
 burned_grid <- time_grid |>
   left_join(hourly_burn, by = c("start_year", "start_month",
-                                "start_day", "start_hour")) |>
-  mutate(hour_rc = factor(start_hour, levels = c(6:23, 0:5),
-                          ordered = TRUE),
-         month_rc = month(ymd(paste(start_year, start_month, start_day, sep = "-")),
-                          label = TRUE, abbr = TRUE))
+                                "start_day", "start_hour")) 
 
 {{< /code >}}
 
@@ -293,7 +289,7 @@ Then we can draw a plot:
 
 {{< code r >}}
 out <- burned_grid |>
-  ggplot(aes(x = factor(start_day - 5),
+  ggplot(aes(x = factor(start_day),
              y = factor(start_hour),
              fill = burned)) +
   geom_tile(color = "gray10", linewidth = 0.01) +
