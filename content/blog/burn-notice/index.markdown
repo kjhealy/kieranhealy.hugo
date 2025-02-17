@@ -191,7 +191,7 @@ fs::dir_ls(here("data"))
 
 You can see that some of these files are prefixed with `HKQuantityTypeIdentifier` and others with `HKCategoryTypeIdentifier`. One, a 221 byte file, is prefixed with `HKDataType` and is my `SleepDurationGoal`. It consists a single row with the frankly delusional value of "8". Small differences between the Quantity and Category type files were, I think, responsible for DuckDB complaining. The named columns are the same across all the records but I think they vary just enough in terms of what the read engine wants that when it got to one of them it choked. 
 
-The largest of these files is 830MB file measuring `ActiveEnergyBurned`. Records for this quantity are generated when you start doing something long enough for either your iPhone or your Watch to notice. Here's what it looks like when read in by itself:
+The largest of these files is an 830MB file measuring `ActiveEnergyBurned`. Records for this quantity are generated when you start doing something long enough for either your iPhone or your Watch to notice. Here's what it looks like when read in by itself:
 
 {{< code r >}}
 burn_df
