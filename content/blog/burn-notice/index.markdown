@@ -215,7 +215,7 @@ The `startDate` and `endDate` periods on each row were almost all between thirty
 
 Is it useful information? It's certainly extremely fine-grained. Whether all that monitoring amounts to anything particularly insightful is a harder question, particularly at the level of individuals. One of the many ironies of all broadly person-centric or social data over the past fifty years is that the people doing work on everything from social networks to epidemiology to personal health and beyond prayed for more and more fine-grained data ... and then they got it. Now we are much better than we used to be at [bleating articulate monotony](https://allpoetry.com/poem/8480975-A-Sonnet-by-James-Kenneth-Stephen), quantitatively, and indicating that two and one are three, that grass is green, lakes damp, and mountains steep. 
 
-In the case of the ActiveEnergyBurned table, 2.5 million moment-to-moment estimates of the calories I'm burning might or might not be useful. We can aggregate it a bit by grouping the values by hour and summing them up for every hour, day, month, and year we have. Like this:
+In the case of the ActiveEnergyBurned table, 2.5 million moment-to-moment estimates of the calories I'm burning might or might not be useful. We can aggregate it a bit by grouping the values by hour and summing them up for every hour, day, month, and year that we have. Like this:
 
 {{< code r >}}
 burn_df <- read_csv(here("data", "HKQuantityTypeIdentifierActiveEnergyBurned.csv"),
