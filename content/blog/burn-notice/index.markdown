@@ -67,7 +67,7 @@ Originally what I wanted to do next was to read the whole TSV file back into mem
 
 Annoyingly, getting the data re-ingested via DuckDB was tricky because the `export.xml` file is essentially a bunch of different datasets stacked one on top of the other. They _nearly_ all have the same structure but _not quite_. (The columns all have the same names. DuckDB complained that in the ingestion process it sniffed different types from what it was expecting.) I could have gone down the road of figuring out (via the XML) what these fields all were and how they differed across sections of the data. But I was impatient and instead I decided to just split the big data frame into its component parts and save them as separate files. 
 
-First we read it back in, with `read_tsv()`. This is extremely fast, as behind the scenes it uses [`vroom`](https://vroom.r-lib.org) to get everything. 
+First we read it back in, with `read_tsv()`. This is extremely fast, as behind the scenes it uses [`vroom`](https://vroom.r-lib.org) to hoover up everything. 
 
 {{< code r >}}
 df <- read_tsv(here("data", "apple_health_all.tsv"),
