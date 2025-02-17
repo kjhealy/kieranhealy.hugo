@@ -9,7 +9,7 @@ mathjax: false
 
 Your Phone and Watch have a lot of data about you. I mean, like, a _lot_. Someone should really write [a book all about the general issues for society that this raises](https://theordinalsociety.com). Yesterday I decided I wanted to take a look specifically at the health data on my iPhone. I'm not a huge user of the iPhone's or the Apple Watch's health features. I don't use or subscribe to Apple Fitness+, for example. I'm not in any studies. But I do have a bathroom scale that records data and I allow the Watch to keep an eye on my activity. This means that, like so many people, I have grown to heartily detest the blandly affirming Californian inside those devices who periodically encourages me to take a walk, or stand up, or be mindful, and so forth. 
 
-I went to the Health app and selected my ID photo up in the top right corner, then scrolled down to "Export All Health Data". When I did, it asked me if was I sure I wanted to do this, as it might take a while. Very stupidly, my first thought was "Eh, how much data can there be?" Again, I should make time to [read a good book on this topic](https://theordinalsociety.com). I think I vaguely had in mind a CSV with a few thousand rows of Withings Scale Meaurements. After a minute or two, what I got was a zip file that expanded to a folder with about four  gigabytes of stuff inside. 
+I went to the Health app and selected my ID photo up in the top right corner, then scrolled down to "Export All Health Data". When I did, it asked me if was I sure I wanted to do this, as it might take a while. Very stupidly, my first thought was "Eh, how much data can there be?" Again, I should make time to [read a good book on this topic](https://theordinalsociety.com). I think I vaguely had in mind a CSV with a few thousand rows of Withings Scale Measurements. After a minute or two, what I got was a zip file that expanded to a folder with about four  gigabytes of stuff inside. 
 
 
 {{% figure src="health-download.png" alt="Inside the export folder." caption="Inside the export folder." %}}
@@ -263,7 +263,7 @@ hourly_burn
 {{< /code >}}
 
 
-From there, we can make a kind of grid of every single hour of my life since July 2018, with each box of the grid showing---if there's data---an estimate of calories burned in that hour. Notice above how I used `with_tz()` to adjust the start and end dates before going the other calculations. If I didn't do that most of the data would be off by five hours (the difference between US/Eastern and UTC). This correction will still leave some data points off, as I do sometimes leave not only the house but even the time zone. But for now it's good enough. 
+From there, we can make a kind of grid of every single hour of my life since July 2018, with each box of the grid showing---if there's data---an estimate of calories burned in that hour. Notice above how I used `with_tz()` to adjust the start and end dates before doing the other calculations. If I didn't do that most of the data would be off by five hours (the difference between US/Eastern and UTC). This correction will still leave some data points off, as I do sometimes leave not only the house but even the time zone. But for now it's good enough. 
 
 To get a nice picture we should fold this data into a grid of all the days and hours since July 2018, taking care to drop dates that don't exist, like June 31st or February 29th 2019.
 
