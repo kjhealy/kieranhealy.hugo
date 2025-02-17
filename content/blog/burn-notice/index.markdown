@@ -295,7 +295,7 @@ out <- burned_grid |>
   geom_tile(color = "gray10", linewidth = 0.01) +
   coord_fixed() +
   facet_grid(start_year ~ month_rc) +
-  scale_fill_binned_sequential(palette = "Inferno",
+  colorspace::scale_fill_binned_sequential(palette = "Inferno",
                                na.value = "white") +
   scale_x_discrete(breaks = c(5, 15, 25), labels = c(5, 15, 25)) +
   scale_y_discrete(breaks = c(6, 12, 18, 0), labels = c("6am", "Noon", "6pm", "Midnight")) +
