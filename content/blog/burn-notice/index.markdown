@@ -317,3 +317,13 @@ I'm not going to show you the whole thing---a large faceted grid of all eight ye
 {{% figure src="burn-detail.png" alt="A detail from the plot." caption="A detail from the big graph." %}}
 
 Days of the month are on the x-axis, hours of the day on the y-axis. Where a cell is filled in, there's at least one activity measure for that hour. Where the grid cell is white, there's no data. You can see two things from this detail. The first thing is that on most weekday mornings I go for a run. Now, to be clear, it's not like I spend the rest of the day entirely comatose. But given that this is a detail from a graph covering eight years of hourly data, the only reliable signal that jumps out from the background is running for a while. The second thing is that, recently, I have been experimenting with wearing my Watch while sleeping, but more often than not I forget to put it back on after taking it off to charge in the evenings. I'm sure there are other things to be found in this data. And I haven't even looked at some of the other files yet. (`StairAscentSpeed.csv`? `TimeInDaylight.csv`? `WalkingAsymmetryPercentage.csv`? So many options.) And, in fairness, some of the features of this sort of monitoring---like fall detection, and AFib triggering---are properly important and very useful. But I am still not entirely convinced that collecting this much data about me personally is going to be of much use to anyone. 
+
+One thing that's causing this flattening out is the presence of those outliers I mentioned earlier. The distribution of hourly burns looks like this:
+
+{{% figure src="burn-hist.png" alt="Distribution of burn." caption="A histogram of hourly burn." %}}    
+
+For the purposes of the graph we can set the upper limit of the fill scale to 250 and tell ggplot to squish the out-of-bounds values into the topmost bin. This lets us see more detail in the main part of the distribution. The result for our recent month now looks like this:
+
+{{% figure src="burn-detail-2.png" alt="Better scales." caption="Better handling of outliers." %}}    
+
+Now you can also see that I walk around a bit during the day, especially at lunchtime and when it is time to come home from work. Truly the insights never end.
