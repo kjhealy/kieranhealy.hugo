@@ -1,5 +1,5 @@
 <div class="highlight-wrapper">
-    <div class="highlight-before">{{ .Get 0 }}</div>
+    <!--            <div class="highlight-before">{{ .Get 0 }}</div>-->
     {{ if len .Params | eq 2 }}
         {{ highlight (trim .Inner "\n\r") (.Get 0) (.Get 1) }}
     {{ else }}
