@@ -17,7 +17,7 @@ COVID-19 really did a number on everyone, you may have heard about it.
 
 Because this is daily data over six years, we can see the fine-grain of the time series in, for instance, periodic fluctuations in the pulse of workday vs weekend travel, and also the difference between travel rates on days of the work week. For instance, here's the first two weeks of October 2019:
 
-{{% figure src="tsa_volumes_daily_sample.png" alt="", caption="Don't travel on Fridays" %}}
+{{% figure src="tsa_volumes_daily_sample.png" alt="" caption="Don't travel on Fridays" %}}
 
 We could also [decompose](https://kieranhealy.org/blog/archives/2023/12/20/the-baby-boom-again/) the series into its various components if we wanted to. But for our purposes here we're just interested in a simple total of the number of travelers going through TSA checkpoints each week. 
 
