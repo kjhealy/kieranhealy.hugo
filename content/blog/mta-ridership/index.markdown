@@ -11,4 +11,4 @@ Here's the Figure of the Day. The MTA, and especially the subway, moves a *lot* 
 
 {{% figure src="mta_volumes.png" alt="MTA Volume" caption="More people ride the Subway every day on average than lived in the country I grew up in." %}}
 
-
+_Update:_ I redrew this to use [epiweeks](https://lubridate.tidyverse.org/reference/week.html) rather than weeks, so as not to generate artificially large dips in the final week of the year.
