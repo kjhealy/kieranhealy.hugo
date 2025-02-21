@@ -8,3 +8,5 @@ static/css/stylesheet.css
 static/css/syntax-min.css
 static/
 resources/
+/layouts/other/
+/layouts/section/covid.html
