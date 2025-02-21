@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-Here's the Figure of the Day. The MTA, and especially the subway, moves a *lot* of people every day. The lines here are weekly averages of daily ridership or traffic volume. 
+Here's a Figure of the Day. The [MTA](https://mta.info), and especially the Subway, moves a *lot* of people every day. They also make daily ridership data available. The lines here are weekly averages, either of daily ridership or traffic volume through toll booths. 
 
 {{% figure src="mta_volumes.png" alt="MTA Volume" caption="More people ride the Subway every day on average than lived in the country I grew up in." %}}
 
