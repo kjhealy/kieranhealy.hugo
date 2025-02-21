@@ -21,8 +21,8 @@ This is trickier than it seems. For time series that are both fine-grained and o
 
 {{< code r >}}
 tsa |>
-  mutate(week = epiweek(date),
-         year = epiyear(date))
+  mutate(week = week(date),
+         year = year(date))
 #> # A tibble: 2,224 × 5
 #>    date       mode         count  week  year
 #>    <date>     <chr>        <dbl> <dbl> <dbl>
