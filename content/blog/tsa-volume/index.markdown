@@ -39,7 +39,7 @@ tsa |>
 #> # ℹ 2,214 more rows
 {{< /code >}}
 
-Each row here is a day. We want to group the rows by `year` and `week` and sum the `count` column` to get our weekly total traffic. But when we do that, we find our graph looks like this:
+Each row here is a day. We want to group the rows by `year` and `week` and sum the `count` column to get our weekly total traffic. But when we do that, we find our graph looks like this:
 
 {{% figure src="tsa_volumes_noepi_wkly.png" alt="Aiee" caption="Sudden dips due to short weeks at the end of the year." %}}
 
