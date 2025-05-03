@@ -1,72 +1,48 @@
-{{ define "content" -}}
-  <article class="post">
+{{- define "title" }}{{ T "archive" }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" }}
+
+{{ $baseurl := .Site.BaseURL }}
+
+<div id="content" class="posts">
+
     <!-- post-header -->
     <header class="post-header">
       <h1 class="post-title">{{ .Title }}</h1>
-
-      <!-- <div class="post-meta"> -->
-      <!--   <span class="post-time"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span> -->
-      <!--   {{ with .Params.categories -}} -->
-      <!--     <div class="post-category"> -->
-      <!--       {{ range . -}} -->
-      <!--         <a href="{{ "categories" | relLangURL }}/{{ . | urlize }}/"> {{ . }} </a> -->
-      <!--       {{ end -}} -->
-      <!--     </div> -->
-      <!--   {{- end }} -->
-      <!--   {{- if .Site.Params.moreMeta }} -->
-      <!--     <span class="more-meta"> {{ T "wordCount" .WordCount }} </span> -->
-      <!--     <span class="more-meta"> {{ T "readingTime" .ReadingTime }} </span> -->
-      <!--   {{- end }} -->
-      <!--   {{ if and .Site.Params.busuanzi.enable .Site.Params.busuanzi.pagePV -}} -->
-      <!--     {{ $valueSpan := printf `<span id="busuanzi_value_page_pv"><img src="%s" alt="spinner.svg"/></span>` ("img/spinner.svg" | relURL) -}} -->
-      <!--     <span id="busuanzi_container_page_pv" class="more-meta"> {{ printf (T "pagePV") $valueSpan | safeHTML }} </span> -->
-      <!--   {{- end }} -->
-      <!-- </div> -->
     </header>
+    
+<p>I am Professor of <a href="https://sociology.duke.edu">Sociology</a>
+at <a href="https://www.duke.edu">Duke University</a>. Much of my
+research has been about the social organization of exchange in <a
+href="https://kieranhealy.org/publications/lbg/">human blood and
+organs</a>, cultural goods, software, and ideas. My current work focuses
+on the moral order of market society, the effect of models and
+measurement on social classification, and the <a
+href="https://www.kieranhealy.org/publications/tos">link between those
+two topics</a>. I also work on techniques and methods for <a
+href="https://kieranhealy.org/publications/dataviz">data
+visualization</a>, and some <a
+href="https://kieranhealy.org/publications/fuck-nuance/">problems in
+social theory</a>.</p>
 
-    <!-- TOC -->
-    <!-- {{- partial "post/toc.html" . -}} -->
+<figure><img src="https://kieranhealy.org/files/misc/kjh-about.jpg" title="Kieran Healy" ></figure>
 
-    <!-- Outdated Info Warning -->
-    {{- partial "post/outdated-info-warning.html" . -}}
+<p>Most of my <a href="/publications">publications and working
+papers</a> are available on this site, along with information about <a
+href="/teaching">classes</a> I teach, various <a href="/resources">code,
+data, and related resources</a>, and a quite lot of <a
+href="/blog">occasional writing</a>. My <a href="/vita.pdf">Curriculum
+Vitae</a> has more detail, if you need it.</p>
 
-    <!-- Content -->
-    <div class="post-content">
-      {{ .Content }}
-    </div>
+<center>
+<div class="logo-wrapper">
+<a href="mailto:kjhealy@gmail.com" class="iconfont icon-email" title="email"></a>
+<a href="https://mastodon.social/@kjhealy" class="logo" title="Mastodon"><img class="icon-svg" src = "/icons/mastodon.svg"></a>
+<a href="https://github.com/kjhealy" class="logo" title="GitHub"><img class="icon-svg" src = "/icons/github.svg"></a>
+<a href="https://scholar.google.com/citations?user=YWEuPuIAAAAJ&hl=en" class="logo" title="Google Scholar"><img class="icon-svg" src = "/icons/googlescholar.svg"></a>
+<a href="https://kieranhealy.org/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+</center>
 
-    <!-- Copyright -->
-    {{- partial "post/copyright.html" . -}}
-
-    <!-- Reward -->
-    {{- partial "post/reward.html" . -}}
-
-    <footer class="post-footer">
-      {{ with .Params.tags -}}
-        <div class="post-tags">
-          {{ range . -}}
-            <a href="{{ "tags" | relLangURL }}/{{ . | urlize }}/">{{ . }}</a>
-          {{ end -}}
-        </div>
-      {{- end -}}
-
-      <!-- Post Pagination -->
-      <nav class="post-nav">
-        {{ with .PrevInSection -}}
-          <a class="prev" href="{{ .RelPermalink }}">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">{{ .Title }}</span>
-            <span class="prev-text nav-mobile">{{ T "prevPost" }}</span>
-          </a>
-        {{- end }}
-        {{ with .NextInSection -}}
-          <a class="next" href="{{ .RelPermalink }}">
-            <span class="next-text nav-default">{{ .Title }}</span>
-            <span class="next-text nav-mobile">{{ T "nextPost" }}</span>
-            <i class="iconfont icon-right"></i>
-          </a>
-        {{- end }}
-      </nav>
-    </footer>
-  </article>
-{{- end }}
+</div>
+{{ end }}

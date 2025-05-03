@@ -64,11 +64,6 @@ pagination.PagerSize = 20
   weight = 4.0
 
   [[menu.main]]
-  name = "Prints"
-  url = "/prints"
-  weight = 5.0
-
-  [[menu.main]]
   name = "Blog"
   url = "/blog"
   weight = 6.0
