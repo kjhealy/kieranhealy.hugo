@@ -9,7 +9,7 @@ mathjax: false
 
 Sometimes we want to repeatedly do things with all but one row of a data frame, where we systematically drop each row in turn and do the thing. For example, [jacknife cross-validation](https://en.wikipedia.org/wiki/Jackknife_resampling) is a kind of very basic bootstrap technique. (It is computationally simpler than and predates the bootstrap.) Or in some areas "leave-one-out" summary statistics are often calculated as a quick robustness check. Sometimes we want to do this within groups, perhaps especially when the groups may be small. 
 
-First a small reminder about one of R's conventions for referencing the elements of vectors and data frames. If we have
+First a quick reminder about one of R's conventions for referencing the elements of vectors and data frames. If we have
 
 {{< code r >}}
 letters
