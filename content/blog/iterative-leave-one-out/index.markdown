@@ -91,7 +91,7 @@ df |>
 
 The `row_number()` function gives us a unique row index, which `map_dbl()` applies to whatever we want to do next by making it an anonymous lambda function `\(x)`. The values of `x` are fed one at a time to `mean(val[-x])`, and the `val[-x]` part drops the _x_ th element of `val` each time when calculating the mean. 
 
-With `mutate()` we get the whole data frame back, where the `jk_mean` column is the value of the group mean when that row is dropped. If we just want the leave-one-out means and the groups, we can't use `summarize()` directly, because we are getting more than one row per group back. So we use `reframe()` instead:
+With `mutate()` we get the whole data frame back, still grouped, where the `jk_mean` column is the value of the group mean when that row is dropped. If we just want the leave-one-out means and the groups, we can't use `summarize()` directly, because we are getting more than one row per group back. So we use `reframe()` instead:
 
 {{< code r >}}
 df |>
@@ -115,6 +115,8 @@ df |>
 #> 11 Green     6  
 #> 12 Green     5.8
 {{< /code >}}
+
+The output of `reframe()` is always ungrouped. 
 
 
 Finally, what if for some reason we want a list of twelve left-one-out data frames, again by group? For this we can make use of `map()` twice over: 
