@@ -1,7 +1,7 @@
 // Collapsible Hugo code blocks
 // by Jiri De Jagere, @JiriDJ
 
-var height = "300px";
+var height = "500px";
 
 if (
   document.readyState === "complete" ||
