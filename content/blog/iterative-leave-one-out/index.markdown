@@ -89,7 +89,7 @@ df |>
 {{< /code >}}
 
 
-The `row_number()` function gives us a unique row index, which `map_dbl()` applies to whatever we want to do next by making it an anonymous lambda function `\(x)`. The values of `x` are fed one at a time to `mean(val[-x])`, and the `val[-x]` part drops the _x_th element of `val` each time when calculating the mean. 
+The `row_number()` function gives us a unique row index, which `map_dbl()` applies to whatever we want to do next by making it an anonymous lambda function `\(x)`. The values of `x` are fed one at a time to `mean(val[-x])`, and the `val[-x]` part drops the _x_ th element of `val` each time when calculating the mean. 
 
 With `mutate()` we get the whole data frame back, where the `jk_mean` column is the value of the group mean when that row is dropped. If we just want the leave-one-out means and the groups, we can't use `summarize()` directly, because we are getting more than one row per group back. So we use `reframe()` instead:
 
@@ -142,4 +142,4 @@ jk_list[[1]]
 
 {{< /code >}}
 
-Here we use `group_split()` to get a list with a Blue data frame and a Green data frame. Then we use a map-in-map for a kind of nested loop. The inner `map()` gives us a vector from 1 to whatever the number of rows in each group's data frame is. (Here it's six in each case.) This will get called _i_. The outer map iterates this over each group, giving us `x[-i, ]`, or each grouped data frame _x_ with the _i_th row dropped in each case. We end up with a list of 12 new data frames. Each has five rows instead of the six originally in its group, with a different row dropped in turn. 
+Here we use `group_split()` to get a list with a Blue data frame and a Green data frame. Then we use a map-in-map for a kind of nested loop. The inner `map()` gives us a vector from 1 to whatever the number of rows in each group's data frame is. (Here it's six in each case.) This will get called _i_. The outer map iterates this over each group, giving us `x[-i, ]`, or each grouped data frame _x_ with the _i_ th row dropped in each case. We end up with a list of 12 new data frames. Each has five rows instead of the six originally in its group, with a different row dropped in turn. 
