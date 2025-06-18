@@ -1,5 +1,5 @@
 ---
-title: "Iterative Leave-One-Out"
+title: "Oh Leave it Out"
 date: 2025-06-18T10:23:42-04:00
 categories: [R]
 footnotes: false
