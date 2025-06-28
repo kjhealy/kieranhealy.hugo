@@ -82,7 +82,7 @@ But isn't it [more complicated than that](https://kieranhealy.org/files/papers/f
 
 {{% figure src="groupoath.png" alt="People taking the Oath" caption="" %}}
 
-Now all standing, we raised our hands and took the oath. Once we stopped speaking, we were citizens. We watched a two-minute congratulatory video from President Trump. Even though the video was short, you could see that, in his usual way, he was improvising and riffing around what was on his teleprompter. The result was that he said some odd-sounding things, like how we had  U.S. citizenship "like no-one has ever had it before". It did not matter. The video ended. We filed out of our seats in row order to get our certificate of citizenship. And that was the end.
+Now all standing, we raised our hands and took the oath. Once we stopped speaking, we were citizens. We watched a two-minute congratulatory video from President Trump. Even though the video was short, you could see that, in his usual way, he was improvising and riffing around what was on his teleprompter. The result was that he said some odd-sounding things, like how we had  U.S. citizenship "like no-one has ever had it before". It did not matter. The video finished. We filed out of our seats in row order to get our certificate of citizenship. And that was the end.
 
 {{% figure src="folderandflag.jpeg" alt="The flag they give you at the ceremony" caption="" %}}
 
