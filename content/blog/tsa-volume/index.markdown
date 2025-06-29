@@ -7,13 +7,11 @@ htmlwidgets: false
 mathjax: false
 ---
 
+{{% figure src="tsa_volumes_daily.png" alt="" caption="Should I take my laptop out or not?" class="full-width" %}}
+
 I drew a [picture of Subway ridership volume](https://kieranhealy.org/blog/archives/2025/02/19/mta-ridership/) yesterday, in the wake of some absurdly disingenuous official statements about New York City's congestion pricing scheme somehow restricting New York to a "small elite". The Subway has higher daily throughput than every TSA Airport in the United States combined. (And, even now, ridership remains down from pre-COVID levels.) So I put in TSA traveler screening volumes on the MTA graph for comparison, just to help make the point. 
 
-The TSA makes daily checkpoint counts available back to January 2019 on its website. I imagine more data is available elsewhere. Plotting this series by itself provides a nice picture what the pandemic did to the world, though a six year daily time-series means it is possibly the least mobile-friendly graphic I have ever made. Here it is. 
-
-{{% figure src="tsa_volumes_daily.png" alt="" caption="Should I take my laptop out or not?" %}}
-
-COVID-19 really did a number on everyone, you may have heard about it. 
+The TSA makes daily checkpoint counts available back to January 2019 on its website. I imagine more data is available elsewhere. Plotting this series by itself, as shown above, provides a nice picture what the pandemic did to the world. A six year daily time-series means it is possibly the least mobile-friendly graphic I have ever made. Main lesson: COVID-19 really did a number on everyone; perhaps you have heard about it. 
 
 Because this is daily data over six years, we can see the fine-grain of the time series in, for instance, periodic fluctuations in the pulse of workday vs weekend travel, and also the difference between travel rates on days of the work week. For instance, here's the first two weeks of October 2019:
 
