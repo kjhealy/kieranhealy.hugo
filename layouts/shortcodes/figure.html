@@ -1,15 +1,29 @@
+{{- $src := .Get "src" -}}
+{{- if $src -}}
+  {{- if hasPrefix $src "http" -}}
+    {{/* Already absolute URL, use as-is */}}
+    {{- $src = $src -}}
+  {{- else if hasPrefix $src "/" -}}
+    {{/* Site-relative path, make absolute */}}
+    {{- $src = $src | absURL -}}
+  {{- else -}}
+    {{/* Relative to page bundle, construct full path */}}
+    {{- $src = printf "%s%s" .Page.RelPermalink $src | absURL -}}
+  {{- end -}}
+{{- end -}}
+
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-    {{- if .Get "src" -}}
-        <a href="{{ .Get "src" }}"{{ with .Get "src" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }} data-fancybox>
+    {{- if $src -}}
+        <a href="{{ $src }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }} data-fancybox>
     {{- end }}
-    <img src="{{ .Get "src" }}"
+    <img src="{{ $src }}"
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}
          {{- with .Get "width" }} width="{{ . }}"{{ end -}}
          {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-    /> <!-- Closing img tag -->
-    {{- if .Get "src" }}</a>{{ end -}}
+    />
+    {{- if $src }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
         <figcaption>
             {{ with (.Get "title") -}}
@@ -19,9 +33,9 @@
                 {{- .Get "caption" | markdownify -}}
                 {{- with .Get "attrlink" }}
                     <a href="{{ . }}">
-                {{- end -}}
-                {{- .Get "attr" | markdownify -}}
-                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+                        {{- end -}}
+                        {{- .Get "attr" | markdownify -}}
+                        {{- if .Get "attrlink" }}</a>{{ end }}</p>
             {{- end }}
         </figcaption>
     {{- end }}
