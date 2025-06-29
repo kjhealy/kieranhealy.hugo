@@ -53,7 +53,7 @@ Some of them are not what you would call tricky. For example, Q90. What ocean is
 > - Freedom of religion
 > - the right to bear arms
 
-At the ceremony, everyone taking the Oath sat on one side of the room. Family members and guests all sat on the other side of the room, or stood at the back when they ran out of seats. We were assigned specific seats because at the end of the ceremony new citizens get their certificate of citizenship, and these must be handed out in the right order. We were reminded, in a nice moment of practical ordinary-language philosophy, that while the certificate was an important document, it was the moment of taking the oath that would make us citizens. On the way in we had to surrender our Green Cards before going in to the room, which I knew was going to happen but nevertheless gave me a small and unexpected jolt.
+At the ceremony, everyone taking the Oath sat on one side of the room. Family members and guests all sat on the other side of the room, or stood at the back when they ran out of seats. We were assigned specific seats because at the end of the ceremony new citizens get their certificate of citizenship, and these must be handed out in the right order. We were reminded, in a nice moment of practical ordinary-language philosophy, that while the certificate was an important document, it was the moment of taking the oath that would make us citizens. On the way in we had to surrender our Green Cards, which I knew was going to happen but nevertheless gave me a small and unexpected jolt.
 
 {{% figure src="dropceiling.jpeg" alt="Give me your tired, your poor, Your huddled masses yearning to breathe free" caption="" %}}
 
