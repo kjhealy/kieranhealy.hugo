@@ -43,7 +43,7 @@ The test has one hundred questions. At the interview you are asked up to ten of 
 > - Run for federal office
 
 
-Some of them are not what you would call tricky. For example, Q90. What ocean is on the East Coast of the United States? (The Atlantic Ocean.) Others have the character of trivia questions. Q7. How many amendments does the Constitution have? (Twenty-seven.) Q66. When was the Constitution written? (1787.) But others are not trivial at all. I think many Americans would get them wrong if asked. And I feel confident every one of the fifty or so people who took the Oath with me on Friday knew them backwards and forwards. The distinction articulated in questions fifty and fifty-one, for example, eludes quite a number of people who should know better.
+Some of them are not what you would call tricky. For example, Q90. What ocean is on the East Coast of the United States? (The Atlantic Ocean.) Others have the character of trivia questions. Q7. How many amendments does the Constitution have? (Twenty seven.) Q66. When was the Constitution written? (1787.) But others are not trivial at all. I think many Americans would get them wrong if asked. And I feel confident every one of the fifty or so people who took the Oath with me on Friday knew them backwards and forwards. The distinction articulated in questions fifty and fifty-one, for example, eludes quite a number of people who should know better.
 
 > **Q51. What are two rights of everyone living in the United States?**
 > - Freedom of expression
