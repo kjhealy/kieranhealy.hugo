@@ -41,7 +41,8 @@
 <h1>Recent Writing</h1>
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
   <section>
-    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <span class="fp-meta"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span>
+    <h2 class="fp-headline"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
     <p>{{ .Summary }} <em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
   </section>
 {{ end }}
