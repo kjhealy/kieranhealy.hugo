@@ -9,7 +9,7 @@ mathjax: false
 
 Another in an [accidental series](https://kieranhealy.org/blog/archives/2025/02/19/mta-ridership/) of "Basic facts about U.S. urban areas presently in the news". This week, West Coast Edition: like other very large American cities, Los Angeles is very big. 
 
-{{% figure src="la_county_annotated.png" alt="Los Angeles County is big" caption="There are a lot of Angelenos." %}}
+{{% figure src="la_county_annotated.png" alt="Los Angeles County is big" caption="There are a lot of Angelenos." class="full-width" %}}
 
 In fact this is just Los Angeles county, which is both larger than the [City of Los Angeles](https://en.wikipedia.org/wiki/Los_Angeles) proper, but smaller than the [Los Angeles-Long Beach-Anaheim](https://en.wikipedia.org/wiki/Greater_Los_Angeles) [Metropolitan Statistical Area](https://en.wikipedia.org/wiki/Metropolitan_statistical_area). L.A. County has about 9.66 million residents; the City of Los Angeles about 3.8 million residents; and the greater MSA about 12.7 million residents. The Greater LA Region, including out to Oxnard in the West and Palm Springs in the East, has about 18.5 million people. 
 

@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 
-{{% figure src="f1stamp.jpeg" alt="Detail of an Irish passport stamped with a US entry stamp." caption="" %}}
+{{% figure src="f1stamp.jpeg" alt="Detail of an Irish passport stamped with a US entry stamp." class="full-width" caption="" %}}
 
 In 1995, at the beginning of the last week of August, on the afternoon of an inhumanly hot and intolerably humid day, I arrived at Newark Airport to live in the United States. I was twenty two years old and about to start as a graduate student at Princeton. I have been here more or less the whole time since. I spent six years on an F-1 Visa while getting my PhD. After that, I lived and worked in Tucson for seven years. My conception of what counts as an inhumanly hot day changed. During that time I was on an H1-B Visa sponsored by my employer, the University of Arizona. Subsequently, I was granted Permanent Residency---a Green Card---through marriage. In 2009 I moved to North Carolina. My conception of what counts as an intolerably humid day changed. I am an immigrant to this country. I have made my life here. My two children are Americans. And now, as of yesterday, so am I. 
 
@@ -55,7 +55,7 @@ Some of them are not what you would call tricky. For example, Q90. What ocean is
 
 At the ceremony, everyone taking the Oath sat on one side of the room. Family members and guests all sat on the other side of the room, or stood at the back when they ran out of seats. We were assigned specific seats because at the end of the ceremony new citizens get their certificate of citizenship, and these must be handed out in the right order. We were reminded, in a nice moment of practical ordinary-language philosophy, that while the certificate was an important document, it was the moment of taking the oath that would make us citizens. On the way in we had to surrender our Green Cards, which I knew was going to happen but nevertheless gave me a small and unexpected jolt.
 
-{{% figure src="dropceiling.jpeg" alt="Give me your tired, your poor, Your huddled masses yearning to breathe free" caption="" %}}
+{{% figure src="dropceiling.jpeg" alt="Give me your tired, your poor, Your huddled masses yearning to breathe free" caption="" class="full-width" %}}
 
 The ceremony room was the kind of place, if you are an academic like me, you might expect to be named "Salon C" or "Wabash Room" or "Sequoia East" and be the site of a sparsely-attended conference talk. The two main differences were the words stenciled on the slightly dropped ceiling, and the fact that the room was full up and alive with nervous energy. At the front of the room there was a large-screen TV. The person leading the ceremony---who, coincidentally, was the USCIS Officer who had interviewed me a couple of months ago---introduced himself and welcomed everyone. All the staff were dignified and low-key delighted. The ceremony opened with a two-minute video that consisted of Ken Burns effect pans over still images and with [W.G. Snuffy Walden](https://en.wikipedia.org/wiki/W._G._Snuffy_Walden) music underneath. The Statue of Liberty. Ellis Island. Immigrants arriving in the nineteenth century at various locations. And then photographs of the modern equivalents of those people. I began to worry that I might have something in my eye.
 
@@ -80,11 +80,11 @@ I know the nationalities of my fellow oath-takers because of the next stage of t
 
 But isn't it [more complicated than that](https://kieranhealy.org/files/papers/fuck-nuance.pdf)? You know as well as I do that it is. So much more complicated. So much more painful. So much more dangerous. So much more messed-up. I will think about and work on strands and threads of that impossible tangle tomorrow, just like I have thought about and worked on bits and pieces of it since I came here. But I will not forget this moment. I will not forget what it felt like.
 
-{{% figure src="groupoath.png" alt="People taking the Oath" caption="" %}}
+{{% figure src="groupoath.png" alt="People taking the Oath" caption="" class="full-width" %}}
 
 Now all standing, we raised our hands and took the oath. Once we stopped speaking, we were citizens. We watched a two-minute congratulatory video from President Trump. Even though the video was short, you could see that, in his usual way, he was improvising and riffing around what was on his teleprompter. The result was that he said some odd-sounding things, like how we had  U.S. citizenship "like no-one has ever had it before". It did not matter. The video finished. We filed out of our seats in row order to get our certificate of citizenship. And that was the end.
 
-{{% figure src="folderandflag.jpeg" alt="The flag they give you at the ceremony" caption="" %}}
+{{% figure src="folderandflag.jpeg" alt="The flag they give you at the ceremony" caption="" class="full-width" %}}
 
 Afterwards people milled about in the room, delighted, shaking hands, hugging one another. I hugged my daughter. I hugged my friends who had come down from New York at the last minute on an overnight bus to be there. I counted my blessings. There was a little staged area in the corner where people could pose for photographs against a backdrop. At the rear of the room, volunteers were set up and ready to register you to vote if you wanted. People were smiling and crying. Children were running around meeting one another. We were gently reminded that there was another ceremony due to start in twenty minutes. 
 

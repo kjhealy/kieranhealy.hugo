@@ -42,7 +42,7 @@
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
   <section>
     <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-    {{ .Summary }} <em><a href="{{ .RelPermalink }}">Continue reading…</a></em>
+    <p>{{ .Summary }} <em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
   </section>
 {{ end }}
 </section>
