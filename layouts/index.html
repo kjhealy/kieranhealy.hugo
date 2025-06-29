@@ -40,17 +40,10 @@
 <section id="posts" class="posts">
 <h1>Recent Writing</h1>
   {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
-  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-<!-- 
-  {{ if .Truncated }}
-  {{ .Summary }}
- -->
- {{ .Summary }} <em><a href="{{ .RelPermalink }}">Continue reading…</a></em>
-<!-- 
-  {{ else }}
-  {{ .Content }}
-  {{ end }}	
- -->
-{{ end }}	
+  <section>
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    {{ .Summary }} <em><a href="{{ .RelPermalink }}">Continue reading…</a></em>
+  </section>
+{{ end }}
 </section>
 {{- end -}}
