@@ -34,9 +34,9 @@ But above and beyond there’s still one name left over,<br>
 The thing that no human research can discover—<br>
      But THE STAT MIGHT JUST KNOW, and be made to confess.<br>
 When you notice a stat getting quite widely cited,<br>
-     The reason, I tell you, is always because:<br>
+     The reason, you see, is whatever its flaws,<br>
 Its user’s engaged, or enraged, or excited<br>
      At the prospect of pinning the root of all laws:<br>
           That inviolable, friable<br>
           Unidentifiable<br>
-Deep and inscrutable singular Cause.<br>
+Deep and inscrutable singular _Cause_.<br>
