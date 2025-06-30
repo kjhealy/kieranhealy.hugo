@@ -2,6 +2,7 @@
 title: "American"
 date: 2025-06-28T11:19:19-04:00
 categories: [Obiter Dicta,Sociology,Politics]
+fave: true
 footnotes: false
 htmlwidgets: false
 mathjax: false
