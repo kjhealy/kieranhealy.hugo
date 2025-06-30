@@ -76,7 +76,7 @@ everything.[^comte]
 [^comte]: See Comte's *A General View of Positivism* (1865) for plenty more in this vein.
 
 These ideas may sound a little nutty. But in some ways Comte had the
-right idea---he just backed the wrong social-scientific horse, and the
+right idea---he just backed the wrong social-scientific horse, and 
 picked the wrong city. His and his predecessors' ideas about social
 progress, scientific knowledge, and practical administration were
 hugely influential right across the political spectrum. They promised
