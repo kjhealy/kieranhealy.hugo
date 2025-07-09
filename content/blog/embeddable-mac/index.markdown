@@ -17,3 +17,5 @@ Here's an emulated Macintosh SE running System 7.1, courtesy of [Infinite Mac's 
     frameborder="0">
 </iframe>
 
+Getting the classic 68k Macintosh experience like this is certainly less trouble than [other ways of doing it](https://kieranhealy.org/blog/archives/2022/02/14/desktop-mac/)
+
