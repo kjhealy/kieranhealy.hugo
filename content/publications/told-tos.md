@@ -1,7 +1,7 @@
 ---
 title: "Tales of light and darkness: a response to comments on The
 Ordinal Society"
-fave: true
+fave: false
 author: Marion Fourcade and Kieran Healy
 status: Published
 type: published
