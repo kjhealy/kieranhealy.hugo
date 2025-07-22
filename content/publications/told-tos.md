@@ -18,7 +18,7 @@ filter:
   - markdown
 ---
 
-We respond to four reviews of The Ordinal Society. We argue that
+We respond to four reviews of _The Ordinal Society_. We argue that
 traditional (and, as our critics point out, much-needed) forms of
 resistance and collective action are difficult to mobilize against ordinal
 systems, for two reasons. First, people often find these systems
