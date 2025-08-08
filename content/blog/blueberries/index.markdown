@@ -17,15 +17,15 @@ mathjax: false
 I had a chat with it. Yes I know the questions surrounding AI are tricky. But I do not pretend to address those here; I merely report the following conversation.
 
 
-1. The thesis outlined.
+1. _The thesis outlined._
 
 {{% figure src="blueberry-1.png" alt="" caption="" %}}
 
-2. The thesis patiently explained, defended in the face of objections, and further elaborated.
+2. _The thesis patiently explained, defended in the face of objections, and further elaborated._
 
 {{% figure src="blueberry-2.png" alt="" caption="" %}}
 
-3. The collegial chat and a final effort at rebuttal.
+3. _The collegial chat and a final effort at rebuttal._
 
 {{% figure src="blueberry-3.png" alt="" caption="" %}}
 
