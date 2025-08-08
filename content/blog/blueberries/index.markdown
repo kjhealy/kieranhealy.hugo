@@ -29,4 +29,4 @@ In fairness to GPT5, in my career I have indeed encountered PhDs with this level
 
 
 
-_Very quick update:_ Posting this on social media led to some interesting responses. While certainly well-meant, I’m afraid I can’t say I am especially impressed by helpful suggestions that I spend time to do a little prompt engineering in order to get GPT5 to emit the right answer to the question “How many times does the letter b appear in blueberry”. Meanwhile, my excellent student [Andrés](https://acastroaraujo.github.io/blog/) got a different, and correct response from his attempt. So score one for replicability, I guess.
+_Very quick update:_ Posting this on social media led to some interesting responses. While certainly well-meant, I’m afraid I can’t say I am especially impressed by helpful suggestions that I spend time to do a little prompt engineering in order to get GPT5 to emit the right answer to the question “How many times does the letter b appear in blueberry”. Meanwhile, my excellent student [Andrés](https://acastroaraujo.github.io/blog/) got a different, and correct, response from his attempt. So score one for replicability, I guess.
