@@ -33,6 +33,6 @@ _Very quick update:_ Posting this on social media led to some interesting respon
 
 _Update 2:_ Look, these tools are amazing in lots of ways. But if you’re gonna pitch and sell---or foist---them on the world at large, or your employees, by saying “This is your PhD level genius expert buddy you can ask things in natural language”, don’t get all pissy when it comically bombs tasks people reasonably think of as trivial.
 
-_Update 3_:
+_Update 3, now in meme form_:
 
 {{% figure src="blueberry-4.png" alt="" caption="I don't think you get to have it both ways. That is, you don’t get to, as it were, borrow charisma from all the hype and then disavow every failure to live up to it as someone else’s naive mistake for believing the hype." %}}
