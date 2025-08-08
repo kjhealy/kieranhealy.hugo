@@ -20,9 +20,9 @@ I had a chat with it. Yes I know the questions surrounding AI are tricky. But I 
 {{% figure src="blueberry-1.png" alt="" caption="1." %}}
 
 
-{{% figure src="blueberry-1.png" alt="" caption="2." %}}
+{{% figure src="blueberry-2.png" alt="" caption="2." %}}
 
 
-{{% figure src="blueberry-1.png" alt="" caption="3." %}}
+{{% figure src="blueberry-3.png" alt="" caption="3." %}}
 
 In fairness to GPT5, in my career I have indeed encountered PhDs with this level of commitment to their particular blueberry. 
