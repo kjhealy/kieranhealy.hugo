@@ -25,4 +25,4 @@ I had a chat with it. Yes I know the questions surrounding AI are tricky. But I 
 
 {{% figure src="blueberry-3.png" alt="" caption="3. The collegial chat and a final effort at rebuttal." %}}
 
-In fairness to GPT5, in my career I have indeed encountered PhDs with this level of commitment to their particular blueberry. 
+In fairness to GPT5, in my career I have indeed encountered PhDs with this level of commitment to their particular blueberry. And many have also had that blithe confidence --- the use of "Ah", the "Let's slow it down" (to your two-B level), the "Exactly" (Now you see my genius), the confidently colloquial "Yep" and "Nope" ... actually I retract my earlier skepticism; the lad has the makings of a fine philosopher. 
