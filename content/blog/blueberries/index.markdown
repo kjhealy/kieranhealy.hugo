@@ -30,3 +30,5 @@ In fairness to GPT5, in my career I have indeed encountered PhDs with this level
 
 
 _Very quick update:_ Posting this on social media led to some interesting responses. While certainly well-meant, I’m afraid I can’t say I am especially impressed by helpful suggestions that I spend time to do a little prompt engineering in order to get GPT5 to emit the right answer to the question “How many times does the letter b appear in blueberry”. Meanwhile, my excellent student [Andrés](https://acastroaraujo.github.io/blog/) got a different, and correct, response from his attempt. So score one for replicability, I guess.
+
+_Update 2:_ Look, these tools are amazing in lots of ways. But if you’re gonna pitch and sell---or foist---them on the world at large, or your employees, by saying “This is your PhD level genius expert buddy you can ask things in natural language”, don’t get all pissy when it comically bombs tasks people reasonably think of as trivial.
