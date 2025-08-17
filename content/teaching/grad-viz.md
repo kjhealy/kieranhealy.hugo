@@ -5,7 +5,6 @@ enddate: "2024-04-28T00:00:00+11:00"
 publishdate: "2024-01-10"
 host: "Duke University"
 duration: 7776000
-website: "http://socdata.co"
 ---
 
 This graduate course teaches the elements of data wrangling and data visualization, mostly in R. 
