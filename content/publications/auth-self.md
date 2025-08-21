@@ -4,7 +4,7 @@ fave: false
 author: Marion Fourcade and Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;<a href="https://aeon.co/essays/the-sovereign-individual-and-the-paradox-of-the-digital-age">Authenticate Thyself</a>.&rdquo; <em>Aeon</em>, August 2025." 
+citation: "&ldquo;<a href=\"https://aeon.co/essays/the-sovereign-individual-and-the-paradox-of-the-digital-age\">Authenticate Thyself</a>.&rdquo; <em>Aeon</em>, August 2025." 
 tag: auth-self
 subjects: ordinal society inequality stratification technology
 comments: no
