@@ -1,0 +1,49 @@
+{{ define "content" -}}
+  <article class="post">
+    <!-- post-header -->
+    <header class="post-header">
+        <h3>{{.Params.author}}, {{ .Params.citation | safeHTML }}</h3>
+          {{ if .Params.doi }}<h4><a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>{{ end }}
+          {{ if .Params.file }}<a class="scp" class="scp" href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">&nbsp; &rarr; pdf</a></h4>{{ end }}
+          {{ if .Params.buy }} {{ .Params.buy | safeHTML }} {{ end }}
+
+    </header>
+
+    <!-- Content -->
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+
+    <!-- Copyright -->
+    {{- partial "post/copyright.html" . -}}
+
+    <footer class="post-footer">
+      {{ with .Params.tags -}}
+        <div class="post-tags">
+          {{ range . -}}
+            <a href="{{ "tags" | relLangURL }}/{{ . | urlize }}/">{{ . }}</a>
+          {{ end -}}
+        </div>
+      {{- end -}}
+
+      <!-- Post Pagination -->
+      <nav class="post-nav">
+        {{ with .PrevInSection -}}
+          <a class="prev" href="{{ .RelPermalink }}">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">{{ .Title }}</span>
+            <span class="prev-text nav-mobile">{{ T "prevPost" }}</span>
+          </a>
+        {{- end }}
+        {{ with .NextInSection -}}
+          <a class="next" href="{{ .RelPermalink }}">
+            <span class="next-text nav-default">{{ .Title }}</span>
+            <span class="next-text nav-mobile">{{ T "nextPost" }}</span>
+            <i class="iconfont icon-right"></i>
+            </a>
+            {{- end }}
+            </nav>
+            </footer>
+
+        </article>
+      {{- end }}
