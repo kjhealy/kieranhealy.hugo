@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-{{% figure src="ramac.jpeg" alt="RAMAC 305 brochure cover"" %}}
+{{% figure src="ramac.jpeg" alt="RAMAC 305 brochure cover" caption="" %}}
 
 Marion and I have an essay in Aeon today:
 
