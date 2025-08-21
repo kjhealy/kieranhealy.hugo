@@ -12,4 +12,6 @@ file: rule.pdf
 date: 1998-09-20
 publishdate: 1998-09-20
 ---
+
+
 Review of <em>Theory and Progress in Social Science</em>. <em>Theory and Society</em>.
