@@ -1,5 +1,5 @@
 ---
-title: "The Road of Selfdom"
+title: "The Road to Selfdom"
 date: 2025-08-21T07:38:35-04:00
 categories: [Sociology,IT]
 footnotes: false
