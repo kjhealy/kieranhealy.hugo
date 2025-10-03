@@ -14,7 +14,7 @@ This happened the other day in response to a question about visualizing some eva
 
 The questioner wanted some thoughts on what sort of graph to draw. You can of course just picture what the data would look like and figure out which of your many stock datasets has an analogous structure. Or you'd sketch out an answer with pen and paper. In this case, even though they have problems in general, I thought a kind of stacked bar chart (but flipped on its side) might work. OK, done. But half the fun---for some values of "fun"---is generating data that looks like this. And as I said, I'm on the lookout for data-related examples of iteration, i.e. where I repeatedly do something and gather the results into a nice table.
 
-When we want to repeatedly do something, we first solve the base case and then we generalize it by putting in some sort of placeholder and use an engine that can iterate over an index of values, feeding each one to the placeholder. In imperative languages you might use a counter and a for loop. In a functional approach you repeatedly map or apply some function.
+When we want to repeatedly do something, we first solve the base case and then we generalize it by putting in some sort of placeholder and use an engine that can iterate over an index of values, feeding each one to the placeholder. In imperative languages you might use a counter and a for loop. In a functional approach you map or apply some function.
 
 We've got a hundred questions and fifteen LLMs. We imagine that the LLMs can range in accuracy from 40 percent to 99 percent in one percent steps. We'll pick at random from within this range to set how good any specific LLM is.
 
