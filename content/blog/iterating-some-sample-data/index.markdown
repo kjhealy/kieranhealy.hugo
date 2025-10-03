@@ -8,15 +8,15 @@ mathjax: false
 ---
 
 
-I'm teaching my [Modern Plain Text Computing](https://mptc.io) course this semester and so I'm on the lookout for small examples that I can use to show some of the small techniques we regularly use when working with tables of data. One of those is just coming up with some sample data to illustrate something else, like how to draw a plot or fit a model or what have you. This is partly what the stock datasets that come bundled with packages are for, like the venerable [mtcars](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html) or the more recent [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/). Sometimes, though, you end up quickly making up an example yourself. This can be a good way to practice stuff that computers are good at, like doing things repeatedly. 
+I'm teaching my [Modern Plain Text Computing](https://mptc.io) course this semester and so I'm on the lookout for small examples that I can use to show some of the ordinary techniques we regularly use when working with tables of data. One of those is just coming up with some example data to illustrate something else, like how to draw a plot or fit a model or what have you. This is partly what the stock datasets that come bundled with packages are for, like the venerable [mtcars](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html) or the more recent [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/). Sometimes, though, you end up quickly making up an example yourself. This can be a good way to practice stuff that computers are good at, like doing things repeatedly. 
 
-This happened the other day in response to a question about visualizing some evaluation data. The task goes like this. You are testing a bunch of different LLMs. Say, fifteen of them. You have  trained them to return Yes/No answers when they look at repeated samples of some test data. Let's say each LLM is asked a hundred questions. You have also had an expert person look at the same hundred questions and give you their Yes/No answers. The person's answers are the ground truth. You want to know how the LLM performs against them. So for each LLM you have a two-by-two table showing counts or rates of true positives, true negatives, false positives, and false negatives. This is called a "[confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)". You want to visualize LLM performance for all the LLMs. An additional wrinkle is that, from the point of view of your business, responses are variably costly. Correct answers (true positives or true negatives) cost one unit. Then, say, a False Negative costs two units and a False Positive is worst, costing four units.
+This happened the other day in response to a question about visualizing some evaluation data. The task goes like this. You are testing a bunch of different LLMs. Say, fifteen of them. You have  trained them to return Yes/No answers when they look at repeated samples of some test data. Let's say each LLM is asked a hundred questions. You have also had an expert person look at the same hundred questions and give you their Yes/No answers. The person's answers are the ground truth. You want to know how the LLM performs against them. So for each LLM you have a two-by-two table showing counts or rates of true positives, true negatives, false positives, and false negatives. (This is called a "[confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)".) You want to visualize LLM performance for all the LLMs. An additional wrinkle is that, from the point of view of your business, responses are variably costly. Correct answers (true positives or true negatives) cost one unit. Then, say, a False Negative costs two units and a False Positive is worst, costing four units.
 
-The questioner just wanted some thoughts on what sort of graph to draw. You can of course just picture what the data would look like and figure out which of your many stock datasets has an analogous structure. Or you'd just sketch out an answer. In this case, even though they have problems in general, a kind of stacked bar chart (but flipped on its side) might work OK. But half the fun (for some values of "fun") is generating data that looks like this. And as I said, I'm on the lookout for iteration examples, somewhere I can repeatedly do something and gather the results into a nice table.
+The questioner wanted some thoughts on what sort of graph to draw. You can of course just picture what the data would look like and figure out which of your many stock datasets has an analogous structure. Or you'd sketch out an answer with pen and paper. In this case, even though they have problems in general, I thought a kind of stacked bar chart (but flipped on its side) might work. OK, done. But half the fun---for some values of "fun"---is generating data that looks like this. And as I said, I'm on the lookout for data-related examples of iteration, i.e. where I repeatedly do something and gather the results into a nice table.
 
 When we want to repeatedly do something, we first solve the base case and then we generalize it by putting in some sort of placeholder and use an engine that can iterate over an index of values, feeding each one to the placeholder. In imperative languages you might use a counter and a for loop. In a functional approach you repeatedly map or apply some function.
 
-We've got a hundred questions and fifteen llms. We imagine that the LLMs can range in accuracy from 40 percent to 99 percent in one percent steps.
+We've got a hundred questions and fifteen LLMs. We imagine that the LLMs can range in accuracy from 40 percent to 99 percent in one percent steps. We'll pick at random from within this range to set how good any specific LLM is.
 
 {{< code r >}}
 set.seed(100125) # so we get the same 'random' results each time
@@ -60,7 +60,9 @@ We generate a string of responses for an imaginary LLM just like we did for the 
 llm_01 <- sample(c("N", "Y"), n_runs, replace = TRUE, prob = c(0.7, 0.3))
 {{< /code >}}
 
-But we want to do this fifteen times, with varying values for `prob` and also we want to put each LLM in its own column in a data frame. So we replace the values with variables. First we generate a vector of LLM names. We use `str_pad` to get sortable numbers with a leading zero.
+Which we would then feed to `eval_llm()` along with the vector of human answers. But we want to do this fifteen times, with varying values for `prob` and also we want to put each LLM in its own column in a data frame. So we replace the values with variables. Then we evaluate all of them.
+
+First we generate a vector of LLM names. We use `str_pad` to get sortable numbers with a leading zero:
 
 
 {{< code r >}}
@@ -114,32 +116,33 @@ run_llm <- function(llm_id, p_yes, p_no, n_runs) {
 {{< /code >}}
 
 
-This function returns a data frame that has one column and a hundred rows of Y/N answers sampled at a given probability of yes and no answers. There are two tricks. The first is, we want the name of the column to be the same as the `llm_id`. To do this we have to [quasi-quote](https://en.wikipedia.org/wiki/Quasi-quotation) the `llm_id` argument. This is what the `{{  }}` around `llm_id` [does inside the function](https://rlang.r-lib.org/reference/topic-data-mask.html). It lets us use the value of `llm_id` as a symbol that'll name the column. Normally when using `tibble()` to make a data frame we create a column with `col_name = vector_of_values`. We did that when we made `llm_df` a minute ago. But because we're doing this on the _left_ side of a naming operation, we can't use `=`, either. We have to assign the name's contents using the excellently-named [walrus operator](https://www.tidyverse.org/blog/2020/02/glue-strings-and-tidy-eval/), `:=`. 
+This function returns a data frame that has one column and a hundred rows of Y/N answers sampled at a given probability of yes and no answers. There are two tricks. The first is, we want the name of the column to be the same as the `llm_id`. To do this we have to [quasi-quote](https://en.wikipedia.org/wiki/Quasi-quotation) the `llm_id` argument. This is what the `{{  }}` around `llm_id` [does inside the function](https://rlang.r-lib.org/reference/topic-data-mask.html). It lets us use the value of `llm_id` as a symbol that'll name the column. Normally when using `tibble()` to make a data frame we create a column with `col_name = vector_of_values`. We did that when we made `llm_df` a minute ago. But because we're quasi-quoting the LLM name on the _left_ side of a naming operation, for technical reasons having to do with how R evaluates environments we can't use `=` as normal. Instead we have to assign the name's contents using the excellently-named [walrus operator](https://www.tidyverse.org/blog/2020/02/glue-strings-and-tidy-eval/), `:=`. If we were quasi-quoting with `{{ }}` on the right-hand side, an `=` would be fine.
 
 
-Now we're ready to go. We feed the `llm_df` table a row at a time to the `run_llm` function by using one of purrr's [map functions](https://purrr.tidyverse.org). Specifically, we use [pmap](https://purrr.tidyverse.org/reference/pmap.html), which takes a list of function arguments and hands them to a function. 
+Now we're ready to go. We feed the `llm_df` table a row at a time to the `run_llm` function by using one of purrr's [map functions](https://purrr.tidyverse.org). Specifically, we use [pmap](https://purrr.tidyverse.org/reference/pmap.html), which takes a list of multiple function arguments and hands them to a function: 
 
 {{< code r >}}
 
-llm_results <- map(llm_outputs, \(x) eval_llm(x, human_evals)) |>
-  bind_cols() |> 
-  mutate(
-    across(everything(), as.factor))
+llm_outputs <- pmap(
+  as.list(llm_df),
+  run_llm
+) |> 
+  bind_cols()
 
-llm_results
+llm_outputs
 #> # A tibble: 100 × 15
-#>    LLM_01         LLM_02         LLM_03         LLM_04         LLM_05  LLM_06 LLM_07 LLM_08 LLM_09 LLM_10 LLM_11 LLM_12 LLM_13 LLM_14 LLM_15
-#>    <fct>          <fct>          <fct>          <fct>          <fct>   <fct>  <fct>  <fct>  <fct>  <fct>  <fct>  <fct>  <fct>  <fct>  <fct> 
-#>  1 False Positive False Positive False Positive True Negative  True N… True … False… True … True … True … True … True … False… True … True …
-#>  2 True Positive  False Negative False Negative False Negative False … False… False… True … False… False… False… False… False… True … False…
-#>  3 False Negative True Positive  False Negative False Negative False … False… True … False… False… False… False… False… False… True … False…
-#>  4 False Positive False Positive True Negative  True Negative  True N… True … True … True … True … True … True … True … True … False… True …
-#>  5 True Negative  True Negative  True Negative  True Negative  False … False… False… True … False… True … True … True … True … False… False…
-#>  6 False Positive True Negative  True Negative  False Positive False … False… True … False… False… True … True … True … False… True … True …
-#>  7 False Positive False Positive True Negative  False Positive True N… True … False… False… False… True … True … True … True … True … True …
-#>  8 False Negative True Positive  False Negative False Negative True P… False… False… False… False… False… False… False… False… True … True …
-#>  9 False Negative True Positive  False Negative True Positive  True P… False… True … False… True … False… False… False… False… False… False…
-#> 10 True Negative  True Negative  False Positive True Negative  True N… True … False… False… False… True … True … True … False… False… False…
+#>    LLM_01 LLM_02 LLM_03 LLM_04 LLM_05 LLM_06 LLM_07 LLM_08 LLM_09 LLM_10 LLM_11 LLM_12 LLM_13 LLM_14 LLM_15
+#>    <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr>  <chr> 
+#>  1 N      N      N      N      Y      N      Y      Y      N      N      N      N      N      N      N     
+#>  2 N      N      N      N      N      N      N      N      N      N      N      Y      N      N      Y     
+#>  3 N      N      N      N      N      N      N      N      N      N      N      N      Y      N      Y     
+#>  4 N      Y      N      N      N      N      N      N      Y      N      N      N      N      N      Y     
+#>  5 N      N      N      Y      Y      N      Y      N      Y      Y      N      N      N      N      Y     
+#>  6 N      N      N      Y      Y      N      N      Y      N      N      N      N      Y      Y      N     
+#>  7 N      Y      N      N      Y      Y      Y      Y      Y      N      N      N      N      Y      N     
+#>  8 N      N      N      N      N      N      N      Y      Y      N      N      N      N      N      Y     
+#>  9 N      N      N      N      N      N      Y      Y      Y      N      N      N      N      N      N     
+#> 10 N      N      Y      N      Y      Y      N      Y      Y      N      N      N      N      N      Y     
 #> # ℹ 90 more rows
 
 {{< /code >}}
