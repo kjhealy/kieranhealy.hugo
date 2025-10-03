@@ -147,9 +147,9 @@ llm_outputs
 
 {{< /code >}}
 
-We write `as.list(llm_df)` because `pmap()` wants its series of arguments as a list. (A data frame is just a list where each list element---each column---is the same length, by the way.) It returns a list of fifteen LLM runs, which we then bind by column back into a data frame. Nice. At the end there I deliberately convert all these character vectors to [factors](https://r4ds.had.co.nz/factors.html) for a reason I'll get to momentarily.
+We write `as.list(llm_df)` because `pmap()` wants its series of arguments as a list. (A data frame is just a list where each list element---each column---is the same length, by the way.) It returns a list of fifteen LLM runs, which we then bind by column back into a data frame. Nice. 
 
-Now we can evaluate all these LLMs against our `human_evals` vector in the same way, by mapping or applying the `eval_llm()` function we wrote earlier. This time we can just use regular `map()` because there's only one varying argument, the LLM id. We take the `llm_outputs` data frame and use an anonymous or lambda function, `\(x\)` to say "pass each column to `eval_llm()` along with the non-varying `human_evals` vector". (You could write this without a lambda, too, but I find this syntax more consistent.)
+Now we can evaluate all these LLMs against our `human_evals` vector in the same way, by mapping or applying the `eval_llm()` function we wrote earlier. This time we can just use regular `map()` because there's only one varying argument, the LLM id. We take the `llm_outputs` data frame and use an anonymous or lambda function, `\(x\)` to say "pass each column to `eval_llm()` along with the non-varying `human_evals` vector". (You could write this without a lambda, too, but I find this syntax more consistent.) At the end there I deliberately convert all these character vectors to [factors](https://r4ds.had.co.nz/factors.html) for a reason I'll get to momentarily.
 
 {{< code r >}}
 
