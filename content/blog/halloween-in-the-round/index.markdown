@@ -31,11 +31,12 @@ Version 4 of ggplot came out last month and introduced `coord_radial()` as an im
 
 {{< code r >}}
 
-arrow_segment_df <- tibble(
-  x = 5, y = 3.4, xend = 60, yend = 3.2)
-  
 m_breaks <- cumsum(as.integer(diff(seq(as.Date("2016-01-01"),
                                        as.Date("2017-01-01"), by = "month")))) - 16  
+
+arrow_segment_df <- tibble(
+  x = 10, y = 3.4, xend = 61, yend = 3.2)
+  
 
 p_out  <- ggplot(data = fars_involved_agg,
        mapping = aes(x = day_ind, y = n, color = flag, fill = flag)) +
@@ -62,11 +63,12 @@ p_out  <- ggplot(data = fars_involved_agg,
          title = "Fatal Motor Vehicle Crashes involving Child Pedestrians",
          subtitle = "Daily Means, 2009-2023",
          caption = "Figure: Kieran Healy / Data: NHTSA Fatality Analysis Reporting System") + 
-  theme(panel.grid.minor.x = element_line(color = "gray20"),
-        panel.grid.major.y = element_line(color = "gray20"),
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_line(color = "gray10"),
+        panel.grid.major.y = element_line(color = "gray50"),
+        panel.grid.minor.y = element_blank(),
         axis.text = element_text(face = "bold"), 
         axis.ticks.theta = element_blank())
-
 {{< /code >}}
 
 
