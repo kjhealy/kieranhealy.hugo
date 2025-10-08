@@ -34,6 +34,8 @@ Version 4 of ggplot came out last month and introduced `coord_radial()` as an im
 arrow_segment_df <- tibble(
   x = 5, y = 3.4, xend = 60, yend = 3.2)
   
+m_breaks <- cumsum(as.integer(diff(seq(as.Date("2016-01-01"),
+                                       as.Date("2017-01-01"), by = "month")))) - 16  
 
 p_out  <- ggplot(data = fars_involved_agg,
        mapping = aes(x = day_ind, y = n, color = flag, fill = flag)) +
@@ -53,15 +55,18 @@ p_out  <- ggplot(data = fars_involved_agg,
     scale_fill_manual(values = c(NA, "darkorange2")) + 
     coord_radial(expand = FALSE, rlim = c(0,4.25), inner.radius = 0.25, 
                  r.axis.inside = TRUE) + 
-    scale_x_continuous(breaks = m_breaks, labels = month.name) +
+    scale_x_continuous(breaks = m_breaks, labels = month.name, minor_breaks = m_breaks - 15) +
     guides(color = "none", fill = "none", theta = "axis_textpath") + 
     labs(x = NULL,
          y = NULL,
          title = "Fatal Motor Vehicle Crashes involving Child Pedestrians",
-         subtitle = "Daily Mean, 2009-2023",
+         subtitle = "Daily Means, 2009-2023",
          caption = "Figure: Kieran Healy / Data: NHTSA Fatality Analysis Reporting System") + 
-  theme(panel.grid.major = element_line(color = "gray30"), 
-        axis.text = element_text(face = "bold"))
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_line(color = "gray30"),
+        axis.text = element_text(face = "bold"), 
+        axis.ticks.theta = element_blank())
+
 {{< /code >}}
 
 
