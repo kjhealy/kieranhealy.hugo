@@ -62,8 +62,8 @@ p_out  <- ggplot(data = fars_involved_agg,
          title = "Fatal Motor Vehicle Crashes involving Child Pedestrians",
          subtitle = "Daily Means, 2009-2023",
          caption = "Figure: Kieran Healy / Data: NHTSA Fatality Analysis Reporting System") + 
-  theme(panel.grid.major = element_blank(), 
-        panel.grid.minor = element_line(color = "gray30"),
+  theme(panel.grid.minor.x = element_line(color = "gray20"),
+        panel.grid.major.y = element_line(color = "gray20"),
         axis.text = element_text(face = "bold"), 
         axis.ticks.theta = element_blank())
 
