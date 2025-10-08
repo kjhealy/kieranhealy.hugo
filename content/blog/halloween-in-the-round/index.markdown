@@ -5,8 +5,7 @@ categories: [R,visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false
-images:
-    - halloween_polar.png
+images: halloween_polar.png
 ---
 
 
