@@ -5,6 +5,7 @@ categories: [politics]
 footnotes: false
 htmlwidgets: false
 mathjax: false
+image: no-king-two-term.jpg
 ---
 
 If you want to print out a poster for [October 18th](https://www.nokings.org), here are two; fully-guaranteed countrywide but maybe especially suitable for in and around New York. 
