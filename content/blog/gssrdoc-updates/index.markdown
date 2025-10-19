@@ -11,7 +11,7 @@ Regular readers know that I maintain [`gssr`](https://kjhealy.github.io/gssr/) a
 
 This week I spent a little time updating `gssrdoc` a bit to clean up how the help pages looked and make some other improvements. Inside R, you can say, e.g., `?govdook` at the console and have this pop up in the help:
 
-{{% figure src="gssrdoc-rstudio.png" alt="RStudio with help page for govdook" caption="Yeah govdook is short for 'Gov Do OK', not 'Dook'." %}}
+{{% figure src="gssrdoc-rstudio.png" alt="RStudio with help page for govdook" caption="Yeah govdook is short for 'Gov Do OK', not 'Go v Dook'." %}}
 
 The package also includes `gss_doc`, a data frame containing all of the information that the help pages are built from. I included it because it can be useful to work with directly, as when you might want to extract summary information about a subset of variables.
 
