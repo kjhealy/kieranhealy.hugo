@@ -10,17 +10,17 @@ categories: [Philosophy, Sociology, PGR]
 
 First, voting frequency. Might it be the case that _how many votes a rater casts_ is related to the PGR score of their home department? It's easy to think of reasons why this might be true. For example, what if people working at highly-ranked departments are highly opinionated (I know this seems very unlikely, but bear with me) and are happy to vote on every single department in the survey. Alternatively, it might be that people at high-ranking departments are somewhat snobbish (another wildly speculative notion, I admit) and this leads them to care not a whit for 85 of the 99 deparments in the survey. What do the data say?
 
-{{% img src="https://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png" %}}
+{{% img src="pgr-desc-raters-nr-v-empscore-loess.png" %}}
 
-(<a href="https://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-desc-raters-nr-v-empscore-loess.pdf">PDF</a>.) 
+(<a href="pgr-desc-raters-nr-v-empscore-loess.png">PNG</a>, <a href="pgr-desc-raters-nr-v-empscore-loess.pdf">PDF</a>.) 
 
 Sadly, there doesn't seem to be much of a relationship either way. The blue line is a [LOESS](http://en.wikipedia.org/wiki/Local_regression) curve that's trying to find the best-fitting locally-weighted path through the data. As you can see, the association is mostly pretty flat, except for raters from very low-scoring departments (PGR < 2, say). You'll recall from yesterday that there aren't very many such raters in the survey, so there's more uncertainty associated with where the line ought to go. Once you get up to raters from departments with a PGR score of 2.5 or higher, the line is more or less flat---not coincidentally it sits around the high 70s. As I said yesterday the median rater evaluated 77 departments in 2006.
 
 By contrast, consider the association between the number of votes a _Department receives_ and its PGR score in 2006:
 
-{{% img src="https://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png" %}} 
+{{% img src="pgr-desc-nratedvmean.png" %}} 
 
-(<a href="https://kieranhealy.org/files/misc/pgr-desc-nratedvmean.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-desc-nratedvmean.pdf">PDF</a>.) 
+(<a href="pgr-desc-nratedvmean.png">PNG</a>, <a href="pgr-desc-nratedvmean.pdf">PDF</a>.) 
 
 Much tighter, as you can see. 
 
@@ -28,9 +28,9 @@ What about variation due to specialty areas? Here we can look at the degree of c
 
 OK, so what can we do to visualize the level of consensus or disagreement between specialists? For a start we can them to create their own _overall_ rankings. That is, take everyone eligible to vote in the Ethics specialty rankings and calculate a new _overall_ PGR ranking using just their votes and no-one else's. Do the same for the other areas: an overall PGR ranking calculated by allowing only the Philosophers of Mind to vote; one calculated by allowing only the Metaphysics specialists, the 17th century specialists, and so on for all the specialty areas. (Some of these "new" overall scores will be calculated from a small number of raters—in several cases fewer than ten.) Once we have this set of new scores, we can see how much variation there is across specialties. Here's a plot of this variation for the top 25 departments:
 
-{{% img src="https://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png" %}}
+{{% img src="pgr-rank-volatility06-t25.png" %}}
 
-(<a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-t25.pdf">PDF</a>.) 
+(<a href="pgr-rank-volatility06-t25.png">PNG</a>, <a href="pgr-rank-volatility06-t25.pdf">PDF</a>.) 
 
 The boxplots show how much variation there is in the distribution of these speciality-based overall PGR scores. The blue area for each department covers the interquartile range (the 
 space between the 25th and 75th percentiles). The "whiskers" on the plot extend out to the highest value that's within 1.5 times this range in either direction. Any remaining outlying 
@@ -41,9 +41,9 @@ most of the time. NYU, on the other hand, never falls out of the top five no mat
 
 We can extend the exericise to all departments, with another very tall figure:
 
-{{% img src="https://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png" %}}
+{{% img src="pgr-rank-volatility06-all.png" %}}
 
-(<a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-all.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-rank-volatility06-all.pdf">PDF</a>.) 
+(<a href="pgr-rank-volatility06-all.png">PNG</a>, <a href="pgr-rank-volatility06-all.pdf">PDF</a>.) 
 
 Looking at all 99 departments we see a broadly similar sort of pattern to the overall degree of confidence in the actual overall ratings: there's a relatively high degree of consensus around the top seven or eight departments, with some widening of disagreement in around the 10-20 range. Outside the top 20 variability is greatest---i.e., cross-subfield consensus is lowest---in the middle to lower-middle of the table. And for the bottom 20 or so departments there's generally more consensus once again. 
 

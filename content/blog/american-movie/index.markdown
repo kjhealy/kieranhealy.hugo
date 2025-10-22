@@ -12,44 +12,44 @@ When cleaning the data I first threw out all the porn (the "Adult" genre). Here'
 
 *Update:* I couldn't leave well enough alone, so after some very helpful advice from [Gabriel Rossman](http://www.sociology.ucla.edu/faculty/gabriel-rossman), who knows a hell of a lot about this data set, I went and pulled the most recent version of the IMDB Genres file and cleaned it quickly, more or less as before. As always, cleaning data with the attempt to replicate prior results proved to be a sobering experience. The plots aren't strictly comparable, but I'm keeping the originals rather than replacing them with new versions. Instead I'll add the standardized plots (per 1,000 annual films) for comparison.
 
-{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth-all.png" alt="All American" caption="All Films, 1900--2014." %}}
+{{% figure src="movie-america-year-smooth-all.png" alt="All American" caption="All Films, 1900--2014." %}}
 
-([PDF available.](https://kieranhealy.org/files/misc/movie-america-year-smooth-all.pdf))
+([PDF available.](movie-america-year-smooth-all.pdf))
 
 It does seem like America is becoming increasingly thoughtful about American things. Next, let's break out the titles by the form the word takes. This was the not-very-serious claim that titles of the form "American Something" tended to be more portentous than either "An American Something" or "Something in America". I'm not prepared to defend this claim beyond a barstool, but here are the trends. It does seem like *American Sniper* is perched on top of a big surge of American Somethings, perhaps signaling Peak American Seriousness. But then again maybe we have a lot further to go.
 
 Here's the version of this plot based on the full IMDB Genres file, standardized by number of films released that year. Again, this isn't strictly comparable because the base data file and the search terms are slightly different, but I believe it more than the raw count plot.
 
-{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth-all-rate.png" alt="All American" caption="All Films, 1900--2014, standardized." %}}
+{{% figure src="movie-america-year-smooth-all-rate.png" alt="All American" caption="All Films, 1900--2014, standardized." %}}
 
-([PDF available.](https://kieranhealy.org/files/misc/movie-america-year-smooth-all-rate.pdf))
+([PDF available.](movie-america-year-smooth-all-rate.pdf))
 
 Not quite as dramatic a trend---but I think it holds up.
 
 
-{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth.png" alt="All American" caption="All Films, by Form of Title 1900--2014." %}}
+{{% figure src="movie-america-year-smooth.png" alt="All American" caption="All Films, by Form of Title 1900--2014." %}}
 
-[PDF available.](https://kieranhealy.org/files/misc/movie-america-year-smooth.pdf)
+[PDF available.](movie-america-year-smooth.pdf)
 
 Here's the standardized form-of-title plot:
 
-{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-smooth-rate.png" alt="All American" caption="All Films, by Form of Title 1900--2014, standardized." %}}
+{{% figure src="movie-america-year-smooth-rate.png" alt="All American" caption="All Films, by Form of Title 1900--2014, standardized." %}}
 
-[PDF available.](https://kieranhealy.org/files/misc/movie-america-year-smooth-rate.pdf)
+[PDF available.](movie-america-year-smooth-rate.pdf)
 
 Again you can see the uptick in "American <Something>" films in particular. The outlier in the middle of these plots is from 1941, when a series of documentaries were made with "American History" in the title.
 
 Finally, what's the main genre of all these American (sorry I mean "American") films? Here are plots for the five genres with the most titles in the data:
 
-{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth.png" alt="All American" caption="Main Genres of Films, 1900--2014." %}}
+{{% figure src="movie-america-year-bygenre-smooth.png" alt="All American" caption="Main Genres of Films, 1900--2014." %}}
 
-[PDF available.](https://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth.pdf)
+[PDF available.](movie-america-year-bygenre-smooth.pdf)
 
 And the standardized version:
 
-{{% figure src="https://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth-rate.png" alt="All American" caption="Main Genres of Films, 1900--2014, standardized." %}}
+{{% figure src="movie-america-year-bygenre-smooth-rate.png" alt="All American" caption="Main Genres of Films, 1900--2014, standardized." %}}
 
-[PDF available.](https://kieranhealy.org/files/misc/movie-america-year-bygenre-smooth-rate.pdf)
+[PDF available.](movie-america-year-bygenre-smooth-rate.pdf)
 
 A little less clear, again. Still, though, you can see the recent rise in Documentaries and Dramas as the main sources of recent "American" Titles, which lends credence to the Twilight of Empire Portentousness theory. Comedy is strongly represented as well, so I wouldn't bet the farm on that idea. But whether as tragedy or farce, it seems the future of movies is increasingly American.
 

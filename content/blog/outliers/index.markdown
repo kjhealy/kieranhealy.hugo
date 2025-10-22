@@ -11,7 +11,7 @@ categories:
 - Economics
 ---
 
-![image](http://www.kieranhealy.org/files/misc/laffer.png)
+![image](laffer.png)
 
 By now you've probably all seen this ridiculous graphic from todays' WSJ, which purports to show that the Laffer curve is somehow related to the data points on the figure. [Brad DeLong](http://delong.typepad.com/sdj/2007/07/most-dishonest-.html), [Kevin Drum](http://www.washingtonmonthly.com/archives/individual/2007_07/011682.php), [Matt Yglesias](http://matthewyglesias.theatlantic.com/archives/2007/07/worst_editorial_ever.php), [Mark Thoma](http://economistsview.typepad.com/economistsview/2007/07/yet-again-tax-c.html) and [Max Sawicky](http://maxspeak.org/mt/archives/003184.html) have all rightly had a good old laugh at it, because it's spectacularly dishonest and stupid. I just want to make a point about so-called outlying cases, like Norway.
 

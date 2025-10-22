@@ -10,13 +10,13 @@ Nate Silver's relaunched [FiveThirtyEight](http://fivethirtyeight.com) has been 
 
 He prints this table:
 
-{{% figure src="https://kieranhealy.org/files/misc/silver-krugman-original.png" alt="Silver v Krugman" caption="Silver v Krugman, Round 1" %}}
+{{% figure src="silver-krugman-original.png" alt="Silver v Krugman" caption="Silver v Krugman, Round 1" %}}
 
 
 Silver goes on to say, "To be sure, the difference in Mr. Krugman’s views could reflect a decline in quality for FiveThirtyEight ... While it can be easy to extrapolate a spurious trend from a limited number of data points, the differences are highly statistically significant. At his current pace, Mr. Krugman will write 425 more blog posts about FiveThirtyEight between now and the 2016 presidential election."
 
 I think new sites always take a little time to settle down, and I hope FiveThirtyEight can get rolling with the kind of quick and accessible, model-based and data-driven analysis that made Silver justly famous. Maybe this post would be a good place to start. Given that he says the differences are "highly statistically significant", a natural question to ask is whether there is any omitted variable bias in the model. I went and looked at the original columns, which Silver helpfully links to in his table, and quickly coded up two new variables: the topic that Krugman was referring to when he mentioned Silver, and whether the item mentioned by Krugman had a worked-out statistical model underneath. That gives us a new table:
 
-{{% figure src="https://kieranhealy.org/files/misc/silver-krugman-2.png" alt="Silver v Krugman 2" caption="Silver v Krugman, Round 2" %}}
+{{% figure src="silver-krugman-2.png" alt="Silver v Krugman 2" caption="Silver v Krugman, Round 2" %}}
 
 It seems to me that either the topic Krugman was writing about or the model-based nature of Silver's discussion might be driving the statistically significant results in the original model. Science marches on. 

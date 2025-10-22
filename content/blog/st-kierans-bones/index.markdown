@@ -14,6 +14,6 @@ I took a quick trip around [Fantasy Island](http://www.dirtragmag.com/print/arti
 
 As it happens, this is only one of three boneyards in the area. Up out past the northwest side of town past Marana is [Pinal Air Park](http://en.wikipedia.org/wiki/Pinal_Airpark), which is a boneyard, storage and re-branding site for civilian aircraft, including many 747s. (It also has a history as a CIA Airfield.) And it's here that St Kieran, an Aer Lingus 747, met his end some years ago.
 
-![image](http://www.kieranhealy.org/files/misc/stkieran-cropsm.png)
+![image](stkieran-cropsm.png)
 
 [Here's a larger shot](http://www.airliners.net/open.file/0148851/L/). This photo was taken in 1997. I don't think he's there any more, having probably been scrapped in the meantime. Like I say, you see some strange things in the desert. (Me on a mountain bike, for example.) Maybe I should do a series. Next up could be [the local Titan II ICBM silo](http://www.pimaair.org/index.php?option=com_content&task=view&id=39&Itemid=51) (missile included), where we take job candidates when they ask us where the Dean's office is.

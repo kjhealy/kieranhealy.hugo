@@ -10,7 +10,7 @@ categories:
 - Misc
 ---
 
-[![image](http://farm1.static.flickr.com/185/475218675_72cbcb9fff_m.jpg)](http://www.flickr.com/photos/myglesias/475218675/ "photo sharing")
+[![image](475218675_72cbcb9fff_m.jpg)](http://www.flickr.com/photos/myglesias/475218675/ "photo sharing")
 
 New Yorker Matt Yglesias's westward march, from Washington DC to Santa Fe and maybe beyond, has been [attracting some attention](http://www.unfogged.com/archives/week_2007_04_22.html#006696). So far the highlight has been what you might call the Fashion Trail of Tears, pictured here. An iconic image, I think. Today he [freely admits](http://38.118.71.136/matthewyglesias/archives/2007/04/the_masons.php) to never having heard of Kit Carson (knowledge of whom had even made it to the Ireland of my youth) and notices how sunny it is in New Mexico.
 

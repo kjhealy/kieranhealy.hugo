@@ -12,17 +12,17 @@ So, first common question. Every department in the survey is ranked based on its
 
 Here's a figure showing the top 25 departments as they stood in 2006. For each department, the dot shows the mean score and the line on either side of it is the range of a 95% bootstrapped confidence interval. This is constructed by resampling from the distribution of ratings awarded to each department. 
 
-{{% img src="https://kieranhealy.org/files/misc/pgr-rank-confboot.png" %}}
+{{% img src="pgr-rank-confboot.png" %}}
 
-(You can get a <a href="https://kieranhealy.org/files/misc/pgr-rank-confboot.png">PNG</a> or <a href="https://kieranhealy.org/files/misc/pgr-rank-confboot.pdf">PDF</a> of this figure.)
+(You can get a <a href="pgr-rank-confboot.png">PNG</a> or <a href="pgr-rank-confboot.pdf">PDF</a> of this figure.)
 
 Roughly speaking, the wider the interval the more disagreement there is in the data about a department's reputation. These intervals aren't necessarily symmetric around the means because there may be more disagreement in one direction than the other. E.g., there might be strong consensus about a department's lower bound (everyone agrees it's in the Top 10) but disagreement about its upper bound. Looking up and down the rows, the degree to which intervals overlap gives us a decent sense of the daylight that does or doesn't exist between departments. It seems fairly clear the collective judgment of respondents sorts deparmental reputations into bands---the top three, the next three or four, a group of departments in or around the top ten, and so on. 
 
 We can do this for all 99 departments surveyed in 2006, too, which makes for a rather tall figure.
 
-{{% img src="https://kieranhealy.org/files/misc/pgr-rank-confboot-all.png" %}}
+{{% img src="pgr-rank-confboot-all.png" %}}
 
-(<a href="https://kieranhealy.org/files/misc/pgr-rank-confboot-all.png">PNG</a>, <a href="https://kieranhealy.org/files/misc/pgr-rank-confboot-all.pdf">PDF</a>.)
+(<a href="pgr-rank-confboot-all.png">PNG</a>, <a href="pgr-rank-confboot-all.pdf">PDF</a>.)
 
 As you can see, reputations come in chunks or bands. In many cases a 0.1 point difference in score is probably not all that meaningful.
 

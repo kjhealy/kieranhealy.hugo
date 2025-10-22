@@ -11,6 +11,6 @@ categories:
 - IT
 ---
 
-![Pride & Prejudice FB feed](http://www.kieranhealy.org/files/misc/pandpfb.png)
+![Pride & Prejudice FB feed](pandpfb.png)
 
 [*Pride and Prejudice*, the FaceBook feed](http://www.much-ado.net/austenbook/).

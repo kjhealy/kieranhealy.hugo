@@ -10,6 +10,6 @@ categories:
 - Misc
 ---
 
-![Sacred of Santa](http://www.kieranhealy.org/files/misc/scared.jpg)
+![Sacred of Santa](scared.jpg)
 
 Hundreds more at the [Scared of Santa](http://www.sun-sentinel.com/entertainment/holiday/sfl-scaredofsanta-ugc,0,7181908.ugcphotogallery) photo gallery. Via [Apostropher](http://www.apostropher.com/blog/archives/004021.html).

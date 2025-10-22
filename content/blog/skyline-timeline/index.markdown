@@ -9,7 +9,7 @@ mathjax: false
 
 One more from the Manhattan data. Here's a plot of all Manhattan's _presently existing_ buildings with their year of construction on the x-axis and their height in feet on the y-axis. With a nice wide aspect ratio and the use of `geom_rect()` to make the columns, we get a plot that looks a little like a skyline itself. Or, as was pointed out on Twitter, a [Manhattan Plot](https://en.wikipedia.org/wiki/Manhattan_plot) of Manhattan itself. Nice.
 
-{{% figure src="https://kieranhealy.org/files/misc/skyline20colorcol.png" alt="Skyline graph" caption="Manhattan building heights by year of construction." %}}
+{{% figure src="skyline20colorcol.png" alt="Skyline graph" caption="Manhattan building heights by year of construction." %}}
 
 The PNG here is reasonably high-resolution, so you can zoom in a bit.
 

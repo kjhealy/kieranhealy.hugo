@@ -8,6 +8,6 @@ mathjax: false
 ---
 
 
-{{% figure src="https://kieranhealy.org/files/misc/springermath.png" alt="Springer Math Text" caption="The first page of every yellow book you've ever looked at." %}}
+{{% figure src="springermath.png" alt="Springer Math Text" caption="The first page of every yellow book you've ever looked at." %}}
 
 

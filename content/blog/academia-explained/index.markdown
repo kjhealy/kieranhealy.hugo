@@ -10,6 +10,6 @@ mathjax: false
 
 Part of a very [occasional series](https://kieranhealy.org/blog/archives/2019/03/18/frank-oz-muppets-and-the-big-five-personality-traits/).
 
-{{% figure src="https://kieranhealy.org/files/misc/academia_explained_muppets.png" alt="Muppets and Faculty" caption="Correct in all its details" %}}
+{{% figure src="academia_explained_muppets.png" alt="Muppets and Faculty" caption="Correct in all its details" %}}
 
 

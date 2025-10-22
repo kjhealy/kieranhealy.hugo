@@ -10,6 +10,6 @@ categories:
 - Politics
 ---
 
-![Obama Most Likely Not the Antichrist](http://www.kieranhealy.org/files/misc/obamaanti.png)
+![Obama Most Likely Not the Antichrist](obamaanti.png)
 
 A [letter](http://media.www.ndsmcobserver.com/media/storage/paper660/news/2008/03/19/Viewpoint/Obama.Most.Likely.Not.The.Antichrist-3274101.shtml) from the Notre Dame *Observer* in response to [an Op-Ed](http://media.www.ndsmcobserver.com/media/storage/paper660/news/2008/03/18/Viewpoint/Obama.And.The.End.Of.The.World-3272407.shtml) in the paper.

@@ -12,26 +12,26 @@ That last point about Indian Reservations is worth noting, as there are some lar
 
 Here's the map. 
 
-{{% figure src="https://www.kieranhealy.org/files/misc/federal-lands-cred-sm.jpg" link="http://www.kieranhealy.org/files/misc/federal-lands-cred.jpg" caption="Land owned or administered by the US Federal Government." %}}
+{{% figure src="federal-lands-cred-sm.jpg" link="federal-lands-cred.jpg" caption="Land owned or administered by the US Federal Government." %}}
 
-(A [PNG file](http://www.kieranhealy.org/files/misc/federal-lands-cred.png) is also available.)
+(A [PNG file](federal-lands-cred.png) is also available.)
 
 The federal government owns a _lot_ of land in the West, most of it being Public Domain Lands or one of the many kinds of National Park, Preserve, Forest, Wilderness, or Wildlife Refuge Areas that exist. Things are a lot patchier east of the Rockies, although there are substantial tracts of National Park and Forest there as well. Not all unmarked land is privately owned---I imagine State governments and agencies own or administer a reasonable amount of property---but the Feds are very much absent in places like Texas, Kansas, Iowa, and Nebraska. The US Military have large holdings as well---I recognize the rough U-Shape of the [Yuma Proving Ground and Barry M. Goldwater Bombing Range](http://arizonaexperience.org/land/yuma-proving-ground-and-barry-goldwater-complex) from when I lived in Tucson. 
 
 This map collapses a larger number of use categories to make it easier to see the main patterns. There are a couple of other ways one could look at it. First, we can break out the categories one at a time, like this. This might matter to us, for example, because the economic status of National Forest is different from that of a National Park or a National Wildlife Refuge. Here's what some of those single uses look like.
 
-{{% figure src="https://www.kieranhealy.org/files/misc/federal-lands-use-montage-sm.jpg"
-link="http://www.kieranhealy.org/files/misc/federal-lands-use-montage.jpg" caption="Federal Land by Selected Use Types." %}}
+{{% figure src="federal-lands-use-montage-sm.jpg"
+link="federal-lands-use-montage.jpg" caption="Federal Land by Selected Use Types." %}}
 
 Alternatively, we can label the land categories not by use type but rather by the federal agency primarily responsible for them. Here is what that looks like. Again, we collapse some categories for agencies controlling relatively small areas.
 
-{{% figure src="https://www.kieranhealy.org/files/misc/federal-lands-admin-sm.jpg" link="http://www.kieranhealy.org/files/misc/federal-lands-admin.jpg" caption="Federal Land by Primary Agency Responsible." %}}
+{{% figure src="federal-lands-admin-sm.jpg" link="federal-lands-admin.jpg" caption="Federal Land by Primary Agency Responsible." %}}
 
-(A [PNG file](http://www.kieranhealy.org/files/misc/federal-lands-admin.png) is also available.)
+(A [PNG file](federal-lands-admin.png) is also available.)
 
 One final point. A few months ago I drew a couple of maps I called "[America's Ur-Choropleths](https://kieranhealy.org/blog/archives/2015/06/12/americas-ur-choropleths/)", where the idea was that most of the choropleth maps of the US that you see are expressible as some combination of Population Density and Percent Black, the two basic features of US demographic geography. As you can see, the Feds mostly control land where nobody lives:
 
-{{% figure src="https://kieranhealy.org/files/misc/us-pop-density-2014.png" link="http://www.kieranhealy.org/files/misc/us-pop-density-2014.png" alt="US Population Density." caption="US Population Density Estimates, by county, 2014. Source: US Census." %}}
+{{% figure src="us-pop-density-2014.png" link="us-pop-density-2014.png" alt="US Population Density." caption="US Population Density Estimates, by county, 2014. Source: US Census." %}}
 
 It'd be a nice exercise, I think, to produce a standard map of something like the US Election results, where you see swathes of a single color in very sparsely-populated areas, but then overlay it with the Federal Lands map in way that treated those areas as something like inland seas in the manner of the Great Lakes. 
 

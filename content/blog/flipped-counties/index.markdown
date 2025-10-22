@@ -8,7 +8,7 @@ I was playing with some county-level data from the U.S. general election, partly
 
 {{% figure src="/files/misc/flipped-counties-2016.png" link="/files/misc/flipped-counties-2016.png" caption="Counties that flipped party majority from the 2012 to the 2016 election." %}}
 
-([PDF version.](https://kieranhealy.org/files/misc/flipped-counties-2016.pdf))
+([PDF version.](flipped-counties-2016.pdf))
 
 There are a couple of things to note here. First, and most obviously, a number of counties with a relatively high percentage of African-Americans flipped to Trump. (Bear in mind that, because these data are observed at the county level, we can't make direct inferences [about how individuals voted](https://en.wikipedia.org/wiki/Ecological_fallacy.).) Most of these counties are in the South, where most of the counties with large black populations are anyway. Interestingly, the subset of counties like this that flipped are mostly ones with a black population between thirty five and fifty percent. With the exception of one Mississippi county, nowhere with an extremely large majority of black residents flipped to the Republican side. So there's *prime facie* evidence for both the reduced turnout and increased suppression stories. 
 
@@ -16,7 +16,7 @@ If you're interested in the one county way over on the left there with fewer tha
 
 {{% figure src="/files/misc/flipped-counties-2016-zoomed.png" link="/files/misc/flipped-counties-2016-zoomed.png" caption="Plot detail---Counties that flipped party majority from the 2012 to the 2016 election, focusing on mid-sized counties with low percent black population." %}}
 
-([PDF version.](https://kieranhealy.org/files/misc/flipped-counties-2016-zoomed.pdf))
+([PDF version.](flipped-counties-2016-zoomed.pdf))
 
 Second, it's also clear that an awful lot of counties with relatively small black populations flipped over to the Republicans. We can zoom in on this region and label the states these counties are in as well. Down here we see a lot of counties in Wisconsin, Michigan, Minnesota, Indiana, and Iowa, along with a bunch of rural counties in Maine, New York, and Illinois. Off to the upper right of these areas you can see some of the larger county flips in New York, Pennsylvania, Ohio, and Florida.
 
@@ -26,4 +26,4 @@ Finally, here's a plot of all counties and flipped counties by percent college (
 
 {{% figure src="/files/misc/flipped-2016-education-income-combo.png" link="/files/misc/flipped-2016-education-income-combo.png" caption="All counties and flipped counties by education and income." %}}
 
-([PDF version.](https://kieranhealy.org/files/misc/flipped-2016-education-income-combo.pdf))
+([PDF version.](flipped-2016-education-income-combo.pdf))

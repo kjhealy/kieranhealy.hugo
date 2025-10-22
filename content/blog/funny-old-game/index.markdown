@@ -10,5 +10,5 @@ categories:
 - Misc
 ---
 
-![image](http://www.kieranhealy.org/files/misc/odriscoll.png) Unless [you're English](http://news.bbc.co.uk/sport1/hi/rugby_union/international/4813172.stm), I mean. Not very funny at all then, really. 
+![image](odriscoll.png) Unless [you're English](http://news.bbc.co.uk/sport1/hi/rugby_union/international/4813172.stm), I mean. Not very funny at all then, really. 
 

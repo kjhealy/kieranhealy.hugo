@@ -12,7 +12,7 @@ categories:
 - Sociology
 ---
 
-![image](http://www.kieranhealy.org/files/misc/pope-limerick.png)
+![image](pope-limerick.png)
 
 Pope John Paul II came to Ireland in 1979. It was the first time a reigning pontiff had visited the country and the nation went crazy. I was six. I went to see him in Limerick, along with my father, my uncle Donal, and about 300,000 other people. He faced a similar-sized crowd in Galway, and filled the Phoenix Park in Dublin with nearly a million people, by some estimates. This in a country of about three and a half million people. I went to bed at six o'clock the night before and my father woke me up at midnight. I was put in charge of the torch. We drove up to the Northside to pick up my uncle. Then we hit the road at about half one in the morning, along with most of the rest of Munster. There were helicopters overhead, monitoring the traffic. It was the first time Radio 2 broadcast all the way through the night. It's sixty five miles from Cork to Limerick. We parked the car a mile or so from the Mass site at about seven o'clock. Then we got out the deck chairs, settled down, and waited for the Pope to arrive.
 

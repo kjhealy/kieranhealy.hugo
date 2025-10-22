@@ -11,7 +11,7 @@ categories:
 - Sociology
 ---
 
-[![image](http://ec1.images-amazon.com/images/P/0226039706.01._AA240_SCLZZZZZZZ_.jpg)](http://www.amazon.com/exec/obidos/ASIN/0226039706/)
+[![image](doormen.jpg)](http://www.amazon.com/exec/obidos/ASIN/0226039706/)
 
 I just finished reading [*Doormen*](http://www.amazon.com/exec/obidos/ASIN/0226039706/), by [Peter Bearman](http://www.iserp.columbia.edu/people/faculty_fellows/bearman.html). It's a study of the residential doormen who work in the buildings of New York's Upper West and East sides. A fairly restricted topic, to be sure, but the book is a small gem: the kind of sociology that takes a particular job and investigates it in a way that derives quite general lessons even as it delves into the specifics.
 

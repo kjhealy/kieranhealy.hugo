@@ -8,7 +8,7 @@ categories: [Sociology,Books]
 
 The [current issue of _Accounts_](http://www2.asanet.org/sectionecon/accounts12sp.pdf) has an interesting article by Dan Wang called "Is there a Canon in Economic Sociology?". It's a study of the contents of more than fifty Econ Soc syllabuses looking to discover which authors are most often assigned. (I don't remember seeing the call for the data, which is odd.) There's a lot of interesting stuff in there, including a variety of measures of "canonicity" and different ways of counting the importance of different texts and authors. Once you start thinking about it, there are all kinds of complications involved in deciding how to code and classify things. Here I just want to higlight an interesting aspect of this network of references:
 
-{{% img src="https://kieranhealy.org/files/misc/econsoc-syllabus-network.png" %}}
+{{% img src="econsoc-syllabus-network.png" %}}
 
 According to the article, this picture presents the largest component of reference class session co-listings. "Nodes represent references, node size reflects degree centrality, and more orange nodes reflect higher degree centrality. A tie between two nodes signals that two nodes have been co-listed in the same class session on at least two separate syllabi. Tie thickness reflects the number of syllabi on which two references were co-listed in the same class session." Note that the unit here is articles, so authors may appear in different places in the figure based on different works of theirs. 
 

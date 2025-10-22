@@ -14,40 +14,40 @@ If you're interested in learning more about how to making graphs and charts usin
 
 ## Vaccination Exemptions in California Kindergartens
 
-{{% figure src="https://kieranhealy.org/files/misc/pbe_by_school_type_bee_poster-01.png" alt="" caption="Vaccination exemptions poster." %}}
+{{% figure src="pbe_by_school_type_bee_poster-01.png" alt="" caption="Vaccination exemptions poster." %}}
 
 
-- [PNG](https://kieranhealy.org/files/misc/pbe_by_school_type_bee_poster.png)
-- [PDF](https://kieranhealy.org/files/misc/pbe_by_school_type_bee_poster.pdf)
+- [PNG](pbe_by_school_type_bee_poster.png)
+- [PDF](pbe_by_school_type_bee_poster.pdf)
 - [More details.](https://kieranhealy.org/blog/archives/2016/09/12/vaccination-beeplot/)
 
 
 ## A Co-Citation Network for Philosophy
 
-{{% figure src="https://kieranhealy.org/files/misc/a_cocitation_matrix_for_philosophy.png" alt="" caption="Co-Citation in Philosophy." %}}
+{{% figure src="a_cocitation_matrix_for_philosophy.png" alt="" caption="Co-Citation in Philosophy." %}}
 
 
-- [PNG](https://kieranhealy.org/files/misc/a_cocitation_matrix_for_philosophy.png)
-- [PDF](https://kieranhealy.org/files/misc/a_cocitation_matrix_for_philosophy.pdf)
+- [PNG](a_cocitation_matrix_for_philosophy.png)
+- [PDF](a_cocitation_matrix_for_philosophy.pdf)
 - [More details.](https://kieranhealy.org/blog/archives/2013/06/18/a-co-citation-network-for-philosophy/)
 
 
 ## Mortality in France, 1816-2016
 
-{{% figure src="https://kieranhealy.org/files/misc/france_blackposter.png" alt="" caption="French mortality." %}}
+{{% figure src="france_blackposter.png" alt="" caption="French mortality." %}}
 
-- [PNG](https://kieranhealy.org/files/misc/france_blackposter.png)
-- [PDF](https://kieranhealy.org/files/misc/france_blackposter.pdf)
+- [PNG](france_blackposter.png)
+- [PDF](france_blackposter.pdf)
 - [More details.](https://kieranhealy.org/blog/archives/2018/12/27/french-mortality-poster/)
 
 
 ## Visualizing the Baby Boom
 
-{{% figure src="https://kieranhealy.org/files/misc/combined_births_components_tile_poster.png" alt="" caption="The Baby Boom in the US and the UK." %}}
+{{% figure src="combined_births_components_tile_poster.png" alt="" caption="The Baby Boom in the US and the UK." %}}
 
 
-- [PNG](https://kieranhealy.org/files/misc/combined_births_components_tile_poster.png)
-- [PDF](https://kieranhealy.org/files/misc/combined_births_components_tile_poster.pdf)
+- [PNG](combined_births_components_tile_poster.png)
+- [PDF](combined_births_components_tile_poster.pdf)
 - [More details.](https://kieranhealy.org/blog/archives/2018/04/10/visualizing-the-baby-boom/)
 
 

@@ -12,7 +12,7 @@ The dataset we collected has---as best we can tell---635 respondents. More preci
 
 It's not impossible, however. The distribution of votes across our 635 respondents has a very long tail. While 75 percent of respondents registered just over 70 votes before finding something better to do, and 95 percent of respondents were done after about 250 votes, a brave few carried on for much longer. 
 
-{{% img src="https://kieranhealy.org/files/misc/aoi2013-votefreq.png" %}}
+{{% img src="aoi2013-votefreq.png" %}}
 
 As you can see, a small number of respondents cast more than 500 votes, and a few lonely souls cast more than a thousand. I found myself wondering whether these few extreme cases materially affected the final rank order. And in the course of answering that question I found what might fairly be described as somewhat suspicious voting patterns in several---but notably not all---of our Supervoters. In particular, the respondent with the very largest number of votes (1425 in total) had two favorite departments. He or she voted on them multiple times in separate contests---more than thirty times apiece---and both departments won *every time*. (By chance, this voter was never presented with the two in a head-to-head contest.) 
 
@@ -22,4 +22,4 @@ To preserve the confidentiality of the voting process---and bearing in mind that
 
 The original rankings still stand, all the same, if only because the original error-ranges easily cover the shuffling around that happens once you re-run the model with the offending Supervoters removed. But I thought it would be worth showing what the rank-order looks like when the Fabio Effect is accounted for.
 
-{{% img src="https://kieranhealy.org/files/misc/aoi2013-bradley-terry-ranking-top50-nofabio.png" %}}
+{{% img src="aoi2013-bradley-terry-ranking-top50-nofabio.png" %}}

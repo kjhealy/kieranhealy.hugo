@@ -10,7 +10,7 @@ categories:
 - Misc
 ---
 
-![image](http://www.kieranhealy.org/files/misc/apollo8-earthrise.jpg) Best wishes this Christmas to all our readers. Here's a little bit from Alexander McCall Smith's *At the Villa of Reduced Circumstances* that I like to think about at this time of year. Plenty of time for shouting at one another in the New Year, but for the moment:
+![image](apollo8-earthrise.jpg) Best wishes this Christmas to all our readers. Here's a little bit from Alexander McCall Smith's *At the Villa of Reduced Circumstances* that I like to think about at this time of year. Plenty of time for shouting at one another in the New Year, but for the moment:
 
 > The Master then rose to give a short address.
 >

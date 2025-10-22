@@ -11,5 +11,5 @@ categories:
 ---
 
 
- ![image](http://www.kieranhealy.org/files/misc/beckett-bridge.png)
+ ![image](beckett-bridge.png)
  Via [my cousin Ronan](http://www.ronanpalliser.ie/), Dublin City Council on how to get to, or [not get to](http://www.dublincity.ie/Press/Documents/SK-3004_Rev_D.pdf), the new Samuel Beckett Bridge.

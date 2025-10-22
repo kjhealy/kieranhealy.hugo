@@ -11,7 +11,7 @@ My visualization interest was in [Sankey diagrams](https://en.wikipedia.org/wiki
 
 The [D3.js](https://d3js.org) javascript library can [draw Sankey diagrams in the browser](http://bost.ocks.org/mike/sankey/). Rendering diagrams like this in a web browser has some advantages over a static image. You can rearrange the nodes by dragging them, for instance, highlight pathways to get a better view, and see the actual numbers being graphed. The [network3D library](https://christophergandrud.github.io/networkD3/) for R lets you do your data analysis in R and then produce D3 code for use in a webpage. It was this that I wanted to learn more about, so I took advantage of the Irish school transition data to do it. 
 
-{{% figure src="https://www.kieranhealy.org/files/misc/irl-counties.svg" caption="A map of Irish Counties, courtesy of Wikipedia." %}}
+{{% figure src="irl-counties.svg" caption="A map of Irish Counties, courtesy of Wikipedia." %}}
 
 Ireland is not a large country. There are twenty six counties in the Republic. By population, the largest by far is Dublin, where about a third of the country's people live. The _Irish Times_ data organizes schools by county, except for Dublin which is broken up into Dublin City and Dublin County, with the city further subdivided into [twenty two postal districts](https://en.wikipedia.org/wiki/List_of_Dublin_postal_districts), labeled very nearly logically from Dublin 1 to Dublin 24---except there's a Dublin 6W as well as a Dublin 6, and no Dublin 19, 21, or 23. The reason for this is that odd-numbered districts are generally north of the river Liffey, while even-numbered districts are south of the river. This divide has a strong element of social class, and I'll return to it below.
 
@@ -48,12 +48,12 @@ We see much the same pattern in Connacht, with people from Galway sticking to NU
 
 Dubliners are not any more cosmopolitan, incidentally. As [Brendan Halpin showed on Twitter](https://twitter.com/BrendanTHalpin/status/682882817630584832), with more fine-grained maps, Dubliners are generally reluctant to cross the Liffey. As he remarks, "If you live in Blackrock/Dun Laoghaire TCD is too far so you get stuck in UCD".
 
-{{% figure src="https://www.kieranhealy.org/files/misc/irl-colleges-dublin-halpin.png" caption="Dublin University Catchment Areas, courtesy Brendan Halpin (University of Limerick)" %}}
+{{% figure src="irl-colleges-dublin-halpin.png" caption="Dublin University Catchment Areas, courtesy Brendan Halpin (University of Limerick)" %}}
 
 In addition to flow diagrams and maps, we can cluster the data to see how regions hang together. This next figure is based on percentage of students by county attending the various schools (rather than raw counts) and clusters areas based on the relative similarity of their sending profiles. We can plot the dendrogram radially (courtesy of R's `ape` library).  
 
 
-{{% figure src="https://www.kieranhealy.org/files/misc/irl-college-county-cluster-radial.png" caption="Irish Geographic Areas Clustered by Relative Similarity of College Destinations" %}}
+{{% figure src="irl-college-county-cluster-radial.png" caption="Irish Geographic Areas Clustered by Relative Similarity of College Destinations" %}}
 
 As you can see, the cluster analysis recovers the underlying geography pretty well---counties that are geographically close to one another tend to be close in the dendrogram. (Bear in mind that the clustering algorithm just knows the destination profile of each county, not anything about where they're located.) There's also nice result for the Dublin districts. As I mentioned above, the North side of Dublin has odd-numbered postcodes, and the South side has even-numbered postcodes. The clustering cleanly separates North and South Dublin. Note also that the four Southside postcodes that cluster slightly by themselves---10, 12, 22, and 24, colored green---are  Ballyfermot, Crumlin/Walkinstown, Clondalkin/Neilstown, and Tallaght.
 

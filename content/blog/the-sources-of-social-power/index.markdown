@@ -6,7 +6,7 @@ comments: true
 categories: [Sociology,Books]
 ---
 
-{{% img src="https://kieranhealy.org/files/misc/mann-vol-3.jpg" caption="Mann vol #3" %}}
+{{% img src="mann-vol-3.jpg" caption="Mann vol #3" %}}
 
 I'm teaching Weber next week in my social theory class. This afternoon I uploaded some of the recommended reading to the class website—a longish excerpt from the first volume of Michael Mann's *The Sources of Social Power*, a book which made a big impression on me when I read it as an undergraduate. It didn't turn me in to a Big Structures/Huge Comparisons guy, if for no other reason than the ambition it entailed seemed so gigantic, but of all the products of the so-called "Golden Age" of macro-sociology, *Sources*—and the first volume in particular—seemed to come closest to fulfilling Weber's vision for what really big-picture sociology could be. Re-reading the first hundred-odd pages this afternoon I was struck by the directness and accessibility of Mann's approach, and by how much of his theoretical intuition seemed right, given his aims—in particular his insistence that societies are not totalities or systems, and his determination to avoid the pitfalls that come with thinking they are:  
 

@@ -102,12 +102,12 @@ animate(p, fps = 25, duration = 20, width = 800, height = 600, renderer = gifski
 
 And here's the result: 
 
-{{% figure src="https://kieranhealy.org/files/misc/name_endings_boys.gif" alt="Baby boy end-letter trends" caption="Animated distribution of end-letter names for boys." %}}
+{{% figure src="name_endings_boys.gif" alt="Baby boy end-letter trends" caption="Animated distribution of end-letter names for boys." %}}
 
 By switching the filter from `"M"` to `"F"` we can do the same for girls' names:
 
 
-{{% figure src="https://kieranhealy.org/files/misc/name_endings_girls.gif" alt="Baby girl end-letter trends" caption="Animated distribution of end-letter names for girls." %}}
+{{% figure src="name_endings_girls.gif" alt="Baby girl end-letter trends" caption="Animated distribution of end-letter names for girls." %}}
 
 Girls' names show a very different distribution, with 'a' and 'e' endings very common (perhaps unsurprisingly given the legacy of Latinate names), but there's still substantial variation in how popular 'a' endings are over time. The dominance of 'a' and 'e' is interesting, because girl names show more heterogeneity overall, with parents being more willing to experiment with the names of their daughters rather then their sons. 
 

@@ -8,7 +8,7 @@ categories: [Politics,Obiter Dicta]
 
 Honestly, this sort of thing is best ignored: 
 
-{{% img src="https://kieranhealy.org/files/misc/oliverdarcy.png" %}}
+{{% img src="oliverdarcy.png" %}}
 
 But I like $100 as much as the next guy, so here is my video. 
 

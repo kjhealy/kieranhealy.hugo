@@ -11,6 +11,6 @@ categories:
 - Sociology
 ---
 
-![image](http://www.kieranhealy.org/files/misc/hcwhite-interview.png)
+![image](hcwhite-interview.png)
 
 A [video interview](http://tv.rebell.tv/prof-harrison-white-columbia-university.html) with Harrison White, conducted by a German blogger at the December 2007 Luhmann conference in Lucerne. Reptating goo, social networks, Niklas Luhmann, and your mother-in-law as reality point.

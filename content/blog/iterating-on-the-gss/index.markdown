@@ -294,7 +294,7 @@ out_yr %>%
   theme_bw()
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/gss-fefam-example-1.png" alt="GSS fefam example" caption="Our (unweighted) coefficient over time." %}}
+{{% figure src="gss-fefam-example-1.png" alt="GSS fefam example" caption="Our (unweighted) coefficient over time." %}}
 
 
 
@@ -436,7 +436,7 @@ out_svy_yrs %>%
   theme_bw()
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/gss-fefam-example-2.png" alt="GSS fefam example 2" caption="Our (survey-weighted) coefficient over time." %}}
+{{% figure src="gss-fefam-example-2.png" alt="GSS fefam example 2" caption="Our (survey-weighted) coefficient over time." %}}
 
 
 ## A quick word about `group_map()` and `group_map_dfr()`

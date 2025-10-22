@@ -13,6 +13,6 @@ categories:
 
 Following up on [Bradyen's post](http://orgtheory.wordpress.com/2009/02/25/visualizing-your-facebook-network/), here's my FB network, minus a few isolates:
 
-![image](http://www.kieranhealy.org/files/misc/fbkh.png)
+![image](fbkh.png)
 
 The graph clumps into several connected subgroups. There's family in Ireland, sociology types, philosophy types, and blogger types—these categories aren't necessarily exclusive. An imaginary prize to the first commenter who can guess the identity of the node colored in green, who seems to be at the center of everything.

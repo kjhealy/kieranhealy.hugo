@@ -13,4 +13,4 @@ categories:
 
 It's the most wonderful time of the year.
 
-[![ASA Bingo 2009](http://www.kieranhealy.org/files/misc/asabingo2009.png)](http://www.kieranhealy.org/files/misc/asabingo2009.pdf)
+[![ASA Bingo 2009](asabingo2009.png)](asabingo2009.pdf)

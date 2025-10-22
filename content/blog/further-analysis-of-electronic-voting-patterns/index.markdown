@@ -17,9 +17,9 @@ Mike Hout and some colleagues at Berkeley have a [working paper](http://ucdata.b
 
 Hmm. I'm going to go mess around with the data for a while and see what we can see.
 
-**Update**: While mucking around with this, I see from the comments that [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) (Statistics, Columbia) has done the job for me, and much better than I could. He presents [a very nice discussion](http://www.stat.columbia.edu/~cook/movabletype/archives/2004/11/vote_swings_in.html) of these patterns on his blog. You should read all of his post. Here's a figure, similar to one on his blog, that shows the percent swing to Bush in Florida counties in 2004 against the Percent Republican vote in 2000 in the same counties. (A [PDF version](http://www.kieranhealy.org/files/misc/florida-swing.pdf) is also available.)
+**Update**: While mucking around with this, I see from the comments that [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) (Statistics, Columbia) has done the job for me, and much better than I could. He presents [a very nice discussion](http://www.stat.columbia.edu/~cook/movabletype/archives/2004/11/vote_swings_in.html) of these patterns on his blog. You should read all of his post. Here's a figure, similar to one on his blog, that shows the percent swing to Bush in Florida counties in 2004 against the Percent Republican vote in 2000 in the same counties. (A [PDF version](florida-swing.pdf) is also available.)
 
-![image](http://www.kieranhealy.org/files/misc/florida-swing.png)
+![image](florida-swing.png)
 
 Counties using electronic voting machines are shown in red. You can see that Broward and Palm Beach counties (which have very large populations and lean strongly Democratic) swung much more toward Bush than was typical for counties where Republicans won less than 47 or 48 percent of the vote in 2000. It turns out that these two counties are driving the findings of Hout et al's model. I ran a model identical to Hout et al's, but with a variable ("pb-brow") added to distinguish Broward and Palm Beach Counties from all the others. Here are the results:
 

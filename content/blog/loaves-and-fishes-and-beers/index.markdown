@@ -12,6 +12,6 @@ categories:
 
 Following [yesterday's news](http://www.kieranhealy.org/blog/archives/000535.html#000535) about Jupiter, CNN turns its attentions to Munich:
 
-![cnn-cap2.png](http://www.kieranhealy.org/files/misc/cnn-cap2.png)
+![cnn-cap2.png](cnn-cap2.png)
 
 You can actually see all 5.5 liters of beer in the photo.

@@ -8,13 +8,13 @@ The United Kingdom's election results are being digested by the chattering class
 
 Here are two maps. The first is a version of the one you've seen showing the winning party in every constituency in Great Britain (*sic*: excluding Northern Ireland).
 
-{{% figure src="https://kieranhealy.org/files/misc/uk-2015-winners.png" alt="Constituencies by Winning Candidate." caption="British Constituencies by Winning Candidate." %}}
+{{% figure src="uk-2015-winners.png" alt="Constituencies by Winning Candidate." caption="British Constituencies by Winning Candidate." %}}
 
 The SNP sweep in Scotland; the solid Tory South; Labour strongholds in parts of London, Liverpool, and the coal-mining regions of England and Wales---you've seen this one already. 
 
 Now here's an alternative map. It shows the results with constituencies colored by the *second*-place candidate. 
 
-{{% figure src="https://kieranhealy.org/files/misc/uk-2015-runners-up.png" alt="Constituencies by Runner-Up Candidate." caption="British Constituencies by Runner-Up Candidate." %}}
+{{% figure src="uk-2015-runners-up.png" alt="Constituencies by Runner-Up Candidate." caption="British Constituencies by Runner-Up Candidate." %}}
 
 It's eye-opening. Like the United States, the UK has a First-Past-the-Post (FPTP) election system. Those of us (like me) who grew up in countries with some kind of [Proportional Representation](http://en.wikipedia.org/wiki/Proportional_representation) system, whether by [List](http://en.wikipedia.org/wiki/Party-list_proportional_representation) or [Single Transferable Vote](http://en.wikipedia.org/wiki/Single_transferable_vote), are generally made a bit queasy by FPTP. Proportional Representation aims to have the composition of Parliaments accurately reflect the range of support for parties. FPTP just wants to select a winner as quickly as possible. This means that in these systems there's often a fairly substantial discrepancy between vote share and seats. A few percentage points more in total vote share can create a parliamentary landslide. This can be an advantage, of course, if what you want is certainty about who will form a government, or if you want to avoid small parties holding the balance of power. But apart from that, a consequence of FPTP systems is that the *electoral base* of smaller parties---as opposed to their effective political strength---is easy to underestimate just from a winner's map.
 

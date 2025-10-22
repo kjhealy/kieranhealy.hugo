@@ -16,14 +16,14 @@ Note also that the USA Today map has quite a few missing observations, shaded in
 
 **Update**: Thanks to some pointers in the comments, below the fold I've included two other figures. The first is a cartogram from the New York Times that scales the states by their electoral college votes, and the section is a terrific map from [Robert Vanderbei](http://www.princeton.edu/~rvdb/) that gives a continuous rather than a binary representation of the county vote data, allowing us to see that "purple America" is more common than red or blue America.
 
-![image](http://www.kieranhealy.org/files/misc/election-counties-2.png)
+![image](election-counties-2.png)
  
  **New York Times Cartogram of Electoral College Votes.**
 
-![image](http://www.kieranhealy.org/files/misc/cartogram.png)
+![image](cartogram.png)
 
 **Robert Vanderbei's "Purple America" Vote Data Map.**
 
-![image](http://www.kieranhealy.org/files/misc/purple_america_2004_tiny.gif)
+![image](purple_america_2004_tiny.gif)
 
-A bigger version is [available here](http://www.kieranhealy.org/files/misc/purple_america_2004_small.gif) and an [even bigger version](http://www.princeton.edu/~rvdb/JAVA/election2004/purple_america_2004.gif) can be had from Robert's website.
+A bigger version is [available here](purple_america_2004_small.gif) and an [even bigger version](http://www.princeton.edu/~rvdb/JAVA/election2004/purple_america_2004.gif) can be had from Robert's website.

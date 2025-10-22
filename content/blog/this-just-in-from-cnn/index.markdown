@@ -10,6 +10,6 @@ categories:
 - News
 ---
 
-![cnn-cap.png](http://www.kieranhealy.org/files/misc/cnn-cap.png)
+![cnn-cap.png](cnn-cap.png)
 
 The funny thing is, it's kind of true about the robot ship death crash, though I wouldn't have put it that way myself. Or maybe the skateboard generation is also gaining influence over CNN's subeditors.

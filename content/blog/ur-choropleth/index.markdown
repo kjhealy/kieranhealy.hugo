@@ -9,15 +9,15 @@ categories: [Data,Visualization,Sociology]
 
 So as a public service, here are America's two ur-choropleths, by county. First, Population Density.
 
-{{% figure src="https://kieranhealy.org/files/misc/us-pop-density-2014.png" alt="US Population Density." caption="US Population Density Estimates, by county, 2014. Source: US Census." %}}
+{{% figure src="us-pop-density-2014.png" alt="US Population Density." caption="US Population Density Estimates, by county, 2014. Source: US Census." %}}
 
 And second, Percent Black. 
 
-{{% figure src="https://kieranhealy.org/files/misc/us-pct-black-2013.png" alt="Percent Black Population, by county." caption="Percent Black Population, by county, 2013. Source: US Census." %}}
+{{% figure src="us-pct-black-2013.png" alt="Percent Black Population, by county." caption="Percent Black Population, by county, 2013. Source: US Census." %}}
 
 And as a bonus, here are those two variables plotted against each other, with region highlighted. 
 
-{{% figure src="https://kieranhealy.org/files/misc/us-density-v-pctblack-lab.png" alt="Population Density vs Percent Black Population, by county." caption="Population Density vs Percent Black Population. Source: US Census." %}}
+{{% figure src="us-density-v-pctblack-lab.png" alt="Population Density vs Percent Black Population, by county." caption="Population Density vs Percent Black Population. Source: US Census." %}}
 
 If you're interested in making some maps of your own, [the code and data are on github](https://github.com/kjhealy/us-county). Thanks to Bob Rudis for his excellent R projection code, by the way.
 

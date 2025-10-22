@@ -6,7 +6,7 @@ comments: true
 categories: [Sociology]
 ---
 
-<img src="https://kieranhealy.org/files/misc/mit-sociology-ranking.png" alt="MIT Soc is #1" width="650/" />
+<img src="mit-sociology-ranking.png" alt="MIT Soc is #1" width="650/" />
 
 <a href="http://chronicle.com/article/The-New-Rankings-Frontier-/142197/?key=SGp7KVJvZSoVYC4zYmxBbjYAYHFrZB8qangcansjblBcGQ%3D%3D">The Chronicle reports</a> on a <a href="http://facultyimpact.publicanthropology.org">new ranking of "Faculty Media Impact"</a> conducted by the Center for a Public Anthropology. The ranking "seeks to quantify how often professors engage with the public through the news media" and was done by trawling Google News to see which faculty were mentioned in the media most often. The numbers were averaged and "and then ranked relative to the federal funds their programs had received" to get the ordering. (Erik Voeten sensibly points out that dividing media citations per faculty member by percent NSF funding amongst participating departments to generate a ranking "[is, to put it mildly, an odd choice](http://www.washingtonpost.com/blogs/monkey-cage/wp/2013/10/08/department-of-silly-rankings-faculty-return-on-public-funding/)".) As you can see from the screenshot above, the ranking found that MIT came in third overall and that the top unit at MIT was the Sociology Department. This is fantastic news in terms of impact, because [MIT doesn't actually have a Sociology Department](http://web.mit.edu/sociology/index.html). While we've known for a while that quantitative rankings can have interesting reactive effects on the entities they rank, we are clearly in new territory here. 
 

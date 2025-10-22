@@ -10,13 +10,13 @@ To that end I went and quickly scraped the shownotes for all the episodes I coul
 
 Here's a plot of the most-linked websites in the notes, with sponsors, self-links, and links to the personal sites of the authors mostly removed. 
 
-{{% figure src="https://kieranhealy.org/files/misc/atp-link-count.png" alt="ATP link count" caption="Most-Linked sites in the ATP Shownotes." %}}
+{{% figure src="atp-link-count.png" alt="ATP link count" caption="Most-Linked sites in the ATP Shownotes." %}}
 
 The exclusion of Sponsors and self-links is imperfect. For instance links to ArsTechnica mostly go to earlier writing by John Siracusa, and Relay.fm go mostly to another podcast Casey Liss appears on. Wikipedia is by far the most-linked site, so I've put the x-axis on a log-like scale to rein it in a little. Twitter links go to individual tweets. Amongst the industry commentators, Daring Fireball, Ben Thompson, and Jason Snell are well-represented. Most of the links to iMore go to episodes of the Debug podcast. Links to the Verge and Anandtech mostly go to news and reviews. If I had more time the obvious thing to do would be to code the gender of the authors of those linked pieces.
 
 Here's a somewhat more boring disaggregation of the tweets linked to in the notes, again with self-links removed and just showing everyone with two or more links. 
 
-{{% figure src="https://kieranhealy.org/files/misc/atp-tweet-count.png" alt="ATP tweet count" caption="Most-Linked Tweeters in the ATP Shownotes." %}}
+{{% figure src="atp-tweet-count.png" alt="ATP tweet count" caption="Most-Linked Tweeters in the ATP Shownotes." %}}
 
 I'll leave the interpretation to others.
 

@@ -43,11 +43,11 @@ If you want the development version on GitHub, instead of the version on CRAN, t
 **Option 1** Wait until tomorrow and try again. The rate limit will reset, and it should work again. But you will likely keep having this sort of problem if you use GitHub regularly. You may also not want to wait. 
 
 
-**Option 2** Download and install the package manually, from my website rather than GitHub. Click on this link: https://kieranhealy.org/files/misc/socviz_0.8.9000.tar.gz
+**Option 2** Download and install the package manually, from my website rather than GitHub. Click on this link: socviz_0.8.9000.tar.gz
 
 This will download a .tar.gz file to your computer. Open R Studio and choose Tools > Install Packages … In the dialog box that comes up, select "Package Archive File" like this:
 
-{{% figure src="https://kieranhealy.org/files/misc/package-select.png" alt="Package select" caption="Package selection dialog" %}}
+{{% figure src="package-select.png" alt="Package select" caption="Package selection dialog" %}}
 
 Then navigate to the file, choose it, and select "Install". The `socviz` package should now be available via `library(socviz)`. The downside to this solution is that you won't be able to get updates to the package easily later on, and you'll still run into rate limits with other packages. 
   

@@ -12,7 +12,7 @@ categories:
 
 A [comment by Bitch PhD](http://bitchphd.blogspot.com/2006/05/go-tell-norbiz-happy-fucking.html) reminded me that this week I'll have been blogging for four years. I'm not sure what to think about that, so let's look at some data. Here is a time-series of the number of posts per month on [my blog](http://www.kieranhealy.org/blog) from its [inauspicious beginning](http://www.kieranhealy.org/blog/archives/2002/05/21/the-hello-world-entry/) in May 2002 to the present. (Since CT started, I've just posted the same material to my own blog, so the trend represents all my posts.)
 
-![image](http://www.kieranhealy.org/files/misc/postspermonthxy.png)
+![image](postspermonthxy.png)
 
 It's clear that after a quiet start things rapidly got out of control, reaching a frankly unsustainable level of more than two posts per day in the first half of 2003. What caused the radical drop from more than 40 posts a month to less than half of that in June and July of 2003? You're looking at it: [Crooked Timber launched](http://crookedtimber.org/2003/07/08/for-the-benefit-of-mr-kite/) then, and so I got to share the responsibility of sustaining an audience with a bunch of other people. Clearly it took the pressure off. After that came about two years of gradual decline (in every sense, I'm sure), getting down to less than ten posts a month in mid-2005. Things may have picked up again a little recently.
 
@@ -22,10 +22,10 @@ For academic bloggers, there is a pessimistic and an optimistic theory of the re
 
 **Update**: Thanks to some helpful SQL from Norman David Gerre at CT, I can now calculate the average length of posts each month over the time period. It looks like this:
 
-![image](http://www.kieranhealy.org/files/misc/characterspermonthxy.png)
+![image](characterspermonthxy.png)
 
 This offers some support to the less-frequent/more-verbose hypothesis outlined above. I think some of the spikes are a consequence of us doing Book Seminars. If we run the post frequency and average post length time series through a standard decomposition and look at the trend components of each, we get the following. (Average Post Length is divided by 100 to make the trends comparable on a single graph.)
 
-![image](http://www.kieranhealy.org/files/misc/postfreqtrends.png)
+![image](postfreqtrends.png)
 
 So post frequency rises sharply and then declines sharply in the first 18 months, and continues to decline slowly or perhaps level out. Meanwhile the average length of posts climbs consistently over the period, growing more rapidly in 2005 and then falling off again. Maybe I'm entering another pithy period.

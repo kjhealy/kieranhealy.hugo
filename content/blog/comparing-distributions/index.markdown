@@ -30,7 +30,7 @@ p + geom_line(color="gray70", aes(group = country)) +
 {{< /code >}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-17-1.png" alt="Small multiple of gapminder data." caption="A Gapminder small multiple." %}}
+{{% figure src="distros-17-1.png" alt="Small multiple of gapminder data." caption="A Gapminder small multiple." %}}
     
 Sometimes, we're interested in comparing distributions across categories in something like this way. In particular, I'm interested in cases where we want to compare a distribution to some reference category, as when we look at subpopulations in comparison to an overall distribution.
 
@@ -128,7 +128,7 @@ df %>%
        subtitle = "Overall distribution shown in gray")
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-4-1.png" alt="Histogram of all groups.." caption="Histogram of all groups." %}}
+{{% figure src="distros-4-1.png" alt="Histogram of all groups.." caption="Histogram of all groups." %}}
 
 If we use a `geom_density()` rather than `geom_histogram()` we'll generate kernel density estimates for each group. These look a little better, but not great.
 
@@ -149,7 +149,7 @@ df %>%
        fill = "Group")
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-5-1.png" alt="Kernel densities." caption="A single panel of kernel densities." %}}
+{{% figure src="distros-5-1.png" alt="Kernel densities." caption="A single panel of kernel densities." %}}
 
 That's better, but still not great. A very serviceable compromise that has many of the virtues of a small multiple but has the advantage of keeping things in one panel is a ridgeline plot, courtesy of `geom_ridgeline()` from Claus Wilke's `ggridges` package:
 
@@ -168,7 +168,7 @@ df %>%
   theme_ridges(font_family = "Myriad Pro SemiCondensed")
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-6-1.png" alt="Ridgeline plot." caption="A ridgeline plot."  %}}
+{{% figure src="distros-6-1.png" alt="Ridgeline plot." caption="A ridgeline plot."  %}}
 
 Ridgeline plots look good and scale pretty well when there are larger numbers of categories to put on the vertical axis, especially if there's a reasonable amount of structure in the data, such as a trend or sequence in the distributions. They can be slightly inefficient in terms of space with smaller numbers of categories. When the number of groups gets large they work best in a very tall and narrow aspect ratio that can be hard to integrate into a page. 
 
@@ -232,7 +232,7 @@ df %>%
 {{< /code >}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-8-1.png" alt="Histograms." caption="Histograms with a reference distribution in each panel." %}}
+{{% figure src="distros-8-1.png" alt="Histograms." caption="Histograms with a reference distribution in each panel." %}}
 
 This is a handy trick. We’ll use it repeatedly in the remaining figures, as we look at different ways of drawing the same comparison.
 
@@ -263,7 +263,7 @@ df %>%
 
 With `geom_step()`, we get a histogram with just its outline drawn. This works quite well, I think. Because we're just drawing the outline, we call it _after_ we've drawn our histograms, so that it sits in a layer on top of them. 
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-11-1.png" alt="Histogram and outline." caption="Group histograms and overall distribution in outline."%}}
+{{% figure src="distros-11-1.png" alt="Histogram and outline." caption="Group histograms and overall distribution in outline."%}}
 
 We can also scale the counts within bins, if we like, using `..ncount..`, which is one of the statistics that `stat_bin()` computes along with the default `..count..`. 
 
@@ -290,7 +290,7 @@ df %>%
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-12-1.png" alt="Histogram and outline, scaled counts." caption="Group histograms and overall distribution in outline, with scaled counts."%}}
+{{% figure src="distros-12-1.png" alt="Histogram and outline, scaled counts." caption="Group histograms and overall distribution in outline, with scaled counts."%}}
 
 
 
@@ -318,7 +318,7 @@ df %>%
 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-13-1.png" alt="Frequency polygons." caption="Frequency polygons, filled and unfilled." %}}
+{{% figure src="distros-13-1.png" alt="Frequency polygons." caption="Frequency polygons, filled and unfilled." %}}
 
 We can scale the counts in frequency polygons, too:
 
@@ -342,7 +342,7 @@ df %>%
 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-14-1.png" alt="Frequency polygons (scaled counts)." caption="Frequency polygons, filled and unfilled, with scaled counts." %}}
+{{% figure src="distros-14-1.png" alt="Frequency polygons (scaled counts)." caption="Frequency polygons, filled and unfilled, with scaled counts." %}}
 
 
 And once more we can do both of these things with kernel densities, too:
@@ -365,7 +365,7 @@ df %>%
   facet_wrap(~ name, nrow = 1, labeller = as_labeller(grp_names)) 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-15-1.png" alt="Kernel densities with an outline reference distribution." caption="Kernel densities with an outline reference distribution." %}}
+{{% figure src="distros-15-1.png" alt="Kernel densities with an outline reference distribution." caption="Kernel densities with an outline reference distribution." %}}
 
 For the scaled kernel densities we use `..ndensity..` on the y-axis.
 
@@ -392,7 +392,7 @@ df %>%
 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/distros-16-1.png" alt="Kernel densities with an outline reference distribution (scaled)." caption="Kernel densities with an outline reference distribution (scaled densities)." %}}
+{{% figure src="distros-16-1.png" alt="Kernel densities with an outline reference distribution (scaled)." caption="Kernel densities with an outline reference distribution (scaled densities)." %}}
 
 
 While these look good, kernel densities can be a little tricker for people to interpret than straightforward bin-and-count histograms. So it's nice to have the frequency polygon as an option to use when you just want to show counts on the y-axis.

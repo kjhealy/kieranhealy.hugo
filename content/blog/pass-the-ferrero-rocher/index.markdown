@@ -12,4 +12,4 @@ categories:
 
 Via [Jonathan Davis](https://twitter.com/#!/jonathand) on the Twitter, the [Registration form for the Royal Opera House](https://www.roh.org.uk/myroyaloperahouse/register.aspx), which comes with the best drop-down box ever devised. Choose your title! I fear "HE The French Ambassador M" may be taken, however.
 
-![Your Majesty](https://kieranhealy.org/files/misc/rohtitles.png)
+![Your Majesty](rohtitles.png)

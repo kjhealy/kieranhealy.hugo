@@ -10,7 +10,7 @@ mathjax: false
 
 I am stuck at home sick today, so I decided to provide a relational analysis of the Stats Package Wars that have been bubbling away for the past week.
 
-{{% figure src="https://kieranhealy.org/files/misc/package_wars.png" alt="Package wars graphic" caption="True in all its details." %}}
+{{% figure src="package_wars.png" alt="Package wars graphic" caption="True in all its details." %}}
 
 If you want something slightly more constructive, consider [Data Visualization: A Practical Introduction](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624), or [The Plain Person's Guide to Plain-Text Social Science](http://plain-text.co).
 

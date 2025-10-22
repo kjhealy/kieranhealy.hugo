@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 
-{{% figure src="https://kieranhealy.org/files/misc/types_of_soc_paper.png" alt="Types of Soc paper" caption="Types of Sociology Paper" %}}
+{{% figure src="types_of_soc_paper.png" alt="Types of Soc paper" caption="Types of Sociology Paper" %}}
 
 
 (After the [XKCD original](https://xkcd.com/2456/).)

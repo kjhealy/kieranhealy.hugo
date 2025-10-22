@@ -15,7 +15,7 @@ CNN reports:
 
 > [Cheney accidentally shoots fellow hunter](:http://www.cnn.com/2006/POLITICS/02/12/cheney.ap/index.html). Vice President Dick Cheney accidentally shot and wounded a companion [Harry Whittington, a millionaire attorney from Austin] during a weekend quail hunting trip in Texas, spraying the fellow hunter in the face and chest with shotgun pellets.
 
-![image](http://www.kieranhealy.org/files/misc/pf.jpg)
+![image](pf.jpg)
 
 I have an image in my mind of what the standoff was like. Cheney is grimacing. Whittington is staring down the barrel of a pellet-loaded shotgun.
 

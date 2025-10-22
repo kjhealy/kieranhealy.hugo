@@ -13,7 +13,7 @@ categories:
 
 Via [Jeremy Freese,](http://jeremyfreese.blogspot.com/2006/09/and-you-thought-astrosociology-was.html) a paper by Alan Gerber and Neil Malhotra called "[Can political science literatures be believed? A study of publication bias in the APSR and the AJPS](http://polmeth.wustl.edu/retrieve.php?id=640)." Here's the main finding.
 
-![image](http://www.kieranhealy.org/files/misc/critvals.png)
+![image](critvals.png)
 
 When you run a bog-standard regression, you typically want to know how much a change in some variable *x*—usually a number of such *x* variables—is associated with a change in *y*, some outcome variable of interest. When you run the regression, you get a coefficient for each *x* telling you how much a one-unit change in that *x* changes the value of *y* according to your data. But you also want to know whether that estimate is worth paying attention to. So you calculate a statistic—a p-value—that tells you, roughly, whether the coefficient you got is relatively unexpected or unusual. How unexpected is unexpected enough to be interesting? This is a matter of convention. There is an established threshold below which you are not typically entitled, by the agreed or inherited standards of your field, to say the result is "statistically significant." The subtleties of interpreting p-values need not detain us here. The point is that for good or bad there's a conventional threshold. Most often, the line you have to cross is a p-value that is &lt; 0.05. 
 

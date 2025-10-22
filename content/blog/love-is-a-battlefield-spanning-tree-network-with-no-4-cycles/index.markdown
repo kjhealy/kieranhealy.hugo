@@ -15,7 +15,7 @@ Quick, in high school were you ever told not to date your old girlfriend's curre
 
 The authors found that the observed network isn't well-represented by existing models, which are mainly concerned with predicting how STDs propagate through populations and have often been based on ego-centered network data. These are surveys where you ask the respondents about their sexual networks, but the respondents aren't necessarily in the same network. Here's a picture of four kinds of network:
 
-![image](http://www.kieranhealy.org/files/misc/4models.gif)
+![image](4models.gif)
 
 Core models posit a small group of very sexually-active individuals who occasionally come into contact with (and infect) those outside the core. Bridge models think in terms of an infected component and an uninfected component which join at some point. The biggest network component observed at Jefferson High turned out to be the fourth type, however: a "spanning tree" structure. This is "a long chain of interconnections that stretches across a population, like rural phone wires running from a long trunk line to individual houses … characterized by a graph with few cycles, low redundancy, and consequently very sparse overall density." When they tried to simulate this bit of the graph structure, the authors found they could get *most* of the way there using a simple model where the probability of a tie depended on individuals having a preference for others with the same amount of sexual experience as themselves.[1] But simulated networks based on this model didn't quite match the properties of the observed network. In particular, while the simulations had [cycles](http://faculty.ucr.edu/~hanneman/SOC157/TEXT/C5Basics.html#Walks) of length 4, the Jefferson High network did not.
 

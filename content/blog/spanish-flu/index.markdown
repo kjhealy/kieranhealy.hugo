@@ -170,7 +170,7 @@ p1
 {{< /code >}}
 
 
-{{% figure src = "https://kieranhealy.org/files/misc/spanish-flu.png" %}}
+{{% figure src = "spanish-flu.png" %}}
 
 And thus, Spanish Flu. Though it looks like it was no joke to be an older woman in Spain during any part of the early 20th century. 
 

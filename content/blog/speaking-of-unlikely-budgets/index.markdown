@@ -17,6 +17,6 @@ Via [John Gruber](http://blogs.law.harvard.edu/philg/2011/03/28/how-did-the-new-
 
 And what do you get for $40m besides a wall that can be [trivially](http://wesbos.com/remove-new-york-times-paywall-css/) [circumvented](http://euri.ca/2011/03/21/get-around-new-york-times-20-article-limit/)? I just got an emailed an "exclusive offer — only for registered NYTimes.com readers" to subcribe at a reduced rate. As you can see, they're targeting iPhone and iPad users:
 
-![NYT offer fail](https://kieranhealy.org/files/misc/nytofferfail.jpg "NYT offer")
+![NYT offer fail](nytofferfail.jpg "NYT offer")
 
 Unfortunately, notwithstanding the large pictures of mobile devices, the small print at the bottom tells you that you can't subscribe via the browser on your phone or tablet. I guess they don't want to make it too easy to sign up.

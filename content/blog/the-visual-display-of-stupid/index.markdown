@@ -12,6 +12,6 @@ categories:
 - Politics
 ---
 
-![Fox News Pie Chart](http://www.kieranhealy.org/files/misc/foxpie.jpg)
+![Fox News Pie Chart](foxpie.jpg)
 
 I'd almost be happier if this turned out to be some kind of fake. But in the meantime, while you may think of it as a badly flawed and unfair pie chart, I prefer to see it as actually just an extreme version of a genuine pie chart.

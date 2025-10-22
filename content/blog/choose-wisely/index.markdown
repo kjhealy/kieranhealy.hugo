@@ -18,4 +18,4 @@ Semester's nearly over. Three options.
 
 > (3) Get up really early, go on exploratory ride, *then* go to office and pursue option (1).
 
-[I chose (3)](http://www.kieranhealy.org/files/misc/reddington-pass-sm.html). What do you think?
+[I chose (3)](reddington-pass-sm.html). What do you think?

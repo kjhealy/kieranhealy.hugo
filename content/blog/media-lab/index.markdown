@@ -11,7 +11,7 @@ After seeing this [spectacular job advertisment](https://www.media.mit.edu/posts
 
 <!--more-->
 
-{{% figure src="https://kieranhealy.org/files/misc/media-lab-1.png" alt="Media lab letter page one" caption="" %}}
+{{% figure src="media-lab-1.png" alt="Media lab letter page one" caption="" %}}
 
-{{% figure src="https://kieranhealy.org/files/misc/media-lab-2.png" alt="Media lab letter page two" caption="" %}}
+{{% figure src="media-lab-2.png" alt="Media lab letter page two" caption="" %}}
 

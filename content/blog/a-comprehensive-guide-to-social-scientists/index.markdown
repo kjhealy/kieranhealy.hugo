@@ -8,6 +8,6 @@ mathjax: false
 ---
 
 
-{{% figure src="https://kieranhealy.org/files/misc/field_guide.png" alt="BEES" caption="A field guide to social scientists" %}}
+{{% figure src="field_guide.png" alt="BEES" caption="A field guide to social scientists" %}}
 
 Thank you, I will not be taking questions.

@@ -8,9 +8,9 @@ categories: [Sociology,Obiter Dicta]
 
 It's that happy time when I whine about American television coverage of the Olympics. This year's whining has a new twist—beyond the usual complaints about sentimental crap and tape-delay—because there are no decent streaming options absent a pre-existing subscription to some cable channels. But it's also the time when I am reminded of my existing personal prejudices about sports, when I may discover new ones (as new events are added), and when I try to figure out whether there's any defensible rationale to my preferences. A moment's thought suggests that my views are perfectly correct. Reflecting a little further on my sports bigotry, I think the simplest model is a two-dimensional space that, I think you will agree, is both easy to understand and wholly objective.
 
-{{% img src="https://kieranhealy.org/files/misc/OlympicSports.png" %}}
+{{% img src="OlympicSports.png" %}}
 
-[*Click for a larger version.*](https://kieranhealy.org/files/misc/OlympicSports.png)
+[*Click for a larger version.*](OlympicSports.png)
 
 The x-axis captures the intuition that some sports belong in the Olympics and some do not. The y-axis captures the intuition that some sports are terrific (not always for the same reasons) and some sports are terrible. Sports are plotted in this space, in a Bourdieuian fashion, according to their subjectively objective characteristics. Sports in green are already Olympic events, whether they deserve to be or not. Sports or activities in red are not Olympic events. I have separated out some sports (for clarity) and left others bundled (for convenience). For example, Eventing and Show Jumping are pretty good sports that nevertheless do not belong at the Olympics. Dressage, meanwhile, is a terrible sport that still doesn't belong at the Olympics. Meanwhile, "Swimming" is clearly an Olympics-worthy sport, but the figure here leaves certain key questions about it unanswered, most obviously the preposterous number of events it contains (distances x strokes x medleys x individual/team) by comparison to track events. 
 

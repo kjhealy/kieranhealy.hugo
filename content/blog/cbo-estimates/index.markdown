@@ -8,7 +8,7 @@ The Congressional Budget Office released its [cost estimate report](https://www.
 
 {{% figure src="/files/misc/cbo-tab4.png" link="/files/misc/cbo-tab4.png" caption="CBO estimates of coverage change for different selected ages in two income groups." %}}
 
-A [PDF version](https://kieranhealy.org/files/misc/cbo-tab4.pdf) is also available.
+A [PDF version](cbo-tab4.pdf) is also available.
 
 This picture got circulated fairly widely, thanks mostly to Paul Krugman retweeting it. Here's a bit more background on how to make one like it. 
 

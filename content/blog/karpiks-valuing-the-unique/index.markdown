@@ -12,7 +12,7 @@ categories:
 - Sociology
 ---
 
-[![Karpik cover](https://kieranhealy.org/files/misc/k9215.gif)](http://www.amazon.com/Valuing-Unique-Singularities-Lucien-Karpik/dp/0691137102) 
+[![Karpik cover](k9215.gif)](http://www.amazon.com/Valuing-Unique-Singularities-Lucien-Karpik/dp/0691137102) 
 
 Lucien Karpik's [*Valuing the Unique: The Economics of Singularities*](http://www.amazon.com/Valuing-Unique-Singularities-Lucien-Karpik/dp/0691137102) came out with Princeton University Press recently. From the book jacket: 
 

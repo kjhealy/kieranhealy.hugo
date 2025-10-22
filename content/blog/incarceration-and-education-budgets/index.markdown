@@ -13,7 +13,7 @@ categories:
 
 Last weekend I read *[Prophet of Innovation](http://www.amazon.com/exec/obidos/ASIN/0674025237/ref=nosim/)*, Thomas McGraw's biography of Joseph Schumpeter. Maybe more on that later: I need to write something about it before I forget the content. Somewhere in there McGraw quotes Schumpeter's line that "the budget is the skeleton of the state, stripped of all misleading ideologies." With that in mind, here's a kind of X-ray of California's state budget, via [Chris Uggen](http://chrisuggen.blogspot.com/2007/05/san-francisco-chronicle-offers-well.html).
 
-![Prison and Education Spending trends in California](http://www.kieranhealy.org/files/misc/calprison.jpg)
+![Prison and Education Spending trends in California](calprison.jpg)
 
 This is from a [SF Chronicle](http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/05/21/MNG4KPUKV51.DTL) article on these trends, which look set to continue.
 

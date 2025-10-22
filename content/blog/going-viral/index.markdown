@@ -14,6 +14,6 @@ categories:
 
 In case you were wondering who the go-to sources on l'affaire Strauss-Kahn are, at least according to Twitter:
 
-[![Twitterati](https://kieranhealy.org/files/misc/dsk3.jpg)](https://kieranhealy.org/files/misc/dsk3.jpg)
+[![Twitterati](dsk3.jpg)](dsk3.jpg)
 
 The consequences of getting retweeted all over the place mostly involve being introduced to the range and sophistication of twitter spam and followbots.

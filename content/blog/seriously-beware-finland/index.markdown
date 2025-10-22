@@ -12,6 +12,6 @@ categories:
 
 "[Beware Finland](http://matthewyglesias.theatlantic.com/archives/2008/07/beware_finland.php)" jokes Matt Yglesias in a post about education policy. But, frankly, this is good geopolitical advice. Just ask the [Soviets](http://en.wikipedia.org/wiki/Winter_War). Or consider the following statistics.
 
-![image](http://www.kieranhealy.org/files/misc/fin-winter-war.png)
+![image](fin-winter-war.png)
 
 I'd watch out for them, if I were you.

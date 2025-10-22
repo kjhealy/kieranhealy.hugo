@@ -57,7 +57,7 @@ State. It is also, though, closely related to the calculative
 rationality of capitalist markets and the institution of the modern
 corporation.
 
-{{% img src="https://kieranhealy.org/files/misc/charismatic.jpg" %}}
+{{% img src="charismatic.jpg" %}}
 
 Despite the rise of the rationalized bureaucracy, Weber thought
 charisma remained an important and indeed ineradicable force in
@@ -97,7 +97,7 @@ Charismatic leadership is personal in nature and, to begin with, organizationall
 
 > The administrative staff of a charismatic leader does not consist of "officials" ... It is not chosen on the basis of social privilege ... There is no hierarchy: the leader merely intervenes in general or in individual cases when he considers the members of his staff inadequate to a task with which they have been entrusted. 
 
-{{% img src="https://kieranhealy.org/files/misc/pirate_flag.jpg" %}}
+{{% img src="pirate_flag.jpg" %}}
 
 As John Lilly [remarks](http://lilly.tumblr.com/post/11230723028/steve-jobs#), "The stories of how brutal he could be on the people around him — employees, competitors, and everyone else — are legion, and they’re not apocryphal. He could be deeply dehumanizing and belittling to the people around him ... As a leader of people, you have to respect how much he (and more importantly, his teams) accomplished. But I struggle with some of the ways that he led, and how they affected good people." The combination of inner vision, contempt for rules, and the ability to moblize others results in a leadership style that is at once rebellious and autocratic. [It's better to be a pirate than join the navy](http://news.ycombinator.com/item?id=2968750), but the [Pirate Captain](http://www.folklore.org/StoryView.py?project=Macintosh&story=Pirate_Flag.txt&topic=Retreats&sortOrder=Sort%20by%20Date) is in charge. He can interfere anywhere and his authority is absolute: ["If I don't hear great sound coming out of that prototype by Monday morning, we're going to remove the amplifier"](http://www.folklore.org/StoryView.py?project=Macintosh&story=Sound_By_Monday.txt&topic=Management&sortOrder=Sort%20by%20Date&detail=medium) "I think he's bluffing", Andy Hertzfeld told Burrell Smith after this demand. "But what if he's not?"
 
@@ -109,7 +109,7 @@ Weber has some more to say about the attitude of the charismatic leader to the w
 
 > ... Charisma lives in, though not off, this world. Whenever it appears, it consitutes a "calling" in the most emphatic sense of the word, a "mission" or a "duty" ... It is not that charisma always means the renunciation of property or even of acquisition ... What is despised is traditional or rational everyday economizing ... It repudiates any sort of involvement in the everyday, routine world.
 
-{{% img src="https://kieranhealy.org/files/misc/jobs-home.jpg" %}}
+{{% img src="jobs-home.jpg" %}}
 
 In terms of personal style, this can be seen in the well-known
 photograph of Jobs sitting on the floor in his unfurnished house, or
@@ -176,7 +176,7 @@ organization quickly face the problem of how to codify and
 institutionalize the personal vision of the original leader. This is
 the problem of the routinization of charisma.
 
-{{% img src="https://kieranhealy.org/files/misc/whatnow.jpg" %}}
+{{% img src="whatnow.jpg" %}}
 
 It is very hard to preserve the legacy of a charismatic founder within
 the structure of an organization. Most obviously, the perennial
@@ -284,7 +284,7 @@ Or, in a slightly different way, [Merlin Mann:](http://5by5.tv/specials/2)
 
 > You gotta be kidding me, you want me to use a Mac? Those things are toys, right? ... I eventually bought my own toy. I wrote my thesis on a toy. I learned desktop publishing on a toy. And after I graduated, every job I've had since then has involved one of those toys. And it's true to this day. I take photos of my daughter on a toy. My kid and I make music together on a toy. ... I'm really glad Steve Jobs made the toy, I'm really glad he kept making it better and better, and I'm really grateful to live in a time when you can have such wonderful toys right in your pocket.
 
-{{% img src="https://kieranhealy.org/files/misc/ipadchild.jpg" %}}
+{{% img src="ipadchild.jpg" %}}
 
 This personal connection people feel with Apple's products, together
 with Jobs' own standards of excellence in design and manufacturing,
@@ -320,7 +320,7 @@ huge. [Apple makes the whole widget](http://www.wired.com/epicenter/2007/01/we_m
 software, hardware, service---but without owning the factories where
 the widgets are actually assembled.
 
-{{% img src="https://kieranhealy.org/files/misc/foxconn.jpg" %}}
+{{% img src="foxconn.jpg" %}}
 
 This organizational success created the conditions for some of the
 backlash we saw last week. It is very unusual to see a company with
@@ -398,7 +398,7 @@ charismatic leader to wash his hands of this aspect of his creation.
 
 ## The Half-Life of Charisma
 
-{{% img src="https://kieranhealy.org/files/misc/mac-signatures.jpg" %}}
+{{% img src="mac-signatures.jpg" %}}
 
 One last story from Andy Hertzfeld about the development of the Macintosh:
 

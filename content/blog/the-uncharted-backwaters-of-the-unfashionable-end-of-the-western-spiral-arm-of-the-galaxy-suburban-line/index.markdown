@@ -13,6 +13,6 @@ categories:
 
 The [Milky Way Transit Authority](http://arbesman.net/milkyway/).
 
-[![image](http://www.kieranhealy.org/files/misc/MWTA.png)](http://arbesman.net/milkyway/MWTA.pdf)
+[![image](MWTA.png)](http://arbesman.net/milkyway/MWTA.pdf)
 
 (Via Elaine.)

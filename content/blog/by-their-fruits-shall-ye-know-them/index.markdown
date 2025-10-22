@@ -12,4 +12,4 @@ categories:
 
 [Usage Statistics](http://www.conservapedia.com/Special:Statistics) for Conservapedia.
 
-[![Conservapedia Statistics](http://www.kieranhealy.org/files/misc/conservapedia.png)](http://www.kieranhealy.org/files/misc/conservapedia.png)
+[![Conservapedia Statistics](conservapedia.png)](conservapedia.png)

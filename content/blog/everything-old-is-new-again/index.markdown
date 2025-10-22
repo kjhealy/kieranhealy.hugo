@@ -26,7 +26,7 @@ This one has all the ingredients: a few economists, some physicists, a couple of
 
 I'm by no means a scholar of this stuff, but even I know that this isn't such a new idea. The classic analysis of the relationship between the severity and frequency of wars is in the work of [Lewis F. Richardson](http://en.wikipedia.org/wiki/Lewis_Fry_Richardson), which dates from the mid-twentieth century. More recently there is Lars-Erik Cederman's 2003 APSR paper [Modeling the Size of Wars: From Billiard Balls to Sandpiles](http://www.jstor.org/stable/3118226), which tries to theorize the regularity that Richardson discovered. In between there's a fair bit more, including some work by the great [Anatol Rapoport](http://jcr.sagepub.com/cgi/reprint/1/3/249) (reading his work is how I know about the other stuff). Here's a clipping from a discussion of his from 1957:
 
-![image](http://www.kieranhealy.org/files/misc/rapoport-loglog.png)
+![image](rapoport-loglog.png)
 
 Classic (and counter-intuitive) findings from the sociology of military conflict about the proportion of soldiers in armies who see action, get injured or killed, or even fire their weapons on the battlefield, are also relevant here on the micro-side. Randy Collins discusses some of this work in his recent book, *[Violence](http://www.amazon.com/exec/obidos/ASIN/0691133131/ref=nosim/librarythin08-20)*.
 

@@ -7,7 +7,7 @@ htmlwidgets: false
 mathjax: false
 ---
 
-{{% figure src="https://kieranhealy.org/files/misc/dv-cover-sm.jpg" alt="" caption="Data Visualization for Social Science: A Practical Introduction with R and ggplot2" link="http://socviz.co" %}}
+{{% figure src="dv-cover-sm.jpg" alt="" caption="Data Visualization for Social Science: A Practical Introduction with R and ggplot2" link="http://socviz.co" %}}
 
 I'm writing a book on data visualization, provisionally titled *Data Visualization for Social Science: A practical introduction with R and ggplot2*. As part of that process, largely because I've benefited so much myself from the availability of open and widely shared tools for software development, I'm making the draft version of the book available as its own website. It can be found at <http://socviz.co>. 
 

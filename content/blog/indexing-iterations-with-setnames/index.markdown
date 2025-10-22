@@ -203,7 +203,7 @@ The result is that we can now do something like this:
 {{< /code >}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/r-setnames-example-nyinc.png" alt="A boxplot of median household income over time in New York State counties." caption="Household income in New York State." %}}
+{{% figure src="r-setnames-example-nyinc.png" alt="A boxplot of median household income over time in New York State counties." caption="Household income in New York State." %}}
 
 
 

@@ -12,7 +12,7 @@ categories:
 - Sociology
 ---
 
-![image](http://www.kieranhealy.org/files/misc/vert.katrina.34.ap.jpg)
+![image](vert.katrina.34.ap.jpg)
 
 According to AP, this photo shows a man covering the body of a man who died—apparently in a chair—on Thursday outside the convention center in New Orleans. The baby in his arms looks to be about three or four months old. I wonder whether she has any milk to drink.
 

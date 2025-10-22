@@ -13,4 +13,4 @@ categories:
 
 Paging [Bearman, Moody & Stovel](http://crookedtimber.org/2004/08/13/love-is-a-battlefield-spanning-tree-network-with-no-4-cycles/).
 
-[![hookup](http://orgtheory.wordpress.com/files/2008/04/convincing_pickup_line.png)](http://xkcd.com "hookup")
+[![hookup](convincing_pickup_line.png)](http://xkcd.com "hookup")

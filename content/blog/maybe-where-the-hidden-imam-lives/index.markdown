@@ -11,7 +11,7 @@ categories:
 - Politics
 ---
 
-![image](http://www.kieranhealy.org/files/misc/incognito.jpg)Via [3QD](http://3quarksdaily.blogs.com/3quarksdaily/2007/04/paternalistic_d.html), Ernest Lefever [writes](http://www.weeklystandard.com/Content/Public/Articles/000/000/013/574nhmym.asp) about Africa and irritates my inner copyeditor:
+![image](incognito.jpg)Via [3QD](http://3quarksdaily.blogs.com/3quarksdaily/2007/04/paternalistic_d.html), Ernest Lefever [writes](http://www.weeklystandard.com/Content/Public/Articles/000/000/013/574nhmym.asp) about Africa and irritates my inner copyeditor:
 
 > BECAUSE OF AND in spite of Hollywood films like The African Queen and television shows like Tarzan, tropical Africa south of the Sahara and north of the Zambezi is terra incognito for most Americans.
 

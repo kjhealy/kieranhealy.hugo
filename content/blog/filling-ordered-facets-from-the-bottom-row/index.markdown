@@ -9,7 +9,7 @@ mathjax: false
 
 On Twitter the other day, [Philip Cohen put up](https://twitter.com/familyunequal/status/981538113729286144) some data on changes in Bachelor's degrees awarded between 1995 and 2015. The data come from the [National Center for Education Statistics](https://nces.ed.gov/programs/digest/d17/tables/dt17_322.10.asp?current=yes). It seemed like a good candidate for drawing as a figure, so I had a go at it:
 
-{{% figure src="https://kieranhealy.org/files/misc/degree-change-9515.png" alt="" caption="Changes in the number of Bachelor's degrees awarded over the past twenty years." %}}
+{{% figure src="degree-change-9515.png" alt="" caption="Changes in the number of Bachelor's degrees awarded over the past twenty years." %}}
 
 Afterwards, I was messing around with the data and wanted to draw some time-series plots for the various subject areas the NCES tracks. After cleaning up the data, we end up with a tidy table that looks like this:
 
@@ -67,7 +67,7 @@ p + geom_line() +
 {{< /code >}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/facet-row-1.png" alt="" caption="Facets ordered by the mean value of the time series, from top left to bottom right. The bottom row is not completely filled." %}}
+{{% figure src="facet-row-1.png" alt="" caption="Facets ordered by the mean value of the time series, from top left to bottom right. The bottom row is not completely filled." %}}
 
 
 The result is a nice graph. R and ggplot have taken care of the layout for us. As is often the case, the number of categories doesn't fit evenly into the number of rows in the plot. There's a space left over in the bottom row. By default, ggplot will add x-axis labels to the next available panel on the row above ("English Language and Literature/Letters"). 
@@ -95,7 +95,7 @@ p + geom_line() +
 {{< /code >}}
 
 
-{{% figure src="https://kieranhealy.org/files/misc/facet-row-2.png" alt="" caption="Facets ordered by setting as.table to FALSE. The bottom row is filled, but the ordering of the facets is not right, because the fill order now starts at the bottom left." %}}
+{{% figure src="facet-row-2.png" alt="" caption="Facets ordered by setting as.table to FALSE. The bottom row is filled, but the ordering of the facets is not right, because the fill order now starts at the bottom left." %}}
 
 This fills the bottom row, but it breaks the high-to-low ordering that we're trying to set with `reorder()`. We can get it back manually. First we create `vars`, which summarizes the areas of study by mean number of degrees awarded over the years. Separately, we great a vector, `o`, the same length as the subset of categories we're going to display. 
 
@@ -127,7 +127,7 @@ p + geom_line() +
 Here, instead of using `reorder()`, we recode the `field_of_study` variable on the fly, reordering its factor levels to reflect the desired panel order. We keep `as.table = FALSE`. The `field_of_study` categories then appear in the order we want. 
 
 
-{{% figure src="https://kieranhealy.org/files/misc/facet-row-3.png" alt="" caption="Keeping as.table set to FALSE, we manually re-order the field of study variable to re-establish the order." %}}
+{{% figure src="facet-row-3.png" alt="" caption="Keeping as.table set to FALSE, we manually re-order the field of study variable to re-establish the order." %}}
 
 
 We can do the same again for the fields with less than two percent of all degrees on average:
@@ -156,7 +156,7 @@ p + geom_line() +
 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/facet-row-4.png" alt="" caption="Same again for degrees with <2% of BAs." %}}
+{{% figure src="facet-row-4.png" alt="" caption="Same again for degrees with <2% of BAs." %}}
 
 
 Because we have a different number of categories, we need to manually reorder the variable again. This isn't an ideal solution. What we really want is a way to automatically figure out how many facets we have, and then fill them from the bottom in the order we desire. I'm not sure this is easily doable. 

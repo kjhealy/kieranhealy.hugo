@@ -5,9 +5,9 @@ categories: [Visualization,Data,Sociology]
 ---
 
 
-{{% figure src="https://kieranhealy.org/files/misc/pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
+{{% figure src="pbe-by-school-type-jit.jpg" alt="California Kindergarten PBE Rates by Type of School, 2014-2015" caption="California Kindergarten PBE Rates by Type of School, 2014-15." %}}
 
-([PDF available.](https://kieranhealy.org/files/misc/pbe-by-school-type-jit.pdf))
+([PDF available.](pbe-by-school-type-jit.pdf))
 
 
 I came across a report this afternoon, via [Eric Rauchway](https://twitter.com/rauchway/status/560829410082037761), about [high rates of vaccination exemption in Sacramento schools](http://www.sacbee.com/site-services/databases/article8203365.html). As you are surely aware, this is a serious political and public health problem at the moment. Like Eric, I was struck by just how high some of the rates were. So I went and [got the data](http://www.cdph.ca.gov/programs/immunize/pages/immunizationlevels.aspx) from the California Department of Public Health, just wanting to take a quick look at it. If you want to follow along, I put up a [github repository](https://github.com/kjhealy/vaccines-ca) with the data and R code for the plots.
@@ -18,25 +18,25 @@ One of the most interesting things about vaccination exemptions is how they clus
 
 Next level of resolution down is the county. Here is a plot of PBE rates by county. We log the number of enrolled children on the x-axis to stop very high-population counties, notably L.A. County, from skewing the plot. 
 
-{{% figure src="https://kieranhealy.org/files/misc/pbe-by-county.png" alt="California Kindergarten PBE Rates by County, 2014-2015" caption="California Kindergarten PBE Rates by County, 2014-15." %}}
+{{% figure src="pbe-by-county.png" alt="California Kindergarten PBE Rates by County, 2014-2015" caption="California Kindergarten PBE Rates by County, 2014-15." %}}
 
-([PDF available.](https://kieranhealy.org/files/misc/pbe-by-county.pdf))
+([PDF available.](pbe-by-county.pdf))
 
 The figure picks out some outlying counties---those with more than twice the [interquartile range](http://en.wikipedia.org/wiki/Interquartile_range) for PBEs. With nearly sixty counties, we see there's a fair amount of heterogeneity hiding in the state-level PBE rate. Our outlying counties have PBE rates of more than 10 percent.
 
 The next twist of the lens is to look at the rates by district. In our population there are just over 820. Here's what they look like.
 
-{{% figure src="https://kieranhealy.org/files/misc/pbe-by-district.png" alt="California Kindergarten PBE Rates by public school district, 2014-2015" caption="California Kindergarten PBE Rates by Public School District, 2014-15." %}}
+{{% figure src="pbe-by-district.png" alt="California Kindergarten PBE Rates by public school district, 2014-2015" caption="California Kindergarten PBE Rates by Public School District, 2014-15." %}}
 
-([PDF available.](https://kieranhealy.org/files/misc/pbe-by-district.pdf))
+([PDF available.](pbe-by-district.pdf))
 
 The x-axis covers more or less the same range (logged N students), but note that instead of topping out at 25 our y-axis now runs from zero to over sixty percent. A big jump. (And our criteria for getting a label goes from 2x the IQR to 6x.) Note that most of the high-rate districts enroll small numbers of students. Some of those districts have very few schools: the Siskiyou County Office of Education district has one Kindergarten group in the data, Golden Eagle Charter, with twenty one kindergarteners and a PBE rate of sixty two percent. Meanwhile the Nevada County district is more consistently an outlier. It has five schools in the data, enrolling 182 students in total with a PBE rate of 63 percent. Note that here, because we're looking at public school districts, we are excluding private schools. Charter schools are included.
 
 Finally here is the school-level distribution. Because we can look at all of them I've distinguished the public and private schools. The banding is an artifact of having the enrollment number in the calculation of both the x-axis (log Enrollment) and the y-axis (PBE students / Enrollment).
 
-{{% figure src="https://kieranhealy.org/files/misc/pbe-by-school.png" alt="California Kindergarten PBE Rates by  school, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
+{{% figure src="pbe-by-school.png" alt="California Kindergarten PBE Rates by  school, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
 
-([PDF available.](https://kieranhealy.org/files/misc/pbe-by-school.pdf))
+([PDF available.](pbe-by-school.pdf))
 
 Now our y-axis has is pushed all the way to 100. The school with the highest PBE rate in the state is the Grace Family Christian School in Sacramento, with 93%. Next comes the Berkeley Rose School in Alameda County (87%), the Cedar Springs Waldorf in El Dorado (84%), Westside Waldorf in LA (80%) and the Kabbalah Children's Academy in Los Angeles (75%, and yeah, I know). These are all relatively small schools and all are private. The median school enrolled seventy three kindergarteners (across several classrooms, of course). These five schools range from twelve to twenty three kindergarteners. Of the ten schools with the highest PBE rates, three are public. Two of those are in Nevada County, and the other is a public school in Sebastopol that enrolled twelve kindergarteners.
 
@@ -44,9 +44,9 @@ The concentration of PBEs in smaller schools is evident, as is the concentration
 
 Finally, the clustering also raises the question of whether there are *big* schools with a lot of PBEs. To bring this out a little more clearly here is the same figure as above but with the x-axis showing number of students rather than logged students.
 
-{{% figure src="https://kieranhealy.org/files/misc/pbe-by-school-unlogged.png" alt="California Kindergarten PBE Rates by  School, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
+{{% figure src="pbe-by-school-unlogged.png" alt="California Kindergarten PBE Rates by  School, 2014-2015" caption="California Kindergarten PBE Rates by School, 2014-15." %}}
 
-([PDF available.](https://kieranhealy.org/files/misc/pbe-by-school-unlogged.pdf))
+([PDF available.](pbe-by-school-unlogged.pdf))
 
 Here we see a couple of schools that are enrolling a very large number of kindergarteners and also have relatively high PBE rates. Four schools in the state reported enrolling more than two hundred kindergarteners while also having PBE rates of over 10 percent. River Springs Charter reported 556 students and a PBE of 23 percent. Honestly this makes me wonder if the person filling out the form reported the size of the entire elementary school rather than the size of the kindergarten classes. But then again American schools can get pretty huge, so the data are right that’s a lot of little tykes and a 23 percent PBE. Much the same goes for the California Montessori and Visions in Education schools, which reported 242 and 395 enrollments respectively, with 14 and 33 percent PBEs. This brings us full circle as both of these schools are in the same district---the San Juan Unified district in Sacramento. Perhaps someone familiar with these schools can tell me whether the denominators they're reporting are correct.  
 

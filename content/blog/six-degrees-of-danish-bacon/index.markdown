@@ -14,10 +14,10 @@ categories:
 
 The current issue of *New Left Review* has an [article by Franco Moretti](http://www.newleftreview.org/?page=article&view=2887) applying a bit of network analysis to the interactions within some pieces of literature. Here is the interaction network in *Hamlet*, with a tie being defined by whether the characters speak to one another. (Notice that this means that, e.g., Rosencrantz and Guildenstern do not have a tie, even though they're in the same scenes.)
 
-![image](https://kieranhealy.org/files/misc/hamlet1.png "The Hamlet Network")
+![image](hamlet1.png "The Hamlet Network")
 
 And here is *Hamlet* without Hamlet:
 
-![image](https://kieranhealy.org/files/misc/hamlet2.png "Hamlet sans Hamlet")
+![image](hamlet2.png "Hamlet sans Hamlet")
 
 I think we can safely say that he is a key figure in the network. Though the Prince may be less crucial than he thinks, as Horatio seems to be pretty well positioned, too. Lots more in [the article itself](http://www.newleftreview.org/?page=article&view=2887).

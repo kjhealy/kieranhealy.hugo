@@ -135,7 +135,7 @@ We use `walk()` when we want to iterate over a list, just as with `map()`. But `
 
 Now we have conjured up one hundred CSVs of made-up data. Perhaps a career in Social Psychology awaits us. 
 
-{{% figure src="https://kieranhealy.org/files/misc/tmpdat.png" alt="All the data." caption="All the data" %}}
+{{% figure src="tmpdat.png" alt="All the data." caption="All the data" %}}
 
 With our data now on disk, we can read it all back in and do our calculations. Once again, `map_dfr()` is our friend. We feed it a vector, `filenames`, which is just the full path to each CSV file in `tmpdat`. 
 

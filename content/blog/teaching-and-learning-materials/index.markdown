@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 
-{{% figure src="https://kieranhealy.org/files/misc/dv-cover-pupress.jpg" alt="Data Visualization cover" caption="" %}}
+{{% figure src="dv-cover-pupress.jpg" alt="Data Visualization cover" caption="" %}}
 
 [Data Visualization: A Practical Introduction](https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624) will begin shipping next week. I've written an R package that contains datasets, functions, and a course packet to go along with the book. The `socviz` package contains about twenty five datasets and a number of utility and convenience functions. The datasets range in size from things with just a few rows (used for purely illustrative purproses) to datasets with over 120,000 observations, for practicing with and exploring. 
 

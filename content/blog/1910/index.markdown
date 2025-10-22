@@ -15,15 +15,15 @@ A number of people have been asking—or asserting—things about the relative c
 First, a comparison of current and proposed ASA membership fees with peer organizations that also have a sliding scale of membership costs.
 
 
-{{% figure src="https://kieranhealy.org/files/misc/dues-comparison.png" caption="Comparative Data on Costs of Membership" %}}
+{{% figure src="dues-comparison.png" caption="Comparative Data on Costs of Membership" %}}
 
 Not all of the ASA's peer organizations have sliding scales: several simply charge a flat rate. Three relevant associations with flat-rate regular memberships, not included in the chart above, are the American Statistical Association (regular membership cost: $150), the Population Association of America ($112), and the American Society of Criminology ($90).
 
 In addition to these regular membership rates, many associations also have special rates for students, the unemployed, retired members, or resident citizens of low-income countries. Let's focus just on student and unemployed members. Here are two figures comparing costs for these categories of membership across associations. Bear in mind that some organizations have no specific student rate, and for others (such as the AAA and the ASC), student membership is linked to income. I've chosen to show the lowest available rate in each case.
 
-{{% figure src="https://kieranhealy.org/files/misc/dues-unemployed.png" caption="Comparative Data on Costs of Membership" %}}
+{{% figure src="dues-unemployed.png" caption="Comparative Data on Costs of Membership" %}}
 
-{{% figure src="https://kieranhealy.org/files/misc/dues-student.png" caption="Effective membership cost for the Students" %}}
+{{% figure src="dues-student.png" caption="Effective membership cost for the Students" %}}
 
 
 Finally there is the question of the benefits of membership. The two most immediate benefits of membership in professional associations are a subscription to one or more association journals (and perhaps also a newsletter or magazine), and a reduced registration fee for the association's annual conference. Annual conferences are generally either self-financing or active profit-centers for associations. If someone else wants to collate the cost of attendance for these associations, they're welcome to do so. I'll focus just on journals. These are also typically profit-making enterprises for associations (often quite substantially so), mostly through the revenue from library subscriptions, the fact that most of the labor to run them is provided for free, and the fact that it still costs money for members to both subscribe to and submit to these journals. In addition to these benefits, all associations provide some kind of job bank (I have not looked at variation in the cost of this to participating departments), perhaps a job service at the annual conference, and assorted discounts and coupon -lipping benefits.

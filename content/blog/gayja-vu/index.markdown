@@ -16,7 +16,7 @@ Michael Dorf and Sid Tarrow have an Op-Ed piece today on CNN titled <a href="htt
 
 And thus did we start down the road toward the unlikely spectacle of a Black President endorsing gay marriage. Nice—counterintuitive, compelling, and more than a little ironic. But while I was reading this it struck me that I had heard this argument made somewhere before. Where? Oh yeah.
 
-<img src="https://kieranhealy.org/files/misc/fetnercover.png" align="center" />
+<img src="fetnercover.png" align="center" />
 
 In her 2008 book, helpfully titled <em><a href="http://www.amazon.com/Religious-Lesbian-Activism-Movements-Contention/dp/0816649189">How the Religious Right Shaped Lesbian and Gay Activism</a></em>, Tina Fetner <a href="http://books.google.com/books?id=qIkyPyiWyIIC&amp;lpg=PA110&amp;vq=Baehr%20v.%20Lewin&amp;dq=tina%20fetner&amp;pg=PA110#v=snippet&amp;q=Baehr%20v.%20Lewin&amp;f=false">argues</a>, in part:
 

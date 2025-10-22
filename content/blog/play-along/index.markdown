@@ -10,8 +10,8 @@ categories:
 - Sociology
 ---
 
-Here is your [2008 ASA Bingo Card](http://www.kieranhealy.org/files/misc/asabingo.pdf). Mark each square when the event described happens (or happens to you, as appropriate). If you get five in a row in any direction, you win.
+Here is your [2008 ASA Bingo Card](asabingo.pdf). Mark each square when the event described happens (or happens to you, as appropriate). If you get five in a row in any direction, you win.
 
-[![image](http://www.kieranhealy.org/files/misc/asabingo.png)](http://www.kieranhealy.org/files/misc/asabingo.pdf)
+![ASA Bingo](asabingo.png)
 
 

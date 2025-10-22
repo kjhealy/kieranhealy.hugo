@@ -10,7 +10,7 @@ categories:
 - Politics
 ---
 
-![image](http://www.kieranhealy.org/files/misc/rplimo.jpg)
+![image](rplimo.jpg)
 
 I was driving home from the office this evening (yeah, yeah, I know—I prefer to think of it as Arizona taxpayers getting good value for money) and I saw this enormous Ron Paul Revolution limousine thing go by. It was as long as a semi. Arizona is McCain country, but there are also plenty of libertarians out here, and many of them are even opposed to state-sponsored torture. So it makes sense that Paul is doing a bit of campaigning in the vicinity.
 

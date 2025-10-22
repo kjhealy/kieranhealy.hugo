@@ -14,9 +14,9 @@ Thanks to the SQL gurus who responded so quickly to my [question](http://crooked
 
 I've updated the analysis from the original post, following some of my own advice to amalgamate the categories that different people were using to post a short joke or trivial item (like "Look like flies" or "Et Cetera" and so on). I grouped all of them into a "Trivia" category. "Books" and "Literature" were grouped together, as were "Internet", "Intellectual Property" and "Information Technology". Finally, I also grouped "British Politics" and "UK Politics" into a single category. Unfortunately I had to drop Jon Mandle from the analysis (sorry Jon!) because none of his posts has a category.
 
-Correspondence analysis lets you represent two kinds of entity simultaneously in two dimensions, allowing you to see how the elements of each entity are related to one another, and to those in the other entity. The idea is to reduce high-dimensional spaces (many authors, many categories) to low-dimensionsal ones with minimal loss of information. The figure below (also available in [a larger size](http://www.kieranhealy.org/files/misc/dudi-ct.png) and in [PDF format](http://www.kieranhealy.org/files/misc/dudi-ct.pdf)) gives the results for the CT data.
+Correspondence analysis lets you represent two kinds of entity simultaneously in two dimensions, allowing you to see how the elements of each entity are related to one another, and to those in the other entity. The idea is to reduce high-dimensional spaces (many authors, many categories) to low-dimensionsal ones with minimal loss of information. The figure below (also available in [a larger size](dudi-ct.png) and in [PDF format](dudi-ct.pdf)) gives the results for the CT data.
 
-![image](http://www.kieranhealy.org/files/misc/dudi-ct.png)
+![image](dudi-ct.png)
 
 The results are interesing. You can assess the similarity of authors and categories to one another by their closeness on the diagram—or, more specifically, by the size of the angle formed between any two entities and the origin. Entities further out from the origin are more influential in structuring the dimensions that the figure is constructed on.
 

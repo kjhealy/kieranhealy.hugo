@@ -14,7 +14,7 @@ When used as an approach to data analysis, PCA is inductive. Because of the way 
 
 I was reminded of all of this on Friday because some of my first-year undergrad students are doing an "Algorithms for Data Science" course, and the topic of PCA came up there. Some students not in that class wanted some intuitions about what PCA was. The thing I remembered about Jackman's discussion was that he had the nice idea of doing PCA on an image, in order to show both how you could reconstruct the whole image from the PCA, if you wanted, and more importantly to provide some intuition about what the first few components of a PCA picked up on. His discussion doesn't seem to be available anymore, so this afternoon I rewrote the example myself. I'll use the same image he did. This one:
 
-{{% figure src="https://kieranhealy.org/files/misc/elvis-nixon.jpeg" alt="Elvis meets Nixon" caption="Elvis Meets Nixon." %}}
+{{% figure src="elvis-nixon.jpeg" alt="Elvis meets Nixon" caption="Elvis Meets Nixon." %}}
 
 ## Setup
 
@@ -138,7 +138,7 @@ pca_tidy %>%
     labs(x = "Principal Component", y = "Variance Explained") 
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/scree-plot.png" alt="Scree plot of the PCA" caption="Scree plot of the PCA." %}}
+{{% figure src="scree-plot.png" alt="Scree plot of the PCA" caption="Scree plot of the PCA." %}}
 
 ## Reversing the PCA
 
@@ -232,7 +232,7 @@ p_out <- p + geom_raster() +
 p_out
 {{< /code >}}
 
-{{% figure src="https://kieranhealy.org/files/misc/elvis-pca.png" alt="Elvis meets Nixon, as recaptured by varying numbers of principal components." caption="Elvis Meets Nixon, as recaptured by varying numbers of principal components." %}}
+{{% figure src="elvis-pca.png" alt="Elvis meets Nixon, as recaptured by varying numbers of principal components." caption="Elvis Meets Nixon, as recaptured by varying numbers of principal components." %}}
 
 
 There's a lot more one could do with this, especially if I knew rather more linear algebra than I in fact do haha. But at any rate we can see that it's pretty straightforward to use R to play around with PCA and images in a tidy framework. 

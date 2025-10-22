@@ -16,7 +16,7 @@ In a classic discussion of scientists sampling the ground in the Amazon rainfore
 
 Now, via [Andrew Gelman](http://www.stat.columbia.edu/~cook/movabletype/archives/2008/05/postworld_war_i.html), a [fascinating story](http://blogs.nature.com/climatefeedback/2008/05/postworld_war_ii_cooling_a_mir.html) from Quirin Schiermeier at *Nature* about the social production of data.
 
-![image](http://www.kieranhealy.org/files/misc/sea-temperature-anomaly.jpg)
+![image](sea-temperature-anomaly.jpg)
 
 > The 20th century warming trend is not a linear affair. The iconic climate curve, a combination of observed land and ocean temperatures, has quite a few ups and downs, most of which climate scientists can easily associate with natural phenomena such as large volcanic eruptions or El Nino events. But one such peak has confused them a hell of a lot. The sharp drop in 1945 by around 0.3 °C – no less than 40% of the century-long upward trend in global mean temperature – seemed inexplicable There was no major eruption at the time, nor is anything known of a massive El Nino that could have caused the abrupt drop in sea surface temperatures. The nuclear explosions over Hiroshima and Nagasaki are estimated to have had little effect on global mean temperature. Besides, the drop is only apparent in ocean data, but not in land measurements. Now scientists have found – not without relief – that they have been fooled by a mirage.
 >

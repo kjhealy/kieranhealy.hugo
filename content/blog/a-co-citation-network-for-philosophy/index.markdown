@@ -10,7 +10,7 @@ categories: [Philosophy,Sociology,Data,Visualization]
 
 What have English-speaking philosophers been talking about for the last two decades? I'm asking---and presenting an answer to---this question partly out of an ongoing research interest in philosophy, partly out of some recent "Does anyone know ...?" questions I've been asked, and partly to play with some new text-processing and visualization methods. There are of course many ways to make the general question specific. Here's the beginnings of an answer based on some work I did yesterday evening.
 
-[Click here for the dynamic version of the network visualization](https://kieranhealy.org/philcites/). Read on for more details about the scope, limits, and interpretation of the data. Follow-up posts can be found [here](https://kieranhealy.org/blog/archives/2013/06/19/lewis-and-the-women) and [here](https://kieranhealy.org/blog/archives/2013/06/24/citation-networks-in-philosophy-some-followup). A [PDF Poster of the co-citation graph](https://kieranhealy.org/files/misc/philosophy-citation-poster.pdf) is also available.
+[Click here for the dynamic version of the network visualization](https://kieranhealy.org/philcites/). Read on for more details about the scope, limits, and interpretation of the data. Follow-up posts can be found [here](https://kieranhealy.org/blog/archives/2013/06/19/lewis-and-the-women) and [here](https://kieranhealy.org/blog/archives/2013/06/24/citation-networks-in-philosophy-some-followup). A [PDF Poster of the co-citation graph](philosophy-citation-poster.pdf) is also available.
 
 ## Data Sources and Methods
 I took twenty years worth of articles from four major English-language philosophy journals and generated a network from it based on the citations contained in those articles. The substantive idea is as follows. An academic discipline is a sort of exclusive, ongoing conversation. The conversation is carried on, amongst other settings, through books and articles. In many disciplines there are a few high-status general-interest journals that claim to publish the best work in the field. Particular members of the field will of course disagree about how true that is, but for my purposes the point is just a descriptive one. I am interested in what high-status actors in a field are talking about, and one source of information about this is what gets published in high-prestige journals that claim to represent the core of the discipline.
@@ -25,9 +25,9 @@ All told, the co-citation matrix has just over a million edges, or article pairs
 
 Again, these are *not* the most cited items in philosophy, nor are they the most cited *authors* in philosophy, nor are they the most cited papers *published* in these journals. We are looking at the *most cited items* in articles published in our journals. This means the same author may appear in different places in the graph for different books or papers. Each particular book or paper only appears once, however. Here what it looks like.
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-static.png" %}}
+{{% img src="philcites-static.png" %}}
 
-This is rather hard to read. You can [zoom in for a larger view](https://kieranhealy.org/files/misc/philcites-static.png) if you like, but I recommend instead that you look at this [dynamic visualization of the network](https://kieranhealy.org/philcites/), which you can move around and look at in more detail. Some of this post is repeated on that page (just in case people land there first). [Go play with it for a while](https://kieranhealy.org/philcites/), then come back here.
+This is rather hard to read. You can [zoom in for a larger view](philcites-static.png) if you like, but I recommend instead that you look at this [dynamic visualization of the network](https://kieranhealy.org/philcites/), which you can move around and look at in more detail. Some of this post is repeated on that page (just in case people land there first). [Go play with it for a while](https://kieranhealy.org/philcites/), then come back here.
 
 The graph shows co-citation patterns for just over 500 most-cited items over the past twenty years, based on the articles published in our four journals. (It's 520 items in total, where the cutoff is having received at least ten citations.) The colors of the nodes represent the results of a community-detection algorithm applied to the co-citation matrix. The community colors are generated inductively, not assigned in advance. If the community-detection method is working well, then it will have good face validity. That is, readers familiar with recent philosophical debates ought to see familiar clusters reflecting, for example, recognizably important debates in various parts of the discipline. I think the community detection works quite well. To my eye, we can see large, clear communities around questions in metaphysics and epistemology, amongst others. Large subdisciplinary topics are also visible, for instance the community around conditionals and causation. There is also a metaethics cluster, a political philosophy cluster, and other recognizable, smaller debates.
 
@@ -37,7 +37,7 @@ By the standards of citation analysis the graph is quite sparse. This is a good 
 
 The core of the graph, inside the main component, is a group of highly-cited items clustered around the two most important items in the dataset: Saul Kripke's *Naming and Necessity* and David Lewis's *On the Plurality of Worlds*. The two communities centered on these works are bridged by Lewis (1968), Lewis (1983), Forbes (1985), and Fine (1994).
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-metaphysics.png" %}}
+{{% img src="philcites-metaphysics.png" %}}
 
 The two big clusters are also connected to two other groups: one centered on Quine's *Word and Object*, and the other on David Chalmers' *The Conscious Mind*, about which more in a moment.
 
@@ -45,36 +45,36 @@ The two big clusters are also connected to two other groups: one centered on Qui
 
 The second largest component of the graph is about epistemology. Here the key works are by Tim Williamson (2000), Keith DeRose (1995), and John Hawthorne (2004). Interestingly, there is also a central paper by Lewis here as well (Lewis 1996). As we shall see, this is going to be a common occurrence. This main epistemology cluster bridges to what seems like an older conversation around work by Larry Bonjour (1985), Alvin Plantiga (1993), and Alvin Goldman (1986).
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-epistemology.png" %}}
+{{% img src="philcites-epistemology.png" %}}
 
 ## Divided Mind
 
 Interestingly, there seem to be two separate clusters in the philosophy of mind. The first seems to be about consciousness, anchored by Chalmers (1986):
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-mind-1.png" %}}
+{{% img src="philcites-mind-1.png" %}}
 
 And the second, with many of the same authors---but not the same articles or books---is arguing with Jerry Fodor about intentionality:
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-mind-2.png" %}}
+{{% img src="philcites-mind-2.png" %}}
 
 ## Ethics, Metaethics, and Political Philosophy
 Work in ethics, metaethics, and political philosophy form components disconnected from the main graph. (At least, it's disconnected at this level of resolution---this would of course change if we included lower-cited items.) First, there is a component centered around John Rawls's (1971) *A Theory of Justice*.
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-rawls.png" %}}
+{{% img src="philcites-rawls.png" %}}
 
 There is also a larger metaethics component whose main branch connects Michael Smith's *The Moral Problem*, Tim Scanlon's *What We Owe to Each Other*, and Derek Parfit's *Reasons and Persons*. Christine Korsgaard's *The Sources of Normativity* is also notable here.
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-metaethics.png" %}}
+{{% img src="philcites-metaethics.png" %}}
 
 
 ## Smaller Debates
 There are some nice examples of smaller or more relatively self-contained debates that are separated from the main clusters of activity. Again, I emphasize that this talk of "self-containment" or "separateness" is relative: we are only looking, remember, at connections between the 500 most highly-cited papers in the dataset. Here we see an example of this sort of compact cluster of co-citations arguing---I think---about free will, with work by Harry Frankfurt, Peter van Inwagen, and others. 
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-small-1.png" %}}
+{{% img src="philcites-small-1.png" %}}
 
 And here is the smallest such example, as papers cite a debate between Kendall Walton (1990) and Mark Crimmins (1998):
 
-{{% img src="https://kieranhealy.org/files/misc/philcites-small-2.png" %}}
+{{% img src="philcites-small-2.png" %}}
 
 ## Summary
 A co-citation network is a useful way to get a sense of what is being talked about within a field, and how the topics of disciplinary conversation are connected to one another or not. It's especially useful in a field like philosophy, where citation is sparse. I'll reiterate that I did this mostly as a learning exercise for my own benefit, and it's not yet finished. (Really, I've hardly started.) For people unfamiliar with this sort of analysis, remember that communities are detected inductively and, at this stage, the technique is basically descriptive, and works best as a tool to help clarify ideas about the field rather than prove or disprove hypotheses. Remember also what's being represented: co-citation networks generated from material referenced in twenty years of articles in four generalist journals. It is not a complete picture of the field. But it is, I think, useful for getting a sense of what's been important in these journals and---to the degree that those journals really do set the agenda---maybe also for the field itself.

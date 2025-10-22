@@ -10,4 +10,4 @@ categories:
 - Politics
 ---
 
-![Man of Action](http://www.kieranhealy.org/files/misc/man-of-action.png)
+![Man of Action](man-of-action.png)

@@ -8,7 +8,7 @@ I'm still playing around with the [UK Election data](https://kieranhealy.org/blo
 
 That got me thinking about how much the landscape of England is embedded in its political life. In particular, what do the names of places tell you about their political leanings? I looked at  English constituencies only, and searched constituency names for some common toponyms like "-ham", "-shire", "-wood" and -field". Then I looked to see what proportion of seats with these features in their names were won by the Conservatives and Labour. For simplicity of presentation, I omitted the Liberal Democrats and UKIP who won a very small percentage of some of these seats. Here's the result. 
 
-{{% figure src="https://kieranhealy.org/files/misc/politics-english-landscape.png" alt="Constituencies by toponym and winning party." caption="English Constituencies by Toponym and Winning Party." %}}
+{{% figure src="politics-english-landscape.png" alt="Constituencies by toponym and winning party." caption="English Constituencies by Toponym and Winning Party." %}}
 
 I think that's rather nice. The Tories are the party of shires and fords, and to a slightly lesser extent of woodland clearings (-ley, -leigh) and woods. Labour meanwhile are the party of -hams (as in, a farm or homestead), of -tons (or towns), and of fields. 
 

@@ -11,6 +11,6 @@ categories:
 - Politics
 ---
 
-[![image](https://kieranhealy.org/files/misc/redprof.jpg "Do Colleges HAVE to hire Red professors?")](http://www.flickr.com/photos/leifpeng/5465514306/)
+[![image](redprof.jpg "Do Colleges HAVE to hire Red professors?")](http://www.flickr.com/photos/leifpeng/5465514306/)
 
 These days the bow tie signifies the opposite, of course. Which only shows their disguises have improved.

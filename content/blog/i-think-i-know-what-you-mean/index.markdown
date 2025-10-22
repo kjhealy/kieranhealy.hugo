@@ -12,4 +12,4 @@ categories:
 
 Seen on campus this morning:
 
-![image](https://kieranhealy.org/files/misc/safetyoption.jpg)
+![image](safetyoption.jpg)

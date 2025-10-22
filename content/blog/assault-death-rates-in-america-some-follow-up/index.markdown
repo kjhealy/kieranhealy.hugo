@@ -14,9 +14,9 @@ If you believe I am actively dishonest or desperately stupid there's probably no
 
 Here's the most widely circulated picture:
 
-{{% img src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png" %}}
+{{% img src="assault-deaths-oecd-ts-all-new.png" %}}
 
-Click for a larger [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-new.pdf).
+Click for a larger [PNG](assault-deaths-oecd-ts-all-new.png) or [PDF](assault-deaths-oecd-ts-all-new.pdf).
 
 ## 1. Where do these data come from?
 
@@ -36,11 +36,11 @@ The purpose of the original posts was to put the U.S. rate of violent death in c
 
 The original post (and the note attached to the figures) made it clear I excluded two OECD countries with higher assault death rates than the US: Estonia and Mexico. I also excluded some other OECD countries whose rates are *lower* than the US, again on the grounds of useful comparison. These were Chile, the Czech Republic, Israel, Poland, Slovakia, and Slovenia. Here is what the figure looks like with all of these countries included: 
 
-{{% img src="https://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-2.png" %}}
+{{% img src="assault-deaths-oecd-ts-all-2.png" %}}
 
-Click for a larger [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-2.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-all-2.pdf). The individual time series broken out by country are also available as a large  [PNG](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet-2.png) or [PDF](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet-2.pdf) file.
+Click for a larger [PNG](assault-deaths-oecd-ts-all-2.png) or [PDF](assault-deaths-oecd-ts-all-2.pdf). The individual time series broken out by country are also available as a large  [PNG](assault-deaths-oecd-ts-facet-2.png) or [PDF](assault-deaths-oecd-ts-facet-2.pdf) file.
 
-As you can see, the US comes in third in overall in the OECD countries for which this data is available. In my view, Estonia and Mexico are not good comparison cases for the US. You may disagree. The countries whose average rates are below the US but come closest to it in some years are Chile and Israel. Consult the [individual country panels](http://www.kieranhealy.org/files/misc/assault-deaths-oecd-ts-facet-2.png) to get a sense of when and and how close these countries are to the U.S. rates.
+As you can see, the US comes in third in overall in the OECD countries for which this data is available. In my view, Estonia and Mexico are not good comparison cases for the US. You may disagree. The countries whose average rates are below the US but come closest to it in some years are Chile and Israel. Consult the [individual country panels](assault-deaths-oecd-ts-facet-2.png) to get a sense of when and and how close these countries are to the U.S. rates.
 
 ## 5. What about Turkey?
 

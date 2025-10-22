@@ -10,6 +10,6 @@ categories:
 - Politics
 ---
 
-![Bacon vs Fries](http://www.kieranhealy.org/files/misc/baconvsfries_2.jpg)
+![Bacon vs Fries](baconvsfries_2.jpg)
 
 Via [John Gruber](http://daringfireball.net/).
