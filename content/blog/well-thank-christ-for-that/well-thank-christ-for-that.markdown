@@ -13,7 +13,6 @@ categories:
 
  **You Passed 8th Grade Math**
 
-![image](http://images.blogthings.com/couldyoupasseighthgrademathquiz/passed.jpg)
 
 
  

@@ -11,7 +11,8 @@ categories:
 - Sociology
 ---
 
-[![image](http://static.flickr.com/103/307184418_96c7a99c69_m.jpg)](http://www.flickr.com/photos/jeremyfreese/307184418/ "photo sharing")
+
+{{% figure src="trial-poster.png" %}}
 
 Via [Jeremy Freese](http://jeremyfreese.blogspot.com/2006/11/why-get-help-when-you-can-help-science.html), a poster for a Mass General Hospital study. As Jeremy says,
 

@@ -13,7 +13,7 @@ categories:
 
 Andrew Gelman with a [first pass at analyzing the election data](http://redbluerichpoor.com/blog/?p=206).
 
-![04/08 swing by state](http://www.kieranhealy.org/blog/archives/2004_2008_actualswing.png)
+
 
 This figure illustrates point 5 below—the election was more of a partisan swing than a redrawing of the electoral map. Andrew's impressions:
 

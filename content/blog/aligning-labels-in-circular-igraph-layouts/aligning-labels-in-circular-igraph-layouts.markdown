@@ -10,7 +10,7 @@ categories:
 - R
 ---
 
-![IPE financial integration network ](https://kieranhealy.org/files/misc/ipe-unc-graph.png)
+{{% figure src="ipe-unc-graph.png" caption="IPE financial integration network" %}}
 
 The folks at [IPE at UNC](http://ipeatunc.blogspot.com/2011/02/modeling-global-financial-integration.html) have produced this [nice animated gif](http://dl.dropbox.com/u/14507110/pdfout.gif) of some network data on increasing financial integration in the run-up to the 2008 crisis. They used a small trick I [pointed to](http://www.kieranhealy.org/blog/archives/2010/03/04/lists-and-loops-in-r/) a while ago (just using a pipe, nothing fancy) that lets you generate the gif from within R without tediously typing in filenames. Then they ask,
 
@@ -69,6 +69,6 @@ As is common in R, you can give this parameter a scalar argument (0, say, so all
 
 This gives us a graph with a nice layout, like this:
 
-![circular igraph with properly-aligned labels](https://kieranhealy.org/files/misc/circle-labels.png)
+{{% figure src="circle-labels.png" caption="circular igraph with properly-aligned labels" %}}
 
 I think this is what they're looking for.

@@ -11,8 +11,20 @@ image: no-king-two-term.jpg
 If you want to print out a poster for [October 18th](https://www.nokings.org), here are two; fully-guaranteed countrywide but maybe especially suitable for in and around New York. 
 
 <figure>
-<img  src="no-king.jpg" alt="" width="250" height="375">
-<img  src="two-term.jpg" alt="" width="250" height="375">
+
+<div style="display: flex; gap: 1rem;">
+<div style="height: 375px; width: 250px;">
+
+![](no-king.jpg)
+
+</div>
+
+<div style="height: 375px; width: 250px;">
+
+![](two-term.jpg)
+
+</div>
+</div>
 <figcaption><h4>Two signs to display</h4>
 </figure>
 

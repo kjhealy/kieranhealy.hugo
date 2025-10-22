@@ -1,7 +1,7 @@
 MetaDataFormat = "yaml"
 baseurl = "https://kieranhealy.org/"
 title = "kieranhealy.org"
-CanonifyUrls = true
+#CanonifyUrls = true
 rssLimit = 20
 
 contentdir = "content"
@@ -25,6 +25,16 @@ hasCJKLanguage = false     # has chinese/japanese/korean ?
 
 pagination.PagerSize = 20
 
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+
+[[module.mounts]]
+source = 'static'
+target = 'assets'
+
+[params.render_hooks.image]
+errorLevel = 'error' # ignore (default), warning, or error (fails the build)
 
 [markup]
   [markup.goldmark]

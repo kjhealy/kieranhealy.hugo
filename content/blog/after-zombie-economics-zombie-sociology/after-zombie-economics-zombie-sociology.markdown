@@ -7,9 +7,10 @@ status: publish
 title: After Zombie Economics,  Zombie Sociology
 wordpress_id: '1744'
 categories:
-
-- Sociology
+    - Sociology
 ---
 
 It's just a minor chest wound.
- [![image](https://kieranhealy.org/files/misc/zombie-sociologist.png "Halloween costume")](https://kieranhealy.org/files/misc/zombie-sociologist.png)
+
+{{% figure src="zombie-sociologist.png" caption="Halloween Costume" %}}
+

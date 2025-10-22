@@ -12,7 +12,8 @@ categories:
 
 What are CT's Greatest Hits? In the course of the recent [great database fiasco](http://www.crookedtimber.org/archives/002042.html), I took a look at the history of traffic to this site. The AWStats program gave me a the number of unique visitors for every day from our launch last July through to June 16th this year. Now, if I just looked at the posts that got the greatest number of visitors, there would be a bias towards posts from later in the year, because we get far more visitors these days than six or ten months ago. How can we get a fair estimate?
 
-![image](http://www.kieranhealy.org/files/misc/ct-decomposition.png)
+{{% figure src="ct-decomposition.png" %}}
+
 
 It's possible to statistically [decompose](http://www.jos.nu/Articles/abstract.asp?article=613) a time series into three components. First, there's the *seasonal* component: in this case, it's the regular ups and downs caused by what day of the week it is. Generally, there will be a regular dip in traffic every weekend, regardless of how much traffic we're getting on average. The average amount of traffic from week to week net of the seasonal ups and downs is the second, *trend* component. The number of visitors to Crooked Timber has grown consistently over the year. And finally there's the *remainder* or "irregular" component, which is whatever spikes and dips are left over once seasonal fluctuations and the underlying trend are accounted for.
 
@@ -31,7 +32,7 @@ Before counting down through the list, I should make an **Honorable Mention** of
 >
 > **7**. [Left-Wing Conspirators](http://crookedtimber.henryfarrell.net/archives/001337.html), by Kieran. The bizarre bedfellows in David Horowitz's database of Left Wingers.
 >
-> **6**. "Air MILES![image](!) /\>;!, by Daniel. Dsquared satisfies all your Friedman BS-detection and debunking needs. One day Daniel really is going to run into Tom in a frequent flyer lounge somewhere. I hope they are both drunk when it happens.
+> **6**. "Air MILES!" by Daniel. Dsquared satisfies all your Friedman BS-detection and debunking needs. One day Daniel really is going to run into Tom in a frequent flyer lounge somewhere. I hope they are both drunk when it happens.
 >
 > **5**. [Bright is as Bright Does](http://www.crookedtimber.org/archives/000239.html), by Kieran. Brights are the MENSA dweebs of the new century. This makes the list because it was the first CT post to get a lot of coverage after we launched.
 >

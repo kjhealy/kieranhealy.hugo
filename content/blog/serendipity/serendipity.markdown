@@ -13,7 +13,10 @@ categories:
 - Philosophy
 ---
 
-![image](http://www.kieranhealy.org/blog/images/rawls/rawlsetal-small.jpg)A few years ago, way back in the days before Crooked Timber, I wrote a post about [Princeton's old library-borrowing cards](http://www.kieranhealy.org/blog/archives/2002/11/26/the-network-of-ideas/). A snippet:
+{{% figure src="rawlsetal.jpg" %}}
+
+
+A few years ago, way back in the days before Crooked Timber, I wrote a post about [Princeton's old library-borrowing cards](http://www.kieranhealy.org/blog/archives/2002/11/26/the-network-of-ideas/). A snippet:
 
 > When I was a grad student at Princeton, someone told me that (just like most libraries before computers) the books in Firestone library used to have a pocket inside the cover where the book's borrowing record was kept on a card. When someone wanted the book from the library, the card would be removed and stamped with the date. Faculty and students then stamped their own name on the card or (either earlier, or instead) simply signed the card when they borrowed the book.
 >
