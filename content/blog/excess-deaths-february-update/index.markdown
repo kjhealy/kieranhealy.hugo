@@ -16,12 +16,12 @@ The CDC continues to update its counts of deaths by cause for 2020 as data comes
 
 Here's all-cause mortality for each jurisdiction, ordered by how far off their 2015-2019 average they were in 2020. Even though we're into 2021 there's still a fair amount of under-reporting in this data. North Carolina is omitted as they have barely reported any mortality data since the end of October. Other jurisdictions are still finalizing their numbers.
 
-{{% figure src="/files/misc/excess_all_cause_by_jurisdiction.png" alt="" caption="All-cause mortality by jurisdiction." %}}
+{{% figure src="excess_all_cause_by_jurisdiction.png" alt="" caption="All-cause mortality by jurisdiction." %}}
 
 
 Here's an overview for the whole of the United States, based on CDC data as of February 24th 2021.
 
-{{% figure src="/files/misc/cdc/usa_patch.png" alt="" caption="An overview of mortality in the US in 2020" %}}
+{{% figure src="cdc/usa_patch.png" alt="" caption="An overview of mortality in the US in 2020" %}}
 
 This figure has four sections. At the top is the weekly count of deaths from all causes in the United States. Counts for 2020 are highlighted in red. In gray are the equivalent counts for the years 2015 to 2019. If you're not familiar with mortality data of this sort, one thing that will jump out at you is its strongly seasonal character. People are more likely to die in the Winter than in the Summer. You'll also note the relative stability of these patterns, which we exploit to draw the graph. The grey lines over the past five years are pretty steady, as the ordinary cycle of things continues. They provide the baseline for the graph---that is, the thing we're comparing the red line of 2020 to. It's this patterned character to the data that lets us infer excess mortality, too. Not everything is fixed, of course. Even absent a pandemic, some years are worse than others. For example, the flu season in the Winter of 2017-2018 was [exceptionally severe](https://www.cdc.gov/flu/about/burden-averted/2017-2018.htm) and is the reason there's a high peak for one of the gray lines. The severity of the flu is easy to underestimate. 
 
@@ -37,4 +37,4 @@ The data for these figures comes from the CDC and is available in [covdata](http
 
 This gallery contains pictures that are the same as the one above, but there is one for every jurisdiction that the CDC tracks. Click or touch a thumbnail to see the full version and browse the gallery of images. Trend lines for these counts, especially when broken out by cause, will be noisier the smaller the population of the jurisdiction. Some states (e.g. North Carolina, which is a disaster for some reason) are slow in reporting complete statewide totals and so more recent weeks will tend to be under-counted, sometimes severely.
 
-{{< foldergallery src="files/misc/cdc/" >}}
+{{< foldergallery src="cdc/*.png" >}}

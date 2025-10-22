@@ -19,18 +19,19 @@
     </style>
 
     <div class="gallery">
-        {{ $base := .Get "src" }}
-	{{ $path := print "/static/" (.Get "src") }}
-
-	{{ range (readDir $path) }}
+        {{ $pattern := .Get "src" }}
+        {{ $images := .Page.Resources.Match $pattern }}
+        
+        {{ range $images }}
         {{- $thumbext := "_thumb" }}
-        {{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}<!-- is the current file a thumbnail image? -->
-        {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}<!-- is the current file an image? -->
+        {{- $isthumb := .Name | findRE ($thumbext | printf "%s\\.") }}
+        {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}
         {{- if and $isimg (not $isthumb) }}
-        {{- $thumb := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}
-            <a data-fancybox="gallery" href="/{{ $base }}/{{ .Name }}">
-                <img src="/{{ $base  }}/{{ $thumb }}">  <br/>            
+        {{- $thumbName := .Name | replaceRE "(\\.)" ($thumbext | printf "%s.") }}
+        {{- $thumbResource := $.Page.Resources.GetMatch $thumbName }}
+            <a data-fancybox="gallery" href="{{ .RelPermalink }}">
+                <img src="{{ $thumbResource.RelPermalink }}">  <br/>            
             </a>
         {{- end }}
-	{{ end }}
+        {{ end }}
     </div>

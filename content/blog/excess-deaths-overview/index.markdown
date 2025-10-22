@@ -24,7 +24,7 @@ Recent posts on the CDC data have been getting a fair amount of traffic. This pa
 
 ## Summarizing excess mortality in the United States this year so far
 
-{{% figure src="/files/misc/cdc/usa_patch.png" alt="" caption="An overview of mortality in the US in 2020" %}}
+{{% figure src="cdc/usa_patch.png" alt="" caption="An overview of mortality in the US in 2020" %}}
 
 This figure has four sections. At the top is the weekly count of deaths from all causes in the United States. Counts for 2020 ~~so far~~ are highlighted in red. In gray are the equivalent counts for the years 2015 to 2019. ~~More or less reliable data is available for about the first forty five weeks of the year so far, so we stop there. (This is not true of all states: see below.)~~ If you're not familiar with mortality data of this sort, one thing that will jump out at you is its strongly seasonal character. People are more likely to die in the Winter than in the Summer. You'll also note the relative stability of these patterns. The grey lines over the past five years are pretty steady, as the ordinary cycle of things continues. It's this patterned character to the data that lets us infer excess mortality, when things are worse than usual for some reason. Not everything is fixed, of course. For example, the flu season in the Winter of 2017-2018 was [exceptionally severe](https://www.cdc.gov/flu/about/burden-averted/2017-2018.htm) and is the reason there's a high peak for one of the gray lines. The severity of the flu is easy to underestimate. 
 
@@ -36,7 +36,7 @@ The bottom left panel shows the same weekly data as the upper panel, but broken 
 
 These graphs are the same as the one above, but there is one for every jurisdiction that the CDC tracks. Click or touch a thumbnail to see the full version and browse the gallery of images. Trend lines for these counts, especially when broken out by cause, will be noisier the smaller the population of the jurisdiction. Some states (e.g. North Carolina) are slow in reporting complete statewide totals and so more recent weeks are undercounted, sometimes severely.
 
-{{< foldergallery src="files/misc/cdc/" >}}
+{{< foldergallery src="cdc/*.png*" >}}
 
 ## An overview of excess deaths by cause in the United States
 
@@ -49,7 +49,7 @@ Most causes bounce around their average, but some are more variable than others.
 
 ## An overview of excess deaths by cause for selected large states and New York City
 
-{{% figure src="/files/misc/excess_by_selected_cause_jurisdiction.png" alt="" caption="Excess mortality across a number of causes by selected jurisdictions." %}}
+{{% figure src="excess_by_selected_cause_jurisdiction.png" alt="" caption="Excess mortality across a number of causes by selected jurisdictions." %}}
 
 The same figure as above, but for several large states as well as the United States as a whole. For comparison I include All Cause mortality here, i.e. all recorded deaths, along with the more specific causes. 
 
@@ -58,7 +58,7 @@ The same figure as above, but for several large states as well as the United Sta
 
 For all-cause mortality only, here are all the CDC jurisdictions arranged from high to low average total mortality across the period. This makes the row-order essentially a proxy for overall population size.
 
-{{% figure src="/files/misc/excess_all_cause_by_jurisdiction.png" alt="" caption="Excess all-cause mortality by jurisdictions." %}}
+{{% figure src="excess_all_cause_by_jurisdiction.png" alt="" caption="Excess all-cause mortality by jurisdictions." %}}
 
 As noted above, some states have reporting issues. Wisconsin, for instance, has some strange periodic dips in its 2015-2019 numbers that clearly seem to be reporting or recording problems. The result is that one of its years has one data point radically below the average number of deaths, which pulls the range of the state way out of line. Second, there are also data reporting issues for this year in at least North Carolina, Connecticut, and West Virginia. These states have been lagging more than average in their reporting of recent deaths since around July or August, and it is artificially suppressing their excess mortality numbers. I expect these numbers to shift as time goes on. 
 
