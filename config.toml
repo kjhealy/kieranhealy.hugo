@@ -1,7 +1,6 @@
 MetaDataFormat = "yaml"
 baseurl = "https://kieranhealy.org/"
 title = "kieranhealy.org"
-#CanonifyUrls = true
 rssLimit = 20
 
 contentdir = "content"
@@ -150,7 +149,6 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
 
   [params.social]                                        
-    #c-twitter = "https://twitter.com/kjhealy"
     g-github = "https://github.com/kjhealy"
     m-mastodon = "https://mastodon.social/@kjhealy"
 
@@ -189,19 +187,3 @@ blog = "/blog/archives/:year/:month/:day/:slug"
  term = ["HTML", "RSS"]
 
 
-# builddrafts = false
-# buildFuture = true
-
-# pygmentsOptions = "linenos=table"
-# pygmentsCodefences = true
-# pygmentsUseClasses = true
-# pygmentsCodefencesGuessSyntax = true
-
-
-# baseurl = "https://kieranhealy.org/"
-# title = "kieranhealy.org"
-# CanonifyUrls = true
-# rssLimit = 20.0
-
-# disableKinds = "taxonomyTerm"
-# preserveTaxonomyNames = true
