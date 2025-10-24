@@ -25,3 +25,84 @@
   margin: 0;
   display: inline;
 }
+
+/* Popup styling for narrow screens */
+.footnote-popup {
+  position: absolute;
+  max-width: 90%;
+  width: 400px;
+  padding: 1rem;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #333;
+  z-index: 1000;
+}
+
+.footnote-popup p {
+  margin: 0;
+}
+
+.footnote-popup-close {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footnote-popup-close:hover {
+  color: #333;
+}
+
+.footnote-popup-ref {
+  cursor: pointer;
+}
+
+/* Tufte-style sidenotes for wider screens */
+@media (min-width: 1200px) {
+  .post-content {
+    position: relative;
+  }
+
+  /* Style the sidenote references */
+  .sidenote-ref {
+    position: relative;
+  }
+
+  /* The actual sidenote in the margin */
+  .sidenote {
+    float: right;
+    clear: right;
+    margin-right: -280px;
+    width: 240px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #666;
+    position: relative;
+  }
+
+  .sidenote p {
+    margin: 0;
+  }
+}
+
+/* For very wide screens, add more space */
+@media (min-width: 1400px) {
+  .sidenote {
+    margin-right: -320px;
+    width: 280px;
+  }
+}
