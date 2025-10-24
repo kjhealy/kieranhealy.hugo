@@ -1,0 +1,27 @@
+/* Hide the HR element entirely */
+.footnotes hr {
+  display: none;
+}
+
+/* Use the footnotes div itself as the separator */
+.footnotes {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e6e6e6;
+}
+
+.footnotes ol {
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.footnotes li {
+  margin-bottom: 0.75rem;
+}
+
+.footnotes p {
+  margin: 0;
+  display: inline;
+}

@@ -128,7 +128,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = ['dark.css','codeblock.css']
+  customCSS = ['dark.css','codeblock.css', 'footnotes.css']
   customJS = ['codeblock.js']
 
   uglyURLs = false          # please keep same with uglyurls setting
