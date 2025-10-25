@@ -1,22 +1,22 @@
 .highlight-wrapper {
-    position: relative;
-    font-size: 16px;
-    border: 1px solid #EFF2F8;
-    padding: 0 0 0 0;
-    position: relative;
+  position: relative;
+  font-size: 16px;
+  border: 1px solid #eff2f8;
+  padding: 0 0 0 0;
+  position: relative;
 }
 
 .highlight-before {
-    background-color: #EFF2F8;
-    color: #0047ab;
-    padding: 5px 0px 0px 8px;
+  background-color: #eff2f8;
+  color: #0047ab;
+  padding: 5px 0px 0px 8px;
 }
 
 .highlight-link a {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 5px 0 0 5px;
-    font-size: 14px;
-    background-color: #FFFF8F;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 0 0 5px;
+  font-size: 14px;
+  background-color: #ffff8f;
 }
