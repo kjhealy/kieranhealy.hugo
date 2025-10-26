@@ -9,7 +9,7 @@ mathjax: false
 ---
 
 
-{{% figure src="f1stamp.jpeg" alt="Detail of an Irish passport stamped with a US entry stamp." class="full-width" caption="" %}}
+{{% figure src="f1stamp.jpeg" alt="Detail of an Irish passport stamped with a US entry stamp." caption="My admission stamp to the United States, August 28th, 1995." %}}
 
 In 1995, at the beginning of the last week of August, on the afternoon of an inhumanly hot and intolerably humid day, I arrived at Newark Airport to live in the United States. I was twenty two years old and about to start as a graduate student at Princeton. I have been here more or less the whole time since. I spent six years on an F-1 Visa while getting my PhD. After that, I lived and worked in Tucson for seven years. My conception of what counts as an inhumanly hot day changed. During that time I was on an H1-B Visa sponsored by my employer, the University of Arizona. Subsequently, I was granted Permanent Residency---a Green Card---through marriage. In 2009 I moved to North Carolina. My conception of what counts as an intolerably humid day changed. I am an immigrant to this country. I have made my life here. My two children are Americans. And now, as of yesterday, so am I. 
 
@@ -85,7 +85,7 @@ But isn't it [more complicated than that](https://kieranhealy.org/files/papers/f
 
 Now all standing, we raised our hands and took the oath. Once we stopped speaking, we were citizens. We watched a two-minute congratulatory video from President Trump. Even though the video was short, you could see that, in his usual way, he was improvising and riffing around what was on his teleprompter. The result was that he said some odd-sounding things, like how we had  U.S. citizenship "like no-one has ever had it before". It did not matter. The video finished. We filed out of our seats in row order to get our certificate of citizenship. And that was the end.
 
-{{% figure src="folderandflag.jpeg" alt="The flag they give you at the ceremony" caption="" class="full-width" %}}
+{{% figure src="folderandflag.jpeg" alt="The flag they give you at the ceremony" caption="" %}}
 
 Afterwards people milled about in the room, delighted, shaking hands, hugging one another. I hugged my daughter. I hugged my friends who had come down from New York at the last minute on an overnight bus to be there. I counted my blessings. There was a little staged area in the corner where people could pose for photographs against a backdrop. At the rear of the room, volunteers were set up and ready to register you to vote if you wanted. People were smiling and crying. Children were running around meeting one another. We were gently reminded that there was another ceremony due to start in twenty minutes. 
 
