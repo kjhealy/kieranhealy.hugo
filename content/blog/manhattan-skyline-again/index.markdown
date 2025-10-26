@@ -8,11 +8,11 @@ mathjax: false
 ---
 
 
+{{% figure src="skyline-plot.png" alt="Skyline plot" caption="A Manhattan Plot of Manhattan. Here I continue my efforts to design visualizations that are as poorly-suited as possible to being displayed on phones. It looks pretty good on a big monitor, or six feet wide on a wall." class="full-width" %}}
+
 I made a version of this plot a few years ago. I ended up revisiting it this morning  because I'm updating various datasets and code. A [Manhattan
 plot](https://en.wikipedia.org/wiki/Manhattan_plot) is a term sometimes used to describe a kind of scatter plot where the x-values are fairly continuous, and
 the y values have distributions with long tails, so the plot looks like a skyline. This one here is a bar chart rather than a scatter plot but it's still a kind of Manhattan plot of Manhattan. 
-
-{{% figure src="skyline-plot.png" alt="Skyline plot" caption="A Manhattan Plot of Manhattan. Here I continue my efforts to design visualizations that are as poorly-suited as possible to being displayed on phones. It looks pretty good on a big monitor, or six feet wide on a wall." class="full-width" %}}
 
 The plot shows the heights of almost all currently-existing buildings[^datanote] in Manhattan (on the y-axis) by their year of construction on the x-axis. What I want is a plot that gives a sense of the distribution of building heights over time. To make the plot work I play a few tricks. First, the resolution of the x-axis is only to the year,which would result in way too much overplotting. (We have almost 35,000 buildings to draw.) So we add a small amount of random noise to the x-values, which makes buildings distribute themselves around their year of construction. There's still overplotting, but now it works in our favor. It contributes to a feeling of building density. 
 
