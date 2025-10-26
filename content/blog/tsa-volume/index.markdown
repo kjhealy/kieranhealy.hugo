@@ -76,6 +76,6 @@ Reconciling ISO weeks and epiweeks is _mostly_ straightforward, but of course al
 
 Anyway, if we use `epiweek()` and `epiyear()` instead of `week()` and `year()` to construct our weekly series from our daily one, then we ensure by definition that all of our weeks have seven days in them, which gives us the continuity we want for plotting our weekly series. If we remake the plot, it looks like this:
 
-{{% figure src="tsa_volumes_wkly.png" alt="" caption="Smooth sailing. Or flying. You know what I mean." %}}
+{{% figure src="tsa_volumes_wkly.png" alt="" caption="Smooth sailing. Or flying. You know what I mean." class="full-width" %}}
 
 And now we have a smooth (epi)weekly series aggregated from our daily data.
