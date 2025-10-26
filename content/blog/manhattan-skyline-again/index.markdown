@@ -8,7 +8,7 @@ mathjax: false
 ---
 
 
-{{% figure src="skyline-plot.png" alt="Skyline plot" caption="A Manhattan Plot of Manhattan. Here I continue my efforts to design visualizations that are as poorly-suited as possible to being displayed on phones. It looks pretty good on a big monitor, or six feet wide on a wall." class="full-width" %}}
+{{% figure src="skyline-plot.png" alt="Skyline plot" caption="Here I continue my efforts to design visualizations that are as poorly-suited as possible to being displayed on phones. It looks pretty good on a big monitor, or six feet wide on a wall." class="full-width" %}}
 
 I made a version of this plot a few years ago. I ended up revisiting it this morning  because I'm updating various datasets and code. A [Manhattan
 plot](https://en.wikipedia.org/wiki/Manhattan_plot) is a term sometimes used to describe a kind of scatter plot where the x-values are fairly continuous, and
