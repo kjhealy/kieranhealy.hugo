@@ -6,24 +6,17 @@
 
 {{- if not $paginator.HasPrev }}
 
-<section id="pubs" class="archive">
-    <h1>Some Favorite Things</h1>
 
-    {{ range (where .Site.RegularPages "Section" "blog") }}
-    {{ if .Params.fave }}
-
-    <span class="post-title">
-        <a href="{{ .RelPermalink }}" class="archive-post-link">
-            {{ .Title }}
-        </a>
-        </span> &middot;
-
-        {{ end }}
-
-        {{ end }}
-        <br> <br>
-        <hr />
-</section>
+<section id="posts" class="posts">
+  {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
+  <section>
+    <span class="fp-meta"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span>
+    <h2 class="fp-headline"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary }}</p>
+    <p><em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
+    </section>
+    {{ end }}
+    </section>
 
 <section id="categories" class="archive">
     <h1>Categories</h1>
@@ -73,9 +66,10 @@
         <a href="{{ $element.RelPermalink }}" class="archive-post-link">
             {{ .Title }}
         </a>
-    </span> &middot;
+        </span> &middot;
 
     {{- end -}}
+<hr />
 </section>
 
 <!-- pagination -->

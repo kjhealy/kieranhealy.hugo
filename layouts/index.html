@@ -6,7 +6,8 @@
 <a rel="me" href="https://mastodon.social/@kjhealy">&nbsp;</a>
 </p>
 <section id="pubs" class="pubs">
-<h1>Some of my Work</h1>  
+
+<h1>Some of my Work</h1>
 <ul>
   {{ range (where .Site.RegularPages "Section" "in" (slice "publications")) }}  
 
@@ -35,16 +36,41 @@
 </ul>  
 </section>
 <section>
-<br />
 </section>
-<section id="posts" class="posts">
+<section id="posts" class="archive">
 <h1>Recent Writing</h1>
-  {{ range first 5 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
-  <section>
-    <span class="fp-meta"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span>
-    <h2 class="fp-headline"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      <p>{{ .Summary }}</p><p><em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
-  </section>
+  {{ range first 10 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
+
+  <span class="archive-post-time">
+        <em>{{ .Date.Format "January 2" }}</em> &nbsp;
+    </span>
+    <span class="post-title">
+        <a href="{{ .RelPermalink }}" class="archive-post-link">
+            {{ .Title }}
+        </a>
+    </span> &middot;
+
 {{ end }}
 </section>
+
+<section id="pubs" class="archive">
+    <h1>Some Favorite Things</h1>
+
+    {{ range (where .Site.RegularPages "Section" "blog") }}
+    {{ if .Params.fave }}
+
+    <span class="post-title">
+        <a href="{{ .RelPermalink }}" class="archive-post-link">
+            {{ .Title }}
+        </a>
+        </span> &middot;
+
+        {{ end }}
+
+        {{ end }}
+        <br> <br>
+        <hr />
+</section>
+
+
 {{- end -}}
