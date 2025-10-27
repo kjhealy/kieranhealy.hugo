@@ -1,14 +1,14 @@
 {{- define "content" -}}
 
-<p>I am Professor of <a href = "https://sociology.duke.edu">Sociology</a> at <a href = "https://www.duke.edu">Duke University</a>. &rarr; <a href = "about/">More about me.</a>
+<p>I am Professor of <a href = "https://sociology.duke.edu">Sociology</a> at <a href = "https://www.duke.edu">Duke University</a>. &rarr; <a href = "about/"><em>More about me.</em></a>
 
 <!--Mastodon verify-->
 <a rel="me" href="https://mastodon.social/@kjhealy">&nbsp;</a>
 </p>
-<section id="pubs" class="pubs">
+<section id="pubs" class="archive">
 
 <h1>Some of my Work</h1>
-<ul>
+<ul class="fp-tightlist">
   {{ range (where .Site.RegularPages "Section" "in" (slice "publications")) }}  
 
   {{ if .Params.fave }}

@@ -12,9 +12,10 @@
   <section>
     <span class="fp-meta"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span>
     <h2 class="fp-headline"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-    <p>{{ .Summary }}</p>
-    <p><em><a href="{{ .RelPermalink }}">Continue reading…</a></em></p>
-    </section>
+
+        {{ replaceRE "</p>$" "" .Summary | safeHTML }} &#10087; <em><a href="{{ .RelPermalink }}">Continue reading…</a></em>
+
+  </section>
     {{ end }}
     </section>
 
