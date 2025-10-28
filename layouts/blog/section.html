@@ -23,21 +23,18 @@
     <h1>Categories</h1>
 
     {{ $taxonomyObject := .Site.Taxonomies.categories }}
-
-    {{ range $taxonomyObject.ByCount }}
+    {{ $cats := $taxonomyObject.ByCount }}
+    {{ range $index, $cat := $cats }}
     <span class="post-title">
-        <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})
-    </span>
-    &middot;
-    {{ end }}
+        <a href="{{ $cat.Page.RelPermalink }}">{{ $cat.Page.LinkTitle }}</a> ({{ $cat.Count }})
+        </span>{{ if ne (add $index 1) (len $cats) }} &middot;{{ end }}
+        {{ end }}
 
-    <br> <br>
-    <hr />
-</section>
+        <br> <br>
+        <hr />
+        </section>
 
 {{- end }}
-
-
 
 <section id="archive" class="archive">
 
@@ -54,6 +51,11 @@
     {{- range $index, $element := $paginator.Pages -}}
     {{- $thisYear := $element.Date.Format "2006" }}
     {{- $lastElement := $index | add -1 | index $paginator.Pages }}
+    {{- $nextElement := $index | add 1 | index $paginator.Pages }}
+    {{- $nextYear := "" }}
+    {{- if $nextElement }}
+        {{- $nextYear = $nextElement.Date.Format "2006" }}
+    {{- end }}
     {{- if or (eq $index 0) ( ne ($lastElement.Date.Format "2006") $thisYear ) }}
     <div class="collection-title">
         <h2 class="archive-year">{{ $thisYear }}</h2>
@@ -67,11 +69,12 @@
         <a href="{{ $element.RelPermalink }}" class="archive-post-link">
             {{ .Title }}
         </a>
-        </span> &middot;
+        </span>{{ if and $nextElement (eq $nextYear $thisYear) }} &middot;{{ end }}
 
-    {{- end -}}
-<hr />
+        {{- end -}}
+        <hr />
 </section>
+
 
 <!-- pagination -->
 <nav class="pagination">

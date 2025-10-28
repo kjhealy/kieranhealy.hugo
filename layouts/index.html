@@ -26,51 +26,51 @@
     <li>
       <a href="{{ .Permalink }}"> {{ .Params.title | safeHTML }} </a>
     </li>
-
   {{ end }}
- 
   {{ end }}
-
   {{ end }}
   
 </ul>  
 </section>
-<section>
-</section>
+
+
 <section id="posts" class="archive">
 <h1>Some Recent Writing</h1>
-  {{ range first 10 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
+  {{ $recent := first 10 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
+  {{ range $index, $page := $recent }}
 
   <span class="archive-post-time">
-        <em>{{ .Date.Format "January 2" }}</em> &nbsp;
+        <em>{{ $page.Date.Format "January 2" }}</em> &nbsp;
     </span>
     <span class="post-title">
-        <a href="{{ .RelPermalink }}" class="archive-post-link">
-            {{ .Title }}
+        <a href="{{ $page.RelPermalink }}" class="archive-post-link">
+            {{ $page.Title }}
         </a>
-    </span> &middot;
+        </span>{{ if ne (add $index 1) (len $recent) }} &middot;{{ end }}
+        {{ end }}
+        </section>
 
-{{ end }}
-</section>
 
 <section id="pubs" class="archive">
     <h1>Some Favorite Things</h1>
 
+    {{ $faves := slice }}
     {{ range (where .Site.RegularPages "Section" "blog") }}
-    {{ if .Params.fave }}
-
-    <span class="post-title">
-        <a href="{{ .RelPermalink }}" class="archive-post-link">
-            {{ .Title }}
-        </a>
-        </span> &middot;
-
+        {{ if .Params.fave }}
+            {{ $faves = $faves | append . }}
         {{ end }}
+    {{ end }}
 
+    {{ range $index, $page := $faves }}
+    <span class="post-title">
+        <a href="{{ $page.RelPermalink }}" class="archive-post-link">
+            {{ $page.Title }}
+        </a>
+        </span>{{ if ne (add $index 1) (len $faves) }} &middot;{{ end }}
         {{ end }}
         <br> <br>
         <hr />
-</section>
+    </section>
 
 
 {{- end -}}
