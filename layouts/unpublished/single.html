@@ -2,7 +2,7 @@
   <article class="post">
     <!-- post-header -->
     <header class="post-header">
-        <h3>{{.Params.author}}, {{ .Params.citation | safeHTML }}</h3>
+        <h3 style="font-style: normal;">{{.Params.author}}, {{ .Params.citation | safeHTML }}</h3>
         {{ if .Params.doi }}<h4><a href="http://dx.doi.org/{{.Params.doi}}">doi:{{.Params.doi}}</a>{{ end }}
         {{ if .Params.file }}<a class="scp" href="{{.Site.BaseURL}}files/papers/{{.Params.file}}">&nbsp; &rarr; pdf</a></h4>{{ end }}
 
