@@ -1,5 +1,5 @@
 ---
-title: "Mamdani vs Sliwa/Cuomo"
+title: "Mamdani vs Sliwa and Cuomo"
 date: 2025-11-06T12:57:44-05:00
 categories: [politics,R,visualization]
 mathjax: false
