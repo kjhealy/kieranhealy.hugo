@@ -7,7 +7,7 @@ image: subway-mamdani-slimo-detail.png
 ---
 
 
-Mamdani's victory in the New York City mayoral election gave me the opportunity to draw a few maps, and also to learn a bit about incorporating additional spatial data into maps drawn in R. R is not a specialized piece of GIS software. ESRI's [ArcGIS](https://www.arcgis.com/) being the 800lb gorilla in this world and [QGIS](https://qgis.org) being the [GIMP](https://www.gimp.org) to its Photoshop, so to speak.
+Mamdani's victory in the New York City mayoral election gave me the opportunity to draw a few maps, and also to learn a bit about incorporating additional spatial data into maps drawn in R. R is not a specialized piece of GIS software. ESRI's [ArcGIS](https://www.arcgis.com/) is the 800lb gorilla in this world and [QGIS](https://qgis.org)  the [GIMP](https://www.gimp.org) to its Photoshop, so to speak.
 
 Still, you can do a lot of spatial stuff in R, grounded in the [`sf` package](https://r-spatial.github.io/sf/) and its many friends. Plus you get the benefit of all the data manipulation and analysis stuff that R is really good at. So, having gotten the precinct-level results for the election, some maps from New York City (e.g., the [clipped borough boundaries map](https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries)), and [GTFS data from the MTA](https://www.mta.info/developers) describing the structure of the subway system, I was able to draw some things. I strongly approve of the existence of the [GTFS](https://gtfs.org), by the way. It's a spec for encoding transit data and lots of cities use it. Really handy. 
 
