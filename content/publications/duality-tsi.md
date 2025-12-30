@@ -9,6 +9,7 @@ tag: categories-attributes-response
 subjects: ordinal society inequality stratification duality classification scores
 comments: no
 doi: 10.16995/tsi.26284
+file: duality-cat-att.pdf
 date: 2025-12-30
 publishdate: 2025-12-30
 filter:
