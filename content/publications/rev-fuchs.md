@@ -12,4 +12,4 @@ comments: no
 date: 2003-09-20
 publishdate: 2003-09-20
 ---
-Review of Stephan Fuch's <em>Against Essentialism</em>.
+Review of Stephan Fuchs's <em>Against Essentialism</em>.
