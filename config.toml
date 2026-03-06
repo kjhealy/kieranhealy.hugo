@@ -147,7 +147,7 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
    [params.author]
       name = "Kieran Healy"
-
+      email = "none@none.com"
 
 
 # See https://gohugo.io/about/hugo-and-gdpr/
