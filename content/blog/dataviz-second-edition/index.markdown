@@ -6,7 +6,7 @@ mathjax: false
 image: global_mean_simple.png
 ---
 
-I've written a second edition of [*Data Visualization: A Practical Introduction*](https://socviz.co), which ideally should come out with Princeton University Press later this year. As with the first edition, a full draft of the book is available at [https://socviz.co](https://socviz.co). The production process is just getting started so there's no new cover yet, and there isn't a link to pre-order. But (also like last time) I've put up a link to a form that let's you add your email if you'd like to be notified when it's available to buy. You'll only get one email (from me personally, not a marketing department) if you do; no spam or anything. 
+I've written a second edition of [*Data Visualization: A Practical Introduction*](https://socviz.co), which ideally should come out with Princeton University Press later this year. As with the first edition, a full draft of the book is available at [https://socviz.co](https://socviz.co). The production process is just getting started so there's no new cover yet, and there isn't a link to pre-order. But (also like last time) I've put up a link to a [form](https://forms.gle/4xeALwJLbzdzT8rz7) that lets you add your email if you'd like to be notified when it's available to buy. You'll only get one email (from me personally, not a marketing department) if you do; no spam or anything. 
 
 {{% figure src="global_mean_simple.png" alt="Global Mean Sea Surface Temperatures" caption="" %}}
 
