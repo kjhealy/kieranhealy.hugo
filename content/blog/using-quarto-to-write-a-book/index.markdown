@@ -37,9 +37,9 @@ dealing with code that needs to be run in the context of prose. In the R world
 these descendants include
 [Sweave](https://cran.r-project.org/doc/manuals/r-patched/packages/utils/vignettes/Sweave.pdf)
 and [RMarkdown/knitr](https://yihui.org/knitr/). These broadly "notebook"
-approaches to writing and discussing code have some benefits but also sharp
+approaches to writing and discussing code have benefits and also sharp
 limits if your focus is full-on software development and its documentation, or
-complex data analysis involving many interrelated steps. But it's *very* useful
+complex data analysis involving many interrelated steps. But they're *very* useful
 if you are primarily writing longer-form text that periodically requires things
 like figures and tables to be programatically generated in a reproducible
 fashion.
