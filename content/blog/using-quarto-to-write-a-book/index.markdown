@@ -66,13 +66,13 @@ book.
 
 The PDF design is a two-column "Tufte-style" layout with wide margins for side-notes and figures. It works very well for a book of this kind as we can show small figures alongside the code that generates them, but also have figures break out of the main text plot if needed. 
 
-{{% figure src="dv2-halloween-page" alt="" caption="Facing pages with a figure that runs the full width of one of the pages." %}}
+{{% figure src="dv2-halloween-page.png" alt="" caption="Facing pages with a figure that runs the full width of one of the pages." %}}
 
 A layout like this can't be rigidly ported over to a website, especially in an era of widely-varying screen sizes and small layouts. So the HTML version of the book has a broadly responsive layout that arranges things differently at different sizes. Organizing and tweaking it this time around was made a lot easier by Quarto's much better support for margin notes and marginal figures. It certainly wasn't without its headaches. Marginal figures and notes are quite annoying to deal with in both HTML and PDF formats, for different reasons. In the PDF case, it's tricky to get captions right, and there are still a few hacks in there to make it work. But it's *much* cleaner than what I had to do in RMarkdown for the first edition, which was in effect a lot of regular expression substitution for things I could only add after the `.tex` file was produced. That's gone now. 
 
 Here's a screenshot of a facing page layout with some code, some marginal notes, and two kinds of figures, one in the margin and one full page-width:
 
-{{% figure src="dv2-gdppercap-page" alt="" caption="Gapminder figures in the PDF version." %}}
+{{% figure src="dv2-gdppercap-page.png" alt="" caption="Gapminder figures in the PDF version." %}}
 
 And here's some of the same material as seen on the website:
 
