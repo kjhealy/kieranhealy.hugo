@@ -67,7 +67,7 @@ were produced. A version of the theme is in the development version of the
 [`socviz` package](https://kjhealy.github.io/socviz/) that accompanies the
 book.
 
-The PDF design is a two-column "Tufte-style" layout with wide margins for side-notes and figures. It works very well for a book of this kind as we can show small figures alongside the code that generates them, but also have figures break out of the main text plot if needed. 
+The PDF design is a two-column "Tufte-style" layout with wide margins for side-notes and figures. It works very well for a book of this kind as we can show small figures alongside the code that generates them, but also have figures break out of the main text column if needed. 
 
 {{% figure src="dv2-halloween-page.png" alt="" caption="Facing pages with a figure that runs the full width of one of the pages." class="full-width" %}}
 
