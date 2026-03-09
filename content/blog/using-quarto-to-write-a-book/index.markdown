@@ -14,7 +14,7 @@ The book is about doing good data visualization using [R](https://www.r-project.
 
 ## Reasonable Demands
 
-My baseline list of requirements for a book manuscript likes are as follows: 
+My baseline list of requirements for the book manuscript was as follows: 
 
 - The entire text of the book is in some kind of plain-text format. 
 - Figures in the book that are the result of R code should be directly produced by R code in the actual document; no cutting and pasting of code snippets and separately-produced figures. Doing that is a recipe for error. 
