@@ -36,13 +36,15 @@ programming](https://en.wikipedia.org/wiki/Literate_programming) approaches for
 dealing with code that needs to be run in the context of prose. In the R world
 these descendants include
 [Sweave](https://cran.r-project.org/doc/manuals/r-patched/packages/utils/vignettes/Sweave.pdf)
-and [RMarkdown/knitr](https://yihui.org/knitr/). These broadly "notebook"
+and [RMarkdown/knitr](https://yihui.org/knitr/).[^literate] These broadly "notebook"
 approaches to writing and discussing code have benefits and also sharp
 limits if your focus is full-on software development and its documentation, or
 complex data analysis involving many interrelated steps. But they're *very* useful
 if you are primarily writing longer-form text that periodically requires things
 like figures and tables to be programatically generated in a reproducible
 fashion.
+
+[^literate]: The trick is to have the code chunks in your document be short and sweet, and have structureed scripts and properly-documented packages manage the heavy lifting in any analysis.
 
 {{% figure src="workflow-wide-quarto.png" alt="" caption="A schematic overview of how Quarto orchestrates its document processing." class="full-width" %}}
 
