@@ -8,7 +8,7 @@ image: dv2-distributions-page-detail.png
 
 I've spent the last couple of months revising my [Data Visualization book](https://press.princeton.edu/books/hardcover/9780691181615/data-visualization) for a second edition that, ideally, will appear some time in the next twelve months. As with the first edition, I've posted a [complete draft of the book](https://socviz.co) at its website. The production process hasn't started yet, so it's not ready to pre-order or anything, but the site has a one-question [form you can fill out](https://forms.gle/4xeALwJLbzdzT8rz7) that asks for your email address if you'd like to be notified with one (and only one) email when it's available. A lot has changed since the first edition, reflecting changes both in R and ggplot specifically, and in the world of coding generally. I may end up highlighting some of those new elements in other posts. But here, I want to focus on some nerdy details involved in getting the book to its final draft. I'll discuss [Quarto](https://quarto.org), the publishing system I used, its many advantages, and its current limits with respect to the demands I made of it. 
 
-{{% figure src="dv2-distributions-page-detail.png" alt="Page detail from the draft book." caption="A detail from facing pages in Chapter 4, in the PDF version." %}}
+{{% figure src="dv2-distributions-page-detail.png" alt="Page detail from the draft book." caption="A detail from facing pages in Chapter 4, in the PDF version." class="full-width" %}}
 
 The book is about doing good data visualization using [R](https://www.r-project.org) and [ggplot](https://ggplot2.tidyverse.org). The book contains many figures, almost all of which are written using the code the book shows and explains. 
 
@@ -44,7 +44,7 @@ if you are primarily writing longer-form text that periodically requires things
 like figures and tables to be programatically generated in a reproducible
 fashion.
 
-{{% figure src="workflow-wide-quarto.png" alt="" caption="A schematic overview of how Quarto orchestrates its document processing." %}}
+{{% figure src="workflow-wide-quarto.png" alt="" caption="A schematic overview of how Quarto orchestrates its document processing." class="full-width" %}}
 
 If you just want to know whether you can write long-form projects like articles, books, or websites using Quarto and R, the answer is absolutely yes. A long time ago I wrote parts of my dissertation and several articles using Sweave. A few years ago I wrote the first edition of *Data Visualization* using RMarkdown. I wrote the second edition using Quarto. Each one was better than the previous version in terms of flexibility and power. Quarto eliminated several pain-points that I had to deal with for the first edition of this book. It's very [well-documented](https://quarto.org/docs/guide/) and continually improving. Its defaults are sensible and produce [good-looking output](https://quarto.org/docs/gallery/). You can stop reading now.
 
@@ -66,17 +66,17 @@ book.
 
 The PDF design is a two-column "Tufte-style" layout with wide margins for side-notes and figures. It works very well for a book of this kind as we can show small figures alongside the code that generates them, but also have figures break out of the main text plot if needed. 
 
-{{% figure src="dv2-halloween-page.png" alt="" caption="Facing pages with a figure that runs the full width of one of the pages." %}}
+{{% figure src="dv2-halloween-page.png" alt="" caption="Facing pages with a figure that runs the full width of one of the pages." class="full-width" %}}
 
 A layout like this can't be rigidly ported over to a website, especially in an era of widely-varying screen sizes and small layouts. So the HTML version of the book has a broadly responsive layout that arranges things differently at different sizes. Organizing and tweaking it this time around was made a lot easier by Quarto's much better support for margin notes and marginal figures. It certainly wasn't without its headaches. Marginal figures and notes are quite annoying to deal with in both HTML and PDF formats, for different reasons. In the PDF case, it's tricky to get captions right, and there are still a few hacks in there to make it work. But it's *much* cleaner than what I had to do in RMarkdown for the first edition, which was in effect a lot of regular expression substitution for things I could only add after the `.tex` file was produced. That's gone now. 
 
 Here's a screenshot of a facing page layout with some code, some marginal notes, and two kinds of figures, one in the margin and one full page-width:
 
-{{% figure src="dv2-gdppercap-page.png" alt="" caption="Gapminder figures in the PDF version." %}}
+{{% figure src="dv2-gdppercap-page.png" alt="" caption="Gapminder figures in the PDF version." class="full-width" %}}
 
 And here's some of the same material as seen on the website:
 
-{{% figure src="dv2-gdppercap-web.png" alt="" caption="Gapminder figures in the HTML version" %}}
+{{% figure src="dv2-gdppercap-web.png" alt="" caption="Gapminder figures in the HTML version" class="full-width" %}}
 
 [Here's a direct link to the same section.](https://socviz.co/04-group-facet-transform.html#facet-to-make-small-multiples) In the website version the marginal figures appear more marginal. There's also a little bit of conflict to be worked out between the navigation guides and the marginal notes. In addition, the intrinsic variability of the web layout means that the positioning of the marginal notes is less precisely controllable than it is in the PDF output. But the overall result is pretty good. And I have to say it's very satisfying to be able to produce a good website and a clean PDF (and also an ePub!) from the same folder of `qmd` files, with the text written in [Markdown](https://daringfireball.net/projects/markdown/), the bibliography managed by [Zotero](https://www.zotero.org) and [BBT](https://retorque.re/zotero-better-bibtex/), interspersed with the code that makes all the figures.
 
