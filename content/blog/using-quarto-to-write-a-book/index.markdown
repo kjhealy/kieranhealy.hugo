@@ -12,7 +12,7 @@ I've spent the last couple of months revising my [Data Visualization book](https
 
 The book is about doing good data visualization using [R](https://www.r-project.org) and [ggplot](https://ggplot2.tidyverse.org). The book contains many figures, almost all of which are written using the code the book shows and explains. 
 
-## Reasonable Demands
+### Reasonable Demands
 
 My baseline list of requirements for the book manuscript was as follows: 
 
@@ -51,7 +51,7 @@ If you just want to know whether you can write long-form projects like articles,
 {{% figure src="workflow-wide-quarto.png" alt="" caption="A schematic overview of how Quarto orchestrates its document processing." class="full-width" %}}
 
 
-## Unreasonable Demands
+### Unreasonable Demands
 
 I had a very clear idea about how I wanted the first edition of the book to look
 in print. I also knew that I wanted to make it available as a website. I was
@@ -83,7 +83,7 @@ And here's some of the same material as seen on the website:
 
 [Here's a direct link to the same section.](https://socviz.co/04-group-facet-transform.html#facet-to-make-small-multiples) In the website version the marginal figures appear more marginal. There's also a little bit of conflict to be worked out between the navigation guides and the marginal notes. In addition, the intrinsic variability of the web layout means that the positioning of the marginal notes is less precisely controllable than it is in the PDF output. But the overall result is pretty good. And I have to say it's very satisfying to be able to produce a good website and a clean PDF (and also an ePub!) from the same folder of `qmd` files, with the text written in [Markdown](https://daringfireball.net/projects/markdown/), the bibliography managed by [Zotero](https://www.zotero.org) and [BBT](https://retorque.re/zotero-better-bibtex/), interspersed with the code that makes all the figures.
 
-## Let the Professionals do a Professional Job
+### Let the Professionals do a Professional Job
 
 I should say "less precisely controllable _without substantial further adjustment_". Because this is the crux of the customization biscuit. There's no end to it. One of the benefits of being in a position to do a second edition---something I really am very grateful for---is that it allowed me to have a much better sense of the production process for the hard-copy of the book. This in turn placed sharp limits on what I was willing to do when it came to customizing the PDF version myself. Camera-ready files for books published by proper Presses are produced in many different ways. My [most recent book](https://theordinalsociety.com), which is all prose and no code, was designed and typeset using [Adobe InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign). For the first edition of *Data Visualization* I sent the Press a set of LaTeX files and PDF image assets. The LaTeX files produced a very good facsimile of the design we'd agreed on. Then the Press's typesetter laid it out in LaTeX. 
 
