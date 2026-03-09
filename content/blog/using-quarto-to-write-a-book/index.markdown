@@ -44,7 +44,7 @@ if you are primarily writing longer-form text that periodically requires things
 like figures and tables to be programatically generated in a reproducible
 fashion.
 
-[^literate]: The trick is to have the code chunks in your document be short and sweet, and have structureed scripts and properly-documented packages manage the heavy lifting in any analysis.
+[^literate]: The trick is to have the code chunks in your document be short and sweet, and have structured scripts and properly-documented packages manage the heavy lifting in any analysis.
 
 If you just want to know whether you can write long-form projects like articles, books, or websites using Quarto and R, the answer is absolutely yes. A long time ago I wrote parts of my dissertation and several articles using Sweave. A few years ago I wrote the first edition of *Data Visualization* using RMarkdown. I wrote the second edition using Quarto. Each one was better than the previous version in terms of flexibility and power. Quarto eliminated several pain-points that I had to deal with for the first edition of this book. It's very [well-documented](https://quarto.org/docs/guide/) and continually improving. Its defaults are sensible and produce [good-looking output](https://quarto.org/docs/gallery/). You can stop reading now.
 
