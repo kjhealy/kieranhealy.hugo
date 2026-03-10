@@ -62,7 +62,7 @@ case with the PDF, for reasons I will discuss in a moment. I'm pleased that
 Quarto performed so well with the whole process. I wrote two pretty
 heavily-customized output formats (one for PDF and one for HTML) that specified
 the layout of the book. Quarto's LaTeX-based book pipeline uses the [`scrbook` class](https://ctan.org/pkg/scrbook?lang=en) from the [KOMA-script](https://ctan.org/pkg/koma-script?lang=en) bundle, which has many nice features, though I find its documentation a tiny bit eccentric. (This might be because I wrote my first book using [the `memoir` class](https://ctan.org/pkg/memoir?lang=en).)  I also wrote a couple of R packages that
-managed the themes and some other details of how PNG and especially PDF figures
+managed the themes and some other details of how PNG and [especially PDF](https://kieranhealy.org/blog/archives/2025/02/06/kerning-and-kerning-in-a-widening-gyre/) figures
 were produced. A version of the theme is in the development version of the
 [`socviz` package](https://kjhealy.github.io/socviz/) that accompanies the
 book.
