@@ -25,9 +25,9 @@ problems and rejecting the social mechanisms we seem to have to coordinate it
 utopian socialism, in particular, often ends up with schemes that are at once
 clearly hierarchical, or at least occupationally differentiated, highly
 integrated and solidaristic, but also fully accommodating of individual freedoms
-and liberties. A magic wand granting some theory of human nature or positing a
-general conversion to some sort of religion of science are often waved to
-accomplish the hard parts.
+and liberties. A magic wand that grants some theory of human nature, or posits a
+general conversion to some sort of religion of science, is often waved by the
+author to accomplish the hard parts.
 
 A side effect of this line of thought is that the twin beliefs in rational
 administration of the social order and the harmonious satisfaction of individual
