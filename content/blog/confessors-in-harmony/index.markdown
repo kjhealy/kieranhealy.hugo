@@ -134,7 +134,7 @@ personality types:
 This translation is from *The Utopian Vision of Charles Fourier*, edited by
 Jonathan Beecher and Richard Bienvenu (Beacon, 1971). They note, somewhat dryly,
 that "Fourier does in fact go on to explain---at length---the process whereby
-the confessors do their matching. Unfortunately, his "algebraic" formulas do not
+the confessors do their matching. Unfortunately, his 'algebraic' formulas do not
 lend themselves to translation."
 
 Here's a taste of that, from volume eleven of *Oeuvres complètes de Charles Fourier*:
