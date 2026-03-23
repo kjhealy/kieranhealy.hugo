@@ -132,7 +132,7 @@ personality types:
 > represented in an equation of sympathy and may appear in a number of cases.
 
 This translation is from *The Utopian Vision of Charles Fourier*, edited by
-Jonathan Beecher and Richard Bienvenu (Beacon, 1971). They note, somewhat dryly,
+Jonathan Beecher and Richard Bienvenu (Beacon, 1971, pp. 378--80). They note, somewhat dryly,
 that "Fourier does in fact go on to explain---at length---the process whereby
 the confessors do their matching. Unfortunately, his 'algebraic' formulas do not
 lend themselves to translation."
