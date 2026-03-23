@@ -40,7 +40,7 @@ optimizes on the combination of people's present sexual wants and their basic
 personality types:
 
 > We will now take up one of the most interesting branches of the calculus of
-> the passions : the art of enabling anyone anywhere, even in places where he is
+> the passions: the art of enabling anyone anywhere, even in places where he is
 > a total stranger, to make instant contact with people with whom he is in
 > complete sympathy. If the theory of attraction offered no other advantage,
 > would it not still be a boon to all mankind? Would it not be a blessing to the
@@ -58,7 +58,7 @@ personality types:
 > Phalanx at four o'clock in the afternoon. They are immediately,,. served light
 > refreshments and then, even before they take time to wash, they rush off to
 > confession. The most skillful confessors and confessoresses of the region have
-> been gathered. Their j ob is to examine these thousand knights errant, each of
+> been gathered. Their job is to examine these thousand knights errant, each of
 > whom must submit a written declaration concerning his or her most recent
 > adventures. The confessors go over these declarations as well as the reports
 > of previous confessors; they study the immediate inclinations and physical
@@ -88,7 +88,7 @@ personality types:
 > That is the heart of the matter; now let us turn to subordinate problems. No
 > matter which of the three sympathies is brought into play, should it be
 > presented directly or should it be preceded by transitions or complements? In
-> the latter case, should the individual be subj ected to a direct unitary
+> the latter case, should the individual be subjected to a direct unitary
 > sympathy or to an inverse unitary sympathy or perhaps even a diffracted
 > sympathy? Should simple movement be relied upon?[^2] This is sometimes a wise
 > course of action, though rather inglorious, as simple movement always is; but
@@ -120,7 +120,7 @@ personality types:
 >
 >
 > This goes to show that the functions of the confessor are most important and
-> that a skilled confessor is an invaluable member of any Phalanx. The j ob is
+> that a skilled confessor is an invaluable member of any Phalanx. The job is
 > not one that can be confided to the first comer, as it is in civilization ; it
 > requires the greatest degree of tact, human understanding, and familiarity
 > with local circumstances. Women will excel more than men in this sort of work,
