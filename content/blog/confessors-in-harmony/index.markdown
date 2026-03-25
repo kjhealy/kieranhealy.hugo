@@ -6,7 +6,7 @@ mathjax: false
 image: phalanstere.jpg
 ---
 
-[Charles Fourier](https://en.wikipedia.org/wiki/Charles_Fourier) was an early socialist utopian, part of the French tradition of thinkers who came up with various schemes for the complete reorganization of society on more rational grounds, and whose views now read to us as an unstable admixture of obviously sensible notions, delusional crankery, and things that seem to encapsulate both of those elements at once in a way that brings out the weirder aspects of our own dominant forms of social organization. Fourierist communities, known in as [phalansteries](https://en.wikipedia.org/wiki/Phalanstère), got off the ground in several countries, including a few in the United States. The basic social unit he had in mind was called a _phalanx_; in his mind it would consist of 1,620 people, because of course there are 810 types of personality and you need two of each kind. A phalanstery is thus the large housing complex that houses a phalanx. [Horace Greeley](https://en.wikipedia.org/wiki/Horace_Greeley) founded a couple, including the Sylvania Colony in Pennsylvania that eventually became the town of [Greeley, PA](https://en.wikipedia.org/wiki/Greeley,_Pennsylvania). 
+[Charles Fourier](https://en.wikipedia.org/wiki/Charles_Fourier) was an early socialist utopian, part of the French tradition of thinkers who came up with various schemes for the complete reorganization of society on more rational grounds, and whose views now read to us as an unstable admixture of obviously sensible notions, delusional crankery, and things that seem to encapsulate both of those elements at once in a way that brings out the weirder aspects of our own dominant forms of social organization. Fourierist communities, known in as [phalansteries](https://en.wikipedia.org/wiki/Phalanstère), got off the ground in several countries, including a few in the United States. The basic social unit he had in mind was called a _phalanx_; in his mind, this would consist of 1,620 people, because of course there are 810 types of personality and you need two of each kind. A phalanstery is thus the large housing complex that houses a phalanx. [Horace Greeley](https://en.wikipedia.org/wiki/Horace_Greeley) founded a couple, including the Sylvania Colony in Pennsylvania that eventually became the town of [Greeley, PA](https://en.wikipedia.org/wiki/Greeley,_Pennsylvania). 
 
 {{% figure src="phalanstere.jpg" alt="A diagram of an ideal phalanstery." caption="A phalanstery." %}}
 
@@ -55,7 +55,7 @@ personality types:
 > Let us first consider the enormity of the calculations entailed by sympathetic
 > matching and the speed with which they must be performed. ... Let us suppose
 > that a horde of one thousand adventurers and adventuresses has arrived in a
-> Phalanx at four o'clock in the afternoon. They are immediately,,. served light
+> Phalanx at four o'clock in the afternoon. They are immediately served light
 > refreshments and then, even before they take time to wash, they rush off to
 > confession. The most skillful confessors and confessoresses of the region have
 > been gathered. Their job is to examine these thousand knights errant, each of
@@ -77,7 +77,7 @@ personality types:
 > choice among several candidates of identical character? Or should an appeal be
 > made to the visitor's alternating sympathies, his penchant for variety and
 > contrast in both the moral and physical realms? Such are the first questions
-> considered by the confessor. For there are three basic types of sympathies, 13
+> considered by the confessor. For there are three basic types of sympathies, 
 > and the initial problem is to decide which should be employed. A variation may
 > be in order. Or it may be advisable to continue on the same scale of
 > sympathies. For if an individual's appetite has not been exhausted by his
@@ -109,9 +109,9 @@ personality types:
 > he could instantaneously establish sympathetic relationships, he would run the
 > risk of getting involved in purely sensual intrigues, intrigues wholly lacking
 > in illusion. Like the people of civilization, he would fall back upon trivial,
-> simple sex. ( Sometimes this is necessary, but only as a respite from
+> simple sex. (Sometimes this is necessary, but only as a respite from
 > composite relationships or, as a transition, in moments of hesitation and of
-> overabundant pleasure. ) After a two days' visit, at the moment of his
+> overabundant pleasure.) After a two days' visit, at the moment of his
 > departure, he might accidentally encounter people with whom he was truly
 > sympathetic. Then he would regret having spent his two days without having
 > known their merit and without having formed a liaison which might have charmed
@@ -121,7 +121,7 @@ personality types:
 >
 > This goes to show that the functions of the confessor are most important and
 > that a skilled confessor is an invaluable member of any Phalanx. The job is
-> not one that can be confided to the first comer, as it is in civilization ; it
+> not one that can be confided to the first comer, as it is in civilization; it
 > requires the greatest degree of tact, human understanding, and familiarity
 > with local circumstances. Women will excel more than men in this sort of work,
 > and as a rule in Harmony there will be two confessoresses for every one
