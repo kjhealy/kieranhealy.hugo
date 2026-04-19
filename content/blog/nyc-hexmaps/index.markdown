@@ -6,7 +6,7 @@ mathjax: false
 image: nychex-ct-hex-ba.png
 ---
 
-The five boroughs of New York City can be informally or formally carved up into many different pieces, depending on what it is that you're doing. As part of an ongoing project, I recently made an R package, [(`nycmaps`)](https://kjhealy.github.io/nycmaps/), that lets you draw maps of some of these geographies. Things being what they are, these spatial units don't necessarily overlap in compatible ways. City, State, and Congressional  Districts, School Districts, Police Precincts, Fire Companies, Election Precincts, Municipal Court Districts, Zip Codes ... there are loads of them. Some of them are quite straightforward; others patiently lie in wait to trap unwary analysts (I'm looking at you, Zip Codes / [ZCTAs](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html)). 
+The five boroughs of New York City can be informally or formally carved up into many different pieces, depending on what it is that you're doing. As part of an ongoing project, I recently made an R package, [`nycmaps`](https://kjhealy.github.io/nycmaps/), that lets you draw maps of some of these geographies. Things being what they are, these spatial units don't necessarily overlap in compatible ways. City, State, and Congressional  Districts, School Districts, Police Precincts, Fire Companies, Election Precincts, Municipal Court Districts, Zip Codes ... there are loads of them. Some of them are quite straightforward; others patiently lie in wait to trap unwary analysts (I'm looking at you, Zip Codes / [ZCTAs](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html)). 
 
 ### Mapping Tracts and NTAs
 
