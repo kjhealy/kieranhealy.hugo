@@ -15,7 +15,7 @@ some other way of viewing your data instead. On the other hand, I just made 424
 animated pie charts because, if you're going to break a rule, you should break
 it good and hard.
 
-{{% figure src="subway-system.png" alt="A view of the New York City Subway System (excluding the SIR). We'll animate this in a minute." caption="A view of the New York City Subway System (excluding the SIR). We'll animate this in just a minute." %}}
+{{% figure src="subway-map.png" alt="A view of the New York City Subway System (excluding the SIR). We'll animate this in a minute." caption="A view of the New York City Subway System (excluding the SIR). We'll animate this in just a minute." %}}
 
 
 The New York City Subway system is very large and carries [a *lot* of passengers
