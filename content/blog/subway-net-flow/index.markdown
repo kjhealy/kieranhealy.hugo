@@ -43,11 +43,11 @@ introducing some further assumptions about Subway users. For example we might as
 
 I do something rather more simple here. I use the MTA's hourly
 origin-destination estimates and aggregate them on a station-by-station basis to
-calculate in-and-out of the station flows across 424 subway stations or station
+calculate in-and-out flows across 424 subway stations or station
 complexes. These specific numbers are averaged over all Mondays in 2025. For
 each hour of the we calculate the total passenger volume at the station, and the
 share of that volume that are estimated arrivals and departures. Then we draw a
-pie chart for each station is a pie chart, coloring it yellow for departures,
+pie chart for each station, coloring it yellow for departures,
 purple for arrivals. The circle size reflects total volume and the pie slice
 proportions show the flow balance. 
 
