@@ -8,7 +8,7 @@ image: net-flow-thumb.png
 
 [Pie charts are bad](https://socviz.co/08-polishing.html#saying-no-to-pie), as
 any fule kno. We're not as good at judging relative differences between angles
-and and areas as we are at judging relative differences in lengths on a common
+and areas as we are at judging relative differences in lengths on a common
 baseline. This is especially true when we have more than two things to compare
 at the same time. So, as a rule, you shouldn't use them. You should figure out
 some other way of viewing your data instead. On the other hand, I just made 424
