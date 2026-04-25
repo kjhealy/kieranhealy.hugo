@@ -12,7 +12,7 @@ and and areas as we are at judging relative differences in lengths on a common
 baseline. This is especially true when we have more than two things to compare
 at the same time. So, as a rule, you shouldn't use them. You should figure out
 some other way of viewing your data instead. On the other hand, I just made 424
-animated pie charts because, if you're going to break a rule, you should break
+animated pie charts because if you're going to break a rule you should break
 it good and hard.
 
 {{% figure src="subway-map.png" alt="A view of the New York City Subway System (excluding the SIR). We'll animate this in a minute." caption="A view of the New York City Subway System (excluding the SIR). We'll animate this in just a minute." %}}
