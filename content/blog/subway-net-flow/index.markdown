@@ -39,7 +39,7 @@ about the flow of traffic from any particular station to any other. Because
 there are so many combinations, visualizing that sort of data is quite tricky.
 Even then, you don't get information about _routes_ through the system, just
 start and end points. Transit analysts and planners can go further by
-introducing some further assumptions about Subway users. For example we might assume that commuters take the most efficient route between any given pair of entry and exit stations, and build from there to a picture of flow through the system.
+introducing some further assumptions about subway users. For example we might assume that commuters take the most efficient route between any given pair of entry and exit stations, and build from there to a picture of flow through the system.
 
 I do something rather more simple here. I use the MTA's hourly
 origin-destination estimates and aggregate them on a station-by-station basis to
