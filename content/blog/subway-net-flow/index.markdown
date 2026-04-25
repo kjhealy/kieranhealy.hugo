@@ -25,7 +25,7 @@ subway, including data on hourly flow through the system. Now, the MTA can't
 track individual pathways people take through the subway. If you use an [OMNY
 card](https://omny.info) (or before that, a Metrocard) to enter the system, this
 signals the start of a trip from some specific station or station complex. But
-unlike some systems, you don't need to "tag out" of the Subway, you just exit
+unlike some systems, you don't need to "tag out" of the subway, you just exit
 through a turnstile. So the system doesn't know where you exit it. In addition,
 while many stations are just on a single line, some (like 34 St/Penn Station, or
 Fulton Street) are station complexes that serve many lines and allow transfers
