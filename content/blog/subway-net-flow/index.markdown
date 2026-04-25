@@ -51,7 +51,7 @@ pie chart for each station, coloring it yellow for departures,
 purple for arrivals. The circle size reflects total volume and the pie slice
 proportions show the flow balance. 
 
-The flow data is pretty bulky. The original dataset has about 121 million rows. But working with it is pretty straightforward, thanks to the magic of parquet files, [duckdb](https://duckdb.org), and [duckplyr](https://duckplyr.tidyverse.org). Having patiently downloaded the data via its API, I put it in a parquet file. The CSV is abotu 17GB but the parquet file boils it down to 1.5GB. Then I made a small R package that bundled that data with a few convenience functions. This lets me use the data without copying it into any single project. So I can write, e.g., 
+The flow data is pretty bulky. The original dataset has about 121 million rows. But working with it is pretty straightforward, thanks to the magic of parquet files, [duckdb](https://duckdb.org), and [duckplyr](https://duckplyr.tidyverse.org). Having patiently downloaded the data via its API, I put it in a parquet file. The CSV is about 17GB but the parquet file boils it down to 1.5GB. Then I made a small R package that bundled that data with a few convenience functions. This lets me use the data without copying it into any single project. So I can write, e.g., 
 
 {{< code r >}}
 
