@@ -4,6 +4,7 @@ date: 2026-05-02T08:59:15-04:00
 categories: [visualization,R]
 mathjax: false
 image: rhythms_2025_weather.png
+imagecap: "Bad weather suppresses Subway ridership. But not always."
 ---
 
 {{% figure src="snow-in-nyc.png" alt="Two figures walking in the snow; trees in the distance." caption="Snow in Inwood, New York. Photograph by the author." class="full-width" %}}
