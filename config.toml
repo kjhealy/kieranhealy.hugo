@@ -7,7 +7,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-languageCode = "en"
+locale = "en-US"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field enableRobotsTXT = true
 enableEmoji = false
 theme = ["hugo-video", "even"]
@@ -147,8 +147,6 @@ blog = "/blog/archives/:year/:month/:day/:slug"
 
    [params.author]
       name = "Kieran Healy"
-      email = "none@none.com"
-
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
