@@ -21,7 +21,7 @@ The gray lines are the baseline. The red ones are the bad weather day. The basic
 
 We can see a few different cases in the panels. First are days when the weather event put no dent at all in people's day. This is because ~~of the incredible toughness and resilience of New Yorkers, something they are surprisingly very modest about~~ even though there was a weather event in the region that day, it just didn't impinge on the city much, or at all. The light snow on February 11th or the heavy rain on March 6th are examples here. People just continued to go about their business. 
 
-Second are cases where there's a lot of travel suppression but it's not really---or not wholly---the weather that's responsible. The winter storm on Friday December 26th is a case of this. That's not a regular Friday. Many people are able to stay at home anyway, because it's the day after Christmas.
+Second are cases where there's a lot of travel suppression but it's not really---or not wholly---the weather that's responsible. The winter storm on Friday December 26th is a case of this. Bad weather; strongly suppressed travel profile; but that's not a regular Friday. Many people were staying at home anyway, because it's the day after Christmas.
 
 Third are cases where the weather does seem to have suppressed travel. These are days like the snow on January 19th, or the shitty weather on Sunday February 16th. These events look like they made people stay at home. Some of these are more severe than others. The strongest example is the flash flooding on Thursday July 31st. That happened in the back half of the day and affected the evening commute directly. 
 
