@@ -29,7 +29,7 @@ possession is not only informative, it also immediately entails that Team B had
 Literally none of the measures in the Basketball data above are zero-sum in this way. Both teams could shoot 100% from the free throw line, or zero percent. But because the first three measures shown are percentages, this reinforces the zero-sum impression given by the lines. It certainly did that in my case. But then, starting with Assists, the remaining rows are just absolute numbers. When I started looking at the absolute numbers, I got confused a second time by the length of the lines. "Oh so it's not a share, it's the value" I thought---but no, they do correspond in terms of relative proportions to the teams share within each row. But they're not really *shares* they're just *magnitudes*. But they have to be shown in a fixed space and we want to make them relatively comparable somehow so ...  Argh.
 
 
-It would be nice if there were One Weird Trick to make this figure better. But the truth is I'm not sure that there is. For example, at a minimum we could redraw these numbers to reflect the fact that they're not zero-sum. Keep each measure as a row (i.e. on the y-axis) but have the lines, or columns, be side by side within each category instead of facing off. Like this:
+It would be nice if there were One Weird Trick to fully fix this figure. But I'm not sure that there is. For example, at a minimum we could redraw these numbers to reflect the fact that they're not zero-sum. Keep each measure as a row (i.e. on the y-axis) but have the lines, or columns, be side by side within each category instead of facing off. Like this:
 
 {{% figure src="gruber-stats1.png" alt="" caption="Team Stats side by side for each measure." %}}
 
@@ -43,36 +43,40 @@ we're usually putting _the same kind of thing_ (e.g. countries, or religious
 groups, or sports teams) on the y-axis, and then seeing how different their
 scores are on some single measure (e.g. GDP, or number of adherents, or average
 points scored per game), which we put on the x-axis. Maybe we use color to break
-things out by some third measure as well. ([Here's an
-example.](https://socviz.co/05-more-on-geoms.html#fig-ch-05-organdata-06)) In
+things out by some third measure as well.[^2] In
 this case, I've just labeled the x-axis as generically as possible. "Value"
-covers the range of all the measures. The lowest value is 5 (in Largest Lead)
-and the highest is 88 (in Free Throw %). But these numbers are not meaningfully
+covers the range of all the measures. The lowest value is 5, in Largest Lead.
+The highest is 88, in Free Throw %. But these numbers are not meaningfully
 comparable. The graph encourages us to compare across as well as within
 categories. But while within-category comparisons are meaningful, the
 between-category ones are not. There were way more Bench Points than Blocks in
 the game. But that is not a useful thing to know.
 
-Our fundamentaly problem is that we just have two cases (the teams) and fifteen
-different measures, or variables, each of which (except for the three
-percentages) is in effect on its own scale. There's no direct way to make
+Our fundamental problem is that we just have two cases (the teams) and fifteen
+different measures, or variables. Each variable, except for the three
+percentages, is in effect on its own scale. There's no direct way to make
 comparisons across them. Sure, some of these measures are probably going to be
 associated with one another---e.g. Turnovers and Points Off Turnovers---but the
 numeric values aren't directly comparable in general. If you know a lot about
 basketball you might have some informative rules of thumb about each one of
-these measures, and even some of them in combination. But at that point the
-lines in the graph are not going to be doing any work for you; you'll just end
-up looking directly at the numbers. 
+these measures, or some of them in combination. But at that point the lines in
+this particular graph are not going to be doing any work for you; you'll just
+end up looking directly at the numbers. If we had data on all these measures for
+every NBA game for a whole season then we could of course do much more with
+them, because then each measure would have a distribution across all games and
+across all teams.
 
-The main thing I could think of to do with this kind of graph is something like this:
+As it is, the purpose of the "Stats" screen in Apple Sports just to summarize
+information from a single game. The other thing I could think of to do with the
+numbers as kind of graph is something like this:
 
 {{% figure src="gruber-stats3.png" alt="" caption="A back-to-back column chart." %}}
 
 This is *marginally* more helpful than the one before just because, again, it
-gets rid of the unhelpful zero-sum look of the original. But you can immediately
-(I hope) see that it creates many other difficulties. It doesn't---it can't---do
-away with the core problem. That problem is principally one of information
-design rather than data visualization. What I mean is that what we're trying to
+gets rid of the unhelpful zero-sum look of the original. As I hope you can
+immediately see, it creates many other difficulties. It also doesn't do away
+with the core problem. That problem is principally one of information design
+rather than data visualization. What I mean is that what we're trying to
 organize is, in effect, fifteen pairs of related but fundamentally distinct
 numbers. If we had fifteen cases and two variables things would be simple. But
 with fifteen variables and two cases ... well, this is not the kind of thing you
@@ -88,3 +92,5 @@ sort of looks like one, and that ends up confusing people.
 [^1]: Modulo some measurement decisions about how to determine when possession is turned over while the ball is in play. 
 
 
+[^2]: [Here's an
+example](https://socviz.co/05-more-on-geoms.html#fig-ch-05-organdata-06) of a graph with a categorical measure on the y-axis, a continuous measure on the x-axis, and an additional categorical feature shown with color.
