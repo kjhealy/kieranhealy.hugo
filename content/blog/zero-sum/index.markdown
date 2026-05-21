@@ -52,6 +52,8 @@ categories. But while within-category comparisons are meaningful, the
 between-category ones are not. There were way more Bench Points than Blocks in
 the game. But that is not a useful thing to know.
 
+Knowing who won each measure isn't nothing. It can be informative about how the game went, maybe especially when a team won the game but "lost" on a number of the measures. If you really wanted to lean in to that aspect, you could sort of justify the zero-sum view, and maybe look for a way to sort and order by "how much" a team "won" each category. But again, what's the right denominator for those measures? For instance, do we care about a team's share of all Defensive Rebounds in the game? Or do we care about the share of Defensive Rebounds a team won relative to every opportunity it had to make a Defensive Rebound? How meaningful is ordering our rows by those kinds of shares? Even worse, some measures (notably Fouls) are *bad* to "win", so we'd have to do something about those.
+
 Our fundamental problem is that we just have two cases (the teams) and fifteen
 different measures, or variables. Each variable, except for the three
 percentages, is in effect on its own scale. There's no direct way to make
