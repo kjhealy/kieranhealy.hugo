@@ -86,7 +86,7 @@ numbers (thirty two, including the score). Lots of information. A straight table
 seems like it would be boring. Surely there's some way to thematically integrate
 the numbers in a visually appealing manner that brings out some of the
 relationships across the rows. That's what graphs do; it seems like the right
-thing to reach for. But at it's heart this information is not a graph. It just
+thing to reach for. But at its heart this information is not a graph. It just
 sort of looks like one, and that ends up confusing people.
 
 [^1]: Modulo some measurement decisions about how to determine when possession is turned over while the ball is in play. 
