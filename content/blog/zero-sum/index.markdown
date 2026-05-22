@@ -83,7 +83,7 @@ immediately see, it creates many other difficulties. It also doesn't do away
 with the core problem. That problem is principally one of information design
 rather than data visualization. What I mean is that what we're trying to
 organize is, in effect, fifteen pairs of related but fundamentally distinct
-numbers. If we had fifteen cases and two variables things would be simple. But
+numbers. If we had fifteen *cases* and two *variables* things would be simple. But
 with fifteen variables and two cases ... well, this is not the kind of thing you
 can make a single effective and non-confusing graph out of. That's why I kind of
 sympathize with the designer. In a constrained space they have to show thirty
