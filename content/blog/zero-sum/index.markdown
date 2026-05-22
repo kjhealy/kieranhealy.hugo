@@ -71,7 +71,7 @@ every NBA game for a whole season then we could of course do much more with
 them, because then each measure would have a distribution across all games and
 across all teams.
 
-As it is, the purpose of the "Stats" screen in Apple Sports just to summarize
+As it is, the purpose of the "Stats" screen in Apple Sports is just to summarize
 information from a single game. The other thing I could think of to do with the
 numbers as kind of graph is something like this:
 
