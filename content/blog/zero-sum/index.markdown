@@ -54,7 +54,7 @@ the game. But that is not a useful thing to know.
 
 Knowing who won each measure isn't nothing. It can be informative about how the game went, maybe especially when a team won the game but "lost" on a number of the measures. If you really wanted to lean in to that aspect, you could sort of justify the zero-sum view, and maybe look for a way to sort and order by "how much" a team "won" each category. But again, what's the right denominator for those measures? For instance, do we care about a team's share of all Defensive Rebounds in the game? Or do we care about the share of Defensive Rebounds a team won relative to every opportunity it had to make a Defensive Rebound? How meaningful is ordering our rows by those kinds of shares? Even worse, some measures (notably Fouls) are *bad* to "win", so we'd have to do something about those.
 
-{{% figure src="gruber-stats2.png" alt="" caption="Team Stats side by side for each measure." %}}
+{{% figure src="gruber-stats2.png" alt="" caption="Team Stats side by side and ordered from absolute highest to lowest, whatever that means." %}}
 
 
 Our fundamental problem is that we just have two cases (the teams) and fifteen
