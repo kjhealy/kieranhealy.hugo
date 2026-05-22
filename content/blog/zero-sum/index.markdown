@@ -6,7 +6,7 @@ mathjax: false
 image: apple-sports-team-stats-wtf.png
 ---
 
-Over at [Daring Fireball](https://daringfireball.net), John Gruber is makes a passing observation about the Apple Sports app:
+Over at [Daring Fireball](https://daringfireball.net), John Gruber makes a passing observation about the Apple Sports app:
 
 > I’ve got some gripes about certain specific aspects of Apple Sports. Like, where does one even *start* to explain how much is wrong with [their zero-sum visualization of team stats](https://daringfireball.net/misc/2026/05/apple-sports-team-stats-wtf.png)? Has anyone ever even seen a presentation like that before? [Anyone](https://kieranhealy.org/)?
 
