@@ -43,7 +43,8 @@ errorLevel = 'error' # ignore (default), warning, or error (fails the build)
       [markup.goldmark.parser.attribute]
         block = true
 
-
+[security]
+  allowContent = ['^text/markdown$', '^text/html$']
 
 [sitemap]                 # essential
   changefreq = "weekly"
