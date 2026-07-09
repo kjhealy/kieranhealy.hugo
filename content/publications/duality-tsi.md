@@ -4,7 +4,7 @@ fave: false
 author: Marion Fourcade and Kieran Healy
 status: published
 type: published
-citation: "&ldquo;The Duality of Categories and Attributes.&rdquo; <em>Theory and Social Inquiry</em>."
+citation: "&ldquo;The Duality of Categories and Attributes.&rdquo; <em>Theory and Social Inquiry</em> 1 (2) 1-39."
 tag: categories-attributes-response
 subjects: ordinal society inequality stratification duality classification scores
 comments: no
