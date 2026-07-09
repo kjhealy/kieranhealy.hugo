@@ -5,7 +5,7 @@ fave: false
 author: Marion Fourcade and Kieran Healy
 status: Published
 type: published
-citation: "&ldquo;Tales of light and darkness: a response to comments on <em>The Ordinal Society</em>.&rdquo; <em>Journal of Cultural Economy</em>." 
+citation: "&ldquo;Tales of light and darkness: a response to comments on <em>The Ordinal Society</em>.&rdquo; <em>Journal of Cultural Economy</em> 19 (1): 167--169." 
 tag: told-tos-response
 file: told-tos-response.pdf
 subjects: ordinal society inequality stratification
