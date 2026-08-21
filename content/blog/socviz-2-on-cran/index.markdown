@@ -1,5 +1,5 @@
 ---
-title: "`socviz` 2.0.0 on CRAN"
+title: "socviz 2.0.0 on CRAN"
 date: 2026-08-21T07:25:44-04:00
 categories: [r]
 mathjax: false
