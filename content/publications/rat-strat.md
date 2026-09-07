@@ -2,8 +2,8 @@
 title: "Rationalized Stratification"
 author: Marion Fourcade and Kieran Healy
 status: Forthcoming
-type: unpublished
-citation: "&ldquo;Rationalized Stratification.&rdquo; To appear in <em>Social Stratification</em> (5th Ed.), Michelle Jackson, Nima Dahir, Claire Daviss and David Grusky, eds. New York: Routledge."
+type: published
+citation: "&ldquo;Rationalized Stratification.&rdquo; Pp. 94-100 in <em>Social Stratification</em> (5th Ed.), Michelle Jackson, Nima Dahir, Claire Daviss and David Grusky, eds. New York: Routledge."
 tag: rat-strat
 file: rat-strat.pdf
 subjects: credit algorithms markets inequality stratification
