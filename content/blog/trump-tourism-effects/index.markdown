@@ -27,4 +27,6 @@ So, no Covid-scale drop. But still, not nothing. The Canadian dip, following the
 
 The general lesson, I suppose, is just that it's always worth trying to cultivate some sort of rough comparative sense of how big or small an effect you should be expecting to see in your data, so that when something goes wrong (as things so often do) you're more likely to be brought up short by it. 
 
+Speaking of which, you might also wonder about the remarkable leap in visitors from Mexico around 2004-2005 that's visible in both the original graph and my version of it. What happened there? The answer is not some sudden shift in tourism preferences, but [our old friend](https://kieranhealy.org/blog/archives/2018/08/01/i-cant-believe-its-not-butter/), measurement change. Prior to 2005, visitors from Mexico originating within 25 miles of the border weren't counted as visitors. After 2005, they were. Hence the jump. In a smaller but still noticeable way, data for 2014 aren't fully comparable either, because overseas one-night-stay visitors were included that year. There is some documentation of this [on this old BTS page](https://www.bts.gov/archive/publications/passenger_travel_2015/chapter2/fig2_22). If you want to measure change, you can't change the measure.
+
 
