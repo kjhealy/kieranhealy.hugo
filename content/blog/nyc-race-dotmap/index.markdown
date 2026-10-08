@@ -1,8 +1,7 @@
 ---
 title: "A New York City Race and Ethnicity Dotmap"
 date: 2024-05-31T17:38:15-04:00
-categories: [Visualization]
-tags: [NYC]
+categories: [Visualization,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

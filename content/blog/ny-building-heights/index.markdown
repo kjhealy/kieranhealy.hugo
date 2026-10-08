@@ -1,8 +1,7 @@
 ---
 title: "Manhattan Building Heights"
 date: 2022-06-23T16:28:28-04:00
-categories: [visualization]
-tags: [NYC]
+categories: [visualization,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

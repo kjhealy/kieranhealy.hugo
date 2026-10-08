@@ -1,8 +1,7 @@
 ---
 title: "Bad Weather and the Subway"
 date: 2026-05-02T08:59:15-04:00
-categories: [visualization,R]
-tags: [NYC]
+categories: [visualization,R,NYC]
 mathjax: false
 image: rhythms_2025_weather.png
 imagecap: "Bad weather suppresses Subway ridership. But not always."

@@ -1,8 +1,7 @@
 ---
 title: "Mamdani vs Sliwa and Cuomo"
 date: 2025-11-06T12:57:44-05:00
-categories: [politics,R,visualization]
-tags: [NYC]
+categories: [politics,R,visualization,NYC]
 mathjax: false
 image: subway-mamdani-slimo-detail.png
 ---

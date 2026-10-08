@@ -1,8 +1,7 @@
 ---
 title: "Walk the Walk"
 date: 2020-10-01T10:37:35-04:00
-categories: [R,visualization]
-tags: [NYC]
+categories: [R,visualization,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,8 +1,7 @@
 ---
 title: "Manhattan Plot of Manhattan"
 date: 2025-10-25T11:38:02-04:00
-categories: [visualization]
-tags: [NYC]
+categories: [visualization,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,8 +1,7 @@
 ---
 title: "New York City's Street Tree Species"
 date: 2024-02-29T11:34:03-05:00
-categories: [visualization,sociology]
-tags: [NYC]
+categories: [visualization,sociology,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

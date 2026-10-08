@@ -1,8 +1,7 @@
 ---
 title: "A Population Dotmap of New York City"
 date: 2024-05-30T19:38:23-04:00
-categories: [Visualization]
-tags: [NYC]
+categories: [Visualization,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false
