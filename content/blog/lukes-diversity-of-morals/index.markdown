@@ -7,7 +7,7 @@ image:
 ---
 
 
-_In August I was a discussant on a panel about Steven Luke's recent book, [The Diversity of Morals](https://press.princeton.edu/books/hardcover/9780691157191/the-diversity-of-morals). Here's an extended version of what I said. A [PDF version](https://kieranhealy.org/files/papers/lukes-dom.pdf) is available as well._
+_In August I was a discussant on a panel about Steven Lukes's recent book, [The Diversity of Morals](https://press.princeton.edu/books/hardcover/9780691157191/the-diversity-of-morals). Here's an extended version of what I said. A [PDF version](https://kieranhealy.org/files/papers/lukes-dom.pdf) is available as well._
 
 *The Diversity of Morals* asks the questions philosophers ask about morality: what is "the moral"? How wide and deep is its diversity? Is there a standpoint from which we can make our judgments? It then refuses to answer them by philosophical methods alone. Instead, it draws on the resources of both social theory and the social sciences, from primatology and anthropology to sociology and political science, in an effort to construct a defensible answer. I do not think it quite succeeds. But I am also unsure of what success would look like.
 
