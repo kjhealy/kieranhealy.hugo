@@ -1,7 +1,7 @@
 ---
 title: "A Comprehensive Guide to Social Scientists"
 date: 2018-08-24T13:22:44-05:00
-categories: [misc,Obiter Dicta]
+categories: [Misc,Obiter Dicta]
 footnotes: false
 htmlwidgets: false
 mathjax: false

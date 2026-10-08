@@ -2,7 +2,7 @@
 title: "Spanish Flu"
 date: 2020-03-05T20:28:27-05:00
 draft: false
-categories: [R,visualization]
+categories: [R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

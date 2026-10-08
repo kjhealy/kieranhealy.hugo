@@ -8,7 +8,7 @@ title: The Right Tools for the Job
 wordpress_id: '1097'
 categories:
 - Data
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

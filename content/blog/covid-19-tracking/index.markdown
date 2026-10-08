@@ -1,7 +1,7 @@
 ---
 title: "Covid 19 Tracking"
 date: 2020-03-21T15:45:04-04:00
-categories: [R,visualization]
+categories: [R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -7,7 +7,7 @@ status: publish
 title: Facebook Friends
 wordpress_id: '1098'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

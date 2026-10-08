@@ -8,7 +8,7 @@ status: publish
 title: On Wasting One's Time
 wordpress_id: '1106'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

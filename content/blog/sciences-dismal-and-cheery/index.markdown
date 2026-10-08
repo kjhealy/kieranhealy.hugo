@@ -8,7 +8,7 @@ title: Sciences Dismal and Cheery
 wordpress_id: '1066'
 categories:
 - Economics
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

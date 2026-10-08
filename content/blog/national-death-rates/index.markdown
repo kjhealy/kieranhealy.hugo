@@ -1,7 +1,7 @@
 ---
 title: "National Weekly Death Rates"
 date: 2020-09-26T17:08:15-04:00
-categories: [sociology,visualization,R]
+categories: [Sociology,Visualization,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

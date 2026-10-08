@@ -1,7 +1,7 @@
 ---
 title: "Ihaka Lecture"
 date: 2026-08-13T12:09:27-04:00
-categories: [r,visualization,sociology]
+categories: [R,Visualization,Sociology]
 mathjax: false
 image: sky-tower.png
 ---

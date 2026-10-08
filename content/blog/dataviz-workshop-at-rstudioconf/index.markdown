@@ -1,7 +1,7 @@
 ---
 title: "Dataviz Workshop at RStudio::conf"
 date: 2020-02-18T12:29:51-05:00
-categories: [R,visualization]
+categories: [R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,7 +1,7 @@
 ---
 title: "Street Tree Diameters and Income in New York City Neighborhoods"
 date: 2024-02-29T08:18:28-04:00
-categories: [visualization,sociology,NYC]
+categories: [Visualization,Sociology,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

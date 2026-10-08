@@ -1,7 +1,7 @@
 ---
 title: "Dogs of New York"
 date: 2019-10-28T13:18:50-04:00
-categories: [R,visualization,NYC]
+categories: [R,Visualization,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

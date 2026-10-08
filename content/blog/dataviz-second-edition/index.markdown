@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization, Second Edition"
 date: 2026-03-06T06:52:36-05:00
-categories: [R,visualization]
+categories: [R,Visualization]
 mathjax: false
 image: global_mean_simple.png
 ---

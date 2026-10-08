@@ -1,7 +1,7 @@
 ---
 title: "A PCoA of New York City Neighborhoods and Street Tree Species"
 date: 2024-03-03T12:56:07-05:00
-categories: [visualization,sociology,NYC]
+categories: [Visualization,Sociology,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

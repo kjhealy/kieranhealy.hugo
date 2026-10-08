@@ -1,7 +1,7 @@
 ---
 title: "Covid Trajectories"
 date: 2021-09-03T14:03:39-04:00
-categories: [R,visualization,sociology,politics]
+categories: [R,Visualization,Sociology,Politics]
 footnotes: false
 htmlwidgets: false
 mathjax: false

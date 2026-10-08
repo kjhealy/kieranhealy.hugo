@@ -1,7 +1,7 @@
 ---
 title: "Book Day"
 date: 2024-03-28T07:52:55-04:00
-categories: [sociology]
+categories: [Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -7,7 +7,7 @@ status: publish
 title: The U-Shaped Theory of Higher Education
 wordpress_id: '1846'
 categories:
-- orgtheory
+- OrgTheory
 ---
 
 Many forms of education run on a simple principle: if you get good applicants and train them in a straightforward fashion, you will get good results. In higher education, you start with freshmen. Then you flatten them (Econ 101) or mash them (Organic Chem). Add literature requirements or a foreign language. If you want a light taste, add a Phys Ed requirement, study abroad, or art appreciation.

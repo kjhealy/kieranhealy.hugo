@@ -8,7 +8,7 @@ title: OrgTheory of a Kind
 wordpress_id: '996'
 categories:
 - Misc
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

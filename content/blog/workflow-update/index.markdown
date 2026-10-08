@@ -8,7 +8,7 @@ title: Workflow Update
 wordpress_id: '1099'
 categories:
 - IT
-- orgtheory
+- OrgTheory
 - Sociology
 - Teaching
 ---

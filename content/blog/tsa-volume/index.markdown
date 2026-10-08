@@ -1,7 +1,7 @@
 ---
 title: "TSA Screening Volume and Epiweeks"
 date: 2025-02-20T19:42:59-05:00
-categories: [visualization]
+categories: [Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

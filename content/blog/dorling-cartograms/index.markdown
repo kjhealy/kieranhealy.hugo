@@ -1,7 +1,7 @@
 ---
 title: "Dorling Cartograms"
 date: 2023-12-06T18:40:38-05:00
-categories: [visualization,R,sociology]
+categories: [Visualization,R,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false

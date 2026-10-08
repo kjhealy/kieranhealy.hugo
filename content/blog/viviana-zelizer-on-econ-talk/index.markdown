@@ -8,7 +8,7 @@ title: Viviana Zelizer on Econ Talk
 wordpress_id: '1015'
 categories:
 - Economics
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

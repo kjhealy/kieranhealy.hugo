@@ -1,7 +1,7 @@
 ---
 title: "Ordinal Exchanges"
 date: 2025-11-13T12:52:40-05:00
-categories: [sociology,books]
+categories: [Sociology,Books]
 mathjax: false
 image: tos-detail.png
 ---

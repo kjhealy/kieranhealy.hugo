@@ -1,7 +1,7 @@
 ---
 title: "MTA Ridership"
 date: 2025-02-19T20:31:00-05:00
-categories: [visualization,politics,NYC]
+categories: [Visualization,Politics,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

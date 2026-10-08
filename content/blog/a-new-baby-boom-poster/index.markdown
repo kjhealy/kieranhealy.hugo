@@ -1,7 +1,7 @@
 ---
 title: "A New Baby Boom Poster"
 date: 2020-02-26T15:17:22-05:00
-categories: [Sociology,R,visualization]
+categories: [Sociology,R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

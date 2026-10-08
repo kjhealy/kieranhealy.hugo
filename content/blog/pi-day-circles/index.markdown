@@ -1,7 +1,7 @@
 ---
 title: "Pi Day Circles"
 date: 2024-03-14T07:30:03-04:00
-categories: [visualization,R]
+categories: [Visualization,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

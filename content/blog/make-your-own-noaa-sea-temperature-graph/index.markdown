@@ -1,7 +1,7 @@
 ---
 title: "Make Your Own NOAA Sea Temperature Graph"
 date: 2024-04-04T08:06:14-04:00
-categories: [R,data]
+categories: [R,Data]
 footnotes: false
 htmlwidgets: false
 mathjax: false

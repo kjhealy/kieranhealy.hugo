@@ -1,7 +1,7 @@
 ---
 title: "gssrdoc Updates"
 date: 2025-10-19T10:50:04-04:00
-categories: [sociology,r]
+categories: [Sociology,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

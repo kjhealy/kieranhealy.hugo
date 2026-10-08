@@ -1,7 +1,7 @@
 ---
 title: "A COVID Small Multiple"
 date: 2020-03-27T11:02:38-04:00
-categories: [R,visualization]
+categories: [R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

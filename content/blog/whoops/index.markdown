@@ -8,7 +8,7 @@ title: whoops
 wordpress_id: '986'
 categories:
 - Economics
-- orgtheory
+- OrgTheory
 - Politics
 ---
 

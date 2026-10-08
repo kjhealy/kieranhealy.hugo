@@ -7,7 +7,7 @@ status: publish
 title: University flamewars
 wordpress_id: '1497'
 categories:
-- orgtheory
+- OrgTheory
 ---
 
 Sean [remarks below](http://orgtheory.wordpress.com/2009/05/04/richard-florida-for-president/) that

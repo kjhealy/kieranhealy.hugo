@@ -9,7 +9,7 @@ wordpress_id: '1037'
 categories:
 - Books
 - Economics
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

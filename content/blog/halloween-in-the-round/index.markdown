@@ -1,7 +1,7 @@
 ---
 title: "Halloween in the Round"
 date: 2025-10-08T09:38:09-04:00
-categories: [R,visualization]
+categories: [R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

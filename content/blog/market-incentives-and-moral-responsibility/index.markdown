@@ -8,7 +8,7 @@ title: Market Incentives and Moral Responsibility
 wordpress_id: '1016'
 categories:
 - Economics
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

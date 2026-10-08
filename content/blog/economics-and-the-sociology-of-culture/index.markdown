@@ -8,7 +8,7 @@ title: Economics and the Sociology of Culture
 wordpress_id: '1354'
 categories:
 - Economics
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

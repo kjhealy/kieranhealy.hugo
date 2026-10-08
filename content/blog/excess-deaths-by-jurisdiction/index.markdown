@@ -1,7 +1,7 @@
 ---
 title: "Excess Deaths by Jurisdiction"
 date: 2020-10-08T20:41:32-04:00
-categories: [Sociology,R,visualization]
+categories: [Sociology,R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,7 +1,7 @@
 ---
 title: "Trustworthy Data Visualization"
 date: 2025-11-10T08:26:45-05:00
-categories: [r,visualization,sociology]
+categories: [R,Visualization,Sociology]
 mathjax: false
 image: hal-ai.png
 ---

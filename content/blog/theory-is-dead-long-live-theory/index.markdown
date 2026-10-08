@@ -7,7 +7,7 @@ status: publish
 title: Theory is dead, long live theory
 wordpress_id: '1104'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

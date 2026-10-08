@@ -1,7 +1,7 @@
 ---
 title: "Baby Name Animation"
 date: 2019-05-13T15:30:13-04:00
-categories: [R,visualization,Sociology]
+categories: [R,Visualization,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,7 +1,7 @@
 ---
 title: "Life Expectancy and Health Spending in the OECD"
 date: 2023-03-29T12:24:44-04:00
-categories: [sociology,R]
+categories: [Sociology,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

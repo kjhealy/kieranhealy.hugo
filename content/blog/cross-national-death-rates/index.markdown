@@ -1,7 +1,7 @@
 ---
 title: "Cross National Death Rates"
 date: 2020-12-18T10:55:42-05:00
-categories: [Sociology,R,visualization]
+categories: [Sociology,R,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

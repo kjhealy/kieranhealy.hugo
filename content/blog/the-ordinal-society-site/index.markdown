@@ -1,7 +1,7 @@
 ---
 title: "The Ordinal Society Site"
 date: 2023-12-21T17:58:53-05:00
-categories: [sociology,politics]
+categories: [Sociology,Politics]
 footnotes: false
 htmlwidgets: false
 mathjax: false

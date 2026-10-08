@@ -1,7 +1,7 @@
 ---
 title: "Earned Doctorates"
 date: 2019-06-23T10:07:25-04:00
-categories: [R,sociology]
+categories: [R,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false

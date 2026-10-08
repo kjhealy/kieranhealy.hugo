@@ -1,7 +1,7 @@
 ---
 title: "Assault Deaths in the OECD 1960-2020"
 date: 2023-03-30T07:57:44-04:00
-categories: [sociology, R]
+categories: [Sociology, R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

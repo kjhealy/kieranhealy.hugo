@@ -7,7 +7,7 @@ status: publish
 title: Shake-n-Bake Social Theory redux
 wordpress_id: '1500'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

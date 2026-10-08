@@ -1,7 +1,7 @@
 ---
 title: "Subway Sign"
 date: 2026-03-28T14:25:52-04:00
-categories: [politics]
+categories: [Politics]
 mathjax: false
 image: no-king-queens-subway.png
 ---

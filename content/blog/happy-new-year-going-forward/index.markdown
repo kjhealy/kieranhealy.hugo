@@ -7,7 +7,7 @@ status: publish
 title: Happy New Year going forward
 wordpress_id: '1756'
 categories:
-- orgtheory
+- OrgTheory
 ---
 
 [**A seasonal message from Jamie Targett, our Director of Corporate Affairs**](http://www.timeshighereducation.co.uk/story.asp?sectioncode=26&storycode=414711&c=1)

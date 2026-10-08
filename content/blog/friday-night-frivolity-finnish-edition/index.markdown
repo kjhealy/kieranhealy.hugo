@@ -8,7 +8,7 @@ title: 'Friday Night Frivolity: Finnish Edition'
 wordpress_id: '1506'
 categories:
 - Misc
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

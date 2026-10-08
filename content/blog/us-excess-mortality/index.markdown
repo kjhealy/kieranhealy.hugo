@@ -1,7 +1,7 @@
 ---
 title: "US Excess Mortality"
 date: 2020-09-24T13:17:28-04:00
-categories: [R,visualization,sociology]
+categories: [R,Visualization,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false

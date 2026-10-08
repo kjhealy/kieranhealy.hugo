@@ -1,7 +1,7 @@
 ---
 title: "Teaching and Learning Materials for Data Visualization"
 date: 2018-12-12T13:12:25-05:00
-categories: [R,data,visualization,Sociology]
+categories: [R,Data,Visualization,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,7 +1,7 @@
 ---
 title: "Excess Deaths by Cause"
 date: 2020-10-06T19:40:18-04:00
-categories: [Sociology,visualization,R]
+categories: [Sociology,Visualization,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

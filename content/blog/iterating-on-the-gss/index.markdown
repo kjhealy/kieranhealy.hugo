@@ -1,7 +1,7 @@
 ---
 title: "Iterating on the GSS"
 date: 2022-04-08T17:57:54-04:00
-categories: [sociology,R,gss,visualization]
+categories: [Sociology,R,GSS,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,7 +1,7 @@
 ---
 title: "socviz 2.0.0 on CRAN"
 date: 2026-08-21T07:25:44-04:00
-categories: [r]
+categories: [R]
 mathjax: false
 image: dv-cover-2e.png
 ---

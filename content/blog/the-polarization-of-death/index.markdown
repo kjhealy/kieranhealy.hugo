@@ -1,7 +1,7 @@
 ---
 title: "The Polarization of Death"
 date: 2021-10-30T08:21:45-04:00
-categories: [R,visualization,sociology,politics]
+categories: [R,Visualization,Sociology,Politics]
 footnotes: false
 htmlwidgets: false
 mathjax: false

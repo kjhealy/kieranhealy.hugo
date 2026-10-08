@@ -8,7 +8,7 @@ title: Apple hires Joel Podolny
 wordpress_id: '1385'
 categories:
 - IT
-- orgtheory
+- OrgTheory
 - Sociology
 - Apple
 ---

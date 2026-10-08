@@ -8,7 +8,7 @@ title: Git Bibs
 wordpress_id: '1332'
 categories:
 - Data
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

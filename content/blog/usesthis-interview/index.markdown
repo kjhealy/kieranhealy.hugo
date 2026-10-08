@@ -1,7 +1,7 @@
 ---
 title: "Uses This Interview"
 date: 2010-10-17T19:41:25-04:00
-categories: [obiter dicta]
+categories: [Obiter Dicta]
 footnotes: false
 htmlwidgets: false
 mathjax: false

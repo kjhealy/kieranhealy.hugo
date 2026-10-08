@@ -7,7 +7,7 @@ status: publish
 title: This Semester's Classes
 wordpress_id: '999'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 - Teaching
 ---

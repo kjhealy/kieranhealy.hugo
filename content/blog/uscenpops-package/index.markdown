@@ -1,7 +1,7 @@
 ---
 title: "U.S. Census Counts Data"
 date: 2020-03-15T22:12:44-04:00
-categories: [R,visualization,sociology]
+categories: [R,Visualization,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -1,7 +1,7 @@
 ---
 title: "Parking Signs"
 date: 2025-10-13T16:01:57-04:00
-categories: [politics]
+categories: [Politics]
 footnotes: false
 htmlwidgets: false
 mathjax: false

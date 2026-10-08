@@ -8,7 +8,7 @@ title: FaceBook Quiz
 wordpress_id: '1480'
 categories:
 - Internet
-- orgtheory
+- OrgTheory
 ---
 
 Following up on [Bradyen's post](http://orgtheory.wordpress.com/2009/02/25/visualizing-your-facebook-network/), here's my FB network, minus a few isolates:

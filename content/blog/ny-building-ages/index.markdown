@@ -1,7 +1,7 @@
 ---
 title: "New York Building Ages"
 date: 2022-06-24T14:10:36-04:00
-categories: [visualization,NYC]
+categories: [Visualization,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

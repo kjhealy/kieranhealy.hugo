@@ -8,7 +8,7 @@ title: Love as Social Fact
 wordpress_id: '1511'
 categories:
 - Gender
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

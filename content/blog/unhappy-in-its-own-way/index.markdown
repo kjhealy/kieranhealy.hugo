@@ -1,7 +1,7 @@
 ---
 title: "Unhappy in its Own Way"
 date: 2022-07-22T13:54:58-04:00
-categories: [data,R]
+categories: [Data,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

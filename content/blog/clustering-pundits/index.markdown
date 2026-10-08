@@ -1,7 +1,7 @@
 ---
 title: "Clustering Pundits"
 date: 2022-02-15T10:03:17-05:00
-categories: [R,visualization,Apple]
+categories: [R,Visualization,Apple]
 footnotes: false
 htmlwidgets: false
 mathjax: false

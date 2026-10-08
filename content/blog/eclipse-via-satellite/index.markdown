@@ -1,7 +1,7 @@
 ---
 title: "The Eclipse via Satellite"
 date: 2024-04-09T07:53:58-04:00
-categories: [misc,visualization]
+categories: [Misc,Visualization]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -7,7 +7,7 @@ status: publish
 title: Mary Douglas Interview
 wordpress_id: '1044'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

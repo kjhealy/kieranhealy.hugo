@@ -1,7 +1,7 @@
 ---
 title: "Halloween Data Cleaning"
 date: 2024-10-12T16:20:24-04:00
-categories: [R,visualization,data]
+categories: [R,Visualization,Data]
 footnotes: false
 htmlwidgets: false
 mathjax: false

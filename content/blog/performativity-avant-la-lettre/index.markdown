@@ -7,7 +7,7 @@ status: publish
 title: Performativity avant la lettre
 wordpress_id: '1313'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

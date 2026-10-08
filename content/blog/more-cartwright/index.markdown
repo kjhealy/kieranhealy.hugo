@@ -7,7 +7,7 @@ status: publish
 title: More Cartwright
 wordpress_id: '983'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

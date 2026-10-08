@@ -1,7 +1,7 @@
 ---
 title: "Using Quarto to Write a Book"
 date: 2026-03-09T09:34:53-04:00
-categories: [R,nerdery,visualization]
+categories: [R,Nerdery,Visualization]
 mathjax: false
 image: dv2-distributions-page-detail.png
 ---

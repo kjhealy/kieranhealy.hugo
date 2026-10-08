@@ -1,7 +1,7 @@
 ---
 title: "Kerning and Kerning in a Widening Gyre"
 date: 2025-02-06T20:32:42-05:00
-categories: [R,nerdery]
+categories: [R,Nerdery]
 footnotes: false
 htmlwidgets: false
 mathjax: false

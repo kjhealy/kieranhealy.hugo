@@ -1,7 +1,7 @@
 ---
 title: "LA County Population"
 date: 2025-06-09T12:18:15-04:00
-categories: [visualization,R]
+categories: [Visualization,R]
 footnotes: false
 htmlwidgets: false
 mathjax: false

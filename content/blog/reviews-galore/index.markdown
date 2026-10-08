@@ -7,7 +7,7 @@ status: publish
 title: Reviews Galore
 wordpress_id: '1029'
 categories:
-- orgtheory
+- OrgTheory
 - Sociology
 ---
 

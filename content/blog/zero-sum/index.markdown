@@ -1,7 +1,7 @@
 ---
 title: "Zero Sum Problems"
 date: 2026-05-21T15:50:40-04:00
-categories: [R,visualization,nerdery,Apple]
+categories: [R,Visualization,Nerdery,Apple]
 mathjax: false
 image: apple-sports-team-stats-wtf.png
 ---

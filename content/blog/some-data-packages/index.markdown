@@ -1,7 +1,7 @@
 ---
 title: "Some Data Packages"
 date: 2020-08-25T09:01:43-04:00
-categories: [sociology,visualization,data,R,NYC]
+categories: [Sociology,Visualization,Data,R,NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

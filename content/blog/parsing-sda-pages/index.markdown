@@ -1,7 +1,7 @@
 ---
 title: "Parsing Sda Pages"
 date: 2019-10-15T09:29:36-04:00
-categories: [R,visualization,Sociology]
+categories: [R,Visualization,Sociology]
 footnotes: false
 htmlwidgets: false
 mathjax: false
