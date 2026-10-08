@@ -2,6 +2,7 @@
 title: "A New York City Adults and Children Dotmap"
 date: 2024-06-01T10:57:58-04:00
 categories: [Visualization]
+tags: [NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

@@ -2,6 +2,7 @@
 title: "Skyline Timeline"
 date: 2022-06-29T11:55:25-04:00
 categories: [visualization]
+tags: [NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

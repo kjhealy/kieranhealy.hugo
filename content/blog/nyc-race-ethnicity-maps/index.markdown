@@ -2,6 +2,7 @@
 title: "Race and Ethnicity in New York City"
 date: 2024-05-29T07:33:56-04:00
 categories: [Visualization,R]
+tags: [NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

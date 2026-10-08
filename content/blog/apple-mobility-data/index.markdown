@@ -2,6 +2,7 @@
 title: "Apple's COVID Mobility Data"
 date: 2020-04-23T08:16:08-04:00
 categories: [Sociology,Visualization,Apple,R]
+tags: [NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

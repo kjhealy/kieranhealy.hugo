@@ -2,6 +2,7 @@
 title: "Hourly Subway Station Flows"
 date: 2026-04-25T11:12:39-04:00
 categories: [visualization,R]
+tags: [NYC]
 mathjax: false
 image: net-flow-thumb.png
 ---

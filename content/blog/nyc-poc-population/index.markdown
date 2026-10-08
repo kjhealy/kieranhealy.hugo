@@ -2,6 +2,7 @@
 title: "New York City's POC Population"
 date: 2024-05-16T11:25:47-04:00
 categories: [Visualization,R]
+tags: [NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false

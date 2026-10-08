@@ -2,6 +2,7 @@
 title: "New York City Hexmaps"
 date: 2026-04-19T10:05:54-04:00
 categories: [Visualization,R]
+tags: [NYC]
 mathjax: false
 image: nychex-ct-hex-ba.png
 ---

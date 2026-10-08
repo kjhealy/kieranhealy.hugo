@@ -2,6 +2,7 @@
 title: "Some Data Packages"
 date: 2020-08-25T09:01:43-04:00
 categories: [sociology,visualization,data,R]
+tags: [NYC]
 footnotes: false
 htmlwidgets: false
 mathjax: false
