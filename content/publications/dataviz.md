@@ -11,8 +11,8 @@ citation: "<em>Data Visualization</em>. Second Edition. Princeton University Pre
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
-date: 2019-01-01
-publishdate: 2019-01-01
+date: 2026-10-12
+publishdate: 2026-10-12
 ---
 
 <p><a class = "badge badge-small" href="https://press.princeton.edu/books/paperback/9780691290980/data-visualization-second-edition">Princeton University Press's catalog page</a> for the Second Edition</p>
@@ -23,7 +23,7 @@ publishdate: 2019-01-01
 
 <p><a href="https://www.amazon.co.jp/dp/4065164044">Japanese Edition</a> (Kodansha)</p>
 
-<h4><em>Data Visualization: A Practical Introduction</em> (Second Edition) teaches you how to make compelling data visualizations with R and ggplot2 in a clear, sensible, and reproducible way.</h4>
+<h4><em>Data Visualization: A Practical Introduction</em> (Second edition) teaches you how to make compelling data visualizations with R and ggplot2 in a clear, sensible, and reproducible way. Coming next Spring from Princeton University Press.</h4>
 
 <p><figure><a href="https://www.amazon.com/Data-Visualization-Second-Practical-Introduction/dp/0691290989"><img src="http://kieranhealy.org/files/misc/dv2e-cover-pupress.jpg"x alt="Data Visualization: A Practical Introduction. Second Edition."></a></figure></p>
 
