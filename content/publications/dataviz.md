@@ -17,11 +17,11 @@ publishdate: 2026-10-12
 
 <p><a class = "badge badge-small" href="https://press.princeton.edu/books/paperback/9780691290980/data-visualization-second-edition">Princeton University Press's catalog page</a> for the Second Edition.</p>
 
-<p><em>Data Visualization: A Practical Introduction</em> (Second edition). Coming next Spring from Princeton University Press.</p>
+<p><em>Data Visualization: A Practical Introduction</em> (Second edition). Fully revised and updated. Coming later next Spring from Princeton University Press.</p>
 
 <p><br /><figure><a href="https://www.amazon.com/Data-Visualization-Second-Practical-Introduction/dp/0691290989"><img src="http://kieranhealy.org/files/misc/dv2e-cover-pupress.jpg"x alt="Data Visualization: A Practical Introduction. Second Edition."></a></figure><br /></p>
 
-Fully revised and updated, the book explains what makes some graphs succeed while others fail, how to make high-quality figures from data using powerful and reproducible techniques, and how to think about data visualization in an honest and effective way. 
+The book explains what makes some graphs succeed while others fail, how to make high-quality figures from data using powerful and reproducible techniques, and how to think about data visualization in an honest and effective way. 
 
 <h3>First Edition (2019)</h3>
 
