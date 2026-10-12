@@ -3,7 +3,7 @@ title: "Steven Lukes, The Diversity of Morals"
 author: Kieran Healy
 status: Forthcoming
 type: unpublished
-citation: "&ldquo;OnSteven Lukes, <em>The Diversity of Morals</em>.&rdquo; Annual Meetings of the American Sociological Association, August 2026.."
+citation: "&ldquo;On Steven Lukes, <em>The Diversity of Morals</em>.&rdquo; Annual Meetings of the American Sociological Association, August 2026.."
 tag: lukes-dom
 file: lukes-dom.pdf
 subjects: review lukes morality
