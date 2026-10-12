@@ -1,13 +1,13 @@
 ---
-title: "Data Visualization"
+title: "Data Visualization. Second edition."
 fave: true
 author: Kieran Healy
 status: Published
 type: published
 whatkind: book
 overview: true
-buy: "<a  href=\"https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Buy on Amazon&nbsp;</a>"
-citation: "<em>Data Visualization</em>. Princeton University Press."
+buy: "<a  href=\"https://www.amazon.com/Data-Visualization-Second-Practical-Introduction/dp/0691290989\" style = \"background-color: #F99F46; border-radius: 5px; \">&nbsp;Pre-Order on Amazon&nbsp;</a>"
+citation: "<em>Data Visualization</em>. Second Edition. Princeton University Press."
 tag: dataviz
 subjects: data visualization ggplot R
 comments: no
@@ -15,13 +15,20 @@ date: 2019-01-01
 publishdate: 2019-01-01
 ---
 
-<p>Or buy <a class = "badge badge-small" href="http://www.powells.com/book/-9780691181622">from Powell's</a> | <a class = "badge badge-small" href="https://press.princeton.edu/titles/13826.html">from Princeton University Press</a></p>
+<p><a class = "badge badge-small" href="https://press.princeton.edu/books/paperback/9780691290980/data-visualization-second-edition">Princeton University Press's catalog page</a> for the Second Edition</p>
 
+
+<h3>Translations of the First Edition.</h3>
 <p><a href="http://acornpub.co.kr/book/data-visualization-healy">Korean Edition</a> (Acorn publishing)</p>
 
 <p><a href="https://www.amazon.co.jp/dp/4065164044">Japanese Edition</a> (Kodansha)</p>
 
-<h4><em>Data Visualization: A Practical Introduction</em> teaches you how to make compelling data visualizations with R and ggplot2 in a clear, sensible, and reproducible way.</h4>
+<h4><em>Data Visualization: A Practical Introduction</em> (Second Edition) teaches you how to make compelling data visualizations with R and ggplot2 in a clear, sensible, and reproducible way.</h4>
+
+<p><figure><a href="https://www.amazon.com/Data-Visualization-Second-Practical-Introduction/dp/0691290989"><img src="http://kieranhealy.org/files/misc/dv2e-cover-pupress.jpg"x alt="Data Visualization: A Practical Introduction. Second Edition."></a></figure></p>
+
+
+<h2>First Edition</h2>
 
 <p><figure><a href="https://www.amazon.com/Data-Visualization-Introduction-Kieran-Healy/dp/0691181624"><img src="http://kieranhealy.org/files/misc/dv-cover-pupress.jpg"x alt="Data Visualization: A Practical Introduction"></a></figure></p>
 
