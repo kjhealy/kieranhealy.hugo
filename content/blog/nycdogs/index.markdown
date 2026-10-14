@@ -192,12 +192,12 @@ Australian Shepherds are likely to continue to rise in popularity amongst owners
 looking to acquire a fashionable breed. And while they're not on any of the maps
 above, the data also suggest that the
 [Jindo](https://en.wikipedia.org/wiki/Korean_Jindo), a Korean breed that is a
-relatively recent arrival in the US, has been sharply on the rise. But, if you ask me, if you're in
-New York City and planning to get a dog, you should throw in your lot with
-Unknown and get a good, solid, dog-shaped mutt. Preferably one with strong views
-on the state of the Subway these days, or who knows a guy who can get you a deal
-on some shirts, or the special ramen, or tickets. Not tickets for anything in
-particular. Just, like, tickets. Works out of an upstairs bar downtown on Water
-St. Trust me.
+relatively recent arrival in the US, has been sharply on the rise. If you ask
+me, though, if you're in New York City and planning to get a dog, you should
+throw in your lot with Unknown and get a good, solid, dog-shaped mutt.
+Preferably one with strong views on the state of the Subway these days, or who
+knows a guy who can get you a deal on some shirts, or the special ramen, or
+tickets. Not tickets for anything in particular. Just, like, tickets. Works out
+of an upstairs bar downtown on Water St. Trust me.
 
 
