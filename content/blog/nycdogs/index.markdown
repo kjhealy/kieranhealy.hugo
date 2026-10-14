@@ -138,7 +138,7 @@ We can look at the relative prevalence of breeds by their ZIP code (strictly
 speaking, by their MODZCTA). I hesitate a little on this just because, even with
 800,000 licenses, we'll run out of degrees of freedom fairly quickly if we break
 things down by breed and ZIP. Relatedly, we should ask what sort of metric we're
-trying to show here. What's the denominator? (A surprising amount of statistics,
+trying to show here. What's the denominator? (A surprising amount of Statistics,
 I claim, is essentially exploring the question "What happens if I divide by
 *this* number instead of *that* number?") Popular dogs are, to a first
 approximation, pretty popular all over the city. Most ZIP codes have a solid
