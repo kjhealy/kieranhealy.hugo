@@ -75,7 +75,7 @@ in terms of ZIP codes. So the Census defines [ZIP Code Tabulation
 Areas](https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html)
 that are a kind of best-effort at answering the question "What if this ZIP code
 were a closed polygon?" ZCTAs exclude every P.O. box and single-address ZIP
-nationwide. Manhattan has several buildings that have their own ZIP code.
+nationwide. Manhattan has several buildings that have their own ZIP code. New York City also defines [MODZCTAs](https://data.cityofnewyork.us/Health/Modified-Zip-Code-Tabulation-Areas-MODZCTA-/pri4-ifjk/about_data) that merge some low- or no-population ZCTAs with their neighbors. I use these below.
 
 Fourth, beyond the ZIP codes, owners also provide information about the age and
 sex of their dogs, the dog's name, and the dog's breed. Again, this kind of
