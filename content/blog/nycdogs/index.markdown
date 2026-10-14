@@ -144,20 +144,22 @@ I claim, is essentially exploring the question "What happens if I divide by
 approximation, pretty popular all over the city. Most ZIP codes have a solid
 contingent of Yorkies. If, for each popular breed, we calculate the share of
 that breed as a percentage of all dogs in the ZIP code, we'll see some
-ZIP-by-ZIP variation come out. But it would also be nice to adjust for the fact
-that different ZIP codes have quite different shares of the total number of dogs
-licensed in the city. (Which, again, is not the same as share of the total
-number of dogs in the city.) So we calculate the within-ZIP share and make a
-ratio of it by dividing that number by the breed's citywide share. The ratio is
-1 when the breed is just as common in that ZIP code as it is across the whole
-city. If it's 2, the breed is twice as common in that ZIP as it is across the
-city. If it's 0.5, the breed is half as common in that ZIP as it is in the city
-as a whole. The main downside of ratios like this is that they can exaggerate
-differences a little, especially if the base rates are small. We have enough
-breeds in each zip code to make me feel OK about doing this. But if you refer to
-the bar charts above you can see that even for disproportionately popular breeds
-in zips, you're looking at changes like "twice as common with respect to a
-baseline of five percent of all dogs". Here's the map:
+ZIP-by-ZIP variation come out. 
+
+It would also be nice to adjust for the fact that different ZIP codes have quite
+different shares of the total number of dogs licensed in the city. (Which,
+again, is not the same as share of the total number of dogs in the city.) So we
+calculate the within-ZIP share and make a ratio of it by dividing that number by
+the breed's citywide share. The ratio is 1 when the breed is just as common in
+that ZIP code as it is across the whole city. If it's 2, the breed is twice as
+common in that ZIP as it is across the city. If it's 0.5, the breed is half as
+common in that ZIP as it is in the city as a whole. The main downside of ratios
+like this is that they can exaggerate differences a little, especially if the
+base rates are small. We have enough breeds in each zip code to make me feel OK
+about doing this. But if you refer to the bar charts above you can see that even
+for disproportionately popular breeds in zips, you're looking at changes like
+"twice as common with respect to a baseline of five percent of all dogs". Here's
+the map:
 
 {{% figure src="nyc-dogs-of-nyc-dog-ratio.png" alt="" caption="" class="full-width" %}}
 
