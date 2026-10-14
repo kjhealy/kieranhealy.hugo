@@ -42,7 +42,7 @@ table? In the case of `nyc_license`, each row is a record of one time-limited
 license for a dog. A row is not necessarily the record of a unique dog. When an owner
 renews a dog's license, the dog will appear one time for each license period. In
 New York City, dog licenses can be issued for one year or five years. The table
-does not provide any "dog id" that ties sequences of licenses to individual
+does not provide any `dog_id` column that ties sequences of licenses to individual
 dogs.
 
 Second, the table contains several "extracts" of the license data. It seems like
