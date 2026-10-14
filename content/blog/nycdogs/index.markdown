@@ -167,6 +167,8 @@ and TriBeCa. Havanese on the Upper East Side. Pit Bulls in the Bronx. German
 Shepherds on Staten Island. Goldendoodles and King Charles Spaniels in Manhattan
 south of 96th.
 
+## The Diffusion of Goldendoodles
+
 Let's take a closer look at the Goldendoodles. In 2015, Goldendoodles weren't
 that common. We can ask: where were they initially popular? Did they diffuse
 across New York City from focal points where people were more likely to set
