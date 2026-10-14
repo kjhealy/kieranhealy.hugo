@@ -39,7 +39,7 @@ about.
 
 The first thing we ask about any data set like this is: what is each row in this
 table? In the case of `nyc_license`, each row is a record of one time-limited
-license. A row is not necessarily the record of a unique dog. When an owner
+license for a dog. A row is not necessarily the record of a unique dog. When an owner
 renews a dog's license, the dog will appear one time for each license period. In
 New York City, dog licenses can be issued for one year or five years. The table
 does not provide any "dog id" that ties sequences of licenses to individual
