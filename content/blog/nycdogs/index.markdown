@@ -109,7 +109,7 @@ I think this is an artifact of how breeds are getting recorded rather than a
 change in the composition of the dog population. If we leave the Unknowns out,
 here are the trends in annual licenses issued to the twenty most popular breeds.
 
-{{% figure src="nyc-popular-breeds.png" alt="Yorkshire terrier is the most popular breed. Goldendoodles are on the rise." class="full-width" caption="Top Dogs." %}}
+{{% figure src="nyc-popular-breeds.png" alt="Yorkshire terrier is the most popular breed. Goldendoodles are on the rise." class="full-width" caption="" %}}
 
 Some breeds are pretty steadily popular. Smaller breeds do well in a city full
 of apartments. We can also see some evidence here of trends in popularity.
@@ -135,7 +135,7 @@ decline. Much drop. Very decline. Wow. Beagles are also doing poorly. Good grief
 ## Where Breeds Live
 
 We can look at the relative prevalence of breeds by their ZIP code (strictly
-speaking, by their MODZCTA). I hesitate a little on this just because, even with
+speaking, by their [MODZCTA](https://data.cityofnewyork.us/Health/Modified-Zip-Code-Tabulation-Areas-MODZCTA-/pri4-ifjk/about_data)). I hesitate a little on this just because, even with
 800,000 licenses, we'll run out of degrees of freedom fairly quickly if we break
 things down by breed and ZIP. Relatedly, we should ask what sort of metric we're
 trying to show here. What's the denominator? (A surprising amount of Statistics,
@@ -178,7 +178,7 @@ trends in breed fashion? Restricting ourselves to young dogs, we can try to look
 at each ZIP's share of all Goldendoodle puppies licensed each year from 2015
 to 2025. Here's what that looks like:
 
-{{% figure src="nyc-goldendoodles-young-yr-wide.png" alt="" caption="Doodle diffusion." class="full-width" %}}
+{{% figure src="nyc-goldendoodles-young-yr-wide.png" alt="" caption="" class="full-width" %}}
 
 In 2015, Goldendoodle puppies are licensed in a relatively small number of ZIP
 codes, mostly in Manhattan. Most ZIP codes are doodle-free. Over the next five
