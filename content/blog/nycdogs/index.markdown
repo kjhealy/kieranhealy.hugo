@@ -130,7 +130,7 @@ reflects the same relative change as a fall from 100 to 50.
 Maltipoos and Goldendoodles seem to be doing pretty well for themselves. Golden Retrievers
 remain steadily popular. Meanwhile, Shiba Inus, beloved fad-breed of the 2010s,
 seem to have been affected by their association with crypto and are strongly in
-decline. Much drop. Very decline. Wow. Beagles are also doing poorly. Good grief. 
+decline. Much drop. Very diminish. Wow. Beagles are also doing poorly. Good grief. 
 
 ## Where Breeds Live
 
