@@ -74,12 +74,16 @@
 
 <h3>The GSS</h3>
 
+<p>Two packages for the <a href="https://gss.norc.org">General Social Survey</a>, the Hubble Telescope of American Social Science.</p>
+
 <p class="clearfix"><a href="https://kjhealy.github.io/gssr"><img src="/files/misc/hex-gssr.png" width="140" align="left"></a> Provides the complete General
     Social Survey cumulative data file (1972-present) and panel data files for use in R. It also makes it convenient to pull the data files for individual survey years from the NORC website.</p>
 
 <p class="clearfix"><a href="https://kjhealy.github.io/gssrdoc"><img src="/files/misc/hex-gssrdoc.png" width="140" align="left"></a> This is a companion to the <a href="https://kjhealy.github.io/gssr">gssr package</a>. Integrates information about GSS variables into R's help/documentation system, so you can look up information on GSS variables as if they were functions. </p>
 
 <h3>NYC Packages</h3>
+
+<p>Packages I've been writing for my own benefit to support an ongoing project, but that might be of interest to others too.</p>
 
 <p class="clearfix"><a href="https://kjhealy.github.io/nycdogs"><img src="/files/misc/nycdogs-thumb.png" width="140"
             align="left"></a> Useful for teaching
@@ -96,18 +100,17 @@
     York City, derived from the US Census Bureau via <a href = "https://walker-data.com/tidycensus/">tidycensus</a>. Provides
     pre-made tibbles and some wrapper functions that help you make NYC-only queries against the Census API.</p>
 
-<p class="clearfix"><a href="https://kjhealy.github.io/nycmaps"><img src="/files/misc/nycmaps-thumb.png" width="140"                                                                      align="left"></a> Provides sf objects of various New York City geographies (and associated tibbles of identifiers) for drawing thematic maps.</p>
+<p class="clearfix"><a href="https://kjhealy.github.io/nycmaps"><img src="/files/misc/nycmaps-thumb.png" width="140" align="left"></a> Provides sf objects of various New York City geographies (and associated tibbles of identifiers) for drawing thematic maps.</p>
 
-<p class="clearfix"><a href="https://kjhealy.github.io/nychex"><img src="/files/misc/nychex-thumb.png" width="140"                                                                      align="left"></a> Provides sf objects of NTA- and tract-level New York City geographies laid out as tessellated grids, with both hexagonal and square tiles. Let's you draw stylized thematic maps of the city where 1 tile equals 1 NTA or tract. The geometry column is named `tile_map` (rather than `geometry`) to allow you to have both stylized and geographically accurate geometries in the same sf object.</p>
+<p class="clearfix"><a href="https://kjhealy.github.io/nychex"><img src="/files/misc/nychex-thumb.png" width="140" align="left"></a> Provides sf objects of NTA- and tract-level New York City geographies laid out as tessellated grids, with both hexagonal and square tiles. Let's you draw stylized thematic maps of the city where 1 tile equals 1 NTA or tract. The geometry column is named `tile_map` (rather than `geometry`) to allow you to have both stylized and geographically accurate geometries in the same sf object.</p>
 
 <p class="clearfix"><a href="https://kjhealy.github.io/nycstreets"><img src="/files/misc/nycstreets-thumb.png" width="140"
             align="left"></a> Provides an sf object containing the New York City street centerline dataset from NYC Open Data.</p>
 
-<p class="clearfix"><a href="https://kjhealy.github.io/nycdcm"><img src="/files/misc/nycdcm-thumb.png" width="140"
-            align="left"></a> Provides sf objects from the New York City Digital City Map (DCM) for drawing street maps and working with NYC street data.</p>
+<p class="clearfix"><a href="https://kjhealy.github.io/nycdcm"><img src="/files/misc/nycdcm-thumb.png" width="140" align="left"></a> Provides sf objects from the New York City Digital City Map (DCM) for drawing street maps
+    and working with NYC street data.</p>
 
-<p class="clearfix"><a href="https://kjhealy.github.io/nyczips"><img src="/files/misc/nyczips-thumb.png" width="140"
-            align="left"></a> Provides a tibble of New York City zip codes and a simple features collection of their ZCTA polygons.</p>
+<p class="clearfix"><a href="https://kjhealy.github.io/nyczips"><img src="/files/misc/nyczips-thumb.png" width="140"  align="left"></a> Provides a tibble of New York City zip codes and a simple features collection of their  ZCTA polygons. Superseded by <a href="https://kjhealy.github.io/nycmaps">nycmaps</a>.</p>
 
 <p class="clearfix"><a href="https://kjhealy.github.io/nycroutes"><img src="/files/misc/nycroutes-thumb.png" width="140"
             align="left"></a> Spatial and tabular data describing the New York City subway system, derived from the MTA’s GTFS feed. Includes route shapes, stops, parent stations, directional platforms, transfers, and pre-computed offset versions of routes and stops suitable for schematic mapping.</p>
