@@ -13,6 +13,7 @@
             {{ end -}}
           </div>
         {{- end }}
+        {{- partial "post/cite.html" . }}
         {{- if .Site.Params.moreMeta }}
           <span class="more-meta"> {{ T "wordCount" .WordCount }} </span>
           <span class="more-meta"> {{ T "readingTime" .ReadingTime }} </span>

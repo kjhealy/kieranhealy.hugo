@@ -1,0 +1,71 @@
+{{- /* BibTeX citation popover for a single blog post. */ -}}
+{{- $names := split (.Site.Params.author.name | default "Kieran Healy") " " -}}
+{{- $last := index (last 1 $names) 0 -}}
+{{- $first := delimit (first (sub (len $names) 1) $names) " " -}}
+{{- $slug := .Params.slug | default .File.ContentBaseName -}}
+{{- $word := index (split (replaceRE `^(a|an|the)-` "" (lower $slug)) "-") 0 | replaceRE `%[0-9a-f]{2}|[^a-z0-9]` "" -}}
+{{- $key := printf "%s%s%s" (lower $last) (.Date.Format "2006") $word -}}
+{{- $title := .Title | plainify | htmlUnescape | replaceRE `([&%$#_])` `\$1` -}}
+{{- $bib := printf "@misc{%s,\n  author = {%s, %s},\n  title = {{%s}},\n  year = {%s},\n  month = %s,\n  howpublished = {kieranhealy.org},\n  url = {%s},\n  note = {Blog post, %s}\n}" $key $last $first $title (.Date.Format "2006") (lower (.Date.Format "Jan")) .Permalink (.Date.Format "January 2, 2006") -}}
+<span class="post-cite"> <button type="button" class="cite-toggle" aria-expanded="false" aria-controls="cite-panel">Cite this post</button></span>
+<div id="cite-panel" class="cite-panel" hidden>
+  <pre class="cite-bib">{{ $bib }}</pre>
+  <button type="button" class="cite-copy">Copy to clipboard</button>
+</div>
+<style>
+.post-meta{position:relative}
+.post-cite::before{content:'·'}
+.cite-toggle,.cite-copy{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.cite-toggle{color:#a0645c}
+.cite-toggle:hover,.cite-toggle[aria-expanded=true]{color:#0047AB}
+.cite-panel{position:absolute;z-index:10;left:0;top:100%;margin-top:6px;width:min(36rem,100%);box-sizing:border-box;padding:10px 12px;background:#fff;border:1px solid #e6e6e6;border-radius:4px;box-shadow:0 2px 8px rgba(0,0,0,.08);text-align:left}
+.cite-bib{margin:0 0 8px;padding:0;background:none;font-size:12px;line-height:1.5;color:#34495e;white-space:pre-wrap;overflow-wrap:anywhere}
+.cite-copy{font-size:13px;padding:2px 8px;border:1px solid #e6e6e6;border-radius:3px}
+.cite-copy:hover{color:#0047AB;border-color:#0047AB}
+</style>
+<script>
+(function () {
+  var toggle = document.querySelector(".cite-toggle");
+  var panel = document.getElementById("cite-panel");
+  var copy = panel.querySelector(".cite-copy");
+  var bib = panel.querySelector(".cite-bib");
+
+  function setOpen(open) {
+    panel.hidden = !open;
+    toggle.setAttribute("aria-expanded", open);
+  }
+
+  toggle.addEventListener("click", function () {
+    setOpen(panel.hidden);
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!panel.hidden && !panel.contains(e.target) && e.target !== toggle) setOpen(false);
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !panel.hidden) {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
+
+  copy.addEventListener("click", function () {
+    var done = function () {
+      copy.textContent = "Copied";
+      setTimeout(function () { copy.textContent = "Copy to clipboard"; }, 1500);
+    };
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(bib.textContent).then(done);
+    } else {
+      var r = document.createRange();
+      r.selectNodeContents(bib);
+      var s = window.getSelection();
+      s.removeAllRanges();
+      s.addRange(r);
+      document.execCommand("copy");
+      done();
+    }
+  });
+})();
+</script>
