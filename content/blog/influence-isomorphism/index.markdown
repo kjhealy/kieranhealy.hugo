@@ -11,7 +11,7 @@ Recently I had the happy task of contributing to a forthcoming issue of the *Ame
 "The Iron Cage Revisited" is one of the most successful articles in the history of sociology. Web of Science says it has accumulated over thirty-two thousand citations; Google Scholar puts the figure at over seventy-seven thousand. It is the most-cited paper ever published in the *American Sociological Review*, and the most-cited sociology paper written in the 1980s. Its core ideas---coercive, normative, and especially mimetic isomorphism---have traveled well beyond sociology, most notably into organization studies and management. 
 
 
-## Sociology's top-ten most-cited papers by decade
+### Sociology's top-ten most-cited papers by decade
 
 Here's the main figure from my paper:
 
@@ -42,7 +42,7 @@ The third pattern is the one the paper is mostly about. In the 1930s, five of th
 
 Because the citation base grows sharply almost every decade, normalizing this way tends to favor older papers. Merton's "Social Structure and Anomie" accounts for over fifteen percent of all citations to sociology papers from the 1930s. From the 1940s through the 1980s the top paper's share sits in a band of roughly three to five percent. About one in every thirty citations to a sociology paper published in the 1980s is to "The Iron Cage Revisited." Then, from the 1980s to the 1990s the top paper's share drops by about an order of magnitude, while the citation base grows by about fifty percent. After that point it's no longer possible for even the most-cited paper to command the kind of share available to the 1980s cohort. 
 
-## Why did this happen?
+### Why did this happen?
 
 So, from the 1920s to the 1970s, sociology's most-cited papers were published in its two most important generalist journals. Now, ASR and AJS remain the most prestigious journals in the discipline, and publishing in them is still vitally important for establishing and consolidating a career. But, at least at the very top of the distribution, these journals no longer publish the discipline's most-cited work. Impact has become decoupled from venue. Why?
 
