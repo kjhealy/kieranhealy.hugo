@@ -151,7 +151,7 @@ is dense too, but much poorer. Happily, thanks to both [NYC OpenData](https://ww
   [PLUTO](https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page),
   the city's database of every tax lot. I added up the residential floor area
   and the number of homes on every lot in each ZIP code, and divided. This is
-  gross floor area, so it includes halls and stairs. It is a rough measure of
+  gross floor area, so it includes halls and stairs. It's a rough measure of
   apartment size. You can use my [`nycpluto`](https://kjhealy.github.io/nycpluto/)
   package to access these data in R.
 - *Percent of homes in one- or two-family houses.* This is also from PLUTO,
