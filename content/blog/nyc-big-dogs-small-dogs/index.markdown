@@ -145,7 +145,7 @@ Island, the least densely-populated borough, has the largest share of big dogs.
 ## Mo Money, Mo Doggo
 
 Manhattan and brownstone Brooklyn are dense, but they are also rich. The Bronx
-is dense too, but much poorer. Happily, thanks to both [NYC OpenData](https://www.nyc.gov/opendata) and the [Census Bureau](https://www.census.gov), we have relevant measures available that we can construct for each ZIP code.
+is dense too, but much poorer. Happily, thanks to both [NYC OpenData](https://www.nyc.gov/opendata) and the [Census Bureau](https://www.census.gov), we have relevant housing and income measures available that we can construct for each ZIP code.
 
 - *Floor area per home.* This comes from
   [PLUTO](https://www.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page),
