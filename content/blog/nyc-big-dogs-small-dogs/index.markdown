@@ -141,7 +141,6 @@ differences are at the ends. A third of the Bronx's dogs are Toy dogs, compared
 with about a fifth of Manhattan's. Only 9 percent of the Bronx's dogs are Large,
 compared with 16 percent in Manhattan and 17 percent on Staten Island. Staten
 Island, the least densely-populated borough, has the largest share of big dogs.
-Manhattan is different.
 
 ## Mo Money, Mo Doggo
 
