@@ -174,12 +174,12 @@ because the median is so lumpy. The predictors are the five measures above, plus
 the borough. There are 177 ZIP codes in the model.
 
 The five measures use different units: dollars, square feet, rooms, and
-percentages. So the coefficients are hard to compare directly. To make them
-comparable, what we can do is ask "If we take a ZIP code that is low on this
-measure (at the 25th percentile of ZIP codes) and move it to a high value (the
-75th percentile), holding everything else constant, how much bigger or smaller
-do its dogs get?" For the boroughs, the figure shows the difference between each
-borough and Manhattan.
+percentages. This makes the coefficients hard to compare directly. What we can
+do is ask "If we take a ZIP code that is low on this measure (at the 25th
+percentile of ZIP codes) and move it to a high value (the 75th percentile),
+holding everything else constant, how much bigger or smaller do its dogs get?"
+For the boroughs, the figure shows the difference between each borough and
+Manhattan.
 
 {{% figure src="nyc-dog-size-effects.png" alt="Dot-and-whisker plot of the estimated effects on average dog size. Income has a clear positive effect of about 3.7 pounds. The housing measures and the boroughs have effects close to zero, with intervals that include zero." caption="" class="full-width" %}}
 
