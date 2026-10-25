@@ -74,8 +74,7 @@ the share of dogs in each ZIP code that have a breed size.
 Coverage runs from about half to about two-thirds of dogs in each ZIP code. It
 is highest on the West Side of Manhattan and in parts of eastern Queens. It is
 lowest in central Brooklyn. So, dogs are not
-[MCAR](https://stefvanbuuren.name/fimd/sec-MCAR.html) or even
-[MAR](https://stefvanbuuren.name/fimd/sec-MCAR.html) in the city. The maps and
+[MCAR](https://stefvanbuuren.name/fimd/sec-MCAR.html) in the city. The maps and
 analysis below is restricted to describing dogs with a known breed, and that
 group is not quite the same in every part of the city.
 
@@ -168,56 +167,66 @@ up the counts. For the medians, I took an average of the ZCTA medians, weighted
 by the number of households. The Census caps median income at $250,000. A few of
 the richest ZIP codes in Manhattan hit that cap.
 
-I fit a regression with this data where the outcome is the average typical
-weight of the dogs in each ZIP code. I use the mean rather than the median here,
-because the median is so lumpy. The predictors are the five measures above, plus
-the borough. There are 177 ZIP codes in the model.
+I fit a regression with this data where the outcome is the typical weight of the
+dogs in each ZIP code. I use an average rather than the median here, because the
+median is so lumpy. Specifically, I average the logged weights, which is the
+same as taking the geometric mean. Breed weights are very skewed. The middle dog
+weighs about 17 pounds, but a few breeds weigh well over 100. And differences
+in weight are proportional. Five pounds is a big difference between two toy
+dogs, but not between two retrievers. On the log scale, effects become percent
+differences in weight. The predictors are the five measures above, plus the
+borough. There are 177 ZIP codes in the model.
 
 The five measures use different units: dollars, square feet, rooms, and
 percentages. This makes the coefficients hard to compare directly. What we can
 do is ask "If we take a ZIP code that is low on this measure (at the 25th
 percentile of ZIP codes) and move it to a high value (the 75th percentile),
-holding everything else constant, how much bigger or smaller do its dogs get?"
-For the boroughs, the figure shows the difference between each borough and
+holding everything else constant, by what percent do its dogs get bigger or
+smaller?" For the boroughs, the figure shows the difference between each borough and
 Manhattan.
 
-{{% figure src="nyc-dog-size-effects.png" alt="Dot-and-whisker plot of the estimated effects on average dog size. Income has a clear positive effect of about 3.7 pounds. The housing measures and the boroughs have effects close to zero, with intervals that include zero." caption="" class="full-width" %}}
+{{% figure src="nyc-dog-size-effects.png" alt="Dot-and-whisker plot of the estimated percent effects on typical dog size. Income has a clear positive effect of about 17 percent. Floor area per home has a small negative effect. Staten Island's dogs are about 10 percent heavier than Manhattan's. The other effects are close to zero." caption="" class="full-width" %}}
 
 Income is the clearest result. A ZIP code with a median household income of
-$116,000 has dogs that are about 3.7 pounds heavier, on average, than one with a
-median income of $67,000. The housing measures make very little difference once
-we know income. Floor area, the share of houses, and the share of owners all
-have effects close to zero. Median rooms has a small positive effect, maybe.
-Floor area per home leans the other way. I wouldn't read much into either of
-them. Together, the four housing measures improve the model by no more than we
-would expect by chance.
+$116,000 has dogs that are about 17 percent heavier, on average, than one with a
+median income of $67,000. The housing measures make much less difference once
+we know income, and they do not point the way Bill expected. The share of homes
+in one- or two-family houses and the share of owners have effects close to
+zero. Median rooms has a small positive effect, maybe, with an interval that
+includes zero. Floor area per home has a small but clearly negative effect.
+Moving from about 910 to about 1,100 square feet per home goes with dogs about
+3 percent *smaller*, at the same income. Together, the four housing measures
+do improve the model a little, by more than we would expect by chance. But
+mostly that is the floor area effect, and it runs the wrong way for the idea
+that more room means bigger dogs.
 
-Among the boroughs, Staten Island's dogs are about 2.3 pounds heavier than
+Among the boroughs, Staten Island's dogs are about 10 percent heavier than
 Manhattan's at the same levels of income and housing. That fits the idea of room
-on the periphery, although the interval is wide. The other boroughs do not
-differ much from Manhattan.
+on the periphery, although the interval is wide, running from about 1 to 20
+percent. The other boroughs do not differ much from Manhattan.
 
 In terms of how much variation we can explain, income alone accounts for about
-44 percent of the variation in average dog size across ZIP codes. Adding the
-borough raises that to 47 percent. Adding all four housing measures raises it
-only to 49 percent. 
+53 percent of the variation in typical dog size across ZIP codes. Adding the
+borough raises that to 54 percent. Adding all four housing measures raises it
+to 57 percent.
 
 Here is the income effect on its own. This is a partial regression plot. For
 both dog size and income, we remove the part that the borough and the housing
 measures predict. What remains shows the relationship between income and dog
 size among ZIP codes with similar housing in the same borough.
 
-{{% figure src="nyc-dog-size-income-net.png" alt="Scatterplot of ZIP codes, colored by borough. The x-axis is median income relative to what borough and housing predict. The y-axis is average dog size relative to the same prediction. The points rise from left to right." caption="" class="full-width" %}}
+{{% figure src="nyc-dog-size-income-net.png" alt="Scatterplot of ZIP codes, colored by borough. The x-axis is median income relative to what borough and housing predict. The y-axis is typical dog size relative to the same prediction, as a percent difference. The points rise from left to right." caption="" class="full-width" %}}
 
 The relationship is pretty good. Each doubling of median household income goes
-with about 4.6 more pounds of dog. The points come from every borough. So there
-is a size a size gradient, as Bill speculated, but it's not really geography at
-work here, it's money. Some of the biggest dogs in New York live in dense,
-expensive neighborhoods such as Park Slope, SoHo, and the West Village. The
-smallest dogs live in the Bronx, where incomes are much lower. Once we know a
-ZIP code's income, its housing tells us almost nothing more about its dogs.
-Staten Island is the one place where extra room may add a little to dog size,
-beyond what income predicts.
+with dogs about 22 percent heavier. The points come from every borough. So there
+is a size gradient, as Bill speculated, but it's not really geography at work
+here, it's money. Some of the biggest dogs in New York live in dense, expensive
+neighborhoods such as Park Slope, SoHo, and the West Village. The smallest dogs
+live in the Bronx, where incomes are much lower. Once we know a ZIP code's
+income, its housing tells us only a little more about its dogs, and not in the
+expected direction. If anything, more floor area per home goes with slightly
+smaller dogs. Staten Island is the one place where extra room may add to dog
+size, beyond what income predicts.
 
 Again, as a paid-up social science rather than infographic guy, I feel like I
 have to close with the caveats. Remember these are *breed* weights, not dog
