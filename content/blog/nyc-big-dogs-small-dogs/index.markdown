@@ -57,7 +57,7 @@ approximation of one record per dog, as in the first post, which gives about
 358,000 dogs. I can only assign a breed size to about 60 percent of them:
 
 - About 22 percent are crossbreeds, such as "Labrador Retriever Crossbreed". A
-  mix could be any size. I choose not to guess.
+  mix could be any size. I chose not to guess.
 - About 10 percent have no breed recorded, mostly "Unknown".
 - About 6 percent are "designer" breeds, such as the up-and-coming
   Goldendoodles, Maltipoos, and Morkies. No kennel club sets a standard for
