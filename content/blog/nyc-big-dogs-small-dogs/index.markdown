@@ -22,14 +22,14 @@ day, to one park. He also asked:
 > Is there a size gradient perhaps? Larger dogs out on the periphery where there
 > is more room? Smaller dogs in the dense apartment neighborhoods?
 
-This is a good question; one the data I have can *almost* answer. The main
+This is a good question. The data I have can *almost* answer it. The main
 problem is that the license data contained in
-[`nycdogs`](https://kjhealy.github.io/nycdogs/) do not record the size or weight
-of any particular dog. Licenses do record the breed that the owner reports
-(though, [as we saw
+[`nycdogs`](https://kjhealy.github.io/nycdogs/) does not record the size or
+weight of any particular dog. Licenses do record the breed that the owner
+reports (though, [as we saw
 before](https://kieranhealy.org/blog/archives/2026/10/14/dogs-of-new-york/) the
 modal breed reported is "Unknown"). But let's see how far we can get by
-leveraging our knowledge of breeds. 
+leveraging our knowledge of breeds.
 
 To begin we need to give each breed a size. For this I used the American Kennel
 Club's breed weights. The AKC lists a weight range for each breed it recognizes,
@@ -45,16 +45,19 @@ Terrier standard](https://www.ukcdogs.com/american-pit-bull-terrier) instead.
 
 I assigned each breed a "typical weight", which is the middle of its range. Some
 standards give only one figure, such as "not more than 6 pounds" for a
-Chihuahua. In those cases I used that number. This is not ideal. A breed
+Chihuahua. In those cases I used that number. This isn't ideal. A breed
 standard describes a show dog, not the dog you see in the park. (Though, of
-course, in some NYC parks those might be the same. But not in general.) Real
+course, in some NYC parks those might be the same. But  not in general.) Real
 dogs will be heavier or lighter than their standard. Still, a Great Dane is
 reliably bigger than a Yorkie, and it's the relative differences we're
 interested in.
 
-The second problem is that many dogs have no breed we can use. I work with an
-approximation of one record per dog, as in the first post, which gives about
-358,000 dogs. I can only assign a breed size to about 60 percent of them:
+The second problem is that many dogs have no breed we can use. As in the earlier
+post, we're working with a subset of the `nyc_license` table that's our
+best-guess approximation of a "dog-level" data set, one that cuts down as much
+as possible on double-counting and just has one record per actual dog. This
+table consists of about 358,000 dogs. I can only assign a breed size to about 60
+percent of those:
 
 - About 22 percent are crossbreeds, such as "Labrador Retriever Crossbreed". A
   mix could be any size. I chose not to guess.
@@ -65,9 +68,10 @@ approximation of one record per dog, as in the first post, which gives about
 - About 1.5 percent are Poodles with no size given. A Toy Poodle and a Standard
   Poodle differ by about 50 pounds, so again, I chose to drop these.
 
-Now, if the missing dogs were spread evenly across the city, the missingness
-would not matter all that much. We can try to check that. Here is a map showing
-the share of dogs in each ZIP code that have a breed size.
+We end up, for this analysis, with about 215,000 dogs. Now, if the missing dogs
+were spread evenly across the city, the missingness would not matter all that
+much. We can try to check that. Here is a map showing the share of dogs in each
+ZIP code that have a breed size.
 
 {{% figure src="nyc-dog-size-coverage-zip.png" alt="Map of the share of licensed dogs in each ZIP code that have a breed size. Most ZIP codes are between about half and two-thirds." caption="" class="full-width" %}}
 
@@ -139,7 +143,8 @@ Small dogs are about a third of all licensed dogs in every borough. The
 differences are at the ends. A third of the Bronx's dogs are Toy dogs, compared
 with about a fifth of Manhattan's. Only 9 percent of the Bronx's dogs are Large,
 compared with 16 percent in Manhattan and 17 percent on Staten Island. Staten
-Island, the least densely-populated borough, has the largest share of big dogs.
+Island, the least densely-populated borough, has the largest share of big dogs,
+but only by a percentage point more than Manhattan.
 
 ## Mo Money, Mo Doggo
 
@@ -170,14 +175,15 @@ the richest ZIP codes in Manhattan hit that cap.
 I fit a regression with this data where the outcome is the typical weight of the
 dogs in each ZIP code. I use an average rather than the median here, because the
 median is so lumpy. Specifically, I average the logged weights, which is the
-same as taking the geometric mean. Breed weights are very skewed. The middle dog
-weighs about 17 pounds, but a few breeds weigh well over 100. And differences
-in weight are proportional. Five pounds is a big difference between two toy
-dogs, but not between two retrievers. On the log scale, effects become percent
-differences in weight. The predictors are the five measures above, plus the
-borough. There are 177 ZIP codes in the model.
+same as taking the [geometric
+mean](https://en.wikipedia.org/wiki/Geometric_mean). Breed weights are very
+skewed. The middle dog weighs about 17 pounds, but a few breeds weigh well
+over 100. And differences in weight are proportional. Five pounds is a big
+difference between two toy dogs, but not between two retrievers. On the log
+scale, effects become percent differences in weight. The predictors are the five
+measures above, plus the borough. There are 177 ZIP codes in the model.
 
-The five measures use different units: dollars, square feet, rooms, and
+The five predictors use different units: dollars, square feet, rooms, and
 percentages. This makes the coefficients hard to compare directly. What we can
 do is ask "If we take a ZIP code that is low on this measure (at the 25th
 percentile of ZIP codes) and move it to a high value (the 75th percentile),
@@ -219,14 +225,14 @@ size among ZIP codes with similar housing in the same borough.
 
 The relationship is pretty good. Each doubling of median household income goes
 with dogs about 22 percent heavier. The points come from every borough. So there
-is a size gradient, as Bill speculated, but it's not really geography at work
-here, it's money. Some of the biggest dogs in New York live in dense, expensive
-neighborhoods such as Park Slope, SoHo, and the West Village. The smallest dogs
-live in the Bronx, where incomes are much lower. Once we know a ZIP code's
-income, its housing tells us only a little more about its dogs, and not in the
-expected direction. If anything, more floor area per home goes with slightly
-smaller dogs. Staten Island is the one place where extra room may add to dog
-size, beyond what income predicts.
+is a size gradient, as Bill speculated, but it's not purely geography that's at
+work here, it's money. Some of the biggest dogs in New York live in dense,
+expensive neighborhoods such as Park Slope, SoHo, and the West Village. The
+smallest dogs live in the Bronx, where incomes are much lower. Once we know a
+ZIP code's income, its housing tells us only a little more about its dogs, and
+not in the expected direction. If anything, more floor area per home goes with
+slightly smaller dogs. Staten Island is the one place where extra room may add
+to dog size, beyond what income predicts.
 
 Again, as a paid-up social science rather than infographic guy, I feel like I
 have to close with the caveats. Remember these are *breed* weights, not dog
