@@ -8,6 +8,7 @@ tag: influence-isomorphism
 file: influence-isomorphism.pdf
 subjects: institutionalism isomorphism citation dimaggio powell
 comments: no
+doi: 10.1177/0002764226149711
 date: 2026-09-18
 publishdate: 2026-09-18
 filter:
