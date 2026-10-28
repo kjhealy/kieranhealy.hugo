@@ -3,7 +3,7 @@ title: "Stable microbial states in an unstable Arctic landscape"
 author: Dylan R. Cronin, Hannah Holland-Moritz, Derek A. Smith, Samuel T. N. Aroney, Suzanne B. Hodgkins, Mikayla Borton, Yueh-Fen Li, Ahmed Zayed, Kieran Healy, Andreas Persson, IsoGenie Field & Analytic Teams 2010-2017, EMERGE Institute Coordinators, Malak M. Tfaily, Patrick Crill, Carmody K. McCalley, Kelly Wrighton, Ruth K. Varner, Gene W. Tyson, Ben J. Woodcroft, Sarah C. Bagby, Jessica Ernakovich, Virginia I. Rich
 status: Forthcoming
 type: unpublished
-citation: "&ldquo;Stable states in an unstable landscape: microbial resistance at the front line of climate change.&rdquo; Forthcoming, <em>Nature</em>."
+citation: "&ldquo;Stable microbial states in an unstable Arctic landscape.&rdquo; Forthcoming, <em>Nature</em>."
 tag: stable-states
 subjects: climate change microbiome
 comments: no
